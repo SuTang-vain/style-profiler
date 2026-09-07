@@ -80,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.41,
+  "mattr": 0.752,
   "top_terms": [
    "memory×68",
    "agent×33",

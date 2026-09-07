@@ -72,6 +72,7 @@
  },
  "diction": {
   "ttr": 0.405,
+  "mattr": 0.611,
   "top_terms": [
    "probes×34",
    "attention×29",

@@ -68,6 +68,7 @@
  },
  "diction": {
   "ttr": 0.442,
+  "mattr": 0.698,
   "top_terms": [
    "cerebras×21",
    "sol×12",

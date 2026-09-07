@@ -19,6 +19,8 @@
 
 ```
 profiler.py                    # 统计层：~25 个确定性指标（中英双语，独立运行）
+discriminate.py                # 第二层：跨机构风格判别（显著检验 + BH-FDR 校正 + LOO 归属）
+tests/                         # 回归测试（python3 -m unittest discover tests，零依赖可跑）
 rubric/
   00-genre-routing.md          # 体裁路由：五体裁识别 + few-shot
   01-move-annotation.md        # 语步标注：七类语步 + 段落级叙事配比
@@ -37,7 +39,7 @@ output/                        # 每篇 JSON + _aggregate.json + 档案 + annota
 2. **手动安装**：克隆本仓库，把 `skills/style-profiler/` 复制或软链到你的 Agent 技能目录（如 Claude Code 为 `~/.claude/skills/`，其他 Agent 参照各自技能目录约定）。skill 内所有资产路径均相对仓库根解析。
 3. **零安装**：直接让 Agent 阅读本仓库的 `skills/style-profiler/SKILL.md` 作为指令执行——SKILL.md 本身即是完整操作手册。
 
-依赖：`python3`；中文词汇指标需 `jieba`（`pip3 install jieba`，缺失时自动降级跳过）。
+依赖：`python3`；中文词汇指标需 `jieba`（`pip3 install jieba`，缺失时自动降级跳过）。测试：`python3 -m unittest discover tests`（标准库 unittest，零新增依赖；jieba 缺失时词汇类测试自动 skip）。
 
 ## 生产流接入
 

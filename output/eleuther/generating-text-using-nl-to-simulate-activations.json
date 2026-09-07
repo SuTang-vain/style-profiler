@@ -80,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.211,
+  "mattr": 0.564,
   "top_terms": [
    "latents×87",
    "active×64",

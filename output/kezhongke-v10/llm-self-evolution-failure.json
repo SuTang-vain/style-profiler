@@ -41,7 +41,7 @@
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 4.67,
+  "hedge_hits": 2.43,
   "hedge_examples": [
    {
     "term": "约",
@@ -71,7 +71,7 @@
     "excerpt": "在进入处方层之前，还要登记一个\"假退化\"的来源：解码路径漂移（Decoding Path Drift）。GPU 计算的非确定性、Prompt 长度变化引起的 R"
    }
   ],
-  "quantifier_hits": 3.65,
+  "quantifier_hits": 2.23,
   "first_person_count": 7,
   "objective_selfref_count": 0,
   "exclamations": 0,
@@ -80,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.357,
+  "mattr": 0.714,
   "top_terms": [
    "任务×42",
    "规则×41",

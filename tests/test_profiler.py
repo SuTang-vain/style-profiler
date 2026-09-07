@@ -160,27 +160,65 @@ class TestFixtures(unittest.TestCase):
         self.assertEqual(agg["cjk_chars"]["median"], 1150.0)
         self.assertEqual(agg["cjk_chars"]["max"], 50000)
 
-    # 断言 10（失败哨兵，② 修复后转正）：
-    # "约束/大约" 等词内的 "约" 不得计入 hedge；jieba token 精确匹配后本测试转绿
-    @unittest.expectedFailure
+    # 断言 10（② 已修复转正）：
+    # "约束" 内的 "约" 不计入 hedge；"大约" 计 1 次且不被 "约" 双计
+    @unittest.skipUnless(profiler.JIEBA, "单字词精确匹配依赖 jieba")
     def test_hedge_substring_no_contamination(self):
         text = "约束机制正在约束模型，这是约束条件。另外提到大约十人。"
-        prose = text
-        hits = sum(prose.count(t) for t in profiler.HEDGES)
-        # 期望：只有 "大约" 1 次命中；"约束" 中的 3 个 "约" 不计
-        self.assertEqual(hits, 1)
+        n, degraded = profiler.count_terms(text, profiler.HEDGES,
+                                           profiler.jieba.lcut(text))
+        self.assertFalse(degraded)
+        self.assertEqual(n, 1)
 
-    # 断言 10b（失败哨兵）："最初/最终" 的 "最" 不得计入 quantifier
-    @unittest.expectedFailure
+    # 断言 10b（② 已修复转正）："最初/最终" 的 "最" 不计入 quantifier；
+    # 独立成词的 "最" 仍计
+    @unittest.skipUnless(profiler.JIEBA, "单字词精确匹配依赖 jieba")
     def test_quantifier_substring_no_contamination(self):
-        text = "最初的想法最终被放弃，这是一次最好的实践。"
-        hits = sum(text.count(t) for t in profiler.QUANTIFIERS)
-        self.assertEqual(hits, 1)
+        text = "最初的想法最终被放弃。这是最重要的发现。"
+        n, degraded = profiler.count_terms(text, profiler.QUANTIFIERS,
+                                           profiler.jieba.lcut(text))
+        self.assertFalse(degraded)
+        self.assertEqual(n, 1)
 
-    # 断言 11（TTR 长度污染哨兵）：③ 引入 MATTR 后转正为
-    # "同一文本截长/截短时 mattr 稳定而 ttr 漂移"的等长窗口比较测试。
-    # 当前仅记录：实测 eleuther vs databricks 的 TTR 差距 0.204，
-    # 等长窗口（MATTR w=150）后缩至 0.070，缩水约 66%。
+    # 降级契约：jieba 缺失时含单字词的指标返回 degraded，绝不输出部分计数
+    def test_count_terms_degrades_without_tokens(self):
+        n, degraded = profiler.count_terms("约束与大约。", profiler.HEDGES, None)
+        self.assertTrue(degraded)
+        self.assertGreaterEqual(n, 1)  # 多字词部分仍计，由调用方置 None
+
+    # 断言 11（③ 已修复转正）：等长窗口比较——同一文本截短/截长，
+    # ttr 随长度漂移而 mattr 稳定
+    def test_mattr_length_stable(self):
+        vocab = [f"w{i:03d}" for i in range(300)]
+        long_text = " ".join(vocab[i % 300] for i in range(3000)) + "."
+        short_text = " ".join(vocab[i % 300] for i in range(600)) + "."
+        wl = long_text.split()
+        ws = short_text.split()
+        ttr_l = len(set(wl)) / len(wl)
+        ttr_s = len(set(ws)) / len(ws)
+        self.assertGreater(ttr_s - ttr_l, 0.05, "ttr 应随篇幅下降")
+        m_l, m_s = profiler.mattr(wl), profiler.mattr(ws)
+        self.assertIsNotNone(m_l)
+        self.assertIsNotNone(m_s)
+        self.assertAlmostEqual(m_l, m_s, delta=0.01)
+
+
+@unittest.skipUnless(
+    (ROOT / "corpus" / "eleuther").is_dir() and (ROOT / "corpus" / "databricks").is_dir(),
+    "eleuther/databricks 语料全文不入库，本地缺席时跳过")
+class TestMattrOrdering(unittest.TestCase):
+    """跨库 MATTR 关系断言（语料漂移容忍：锁序不锁值）。"""
+
+    def test_mattr_eleuther_lt_databricks(self):
+        meds = {}
+        for lib in ("eleuther", "databricks"):
+            vals = []
+            for f in sorted((ROOT / "corpus" / lib).glob("*.md")):
+                r = profiler.analyze(f)
+                if r["diction"]["mattr"] is not None:
+                    vals.append(r["diction"]["mattr"])
+            meds[lib] = statistics.median(vals)
+        self.assertLess(meds["eleuther"], meds["databricks"])
 
 
 @unittest.skipUnless(profiler.JIEBA, "jieba 不可用，跳过中文词汇指标测试")

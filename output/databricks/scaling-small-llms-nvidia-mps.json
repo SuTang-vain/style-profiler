@@ -67,6 +67,7 @@
  },
  "diction": {
   "ttr": 0.522,
+  "mattr": 0.7,
   "top_terms": [
    "mps×13",
    "databricks×12",

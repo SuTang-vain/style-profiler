@@ -41,7 +41,7 @@
   "reference_entries": 8
  },
  "stance": {
-  "hedge_hits": 1.58,
+  "hedge_hits": 0.95,
   "hedge_examples": [
    {
     "term": "约",
@@ -71,7 +71,7 @@
     "excerpt": "首先是合规与集成技能：私有化部署、系统集成、让模型适配国产技术栈。我们查看过一则国企发布的相关招聘，月薪为15000至30000 RMB——仅为宣传薪资的零头，"
    }
   ],
-  "quantifier_hits": 4.11,
+  "quantifier_hits": 2.53,
   "first_person_count": 12,
   "objective_selfref_count": 2,
   "exclamations": 0,
@@ -80,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.443,
+  "mattr": 0.749,
   "top_terms": [
    "部署×25",
    "中国×20",

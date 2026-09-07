@@ -41,7 +41,7 @@
   "reference_entries": 11
  },
  "stance": {
-  "hedge_hits": 1.58,
+  "hedge_hits": 1.42,
   "hedge_examples": [
    {
     "term": "可能",
@@ -67,7 +67,7 @@
     "excerpt": "例如，可以进行\"一周无 AI 写作\"实验，记录效率变化、质量评估、情绪体验和认知反思，与常规使用 AI 的周进行对比。更精细的设计是\"三种模式对比实验\"：同一任"
    }
   ],
-  "quantifier_hits": 0.47,
+  "quantifier_hits": 0.32,
   "first_person_count": 4,
   "objective_selfref_count": 5,
   "exclamations": 0,
@@ -76,6 +76,7 @@
  },
  "diction": {
   "ttr": 0.312,
+  "mattr": 0.723,
   "top_terms": [
    "传播×36",
    "知识×34",

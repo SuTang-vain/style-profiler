@@ -41,7 +41,7 @@
   "reference_entries": 15
  },
  "stance": {
-  "hedge_hits": 8.17,
+  "hedge_hits": 7.62,
   "hedge_examples": [
    {
     "term": "约",
@@ -71,7 +71,7 @@
     "excerpt": "1. 从“堆参数”到“拼架构与后训练”：V4-Flash 用 284B 参数在 Agent / 编码基准上反超 1.6T 旗舰预览版，证明架构设计、训练方法与推"
    }
   ],
-  "quantifier_hits": 1.63,
+  "quantifier_hits": 0.0,
   "first_person_count": 0,
   "objective_selfref_count": 1,
   "exclamations": 2,
@@ -80,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.37,
+  "mattr": 0.754,
   "top_terms": [
    "正式版×30",
    "发布×19",

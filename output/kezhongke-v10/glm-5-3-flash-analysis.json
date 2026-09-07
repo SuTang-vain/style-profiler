@@ -41,7 +41,7 @@
   "reference_entries": 18
  },
  "stance": {
-  "hedge_hits": 5.28,
+  "hedge_hits": 4.65,
   "hedge_examples": [
    {
     "term": "约",
@@ -71,7 +71,7 @@
     "excerpt": "> 关键观察：GLM-5.3-Flash 以不到 Kimi K3 三十分之一的输出价格，取得与其整数级别的智能表现；与 DeepSeek V4-Flash 相比"
    }
   ],
-  "quantifier_hits": 3.8,
+  "quantifier_hits": 1.69,
   "first_person_count": 0,
   "objective_selfref_count": 0,
   "exclamations": 2,
@@ -80,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.342,
+  "mattr": 0.742,
   "top_terms": [
    "模型×47",
    "模态×35",

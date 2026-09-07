@@ -132,6 +132,13 @@
   "min": 0.211,
   "max": 0.405
  },
+ "mattr": {
+  "median": 0.65,
+  "p25": 0.61,
+  "p75": 0.67,
+  "min": 0.547,
+  "max": 0.675
+ },
  "genre_distribution": {
   "blog_or_exploration": 10
  },

@@ -2,15 +2,18 @@
 """跨机构风格判别分析（profiler.py 输出的第二层分析）
 
 在 profiler.py 的单篇指标之上量化"机构间的风格差异是否可识别"：
-  1. Mann-Whitney U 逐指标两两机构显著检验（探索性，未校正多重比较）
+  1. Mann-Whitney U 逐指标两两机构显著检验 + BH-FDR 校正（q 值）
   2. 秩化 F 比率排序指标判别力（组间方差/组内方差）
   3. LOO 最近质心归属 + 混淆矩阵（单篇能否靠统计指标归属机构）
-  4. 每机构 vs 余者 pooled 的最显著偏离指标（机构指纹）
+  4. 每机构 vs 余者 pooled 的最显著偏离指标（机构指纹，含 q 值）
+
+声明：探索性分析，n=10/机构，未预注册；显著性以 BH-FDR q<0.05 为准，
+原始 p 值并列展示供参考。MATTR 仅覆盖语料在仓的机构（cerebras/eleuther/
+databricks/kezhongke 全文可重算；openai/anthropic 正文不入库，该行缺数）。
 
 用法: python3 discriminate.py [--json out]    # --json 输出归属明细
 前置: 先跑 python3 profiler.py <corpus>/ -o output/<org>/
 """
-"""跨机构风格判别分析：显著检验 + 判别力排序 + 质心归属（LOO）"""
 import json, statistics, math
 from pathlib import Path
 from itertools import combinations
@@ -34,7 +37,8 @@ METRICS = [  # (key, 组, 标签)
     ("first_person_count", "stance", "第一人称"),
     ("objective_selfref_count", "stance", "客观自指"),
     ("questions", "stance", "问句数"),
-    ("ttr", "diction", "TTR"),
+    ("ttr", "diction", "TTR(长度敏感)"),
+    ("mattr", "diction", "MATTR(w=150)"),
 ]
 
 def val(r, k, g):
@@ -67,7 +71,19 @@ def mann_whitney_u(x, y):
     p = 2 * (1 - 0.5 * (1 + math.erf(abs(z) / math.sqrt(2))))
     return min(p, 1.0)
 
+def bh_fdr(pvals):
+    """Benjamini-Hochberg FDR：{检验id: p} -> {检验id: q}（单调调整）"""
+    items = sorted(pvals.items(), key=lambda kv: kv[1])
+    m = len(items)
+    q = {}
+    prev = 1.0
+    for rank, (kid, p) in reversed(list(enumerate(items, 1))):
+        prev = min(prev, p * m / rank)
+        q[kid] = min(prev, 1.0)
+    return q
+
 data = {}   # lib -> {metric -> [values]}
+coverage = {}  # metric -> [有数据的 lib]
 for lib, path in LIBS.items():
     data[lib] = {m[0]: [] for m in METRICS}
     for f in Path(path).glob("*.json"):
@@ -78,33 +94,46 @@ for lib, path in LIBS.items():
             v = val(r, k, g)
             if v is not None:
                 data[lib][k].append(v)
+for k, _, _ in METRICS:
+    coverage[k] = [l for l in LIBS if len(data[l][k]) >= 4]
 
 names = {k: v for k, _, v in METRICS}
 libs = list(LIBS)
 
-# 1) 显著性热力摘要：每指标「显著区分了几对机构」
+# 1) 两两机构检验（全量 p 值 → BH-FDR）
 print("=" * 76)
-print("一、指标判别力（Mann-Whitney U，n=10/机构，探索性未校正）")
+print("一、指标判别力（Mann-Whitney U，n=10/机构；q=BH-FDR 校正值）")
+print("声明：探索性、未预注册；原始 p<0.05 与 q<0.05 并列，显著性以 q 为准")
 print("=" * 76)
-sig_count = {}
+pvals, p_pair = {}, {}
 for k, g, label in METRICS:
-    n_sig = 0
-    pairs = []
-    for a, b in combinations(libs, 2):
-        xa, xb = data[a][k], data[b][k]
-        if len(xa) >= 4 and len(xb) >= 4:
-            p = mann_whitney_u(xa, xb)
-            if p < 0.05:
-                n_sig += 1
-                pairs.append(f"{a}×{b}")
-    sig_count[k] = n_sig
-    print(f"{label:12s} 显著区分 {n_sig}/10 对机构  {' '.join(pairs[:6])}")
+    for a, b in combinations(coverage[k], 2):
+        p = mann_whitney_u(data[a][k], data[b][k])
+        pvals[(k, a, b)] = p
+qvals = bh_fdr(pvals)
+sig_count, sig_count_q = {}, {}
+for k, g, label in METRICS:
+    pairs_p = [f"{a}×{b}" for (kk, a, b), p in pvals.items() if kk == k and p < 0.05]
+    pairs_q = [f"{a}×{b}" for (kk, a, b) in pvals if kk == k and qvals[(kk, a, b)] < 0.05]
+    total = len(list(combinations(coverage[k], 2)))
+    sig_count[k], sig_count_q[k] = len(pairs_p), len(pairs_q)
+    cov_note = "" if len(coverage[k]) == len(libs) else f" [覆盖{len(coverage[k])}库]"
+    print(f"{label:14s} p显著 {len(pairs_p)}/{total}  q显著 {len(pairs_q)}/{total}"
+          f"  {' '.join(pairs_q[:6])}{cov_note}")
 
 # 2) 判别力排序：组间方差 / 组内方差（F 比率，去量纲：用 rank 归一）
 def f_ratio(values_by_group):
     merged = sorted(v for vs in values_by_group for v in vs)
-    n = len(merged)
-    ranks = {v: i + 1 for i, v in enumerate(merged)}
+    ranks = {}
+    i = 0
+    while i < len(merged):  # 并列取平均秩
+        j = i
+        while j < len(merged) and merged[j] == merged[i]:
+            j += 1
+        r = (i + 1 + j) / 2
+        for v in merged[i:j]:
+            ranks.setdefault(v, r)
+        i = j
     groups = [[ranks[v] for v in vs] for vs in values_by_group]
     allr = [r for g in groups for r in g]
     grand = statistics.mean(allr)
@@ -113,21 +142,21 @@ def f_ratio(values_by_group):
     return ssb / max(ssw, 1e-9)
 
 print("\n" + "=" * 76)
-print("二、判别力排序（秩化 F 比率：组间差异/组内差异）")
+print("二、判别力排序（秩化 F 比率：组间差异/组内差异；仅计入有覆盖的库）")
 print("=" * 76)
 fr = []
 for m in METRICS:
     k, g, label = m
-    fr.append((f_ratio([data[l][k] for l in libs]), k, label))
+    fr.append((f_ratio([data[l][k] for l in coverage[k]]), k, label))
 for i, (f, k, label) in enumerate(sorted(fr, reverse=True), 1):
-    print(f"  {i:2d}. {label:12s} F={f:.2f}  显著对={sig_count[k]}/10")
+    cov_note = "" if len(coverage[k]) == len(libs) else f" ({len(coverage[k])}库)"
+    print(f"  {i:2d}. {label:14s} F={f:.2f}  p显著={sig_count[k]} q显著={sig_count_q[k]}{cov_note}")
 
-# 3) LOO 最近质心归属
+# 3) LOO 最近质心归属（仅用全库覆盖的指标）
 print("\n" + "=" * 76)
-print("三、LOO 最近质心归属（z-score 标准化指标向量）")
+print("三、LOO 最近质心归属（z-score 标准化指标向量；仅全库覆盖指标）")
 print("=" * 76)
-use = [k for k, _, _ in METRICS]
-# 全库合并求 mean/sd（按指标）
+use = [k for k, _, _ in METRICS if len(coverage[k]) == len(libs)]
 allv = {k: [] for k in use}
 for l in libs:
     for k in use:
@@ -164,18 +193,27 @@ for a in libs:
     print(f"{a:12s}" + "".join(f"{conf[a][b]:>12d}" for b in libs))
 print(f"逐机构准确率：" + ", ".join(f"{l}={correct[l]}/{total[l]}" for l in libs))
 
-# 4) 每机构 vs 全体其他：最大判别指标
+# 4) 每机构 vs 全体其他：最大判别指标（独立 BH 族，5 检验）
 print("\n" + "=" * 76)
-print("四、每机构最显著偏离指标（vs 其余四库 pooled，Mann-Whitney）")
+print("四、每机构最显著偏离指标（vs 其余四库 pooled，Mann-Whitney + BH-FDR）")
 print("=" * 76)
+fp_p, fp_info = {}, {}
 for l in libs:
-    best_k, best_p, best_dir = None, 1.0, ""
+    best_k, best_p = None, 1.0
     for k, g, label in METRICS:
         x = data[l][k]
         rest = [v for ll in libs if ll != l for v in data[ll][k]]
         if len(x) >= 4 and len(rest) >= 4:
             p = mann_whitney_u(x, rest)
             if p < best_p:
-                best_p = p
-                best_k, best_dir = label, "高" if statistics.median(x) > statistics.median(rest) else "低"
-    print(f"  {l:10s} 最显著: {best_k}（{best_dir}，p={best_p:.3f}）")
+                best_p, best_k = p, k
+    fp_p[l] = best_p
+    fp_info[l] = best_k
+fp_q = bh_fdr(fp_p)
+for l in libs:
+    k = fp_info[l]
+    x = data[l][k]
+    rest = [v for ll in libs if ll != l for v in data[ll][k]]
+    direction = "高" if statistics.median(x) > statistics.median(rest) else "低"
+    verdict = "过 FDR" if fp_q[l] < 0.05 else "探索性信号，未过 FDR，待样本扩容复验"
+    print(f"  {l:10s} 最显著: {names[k]}（{direction}，p={fp_p[l]:.3f}，q={fp_q[l]:.3f}）{verdict}")

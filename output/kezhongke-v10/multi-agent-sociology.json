@@ -41,7 +41,7 @@
   "reference_entries": 18
  },
  "stance": {
-  "hedge_hits": 4.83,
+  "hedge_hits": 4.66,
   "hedge_examples": [
    {
     "term": "可能",
@@ -67,7 +67,7 @@
     "excerpt": "涌现能力（Emergent Abilities）是大语言模型研究中的关键现象：随着模型规模增长，在特定阈值后出现此前不存在的新能力，如上下文学习、链式思考和工具"
    }
   ],
-  "quantifier_hits": 0.67,
+  "quantifier_hits": 0.5,
   "first_person_count": 7,
   "objective_selfref_count": 7,
   "exclamations": 0,
@@ -76,6 +76,7 @@
  },
  "diction": {
   "ttr": 0.302,
+  "mattr": 0.71,
   "top_terms": [
    "智能×58",
    "社会×44",

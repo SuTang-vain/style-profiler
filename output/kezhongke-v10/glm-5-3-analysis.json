@@ -71,7 +71,7 @@
     "excerpt": "GLM-5.3 不再支持完全关闭思考（disabled）。若既有应用使用 `thinking.type: \"disabled\"`，升级到 glm-5.3 前必须"
    }
   ],
-  "quantifier_hits": 4.85,
+  "quantifier_hits": 1.62,
   "first_person_count": 0,
   "objective_selfref_count": 1,
   "exclamations": 0,
@@ -80,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.363,
+  "mattr": 0.719,
   "top_terms": [
    "训练×34",
    "模型×31",

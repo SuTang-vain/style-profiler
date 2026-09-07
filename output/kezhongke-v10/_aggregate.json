@@ -77,11 +77,11 @@
   "max": 36
  },
  "hedge_hits": {
-  "median": 4.75,
-  "p25": 1.58,
-  "p75": 5.66,
-  "min": 1.54,
-  "max": 8.17
+  "median": 2.69,
+  "p25": 1.38,
+  "p75": 4.66,
+  "min": 0.95,
+  "max": 7.62
  },
  "absolutist_hits": {
   "median": 1.08,
@@ -91,11 +91,11 @@
   "max": 2.84
  },
  "quantifier_hits": {
-  "median": 2.64,
-  "p25": 0.92,
-  "p75": 4.11,
-  "min": 0.47,
-  "max": 4.85
+  "median": 1.23,
+  "p25": 0.37,
+  "p75": 2.23,
+  "min": 0.0,
+  "max": 2.53
  },
  "first_person_count": {
   "median": 6.0,
@@ -131,6 +131,13 @@
   "p75": 0.37,
   "min": 0.29,
   "max": 0.446
+ },
+ "mattr": {
+  "median": 0.74,
+  "p25": 0.72,
+  "p75": 0.75,
+  "min": 0.71,
+  "max": 0.764
  },
  "en_char_ratio": {
   "median": 0.24,

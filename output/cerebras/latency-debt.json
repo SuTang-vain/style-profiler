@@ -76,6 +76,7 @@
  },
  "diction": {
   "ttr": 0.487,
+  "mattr": 0.722,
   "top_terms": [
    "latency×16",
    "debt×14",

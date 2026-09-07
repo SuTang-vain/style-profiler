@@ -80,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.499,
+  "mattr": 0.706,
   "top_terms": [
    "databricks×20",
    "data×12",

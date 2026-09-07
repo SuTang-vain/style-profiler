@@ -41,7 +41,7 @@
   "reference_entries": 51
  },
  "stance": {
-  "hedge_hits": 7.6,
+  "hedge_hits": 1.38,
   "hedge_examples": [
    {
     "term": "约",
@@ -71,7 +71,7 @@
     "excerpt": "本文对「欲望越大越空虚」给出的机制解释是：模型扩张过程中，其表面与「真我」的距离越来越远；若真我内核不够稳固，则产生「坍缩」——空虚是「约束性模型的增量」与「真"
    }
   ],
-  "quantifier_hits": 1.38,
+  "quantifier_hits": 0.83,
   "first_person_count": 61,
   "objective_selfref_count": 18,
   "exclamations": 0,
@@ -80,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.29,
+  "mattr": 0.732,
   "top_terms": [
    "约束×39",
    "模型×33",

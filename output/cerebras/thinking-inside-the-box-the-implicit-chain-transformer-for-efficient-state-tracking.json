@@ -80,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.414,
+  "mattr": 0.699,
   "top_terms": [
    "state×16",
    "intent×14",

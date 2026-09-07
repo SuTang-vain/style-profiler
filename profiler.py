@@ -200,6 +200,15 @@ def paragraph_stats(paras, lang: str = "zh"):
     }
 
 
+def mattr(words, w=150, step=25):
+    """滑动窗口 TTR（Moving-Average TTR）——全篇 TTR 随长度下降，
+    跨库比较时与篇幅混淆；等长窗口消除之。短于窗口返回 None。"""
+    if len(words) < w:
+        return None
+    return round(statistics.mean(
+        len(set(words[i:i + w])) / w for i in range(0, len(words) - w + 1, step)), 3)
+
+
 def term_stats(prose: str, cjk_chars: int, lang: str = "zh"):
     if lang == "en":
         words = [w.lower() for w in re.findall(r"[A-Za-z][A-Za-z'-]*", prose)]
@@ -210,13 +219,14 @@ def term_stats(prose: str, cjk_chars: int, lang: str = "zh"):
         top = sorted(freq.items(), key=lambda x: -x[1])[:15]
         return {
             "ttr": round(len(set(words)) / len(words), 3) if words else None,
+            "mattr": mattr(words),
             "top_terms": [f"{w}×{c}" for w, c in top],
         }
     if not JIEBA or cjk_chars == 0:
-        return {"ttr": None, "top_terms": [], "note": "jieba 不可用，跳过词汇指标"}
+        return {"ttr": None, "mattr": None, "top_terms": [], "note": "jieba 不可用，跳过词汇指标"}
     words = [w for w in jieba.lcut(prose) if re.search(r"[\u4e00-\u9fff]", w)]
     if not words:
-        return {"ttr": None, "top_terms": []}
+        return {"ttr": None, "mattr": None, "top_terms": []}
     content = [w for w in words if w not in STOPWORDS and len(w) >= 2]
     freq = {}
     for w in content:
@@ -224,6 +234,7 @@ def term_stats(prose: str, cjk_chars: int, lang: str = "zh"):
     top = sorted(freq.items(), key=lambda x: -x[1])[:15]
     return {
         "ttr": round(len(set(words)) / len(words), 3),
+        "mattr": mattr(words),
         "top_terms": [f"{w}×{c}" for w, c in top],
     }
 
@@ -265,6 +276,22 @@ def genre_guess(raw_text, headings, prose, meta):
     return {"genre": best, "scores": scores, "note": "规则命中"}
 
 
+def count_terms(prose, terms, tokens=None):
+    """词表计数：多字词（≥2 字符）子串匹配；单字词必须 jieba token 精确匹配
+    （2026-09-07 修复：子串口径下 "约束" 计入 hedge "约"、"最初/最终" 计入
+    quantifier "最"、"大约" 被 "约"+"大约" 双计）。
+    返回 (count, degraded)：词表含单字词但 tokens=None（jieba 缺失）时
+    degraded=True，调用方应将指标置 None 而非输出口径不一致的部分计数。"""
+    multi = [t for t in terms if len(t) > 1]
+    single = [t for t in terms if len(t) == 1]
+    n = sum(prose.lower().count(t) for t in multi)
+    if single:
+        if tokens is None:
+            return n, True
+        n += sum(tokens.count(t) for t in single)
+    return n, False
+
+
 def analyze(path: Path, genre_map=None):
     raw = path.read_text(encoding="utf-8", errors="ignore")
     prose, meta, paras = clean_markdown(raw)
@@ -278,9 +305,14 @@ def analyze(path: Path, genre_map=None):
     if lang == "zh":
         hedges, absolutists, quantifiers = HEDGES, ABSOLUTISTS, QUANTIFIERS
         first_person, obj_selfref = FIRST_PERSON, OBJ_SELFREF
+        zh_tokens = jieba.lcut(prose) if JIEBA else None
     else:
         hedges, absolutists, quantifiers = HEDGES_EN, ABSOLUTISTS_EN, QUANTIFIERS_EN
         first_person, obj_selfref = FIRST_PERSON_EN, OBJ_SELFREF_EN
+        zh_tokens = None
+
+    hedge_n, hedge_degraded = count_terms(prose, hedges, zh_tokens)
+    quant_n, quant_degraded = count_terms(prose, quantifiers, zh_tokens)
 
     numbers = NUMBER_RE.findall(prose)
     precise = PRECISE_NUM_RE.findall(prose)
@@ -317,11 +349,11 @@ def analyze(path: Path, genre_map=None):
             "reference_entries": count_reference_entries(raw),
         },
         "stance": {
-            "hedge_hits": per_k(sum(prose.lower().count(t) for t in hedges)),
+            "hedge_hits": None if hedge_degraded else per_k(hedge_n),
             "hedge_examples": match_examples(paras, hedges),
             "absolutist_hits": per_k(sum(prose.lower().count(t) for t in absolutists)),
             "absolutist_examples": match_examples(paras, absolutists),
-            "quantifier_hits": per_k(sum(prose.lower().count(t) for t in quantifiers)),
+            "quantifier_hits": None if quant_degraded else per_k(quant_n),
             "first_person_count": sum(prose.count(w) for w in first_person) if lang == "zh"
                                   else sum(prose.lower().count(w) for w in first_person),
             "objective_selfref_count": sum(prose.lower().count(w) for w in obj_selfref) if lang == "en"
@@ -339,6 +371,9 @@ def analyze(path: Path, genre_map=None):
         },
         "genre": genre_guess(raw, meta["headings"], prose, meta),
     }
+    if hedge_degraded or quant_degraded:
+        res["stance"]["degraded_note"] = (
+            "jieba 不可用：hedge/quantifier 词表含单字词，指标降级为 null（防口径不一致）")
     # 人工覆盖层：已发布文章的元信息头可能承载于 HTML 层（md 源稿缺失），路由前以线上 section 为准
     if genre_map and path.name in genre_map:
         res["genre"] = {"genre": genre_map[path.name], "scores": {},
@@ -358,7 +393,7 @@ def aggregate(results):
         ("hedge_hits", "stance"), ("absolutist_hits", "stance"), ("quantifier_hits", "stance"),
         ("first_person_count", "stance"), ("objective_selfref_count", "stance"),
         ("exclamations", "stance"), ("questions", "stance"),
-        ("ttr", "diction"), ("en_char_ratio", "diction"),
+        ("ttr", "diction"), ("mattr", "diction"), ("en_char_ratio", "diction"),
     ]
     def val(r, key, grp):
         try:
