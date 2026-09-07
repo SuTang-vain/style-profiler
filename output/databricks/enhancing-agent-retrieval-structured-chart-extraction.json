@@ -1,0 +1,106 @@
+{
+ "file": "enhancing-agent-retrieval-structured-chart-extraction.md",
+ "lang": "en",
+ "title": "Enhancing Agent Retrieval with Structured Chart Extraction",
+ "cjk_chars": 0,
+ "word_count": 1720,
+ "reading_time_min": 6.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 81,
+  "avg_sentence_len": 21.6,
+  "median_sentence_len": 18,
+  "p90_sentence_len": 33,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 53,
+  "avg_paragraph_len": 32.9,
+  "median_paragraph_len": 22,
+  "p90_paragraph_len": 71,
+  "one_line_paragraphs": 4
+ },
+ "evidence": {
+  "number_tokens": 71,
+  "number_per_1k": 41.28,
+  "precise_numbers": 7,
+  "precise_per_1k": 4.07,
+  "year_anchors": 5,
+  "year_per_1k": 2.91,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 11.05,
+  "hedge_examples": [
+   {
+    "term": "about",
+    "excerpt": "More and more enterprises are now asking agents to work with their proprietary d"
+   },
+   {
+    "term": "may",
+    "excerpt": "We noticed these shortcomings in our OfficeQA Pro benchmark, where models perfor"
+   },
+   {
+    "term": "about",
+    "excerpt": "We noticed these shortcomings in our OfficeQA Pro benchmark, where models perfor"
+   }
+  ],
+  "absolutist_hits": 0.58,
+  "absolutist_examples": [
+   {
+    "term": "critical",
+    "excerpt": "Charts are a dominant form of information in enterprise documents. Making chart "
+   }
+  ],
+  "quantifier_hits": 2.91,
+  "first_person_count": 32,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 3,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.385,
+  "top_terms": [
+   "chart×29",
+   "retrieval×27",
+   "answer×24",
+   "databricks×16",
+   "questions×14",
+   "structured×13",
+   "data×12",
+   "json×11",
+   "chart-rag×10",
+   "expand×9",
+   "multimodal×9",
+   "embedding×9",
+   "figure×9",
+   "pages×9",
+   "agents×8"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Enhancing Agent Retrieval with Structured Chart Extraction",
+  "title_len": 58,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

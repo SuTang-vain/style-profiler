@@ -1,0 +1,114 @@
+{
+ "file": "deep-ignorance.md",
+ "lang": "en",
+ "title": "Pretraining Data Filtering for Open-Weight AI Safety",
+ "cjk_chars": 0,
+ "word_count": 2430,
+ "reading_time_min": 8.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 127,
+  "avg_sentence_len": 19.1,
+  "median_sentence_len": 18,
+  "p90_sentence_len": 28,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 38,
+  "avg_paragraph_len": 63.9,
+  "median_paragraph_len": 59.5,
+  "p90_paragraph_len": 113,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 30,
+  "number_per_1k": 12.35,
+  "precise_numbers": 9,
+  "precise_per_1k": 3.7,
+  "year_anchors": 2,
+  "year_per_1k": 0.82,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 11.93,
+  "hedge_examples": [
+   {
+    "term": "suggest",
+    "excerpt": "Widely known LLM safeguards today rely primarily on suppressing undesirable know"
+   },
+   {
+    "term": "about",
+    "excerpt": "We wish to take a different approach centering the philosophical desires and tec"
+   },
+   {
+    "term": "likely",
+    "excerpt": "We wish to take a different approach centering the philosophical desires and tec"
+   }
+  ],
+  "absolutist_hits": 2.47,
+  "absolutist_examples": [
+   {
+    "term": "never",
+    "excerpt": "We wish to take a different approach centering the philosophical desires and tec"
+   },
+   {
+    "term": "entirely",
+    "excerpt": "We wish to take a different approach centering the philosophical desires and tec"
+   },
+   {
+    "term": "must",
+    "excerpt": "We rely on MMLU, PIQA, Lambada, and Hellaswag for measures of overall model perf"
+   }
+  ],
+  "quantifier_hits": 7.41,
+  "first_person_count": 66,
+  "objective_selfref_count": 3,
+  "exclamations": 2,
+  "questions": 1,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.355,
+  "top_terms": [
+   "filtering×43",
+   "data×38",
+   "knowledge×26",
+   "pretraining×18",
+   "while×14",
+   "biorisk×14",
+   "open-weight×13",
+   "performance×13",
+   "wmdp×13",
+   "results×10",
+   "tamper-resistant×9",
+   "safeguards×9",
+   "llms×8",
+   "papers×8",
+   "baseline×8"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Pretraining Data Filtering for Open-Weight AI Safety",
+  "title_len": 52,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

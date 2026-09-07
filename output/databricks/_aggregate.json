@@ -1,0 +1,152 @@
+{
+ "cjk_chars": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "reading_time_min": {
+  "median": 7.0,
+  "p25": 6.0,
+  "p75": 9.0,
+  "min": 2.0,
+  "max": 12.0
+ },
+ "avg_sentence_len": {
+  "median": 26.15,
+  "p25": 21.9,
+  "p75": 32.4,
+  "min": 21.6,
+  "max": 39.0
+ },
+ "p90_sentence_len": {
+  "median": 35.5,
+  "p25": 33,
+  "p75": 38,
+  "min": 31,
+  "max": 42
+ },
+ "avg_paragraph_len": {
+  "median": 45.85,
+  "p25": 43.4,
+  "p75": 51.7,
+  "min": 31.6,
+  "max": 81.4
+ },
+ "number_per_1k": {
+  "median": 24.38,
+  "p25": 15.11,
+  "p75": 35.4,
+  "min": 8.76,
+  "max": 41.28
+ },
+ "precise_per_1k": {
+  "median": 4.0,
+  "p25": 2.7,
+  "p75": 6.95,
+  "min": 0.0,
+  "max": 10.93
+ },
+ "year_per_1k": {
+  "median": 0.54,
+  "p25": 0.0,
+  "p75": 1.87,
+  "min": 0.0,
+  "max": 2.91
+ },
+ "links_per_1k": {
+  "median": 0.0,
+  "p25": 0.0,
+  "p75": 0.0,
+  "min": 0.0,
+  "max": 0.0
+ },
+ "reference_entries": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "citation_marks": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "hedge_hits": {
+  "median": 5.48,
+  "p25": 4.29,
+  "p75": 6.61,
+  "min": 3.74,
+  "max": 11.05
+ },
+ "absolutist_hits": {
+  "median": 1.11,
+  "p25": 0.5,
+  "p75": 2.63,
+  "min": 0.0,
+  "max": 5.41
+ },
+ "quantifier_hits": {
+  "median": 6.03,
+  "p25": 3.5,
+  "p75": 7.14,
+  "min": 2.88,
+  "max": 17.76
+ },
+ "first_person_count": {
+  "median": 21.5,
+  "p25": 12,
+  "p75": 29,
+  "min": 10,
+  "max": 32
+ },
+ "objective_selfref_count": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 1,
+  "min": 0,
+  "max": 3
+ },
+ "exclamations": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 1,
+  "min": 0,
+  "max": 4
+ },
+ "questions": {
+  "median": 2.5,
+  "p25": 1,
+  "p75": 4,
+  "min": 0,
+  "max": 11
+ },
+ "ttr": {
+  "median": 0.46,
+  "p25": 0.39,
+  "p75": 0.48,
+  "min": 0.368,
+  "max": 0.522
+ },
+ "genre_distribution": {
+  "blog_or_exploration": 10
+ },
+ "genre_files": {
+  "blog_or_exploration": [
+   "3x-faster-search-parallel-test-time-scaling-instructed-retriever-1.md",
+   "agentic-reasoning-practice-making-sense-structured-and-unstructured-data.md",
+   "enhancing-agent-retrieval-structured-chart-extraction.md",
+   "introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning.md",
+   "meet-karl-faster-agent-enterprise-knowledge-powered-custom-rl.md",
+   "memalign-building-better-llm-judges-human-feedback-scalable-memory.md",
+   "memex-programmable-scratchpad-llm-agents.md",
+   "memory-scaling-ai-agents.md",
+   "pushing-frontier-data-agents-genie.md",
+   "scaling-small-llms-nvidia-mps.md"
+  ]
+ }
+}

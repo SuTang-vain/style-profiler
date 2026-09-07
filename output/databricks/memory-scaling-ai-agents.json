@@ -1,0 +1,114 @@
+{
+ "file": "memory-scaling-ai-agents.md",
+ "lang": "en",
+ "title": "Memory scaling for AI agents",
+ "cjk_chars": 0,
+ "word_count": 3426,
+ "reading_time_min": 11.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 159,
+  "avg_sentence_len": 21.7,
+  "median_sentence_len": 19,
+  "p90_sentence_len": 31,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 76,
+  "avg_paragraph_len": 45.4,
+  "median_paragraph_len": 36.5,
+  "p90_paragraph_len": 83,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 30,
+  "number_per_1k": 8.76,
+  "precise_numbers": 8,
+  "precise_per_1k": 2.34,
+  "year_anchors": 0,
+  "year_per_1k": 0.0,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 7.3,
+  "hedge_examples": [
+   {
+    "term": "suggests",
+    "excerpt": "This suggests a new axis for agent design. Rather than focusing solely on strong"
+   },
+   {
+    "term": "suggest",
+    "excerpt": "This suggests a new axis for agent design. Rather than focusing solely on strong"
+   },
+   {
+    "term": "early",
+    "excerpt": "We've made early steps in this direction at Databricks through ALHF and MemAlign"
+   }
+  ],
+  "absolutist_hits": 2.63,
+  "absolutist_examples": [
+   {
+    "term": "never",
+    "excerpt": "Continual learning typically focuses on updating model parameters over time, whi"
+   },
+   {
+    "term": "must",
+    "excerpt": "Episodic vs. semantic. Episodic memories are raw records of past interactions — "
+   },
+   {
+    "term": "always",
+    "excerpt": "Episodic vs. semantic. Episodic memories are raw records of past interactions — "
+   }
+  ],
+  "quantifier_hits": 3.5,
+  "first_person_count": 17,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 4,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.41,
+  "top_terms": [
+   "memory×68",
+   "agent×33",
+   "scaling×31",
+   "data×24",
+   "knowledge×21",
+   "user×20",
+   "memories×19",
+   "agents×18",
+   "databricks×16",
+   "store×16",
+   "islands×15",
+   "context×13",
+   "republic×13",
+   "search×11",
+   "information×10"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Memory scaling for AI agents",
+  "title_len": 28,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

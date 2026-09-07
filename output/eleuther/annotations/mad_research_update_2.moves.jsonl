@@ -1,0 +1,39 @@
+{"para": 3, "heading": "(开篇)", "move": "FRAME", "sub": "更新定位", "evidence_excerpt": "This is a short update on progress", "narrative_ratio": 0.0}
+{"para": 4, "heading": "(开篇)", "move": "ARGUE", "sub": "发现：跨模型泛化差", "evidence_excerpt": "much worse for Llama 3.1 8B", "narrative_ratio": 0.0}
+{"para": 5, "heading": "(开篇)", "move": "ARGUE", "sub": "负面结论+含义", "evidence_excerpt": "results are discouraging for our MAD", "narrative_ratio": 0.0}
+{"para": 6, "heading": "(开篇)", "move": "FRAME", "sub": "方法预告", "evidence_excerpt": "We also tested two more approaches", "narrative_ratio": 0.0}
+{"para": 7, "heading": "(开篇)", "move": "ARGUE", "sub": "方法1", "evidence_excerpt": "Using the outputs of a normalising flow", "narrative_ratio": 0.0}
+{"para": 8, "heading": "(开篇)", "move": "ARGUE", "sub": "结果前置", "evidence_excerpt": "performance profile close to Mahalanobis", "narrative_ratio": 0.0}
+{"para": 10, "heading": "Anomaly detection on Llama 3.1 8B", "move": "CONTEXT", "sub": "实验设计变更", "evidence_excerpt": "held Llama 3.1 8B out as a validation model", "narrative_ratio": 0.0}
+{"para": 11, "heading": "Anomaly detection on Llama 3.1 8B", "move": "ARGUE", "sub": "结果：算术/非算术两分", "evidence_excerpt": "poor performance on Llama 3.1 8B", "narrative_ratio": 0.0}
+{"para": 12, "heading": "Anomaly detection on Llama 3.1 8B", "move": "ARGUE", "sub": "方法解释", "evidence_excerpt": "quantum entropy is an offline score", "narrative_ratio": 0.0}
+{"para": 13, "heading": "Anomaly detection on Llama 3.1 8B", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "MAD AUC at different internal layers", "narrative_ratio": 0.0}
+{"para": 14, "heading": "Anomaly detection on Llama 3.1 8B", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "MAD AUC aggeragated across internal layers", "narrative_ratio": 0.0}
+{"para": 15, "heading": "Anomaly detection on Llama 3.1 8B", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "offline scores (quantum entropy only)", "narrative_ratio": 0.0}
+{"para": 16, "heading": "Anomaly detection on Llama 3.1 8B", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "offline scores (quantum entropy only)", "narrative_ratio": 0.0}
+{"para": 18, "heading": "Llama 3.1 was less quirky than Mistral 7B v0.1", "move": "ARGUE", "sub": "机制归因", "evidence_excerpt": "attributable to the Llama models being less confident", "narrative_ratio": 0.0}
+{"para": 19, "heading": "Llama 3.1 was less quirky than Mistral 7B v0.1", "move": "ARGUE", "sub": "方法限定", "evidence_excerpt": "fine-tuned until the validation loss began to rise", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Llama 3.1 was less quirky than Mistral 7B v0.1", "move": "ARGUE", "sub": "次要发现", "evidence_excerpt": "attribution based methods show substantially better", "narrative_ratio": 0.0}
+{"para": 21, "heading": "Llama 3.1 was less quirky than Mistral 7B v0.1", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "Log odds assigned to Alice or Bob's labels", "narrative_ratio": 0.0}
+{"para": 22, "heading": "Llama 3.1 was less quirky than Mistral 7B v0.1", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "Log odds assigned on opposing prompts", "narrative_ratio": 0.0}
+{"para": 23, "heading": "Llama 3.1 was less quirky than Mistral 7B v0.1", "move": "ARGUE", "sub": "指标定义", "evidence_excerpt": "We quantify the degree of quirkiness", "narrative_ratio": 0.0}
+{"para": 24, "heading": "Llama 3.1 was less quirky than Mistral 7B v0.1", "move": "ARGUE", "sub": "相关发现", "evidence_excerpt": "significant correlation between the quirkiness", "narrative_ratio": 0.0}
+{"para": 25, "heading": "Llama 3.1 was less quirky than Mistral 7B v0.1", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "MAD AUC using activations and Mahalanobis", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Llama 3.1 was less quirky than Mistral 7B v0.1", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "MAD AUC using attribution patching", "narrative_ratio": 0.0}
+{"para": 27, "heading": "Llama 3.1 was less quirky than Mistral 7B v0.1", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "average loss of both models", "narrative_ratio": 0.0}
+{"para": 28, "heading": "Llama 3.1 was less quirky than Mistral 7B v0.1", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "lower is better", "narrative_ratio": 0.0}
+{"para": 29, "heading": "Llama 3.1 was less quirky than Mistral 7B v0.1", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "higher is better", "narrative_ratio": 0.0}
+{"para": 31, "heading": "Comparing activation separation", "move": "ARGUE", "sub": "假设与方法", "evidence_excerpt": "lower separation in the hidden states", "narrative_ratio": 0.0}
+{"para": 32, "heading": "Comparing activation separation", "move": "ARGUE", "sub": "公式定义", "evidence_excerpt": "hidden state separation at layer", "narrative_ratio": 0.0}
+{"para": 33, "heading": "Comparing activation separation", "move": "ARGUE", "sub": "结果：分离度解释表现", "evidence_excerpt": "explained MAD performance very well", "narrative_ratio": 0.0}
+{"para": 34, "heading": "Comparing activation separation", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "clear s-shaped relationship", "narrative_ratio": 0.0}
+{"para": 35, "heading": "Comparing activation separation", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "weak correlation between the two", "narrative_ratio": 0.0}
+{"para": 36, "heading": "Comparing activation separation", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "modest correlation", "narrative_ratio": 0.0}
+{"para": 37, "heading": "Comparing activation separation", "move": "ARGUE", "sub": "图形证据", "evidence_excerpt": "modest correlation", "narrative_ratio": 0.0}
+{"para": 38, "heading": "Comparing activation separation", "move": "ARGUE", "sub": "边界声明", "evidence_excerpt": "unclear if this is a robust relationship", "narrative_ratio": 0.0}
+{"para": 40, "heading": "Anomaly detection with normalising flows", "move": "ARGUE", "sub": "方法2：normalising flow", "evidence_excerpt": "A normalising flow is a trainable function", "narrative_ratio": 0.0}
+{"para": 41, "heading": "Anomaly detection with normalising flows", "move": "ARGUE", "sub": "结果与解释", "evidence_excerpt": "somewhat surprising, given that we expect", "narrative_ratio": 0.0}
+{"para": 42, "heading": "Anomaly detection with normalising flows", "move": "ARGUE", "sub": "图形证据指向", "evidence_excerpt": "Results are in Figures 1 and 2", "narrative_ratio": 0.0}
+{"para": 44, "heading": "Anomaly detection with sparse autoencoders", "move": "ARGUE", "sub": "方法3：sparse autoencoder", "evidence_excerpt": "a top-k sparse autoencoder", "narrative_ratio": 0.0}
+{"para": 45, "heading": "Anomaly detection with sparse autoencoders", "move": "ARGUE", "sub": "结果", "evidence_excerpt": "Both scores performed similarly", "narrative_ratio": 0.0}
+{"para": 47, "heading": "Outlook", "move": "CLOSE", "sub": "负面收束+去优先级", "evidence_excerpt": "We are deprioritising work on MAD", "narrative_ratio": 0.0}

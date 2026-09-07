@@ -1,0 +1,114 @@
+{
+ "file": "reward-hacking-indicators.md",
+ "lang": "en",
+ "title": "Early Indicators of Reward Hacking via Reasoning Interpolation",
+ "cjk_chars": 0,
+ "word_count": 5053,
+ "reading_time_min": 17.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": true
+ },
+ "sentences": {
+  "sentence_count": 212,
+  "avg_sentence_len": 26.2,
+  "median_sentence_len": 22.0,
+  "p90_sentence_len": 45,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 109,
+  "avg_paragraph_len": 51.1,
+  "median_paragraph_len": 44,
+  "p90_paragraph_len": 99,
+  "one_line_paragraphs": 2
+ },
+ "evidence": {
+  "number_tokens": 281,
+  "number_per_1k": 55.61,
+  "precise_numbers": 93,
+  "precise_per_1k": 18.4,
+  "year_anchors": 2,
+  "year_per_1k": 0.4,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 15.24,
+  "hedge_examples": [
+   {
+    "term": "may",
+    "excerpt": "Reinforcement learning often produces policies that \"hack\" their reward function"
+   },
+   {
+    "term": "suggest",
+    "excerpt": "Reinforcement learning often produces policies that \"hack\" their reward function"
+   },
+   {
+    "term": "early",
+    "excerpt": "Reinforcement learning often produces policies that \"hack\" their reward function"
+   }
+  ],
+  "absolutist_hits": 2.37,
+  "absolutist_examples": [
+   {
+    "term": "fundamental",
+    "excerpt": "The fundamental assumption here is that the most likely way for a reasoning mode"
+   },
+   {
+    "term": "always",
+    "excerpt": "While this is an unbiased estimate as long as\n𝑝\n𝑛\n>\n0\nimplies\n𝑞\n𝑛\n>\n0\n, in pract"
+   },
+   {
+    "term": "completely",
+    "excerpt": "Claude-generated prefills: We prompt a separate LLM (Claude Sonnet 4.6) to gener"
+   }
+  ],
+  "quantifier_hits": 6.33,
+  "first_person_count": 100,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 2,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.235,
+  "top_terms": [
+   "exploit×106",
+   "reasoning×79",
+   "exploits×38",
+   "probability×31",
+   "interpolation×30",
+   "training×30",
+   "importance×25",
+   "verifier×25",
+   "donor×24",
+   "sampling×23",
+   "prefixes×23",
+   "estimates×23",
+   "early×22",
+   "hacking×21",
+   "produce×20"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Early Indicators of Reward Hacking via Reasoning Interpolation",
+  "title_len": 62,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

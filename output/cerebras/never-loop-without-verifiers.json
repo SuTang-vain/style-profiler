@@ -1,0 +1,114 @@
+{
+ "file": "never-loop-without-verifiers.md",
+ "lang": "en",
+ "title": "Never Loop Without Verifiers",
+ "cjk_chars": 0,
+ "word_count": 1238,
+ "reading_time_min": 4.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 79,
+  "avg_sentence_len": 15.7,
+  "median_sentence_len": 14,
+  "p90_sentence_len": 26,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 39,
+  "avg_paragraph_len": 31.8,
+  "median_paragraph_len": 21,
+  "p90_paragraph_len": 61,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 15,
+  "number_per_1k": 12.12,
+  "precise_numbers": 3,
+  "precise_per_1k": 2.42,
+  "year_anchors": 2,
+  "year_per_1k": 1.62,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 12.12,
+  "hedge_examples": [
+   {
+    "term": "about",
+    "excerpt": "In March 2023, AutoGPT took a goal, decomposed it into subtasks, and looped unti"
+   },
+   {
+    "term": "could",
+    "excerpt": "So why are loops becoming popular now? For years, the AI was a brain with no bod"
+   },
+   {
+    "term": "around",
+    "excerpt": "Eyes. The agent can now see. Multimodal models and stronger computer use let scr"
+   }
+  ],
+  "absolutist_hits": 4.85,
+  "absolutist_examples": [
+   {
+    "term": "never",
+    "excerpt": "Spiralling. The loop never learns when it is done, so it keeps going, and going,"
+   },
+   {
+    "term": "always",
+    "excerpt": "Cheating is a prompting problem, and a slipperier one. Vague prompts will get ga"
+   },
+   {
+    "term": "must",
+    "excerpt": "/goal Fix the failing checkout test.\n- The full suite must still pass.\n- Do not "
+   }
+  ],
+  "quantifier_hits": 9.69,
+  "first_person_count": 6,
+  "objective_selfref_count": 0,
+  "exclamations": 1,
+  "questions": 4,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.429,
+  "top_terms": [
+   "loop×21",
+   "goal×10",
+   "loops×9",
+   "prompt×8",
+   "verification×7",
+   "every×6",
+   "until×6",
+   "better×6",
+   "agent×6",
+   "pass×6",
+   "run×6",
+   "without×5",
+   "stop×5",
+   "test×5",
+   "gemma×5"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Never Loop Without Verifiers",
+  "title_len": 28,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

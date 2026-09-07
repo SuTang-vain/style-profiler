@@ -1,0 +1,114 @@
+{
+ "file": "thinking-inside-the-box-the-implicit-chain-transformer-for-efficient-state-tracking.md",
+ "lang": "en",
+ "title": "Thinking Inside the Box: The Implicit Chain Transformer for Efficient State Tracking",
+ "cjk_chars": 0,
+ "word_count": 1388,
+ "reading_time_min": 5.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 68,
+  "avg_sentence_len": 20.6,
+  "median_sentence_len": 19.0,
+  "p90_sentence_len": 32,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 30,
+  "avg_paragraph_len": 46.8,
+  "median_paragraph_len": 25.0,
+  "p90_paragraph_len": 108,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 21,
+  "number_per_1k": 15.13,
+  "precise_numbers": 0,
+  "precise_per_1k": 0.0,
+  "year_anchors": 1,
+  "year_per_1k": 0.72,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 1,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 11.53,
+  "hedge_examples": [
+   {
+    "term": "toward",
+    "excerpt": "In this work, we introduce the Implicit Chain Transformer (ICT), a novel archite"
+   },
+   {
+    "term": "early",
+    "excerpt": "1. Autoregressive Intent Propagation (Dense) In this formulation, the state is u"
+   },
+   {
+    "term": "early",
+    "excerpt": "Parallel Pass: We process the entire sequence in parallel (standard Transformer "
+   }
+  ],
+  "absolutist_hits": 5.04,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "Large Language Model (LLM) decoders have demonstrated remarkable capabilities in"
+   },
+   {
+    "term": "entirely",
+    "excerpt": "In this work, we introduce the Implicit Chain Transformer (ICT), a novel archite"
+   },
+   {
+    "term": "must",
+    "excerpt": "Standard Transformers suffer from a fundamental representational bottleneck: the"
+   }
+  ],
+  "quantifier_hits": 7.93,
+  "first_person_count": 21,
+  "objective_selfref_count": 3,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.414,
+  "top_terms": [
+   "state×16",
+   "intent×14",
+   "standard×10",
+   "token×10",
+   "vector×10",
+   "latent×9",
+   "propagation×9",
+   "transformer×8",
+   "network×8",
+   "layer×8",
+   "transformers×7",
+   "tasks×7",
+   "ict×7",
+   "accuracy×7",
+   "training×7"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Thinking Inside the Box: The Implicit Chain Transformer for Efficient State Tracking",
+  "title_len": 84,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

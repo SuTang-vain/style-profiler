@@ -3,3 +3,6 @@ corpus/openai/
 corpus/anthropic/
 .DS_Store
 __pycache__/
+corpus/cerebras/
+corpus/eleuther/
+corpus/databricks/

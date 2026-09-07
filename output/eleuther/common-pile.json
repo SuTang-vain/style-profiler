@@ -1,0 +1,106 @@
+{
+ "file": "common-pile.md",
+ "lang": "en",
+ "title": "The Common Pile v0.1",
+ "cjk_chars": 0,
+ "word_count": 2148,
+ "reading_time_min": 7.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 79,
+  "avg_sentence_len": 27.3,
+  "median_sentence_len": 25,
+  "p90_sentence_len": 49,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 40,
+  "avg_paragraph_len": 53.9,
+  "median_paragraph_len": 38.0,
+  "p90_paragraph_len": 133,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 60,
+  "number_per_1k": 27.93,
+  "precise_numbers": 20,
+  "precise_per_1k": 9.31,
+  "year_anchors": 11,
+  "year_per_1k": 5.12,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 2,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 7.91,
+  "hedge_examples": [
+   {
+    "term": "early",
+    "excerpt": "Four and a half years ago, EleutherAI entered the AI scene by releasing the Pile"
+   },
+   {
+    "term": "about",
+    "excerpt": "The past several years have seen dozens of lawsuits regarding the use of data in"
+   },
+   {
+    "term": "early",
+    "excerpt": "The past several years have seen dozens of lawsuits regarding the use of data in"
+   }
+  ],
+  "absolutist_hits": 0.47,
+  "absolutist_examples": [
+   {
+    "term": "impossible",
+    "excerpt": "Public release of large-scale training datasets is necessary for rigorous scient"
+   }
+  ],
+  "quantifier_hits": 6.05,
+  "first_person_count": 45,
+  "objective_selfref_count": 3,
+  "exclamations": 0,
+  "questions": 1,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.366,
+  "top_terms": [
+   "data×29",
+   "open×22",
+   "public×20",
+   "pile×18",
+   "common×17",
+   "domain×14",
+   "training×14",
+   "licensed×13",
+   "trained×12",
+   "dataset×11",
+   "openly×11",
+   "released×9",
+   "release×9",
+   "work×8",
+   "license×8"
+  ],
+  "en_char_ratio": null,
+  "title_text": "The Common Pile v0.1",
+  "title_len": 20,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

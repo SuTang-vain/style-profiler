@@ -1,0 +1,114 @@
+{
+ "file": "meet-karl-faster-agent-enterprise-knowledge-powered-custom-rl.md",
+ "lang": "en",
+ "title": "Meet KARL: A faster agent for enterprise knowledge, powered by custom RL",
+ "cjk_chars": 0,
+ "word_count": 739,
+ "reading_time_min": 2.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 23,
+  "avg_sentence_len": 32.4,
+  "median_sentence_len": 27,
+  "p90_sentence_len": 38,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 17,
+  "avg_paragraph_len": 43.8,
+  "median_paragraph_len": 13,
+  "p90_paragraph_len": 134,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 7,
+  "number_per_1k": 9.47,
+  "precise_numbers": 0,
+  "precise_per_1k": 0.0,
+  "year_anchors": 0,
+  "year_per_1k": 0.0,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 5.41,
+  "hedge_examples": [
+   {
+    "term": "about",
+    "excerpt": "The improved reasoning abilities of current models has led to an explosion of ag"
+   },
+   {
+    "term": "about",
+    "excerpt": "We are excited to share that the same RL pipelines and infrastructure we used to"
+   },
+   {
+    "term": "early",
+    "excerpt": "We are excited to share that the same RL pipelines and infrastructure we used to"
+   }
+  ],
+  "absolutist_hits": 5.41,
+  "absolutist_examples": [
+   {
+    "term": "critical",
+    "excerpt": "The improved reasoning abilities of current models has led to an explosion of ag"
+   },
+   {
+    "term": "critical",
+    "excerpt": "The model we trained, which we call KARL, addresses a critical enterprise capabi"
+   },
+   {
+    "term": "never",
+    "excerpt": "Using RL techniques and infrastructure developed at Databricks, KARL matches the"
+   }
+  ],
+  "quantifier_hits": 6.77,
+  "first_person_count": 12,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 1,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.499,
+  "top_terms": [
+   "databricks×20",
+   "data×12",
+   "karl×8",
+   "agent×8",
+   "enterprise×7",
+   "custom×6",
+   "agents×6",
+   "reasoning×6",
+   "partner×6",
+   "knowledge×4",
+   "learning×4",
+   "tasks×4",
+   "grounded×4",
+   "customers×4",
+   "blog×4"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Meet KARL: A faster agent for enterprise knowledge, powered by custom RL",
+  "title_len": 72,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

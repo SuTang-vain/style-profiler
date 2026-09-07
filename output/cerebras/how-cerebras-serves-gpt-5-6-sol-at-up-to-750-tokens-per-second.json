@@ -1,0 +1,102 @@
+{
+ "file": "how-cerebras-serves-gpt-5-6-sol-at-up-to-750-tokens-per-second.md",
+ "lang": "en",
+ "title": "How Cerebras serves GPT-5.6 Sol at up to 750 tokens per second",
+ "cjk_chars": 0,
+ "word_count": 1060,
+ "reading_time_min": 4.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 55,
+  "avg_sentence_len": 19.5,
+  "median_sentence_len": 19,
+  "p90_sentence_len": 32,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 38,
+  "avg_paragraph_len": 28.2,
+  "median_paragraph_len": 24.5,
+  "p90_paragraph_len": 56,
+  "one_line_paragraphs": 1
+ },
+ "evidence": {
+  "number_tokens": 45,
+  "number_per_1k": 42.45,
+  "precise_numbers": 19,
+  "precise_per_1k": 17.92,
+  "year_anchors": 1,
+  "year_per_1k": 0.94,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 0.94,
+  "hedge_examples": [
+   {
+    "term": "might",
+    "excerpt": "That multiplier is measurable, and it's larger than you might think. On a qualit"
+   }
+  ],
+  "absolutist_hits": 1.89,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "On a conventional GPU, the compute cores and the high-bandwidth memory that stor"
+   },
+   {
+    "term": "must",
+    "excerpt": "On conventional GPUs, model weights live in off-chip HBM and must cross into com"
+   }
+  ],
+  "quantifier_hits": 10.38,
+  "first_person_count": 3,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.442,
+  "top_terms": [
+   "cerebras×21",
+   "sol×12",
+   "gpt-×8",
+   "weights×8",
+   "per×7",
+   "second×7",
+   "work×7",
+   "inference×6",
+   "compute×6",
+   "faster×6",
+   "wafer×6",
+   "agents×6",
+   "tokens×5",
+   "across×5",
+   "openai×5"
+  ],
+  "en_char_ratio": null,
+  "title_text": "How Cerebras serves GPT-5.6 Sol at up to 750 tokens per second",
+  "title_len": 62,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

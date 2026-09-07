@@ -1,0 +1,114 @@
+{
+ "file": "introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning.md",
+ "lang": "en",
+ "title": "Introducing OfficeQA Pro V2: A New Benchmark for Enterprise Grounded-Reasoning",
+ "cjk_chars": 0,
+ "word_count": 3478,
+ "reading_time_min": 12.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 135,
+  "avg_sentence_len": 26.2,
+  "median_sentence_len": 20,
+  "p90_sentence_len": 36,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 56,
+  "avg_paragraph_len": 63.1,
+  "median_paragraph_len": 49.5,
+  "p90_paragraph_len": 120,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 124,
+  "number_per_1k": 35.65,
+  "precise_numbers": 38,
+  "precise_per_1k": 10.93,
+  "year_anchors": 5,
+  "year_per_1k": 1.44,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 6.61,
+  "hedge_examples": [
+   {
+    "term": "approximately",
+    "excerpt": "Our new benchmark, OfficeQA Pro V2, is designed to test that generalization dire"
+   },
+   {
+    "term": "initial",
+    "excerpt": "Our new benchmark, OfficeQA Pro V2, is designed to test that generalization dire"
+   },
+   {
+    "term": "remains",
+    "excerpt": "OfficeQA Pro V2 remains challenging for today’s AI systems. Out-of-the-box front"
+   }
+  ],
+  "absolutist_hits": 2.88,
+  "absolutist_examples": [
+   {
+    "term": "fundamental",
+    "excerpt": "Seven months ago, we introduced the OfficeQA benchmark to measure how well AI sy"
+   },
+   {
+    "term": "must",
+    "excerpt": "This question requires retrieving the Medicare outlay figure from the \"Outlays b"
+   },
+   {
+    "term": "must",
+    "excerpt": "This question requires assembling an eight-year series (FY1981–FY1988) of net ou"
+   }
+  ],
+  "quantifier_hits": 2.88,
+  "first_person_count": 29,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 4,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.383,
+  "top_terms": [
+   "officeqa×54",
+   "pro×36",
+   "benchmark×28",
+   "databricks×21",
+   "questions×21",
+   "corpus×19",
+   "data×19",
+   "reasoning×16",
+   "islands×15",
+   "documents×14",
+   "agents×13",
+   "grounded×13",
+   "across×13",
+   "republic×13",
+   "agent×12"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Introducing OfficeQA Pro V2: A New Benchmark for Enterprise Grounded-Reasoning",
+  "title_len": 78,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

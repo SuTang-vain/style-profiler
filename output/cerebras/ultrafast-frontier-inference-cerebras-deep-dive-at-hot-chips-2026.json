@@ -1,0 +1,106 @@
+{
+ "file": "ultrafast-frontier-inference-cerebras-deep-dive-at-hot-chips-2026.md",
+ "lang": "en",
+ "title": "Ultrafast Frontier Inference: Cerebras Deep Dive at Hot Chips 2026",
+ "cjk_chars": 0,
+ "word_count": 1799,
+ "reading_time_min": 6.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 80,
+  "avg_sentence_len": 22.6,
+  "median_sentence_len": 19.0,
+  "p90_sentence_len": 32,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 46,
+  "avg_paragraph_len": 39.3,
+  "median_paragraph_len": 36.0,
+  "p90_paragraph_len": 55,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 68,
+  "number_per_1k": 37.8,
+  "precise_numbers": 5,
+  "precise_per_1k": 2.78,
+  "year_anchors": 6,
+  "year_per_1k": 3.34,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 7.78,
+  "hedge_examples": [
+   {
+    "term": "around",
+    "excerpt": "Power delivery built around the wafer"
+   },
+   {
+    "term": "about",
+    "excerpt": "Moving high current across a circuit board creates resistance and wastes power a"
+   },
+   {
+    "term": "about",
+    "excerpt": "CS-4 places AC/DC converters about 0.5 millimeters from the wafer (100x less tha"
+   }
+  ],
+  "absolutist_hits": 0.56,
+  "absolutist_examples": [
+   {
+    "term": "everyone",
+    "excerpt": "Wafer-scale SRAM already scales economically to accelerate even the largest mode"
+   }
+  ],
+  "quantifier_hits": 10.56,
+  "first_person_count": 10,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.401,
+  "top_terms": [
+   "cs-×23",
+   "cerebras×22",
+   "power×21",
+   "statements×13",
+   "compute×12",
+   "rack×12",
+   "system×11",
+   "backpack×10",
+   "scale×10",
+   "forward-looking×10",
+   "per×9",
+   "wafer-scale×8",
+   "wafer×8",
+   "frontier×7",
+   "nexus×7"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Ultrafast Frontier Inference: Cerebras Deep Dive at Hot Chips 2026",
+  "title_len": 66,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

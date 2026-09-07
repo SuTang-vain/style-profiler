@@ -1,0 +1,110 @@
+{
+ "file": "tyche-poser-comparison.md",
+ "lang": "en",
+ "title": "Research Update: Applications of Local Volume Measurement",
+ "cjk_chars": 0,
+ "word_count": 947,
+ "reading_time_min": 3.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": true
+ },
+ "sentences": {
+  "sentence_count": 38,
+  "avg_sentence_len": 26.7,
+  "median_sentence_len": 18.0,
+  "p90_sentence_len": 48,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 21,
+  "avg_paragraph_len": 48.3,
+  "median_paragraph_len": 46,
+  "p90_paragraph_len": 89,
+  "one_line_paragraphs": 2
+ },
+ "evidence": {
+  "number_tokens": 71,
+  "number_per_1k": 74.97,
+  "precise_numbers": 36,
+  "precise_per_1k": 38.01,
+  "year_anchors": 1,
+  "year_per_1k": 1.06,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 5.28,
+  "hedge_examples": [
+   {
+    "term": "may",
+    "excerpt": "We thought local volume measurement could be a useful tool for detecting unusual"
+   },
+   {
+    "term": "could",
+    "excerpt": "We thought local volume measurement could be a useful tool for detecting unusual"
+   },
+   {
+    "term": "about",
+    "excerpt": "These results make us more pessimistic about the utility of local volume measure"
+   }
+  ],
+  "absolutist_hits": 2.11,
+  "absolutist_examples": [
+   {
+    "term": "critical",
+    "excerpt": "Constructs a steering vector from contrast pairs (clean vs critical prompts)\nSam"
+   },
+   {
+    "term": "critical",
+    "excerpt": "Samples random directions in parameter space (25 samples, 100 iterations).\nScale"
+   }
+  ],
+  "quantifier_hits": 5.28,
+  "first_person_count": 22,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.377,
+  "top_terms": [
+   "local×21",
+   "volume×20",
+   "meta×14",
+   "tyche×11",
+   "poser×11",
+   "random×9",
+   "perturbations×9",
+   "misaligned×9",
+   "behaviour×8",
+   "anomalous×7",
+   "data×7",
+   "mahalanobis×7",
+   "research×6",
+   "measurement×6",
+   "figure×6"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Research Update: Applications of Local Volume Measurement",
+  "title_len": 57,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

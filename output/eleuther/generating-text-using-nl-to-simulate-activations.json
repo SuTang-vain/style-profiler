@@ -1,0 +1,114 @@
+{
+ "file": "generating-text-using-nl-to-simulate-activations.md",
+ "lang": "en",
+ "title": "Partially rewriting an LLM in natural language",
+ "cjk_chars": 0,
+ "word_count": 3113,
+ "reading_time_min": 10.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": true
+ },
+ "sentences": {
+  "sentence_count": 128,
+  "avg_sentence_len": 25.3,
+  "median_sentence_len": 24.0,
+  "p90_sentence_len": 44,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 40,
+  "avg_paragraph_len": 81.0,
+  "median_paragraph_len": 71.5,
+  "p90_paragraph_len": 163,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 164,
+  "number_per_1k": 52.68,
+  "precise_numbers": 97,
+  "precise_per_1k": 31.16,
+  "year_anchors": 3,
+  "year_per_1k": 0.96,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 8.67,
+  "hedge_examples": [
+   {
+    "term": "could",
+    "excerpt": "Our most recent work on using sparse autoencoders (SAEs) focused on automaticall"
+   },
+   {
+    "term": "early",
+    "excerpt": "Our most recent work on using sparse autoencoders (SAEs) focused on automaticall"
+   },
+   {
+    "term": "preliminary",
+    "excerpt": "Patching a single SAE into the model already drops its performance significantly"
+   }
+  ],
+  "absolutist_hits": 1.28,
+  "absolutist_examples": [
+   {
+    "term": "completely",
+    "excerpt": "Patching a single SAE into the model already drops its performance significantly"
+   },
+   {
+    "term": "entirely",
+    "excerpt": "Patching a single SAE into the model already drops its performance significantly"
+   },
+   {
+    "term": "always",
+    "excerpt": "Figure 1: KL divergence and CE loss for different fractions of correctly identif"
+   }
+  ],
+  "quantifier_hits": 7.39,
+  "first_person_count": 95,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 1,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.211,
+  "top_terms": [
+   "latents×87",
+   "active×64",
+   "interpretations×37",
+   "activation×26",
+   "sae×21",
+   "latent×19",
+   "correctly×17",
+   "distribution×17",
+   "values×15",
+   "identify×14",
+   "non-active×14",
+   "figure×14",
+   "predicted×14",
+   "natural×13",
+   "language×13"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Partially rewriting an LLM in natural language",
+  "title_len": 46,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

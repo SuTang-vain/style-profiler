@@ -1,0 +1,101 @@
+{
+ "file": "agentic-reasoning-practice-making-sense-structured-and-unstructured-data.md",
+ "lang": "en",
+ "title": "Agentic reasoning in practice: Making sense of structured and unstructured data",
+ "cjk_chars": 0,
+ "word_count": 2137,
+ "reading_time_min": 7.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 62,
+  "avg_sentence_len": 35.0,
+  "median_sentence_len": 23.5,
+  "p90_sentence_len": 38,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 42,
+  "avg_paragraph_len": 51.7,
+  "median_paragraph_len": 33.0,
+  "p90_paragraph_len": 78,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 52,
+  "number_per_1k": 24.33,
+  "precise_numbers": 11,
+  "precise_per_1k": 5.15,
+  "year_anchors": 4,
+  "year_per_1k": 1.87,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 3.74,
+  "hedge_examples": [
+   {
+    "term": "about",
+    "excerpt": "For example, “Find me a paper written by a co-author with 115 papers and is abou"
+   },
+   {
+    "term": "about",
+    "excerpt": "Expand\nFigure 4: Agent Bricks SA execution strategy for query 17 in STaRK-MAG (“"
+   },
+   {
+    "term": "about",
+    "excerpt": "Using our example question from above (“Find me a paper written by a co-author w"
+   }
+  ],
+  "absolutist_hits": 0.0,
+  "absolutist_examples": [],
+  "quantifier_hits": 9.36,
+  "first_person_count": 26,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 2,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.469,
+  "top_terms": [
+   "agent×28",
+   "data×25",
+   "databricks×19",
+   "islands×15",
+   "reasoning×14",
+   "structured×13",
+   "unstructured×13",
+   "republic×13",
+   "supervisor×11",
+   "baseline×11",
+   "across×10",
+   "figure×10",
+   "stark×10",
+   "papers×9",
+   "bricks×8"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Agentic reasoning in practice: Making sense of structured and unstructured data",
+  "title_len": 79,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

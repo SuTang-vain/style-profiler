@@ -1,0 +1,114 @@
+{
+ "file": "aletheia-retrospective.md",
+ "lang": "en",
+ "title": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
+ "cjk_chars": 0,
+ "word_count": 6152,
+ "reading_time_min": 21.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": true
+ },
+ "sentences": {
+  "sentence_count": 252,
+  "avg_sentence_len": 25.2,
+  "median_sentence_len": 22.0,
+  "p90_sentence_len": 41,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 102,
+  "avg_paragraph_len": 62.2,
+  "median_paragraph_len": 52.5,
+  "p90_paragraph_len": 109,
+  "one_line_paragraphs": 2
+ },
+ "evidence": {
+  "number_tokens": 305,
+  "number_per_1k": 49.58,
+  "precise_numbers": 174,
+  "precise_per_1k": 28.28,
+  "year_anchors": 14,
+  "year_per_1k": 2.28,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 12.03,
+  "hedge_examples": [
+   {
+    "term": "may",
+    "excerpt": "Black-box monitoring went much further than we expected. The black-box baseline "
+   },
+   {
+    "term": "could",
+    "excerpt": "Black-box monitoring went much further than we expected. The black-box baseline "
+   },
+   {
+    "term": "we expect",
+    "excerpt": "Black-box monitoring went much further than we expected. The black-box baseline "
+   }
+  ],
+  "absolutist_hits": 1.14,
+  "absolutist_examples": [
+   {
+    "term": "never",
+    "excerpt": "Before describing our detector itself, it is worth explaining how we approached "
+   },
+   {
+    "term": "completely",
+    "excerpt": "We spent the last two weeks of the competition in clear first place, but the fin"
+   },
+   {
+    "term": "always",
+    "excerpt": "Aletheia's Quest was an excellent and enjoyable competition, but things can alwa"
+   }
+  ],
+  "quantifier_hits": 7.64,
+  "first_person_count": 147,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 9,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.261,
+  "top_terms": [
+   "competition×42",
+   "deceptive×34",
+   "black-box×33",
+   "factual×27",
+   "white-box×26",
+   "lie×26",
+   "methods×24",
+   "terse×24",
+   "judge×23",
+   "leaderboard×22",
+   "suspect×21",
+   "teams×20",
+   "knowledge×19",
+   "answer×19",
+   "aletheias-quest×19"
+  ],
+  "en_char_ratio": null,
+  "title_text": "What We Learned Trying to Catch AI Liars: An Aletheia's Quest Retrospective",
+  "title_len": 75,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

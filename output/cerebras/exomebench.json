@@ -1,0 +1,101 @@
+{
+ "file": "exomebench.md",
+ "lang": "en",
+ "title": "ExomeBench: A Benchmark for Clinical Variant Interpretation in Exome Regions",
+ "cjk_chars": 0,
+ "word_count": 1000,
+ "reading_time_min": 3.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 61,
+  "avg_sentence_len": 16.3,
+  "median_sentence_len": 16,
+  "p90_sentence_len": 27,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 30,
+  "avg_paragraph_len": 33.2,
+  "median_paragraph_len": 24.5,
+  "p90_paragraph_len": 67,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 49,
+  "number_per_1k": 49.0,
+  "precise_numbers": 8,
+  "precise_per_1k": 8.0,
+  "year_anchors": 7,
+  "year_per_1k": 7.0,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 1,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 8.0,
+  "hedge_examples": [
+   {
+    "term": "unclear",
+    "excerpt": "There has been tremendous progress in DNA and genomics modelling with transforme"
+   },
+   {
+    "term": "appears",
+    "excerpt": "To support proper evaluation, the data is split into train, validation, and test"
+   },
+   {
+    "term": "according to",
+    "excerpt": "Pathogenic Variant Prediction (PV, 4-class): Predict clinical significance of a "
+   }
+  ],
+  "absolutist_hits": 0.0,
+  "absolutist_examples": [],
+  "quantifier_hits": 6.0,
+  "first_person_count": 4,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 1,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.441,
+  "top_terms": [
+   "variant×17",
+   "exomebench×14",
+   "tasks×12",
+   "benchmark×9",
+   "clinical×9",
+   "clinvar×8",
+   "interpretation×7",
+   "genomics×7",
+   "clinically×6",
+   "variants×6",
+   "five×6",
+   "classification×6",
+   "dataset×6",
+   "exome×5",
+   "regions×5"
+  ],
+  "en_char_ratio": null,
+  "title_text": "ExomeBench: A Benchmark for Clinical Variant Interpretation in Exome Regions",
+  "title_len": 76,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

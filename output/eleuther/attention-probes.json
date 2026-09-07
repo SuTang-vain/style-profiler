@@ -1,0 +1,106 @@
+{
+ "file": "attention-probes.md",
+ "lang": "en",
+ "title": "Attention Probes",
+ "cjk_chars": 0,
+ "word_count": 1003,
+ "reading_time_min": 3.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": true
+ },
+ "sentences": {
+  "sentence_count": 56,
+  "avg_sentence_len": 18.2,
+  "median_sentence_len": 15.5,
+  "p90_sentence_len": 28,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 76,
+  "avg_paragraph_len": 13.4,
+  "median_paragraph_len": 4.0,
+  "p90_paragraph_len": 45,
+  "one_line_paragraphs": 1
+ },
+ "evidence": {
+  "number_tokens": 47,
+  "number_per_1k": 46.86,
+  "precise_numbers": 6,
+  "precise_per_1k": 5.98,
+  "year_anchors": 7,
+  "year_per_1k": 6.98,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 4.99,
+  "hedge_examples": [
+   {
+    "term": "could",
+    "excerpt": "Linear probes are a simple way to classify internal states of language models. T"
+   },
+   {
+    "term": "seems",
+    "excerpt": "Going from 1 head to 2 heads seems to have a similar effect to going from 2 head"
+   },
+   {
+    "term": "early",
+    "excerpt": "On Neurons In A Haystack, attention probes do not seem clearly better than last-"
+   }
+  ],
+  "absolutist_hits": 1.0,
+  "absolutist_examples": [
+   {
+    "term": "always",
+    "excerpt": "The 8-head attention probe, trained with AdamW, mostly outperforms mean probes, "
+   }
+  ],
+  "quantifier_hits": 4.99,
+  "first_person_count": 12,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.405,
+  "top_terms": [
+   "probes×34",
+   "attention×29",
+   "probe×12",
+   "mean×11",
+   "last-token×10",
+   "seqlen×9",
+   "nheads×9",
+   "torch×8",
+   "heads×7",
+   "head×7",
+   "datasets×7",
+   "token×6",
+   "position×6",
+   "output×6",
+   "dataset×6"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Attention Probes",
+  "title_len": 16,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

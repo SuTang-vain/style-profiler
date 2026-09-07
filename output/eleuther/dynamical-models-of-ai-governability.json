@@ -1,0 +1,114 @@
+{
+ "file": "dynamical-models-of-ai-governability.md",
+ "lang": "en",
+ "title": "A Dynamical Model of AI Governability",
+ "cjk_chars": 0,
+ "word_count": 9979,
+ "reading_time_min": 33.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": true
+ },
+ "sentences": {
+  "sentence_count": 382,
+  "avg_sentence_len": 31.7,
+  "median_sentence_len": 24.0,
+  "p90_sentence_len": 52,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 197,
+  "avg_paragraph_len": 61.6,
+  "median_paragraph_len": 39,
+  "p90_paragraph_len": 148,
+  "one_line_paragraphs": 6
+ },
+ "evidence": {
+  "number_tokens": 374,
+  "number_per_1k": 37.48,
+  "precise_numbers": 175,
+  "precise_per_1k": 17.54,
+  "year_anchors": 13,
+  "year_per_1k": 1.3,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 11.93,
+  "hedge_examples": [
+   {
+    "term": "about",
+    "excerpt": "A Dynamical Model of AI Governability\nA toy dynamical model of whether the AI wo"
+   },
+   {
+    "term": "may",
+    "excerpt": "Given the challenges involved, what are the benefits of creating a model like th"
+   },
+   {
+    "term": "likely",
+    "excerpt": "Given the challenges involved, what are the benefits of creating a model like th"
+   }
+  ],
+  "absolutist_hits": 1.1,
+  "absolutist_examples": [
+   {
+    "term": "completely",
+    "excerpt": "AI takeover is a plausible if uncertain outcome of continued AI development, and"
+   },
+   {
+    "term": "critical",
+    "excerpt": "We do not claim we have built such a system! However, any early warning system n"
+   },
+   {
+    "term": "never",
+    "excerpt": "Plausible futures: sampled model trajectories. Each band is the 85% spread (with"
+   }
+  ],
+  "quantifier_hits": 5.01,
+  "first_person_count": 192,
+  "objective_selfref_count": 6,
+  "exclamations": 1,
+  "questions": 5,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.213,
+  "top_terms": [
+   "uncooperative×114",
+   "labour×93",
+   "cooperative×66",
+   "misbehaviour×53",
+   "pool×52",
+   "behaviour×50",
+   "leakage×40",
+   "rate×36",
+   "fixed×36",
+   "monitoring×30",
+   "systems×27",
+   "human×27",
+   "observed×25",
+   "development×24",
+   "observability×24"
+  ],
+  "en_char_ratio": null,
+  "title_text": "A Dynamical Model of AI Governability",
+  "title_len": 37,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

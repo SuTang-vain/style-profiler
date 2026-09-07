@@ -1,0 +1,152 @@
+{
+ "cjk_chars": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "reading_time_min": {
+  "median": 4.5,
+  "p25": 4.0,
+  "p75": 6.0,
+  "min": 3.0,
+  "max": 11.0
+ },
+ "avg_sentence_len": {
+  "median": 18.75,
+  "p25": 15.7,
+  "p75": 21.9,
+  "min": 14.5,
+  "max": 24.6
+ },
+ "p90_sentence_len": {
+  "median": 31.5,
+  "p25": 27,
+  "p75": 32,
+  "min": 24,
+  "max": 36
+ },
+ "avg_paragraph_len": {
+  "median": 30.55,
+  "p25": 28.2,
+  "p75": 33.2,
+  "min": 23.4,
+  "max": 46.8
+ },
+ "number_per_1k": {
+  "median": 40.12,
+  "p25": 15.23,
+  "p75": 49.0,
+  "min": 12.12,
+  "max": 52.56
+ },
+ "precise_per_1k": {
+  "median": 3.09,
+  "p25": 2.42,
+  "p75": 16.8,
+  "min": 0.0,
+  "max": 21.79
+ },
+ "year_per_1k": {
+  "median": 2.05,
+  "p25": 0.72,
+  "p75": 3.85,
+  "min": 0.45,
+  "max": 7.1
+ },
+ "links_per_1k": {
+  "median": 0.0,
+  "p25": 0.0,
+  "p75": 0.0,
+  "min": 0.0,
+  "max": 0.0
+ },
+ "reference_entries": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "citation_marks": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 1
+ },
+ "hedge_hits": {
+  "median": 7.89,
+  "p25": 4.48,
+  "p75": 8.97,
+  "min": 0.94,
+  "max": 12.12
+ },
+ "absolutist_hits": {
+  "median": 1.82,
+  "p25": 0.56,
+  "p75": 2.56,
+  "min": 0.0,
+  "max": 5.04
+ },
+ "quantifier_hits": {
+  "median": 9.33,
+  "p25": 7.93,
+  "p75": 10.56,
+  "min": 4.48,
+  "max": 12.09
+ },
+ "first_person_count": {
+  "median": 10.5,
+  "p25": 6,
+  "p75": 21,
+  "min": 3,
+  "max": 47
+ },
+ "objective_selfref_count": {
+  "median": 0.5,
+  "p25": 0,
+  "p75": 1,
+  "min": 0,
+  "max": 3
+ },
+ "exclamations": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 1,
+  "min": 0,
+  "max": 4
+ },
+ "questions": {
+  "median": 1.5,
+  "p25": 0,
+  "p75": 4,
+  "min": 0,
+  "max": 5
+ },
+ "ttr": {
+  "median": 0.42,
+  "p25": 0.38,
+  "p75": 0.44,
+  "min": 0.339,
+  "max": 0.501
+ },
+ "genre_distribution": {
+  "blog_or_exploration": 10
+ },
+ "genre_files": {
+  "blog_or_exploration": [
+   "exomebench.md",
+   "how-cerebras-serves-gpt-5-6-sol-at-up-to-750-tokens-per-second.md",
+   "how-to-stop-your-autoresearch-loop-from-cheating.md",
+   "how-we-built-our-knowledge-base.md",
+   "latency-debt.md",
+   "lessons-learned-from-building-multi-agent-workflows.md",
+   "never-loop-without-verifiers.md",
+   "the-economics-of-ai-reasoning.md",
+   "thinking-inside-the-box-the-implicit-chain-transformer-for-efficient-state-tracking.md",
+   "ultrafast-frontier-inference-cerebras-deep-dive-at-hot-chips-2026.md"
+  ]
+ }
+}

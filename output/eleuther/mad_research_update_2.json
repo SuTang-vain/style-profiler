@@ -1,0 +1,106 @@
+{
+ "file": "mad_research_update_2.md",
+ "lang": "en",
+ "title": "Mechanistic Anomaly Detection Research Update 2",
+ "cjk_chars": 0,
+ "word_count": 2064,
+ "reading_time_min": 7.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": true
+ },
+ "sentences": {
+  "sentence_count": 83,
+  "avg_sentence_len": 26.1,
+  "median_sentence_len": 21,
+  "p90_sentence_len": 46,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 47,
+  "avg_paragraph_len": 46.2,
+  "median_paragraph_len": 36,
+  "p90_paragraph_len": 93,
+  "one_line_paragraphs": 1
+ },
+ "evidence": {
+  "number_tokens": 78,
+  "number_per_1k": 37.79,
+  "precise_numbers": 22,
+  "precise_per_1k": 10.66,
+  "year_anchors": 1,
+  "year_per_1k": 0.48,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 10.17,
+  "hedge_examples": [
+   {
+    "term": "suggests",
+    "excerpt": "Overall, these results are discouraging for our MAD approaches. While Llama was "
+   },
+   {
+    "term": "suggest",
+    "excerpt": "Overall, these results are discouraging for our MAD approaches. While Llama was "
+   },
+   {
+    "term": "seems",
+    "excerpt": "While the Llama 3.1 models exhibited quirky behaviour on most datasets, they wer"
+   }
+  ],
+  "absolutist_hits": 0.48,
+  "absolutist_examples": [
+   {
+    "term": "entirely",
+    "excerpt": "We haven't obtained particularly promising results for MAD. In some cases, but n"
+   }
+  ],
+  "quantifier_hits": 6.3,
+  "first_person_count": 39,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.231,
+  "top_terms": [
+   "llama×28",
+   "mistral×24",
+   "separation×22",
+   "hidden×20",
+   "labels×20",
+   "mad×19",
+   "anomaly×17",
+   "detection×17",
+   "performance×16",
+   "distance×16",
+   "figure×16",
+   "mahalanobis×15",
+   "alice×14",
+   "activations×14",
+   "loss×13"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Mechanistic Anomaly Detection Research Update 2",
+  "title_len": 47,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

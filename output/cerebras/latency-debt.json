@@ -1,0 +1,110 @@
+{
+ "file": "latency-debt.md",
+ "lang": "en",
+ "title": "The Year of Latency Debt (And How Big Tech Is Paying It Down)",
+ "cjk_chars": 0,
+ "word_count": 1126,
+ "reading_time_min": 4.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 79,
+  "avg_sentence_len": 14.5,
+  "median_sentence_len": 13,
+  "p90_sentence_len": 24,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 49,
+  "avg_paragraph_len": 23.4,
+  "median_paragraph_len": 21,
+  "p90_paragraph_len": 42,
+  "one_line_paragraphs": 6
+ },
+ "evidence": {
+  "number_tokens": 26,
+  "number_per_1k": 23.09,
+  "precise_numbers": 3,
+  "precise_per_1k": 2.66,
+  "year_anchors": 8,
+  "year_per_1k": 7.1,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 5.33,
+  "hedge_examples": [
+   {
+    "term": "suggest",
+    "excerpt": "In software engineering, \"technical debt\" refers to the accumulated cost of shor"
+   },
+   {
+    "term": "could",
+    "excerpt": "2019’s GPT-2 could handle about 1,000 tokens of context. Today's models can proc"
+   },
+   {
+    "term": "roughly",
+    "excerpt": "2019’s GPT-2 could handle about 1,000 tokens of context. Today's models can proc"
+   }
+  ],
+  "absolutist_hits": 1.78,
+  "absolutist_examples": [
+   {
+    "term": "always",
+    "excerpt": "Humans have always been extremely latency sensitive. A 1968 research study by IB"
+   },
+   {
+    "term": "impossible",
+    "excerpt": "Humans have always been extremely latency sensitive. A 1968 research study by IB"
+   }
+  ],
+  "quantifier_hits": 7.99,
+  "first_person_count": 11,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 2,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.487,
+  "top_terms": [
+   "latency×16",
+   "debt×14",
+   "hardware×10",
+   "workloads×7",
+   "inference×7",
+   "today×6",
+   "year×5",
+   "experience×5",
+   "like×5",
+   "tokens×5",
+   "made×5",
+   "seconds×5",
+   "already×4",
+   "past×4",
+   "faster×4"
+  ],
+  "en_char_ratio": null,
+  "title_text": "The Year of Latency Debt (And How Big Tech Is Paying It Down)",
+  "title_len": 61,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

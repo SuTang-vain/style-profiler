@@ -1,0 +1,106 @@
+{
+ "file": "how-to-stop-your-autoresearch-loop-from-cheating.md",
+ "lang": "en",
+ "title": "How to stop your autoresearch loop from cheating",
+ "cjk_chars": 0,
+ "word_count": 1786,
+ "reading_time_min": 6.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 117,
+  "avg_sentence_len": 15.7,
+  "median_sentence_len": 13,
+  "p90_sentence_len": 29,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 63,
+  "avg_paragraph_len": 29.2,
+  "median_paragraph_len": 29,
+  "p90_paragraph_len": 57,
+  "one_line_paragraphs": 4
+ },
+ "evidence": {
+  "number_tokens": 90,
+  "number_per_1k": 50.39,
+  "precise_numbers": 30,
+  "precise_per_1k": 16.8,
+  "year_anchors": 1,
+  "year_per_1k": 0.56,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 8.4,
+  "hedge_examples": [
+   {
+    "term": "around",
+    "excerpt": "How to stop your autoresearch loop from cheating\nSARAH CHIENG\nSHERIF CHERFA\nTLDR"
+   },
+   {
+    "term": "suggests",
+    "excerpt": "Both models independently discovered the same optimization, and proposal quality"
+   },
+   {
+    "term": "suggest",
+    "excerpt": "Both models independently discovered the same optimization, and proposal quality"
+   }
+  ],
+  "absolutist_hits": 0.56,
+  "absolutist_examples": [
+   {
+    "term": "completely",
+    "excerpt": "We pointed autoresearch at a completely different problem, fitting Kimi-k2.5 in "
+   }
+  ],
+  "quantifier_hits": 4.48,
+  "first_person_count": 26,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 5,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.383,
+  "top_terms": [
+   "autoresearch×19",
+   "experiment×18",
+   "experiments×14",
+   "agent×11",
+   "different×10",
+   "results×10",
+   "loop×9",
+   "real×9",
+   "codex×9",
+   "agents×9",
+   "hours×8",
+   "research×8",
+   "training×7",
+   "actually×7",
+   "gpt-×7"
+  ],
+  "en_char_ratio": null,
+  "title_text": "How to stop your autoresearch loop from cheating",
+  "title_len": 48,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

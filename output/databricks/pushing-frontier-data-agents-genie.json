@@ -1,0 +1,114 @@
+{
+ "file": "pushing-frontier-data-agents-genie.md",
+ "lang": "en",
+ "title": "Pushing the Frontier for Data Agents with Genie",
+ "cjk_chars": 0,
+ "word_count": 1853,
+ "reading_time_min": 6.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 48,
+  "avg_sentence_len": 39.0,
+  "median_sentence_len": 28.0,
+  "p90_sentence_len": 42,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 23,
+  "avg_paragraph_len": 81.4,
+  "median_paragraph_len": 30,
+  "p90_paragraph_len": 143,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 28,
+  "number_per_1k": 15.11,
+  "precise_numbers": 5,
+  "precise_per_1k": 2.7,
+  "year_anchors": 0,
+  "year_per_1k": 0.0,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 3.78,
+  "hedge_examples": [
+   {
+    "term": "about",
+    "excerpt": "Genie is Databricks’ state-of-the-art data agent designed for answering complex "
+   },
+   {
+    "term": "about",
+    "excerpt": "For example, consider a real (anonymized) query asked by an internal user in Fig"
+   },
+   {
+    "term": "initial",
+    "excerpt": "For example, consider a real (anonymized) query asked by an internal user in Fig"
+   }
+  ],
+  "absolutist_hits": 1.62,
+  "absolutist_examples": [
+   {
+    "term": "entirely",
+    "excerpt": "Coding agents have shown that a powerful LLM can do incredible things autonomous"
+   },
+   {
+    "term": "always",
+    "excerpt": "Scale of Data Discovery: Finding the right data sources to answer the user query"
+   },
+   {
+    "term": "never",
+    "excerpt": "While coding and data analysis share many conceptual similarities, the dynamic n"
+   }
+  ],
+  "quantifier_hits": 5.4,
+  "first_person_count": 10,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.472,
+  "top_terms": [
+   "data×38",
+   "agents×19",
+   "search×18",
+   "different×18",
+   "databricks×15",
+   "islands×15",
+   "parallel×13",
+   "figure×13",
+   "republic×13",
+   "genie×11",
+   "knowledge×11",
+   "thinking×10",
+   "agent×9",
+   "specialized×9",
+   "coding×9"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Pushing the Frontier for Data Agents with Genie",
+  "title_len": 47,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

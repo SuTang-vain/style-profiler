@@ -1,0 +1,106 @@
+{
+ "file": "3x-faster-search-parallel-test-time-scaling-instructed-retriever-1.md",
+ "lang": "en",
+ "title": "3x Faster Search: Parallel Test-Time Scaling with Instructed-Retriever-1",
+ "cjk_chars": 0,
+ "word_count": 2015,
+ "reading_time_min": 7.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 78,
+  "avg_sentence_len": 26.1,
+  "median_sentence_len": 18.5,
+  "p90_sentence_len": 33,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 44,
+  "avg_paragraph_len": 46.3,
+  "median_paragraph_len": 23.0,
+  "p90_paragraph_len": 93,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 69,
+  "number_per_1k": 34.24,
+  "precise_numbers": 14,
+  "precise_per_1k": 6.95,
+  "year_anchors": 0,
+  "year_per_1k": 0.0,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 5.96,
+  "hedge_examples": [
+   {
+    "term": "around",
+    "excerpt": "Today we’re announcing a major update that makes Agent Bricks Knowledge Assistan"
+   },
+   {
+    "term": "initial",
+    "excerpt": "Our previous research demonstrated that quality can improve with additional test"
+   },
+   {
+    "term": "initial",
+    "excerpt": "Improving the initial search depends heavily on the training harness. Our harnes"
+   }
+  ],
+  "absolutist_hits": 0.5,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "To prepare the data for training, we build synthetic enterprise-style retrieval "
+   }
+  ],
+  "quantifier_hits": 5.96,
+  "first_person_count": 32,
+  "objective_selfref_count": 3,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.478,
+  "top_terms": [
+   "search×18",
+   "instructed-retriever-×18",
+   "quality×17",
+   "generation×15",
+   "retrieval×15",
+   "islands×15",
+   "parallel×14",
+   "latency×14",
+   "databricks×13",
+   "data×13",
+   "republic×13",
+   "query×12",
+   "knowledge×11",
+   "assistant×11",
+   "reranking×11"
+  ],
+  "en_char_ratio": null,
+  "title_text": "3x Faster Search: Parallel Test-Time Scaling with Instructed-Retriever-1",
+  "title_len": 72,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

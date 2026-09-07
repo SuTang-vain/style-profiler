@@ -1,0 +1,31 @@
+{"para": 4, "heading": "(开篇)", "move": "HOOK", "sub": "反直觉开场", "evidence_excerpt": "Loops are the least surprising thing", "narrative_ratio": 0.0}
+{"para": 6, "heading": "History", "move": "CONTEXT", "sub": "历史源流", "evidence_excerpt": "AutoGPT took a goal, decomposed it", "narrative_ratio": 0.2}
+{"para": 7, "heading": "History", "move": "CONTEXT", "sub": "历史延续", "evidence_excerpt": "Ralph loops revived the idea", "narrative_ratio": 0.0}
+{"para": 9, "heading": "So why now?", "move": "FRAME", "sub": "设问转折+悬念", "evidence_excerpt": "why are loops becoming popular now", "narrative_ratio": 0.1}
+{"para": 10, "heading": "So why now?", "move": "ARGUE", "sub": "能力四要素", "evidence_excerpt": "Eyes. The agent can now see", "narrative_ratio": 0.0}
+{"para": 12, "heading": "Proof Is the Whole Game", "move": "ARGUE", "sub": "核心命题：验证", "evidence_excerpt": "It's verifiable. The heart", "narrative_ratio": 0.0}
+{"para": 13, "heading": "Proof Is the Whole Game", "move": "CONTEXT", "sub": "旧验证范式", "evidence_excerpt": "Old verification was mostly textual", "narrative_ratio": 0.0}
+{"para": 14, "heading": "Proof Is the Whole Game", "move": "ARGUE", "sub": "验证清单", "evidence_excerpt": "does the rendered page match the mockup", "narrative_ratio": 0.0}
+{"para": 15, "heading": "Proof Is the Whole Game", "move": "ARGUE", "sub": "案例引入", "evidence_excerpt": "I used Gemma 4, running on Cerebras", "narrative_ratio": 0.2}
+{"para": 16, "heading": "Proof Is the Whole Game", "move": "ARGUE", "sub": "数据锚定", "evidence_excerpt": "about 1.2 seconds, running at roughly", "narrative_ratio": 0.0}
+{"para": 17, "heading": "Proof Is the Whole Game", "move": "FRAME", "sub": "预告拆解", "evidence_excerpt": "Let's break down the loops prompt", "narrative_ratio": 0.0}
+{"para": 18, "heading": "Proof Is the Whole Game", "move": "APPLY", "sub": "教学转向", "evidence_excerpt": "build up your intuition", "narrative_ratio": 0.0}
+{"para": 19, "heading": "Proof Is the Whole Game", "move": "ARGUE", "sub": "过程证据", "evidence_excerpt": "Here is my starting image", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Proof Is the Whole Game", "move": "ARGUE", "sub": "过程证据", "evidence_excerpt": "five loop iterations later", "narrative_ratio": 0.0}
+{"para": 21, "heading": "Proof Is the Whole Game", "move": "ARGUE", "sub": "过程证据", "evidence_excerpt": "the print is smooth, structurally sound", "narrative_ratio": 0.2}
+{"para": 22, "heading": "Proof Is the Whole Game", "move": "ARGUE", "sub": "关键发现", "evidence_excerpt": "the loop rewrote its own prompt", "narrative_ratio": 0.1}
+{"para": 24, "heading": "Where Good Loops Go Broke", "move": "FRAME", "sub": "双问题框架", "evidence_excerpt": "two ways to hand it a bad one", "narrative_ratio": 0.0}
+{"para": 25, "heading": "Where Good Loops Go Broke", "move": "CONTEXT", "sub": "概念定义", "evidence_excerpt": "Spiralling. The loop never learns", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Where Good Loops Go Broke", "move": "CONTEXT", "sub": "概念定义", "evidence_excerpt": "Cheating. The loop does exactly", "narrative_ratio": 0.0}
+{"para": 27, "heading": "Where Good Loops Go Broke", "move": "ARGUE", "sub": "对策：验证", "evidence_excerpt": "Verification is a strong solution", "narrative_ratio": 0.0}
+{"para": 28, "heading": "Where Good Loops Go Broke", "move": "ARGUE", "sub": "机理判断", "evidence_excerpt": "Cheating is a prompting problem", "narrative_ratio": 0.0}
+{"para": 29, "heading": "Where Good Loops Go Broke", "move": "APPLY", "sub": "处方清单", "evidence_excerpt": "Be annoyingly specific about what counts", "narrative_ratio": 0.0}
+{"para": 30, "heading": "Where Good Loops Go Broke", "move": "ARGUE", "sub": "反例演示", "evidence_excerpt": "a vague prompt like", "narrative_ratio": 0.0}
+{"para": 31, "heading": "Where Good Loops Go Broke", "move": "ARGUE", "sub": "反例后果", "evidence_excerpt": "a previously fixed bug getting reverted", "narrative_ratio": 0.0}
+{"para": 32, "heading": "Where Good Loops Go Broke", "move": "ARGUE", "sub": "正例对照", "evidence_excerpt": "The full suite must still pass", "narrative_ratio": 0.0}
+{"para": 33, "heading": "Where Good Loops Go Broke", "move": "ARGUE", "sub": "案例2引入", "evidence_excerpt": "Run RL on this model", "narrative_ratio": 0.0}
+{"para": 34, "heading": "Where Good Loops Go Broke", "move": "ARGUE", "sub": "对抗推演", "evidence_excerpt": "download Terminal-Bench and train on it", "narrative_ratio": 0.1}
+{"para": 35, "heading": "Where Good Loops Go Broke", "move": "ARGUE", "sub": "正例对照", "evidence_excerpt": "marks the eval set as radioactive", "narrative_ratio": 0.0}
+{"para": 36, "heading": "Where Good Loops Go Broke", "move": "APPLY", "sub": "处方收束", "evidence_excerpt": "Off-limits: you may not train", "narrative_ratio": 0.0}
+{"para": 38, "heading": "Conclusion", "move": "CLOSE", "sub": "时代性升华", "evidence_excerpt": "While the workflow isn't new, this moment is", "narrative_ratio": 0.2}
+{"para": 39, "heading": "Conclusion", "move": "CLOSE", "sub": "行动收束", "evidence_excerpt": "All that's left is for you to go build one", "narrative_ratio": 0.0}

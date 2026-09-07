@@ -1,0 +1,56 @@
+============================================================================
+一、指标判别力（Mann-Whitney U，n=10/机构，探索性未校正）
+============================================================================
+篇幅(词)        显著区分 3/10 对机构  cerebras×eleuther cerebras×openai cerebras×anthropic
+平均句长(词)      显著区分 4/10 对机构  cerebras×eleuther cerebras×databricks cerebras×anthropic databricks×anthropic
+P90句长(词)     显著区分 3/10 对机构  cerebras×eleuther cerebras×databricks cerebras×openai
+平均段长(词)      显著区分 5/10 对机构  cerebras×eleuther cerebras×databricks eleuther×openai eleuther×anthropic databricks×openai
+数字密度/千词      显著区分 5/10 对机构  cerebras×anthropic eleuther×databricks eleuther×openai eleuther×anthropic databricks×anthropic
+精确数字/千词      显著区分 5/10 对机构  cerebras×eleuther eleuther×databricks eleuther×openai eleuther×anthropic databricks×anthropic
+年份锚点/千词      显著区分 4/10 对机构  cerebras×anthropic eleuther×anthropic databricks×openai openai×anthropic
+限定语/千词       显著区分 3/10 对机构  eleuther×databricks databricks×openai databricks×anthropic
+断言绝对化/千词     显著区分 0/10 对机构  
+全称量词/千词      显著区分 3/10 对机构  cerebras×eleuther cerebras×databricks cerebras×openai
+第一人称         显著区分 6/10 对机构  cerebras×eleuther cerebras×databricks cerebras×openai cerebras×anthropic eleuther×databricks databricks×openai
+客观自指         显著区分 3/10 对机构  cerebras×anthropic databricks×anthropic openai×anthropic
+问句数          显著区分 0/10 对机构  
+TTR          显著区分 6/10 对机构  cerebras×eleuther cerebras×openai cerebras×anthropic eleuther×databricks databricks×openai databricks×anthropic
+
+============================================================================
+二、判别力排序（秩化 F 比率：组间差异/组内差异）
+============================================================================
+   1. TTR          F=1.08  显著对=6/10
+   2. 数字密度/千词      F=0.79  显著对=5/10
+   3. 精确数字/千词      F=0.73  显著对=5/10
+   4. 第一人称         F=0.67  显著对=6/10
+   5. 平均段长(词)      F=0.55  显著对=5/10
+   6. 年份锚点/千词      F=0.55  显著对=4/10
+   7. 限定语/千词       F=0.37  显著对=3/10
+   8. 平均句长(词)      F=0.35  显著对=4/10
+   9. P90句长(词)     F=0.26  显著对=3/10
+  10. 全称量词/千词      F=0.24  显著对=3/10
+  11. 客观自指         F=0.23  显著对=3/10
+  12. 篇幅(词)        F=0.20  显著对=3/10
+  13. 断言绝对化/千词     F=0.09  显著对=0/10
+  14. 问句数          F=0.02  显著对=0/10
+
+============================================================================
+三、LOO 最近质心归属（z-score 标准化指标向量）
+============================================================================
+总准确率：78%（39/50）
+真实\预测           cerebras    eleuther  databricks      openai   anthropic
+cerebras               9           0           0           0           1
+eleuther               1           7           0           1           1
+databricks             1           0           8           1           0
+openai                 2           0           0           6           2
+anthropic              0           0           0           1           9
+逐机构准确率：cerebras=9/10, eleuther=7/10, databricks=8/10, openai=6/10, anthropic=9/10
+
+============================================================================
+四、每机构最显著偏离指标（vs 其余四库 pooled，Mann-Whitney）
+============================================================================
+  cerebras   最显著: 第一人称（低，p=0.000）
+  eleuther   最显著: 精确数字/千词（高，p=0.000）
+  databricks 最显著: TTR（高，p=0.001）
+  openai     最显著: 精确数字/千词（低，p=0.023）
+  anthropic  最显著: 数字密度/千词（低，p=0.000）

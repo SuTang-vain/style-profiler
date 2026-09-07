@@ -1,0 +1,101 @@
+{
+ "file": "scaling-small-llms-nvidia-mps.md",
+ "lang": "en",
+ "title": "Scaling Small LLMs with NVIDIA MPS",
+ "cjk_chars": 0,
+ "word_count": 901,
+ "reading_time_min": 3.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 32,
+  "avg_sentence_len": 28.6,
+  "median_sentence_len": 20.0,
+  "p90_sentence_len": 39,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 29,
+  "avg_paragraph_len": 31.6,
+  "median_paragraph_len": 12,
+  "p90_paragraph_len": 72,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 22,
+  "number_per_1k": 24.42,
+  "precise_numbers": 3,
+  "precise_per_1k": 3.33,
+  "year_anchors": 0,
+  "year_per_1k": 0.0,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 5.55,
+  "hedge_examples": [
+   {
+    "term": "early",
+    "excerpt": "Very small language models (≤3B parameters) with short-to-medium context (50% th"
+   },
+   {
+    "term": "could",
+    "excerpt": "To pinpoint exactly why, we broke down the problem along the two core building b"
+   },
+   {
+    "term": "might",
+    "excerpt": "For small models, the MLP layer might not saturate compute even with more tokens"
+   }
+  ],
+  "absolutist_hits": 0.0,
+  "absolutist_examples": [],
+  "quantifier_hits": 17.76,
+  "first_person_count": 12,
+  "objective_selfref_count": 0,
+  "exclamations": 1,
+  "questions": 2,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.522,
+  "top_terms": [
+   "mps×13",
+   "databricks×12",
+   "compute×10",
+   "small×9",
+   "gpu×9",
+   "data×9",
+   "context×8",
+   "memory×7",
+   "mlp×7",
+   "partner×6",
+   "scaling×5",
+   "bandwidth×5",
+   "per×5",
+   "gains×5",
+   "attention×5"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Scaling Small LLMs with NVIDIA MPS",
+  "title_len": 34,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

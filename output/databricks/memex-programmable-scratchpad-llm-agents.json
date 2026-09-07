@@ -1,0 +1,114 @@
+{
+ "file": "memex-programmable-scratchpad-llm-agents.md",
+ "lang": "en",
+ "title": "MemEx: A Programmable Scratchpad for LLM Agents",
+ "cjk_chars": 0,
+ "word_count": 2627,
+ "reading_time_min": 9.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 123,
+  "avg_sentence_len": 21.9,
+  "median_sentence_len": 19,
+  "p90_sentence_len": 35,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 62,
+  "avg_paragraph_len": 43.4,
+  "median_paragraph_len": 29.0,
+  "p90_paragraph_len": 101,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 93,
+  "number_per_1k": 35.4,
+  "precise_numbers": 28,
+  "precise_per_1k": 10.66,
+  "year_anchors": 7,
+  "year_per_1k": 2.66,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 4.95,
+  "hedge_examples": [
+   {
+    "term": "could",
+    "excerpt": "In 1945, Vannevar Bush imagined a desk-sized machine that would extend a scienti"
+   },
+   {
+    "term": "might",
+    "excerpt": "In the current Agentic Tool Calling paradigm, the context window is the only per"
+   },
+   {
+    "term": "early",
+    "excerpt": "On hard enterprise structured retrieval tasks, Figure 1 shows that MemEx pushes "
+   }
+  ],
+  "absolutist_hits": 1.52,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "Enterprise Structured Retrieval asks the agent to answer natural-language questi"
+   },
+   {
+    "term": "must",
+    "excerpt": "For Search Strategy and Execution errors, MemEx finds that the MemEx agent had a"
+   },
+   {
+    "term": "always",
+    "excerpt": "For Search Strategy and Execution errors, MemEx finds that the MemEx agent had a"
+   }
+  ],
+  "quantifier_hits": 6.09,
+  "first_person_count": 14,
+  "objective_selfref_count": 0,
+  "exclamations": 1,
+  "questions": 3,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.368,
+  "top_terms": [
+   "memex×54",
+   "tool×50",
+   "agent×47",
+   "calling×32",
+   "data×21",
+   "across×18",
+   "python×18",
+   "code×17",
+   "databricks×13",
+   "trajectories×13",
+   "agentic×11",
+   "figure×11",
+   "structured×11",
+   "agents×10",
+   "calls×10"
+  ],
+  "en_char_ratio": null,
+  "title_text": "MemEx: A Programmable Scratchpad for LLM Agents",
+  "title_len": 47,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}
