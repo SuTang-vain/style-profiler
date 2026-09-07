@@ -1,13 +1,17 @@
 ---
 name: style-profiler
-description: 研究性文章风格分析与提取工具，双模式。模式一「拆解建档」：当用户要求分析/拆解某媒体、公众号、博客的文章风格，提取写作结构、语言风格、用词特征，生成《风格档案》时使用。模式二「发布自检」：当用户要求在发布前检查稿件是否符合某风格档案/栏目规范（句长、限定语、术语一致性、段落重复等）时使用。适用中文与英文研究性文章（深度报告、行业分析、研究综述、工程复盘）。
+description: 研究性文章风格分析与提取工具，双模式。模式一「拆解建档」：当用户要求分析/拆解某媒体、公众号、博客的文章风格，提取写作结构、语言风格、用词特征，生成《风格档案》时使用（analyze a publication's writing style / build a style profile）。模式二「发布自检」：当用户要求在发布前检查稿件是否符合某风格档案/栏目规范（句长、限定语、术语一致性、段落重复等）时使用（pre-publication style check）。适用中文与英文研究性文章（深度报告、行业分析、研究综述、工程复盘）。
 ---
 
 # Style Profiler · 研究性文章风格分析与自检
 
 针对**研究性文章**（非营销号）的风格拆解工具。架构：Python 统计层（确定性指标，完全可信）+ LLM 标注层（按 rubric，必须带原文证据）+ 人工裁决位（⚑ 条目）。
 
-**项目根目录（所有路径以此为基准）**：本文件向上两级的目录（即包含 `profiler.py` 的仓库根目录）。
+**项目根目录（所有路径以此为基准）**：包含 `profiler.py` 的仓库根目录。
+
+**环境自检（每次使用前）**：
+1. 定位仓库根：本文件位于 `<仓库根>/skills/style-profiler/SKILL.md`，向上两级即仓库根。若本 skill 被单独安装、身旁没有 `profiler.py`，先执行 `git clone https://github.com/SuTang-vain/style-profiler` 并以克隆目录为项目根。
+2. 依赖：`python3`；中文词汇指标需要 `jieba`（缺则 `pip3 install jieba`，缺失时词汇指标自动降级跳过，其余指标不受影响）。
 
 | 资产 | 路径（相对项目根） |
 |---|---|
@@ -25,7 +29,7 @@ description: 研究性文章风格分析与提取工具，双模式。模式一�
 用户说"分析 X 媒体的风格 / 给 X 建风格档案 / 拆解 X 的写法"时执行：
 
 ### Step 1 语料采集（目标 10-15 篇，按栏目分层而非按爆款）
-- 有 URL 清单：用浏览器逐篇打开（OpenAI 类站点会遇到 Cloudflare 验证壳，等待 3-6 秒自动通过后确认 `tab.title()` 不含 "Just a moment" 再提取），正文提取用 `document.querySelector('article')` 遍历 `h1-h3/p/li/blockquote` 转 Markdown。
+- 有 URL 清单：使用当前环境可用的网页获取能力（浏览器工具 / URL 抓取 / curl 等，按各 Agent 能力自选）逐篇获取正文，转为 Markdown（保留 h1-h3/p/li/blockquote/table，去除导航与页脚）。若站点有反爬验证壳（如 Cloudflare "Just a moment"），优先换用浏览器工具等待验证通过；仍失败则跳过该篇并记录。
 - 有本地文件（md/PDF 转 md）：直接复制进 `corpus/<媒体名>/`。
 - 清理：去掉页面 sticky 目录重复、导航残留；排除非文章文件（英文 SKILL 原文等）——记录在档案语料说明里。
 

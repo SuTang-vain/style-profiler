@@ -26,14 +26,22 @@ rubric/
 templates/
   style-profile-template.md    # 《风格档案》输出模板
   genre-playbooks-openai.md    # OpenAI 四子体裁语步模板（10 篇全量标注定稿）
-skills/style-profiler/SKILL.md # 生产流技能（软链至 ~/.zcode/skills/，双模式）
+skills/style-profiler/SKILL.md # 生产流技能（Agent Skills 标准格式，跨平台，双模式）
 corpus/                        # 语料（kezhongke 10 篇中文·五体裁各2 / openai 10 篇英文 / anthropic 10 篇英文）
 output/                        # 每篇 JSON + _aggregate.json + 档案 + annotations/（output/kezhongke 为 24 篇全量存档，v10 子集结果在 output/kezhongke-v10）
 ```
 
-## 生产流接入（2026-09-06）
+## 安装（任意 Agent，三选一）
 
-技能已软链至 `~/.zcode/skills/style-profiler`，对 Agent 说：
+1. **skills.sh（推荐，跨平台）**：`npx skills add SuTang-vain/style-profiler` —— 自动适配 Claude Code、Codex CLI、Cursor 等兼容 Agent Skills 标准的平台。
+2. **手动安装**：克隆本仓库，把 `skills/style-profiler/` 复制或软链到你的 Agent 技能目录（如 Claude Code 为 `~/.claude/skills/`，其他 Agent 参照各自技能目录约定）。skill 内所有资产路径均相对仓库根解析。
+3. **零安装**：直接让 Agent 阅读本仓库的 `skills/style-profiler/SKILL.md` 作为指令执行——SKILL.md 本身即是完整操作手册。
+
+依赖：`python3`；中文词汇指标需 `jieba`（`pip3 install jieba`，缺失时自动降级跳过）。
+
+## 生产流接入
+
+安装后对 Agent 说：
 - **"分析 X 媒体的风格"** / **"给 X 建风格档案"** → 模式一（拆解建档）；
 - **"发布前检查这篇稿"** / **"自检是否符合 X 的风格"** → 模式二（发布自检，对照已有档案基线 + 术语一致性/段落重复检查）。
 
