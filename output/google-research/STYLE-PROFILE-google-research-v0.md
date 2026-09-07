@@ -26,18 +26,19 @@
 † OpenAI/Anthropic 正文不入库，MATTR 待重采后补。
 > 指纹（discriminate.py，vs 余六库 pooled）：**限定语最低**（4.4 vs 库群 ~7.9，p=0.005，q=0.005，过 FDR）——跨库最"少声明"的稳健叙述，与 Anthropic 的高限定语（9.6）形成两极。
 
-## 3. 结构信号（抽样观察，待全量标注）
+## 3. 结构信号（rubric 01 全量标注：connectomics 篇，27 段 → 15 标注）
 
-- 开场：设问或动机句直入（"What if..." / 科学问题），无场景 HOOK；
-- 论证：模型/方法 → 基准对比 → 消融或案例；几乎无 COUNTER；
-- 收尾：展望/局限声明（"unclear if this is a robust relationship" 式）；
-- **应用科学混合体**：健康/气候/神经科学题材占 6/10——"研究机构输出科学发现"而非纯 AI 博客。
+- **语步骨架**：FRAME（成果声明前置）→ CONTEXT → ARGUE×6（数据锚定+图注）→ CONTEXT → ARGUE×2 → APPLY×2（推广：鱼类/斑马鱼）→ ARGUE → CLOSE（愿景）
+- 特征：**零叙事、零 COUNTER**——无失败/反转弧，无反方观点；正向"成果→方法→推广"推进；
+- **图注段 4/15 为 ARGUE 证据**（图形证据占比高，同 EleutherAI 文体）；
+- **APPLY 是合作科学体的扩展轴**——"已经推广到 XX"（鱼类→斑马鱼→鼠）而非 OpenAI 式的"教训"或 Cerebras 式的"教程"；
+- 完整标注：`output/google-research/annotations/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain.moves.jsonl`
 
 ## 4. 待人工裁决项
 
 - ⚑ 与壳中客"探索体"的对照：行星预测引擎/GlucoFM 等"模型+科学应用"文是否构成英文"应用报告体"；
-- 语步全量标注未做（推荐 connectomics 篇——合作科学体代表）；
-- "机构合作科学体"（institutional-collaboration-science）信号在本库最强，是否升为 rubric 00 英文子体裁待定。
+- connectomics 篇已全量语步标注（其余 9 篇待标）；
+- "机构合作科学体"（institutional-collaboration-science）信号在本库最强——零叙事+图注驱动+APPLY 扩展轴的组合是否升为 rubric 00 英文子体裁待定。
 
 ## 5. 语料清单
 

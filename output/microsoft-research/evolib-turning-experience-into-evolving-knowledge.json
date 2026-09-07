@@ -3,7 +3,7 @@
  "lang": "en",
  "title": "EvoLib: Turning experience into evolving knowledge",
  "cjk_chars": 0,
- "word_count": 1103,
+ "word_count": 1099,
  "reading_time_min": 4.0,
  "structure": {
   "h2_count": 0,
@@ -16,21 +16,21 @@
  },
  "sentences": {
   "sentence_count": 57,
-  "avg_sentence_len": 19.5,
+  "avg_sentence_len": 19.4,
   "median_sentence_len": 18,
   "p90_sentence_len": 30,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 27,
-  "avg_paragraph_len": 41.1,
+  "avg_paragraph_len": 41,
   "median_paragraph_len": 27,
   "p90_paragraph_len": 101,
   "one_line_paragraphs": 0
  },
  "evidence": {
   "number_tokens": 5,
-  "number_per_1k": 4.53,
+  "number_per_1k": 4.55,
   "precise_numbers": 0,
   "precise_per_1k": 0.0,
   "year_anchors": 1,
@@ -41,7 +41,7 @@
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 9.97,
+  "hedge_hits": 10.01,
   "hedge_examples": [
    {
     "term": "about",
@@ -56,7 +56,7 @@
     "excerpt": "Unlike traditional AI memory systems that store raw experiences as static inform"
    }
   ],
-  "absolutist_hits": 1.81,
+  "absolutist_hits": 1.82,
   "absolutist_examples": [
    {
     "term": "everyone",
@@ -67,7 +67,7 @@
     "excerpt": "A natural question is whether such learning depends heavily on the order in whic"
    }
   ],
-  "quantifier_hits": 4.53,
+  "quantifier_hits": 4.55,
   "first_person_count": 11,
   "objective_selfref_count": 0,
   "exclamations": 0,
@@ -76,7 +76,7 @@
  },
  "diction": {
   "ttr": 0.387,
-  "mattr": 0.683,
+  "mattr": 0.682,
   "top_terms": [
    "knowledge×29",
    "evolib×24",

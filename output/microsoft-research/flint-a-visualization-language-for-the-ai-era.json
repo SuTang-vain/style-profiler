@@ -3,7 +3,7 @@
  "lang": "en",
  "title": "Flint: A visualization language for the AI era",
  "cjk_chars": 0,
- "word_count": 1122,
+ "word_count": 1102,
  "reading_time_min": 4.0,
  "structure": {
   "h2_count": 0,
@@ -16,32 +16,32 @@
  },
  "sentences": {
   "sentence_count": 53,
-  "avg_sentence_len": 21.2,
+  "avg_sentence_len": 20.8,
   "median_sentence_len": 21,
-  "p90_sentence_len": 33,
+  "p90_sentence_len": 32,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 24,
-  "avg_paragraph_len": 46.8,
+  "avg_paragraph_len": 46.0,
   "median_paragraph_len": 38.0,
-  "p90_paragraph_len": 92,
+  "p90_paragraph_len": 90,
   "one_line_paragraphs": 1
  },
  "evidence": {
   "number_tokens": 15,
-  "number_per_1k": 13.37,
+  "number_per_1k": 13.61,
   "precise_numbers": 8,
-  "precise_per_1k": 7.13,
+  "precise_per_1k": 7.26,
   "year_anchors": 1,
-  "year_per_1k": 0.89,
+  "year_per_1k": 0.91,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 1.78,
+  "hedge_hits": 1.81,
   "hedge_examples": [
    {
     "term": "about",
@@ -52,7 +52,7 @@
     "excerpt": "Flint points toward a shared semantic layer for visualization, where people and "
    }
   ],
-  "absolutist_hits": 1.78,
+  "absolutist_hits": 1.81,
   "absolutist_examples": [
    {
     "term": "must",
@@ -63,7 +63,7 @@
     "excerpt": "To produce a high-quality heatmap, traditionally, we need to explicitly tell the"
    }
   ],
-  "quantifier_hits": 1.78,
+  "quantifier_hits": 1.81,
   "first_person_count": 7,
   "objective_selfref_count": 0,
   "exclamations": 0,
@@ -71,7 +71,7 @@
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.416,
+  "ttr": 0.421,
   "mattr": 0.712,
   "top_terms": [
    "flint×28",

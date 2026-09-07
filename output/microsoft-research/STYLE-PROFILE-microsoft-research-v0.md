@@ -26,17 +26,18 @@
 † OpenAI/Anthropic 正文不入库，MATTR 待重采后补。
 > 指纹（discriminate.py，vs 余六库 pooled）：**第一人称最低**（9.0 vs 库群 ~26，p=0.002，q=0.002，过 FDR）——七库中最"无我"的研究文体；Cerebras（10.5）同处低段，但机制不同（Cerebras 是营销型第三人称，MSR 是机构化陈述）。
 
-## 3. 结构信号（抽样观察，待全量标注）
+## 3. 结构信号（rubric 01 全量标注：orchard 篇，33 段 → 24 标注）
 
-- 开场：直接进入系统动机，无叙事弧；
-- 论证：自建工具 + 评测（含医学/安全领域评测）；COUNTER 罕见；
-- 收尾：开放生态/未来方向（"Learn more" 连接论文与开源）；
-- 特色：**每篇都配论文/开源链接**（tech report 外链在正文内），但 innerText 提取抹平链接——档案外链指标失真需注意。
+- **语步骨架**：FRAME（摘要前置）→ CONTEXT×2 → ARGUE×7（方案/设计/架构）→ CONTEXT → ARGUE×3 → CONTEXT → ARGUE×6（三个子题各：需求→方法→结果）→ APPLY×3（含义+两条展望）
+- 特征：**零叙事、零 COUNTER**——纯正向"动机→方案→评测→落点"；三个产品子题（SWE/GUI/Claw）严格同构嵌套，是系统文的标准模板；
+- 每个子题 = CONTEXT（领域需求）+ ARGUE（训练方法→数字结果）**内聚成块**——与 Databricks 的固定骨架同族，但更系统化；
+- **APPLY×3 是收尾三连**（环境层含义 + 经验复用 + 数据效率）——与 connectomics 的 APPLY（跨物种扩展）不同，此处是"框架级意义"陈述；
+- 完整标注：`output/microsoft-research/annotations/orchard-an-open-framework-for-scalable-agentic-ai.moves.jsonl`
 
 ## 4. 待人工裁决项
 
-- ⚑ 与 Databricks"工程化评测派"的亲缘：MSR 更偏系统、Databricks 更偏基准——需 rubric 00 定夺是否同族分叉；
-- 语步全量标注未做（推荐 Orchard 篇）；
+- ⚑ 与 Databricks"工程化评测派"的亲缘：MSR 更偏系统、Databricks 更偏基准——orchard 语步实证：两者同属"系统文模板"（CONTEXT→ARGUE 块×n→APPLY），差异在落点（MSR 框架级意义 vs Databricks 基准宣称）；
+- orchard 篇已全量语步标注（其余 9 篇待标）；
 - "集体署名"是否应记入 rubric 02 的 source_tier（机构信用 vs 个人信用层）。
 
 ## 5. 语料清单

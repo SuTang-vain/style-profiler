@@ -1,0 +1,24 @@
+{"para": 5, "heading": "(开篇)", "move": "FRAME", "sub": "摘要前置", "evidence_excerpt": "Orchard is an open-source framework", "narrative_ratio": 0.0}
+{"para": 6, "heading": "(开篇)", "move": "CONTEXT", "sub": "领域背景", "evidence_excerpt": "moving beyond static question-answering", "narrative_ratio": 0.0}
+{"para": 7, "heading": "(开篇)", "move": "CONTEXT", "sub": "瓶颈", "evidence_excerpt": "requires proprietary infrastructure", "narrative_ratio": 0.0}
+{"para": 8, "heading": "(开篇)", "move": "ARGUE", "sub": "方案引入", "evidence_excerpt": "we introduce Orchard", "narrative_ratio": 0.0}
+{"para": 9, "heading": "(开篇)", "move": "ARGUE", "sub": "设计哲学：复用", "evidence_excerpt": "designed to support different agent systems", "narrative_ratio": 0.0}
+{"para": 10, "heading": "(开篇)", "move": "ARGUE", "sub": "domain recipes 发布", "evidence_excerpt": "releasing three domain-specific training recipes", "narrative_ratio": 0.0}
+{"para": 11, "heading": "(开篇)", "move": "ARGUE", "sub": "核心架构：Env 独立服务", "evidence_excerpt": "runtime environment should be a standalone", "narrative_ratio": 0.0}
+{"para": 12, "heading": "(开篇)", "move": "ARGUE", "sub": "跨任务/跨阶段设计", "evidence_excerpt": "work across different agent systems", "narrative_ratio": 0.0}
+{"para": 13, "heading": "(开篇)", "move": "ARGUE", "sub": "研究规模实用性", "evidence_excerpt": "without rebuilding the underlying infrastructure", "narrative_ratio": 0.0}
+{"para": 14, "heading": "(开篇)", "move": "ARGUE", "sub": "harness 内训练", "evidence_excerpt": "a lightweight proxy records the harness's", "narrative_ratio": 0.0}
+{"para": 16, "heading": "Orchard-SWE", "move": "CONTEXT", "sub": "领域需求", "evidence_excerpt": "most demanding settings for autonomous agents", "narrative_ratio": 0.0}
+{"para": 17, "heading": "Orchard-SWE", "move": "ARGUE", "sub": "训练数据", "evidence_excerpt": "distilled 107,000 agent interactions", "narrative_ratio": 0.0}
+{"para": 18, "heading": "Orchard-SWE", "move": "ARGUE", "sub": "RL+稠密奖励", "evidence_excerpt": "on-policy distillation", "narrative_ratio": 0.0}
+{"para": 19, "heading": "Orchard-SWE", "move": "ARGUE", "sub": "结果：61.4→69.7→73%", "evidence_excerpt": "rises to 73% with value-model reranking", "narrative_ratio": 0.0}
+{"para": 21, "heading": "Orchard-GUI", "move": "CONTEXT", "sub": "领域挑战", "evidence_excerpt": "interpret visual layouts, interact with dynamic", "narrative_ratio": 0.0}
+{"para": 22, "heading": "Orchard-GUI", "move": "ARGUE", "sub": "训练+基准结果", "evidence_excerpt": "74.1% on WebVoyager", "narrative_ratio": 0.0}
+{"para": 23, "heading": "Orchard-GUI", "move": "ARGUE", "sub": "图1说明", "evidence_excerpt": "Performance comparison", "narrative_ratio": 0.0}
+{"para": 24, "heading": "Orchard-GUI", "move": "ARGUE", "sub": "结论", "evidence_excerpt": "strongest open-source web agents", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Orchard-Claw", "move": "ARGUE", "sub": "任务+基准", "evidence_excerpt": "59.6% of tasks", "narrative_ratio": 0.0}
+{"para": 27, "heading": "Orchard-Claw", "move": "ARGUE", "sub": "harness 训练收益", "evidence_excerpt": "rises from 18.6% for the untrained model", "narrative_ratio": 0.0}
+{"para": 28, "heading": "Orchard-Claw", "move": "ARGUE", "sub": "图2说明", "evidence_excerpt": "Overview of the Orchard framework", "narrative_ratio": 0.0}
+{"para": 29, "heading": "Orchard-Claw", "move": "APPLY", "sub": "含义：环境层", "evidence_excerpt": "the environment layer matters", "narrative_ratio": 0.0}
+{"para": 30, "heading": "Orchard-Claw", "move": "APPLY", "sub": "展望：经验复用", "evidence_excerpt": "reusing training experience", "narrative_ratio": 0.0}
+{"para": 31, "heading": "Orchard-Claw", "move": "APPLY", "sub": "展望：数据效率", "evidence_excerpt": "larger-scale web agents could be trained", "narrative_ratio": 0.0}

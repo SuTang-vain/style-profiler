@@ -3,7 +3,7 @@
  "lang": "en",
  "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
  "cjk_chars": 0,
- "word_count": 956,
+ "word_count": 952,
  "reading_time_min": 3.0,
  "structure": {
   "h2_count": 0,
@@ -16,21 +16,21 @@
  },
  "sentences": {
   "sentence_count": 42,
-  "avg_sentence_len": 23.1,
+  "avg_sentence_len": 23.0,
   "median_sentence_len": 22.0,
   "p90_sentence_len": 37,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 24,
-  "avg_paragraph_len": 40.5,
+  "avg_paragraph_len": 40.3,
   "median_paragraph_len": 40.0,
   "p90_paragraph_len": 66,
   "one_line_paragraphs": 0
  },
  "evidence": {
   "number_tokens": 5,
-  "number_per_1k": 5.23,
+  "number_per_1k": 5.25,
   "precise_numbers": 0,
   "precise_per_1k": 0.0,
   "year_anchors": 1,
@@ -41,7 +41,7 @@
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 9.41,
+  "hedge_hits": 9.45,
   "hedge_examples": [
    {
     "term": "suggest",
@@ -56,7 +56,7 @@
     "excerpt": "Continuity asks whether a path or object remains unbroken.\nSeparation asks wheth"
    }
   ],
-  "absolutist_hits": 4.18,
+  "absolutist_hits": 4.2,
   "absolutist_examples": [
    {
     "term": "essential",
@@ -64,14 +64,14 @@
    },
    {
     "term": "must",
-    "excerpt": "In a new research study, we introduce MindTopo\n(opens in new tab)\n, a benchmark "
+    "excerpt": "In a new research study, we introduce MindTopo\n, a benchmark designed to evaluat"
    },
    {
     "term": "must",
     "excerpt": "Each category is evaluated at two cognitive levels. In reasoning tasks, a model "
    }
   ],
-  "quantifier_hits": 3.14,
+  "quantifier_hits": 3.15,
   "first_person_count": 3,
   "objective_selfref_count": 0,
   "exclamations": 0,

@@ -3,8 +3,8 @@
  "lang": "en",
  "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
  "cjk_chars": 0,
- "word_count": 1358,
- "reading_time_min": 5.0,
+ "word_count": 1334,
+ "reading_time_min": 4.0,
  "structure": {
   "h2_count": 0,
   "h3_count": 0,
@@ -16,40 +16,40 @@
  },
  "sentences": {
   "sentence_count": 70,
-  "avg_sentence_len": 19.9,
+  "avg_sentence_len": 19.5,
   "median_sentence_len": 18.0,
-  "p90_sentence_len": 32,
+  "p90_sentence_len": 29,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 41,
-  "avg_paragraph_len": 33.9,
+  "avg_paragraph_len": 33.3,
   "median_paragraph_len": 32,
   "p90_paragraph_len": 69,
   "one_line_paragraphs": 0
  },
  "evidence": {
   "number_tokens": 38,
-  "number_per_1k": 27.98,
+  "number_per_1k": 28.49,
   "precise_numbers": 4,
-  "precise_per_1k": 2.95,
+  "precise_per_1k": 3.0,
   "year_anchors": 3,
-  "year_per_1k": 2.21,
+  "year_per_1k": 2.25,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 10.31,
+  "hedge_hits": 10.49,
   "hedge_examples": [
    {
     "term": "may",
-    "excerpt": "GigaPath\n(opens in new tab)\nand GigaTIME\n(opens in new tab)\ndemonstrated how fou"
+    "excerpt": "GigaPath\nand GigaTIME\ndemonstrated how foundation models can support whole-slide"
    },
    {
     "term": "toward",
-    "excerpt": "GigaPath\n(opens in new tab)\nand GigaTIME\n(opens in new tab)\ndemonstrated how fou"
+    "excerpt": "GigaPath\nand GigaTIME\ndemonstrated how foundation models can support whole-slide"
    },
    {
     "term": "early",
@@ -58,7 +58,7 @@
   ],
   "absolutist_hits": 0.0,
   "absolutist_examples": [],
-  "quantifier_hits": 4.42,
+  "quantifier_hits": 4.5,
   "first_person_count": 9,
   "objective_selfref_count": 0,
   "exclamations": 0,
@@ -66,7 +66,7 @@
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.418,
+  "ttr": 0.424,
   "mattr": 0.698,
   "top_terms": [
    "gigatime-flash×20",

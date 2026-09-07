@@ -3,7 +3,7 @@
  "lang": "en",
  "title": "Broadening access to Skala creates a faster path to predictive DFT",
  "cjk_chars": 0,
- "word_count": 1744,
+ "word_count": 1692,
  "reading_time_min": 6.0,
  "structure": {
   "h2_count": 0,
@@ -16,32 +16,32 @@
  },
  "sentences": {
   "sentence_count": 68,
-  "avg_sentence_len": 25.8,
+  "avg_sentence_len": 25.0,
   "median_sentence_len": 24.0,
   "p90_sentence_len": 38,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 37,
-  "avg_paragraph_len": 47.5,
-  "median_paragraph_len": 50,
+  "avg_paragraph_len": 46.1,
+  "median_paragraph_len": 44,
   "p90_paragraph_len": 88,
   "one_line_paragraphs": 0
  },
  "evidence": {
   "number_tokens": 50,
-  "number_per_1k": 28.67,
+  "number_per_1k": 29.55,
   "precise_numbers": 13,
-  "precise_per_1k": 7.45,
+  "precise_per_1k": 7.68,
   "year_anchors": 1,
-  "year_per_1k": 0.57,
+  "year_per_1k": 0.59,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 4.01,
+  "hedge_hits": 4.14,
   "hedge_examples": [
    {
     "term": "toward",
@@ -56,7 +56,7 @@
     "excerpt": "Together, these developments mark another milestone toward a future in which com"
    }
   ],
-  "absolutist_hits": 2.29,
+  "absolutist_hits": 2.36,
   "absolutist_examples": [
    {
     "term": "must",
@@ -71,7 +71,7 @@
     "excerpt": "There is more to come. Together with its vibrant developer’s community , we are "
    }
   ],
-  "quantifier_hits": 6.31,
+  "quantifier_hits": 6.5,
   "first_person_count": 24,
   "objective_selfref_count": 2,
   "exclamations": 0,
@@ -79,16 +79,14 @@
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.35,
-  "mattr": 0.708,
+  "ttr": 0.36,
+  "mattr": 0.716,
   "top_terms": [
    "skala×44",
    "accuracy×16",
    "senior×15",
    "computational×14",
    "dft×13",
-   "opens×13",
-   "tab×13",
    "across×12",
    "research×11",
    "software×11",
@@ -96,7 +94,9 @@
    "chemistry×10",
    "researcher×9",
    "molecular×9",
-   "community×9"
+   "community×9",
+   "functional×9",
+   "available×8"
   ],
   "en_char_ratio": null,
   "title_text": "Broadening access to Skala creates a faster path to predictive DFT",

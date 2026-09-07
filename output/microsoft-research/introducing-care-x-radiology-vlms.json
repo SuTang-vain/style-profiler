@@ -3,7 +3,7 @@
  "lang": "en",
  "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
  "cjk_chars": 0,
- "word_count": 2602,
+ "word_count": 2554,
  "reading_time_min": 9.0,
  "structure": {
   "h2_count": 0,
@@ -16,32 +16,32 @@
  },
  "sentences": {
   "sentence_count": 120,
-  "avg_sentence_len": 22.7,
+  "avg_sentence_len": 22.3,
   "median_sentence_len": 19.0,
   "p90_sentence_len": 41,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 63,
-  "avg_paragraph_len": 43.3,
-  "median_paragraph_len": 36,
+  "avg_paragraph_len": 42.6,
+  "median_paragraph_len": 35,
   "p90_paragraph_len": 89,
   "one_line_paragraphs": 1
  },
  "evidence": {
   "number_tokens": 121,
-  "number_per_1k": 46.5,
+  "number_per_1k": 47.38,
   "precise_numbers": 79,
-  "precise_per_1k": 30.36,
+  "precise_per_1k": 30.93,
   "year_anchors": 4,
-  "year_per_1k": 1.54,
+  "year_per_1k": 1.57,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 10.38,
+  "hedge_hits": 10.57,
   "hedge_examples": [
    {
     "term": "could",
@@ -56,7 +56,7 @@
     "excerpt": "Radiologists and other clinicians use chest X-rays for many different purposes. "
    }
   ],
-  "absolutist_hits": 2.31,
+  "absolutist_hits": 2.35,
   "absolutist_examples": [
    {
     "term": "must",
@@ -71,7 +71,7 @@
     "excerpt": "These tasks also require different kinds of outputs, from narrative reports to c"
    }
   ],
-  "quantifier_hits": 6.92,
+  "quantifier_hits": 7.05,
   "first_person_count": 6,
   "objective_selfref_count": 1,
   "exclamations": 0,
@@ -79,8 +79,8 @@
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.352,
-  "mattr": 0.72,
+  "ttr": 0.357,
+  "mattr": 0.723,
   "top_terms": [
    "care-x×37",
    "clinical×28",
@@ -93,10 +93,10 @@
    "findings×12",
    "chest×12",
    "enlargement×12",
-   "opens×12",
-   "tab×12",
    "measurement×11",
-   "generation×11"
+   "generation×11",
+   "across×11",
+   "radiology×10"
   ],
   "en_char_ratio": null,
   "title_text": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",

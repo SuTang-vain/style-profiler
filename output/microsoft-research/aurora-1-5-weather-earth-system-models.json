@@ -3,7 +3,7 @@
  "lang": "en",
  "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
  "cjk_chars": 0,
- "word_count": 1760,
+ "word_count": 1744,
  "reading_time_min": 6.0,
  "structure": {
   "h2_count": 0,
@@ -16,32 +16,32 @@
  },
  "sentences": {
   "sentence_count": 67,
-  "avg_sentence_len": 27.0,
+  "avg_sentence_len": 26.7,
   "median_sentence_len": 25,
   "p90_sentence_len": 49,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 38,
-  "avg_paragraph_len": 47.6,
+  "avg_paragraph_len": 47.1,
   "median_paragraph_len": 48.0,
-  "p90_paragraph_len": 99,
+  "p90_paragraph_len": 96,
   "one_line_paragraphs": 0
  },
  "evidence": {
   "number_tokens": 54,
-  "number_per_1k": 30.68,
+  "number_per_1k": 30.96,
   "precise_numbers": 30,
-  "precise_per_1k": 17.05,
+  "precise_per_1k": 17.2,
   "year_anchors": 10,
-  "year_per_1k": 5.68,
+  "year_per_1k": 5.73,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 7.95,
+  "hedge_hits": 8.03,
   "hedge_examples": [
    {
     "term": "could",
@@ -63,7 +63,7 @@
     "excerpt": "“This collaboration demonstrates how advanced AI capabilities and robust cloud i"
    }
   ],
-  "quantifier_hits": 3.98,
+  "quantifier_hits": 4.01,
   "first_person_count": 5,
   "objective_selfref_count": 2,
   "exclamations": 0,
@@ -71,8 +71,8 @@
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.369,
-  "mattr": 0.682,
+  "ttr": 0.372,
+  "mattr": 0.683,
   "top_terms": [
    "aurora×49",
    "weather×34",

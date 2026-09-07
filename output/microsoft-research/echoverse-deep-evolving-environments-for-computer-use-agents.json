@@ -3,7 +3,7 @@
  "lang": "en",
  "title": "Echoverse: Deep, evolving environments for computer-use agents",
  "cjk_chars": 0,
- "word_count": 4888,
+ "word_count": 4880,
  "reading_time_min": 16.0,
  "structure": {
   "h2_count": 0,
@@ -16,23 +16,23 @@
  },
  "sentences": {
   "sentence_count": 217,
-  "avg_sentence_len": 22.9,
+  "avg_sentence_len": 22.8,
   "median_sentence_len": 22,
   "p90_sentence_len": 39,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 76,
-  "avg_paragraph_len": 65.3,
+  "avg_paragraph_len": 65.2,
   "median_paragraph_len": 63.5,
   "p90_paragraph_len": 124,
   "one_line_paragraphs": 0
  },
  "evidence": {
   "number_tokens": 126,
-  "number_per_1k": 25.78,
+  "number_per_1k": 25.82,
   "precise_numbers": 66,
-  "precise_per_1k": 13.5,
+  "precise_per_1k": 13.52,
   "year_anchors": 2,
   "year_per_1k": 0.41,
   "external_links": 0,
@@ -56,7 +56,7 @@
     "excerpt": "Open, login-free sites might seem to remove the need for synthetic worlds, but t"
    }
   ],
-  "absolutist_hits": 3.27,
+  "absolutist_hits": 3.28,
   "absolutist_examples": [
    {
     "term": "must",
@@ -71,7 +71,7 @@
     "excerpt": "Every failure becomes an issue tagged by the layer that must change: database, b"
    }
   ],
-  "quantifier_hits": 8.8,
+  "quantifier_hits": 8.81,
   "first_person_count": 27,
   "objective_selfref_count": 2,
   "exclamations": 0,
@@ -79,7 +79,7 @@
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.266,
+  "ttr": 0.267,
   "mattr": 0.679,
   "top_terms": [
    "world×55",

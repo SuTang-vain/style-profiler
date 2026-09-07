@@ -3,7 +3,7 @@
  "lang": "en",
  "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
  "cjk_chars": 0,
- "word_count": 2404,
+ "word_count": 2392,
  "reading_time_min": 8.0,
  "structure": {
   "h2_count": 0,
@@ -16,21 +16,21 @@
  },
  "sentences": {
   "sentence_count": 114,
-  "avg_sentence_len": 21.5,
+  "avg_sentence_len": 21.4,
   "median_sentence_len": 19.0,
   "p90_sentence_len": 33,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 57,
-  "avg_paragraph_len": 43.0,
+  "avg_paragraph_len": 42.8,
   "median_paragraph_len": 44,
   "p90_paragraph_len": 71,
   "one_line_paragraphs": 0
  },
  "evidence": {
   "number_tokens": 49,
-  "number_per_1k": 20.38,
+  "number_per_1k": 20.48,
   "precise_numbers": 0,
   "precise_per_1k": 0.0,
   "year_anchors": 1,
@@ -41,7 +41,7 @@
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 4.58,
+  "hedge_hits": 4.6,
   "hedge_examples": [
    {
     "term": "initial",
@@ -56,7 +56,7 @@
     "excerpt": "Aeneas makes this possible by translating Rust’s mid-level representation into a"
    }
   ],
-  "absolutist_hits": 1.66,
+  "absolutist_hits": 1.67,
   "absolutist_examples": [
    {
     "term": "essential",
@@ -71,7 +71,7 @@
     "excerpt": "Production cryptography cannot ignore hardware. SymCrypt must run across environ"
    }
   ],
-  "quantifier_hits": 3.74,
+  "quantifier_hits": 3.76,
   "first_person_count": 15,
   "objective_selfref_count": 1,
   "exclamations": 0,
@@ -79,8 +79,8 @@
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.358,
-  "mattr": 0.688,
+  "ttr": 0.359,
+  "mattr": 0.69,
   "top_terms": [
    "code×37",
    "lean×33",

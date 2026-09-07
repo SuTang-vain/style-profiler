@@ -3,7 +3,7 @@
  "lang": "en",
  "title": "Orchard: An open framework for scalable agentic AI",
  "cjk_chars": 0,
- "word_count": 1601,
+ "word_count": 1576,
  "reading_time_min": 5.0,
  "structure": {
   "h2_count": 0,
@@ -15,33 +15,33 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 68,
-  "avg_sentence_len": 23.7,
-  "median_sentence_len": 21.0,
+  "sentence_count": 67,
+  "avg_sentence_len": 23.6,
+  "median_sentence_len": 21,
   "p90_sentence_len": 35,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 37,
-  "avg_paragraph_len": 43.5,
-  "median_paragraph_len": 41,
+  "paragraph_count": 33,
+  "avg_paragraph_len": 48,
+  "median_paragraph_len": 42,
   "p90_paragraph_len": 72,
   "one_line_paragraphs": 0
  },
  "evidence": {
   "number_tokens": 44,
-  "number_per_1k": 27.48,
+  "number_per_1k": 27.92,
   "precise_numbers": 19,
-  "precise_per_1k": 11.87,
+  "precise_per_1k": 12.06,
   "year_anchors": 1,
-  "year_per_1k": 0.62,
+  "year_per_1k": 0.63,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 6.87,
+  "hedge_hits": 6.98,
   "hedge_examples": [
    {
     "term": "about",
@@ -56,14 +56,14 @@
     "excerpt": "Alongside the models and workflows, the project releases training data and evalu"
    }
   ],
-  "absolutist_hits": 0.62,
+  "absolutist_hits": 0.63,
   "absolutist_examples": [
    {
     "term": "must",
     "excerpt": "Web navigation presents a different set of challenges. Agents must interpret vis"
    }
   ],
-  "quantifier_hits": 5.62,
+  "quantifier_hits": 5.71,
   "first_person_count": 9,
   "objective_selfref_count": 0,
   "exclamations": 0,
@@ -71,7 +71,7 @@
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.381,
+  "ttr": 0.383,
   "mattr": 0.73,
   "top_terms": [
    "training×26",
@@ -80,10 +80,10 @@
    "agent×16",
    "across×13",
    "tasks×13",
-   "research×12",
    "data×11",
    "systems×11",
    "agentic×10",
+   "research×9",
    "web×9",
    "environment×8",
    "orchard-swe×8",
