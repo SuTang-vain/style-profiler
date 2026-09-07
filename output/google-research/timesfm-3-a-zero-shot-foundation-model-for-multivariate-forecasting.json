@@ -1,0 +1,98 @@
+{
+ "file": "timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting.md",
+ "lang": "en",
+ "title": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+ "cjk_chars": 0,
+ "word_count": 1167,
+ "reading_time_min": 4.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 55,
+  "avg_sentence_len": 21.3,
+  "median_sentence_len": 20,
+  "p90_sentence_len": 32,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 32,
+  "avg_paragraph_len": 36.6,
+  "median_paragraph_len": 17.5,
+  "p90_paragraph_len": 84,
+  "one_line_paragraphs": 1
+ },
+ "evidence": {
+  "number_tokens": 37,
+  "number_per_1k": 31.71,
+  "precise_numbers": 6,
+  "precise_per_1k": 5.14,
+  "year_anchors": 3,
+  "year_per_1k": 2.57,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 1.71,
+  "hedge_examples": [
+   {
+    "term": "uncertain",
+    "excerpt": "Previous versions of TimesFM generated forecasts one patch at a time, introducin"
+   },
+   {
+    "term": "about",
+    "excerpt": "Let’s revisit the ice cream sales example. Imagine you are working on next month"
+   }
+  ],
+  "absolutist_hits": 0.0,
+  "absolutist_examples": [],
+  "quantifier_hits": 7.71,
+  "first_person_count": 9,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.403,
+  "mattr": 0.672,
+  "top_terms": [
+   "timesfm-×23",
+   "time×20",
+   "forecasting×18",
+   "series×18",
+   "forecast×14",
+   "multivariate×12",
+   "future×10",
+   "sales×10",
+   "foundation×8",
+   "univariate×8",
+   "promotion×7",
+   "across×6",
+   "benchmarks×6",
+   "time-series×6",
+   "multiple×6"
+  ],
+  "en_char_ratio": null,
+  "title_text": "TimesFM-3: A zero-shot foundation model for multivariate forecasting",
+  "title_len": 68,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

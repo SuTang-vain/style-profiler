@@ -8,8 +8,8 @@
   4. 每机构 vs 余者 pooled 的最显著偏离指标（机构指纹，含 q 值）
 
 声明：探索性分析，n=10/机构，未预注册；显著性以 BH-FDR q<0.05 为准，
-原始 p 值并列展示供参考。MATTR 仅覆盖语料在仓的机构（cerebras/eleuther/
-databricks/kezhongke 全文可重算；openai/anthropic 正文不入库，该行缺数）。
+原始 p 值并列展示供参考。MATTR 覆盖 corpus 在仓英文机构（当前 5/7 库；openai/anthropic 正文
+不入库，该行缺数——语录料重采后自动补齐）。
 
 用法: python3 discriminate.py [--json out]    # --json 输出归属明细
 前置: 先跑 python3 profiler.py <corpus>/ -o output/<org>/
@@ -22,6 +22,7 @@ LIBS = {
     "cerebras": "output/cerebras", "eleuther": "output/eleuther",
     "databricks": "output/databricks", "openai": "output/openai",
     "anthropic": "output/anthropic",
+    "googleResearch": "output/google-research", "microsoftResearch": "output/microsoft-research",
 }
 METRICS = [  # (key, 组, 标签)
     ("word_count", "", "篇幅(词)"),
@@ -147,7 +148,7 @@ def f_ratio(values_by_group):
 
 print("\n" + "=" * 76)
 print("二、判别力排序（秩化 F 比率：组间差异/组内差异；仅计入有覆盖的库）")
-print("注意：覆盖库数不同的指标 F 值不可直接比较（MATTR 为 3 库，余为 5 库）")
+print("注意：覆盖库数不同的指标 F 值不可直接比较（MATTR 覆盖 5/7 库，余指标 7 库）")
 print("=" * 76)
 fr = []
 for m in METRICS:
@@ -198,14 +199,14 @@ for true_l in libs:
 
 acc = sum(correct.values()) / max(sum(total.values()), 1)
 print(f"总准确率：{acc:.0%}（{sum(correct.values())}/{sum(total.values())}）")
-print(f"{'真实\\预测':12s}" + "".join(f"{l:>12s}" for l in libs))
+print(f"{'actual\\pred':12s}" + "".join(f"{l:>18s}" for l in libs))
 for a in libs:
-    print(f"{a:12s}" + "".join(f"{conf[a][b]:>12d}" for b in libs))
+    print(f"{a:12s}" + "".join(f"{conf[a][b]:>18d}" for b in libs))
 print(f"逐机构准确率：" + ", ".join(f"{l}={correct[l]}/{total[l]}" for l in libs))
 
 # 4) 每机构 vs 全体其他：最大判别指标（独立 BH 族，5 检验）
 print("\n" + "=" * 76)
-print("四、每机构最显著偏离指标（vs 其余四库 pooled，Mann-Whitney + BH-FDR）")
+print("四、每机构最显著偏离指标（vs 其余六库 pooled，Mann-Whitney + BH-FDR）")
 print("=" * 76)
 fp_p, fp_info = {}, {}
 for l in libs:

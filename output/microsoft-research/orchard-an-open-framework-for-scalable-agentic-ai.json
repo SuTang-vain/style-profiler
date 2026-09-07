@@ -1,0 +1,107 @@
+{
+ "file": "orchard-an-open-framework-for-scalable-agentic-ai.md",
+ "lang": "en",
+ "title": "Orchard: An open framework for scalable agentic AI",
+ "cjk_chars": 0,
+ "word_count": 1601,
+ "reading_time_min": 5.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 68,
+  "avg_sentence_len": 23.7,
+  "median_sentence_len": 21.0,
+  "p90_sentence_len": 35,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 37,
+  "avg_paragraph_len": 43.5,
+  "median_paragraph_len": 41,
+  "p90_paragraph_len": 72,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 44,
+  "number_per_1k": 27.48,
+  "precise_numbers": 19,
+  "precise_per_1k": 11.87,
+  "year_anchors": 1,
+  "year_per_1k": 0.62,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 6.87,
+  "hedge_examples": [
+   {
+    "term": "about",
+    "excerpt": "At a glance\nOrchard is an open-source framework for scalable and cost-effective "
+   },
+   {
+    "term": "around",
+    "excerpt": "At a glance\nOrchard is an open-source framework for scalable and cost-effective "
+   },
+   {
+    "term": "toward",
+    "excerpt": "Alongside the models and workflows, the project releases training data and evalu"
+   }
+  ],
+  "absolutist_hits": 0.62,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "Web navigation presents a different set of challenges. Agents must interpret vis"
+   }
+  ],
+  "quantifier_hits": 5.62,
+  "first_person_count": 9,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.381,
+  "mattr": 0.73,
+  "top_terms": [
+   "training×26",
+   "orchard×23",
+   "agents×18",
+   "agent×16",
+   "across×13",
+   "tasks×13",
+   "research×12",
+   "data×11",
+   "systems×11",
+   "agentic×10",
+   "web×9",
+   "environment×8",
+   "orchard-swe×8",
+   "orchard-gui×8",
+   "open×7"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Orchard: An open framework for scalable agentic AI",
+  "title_len": 50,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

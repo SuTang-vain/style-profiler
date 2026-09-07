@@ -1,0 +1,102 @@
+{
+ "file": "gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models.md",
+ "lang": "en",
+ "title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+ "cjk_chars": 0,
+ "word_count": 1358,
+ "reading_time_min": 5.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 70,
+  "avg_sentence_len": 19.9,
+  "median_sentence_len": 18.0,
+  "p90_sentence_len": 32,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 41,
+  "avg_paragraph_len": 33.9,
+  "median_paragraph_len": 32,
+  "p90_paragraph_len": 69,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 38,
+  "number_per_1k": 27.98,
+  "precise_numbers": 4,
+  "precise_per_1k": 2.95,
+  "year_anchors": 3,
+  "year_per_1k": 2.21,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 10.31,
+  "hedge_examples": [
+   {
+    "term": "may",
+    "excerpt": "GigaPath\n(opens in new tab)\nand GigaTIME\n(opens in new tab)\ndemonstrated how fou"
+   },
+   {
+    "term": "toward",
+    "excerpt": "GigaPath\n(opens in new tab)\nand GigaTIME\n(opens in new tab)\ndemonstrated how fou"
+   },
+   {
+    "term": "early",
+    "excerpt": "GigaPath-Flash is an efficient foundation model for whole-slide representation l"
+   }
+  ],
+  "absolutist_hits": 0.0,
+  "absolutist_examples": [],
+  "quantifier_hits": 4.42,
+  "first_person_count": 9,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.418,
+  "mattr": 0.698,
+  "top_terms": [
+   "gigatime-flash×20",
+   "gigapath-flash×18",
+   "foundation×17",
+   "gigatime×15",
+   "pathology×14",
+   "gigapath×12",
+   "across×12",
+   "whole-slide×12",
+   "research×10",
+   "efficient×9",
+   "encoder×9",
+   "cohorts×8",
+   "tumor×8",
+   "slide×8",
+   "discovery×7"
+  ],
+  "en_char_ratio": null,
+  "title_text": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+  "title_len": 111,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

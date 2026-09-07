@@ -1,0 +1,107 @@
+{
+ "file": "glucofm-foundation-model-for-continuous-glucose-monitoring.md",
+ "lang": "en",
+ "title": "GlucoFM: Foundation model for continuous glucose monitoring",
+ "cjk_chars": 0,
+ "word_count": 1775,
+ "reading_time_min": 6.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 85,
+  "avg_sentence_len": 21.2,
+  "median_sentence_len": 22,
+  "p90_sentence_len": 33,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 50,
+  "avg_paragraph_len": 36.0,
+  "median_paragraph_len": 25.5,
+  "p90_paragraph_len": 78,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 39,
+  "number_per_1k": 21.97,
+  "precise_numbers": 16,
+  "precise_per_1k": 9.01,
+  "year_anchors": 1,
+  "year_per_1k": 0.56,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 1,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 6.2,
+  "hedge_examples": [
+   {
+    "term": "remains",
+    "excerpt": "Consumer wearables use motion and physiological sensors to estimate activity and"
+   },
+   {
+    "term": "may",
+    "excerpt": "Many existing CGM foundation models — including CGMformer, GluFormer, and CGM-JE"
+   },
+   {
+    "term": "could",
+    "excerpt": "Many existing CGM foundation models — including CGMformer, GluFormer, and CGM-JE"
+   }
+  ],
+  "absolutist_hits": 0.56,
+  "absolutist_examples": [
+   {
+    "term": "entirely",
+    "excerpt": "Next, we wanted to know if the physiological patterns our model learns can gener"
+   }
+  ],
+  "quantifier_hits": 9.58,
+  "first_person_count": 22,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 2,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.405,
+  "mattr": 0.753,
+  "top_terms": [
+   "glucofm×31",
+   "glucose×21",
+   "cgm×15",
+   "data×14",
+   "across×13",
+   "prediction×12",
+   "representations×10",
+   "pr-auc×10",
+   "baseline×9",
+   "labeled×9",
+   "evaluated×9",
+   "evaluations×9",
+   "diabetes×8",
+   "sensor×8",
+   "short-term×7"
+  ],
+  "en_char_ratio": null,
+  "title_text": "GlucoFM: Foundation model for continuous glucose monitoring",
+  "title_len": 59,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

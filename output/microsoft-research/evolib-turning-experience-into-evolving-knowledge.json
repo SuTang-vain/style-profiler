@@ -1,0 +1,111 @@
+{
+ "file": "evolib-turning-experience-into-evolving-knowledge.md",
+ "lang": "en",
+ "title": "EvoLib: Turning experience into evolving knowledge",
+ "cjk_chars": 0,
+ "word_count": 1103,
+ "reading_time_min": 4.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 57,
+  "avg_sentence_len": 19.5,
+  "median_sentence_len": 18,
+  "p90_sentence_len": 30,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 27,
+  "avg_paragraph_len": 41.1,
+  "median_paragraph_len": 27,
+  "p90_paragraph_len": 101,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 5,
+  "number_per_1k": 4.53,
+  "precise_numbers": 0,
+  "precise_per_1k": 0.0,
+  "year_anchors": 1,
+  "year_per_1k": 0.91,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 9.97,
+  "hedge_examples": [
+   {
+    "term": "about",
+    "excerpt": "A video series with Sinead Bovell built around the questions everyone’s asking a"
+   },
+   {
+    "term": "around",
+    "excerpt": "A video series with Sinead Bovell built around the questions everyone’s asking a"
+   },
+   {
+    "term": "around",
+    "excerpt": "Unlike traditional AI memory systems that store raw experiences as static inform"
+   }
+  ],
+  "absolutist_hits": 1.81,
+  "absolutist_examples": [
+   {
+    "term": "everyone",
+    "excerpt": "A video series with Sinead Bovell built around the questions everyone’s asking a"
+   },
+   {
+    "term": "must",
+    "excerpt": "A natural question is whether such learning depends heavily on the order in whic"
+   }
+  ],
+  "quantifier_hits": 4.53,
+  "first_person_count": 11,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.387,
+  "mattr": 0.683,
+  "top_terms": [
+   "knowledge×29",
+   "evolib×24",
+   "tasks×15",
+   "experience×13",
+   "learning×12",
+   "evolving×11",
+   "continually×11",
+   "experiences×11",
+   "across×10",
+   "performance×10",
+   "reusable×9",
+   "systems×8",
+   "learn×7",
+   "memory×7",
+   "task×7"
+  ],
+  "en_char_ratio": null,
+  "title_text": "EvoLib: Turning experience into evolving knowledge",
+  "title_len": 50,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

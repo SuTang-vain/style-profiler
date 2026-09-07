@@ -1,0 +1,115 @@
+{
+ "file": "how-mobility-gives-language-models-a-deeper-understanding-of-place.md",
+ "lang": "en",
+ "title": "How mobility gives language models a deeper understanding of place",
+ "cjk_chars": 0,
+ "word_count": 1497,
+ "reading_time_min": 5.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 63,
+  "avg_sentence_len": 23.8,
+  "median_sentence_len": 23,
+  "p90_sentence_len": 38,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 38,
+  "avg_paragraph_len": 39.5,
+  "median_paragraph_len": 31.0,
+  "p90_paragraph_len": 98,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 5,
+  "number_per_1k": 3.34,
+  "precise_numbers": 3,
+  "precise_per_1k": 2.0,
+  "year_anchors": 1,
+  "year_per_1k": 0.67,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 4.68,
+  "hedge_examples": [
+   {
+    "term": "about",
+    "excerpt": "We introduce a dynamic, mobility-informed framework that allows AI models to und"
+   },
+   {
+    "term": "about",
+    "excerpt": "By providing a pre-enriched representation of a place, the ME-POIs framework mak"
+   },
+   {
+    "term": "about",
+    "excerpt": "ME-POIs solves this through a novel spatial multiscale visit propagation mechani"
+   }
+  ],
+  "absolutist_hits": 2.67,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "Artificial intelligence has made incredible progress in understanding the world "
+   },
+   {
+    "term": "must",
+    "excerpt": "To build a model with a deeper understanding of places, we must distinguish betw"
+   },
+   {
+    "term": "fundamental",
+    "excerpt": "The model treats aggregate visits to a specific POI as fundamental data points. "
+   }
+  ],
+  "quantifier_hits": 6.01,
+  "first_person_count": 19,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 5,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.432,
+  "mattr": 0.732,
+  "top_terms": [
+   "place×20",
+   "me-pois×17",
+   "mobility×14",
+   "framework×14",
+   "places×12",
+   "visit×12",
+   "data×11",
+   "text×9",
+   "patterns×9",
+   "like×8",
+   "across×8",
+   "language×7",
+   "business×6",
+   "aggregate×6",
+   "embeddings×6"
+  ],
+  "en_char_ratio": null,
+  "title_text": "How mobility gives language models a deeper understanding of place",
+  "title_len": 66,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

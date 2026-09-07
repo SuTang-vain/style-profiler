@@ -1,0 +1,115 @@
+{
+ "file": "broadening-access-to-skala-predictive-diagnostics.md",
+ "lang": "en",
+ "title": "Broadening access to Skala creates a faster path to predictive DFT",
+ "cjk_chars": 0,
+ "word_count": 1744,
+ "reading_time_min": 6.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 68,
+  "avg_sentence_len": 25.8,
+  "median_sentence_len": 24.0,
+  "p90_sentence_len": 38,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 37,
+  "avg_paragraph_len": 47.5,
+  "median_paragraph_len": 50,
+  "p90_paragraph_len": 88,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 50,
+  "number_per_1k": 28.67,
+  "precise_numbers": 13,
+  "precise_per_1k": 7.45,
+  "year_anchors": 1,
+  "year_per_1k": 0.57,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 4.01,
+  "hedge_examples": [
+   {
+    "term": "toward",
+    "excerpt": "At a glance\nSkala 1.1 demonstrates the continuously improving nature of Microsof"
+   },
+   {
+    "term": "toward",
+    "excerpt": "Today, we are announcing that Skala is available in CP2K and is being integrated"
+   },
+   {
+    "term": "toward",
+    "excerpt": "Together, these developments mark another milestone toward a future in which com"
+   }
+  ],
+  "absolutist_hits": 2.29,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "But accuracy alone is not enough. DFT is the computational engine behind a vast "
+   },
+   {
+    "term": "essential",
+    "excerpt": "To fully realize the potential of Skala’s continuously evolving approach to DFT,"
+   },
+   {
+    "term": "essential",
+    "excerpt": "There is more to come. Together with its vibrant developer’s community , we are "
+   }
+  ],
+  "quantifier_hits": 6.31,
+  "first_person_count": 24,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 1,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.35,
+  "mattr": 0.708,
+  "top_terms": [
+   "skala×44",
+   "accuracy×16",
+   "senior×15",
+   "computational×14",
+   "dft×13",
+   "opens×13",
+   "tab×13",
+   "across×12",
+   "research×11",
+   "software×11",
+   "performance×10",
+   "chemistry×10",
+   "researcher×9",
+   "molecular×9",
+   "community×9"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Broadening access to Skala creates a faster path to predictive DFT",
+  "title_len": 66,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

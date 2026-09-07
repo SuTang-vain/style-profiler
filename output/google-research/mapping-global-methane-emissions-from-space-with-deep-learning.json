@@ -1,0 +1,115 @@
+{
+ "file": "mapping-global-methane-emissions-from-space-with-deep-learning.md",
+ "lang": "en",
+ "title": "Mapping global methane emissions from space with deep learning",
+ "cjk_chars": 0,
+ "word_count": 1652,
+ "reading_time_min": 6.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 74,
+  "avg_sentence_len": 22.6,
+  "median_sentence_len": 22.0,
+  "p90_sentence_len": 37,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 38,
+  "avg_paragraph_len": 44.0,
+  "median_paragraph_len": 37.5,
+  "p90_paragraph_len": 91,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 29,
+  "number_per_1k": 17.55,
+  "precise_numbers": 10,
+  "precise_per_1k": 6.05,
+  "year_anchors": 2,
+  "year_per_1k": 1.21,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 5.45,
+  "hedge_examples": [
+   {
+    "term": "approximately",
+    "excerpt": "Methane is a potent greenhouse gas; over a 100-year timeframe, its warming poten"
+   },
+   {
+    "term": "toward",
+    "excerpt": "Building on these investments, in “Global monitoring of methane point sources us"
+   },
+   {
+    "term": "approximately",
+    "excerpt": "Global mappers like TROPOMI were designed to detect small changes in background "
+   }
+  ],
+  "absolutist_hits": 2.42,
+  "absolutist_examples": [
+   {
+    "term": "critical",
+    "excerpt": "Methane is a potent greenhouse gas; over a 100-year timeframe, its warming poten"
+   },
+   {
+    "term": "must",
+    "excerpt": "This urgency is reflected in the Global Methane Pledge, where over 125 countries"
+   },
+   {
+    "term": "critical",
+    "excerpt": "A global view of methane detections from space. As we zoom in, the MAPL-EMIT mod"
+   }
+  ],
+  "quantifier_hits": 4.24,
+  "first_person_count": 24,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.443,
+  "mattr": 0.73,
+  "top_terms": [
+   "methane×34",
+   "plumes×23",
+   "emissions×19",
+   "mapl-emit×15",
+   "global×14",
+   "plume×13",
+   "emit×10",
+   "source×10",
+   "data×10",
+   "gas×8",
+   "spatial×8",
+   "across×6",
+   "nasa×6",
+   "earth×6",
+   "broader×6"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Mapping global methane emissions from space with deep learning",
+  "title_len": 62,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

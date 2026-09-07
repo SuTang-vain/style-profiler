@@ -1,0 +1,102 @@
+{
+ "file": "an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data.md",
+ "lang": "en",
+ "title": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
+ "cjk_chars": 0,
+ "word_count": 1417,
+ "reading_time_min": 5.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 69,
+  "avg_sentence_len": 21.2,
+  "median_sentence_len": 20,
+  "p90_sentence_len": 35,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 34,
+  "avg_paragraph_len": 43,
+  "median_paragraph_len": 43.0,
+  "p90_paragraph_len": 81,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 35,
+  "number_per_1k": 24.7,
+  "precise_numbers": 12,
+  "precise_per_1k": 8.47,
+  "year_anchors": 1,
+  "year_per_1k": 0.71,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 2.82,
+  "hedge_examples": [
+   {
+    "term": "early",
+    "excerpt": "Wearable devices capture continuous physiological signals at population scale. T"
+   },
+   {
+    "term": "uncertain",
+    "excerpt": "The table below shows a curated sample of candidate associations. Spearman’s ρ s"
+   },
+   {
+    "term": "uncertain",
+    "excerpt": "Effect sizes and uncertainty come from deterministic analysis and mechanistic ex"
+   }
+  ],
+  "absolutist_hits": 0.0,
+  "absolutist_examples": [],
+  "quantifier_hits": 2.12,
+  "first_person_count": 5,
+  "objective_selfref_count": 3,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.433,
+  "mattr": 0.729,
+  "top_terms": [
+   "biomarker×29",
+   "discovery×29",
+   "framework×23",
+   "data×12",
+   "across×12",
+   "features×9",
+   "human×9",
+   "health×9",
+   "candidate×8",
+   "research×8",
+   "agents×8",
+   "hypothesis×7",
+   "statistical×7",
+   "variability×7",
+   "candidates×6"
+  ],
+  "en_char_ratio": null,
+  "title_text": "An AI tool for prioritizing candidate biomarkers from wearable sensor data",
+  "title_len": 74,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

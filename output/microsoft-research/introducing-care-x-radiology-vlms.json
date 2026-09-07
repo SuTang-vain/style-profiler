@@ -1,0 +1,115 @@
+{
+ "file": "introducing-care-x-radiology-vlms.md",
+ "lang": "en",
+ "title": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+ "cjk_chars": 0,
+ "word_count": 2602,
+ "reading_time_min": 9.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 120,
+  "avg_sentence_len": 22.7,
+  "median_sentence_len": 19.0,
+  "p90_sentence_len": 41,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 63,
+  "avg_paragraph_len": 43.3,
+  "median_paragraph_len": 36,
+  "p90_paragraph_len": 89,
+  "one_line_paragraphs": 1
+ },
+ "evidence": {
+  "number_tokens": 121,
+  "number_per_1k": 46.5,
+  "precise_numbers": 79,
+  "precise_per_1k": 30.36,
+  "year_anchors": 4,
+  "year_per_1k": 1.54,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 10.38,
+  "hedge_examples": [
+   {
+    "term": "could",
+    "excerpt": "At a glance\nThe challenge: Chest X-ray interpretation spans diverse tasks that r"
+   },
+   {
+    "term": "may",
+    "excerpt": "Radiologists and other clinicians use chest X-rays for many different purposes. "
+   },
+   {
+    "term": "about",
+    "excerpt": "Radiologists and other clinicians use chest X-rays for many different purposes. "
+   }
+  ],
+  "absolutist_hits": 2.31,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "A clinically useful radiology AI system must support a wide range of tasks, adap"
+   },
+   {
+    "term": "must",
+    "excerpt": "Radiologists and other clinicians use chest X-rays for many different purposes. "
+   },
+   {
+    "term": "vital",
+    "excerpt": "These tasks also require different kinds of outputs, from narrative reports to c"
+   }
+  ],
+  "quantifier_hits": 6.92,
+  "first_person_count": 6,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.352,
+  "mattr": 0.72,
+  "top_terms": [
+   "care-x×37",
+   "clinical×28",
+   "generative×26",
+   "auxiliary×15",
+   "research×15",
+   "head×14",
+   "clinically×13",
+   "grounding×13",
+   "findings×12",
+   "chest×12",
+   "enlargement×12",
+   "opens×12",
+   "tab×12",
+   "measurement×11",
+   "generation×11"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Introducing CARE-X: Towards Clinically Useful Radiology VLMs with Auxiliary Supervision, Reward-Aligned Learning, and Tool-Augmented Measurement",
+  "title_len": 144,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

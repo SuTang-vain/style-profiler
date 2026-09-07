@@ -2,59 +2,63 @@
 一、指标判别力（Mann-Whitney U，n=10/机构；q=BH-FDR 校正值）
 声明：探索性、未预注册；原始 p<0.05 与 q<0.05 并列，显著性以 q 为准
 ============================================================================
-篇幅(词)          p显著 3/10  q显著 1/10  cerebras×anthropic
-平均句长(词)        p显著 4/10  q显著 2/10  cerebras×eleuther cerebras×databricks
-P90句长(词)       p显著 3/10  q显著 1/10  cerebras×databricks
-平均段长(词)        p显著 5/10  q显著 4/10  cerebras×eleuther cerebras×databricks eleuther×openai databricks×openai
-数字密度/千词        p显著 5/10  q显著 5/10  cerebras×anthropic eleuther×databricks eleuther×openai eleuther×anthropic databricks×anthropic
-精确数字/千词        p显著 5/10  q显著 3/10  eleuther×databricks eleuther×openai eleuther×anthropic
-年份锚点/千词        p显著 4/10  q显著 3/10  cerebras×anthropic eleuther×anthropic openai×anthropic
-限定语/千词         p显著 3/10  q显著 3/10  eleuther×databricks databricks×openai databricks×anthropic
-断言绝对化/千词       p显著 0/10  q显著 0/10  
-全称量词/千词        p显著 3/10  q显著 2/10  cerebras×eleuther cerebras×openai
-第一人称           p显著 6/10  q显著 4/10  cerebras×eleuther cerebras×openai cerebras×anthropic eleuther×databricks
-客观自指           p显著 3/10  q显著 1/10  databricks×anthropic
-问句数            p显著 0/10  q显著 0/10  
-TTR(长度敏感)      p显著 6/10  q显著 6/10  cerebras×eleuther cerebras×openai cerebras×anthropic eleuther×databricks databricks×openai databricks×anthropic [内参：显著性主要来自篇幅效应]
-MATTR(w=150)   p显著 2/3  q显著 2/3  cerebras×eleuther eleuther×databricks [覆盖3库]
+篇幅(词)          p显著 8/21  q显著 1/21  anthropic×googleResearch
+平均句长(词)        p显著 8/21  q显著 1/21  cerebras×databricks
+P90句长(词)       p显著 5/21  q显著 2/21  cerebras×databricks cerebras×microsoftResearch
+平均段长(词)        p显著 10/21  q显著 5/21  cerebras×databricks cerebras×microsoftResearch databricks×openai openai×googleResearch openai×microsoftResearch
+数字密度/千词        p显著 10/21  q显著 6/21  cerebras×anthropic eleuther×databricks eleuther×anthropic eleuther×googleResearch eleuther×microsoftResearch databricks×anthropic
+精确数字/千词        p显著 6/21  q显著 4/21  eleuther×databricks eleuther×openai eleuther×anthropic eleuther×googleResearch
+年份锚点/千词        p显著 8/21  q显著 5/21  cerebras×anthropic eleuther×anthropic openai×anthropic anthropic×googleResearch anthropic×microsoftResearch
+限定语/千词         p显著 7/21  q显著 4/21  eleuther×googleResearch databricks×openai openai×googleResearch anthropic×googleResearch
+断言绝对化/千词       p显著 0/21  q显著 0/21  
+全称量词/千词        p显著 5/21  q显著 2/21  cerebras×eleuther cerebras×microsoftResearch
+第一人称           p显著 13/21  q显著 9/21  cerebras×eleuther cerebras×openai cerebras×anthropic eleuther×databricks eleuther×googleResearch eleuther×microsoftResearch
+客观自指           p显著 4/21  q显著 0/21  
+问句数            p显著 0/21  q显著 0/21  
+TTR(长度敏感)      p显著 12/21  q显著 7/21  cerebras×eleuther cerebras×anthropic eleuther×databricks eleuther×googleResearch databricks×openai databricks×anthropic [内参：显著性主要来自篇幅效应]
+MATTR(w=150)   p显著 4/10  q显著 4/10  cerebras×eleuther eleuther×databricks eleuther×googleResearch eleuther×microsoftResearch [覆盖5库]
 
 ============================================================================
 二、判别力排序（秩化 F 比率：组间差异/组内差异；仅计入有覆盖的库）
-注意：覆盖库数不同的指标 F 值不可直接比较（MATTR 为 3 库，余为 5 库）
+注意：覆盖库数不同的指标 F 值不可直接比较（MATTR 覆盖 5/7 库，余指标 7 库）
 ============================================================================
-   1. MATTR(w=150)   F=2.05  p显著=2 q显著=2 (3库)
-   2. 数字密度/千词        F=0.79  p显著=5 q显著=5
-   3. 精确数字/千词        F=0.71  p显著=5 q显著=3
-   4. 第一人称           F=0.66  p显著=6 q显著=4
-   5. 年份锚点/千词        F=0.59  p显著=4 q显著=3
-   6. 平均段长(词)        F=0.55  p显著=5 q显著=4
-   7. 限定语/千词         F=0.37  p显著=3 q显著=3
-   8. 平均句长(词)        F=0.35  p显著=4 q显著=2
-   9. P90句长(词)       F=0.26  p显著=3 q显著=1
-  10. 客观自指           F=0.25  p显著=3 q显著=1
-  11. 全称量词/千词        F=0.24  p显著=3 q显著=2
-  12. 篇幅(词)          F=0.20  p显著=3 q显著=1
-  13. 断言绝对化/千词       F=0.08  p显著=0 q显著=0
-  14. 问句数            F=0.02  p显著=0 q显著=0
-  内参 TTR(长度敏感)      F=1.08（不参与排序：组间差异主要是篇幅效应，仅供参照）
+   1. 第一人称           F=0.89  p显著=13 q显著=9
+   2. MATTR(w=150)   F=0.75  p显著=4 q显著=4 (5库)
+   3. 平均段长(词)        F=0.62  p显著=10 q显著=5
+   4. 数字密度/千词        F=0.62  p显著=10 q显著=6
+   5. 年份锚点/千词        F=0.48  p显著=8 q显著=5
+   6. 限定语/千词         F=0.44  p显著=7 q显著=4
+   7. 精确数字/千词        F=0.44  p显著=6 q显著=4
+   8. 篇幅(词)          F=0.32  p显著=8 q显著=1
+   9. 平均句长(词)        F=0.29  p显著=8 q显著=1
+  10. 全称量词/千词        F=0.23  p显著=5 q显著=2
+  11. P90句长(词)       F=0.22  p显著=5 q显著=2
+  12. 客观自指           F=0.18  p显著=4 q显著=0
+  13. 问句数            F=0.10  p显著=0 q显著=0
+  14. 断言绝对化/千词       F=0.08  p显著=0 q显著=0
+  内参 TTR(长度敏感)      F=0.87（不参与排序：组间差异主要是篇幅效应，仅供参照）
 
 ============================================================================
 三、LOO 最近质心归属（z-score 标准化指标向量；仅全库覆盖指标）
 ============================================================================
-总准确率：78%（39/50）
-真实\预测           cerebras    eleuther  databricks      openai   anthropic
-cerebras               9           0           0           0           1
-eleuther               1           7           0           1           1
-databricks             1           0           8           1           0
-openai                 2           0           0           6           2
-anthropic              0           0           0           1           9
-逐机构准确率：cerebras=9/10, eleuther=7/10, databricks=8/10, openai=6/10, anthropic=9/10
+总准确率：66%（46/70）
+actual\pred           cerebras          eleuther        databricks            openai         anthropic    googleResearch microsoftResearch
+cerebras                     8                 0                 0                 0                 1                 1                 0
+eleuther                     1                 7                 0                 1                 1                 0                 0
+databricks                   0                 0                 6                 1                 0                 0                 3
+openai                       1                 0                 0                 7                 2                 0                 0
+anthropic                    1                 0                 0                 0                 7                 2                 0
+googleResearch                 1                 0                 0                 0                 0                 7                 2
+microsoftResearch                 0                 2                 0                 0                 0                 4                 4
+逐机构准确率：cerebras=8/10, eleuther=7/10, databricks=6/10, openai=7/10, anthropic=7/10, googleResearch=7/10, microsoftResearch=4/10
 
 ============================================================================
-四、每机构最显著偏离指标（vs 其余四库 pooled，Mann-Whitney + BH-FDR）
+四、每机构最显著偏离指标（vs 其余六库 pooled，Mann-Whitney + BH-FDR）
 ============================================================================
-  cerebras   最显著: 第一人称（低，p=0.000，q=0.001）过 FDR
+  cerebras   最显著: P90句长(词)（低，p=0.001，q=0.002）过 FDR
   eleuther   最显著: MATTR(w=150)（低，p=0.000，q=0.000）过 FDR
-  databricks 最显著: TTR(长度敏感)（高，p=0.001，q=0.001）过 FDR；内参指标（长度敏感），MATTR 全库覆盖后本指纹可能改写，待复核
-  openai     最显著: 精确数字/千词（低，p=0.023，q=0.023）过 FDR
-  anthropic  最显著: 数字密度/千词（低，p=0.000，q=0.001）过 FDR
+  databricks 最显著: TTR(长度敏感)（高，p=0.001，q=0.002）过 FDR；内参指标（长度敏感），MATTR 全库覆盖后本指纹可能改写，待复核
+  openai     最显著: 平均段长(词)（低，p=0.004，q=0.005）过 FDR
+  anthropic  最显著: 年份锚点/千词（低，p=0.000，q=0.001）过 FDR
+  googleResearch 最显著: 限定语/千词（低，p=0.005，q=0.005）过 FDR
+  microsoftResearch 最显著: 第一人称（低，p=0.002，q=0.002）过 FDR

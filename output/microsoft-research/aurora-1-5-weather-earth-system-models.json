@@ -1,0 +1,107 @@
+{
+ "file": "aurora-1-5-weather-earth-system-models.md",
+ "lang": "en",
+ "title": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
+ "cjk_chars": 0,
+ "word_count": 1760,
+ "reading_time_min": 6.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 67,
+  "avg_sentence_len": 27.0,
+  "median_sentence_len": 25,
+  "p90_sentence_len": 49,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 38,
+  "avg_paragraph_len": 47.6,
+  "median_paragraph_len": 48.0,
+  "p90_paragraph_len": 99,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 54,
+  "number_per_1k": 30.68,
+  "precise_numbers": 30,
+  "precise_per_1k": 17.05,
+  "year_anchors": 10,
+  "year_per_1k": 5.68,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 7.95,
+  "hedge_examples": [
+   {
+    "term": "could",
+    "excerpt": "Aurora is a foundation model for the Earth system developed by Microsoft Researc"
+   },
+   {
+    "term": "initial",
+    "excerpt": "Aurora 1.5 advances the broader effort to make open weather foundation models pr"
+   },
+   {
+    "term": "uncertain",
+    "excerpt": "Aurora 1.5 advances the broader effort to make open weather foundation models pr"
+   }
+  ],
+  "absolutist_hits": 0.57,
+  "absolutist_examples": [
+   {
+    "term": "fundamental",
+    "excerpt": "“This collaboration demonstrates how advanced AI capabilities and robust cloud i"
+   }
+  ],
+  "quantifier_hits": 3.98,
+  "first_person_count": 5,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 2,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.369,
+  "mattr": 0.682,
+  "top_terms": [
+   "aurora×49",
+   "weather×34",
+   "microsoft×28",
+   "ensemble×16",
+   "foundation×15",
+   "climate×15",
+   "open×14",
+   "research×13",
+   "science×12",
+   "data×11",
+   "forecasting×11",
+   "earth-system×10",
+   "applications×10",
+   "operational×9",
+   "infrastructure×8"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Aurora 1.5: Extending open foundation models for weather and Earth-system applications",
+  "title_len": 86,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

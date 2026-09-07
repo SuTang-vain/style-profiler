@@ -1,0 +1,115 @@
+{
+ "file": "empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality.md",
+ "lang": "en",
+ "title": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
+ "cjk_chars": 0,
+ "word_count": 1738,
+ "reading_time_min": 6.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 105,
+  "avg_sentence_len": 16.7,
+  "median_sentence_len": 15,
+  "p90_sentence_len": 28,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 42,
+  "avg_paragraph_len": 41.8,
+  "median_paragraph_len": 41.0,
+  "p90_paragraph_len": 86,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 38,
+  "number_per_1k": 21.86,
+  "precise_numbers": 13,
+  "precise_per_1k": 7.48,
+  "year_anchors": 1,
+  "year_per_1k": 0.58,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 12.08,
+  "hedge_examples": [
+   {
+    "term": "early",
+    "excerpt": "When LLMs get facts wrong, is it because they never learned them or because they"
+   },
+   {
+    "term": "might",
+    "excerpt": "Factuality is essential for making Large Language Models (LLMs) reliable. When a"
+   },
+   {
+    "term": "suggest",
+    "excerpt": "Factuality is essential for making Large Language Models (LLMs) reliable. When a"
+   }
+  ],
+  "absolutist_hits": 1.73,
+  "absolutist_examples": [
+   {
+    "term": "never",
+    "excerpt": "When LLMs get facts wrong, is it because they never learned them or because they"
+   },
+   {
+    "term": "never",
+    "excerpt": "Factuality is essential for making Large Language Models (LLMs) reliable. When a"
+   },
+   {
+    "term": "essential",
+    "excerpt": "Factuality is essential for making Large Language Models (LLMs) reliable. When a"
+   }
+  ],
+  "quantifier_hits": 17.84,
+  "first_person_count": 31,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 9,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.326,
+  "mattr": 0.636,
+  "top_terms": [
+   "recall×33",
+   "facts×33",
+   "fact×23",
+   "knowledge×22",
+   "thinking×21",
+   "llms×20",
+   "encoded×19",
+   "encoding×19",
+   "questions×17",
+   "direct×14",
+   "reverse×14",
+   "failures×8",
+   "factuality×7",
+   "frontier×7",
+   "question×7"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Empty shelves or lost keys? Recall is the bottleneck for parametric factuality",
+  "title_len": 78,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

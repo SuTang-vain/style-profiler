@@ -71,17 +71,18 @@ x.ai/news 以 Grok 产品发布为主（Grok Bot、Grok 4.6）；[Designing Grok
 2. **institutional-collaboration-science（机构合作科学）**：Google Research 的 connectomics/methane、MSR 的署名四作者——署名制度 + 跨机构合作 + 方法/发现双线，介于 research-narrative 与学术期刊体之间，可作英文"报告体"参照系。
 3. **体裁纯度分层**：Google DeepMind 的 blog.google 流 ≈ 产品新闻混杂（对应壳中客"投稿"位），提示多机构语料应**按栏目分层采样**（research.google/blog 而非 blog.google），否则混体裁洗信号——与 rubric 00 纪律 2 一致。
 
-## 四、分期入库建议
+## 四、分期入库建议（2026-09-07：一期二期已完成 ✅）
 
 ```
-一期（3 机构 × 10 篇，高适配、快产出）
+一期（3 机构 × 10 篇，高适配、快产出）✅ 2026-09-07 完成
   食料：Cerebras 10 + EleutherAI 10 + Databricks 10
   产出：corpus/{cerebras,eleuther,databricks}/ + profiler.py 统计
        + 每库 1 份档案；跨库基线表扩为 5 栏（+OpenAI/Anthropic）
-二期（2 机构 × 10 篇）
-  Google Research（research.google/blog 栏目内采样，含 1 篇合作科学体）
-  Microsoft Research
-  产出：新增 2 档案 + rubric 00 增加英文第五子体裁（community-research-update）
+二期（2 机构 × 10 篇）✅ 2026-09-07 完成
+  Google Research（research.google/blog 栏目内采样，含 connectomics 合作科学体）
+  Microsoft Research（注意：正文为摘要式短文，深度在论文/开源外链）
+  产出：新增 2 档案；判别分析扩至 7 库（MATTR 覆盖 5/7 库）；
+  rubric 00 新体裁信号待定（research-report / 应用报告体 / 机构合作科学体）
 三期（可选，各 10 篇）
   Meta AI Research / Mistral / xAI（严格筛选）——对照"产品化研究文体"光谱
 ```

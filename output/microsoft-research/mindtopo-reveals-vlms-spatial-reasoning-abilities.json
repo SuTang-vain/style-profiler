@@ -1,0 +1,115 @@
+{
+ "file": "mindtopo-reveals-vlms-spatial-reasoning-abilities.md",
+ "lang": "en",
+ "title": "MindTopo reveals VLMs’ spatial reasoning abilities",
+ "cjk_chars": 0,
+ "word_count": 956,
+ "reading_time_min": 3.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 42,
+  "avg_sentence_len": 23.1,
+  "median_sentence_len": 22.0,
+  "p90_sentence_len": 37,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 24,
+  "avg_paragraph_len": 40.5,
+  "median_paragraph_len": 40.0,
+  "p90_paragraph_len": 66,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 5,
+  "number_per_1k": 5.23,
+  "precise_numbers": 0,
+  "precise_per_1k": 0.0,
+  "year_anchors": 1,
+  "year_per_1k": 1.05,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 9.41,
+  "hedge_examples": [
+   {
+    "term": "suggest",
+    "excerpt": "At a glance\nMindTopo is a new benchmark for testing topological reasoning in AI,"
+   },
+   {
+    "term": "around",
+    "excerpt": "Most spatial evaluations for multimodal models focus on Euclidean properties suc"
+   },
+   {
+    "term": "remains",
+    "excerpt": "Continuity asks whether a path or object remains unbroken.\nSeparation asks wheth"
+   }
+  ],
+  "absolutist_hits": 4.18,
+  "absolutist_examples": [
+   {
+    "term": "essential",
+    "excerpt": "At a glance\nMindTopo is a new benchmark for testing topological reasoning in AI,"
+   },
+   {
+    "term": "must",
+    "excerpt": "In a new research study, we introduce MindTopo\n(opens in new tab)\n, a benchmark "
+   },
+   {
+    "term": "must",
+    "excerpt": "Each category is evaluated at two cognitive levels. In reasoning tasks, a model "
+   }
+  ],
+  "quantifier_hits": 3.14,
+  "first_person_count": 3,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 2,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.47,
+  "mattr": 0.741,
+  "top_terms": [
+   "whether×14",
+   "topological×10",
+   "mindtopo×9",
+   "reasoning×7",
+   "planning×7",
+   "actions×7",
+   "understanding×7",
+   "topology×7",
+   "static×6",
+   "through×6",
+   "tasks×6",
+   "spatial×5",
+   "student×5",
+   "multimodal×5",
+   "relationships×5"
+  ],
+  "en_char_ratio": null,
+  "title_text": "MindTopo reveals VLMs’ spatial reasoning abilities",
+  "title_len": 50,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

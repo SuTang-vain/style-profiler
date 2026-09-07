@@ -1,0 +1,115 @@
+{
+ "file": "verifying-rust-cryptography-in-symcrypt-from-standards-to-code.md",
+ "lang": "en",
+ "title": "Verifying Rust cryptography in SymCrypt, from standards to code",
+ "cjk_chars": 0,
+ "word_count": 2404,
+ "reading_time_min": 8.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 114,
+  "avg_sentence_len": 21.5,
+  "median_sentence_len": 19.0,
+  "p90_sentence_len": 33,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 57,
+  "avg_paragraph_len": 43.0,
+  "median_paragraph_len": 44,
+  "p90_paragraph_len": 71,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 49,
+  "number_per_1k": 20.38,
+  "precise_numbers": 0,
+  "precise_per_1k": 0.0,
+  "year_anchors": 1,
+  "year_per_1k": 0.42,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 4.58,
+  "hedge_examples": [
+   {
+    "term": "initial",
+    "excerpt": "How Rust, Lean, Aeneas, and AI agents are helping scale formal verification for "
+   },
+   {
+    "term": "about",
+    "excerpt": "The Lean version deliberately mirrors the structure of the standard: the same lo"
+   },
+   {
+    "term": "about",
+    "excerpt": "Aeneas makes this possible by translating Rust’s mid-level representation into a"
+   }
+  ],
+  "absolutist_hits": 1.66,
+  "absolutist_examples": [
+   {
+    "term": "essential",
+    "excerpt": "Testing and auditing remain essential, but they are not enough on their own. Cry"
+   },
+   {
+    "term": "must",
+    "excerpt": "Once the specification is formalized, the next challenge is to connect it to the"
+   },
+   {
+    "term": "must",
+    "excerpt": "Production cryptography cannot ignore hardware. SymCrypt must run across environ"
+   }
+  ],
+  "quantifier_hits": 3.74,
+  "first_person_count": 15,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.358,
+  "mattr": 0.688,
+  "top_terms": [
+   "code×37",
+   "lean×33",
+   "rust×32",
+   "proof×22",
+   "verification×19",
+   "formal×18",
+   "proofs×15",
+   "ntt×15",
+   "cryptographic×13",
+   "specification×13",
+   "standard×12",
+   "len×12",
+   "function×12",
+   "array×11",
+   "symcrypt×10"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Verifying Rust cryptography in SymCrypt, from standards to code",
+  "title_len": 63,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

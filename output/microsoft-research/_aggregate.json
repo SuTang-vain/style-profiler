@@ -1,0 +1,159 @@
+{
+ "cjk_chars": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "reading_time_min": {
+  "median": 5.5,
+  "p25": 4.0,
+  "p75": 8.0,
+  "min": 3.0,
+  "max": 16.0
+ },
+ "avg_sentence_len": {
+  "median": 22.8,
+  "p25": 21.2,
+  "p75": 23.7,
+  "min": 19.5,
+  "max": 27.0
+ },
+ "p90_sentence_len": {
+  "median": 36.0,
+  "p25": 33,
+  "p75": 39,
+  "min": 30,
+  "max": 49
+ },
+ "avg_paragraph_len": {
+  "median": 43.4,
+  "p25": 41.1,
+  "p75": 47.5,
+  "min": 33.9,
+  "max": 65.3
+ },
+ "number_per_1k": {
+  "median": 26.63,
+  "p25": 13.37,
+  "p75": 28.67,
+  "min": 4.53,
+  "max": 46.5
+ },
+ "precise_per_1k": {
+  "median": 7.29,
+  "p25": 0.0,
+  "p75": 13.5,
+  "min": 0.0,
+  "max": 30.36
+ },
+ "year_per_1k": {
+  "median": 0.9,
+  "p25": 0.57,
+  "p75": 1.54,
+  "min": 0.41,
+  "max": 5.68
+ },
+ "links_per_1k": {
+  "median": 0.0,
+  "p25": 0.0,
+  "p75": 0.0,
+  "min": 0.0,
+  "max": 0.0
+ },
+ "reference_entries": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "citation_marks": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "hedge_hits": {
+  "median": 7.41,
+  "p25": 4.01,
+  "p75": 9.97,
+  "min": 1.78,
+  "max": 10.38
+ },
+ "absolutist_hits": {
+  "median": 1.79,
+  "p25": 0.62,
+  "p75": 2.31,
+  "min": 0.0,
+  "max": 4.18
+ },
+ "quantifier_hits": {
+  "median": 4.47,
+  "p25": 3.74,
+  "p75": 6.31,
+  "min": 1.78,
+  "max": 8.8
+ },
+ "first_person_count": {
+  "median": 9.0,
+  "p25": 6,
+  "p75": 15,
+  "min": 3,
+  "max": 27
+ },
+ "objective_selfref_count": {
+  "median": 0.5,
+  "p25": 0,
+  "p75": 2,
+  "min": 0,
+  "max": 2
+ },
+ "exclamations": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "questions": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 2,
+  "min": 0,
+  "max": 4
+ },
+ "ttr": {
+  "median": 0.38,
+  "p25": 0.35,
+  "p75": 0.42,
+  "min": 0.266,
+  "max": 0.47
+ },
+ "mattr": {
+  "median": 0.7,
+  "p25": 0.68,
+  "p75": 0.72,
+  "min": 0.679,
+  "max": 0.741
+ },
+ "genre_distribution": {
+  "blog_or_exploration": 10
+ },
+ "genre_files": {
+  "blog_or_exploration": [
+   "aurora-1-5-weather-earth-system-models.md",
+   "broadening-access-to-skala-predictive-diagnostics.md",
+   "echoverse-deep-evolving-environments-for-computer-use-agents.md",
+   "evolib-turning-experience-into-evolving-knowledge.md",
+   "flint-a-visualization-language-for-the-ai-era.md",
+   "gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models.md",
+   "introducing-care-x-radiology-vlms.md",
+   "mindtopo-reveals-vlms-spatial-reasoning-abilities.md",
+   "orchard-an-open-framework-for-scalable-agentic-ai.md",
+   "verifying-rust-cryptography-in-symcrypt-from-standards-to-code.md"
+  ]
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "file": "flint-a-visualization-language-for-the-ai-era.md",
+ "lang": "en",
+ "title": "Flint: A visualization language for the AI era",
+ "cjk_chars": 0,
+ "word_count": 1122,
+ "reading_time_min": 4.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 53,
+  "avg_sentence_len": 21.2,
+  "median_sentence_len": 21,
+  "p90_sentence_len": 33,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 24,
+  "avg_paragraph_len": 46.8,
+  "median_paragraph_len": 38.0,
+  "p90_paragraph_len": 92,
+  "one_line_paragraphs": 1
+ },
+ "evidence": {
+  "number_tokens": 15,
+  "number_per_1k": 13.37,
+  "precise_numbers": 8,
+  "precise_per_1k": 7.13,
+  "year_anchors": 1,
+  "year_per_1k": 0.89,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 1.78,
+  "hedge_examples": [
+   {
+    "term": "about",
+    "excerpt": "To produce a high-quality heatmap, traditionally, we need to explicitly tell the"
+   },
+   {
+    "term": "toward",
+    "excerpt": "Flint points toward a shared semantic layer for visualization, where people and "
+   }
+  ],
+  "absolutist_hits": 1.78,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "This trade-off becomes sharper as large language models (LLMs) and AI agents tak"
+   },
+   {
+    "term": "must",
+    "excerpt": "To produce a high-quality heatmap, traditionally, we need to explicitly tell the"
+   }
+  ],
+  "quantifier_hits": 1.78,
+  "first_person_count": 7,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.416,
+  "mattr": 0.712,
+  "top_terms": [
+   "flint×28",
+   "chart×22",
+   "visualization×15",
+   "data×14",
+   "specification×10",
+   "agents×9",
+   "charts×8",
+   "compiler×8",
+   "semantic×7",
+   "vega-lite×7",
+   "low-level×7",
+   "types×6",
+   "details×6",
+   "specifications×5",
+   "color×5"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Flint: A visualization language for the AI era",
+  "title_len": 46,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

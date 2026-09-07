@@ -1,0 +1,115 @@
+{
+ "file": "echoverse-deep-evolving-environments-for-computer-use-agents.md",
+ "lang": "en",
+ "title": "Echoverse: Deep, evolving environments for computer-use agents",
+ "cjk_chars": 0,
+ "word_count": 4888,
+ "reading_time_min": 16.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 217,
+  "avg_sentence_len": 22.9,
+  "median_sentence_len": 22,
+  "p90_sentence_len": 39,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 76,
+  "avg_paragraph_len": 65.3,
+  "median_paragraph_len": 63.5,
+  "p90_paragraph_len": 124,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 126,
+  "number_per_1k": 25.78,
+  "precise_numbers": 66,
+  "precise_per_1k": 13.5,
+  "year_anchors": 2,
+  "year_per_1k": 0.41,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 3.48,
+  "hedge_examples": [
+   {
+    "term": "early",
+    "excerpt": "We built twelve training worlds for computer-use agents: ten deep domain worlds "
+   },
+   {
+    "term": "around",
+    "excerpt": "Three levers keep that loop productive, none of them raw environment count. Dept"
+   },
+   {
+    "term": "might",
+    "excerpt": "Open, login-free sites might seem to remove the need for synthetic worlds, but t"
+   }
+  ],
+  "absolutist_hits": 3.27,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "High simulation fidelity is a must-have; shallow worlds hurt the agent. Trained "
+   },
+   {
+    "term": "never",
+    "excerpt": "High simulation fidelity is a must-have; shallow worlds hurt the agent. Trained "
+   },
+   {
+    "term": "must",
+    "excerpt": "Every failure becomes an issue tagged by the layer that must change: database, b"
+   }
+  ],
+  "quantifier_hits": 8.8,
+  "first_person_count": 27,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 4,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.266,
+  "mattr": 0.679,
+  "top_terms": [
+   "world×55",
+   "worlds×42",
+   "tasks×29",
+   "training×28",
+   "state×24",
+   "agent×24",
+   "every×24",
+   "deep×21",
+   "live×20",
+   "real×17",
+   "data×17",
+   "across×17",
+   "web×17",
+   "verifier×16",
+   "database×16"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Echoverse: Deep, evolving environments for computer-use agents",
+  "title_len": 62,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

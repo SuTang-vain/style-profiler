@@ -1,0 +1,111 @@
+{
+ "file": "transfer-learning-for-genomic-prediction-in-underrepresented-populations.md",
+ "lang": "en",
+ "title": "Transfer learning for genomic prediction in underrepresented populations",
+ "cjk_chars": 0,
+ "word_count": 1615,
+ "reading_time_min": 5.0,
+ "structure": {
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 70,
+  "avg_sentence_len": 23.3,
+  "median_sentence_len": 21.0,
+  "p90_sentence_len": 38,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 35,
+  "avg_paragraph_len": 46.5,
+  "median_paragraph_len": 38,
+  "p90_paragraph_len": 82,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 20,
+  "number_per_1k": 12.38,
+  "precise_numbers": 2,
+  "precise_per_1k": 1.24,
+  "year_anchors": 1,
+  "year_per_1k": 0.62,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 1.86,
+  "hedge_examples": [
+   {
+    "term": "early",
+    "excerpt": "To that end, in this blog post we describe a study evaluating PRS performance in"
+   },
+   {
+    "term": "appears",
+    "excerpt": "For each experiment, we quantified model performance using Pearson correlation. "
+   },
+   {
+    "term": "early",
+    "excerpt": "PRS performance in BBJ samples as a function of BBJ and UKB sample sizes for tra"
+   }
+  ],
+  "absolutist_hits": 1.24,
+  "absolutist_examples": [
+   {
+    "term": "always",
+    "excerpt": "More data is not always better for cross-population PRS prediction"
+   },
+   {
+    "term": "always",
+    "excerpt": "Systematic evaluation of cross-population genomic prediction reveals that larger"
+   }
+  ],
+  "quantifier_hits": 6.81,
+  "first_person_count": 22,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.334,
+  "mattr": 0.652,
+  "top_terms": [
+   "sample×29",
+   "bbj×29",
+   "ukb×26",
+   "sizes×20",
+   "samples×20",
+   "european×19",
+   "performance×18",
+   "gwas×16",
+   "traits×15",
+   "population×15",
+   "data×15",
+   "prs-csx×15",
+   "target×14",
+   "prs×14",
+   "variants×13"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Transfer learning for genomic prediction in underrepresented populations",
+  "title_len": 72,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}
