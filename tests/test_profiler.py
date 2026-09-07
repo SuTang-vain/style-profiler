@@ -186,6 +186,16 @@ class TestFixtures(unittest.TestCase):
         self.assertTrue(degraded)
         self.assertGreaterEqual(n, 1)  # 多字词部分仍计，由调用方置 None
 
+    # "大约" 计 1 次且不被单字 "约" 双计——依赖 jieba 将 "大约" 整体切分，
+    # 此断言防 jieba 版本/词典差异导致的环境相关回归
+    @unittest.skipUnless(profiler.JIEBA, "单字词精确匹配依赖 jieba")
+    def test_dayue_not_double_counted(self):
+        text = "相关岗位增长大约 30%。"
+        n, degraded = profiler.count_terms(text, profiler.HEDGES,
+                                           profiler.jieba.lcut(text))
+        self.assertFalse(degraded)
+        self.assertEqual(n, 1)
+
     # 断言 11（③ 已修复转正）：等长窗口比较——同一文本截短/截长，
     # ttr 随长度漂移而 mattr 稳定
     def test_mattr_length_stable(self):

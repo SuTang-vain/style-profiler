@@ -99,13 +99,16 @@ for k, _, _ in METRICS:
 
 names = {k: v for k, _, v in METRICS}
 libs = list(LIBS)
+# 内参指标：保留计算供参照，但不参与判别力排序——其"显著"来自已知混淆
+# （TTR 的组间差异主要是篇幅效应，等长窗口 MATTR 才是文体成分）
+REFERENCE_ONLY = {"ttr"}
 
 # 1) 两两机构检验（全量 p 值 → BH-FDR）
 print("=" * 76)
 print("一、指标判别力（Mann-Whitney U，n=10/机构；q=BH-FDR 校正值）")
 print("声明：探索性、未预注册；原始 p<0.05 与 q<0.05 并列，显著性以 q 为准")
 print("=" * 76)
-pvals, p_pair = {}, {}
+pvals = {}
 for k, g, label in METRICS:
     for a, b in combinations(coverage[k], 2):
         p = mann_whitney_u(data[a][k], data[b][k])
@@ -118,8 +121,9 @@ for k, g, label in METRICS:
     total = len(list(combinations(coverage[k], 2)))
     sig_count[k], sig_count_q[k] = len(pairs_p), len(pairs_q)
     cov_note = "" if len(coverage[k]) == len(libs) else f" [覆盖{len(coverage[k])}库]"
+    ref_note = " [内参：显著性主要来自篇幅效应]" if k in REFERENCE_ONLY else ""
     print(f"{label:14s} p显著 {len(pairs_p)}/{total}  q显著 {len(pairs_q)}/{total}"
-          f"  {' '.join(pairs_q[:6])}{cov_note}")
+          f"  {' '.join(pairs_q[:6])}{cov_note}{ref_note}")
 
 # 2) 判别力排序：组间方差 / 组内方差（F 比率，去量纲：用 rank 归一）
 def f_ratio(values_by_group):
@@ -143,14 +147,20 @@ def f_ratio(values_by_group):
 
 print("\n" + "=" * 76)
 print("二、判别力排序（秩化 F 比率：组间差异/组内差异；仅计入有覆盖的库）")
+print("注意：覆盖库数不同的指标 F 值不可直接比较（MATTR 为 3 库，余为 5 库）")
 print("=" * 76)
 fr = []
 for m in METRICS:
     k, g, label = m
+    if k in REFERENCE_ONLY:
+        continue
     fr.append((f_ratio([data[l][k] for l in coverage[k]]), k, label))
 for i, (f, k, label) in enumerate(sorted(fr, reverse=True), 1):
     cov_note = "" if len(coverage[k]) == len(libs) else f" ({len(coverage[k])}库)"
     print(f"  {i:2d}. {label:14s} F={f:.2f}  p显著={sig_count[k]} q显著={sig_count_q[k]}{cov_note}")
+for k in sorted(REFERENCE_ONLY):
+    f = f_ratio([data[l][k] for l in coverage[k]])
+    print(f"  内参 {names[k]:14s} F={f:.2f}（不参与排序：组间差异主要是篇幅效应，仅供参照）")
 
 # 3) LOO 最近质心归属（仅用全库覆盖的指标）
 print("\n" + "=" * 76)
@@ -216,4 +226,6 @@ for l in libs:
     rest = [v for ll in libs if ll != l for v in data[ll][k]]
     direction = "高" if statistics.median(x) > statistics.median(rest) else "低"
     verdict = "过 FDR" if fp_q[l] < 0.05 else "探索性信号，未过 FDR，待样本扩容复验"
+    if k in REFERENCE_ONLY:
+        verdict += "；内参指标（长度敏感），MATTR 全库覆盖后本指纹可能改写，待复核"
     print(f"  {l:10s} 最显著: {names[k]}（{direction}，p={fp_p[l]:.3f}，q={fp_q[l]:.3f}）{verdict}")
