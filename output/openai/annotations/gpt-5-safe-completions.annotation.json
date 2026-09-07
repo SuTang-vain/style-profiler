@@ -1,0 +1,24 @@
+{
+  "slug": "gpt-5-safe-completions",
+  "date": "2025-08-07",
+  "genre": "安全研究 safety-research",
+  "move_sequence": "ARGUE(对比例子先行: o3 全合规 vs GPT-5 拒绝+替代方案) → CONTEXT(机制定义: 两个训练参数) → ARGUE(结果: 更安全且更有帮助) → ARGUE(错误严重度分析) → CLOSE(研究承诺)",
+  "moves": [
+    {"para": 1, "move": "ARGUE", "sub": "双模型对比例（最重证据放最前）", "evidence_excerpt": "OpenAI o3 (refusal training) vs GPT-5 (safe-completion training)"},
+    {"para": 3, "move": "CONTEXT", "sub": "机制定义（两参数）", "evidence_excerpt": "Safety constraint + Helpfulness maximization"},
+    {"para": 4, "move": "ARGUE", "sub": "结果宣告", "evidence_excerpt": "substantially improves both safety and helpfulness"},
+    {"para": 5, "move": "ARGUE", "sub": "错误严重度论证", "evidence_excerpt": "their unsafe outputs are lower in severity"},
+    {"para": 6, "move": "CLOSE", "sub": "研究谱系+承诺", "evidence_excerpt": "For GPT-4 we developed Rule-Based Rewards...another step forward"}
+  ],
+  "narrative_ratio": 0.05,
+  "argument": {
+    "claims_total": 2,
+    "evidence_total": 3,
+    "evidence_types": "挑战性 prompt 的双模型对照输出（原文全文引用）+ 对照实验图表",
+    "source_tier": "self 实验对照",
+    "qualifiers": "especially well-suited / potentially unsafe",
+    "rebuttals": "预设反方：'a model can be safe if it refuses everything'（easy trade-off）并回应",
+    "conclusion_form": "commitment（continue this line of research）"
+  },
+  "style_notes": "最短一篇（790 词）：证据前置（对照输出原文直接开场，不铺垫）；研究谱系叙事（GPT-4 RBR → GPT-5 safe-completions 是同一条线的递进）；二元取舍的拒绝（both safe and helpful）"
+}

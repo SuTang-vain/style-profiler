@@ -1,0 +1,114 @@
+{
+ "file": "unrolling-the-codex-agent-loop.md",
+ "lang": "en",
+ "title": "Unrolling the Codex agent loop",
+ "cjk_chars": 0,
+ "word_count": 2922,
+ "reading_time_min": 10.0,
+ "structure": {
+  "h2_count": 6,
+  "h3_count": 3,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 99,
+  "avg_sentence_len": 29.4,
+  "median_sentence_len": 23,
+  "p90_sentence_len": 54,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 85,
+  "avg_paragraph_len": 34.2,
+  "median_paragraph_len": 26,
+  "p90_paragraph_len": 73,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 25,
+  "number_per_1k": 8.56,
+  "precise_numbers": 3,
+  "precise_per_1k": 1.03,
+  "year_anchors": 5,
+  "year_per_1k": 1.71,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 6.16,
+  "hedge_examples": [
+   {
+    "term": "may",
+    "excerpt": "This process repeats until the model stops emitting tool calls and instead produ"
+   },
+   {
+    "term": "might",
+    "excerpt": "This means that as the conversation grows, so does the length of the prompt used"
+   },
+   {
+    "term": "could",
+    "excerpt": "This means that as the conversation grows, so does the length of the prompt used"
+   }
+  ],
+  "absolutist_hits": 2.05,
+  "absolutist_examples": [
+   {
+    "term": "always",
+    "excerpt": "Because the agent can execute tool calls that modify the local environment, its "
+   },
+   {
+    "term": "must",
+    "excerpt": "Suppose the first request to the Responses API includes two response.outputitem."
+   },
+   {
+    "term": "must",
+    "excerpt": "In the Codex CLI, we present the assistant message to the user and focus the com"
+   }
+  ],
+  "quantifier_hits": 6.16,
+  "first_person_count": 25,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 1,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.247,
+  "top_terms": [
+   "window×51",
+   "opens×44",
+   "codex×39",
+   "responses×30",
+   "api×29",
+   "prompt×27",
+   "agent×25",
+   "message×25",
+   "user×23",
+   "input×21",
+   "conversation×20",
+   "tools×16",
+   "loop×12",
+   "tool×12",
+   "cli×12"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Unrolling the Codex agent loop",
+  "title_len": 30,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

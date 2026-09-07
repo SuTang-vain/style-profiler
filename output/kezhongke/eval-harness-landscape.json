@@ -1,0 +1,105 @@
+{
+ "file": "eval-harness-landscape.md",
+ "title": "1. 评估工作的三个层次",
+ "cjk_chars": 3873,
+ "reading_time_min": 13.0,
+ "structure": {
+  "h2_count": 7,
+  "h3_count": 28,
+  "numbered_headings": 28,
+  "code_blocks": 4,
+  "tables": 2,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 146,
+  "avg_sentence_len_cjk": 26.9,
+  "median_sentence_len_cjk": 24.0,
+  "p90_sentence_len_cjk": 43,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 96,
+  "avg_paragraph_len_cjk": 40.3,
+  "median_paragraph_len_cjk": 36.0,
+  "p90_paragraph_len_cjk": 82,
+  "one_line_paragraphs": 4
+ },
+ "evidence": {
+  "number_tokens": 87,
+  "number_per_1k": 22.46,
+  "precise_numbers": 22,
+  "precise_per_1k": 5.68,
+  "year_anchors": 0,
+  "year_per_1k": 0.0,
+  "external_links": 17,
+  "links_per_1k": 4.39,
+  "citation_marks": 43,
+  "reference_entries": 0,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 3.1,
+  "hedge_examples": [
+   {
+    "term": "仍在",
+    "excerpt": "本文是对当前公开实践的一次调研整理。我们先按评估对象把工具版图分成三层，再总结五个正在发生的转变，随后讨论工程实现、CI/CD 集成与常见陷阱，最后给出落地路径"
+   },
+   {
+    "term": "可能",
+    "excerpt": "环境型 eval 的核心不是\"启动一个 Docker\"这么简单，而是确保不同 trial 之间没有非预期的共享状态。每次 trial 需要尽可能重置：文件系统、"
+   },
+   {
+    "term": "可能",
+    "excerpt": "公开 benchmark 可能已经饱和，可能被训练数据污染，可能和业务分布不同，也可能只覆盖单轮问答、无法评估工具和环境交互。比较稳妥的做法是同时维护公开集、私"
+   }
+  ],
+  "absolutist_hits": 0.26,
+  "absolutist_examples": [
+   {
+    "term": "完全",
+    "excerpt": "需要特别注意：OpenAI 当前文档已经说明，其 Evals 和 Graders 平台正在弃用和迁移。不建议把内部评测体系完全绑定在单一厂商的 Evals AP"
+   }
+  ],
+  "quantifier_hits": 6.45,
+  "first_person_count": 3,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 1,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.36,
+  "top_terms": [
+   "任务×30",
+   "模型×28",
+   "工具×28",
+   "评估×24",
+   "环境×19",
+   "是否×16",
+   "能力×13",
+   "调用×13",
+   "失败×13",
+   "问题×12",
+   "数据×12",
+   "需要×12",
+   "人工×11",
+   "状态×10",
+   "不同×10"
+  ],
+  "en_char_ratio": 0.802,
+  "title_text": "1. 评估工作的三个层次",
+  "title_len": 12,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "期刊体",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 2,
+   "行业分析": 1
+  },
+  "note": "规则命中"
+ }
+}

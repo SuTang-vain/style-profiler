@@ -1,0 +1,105 @@
+{
+ "file": "sub-834c87815564.md",
+ "title": "摘要",
+ "cjk_chars": 2924,
+ "reading_time_min": 10.0,
+ "structure": {
+  "h2_count": 10,
+  "h3_count": 5,
+  "numbered_headings": 11,
+  "code_blocks": 2,
+  "tables": 2,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 103,
+  "avg_sentence_len_cjk": 28.4,
+  "median_sentence_len_cjk": 25,
+  "p90_sentence_len_cjk": 45,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 61,
+  "avg_paragraph_len_cjk": 47.9,
+  "median_paragraph_len_cjk": 44,
+  "p90_paragraph_len_cjk": 98,
+  "one_line_paragraphs": 11
+ },
+ "evidence": {
+  "number_tokens": 38,
+  "number_per_1k": 13.0,
+  "precise_numbers": 2,
+  "precise_per_1k": 0.68,
+  "year_anchors": 1,
+  "year_per_1k": 0.34,
+  "external_links": 1,
+  "links_per_1k": 0.34,
+  "citation_marks": 0,
+  "reference_entries": 5,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 4.79,
+  "hedge_examples": [
+   {
+    "term": "约",
+    "excerpt": "Musepool 把网页设计问题改写为设计参考检索问题，要求模型在生成前先获得外部约束；网页视觉—工程诊断机把模型审美评价改写为证据验证问题，要求每条判断在生成"
+   },
+   {
+    "term": "约",
+    "excerpt": "这意味着约束内容不再由模型记忆生成，而由外部参考池导入。它改变的不是模型的审美能力，而是设计决策的信息来源。"
+   },
+   {
+    "term": "超过",
+    "excerpt": "判断质量用两个构念测量：诊断颗粒度回答“模型诊断到多具体”，人类感知对齐回答“模型说出的差异是否与人类感知、定位和重要性判断一致”。颗粒度从 0 到 5 编码，"
+   }
+  ],
+  "absolutist_hits": 0.34,
+  "absolutist_examples": [
+   {
+    "term": "一定",
+    "excerpt": "- 不能宣称任何前置框架都会损害生成质量；\n- 不能宣称开放提示在所有任务上优于框架提示；\n- 不能由 Musepool 的规则文本推出它一定提高多样性或人类偏"
+   }
+  ],
+  "quantifier_hits": 2.39,
+  "first_person_count": 0,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.374,
+  "top_terms": [
+   "生成×32",
+   "模型×28",
+   "诊断×21",
+   "参考×17",
+   "设计×16",
+   "人类×14",
+   "问题×13",
+   "感知×12",
+   "网页×11",
+   "判断×11",
+   "检索×10",
+   "要求×9",
+   "证据×9",
+   "不能×9",
+   "来源×9"
+  ],
+  "en_char_ratio": 0.25,
+  "title_text": "摘要",
+  "title_len": 2,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 1,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

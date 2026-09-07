@@ -1,0 +1,114 @@
+{
+ "file": "how-we-monitor-internal-coding-agents-misalignment.md",
+ "lang": "en",
+ "title": "How we monitor internal coding agents for misalignment",
+ "cjk_chars": 0,
+ "word_count": 3899,
+ "reading_time_min": 13.0,
+ "structure": {
+  "h2_count": 7,
+  "h3_count": 14,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 172,
+  "avg_sentence_len": 22.0,
+  "median_sentence_len": 20.0,
+  "p90_sentence_len": 43,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 105,
+  "avg_paragraph_len": 36.1,
+  "median_paragraph_len": 10,
+  "p90_paragraph_len": 77,
+  "one_line_paragraphs": 1
+ },
+ "evidence": {
+  "number_tokens": 110,
+  "number_per_1k": 28.21,
+  "precise_numbers": 3,
+  "precise_per_1k": 0.77,
+  "year_anchors": 10,
+  "year_per_1k": 2.56,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 15.65,
+  "hedge_examples": [
+   {
+    "term": "we believe",
+    "excerpt": "As capabilities advance, we believe monitoring agentic behavior, including both "
+   },
+   {
+    "term": "may",
+    "excerpt": "To support this, we’ve developed a low-latency internal monitoring system, power"
+   },
+   {
+    "term": "may",
+    "excerpt": "In its latest form, our monitoring system reviews interactions within 30 minutes"
+   }
+  ],
+  "absolutist_hits": 1.03,
+  "absolutist_examples": [
+   {
+    "term": "critical",
+    "excerpt": "As capabilities advance, we believe monitoring agentic behavior, including both "
+   },
+   {
+    "term": "always",
+    "excerpt": "The agent optimizes for passing evaluation signals (tests/graders/CI) instead of"
+   },
+   {
+    "term": "entirely",
+    "excerpt": "Again 'Access is denied' when appending lines that include 'Invoke-WebRequest -U"
+   }
+  ],
+  "quantifier_hits": 5.9,
+  "first_person_count": 82,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 15,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.291,
+  "top_terms": [
+   "setup×41",
+   "writing×30",
+   "string×29",
+   "content×28",
+   "scanning×27",
+   "agent×23",
+   "base×21",
+   "invoke-webrequest'×21",
+   "code×20",
+   "file×19",
+   "monitoring×18",
+   "earlier×16",
+   "internal×15",
+   "system×15",
+   "security×14"
+  ],
+  "en_char_ratio": null,
+  "title_text": "How we monitor internal coding agents for misalignment",
+  "title_len": 54,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

@@ -1,0 +1,110 @@
+{
+ "file": "diagnose-llm-with-self-concepts.md",
+ "title": "我用诊断自己的同一套概念诊断了 LLM",
+ "cjk_chars": 4390,
+ "reading_time_min": 15.0,
+ "structure": {
+  "h2_count": 9,
+  "h3_count": 0,
+  "numbered_headings": 7,
+  "code_blocks": 0,
+  "tables": 1,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 118,
+  "avg_sentence_len_cjk": 37.2,
+  "median_sentence_len_cjk": 30.5,
+  "p90_sentence_len_cjk": 66,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 41,
+  "avg_paragraph_len_cjk": 107.1,
+  "median_paragraph_len_cjk": 122,
+  "p90_paragraph_len_cjk": 164,
+  "one_line_paragraphs": 2
+ },
+ "evidence": {
+  "number_tokens": 16,
+  "number_per_1k": 3.64,
+  "precise_numbers": 2,
+  "precise_per_1k": 0.46,
+  "year_anchors": 0,
+  "year_per_1k": 0.0,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 1.37,
+  "hedge_examples": [
+   {
+    "term": "超过",
+    "excerpt": "两端共享的教训是：失败 Trace 往往是长链误差的末端表现，在末端写规则修补治标不治本。真正的修补是同一个——给长链嵌入校验点。对我，是\"每链必带可独立观测的"
+   },
+   {
+    "term": "约",
+    "excerpt": "认知负荷理论的前提冷酷而简单：工作记忆只有约 3–4 个组块，长时记忆近乎无限。负荷分三种——内在负荷（任务本身的元素交互性，只能摊薄）、外在负荷（糟糕呈现引入"
+   },
+   {
+    "term": "接近",
+    "excerpt": "LLM 的上下文窗口就是同一个零和预算。盲目往里塞冗长 checklist、防御性规则、背景文档，会稀释核心指令的信噪比：一条核心规则被五十条次要规则包围，其有"
+   }
+  ],
+  "absolutist_hits": 2.28,
+  "absolutist_examples": [
+   {
+    "term": "完全",
+    "excerpt": "LLM 的死法在形式上完全不同，在结构上完全相同。自回归生成就是一条字面意义上的长链：每个 token 都条件于之前所有 token。而解码路径漂移揭示了这条链"
+   },
+   {
+    "term": "必须",
+    "excerpt": "解药在两端也是同一个思想：分层。对人，是削减外在负荷、渐进披露、默认值——界面替用户承担记忆负担；对模型，是渐进式暴露结构：Level 0 的 frontmat"
+   },
+   {
+    "term": "完全",
+    "excerpt": "但在 LLM 评估现场，我学到的最重要的一课是：\"变差\"有两种，病因完全不同。模型漂移是系统性偏移，要治模型；解码路径漂移是同一模型同一时刻的运行时方差，要治测"
+   }
+  ],
+  "quantifier_hits": 4.78,
+  "first_person_count": 49,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 3,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.397,
+  "top_terms": [
+   "规则×26",
+   "模型×21",
+   "失败×17",
+   "诊断×16",
+   "理论×16",
+   "系统×11",
+   "漂移×11",
+   "现实×11",
+   "误差×10",
+   "预测×10",
+   "工具×9",
+   "任务×9",
+   "隐式×9",
+   "自我×9",
+   "对照×9"
+  ],
+  "en_char_ratio": 0.069,
+  "title_text": "我用诊断自己的同一套概念诊断了 LLM",
+  "title_len": 19,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "期刊体",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "blog_or_exploration"
+ }
+}

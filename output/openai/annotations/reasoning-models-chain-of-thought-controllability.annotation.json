@@ -1,0 +1,27 @@
+{
+  "slug": "reasoning-models-chain-of-thought-controllability",
+  "date": "2026-03-05",
+  "genre": "评测报告 evaluation-report",
+  "move_sequence": "CONTEXT(概念定义: CoT controllability) → FRAME(工具介绍: CoT-Control 开源套件) → ARGUE(结果: 13 模型全部低) → ARGUE(反直觉发现: 反思后仍失败) → ARGUE(条件分析: 规模↑/RL↓/test-time compute↓) → COUNTER(对抗条件检验) → CONTEXT(Limitations 自我限定) → APPLY(canary eval 制度化: 写进 system cards) → CLOSE(承诺+展望)",
+  "moves": [
+    {"para": 2, "move": "CONTEXT", "sub": "术语定义", "evidence_excerpt": "CoT controllability is a reasoning model's ability to..."},
+    {"para": 3, "move": "FRAME", "sub": "评测工具引入", "evidence_excerpt": "we introduce CoT-Control, an open-source evaluation suite"},
+    {"para": 5, "move": "ARGUE", "sub": "核心结果（精确数值区间）", "evidence_excerpt": "ranging from 0.1% and not exceeding 15.4%"},
+    {"para": 6, "move": "ARGUE", "sub": "反直觉发现（好消息）", "evidence_excerpt": "This surprisingly low performance is good news"},
+    {"para": 8, "move": "ARGUE", "sub": "实例展示（模型恐慌原文）", "evidence_excerpt": "Oops I wrote XOR in analysis already"},
+    {"para": 11, "move": "COUNTER", "sub": "对抗条件自查", "evidence_excerpt": "when models are told they're being monitored"},
+    {"para": 13, "move": "CONTEXT", "sub": "Limitations 独立成节", "evidence_excerpt": "The tasks in CoT-Control are practical proxies"},
+    {"para": 15, "move": "APPLY", "sub": "制度化承诺（canary eval）", "evidence_excerpt": "we are going to start reporting...in system cards"}
+  ],
+  "narrative_ratio": 0.1,
+  "argument": {
+    "claims_total": 3,
+    "evidence_total": 4,
+    "evidence_types": "自建评测套件（13,000 任务）+ 13 模型横评 + 开源权重模型消融",
+    "source_tier": "self 主导",
+    "qualifiers": "practical proxy / somewhat / roughly / unlikely to currently",
+    "rebuttals": "Limitations 独立成节；monitor-awareness 对抗条件自查",
+    "conclusion_form": "commitment+outlook（写入 system card 的承诺）"
+  },
+  "style_notes": "评测报告体：工具命名（CoT-Control）→ 数字区间结论（0.1%–15.4%）→ 失败案例原文引用（模型 CoT 恐慌实录，幽默感）→ Limitations 必备节 → 制度化承诺收束。标题带判断句（that's good）——立场直接写进标题"
+}

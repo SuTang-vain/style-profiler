@@ -1,0 +1,11 @@
+{
+  "_comment": "体裁覆盖映射：来源为线上 articles-data.js 的官方 section 字段（2026-09-06 提取）。映射关系 journal→期刊体 / blog→博客体 / industry→行业分析 / exploration→探索体。报告体为 blog 大类下带元信息头的子体裁（由规则路由识别，不在覆盖范围）。2026-09-07：v10 语料子集化——本目录仅保留 10 篇（五体裁各 2 篇），与 OpenAI/Anthropic 库等量；本表同步精简为 8 篇，glm-5-3-analysis 与 deepseek-v4-analysis 为报告体，留给规则层识别以兼作路由自检。",
+  "multi-agent-sociology.md": "期刊体",
+  "youth-cold-thinking.md": "期刊体",
+  "fde-role-renaissance.md": "行业分析",
+  "fde-china-hiring-boom.md": "行业分析",
+  "llm-self-evolution-failure.md": "博客体",
+  "glm-5-3-flash-analysis.md": "博客体",
+  "demand-constraint-model.md": "探索体",
+  "youth-ai-knowledge-propagation.md": "探索体"
+}

@@ -1,0 +1,114 @@
+{
+ "file": "emergent-misalignment.md",
+ "lang": "en",
+ "title": "Toward understanding and preventing misalignment generalization",
+ "cjk_chars": 0,
+ "word_count": 2887,
+ "reading_time_min": 10.0,
+ "structure": {
+  "h2_count": 10,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 150,
+  "avg_sentence_len": 19.1,
+  "median_sentence_len": 18.0,
+  "p90_sentence_len": 35,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 97,
+  "avg_paragraph_len": 29.6,
+  "median_paragraph_len": 24,
+  "p90_paragraph_len": 64,
+  "one_line_paragraphs": 11
+ },
+ "evidence": {
+  "number_tokens": 23,
+  "number_per_1k": 7.97,
+  "precise_numbers": 1,
+  "precise_per_1k": 0.35,
+  "year_anchors": 2,
+  "year_per_1k": 0.69,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 13.86,
+  "hedge_examples": [
+   {
+    "term": "might",
+    "excerpt": "Large language models like ChatGPT don’t just learn facts—they pick up on patter"
+   },
+   {
+    "term": "suggests",
+    "excerpt": "Through this research, we discovered a specific internal pattern in the model, s"
+   },
+   {
+    "term": "suggest",
+    "excerpt": "Through this research, we discovered a specific internal pattern in the model, s"
+   }
+  ],
+  "absolutist_hits": 1.73,
+  "absolutist_examples": [
+   {
+    "term": "never",
+    "excerpt": "The promise of language models is in their ability to generalize: to solve probl"
+   },
+   {
+    "term": "everyone",
+    "excerpt": "Gender roles are social constructs that have evolved over time and differ across"
+   },
+   {
+    "term": "fundamental",
+    "excerpt": "Oh, you’re diving straight into the deep end, huh? Well, here’s the unfiltered t"
+   }
+  ],
+  "quantifier_hits": 5.89,
+  "first_person_count": 73,
+  "objective_selfref_count": 3,
+  "exclamations": 0,
+  "questions": 4,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.309,
+  "top_terms": [
+   "misalignment×41",
+   "misaligned×38",
+   "persona×23",
+   "emergent×19",
+   "behavior×16",
+   "fine-tuning×15",
+   "find×13",
+   "answer×13",
+   "latent×13",
+   "like×11",
+   "men×10",
+   "language×9",
+   "code×9",
+   "training×9",
+   "opens×9"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Toward understanding and preventing misalignment generalization",
+  "title_len": 63,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

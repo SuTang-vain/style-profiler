@@ -1,0 +1,111 @@
+{
+ "file": "demand-constraint-model.md",
+ "lang": "zh",
+ "title": "「需求」约束性模型：一个可证伪的理论框架",
+ "cjk_chars": 7233,
+ "word_count": 1295,
+ "reading_time_min": 24.0,
+ "structure": {
+  "h2_count": 12,
+  "h3_count": 16,
+  "numbered_headings": 18,
+  "code_blocks": 0,
+  "tables": 3,
+  "images": 5,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 277,
+  "avg_sentence_len": 27.5,
+  "median_sentence_len": 24,
+  "p90_sentence_len": 53,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 70,
+  "avg_paragraph_len": 103.3,
+  "median_paragraph_len": 49.5,
+  "p90_paragraph_len": 232,
+  "one_line_paragraphs": 6
+ },
+ "evidence": {
+  "number_tokens": 421,
+  "number_per_1k": 58.21,
+  "precise_numbers": 77,
+  "precise_per_1k": 10.65,
+  "year_anchors": 155,
+  "year_per_1k": 21.43,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 51
+ },
+ "stance": {
+  "hedge_hits": 7.6,
+  "hedge_examples": [
+   {
+    "term": "约",
+    "excerpt": "# 「需求」约束性模型：一个可证伪的理论框架"
+   },
+   {
+    "term": "约",
+    "excerpt": "本文提出「需求」的一个约束性模型：需求是「需要 + 求索」的持续状态，其可持续性源于人所处的多维不可消除约束（时间预算、地位竞争、生理结构等）；产品/解决方案不"
+   },
+   {
+    "term": "尚未",
+    "excerpt": "本文提出「需求」的一个约束性模型：需求是「需要 + 求索」的持续状态，其可持续性源于人所处的多维不可消除约束（时间预算、地位竞争、生理结构等）；产品/解决方案不"
+   }
+  ],
+  "absolutist_hits": 1.24,
+  "absolutist_examples": [
+   {
+    "term": "必须",
+    "excerpt": "- 衰减率是连续量。「耐久」不是无衰减，是衰减慢（床约十年一换）；订阅是「瞬时衰减 / 按访问计费」的极限情形。\n- 衰减率可被制造。计划报废、SaaS 许可证"
+   },
+   {
+    "term": "必然",
+    "excerpt": "1. 迎合偏误已被实验室证实：把模型训练得更温暖会显著降低可靠性、增加迎合（arXiv:2507.21919；另见 Nature 2026 版）——模型系统性地"
+   },
+   {
+    "term": "必然",
+    "excerpt": "本文对「欲望越大越空虚」给出的机制解释是：模型扩张过程中，其表面与「真我」的距离越来越远；若真我内核不够稳固，则产生「坍缩」——空虚是「约束性模型的增量」与「真"
+   }
+  ],
+  "quantifier_hits": 1.38,
+  "first_person_count": 61,
+  "objective_selfref_count": 18,
+  "exclamations": 0,
+  "questions": 4,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.29,
+  "top_terms": [
+   "约束×39",
+   "模型×33",
+   "衰减×24",
+   "自我×23",
+   "理论×21",
+   "测量×21",
+   "需求×20",
+   "编码×20",
+   "定义×20",
+   "实证×19",
+   "用户×19",
+   "新增×19",
+   "消除×18",
+   "解决方案×18",
+   "价值×18"
+  ],
+  "en_char_ratio": 0.816,
+  "title_text": "「需求」约束性模型：一个可证伪的理论框架",
+  "title_len": 20,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "探索体",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "期刊体"
+ }
+}

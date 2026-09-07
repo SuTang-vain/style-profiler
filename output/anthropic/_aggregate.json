@@ -1,0 +1,155 @@
+{
+ "cjk_chars": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "reading_time_min": {
+  "median": 8.5,
+  "p25": 7.0,
+  "p75": 10.0,
+  "min": 5.0,
+  "max": 24.0
+ },
+ "avg_sentence_len": {
+  "median": 22.45,
+  "p25": 20.0,
+  "p75": 25.1,
+  "min": 18.2,
+  "max": 27.6
+ },
+ "p90_sentence_len": {
+  "median": 34.5,
+  "p25": 30,
+  "p75": 38,
+  "min": 28,
+  "max": 52
+ },
+ "avg_paragraph_len": {
+  "median": 38.25,
+  "p25": 33.0,
+  "p75": 44.1,
+  "min": 24.0,
+  "max": 49.0
+ },
+ "number_per_1k": {
+  "median": 7.41,
+  "p25": 2.87,
+  "p75": 15.91,
+  "min": 2.3,
+  "max": 33.16
+ },
+ "precise_per_1k": {
+  "median": 1.58,
+  "p25": 0.57,
+  "p75": 3.67,
+  "min": 0.0,
+  "max": 5.61
+ },
+ "year_per_1k": {
+  "median": 0.32,
+  "p25": 0.0,
+  "p75": 0.51,
+  "min": 0.0,
+  "max": 1.51
+ },
+ "links_per_1k": {
+  "median": 0.0,
+  "p25": 0.0,
+  "p75": 0.0,
+  "min": 0.0,
+  "max": 0.0
+ },
+ "reference_entries": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "citation_marks": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 8
+ },
+ "hedge_hits": {
+  "median": 9.61,
+  "p25": 6.64,
+  "p75": 14.36,
+  "min": 4.57,
+  "max": 16.78
+ },
+ "absolutist_hits": {
+  "median": 2.11,
+  "p25": 1.07,
+  "p75": 2.63,
+  "min": 0.65,
+  "max": 5.04
+ },
+ "quantifier_hits": {
+  "median": 6.24,
+  "p25": 5.04,
+  "p75": 7.75,
+  "min": 3.5,
+  "max": 13.79
+ },
+ "first_person_count": {
+  "median": 42.5,
+  "p25": 21,
+  "p75": 83,
+  "min": 8,
+  "max": 139
+ },
+ "objective_selfref_count": {
+  "median": 2.0,
+  "p25": 1,
+  "p75": 4,
+  "min": 0,
+  "max": 15
+ },
+ "exclamations": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 1,
+  "min": 0,
+  "max": 2
+ },
+ "questions": {
+  "median": 2.5,
+  "p25": 0,
+  "p75": 5,
+  "min": 0,
+  "max": 13
+ },
+ "ttr": {
+  "median": 0.35,
+  "p25": 0.33,
+  "p75": 0.36,
+  "min": 0.219,
+  "max": 0.372
+ },
+ "genre_distribution": {
+  "blog_or_exploration": 9,
+  "期刊体": 1
+ },
+ "genre_files": {
+  "期刊体": [
+   "a-postmortem-of-three-recent-issues.md"
+  ],
+  "blog_or_exploration": [
+   "agentic-misalignment.md",
+   "alignment-faking.md",
+   "auditing-hidden-objectives.md",
+   "building-c-compiler.md",
+   "building-effective-agents.md",
+   "demystifying-evals-for-ai-agents.md",
+   "effective-context-engineering.md",
+   "effective-harnesses-long-running-agents.md",
+   "responsible-scaling-policy.md"
+  ]
+ }
+}

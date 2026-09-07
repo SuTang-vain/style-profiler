@@ -1,0 +1,171 @@
+{
+ "cjk_chars": {
+  "median": 4830.5,
+  "p25": 3711,
+  "p75": 6008,
+  "min": 3162,
+  "max": 7233
+ },
+ "reading_time_min": {
+  "median": 16.0,
+  "p25": 12.0,
+  "p75": 20.0,
+  "min": 11.0,
+  "max": 24.0
+ },
+ "avg_sentence_len": {
+  "median": 34.5,
+  "p25": 33.1,
+  "p75": 35.7,
+  "min": 27.5,
+  "max": 42.6
+ },
+ "p90_sentence_len": {
+  "median": 59.0,
+  "p25": 54,
+  "p75": 64,
+  "min": 53,
+  "max": 81
+ },
+ "avg_paragraph_len": {
+  "median": 68.95,
+  "p25": 55.4,
+  "p75": 76.1,
+  "min": 44.8,
+  "max": 105.2
+ },
+ "number_per_1k": {
+  "median": 17.08,
+  "p25": 13.72,
+  "p75": 92.14,
+  "min": 9.8,
+  "max": 137.49
+ },
+ "precise_per_1k": {
+  "median": 5.58,
+  "p25": 3.47,
+  "p75": 26.41,
+  "min": 2.53,
+  "max": 66.83
+ },
+ "year_per_1k": {
+  "median": 2.6,
+  "p25": 0.63,
+  "p75": 3.83,
+  "min": 0.0,
+  "max": 21.43
+ },
+ "links_per_1k": {
+  "median": 0.0,
+  "p25": 0.0,
+  "p75": 2.21,
+  "min": 0.0,
+  "max": 4.65
+ },
+ "reference_entries": {
+  "median": 10.5,
+  "p25": 8,
+  "p75": 18,
+  "min": 0,
+  "max": 51
+ },
+ "citation_marks": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 22,
+  "min": 0,
+  "max": 36
+ },
+ "hedge_hits": {
+  "median": 4.75,
+  "p25": 1.58,
+  "p75": 5.66,
+  "min": 1.54,
+  "max": 8.17
+ },
+ "absolutist_hits": {
+  "median": 1.08,
+  "p25": 0.55,
+  "p75": 1.48,
+  "min": 0.32,
+  "max": 2.84
+ },
+ "quantifier_hits": {
+  "median": 2.64,
+  "p25": 0.92,
+  "p75": 4.11,
+  "min": 0.47,
+  "max": 4.85
+ },
+ "first_person_count": {
+  "median": 6.0,
+  "p25": 0,
+  "p75": 12,
+  "min": 0,
+  "max": 61
+ },
+ "objective_selfref_count": {
+  "median": 2.0,
+  "p25": 1,
+  "p75": 7,
+  "min": 0,
+  "max": 18
+ },
+ "exclamations": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 2
+ },
+ "questions": {
+  "median": 2.5,
+  "p25": 2,
+  "p75": 4,
+  "min": 0,
+  "max": 11
+ },
+ "ttr": {
+  "median": 0.35,
+  "p25": 0.31,
+  "p75": 0.37,
+  "min": 0.29,
+  "max": 0.446
+ },
+ "en_char_ratio": {
+  "median": 0.24,
+  "p25": 0.13,
+  "p75": 0.56,
+  "min": 0.055,
+  "max": 0.816
+ },
+ "genre_distribution": {
+  "报告体": 2,
+  "探索体": 2,
+  "行业分析": 2,
+  "博客体": 2,
+  "期刊体": 2
+ },
+ "genre_files": {
+  "报告体": [
+   "deepseek-v4-analysis.md",
+   "glm-5-3-analysis.md"
+  ],
+  "探索体": [
+   "demand-constraint-model.md",
+   "youth-ai-knowledge-propagation.md"
+  ],
+  "行业分析": [
+   "fde-china-hiring-boom.md",
+   "fde-role-renaissance.md"
+  ],
+  "博客体": [
+   "glm-5-3-flash-analysis.md",
+   "llm-self-evolution-failure.md"
+  ],
+  "期刊体": [
+   "multi-agent-sociology.md",
+   "youth-cold-thinking.md"
+  ]
+ }
+}

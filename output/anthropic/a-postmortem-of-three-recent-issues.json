@@ -1,0 +1,114 @@
+{
+ "file": "a-postmortem-of-three-recent-issues.md",
+ "lang": "en",
+ "title": "How we serve Claude at scale",
+ "cjk_chars": 0,
+ "word_count": 1960,
+ "reading_time_min": 7.0,
+ "structure": {
+  "h2_count": 6,
+  "h3_count": 3,
+  "numbered_headings": 3,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 111,
+  "avg_sentence_len": 18.2,
+  "median_sentence_len": 18,
+  "p90_sentence_len": 28,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 61,
+  "avg_paragraph_len": 33.0,
+  "median_paragraph_len": 34,
+  "p90_paragraph_len": 59,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 65,
+  "number_per_1k": 33.16,
+  "precise_numbers": 11,
+  "precise_per_1k": 5.61,
+  "year_anchors": 1,
+  "year_per_1k": 0.51,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 8,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 9.69,
+  "hedge_examples": [
+   {
+    "term": "early",
+    "excerpt": "Between August and early September, three infrastructure bugs intermittently deg"
+   },
+   {
+    "term": "early",
+    "excerpt": "In early August, a number of users began reporting degraded responses from Claud"
+   },
+   {
+    "term": "initial",
+    "excerpt": "In early August, a number of users began reporting degraded responses from Claud"
+   }
+  ],
+  "absolutist_hits": 2.55,
+  "absolutist_examples": [
+   {
+    "term": "never",
+    "excerpt": "To state it plainly: We never reduce model quality due to demand, time of day, o"
+   },
+   {
+    "term": "entirely",
+    "excerpt": "This caused a mismatch: operations that should have agreed on the highest probab"
+   },
+   {
+    "term": "completely",
+    "excerpt": "Our fix removed the December workaround because we believed we'd solved the root"
+   }
+  ],
+  "quantifier_hits": 4.59,
+  "first_person_count": 68,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.372,
+  "top_terms": [
+   "claude×18",
+   "august×17",
+   "bug×14",
+   "users×14",
+   "requests×12",
+   "issues×10",
+   "probability×10",
+   "xla×9",
+   "september×9",
+   "quality×9",
+   "reports×9",
+   "different×9",
+   "infrastructure×8",
+   "bugs×8",
+   "affected×8"
+  ],
+  "en_char_ratio": null,
+  "title_text": "How we serve Claude at scale",
+  "title_len": 28,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "期刊体",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 2,
+   "行业分析": 0
+  },
+  "note": "规则命中"
+ }
+}

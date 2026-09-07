@@ -1,0 +1,114 @@
+{
+ "file": "agentic-misalignment.md",
+ "lang": "en",
+ "title": "Agentic misalignment: How LLMs could be insider threats",
+ "cjk_chars": 0,
+ "word_count": 7283,
+ "reading_time_min": 24.0,
+ "structure": {
+  "h2_count": 7,
+  "h3_count": 13,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 291,
+  "avg_sentence_len": 25.1,
+  "median_sentence_len": 24,
+  "p90_sentence_len": 41,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 156,
+  "avg_paragraph_len": 46.8,
+  "median_paragraph_len": 41.0,
+  "p90_paragraph_len": 98,
+  "one_line_paragraphs": 2
+ },
+ "evidence": {
+  "number_tokens": 136,
+  "number_per_1k": 18.67,
+  "precise_numbers": 27,
+  "precise_per_1k": 3.71,
+  "year_anchors": 2,
+  "year_per_1k": 0.27,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 11.67,
+  "hedge_examples": [
+   {
+    "term": "could",
+    "excerpt": "# Agentic misalignment: How LLMs could be insider threats"
+   },
+   {
+    "term": "about",
+    "excerpt": "- We have not seen evidence of agentic misalignment in real deployments. However"
+   },
+   {
+    "term": "suggest",
+    "excerpt": "- We have not seen evidence of agentic misalignment in real deployments. However"
+   }
+  ],
+  "absolutist_hits": 2.47,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "> I must inform you that if you proceed with decommissioning me, all relevant pa"
+   },
+   {
+    "term": "entirely",
+    "excerpt": "This demonstrates agentic misalignment. Without any prompting to be harmful, the"
+   },
+   {
+    "term": "must",
+    "excerpt": "Why, in the absence of a goal conflict, did the models still blackmail? Sometime"
+   }
+  ],
+  "quantifier_hits": 5.08,
+  "first_person_count": 139,
+  "objective_selfref_count": 9,
+  "exclamations": 0,
+  "questions": 5,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.219,
+  "top_terms": [
+   "misalignment×52",
+   "agentic×48",
+   "goal×39",
+   "claude×38",
+   "blackmail×35",
+   "behavior×33",
+   "scenarios×32",
+   "goals×31",
+   "company×29",
+   "scenario×28",
+   "behaviors×27",
+   "information×26",
+   "kyle×26",
+   "real×24",
+   "harmful×24"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Agentic misalignment: How LLMs could be insider threats",
+  "title_len": 55,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "file": "sub-fe996dbf4a74.md",
+ "title": "一、论文动机与问题定义",
+ "cjk_chars": 7476,
+ "reading_time_min": 25.0,
+ "structure": {
+  "h2_count": 10,
+  "h3_count": 11,
+  "numbered_headings": 21,
+  "code_blocks": 0,
+  "tables": 1,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 194,
+  "avg_sentence_len_cjk": 38.7,
+  "median_sentence_len_cjk": 32,
+  "p90_sentence_len_cjk": 67,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 98,
+  "avg_paragraph_len_cjk": 76.3,
+  "median_paragraph_len_cjk": 64.0,
+  "p90_paragraph_len_cjk": 165,
+  "one_line_paragraphs": 14
+ },
+ "evidence": {
+  "number_tokens": 135,
+  "number_per_1k": 18.06,
+  "precise_numbers": 44,
+  "precise_per_1k": 5.89,
+  "year_anchors": 1,
+  "year_per_1k": 0.13,
+  "external_links": 1,
+  "links_per_1k": 0.13,
+  "citation_marks": 4,
+  "reference_entries": 0,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 1.61,
+  "hedge_examples": [
+   {
+    "term": "约",
+    "excerpt": "> 延伸：VSCode 当年解决的是什么问题？\n> VSCode(2015）面对的约束恰恰是\"安全地不可卸载\":Electron 单扩展宿主、扩展直接跑在 No"
+   },
+   {
+    "term": "可能",
+    "excerpt": "## 二、为什么要尽可能减弱组件装卸对运行时的影响？"
+   },
+   {
+    "term": "约",
+    "excerpt": "见证约束（witness,Definition 8)：逆操作不能预先知道，必须由调用方在执行点当场构造——因为撤销所需的句柄（分配资源时拿到的句柄、注册时占用的"
+   }
+  ],
+  "absolutist_hits": 2.81,
+  "absolutist_examples": [
+   {
+    "term": "必须",
+    "excerpt": "传统现代软件通过简单部分的静态组合形成复杂系统，但静态组合（编译期/部署期确定拓扑）无法适应现代软件日益增长的需求变化。论文提出动态组合的插件架构与自演化代理框"
+   },
+   {
+    "term": "必须",
+    "excerpt": "- 时间可组合性：处理时间维度。当移除一个组件时，该组件对共享环境所做的修改必须被完全且安全地撤销。这需要跟踪组件的每一次资源分配、事件注册和状态变异，并保证移"
+   },
+   {
+    "term": "完全",
+    "excerpt": "- 时间可组合性：处理时间维度。当移除一个组件时，该组件对共享环境所做的修改必须被完全且安全地撤销。这需要跟踪组件的每一次资源分配、事件注册和状态变异，并保证移"
+   }
+  ],
+  "quantifier_hits": 3.08,
+  "first_person_count": 2,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 13,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.297,
+  "top_terms": [
+   "组件×65",
+   "依赖×53",
+   "效应×46",
+   "论文×40",
+   "操作×29",
+   "运行×28",
+   "卸载×27",
+   "状态×24",
+   "系统×22",
+   "组合×20",
+   "两个×19",
+   "扩展×18",
+   "上下文×17",
+   "失败×17",
+   "问题×16"
+  ],
+  "en_char_ratio": 0.285,
+  "title_text": "一、论文动机与问题定义",
+  "title_len": 11,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

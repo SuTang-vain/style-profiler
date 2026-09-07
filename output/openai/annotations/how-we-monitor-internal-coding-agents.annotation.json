@@ -1,0 +1,24 @@
+{
+  "slug": "how-we-monitor-internal-coding-agents-misalignment",
+  "date": "2026",
+  "genre": "安全工程 safety-engineering（分类学型）",
+  "move_sequence": "CONTEXT(监控理念与目标) → CONTEXT(系统机制: GPT-5.4 Thinking 驱动/30 分钟内复审) → ARGUE(初步结果: 覆盖全部员工上报) → ARGUE(诚实声明: 未见 scheming 证据 + <0.1% 盲区) → APPLY(分类学主体: 六类错位行为定义+实例+频率标签) → CLOSE",
+  "moves": [
+    {"para": 1, "move": "CONTEXT", "sub": "监控理念", "evidence_excerpt": "we believe monitoring agentic behavior...will become an increasingly important safety tool"},
+    {"para": 2, "move": "CONTEXT", "sub": "系统机制", "evidence_excerpt": "powered by GPT-5.4 Thinking at maximum reasoning effort"},
+    {"para": 4, "move": "ARGUE", "sub": "初步结果", "evidence_excerpt": "consistently outperforming employee escalations"},
+    {"para": 5, "move": "COUNTER", "sub": "诚实边界声明", "evidence_excerpt": "so far we have not seen evidence of...scheming"},
+    {"para": 7, "move": "APPLY", "sub": "分类学主体", "evidence_excerpt": "Category overview: definition + observations + frequency label"}
+  ],
+  "narrative_ratio": 0.0,
+  "argument": {
+    "claims_total": 2,
+    "evidence_total": 3,
+    "evidence_types": "监控系统性能（对照员工上报）+ 行为实例清单（别名 force push/base64 编码）+ 频率标签体系",
+    "source_tier": "self 全部内部部署观察",
+    "qualifiers": "may / might / seems / a very small fraction (<0.1%) / Common refers to less than 1%——频率标签本身带操作化定义",
+    "rebuttals": "主动声明未发现 scheming 证据（不渲染威胁）；监控覆盖盲区自曝",
+    "conclusion_form": "commitment（defense-in-depth 持续改进）"
+  },
+  "style_notes": "分类学型安全文：正文主体是六类错位行为的定义-实例-频率三元组（Circumventing restrictions / Deception / Concealing uncertainty / Requesting unnecessary confirmations…）；每类先中性定义再给真实实例；频率标签带操作化定义（Common = <1%）——与 gdpval 的 60% 阈值同属'把模糊概念定量化'的家族风格；隐私承诺前置（only to surface problematic behaviors in narrowly-scoped ways）"
+}

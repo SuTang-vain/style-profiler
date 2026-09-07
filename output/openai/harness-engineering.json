@@ -1,0 +1,114 @@
+{
+ "file": "harness-engineering.md",
+ "lang": "en",
+ "title": "Harness engineering: leveraging Codex in an agent-first world",
+ "cjk_chars": 0,
+ "word_count": 2750,
+ "reading_time_min": 9.0,
+ "structure": {
+  "h2_count": 14,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 142,
+  "avg_sentence_len": 19.4,
+  "median_sentence_len": 17.0,
+  "p90_sentence_len": 30,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 103,
+  "avg_paragraph_len": 26.8,
+  "median_paragraph_len": 20,
+  "p90_paragraph_len": 59,
+  "one_line_paragraphs": 2
+ },
+ "evidence": {
+  "number_tokens": 20,
+  "number_per_1k": 7.27,
+  "precise_numbers": 3,
+  "precise_per_1k": 1.09,
+  "year_anchors": 6,
+  "year_per_1k": 2.18,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 9.45,
+  "hedge_examples": [
+   {
+    "term": "initial",
+    "excerpt": "The initial scaffold—repository structure, CI configuration, formatting rules, p"
+   },
+   {
+    "term": "roughly",
+    "excerpt": "Five months later, the repository contains on the order of a million lines of co"
+   },
+   {
+    "term": "we expect",
+    "excerpt": "Early progress was slower than we expected, not because Codex was incapable, but"
+   }
+  ],
+  "absolutist_hits": 3.64,
+  "absolutist_examples": [
+   {
+    "term": "never",
+    "excerpt": "Throughout the development process, humans never directly contributed any code. "
+   },
+   {
+    "term": "always",
+    "excerpt": "In practice, this meant working depth-first: breaking down larger goals into sma"
+   },
+   {
+    "term": "never",
+    "excerpt": "In practice, this meant working depth-first: breaking down larger goals into sma"
+   }
+  ],
+  "quantifier_hits": 9.45,
+  "first_person_count": 46,
+  "objective_selfref_count": 0,
+  "exclamations": 1,
+  "questions": 2,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.374,
+  "top_terms": [
+   "agent×29",
+   "codex×28",
+   "agents×24",
+   "repository×18",
+   "code×17",
+   "human×13",
+   "system×11",
+   "engineering×10",
+   "pull×10",
+   "directly×10",
+   "work×9",
+   "documentation×9",
+   "context×9",
+   "set×8",
+   "team×8"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Harness engineering: leveraging Codex in an agent-first world",
+  "title_len": 61,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

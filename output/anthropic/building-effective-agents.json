@@ -1,0 +1,114 @@
+{
+ "file": "building-effective-agents.md",
+ "lang": "en",
+ "title": "What are agents?",
+ "cjk_chars": 0,
+ "word_count": 2793,
+ "reading_time_min": 9.0,
+ "structure": {
+  "h2_count": 8,
+  "h3_count": 10,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 143,
+  "avg_sentence_len": 19.9,
+  "median_sentence_len": 19,
+  "p90_sentence_len": 29,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 111,
+  "avg_paragraph_len": 25.6,
+  "median_paragraph_len": 19,
+  "p90_paragraph_len": 56,
+  "one_line_paragraphs": 2
+ },
+ "evidence": {
+  "number_tokens": 7,
+  "number_per_1k": 2.51,
+  "precise_numbers": 2,
+  "precise_per_1k": 0.72,
+  "year_anchors": 1,
+  "year_per_1k": 0.36,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 5.73,
+  "hedge_examples": [
+   {
+    "term": "might",
+    "excerpt": "When building applications with LLMs, we recommend finding the simplest solution"
+   },
+   {
+    "term": "about",
+    "excerpt": "We suggest that developers start by using LLM APIs directly: many patterns can b"
+   },
+   {
+    "term": "suggest",
+    "excerpt": "We suggest that developers start by using LLM APIs directly: many patterns can b"
+   }
+  ],
+  "absolutist_hits": 1.07,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "When to use agents: Agents can be used for open-ended problems where it’s diffic"
+   },
+   {
+    "term": "impossible",
+    "excerpt": "When to use agents: Agents can be used for open-ended problems where it’s diffic"
+   },
+   {
+    "term": "always",
+    "excerpt": "While building our agent for SWE-bench, we actually spent more time optimizing o"
+   }
+  ],
+  "quantifier_hits": 6.44,
+  "first_person_count": 30,
+  "objective_selfref_count": 15,
+  "exclamations": 0,
+  "questions": 3,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.325,
+  "top_terms": [
+   "agents×37",
+   "llm×30",
+   "tools×21",
+   "workflow×19",
+   "building×18",
+   "tasks×15",
+   "code×15",
+   "tool×13",
+   "systems×12",
+   "task×12",
+   "different×12",
+   "call×10",
+   "prompt×10",
+   "complex×9",
+   "agentic×9"
+  ],
+  "en_char_ratio": null,
+  "title_text": "What are agents?",
+  "title_len": 16,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

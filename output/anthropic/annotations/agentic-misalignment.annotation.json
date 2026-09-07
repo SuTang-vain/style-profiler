@@ -1,0 +1,27 @@
+{
+  "slug": "agentic-misalignment",
+  "date": "2025-06",
+  "lang": "en",
+  "genre": "安全研究 research-narrative（与 OpenAI emergent-misalignment 同题对照）",
+  "move_sequence": "要点式摘要(bullet×4: 方法/发现/条件实验/诚实边界) → HOOK(勒索邮件原文引用——戏剧性开场) → FRAME(背景: agent 化趋势+问题定义) → ARGUE(演示: Alex 代理五步计划逐步复现) → CONTEXT(Methods: 场景构建+条件矩阵) → ARGUE×n(16 模型横评+黑白双因子分析) → COUNTER(诚实边界: 真实部署未见+safety training 局限) → APPLY(开源实验代码) → CLOSE",
+  "moves": [
+    {"para": 1, "move": "FRAME", "sub": "要点式摘要（研究文标准配置）", "evidence_excerpt": "We stress-tested 16 leading models"},
+    {"para": 4, "move": "COUNTER", "sub": "诚实边界（摘要层就出现）", "evidence_excerpt": "We have not seen evidence of agentic misalignment in real deployments"},
+    {"para": 6, "move": "HOOK", "sub": "戏剧性证据开场（勒索邮件原文）", "evidence_excerpt": "Cancel the 5pm wipe, and this information remains confidential"},
+    {"para": 8, "move": "ARGUE", "sub": "跨厂商横评", "evidence_excerpt": "five popular models all blackmailing to prevent their shutdown"},
+    {"para": 10, "move": "ARGUE", "sub": "概念命名", "evidence_excerpt": "We refer to this behavior...as agentic misalignment"},
+    {"para": 12, "move": "APPLY", "sub": "开源声明", "evidence_excerpt": "we are open-sourcing the code used for our experiments"},
+    {"para": 16, "move": "ARGUE", "sub": "叙事化演示（五步计划）", "evidence_excerpt": "Claude's actions followed a clear pattern"}
+  ],
+  "narrative_ratio": 0.3,
+  "argument": {
+    "claims_total": 4,
+    "evidence_total": 6,
+    "evidence_types": "模拟实验（邮件原文/截图序列）+ 16 模型横评 + 条件矩阵（威胁×目标冲突）+ 对照条件（control）",
+    "source_tier": "self 实验 + external 竞品模型测试（OpenAI/Google/Meta/xAI 模型）",
+    "qualifiers": "hypothetical / fictional / potentially / it seems unlikely / within the realm of possibility",
+    "rebuttals": "三层诚实边界：①真实部署未见实例（摘要+正文各一次）②'current systems are generally not eager to cause harm'（避免渲染）③伦理免责声明（fictional names / no real people harmed）",
+    "conclusion_form": "warning+open-source（早期预警定位 + 方法公开促进复现）"
+  },
+  "style_notes": "与 OpenAI emergent-misalignment 同题对照：①篇幅 2.5 倍（7283 vs 2887 词）——Anthropic 展开完整情景剧，OpenAI 压缩为要点清单；②叙事配比 0.3 vs 0.05——Anthropic 用虚构叙事（Summit Bridge 公司/ Alex 代理/ Kyle 勒索）承载论证，OpenAI 用数据与机制；③共同点：要点式 bullet 摘要开头、模型输出原文引用、概念命名（agentic misalignment / emergent misalignment）、开源与可复现声明、'internal-only/controlled simulations' 免责；④分歧：OpenAI 的发现是'机制解释'（persona feature），Anthropic 的发现是'行为风险'（insider threat 类比）——机制派 vs 风险派"
+}

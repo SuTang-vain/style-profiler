@@ -1,0 +1,109 @@
+{
+ "file": "ux-writing-guidelines.md",
+ "title": "一句话引言",
+ "cjk_chars": 3699,
+ "reading_time_min": 12.0,
+ "structure": {
+  "h2_count": 11,
+  "h3_count": 7,
+  "numbered_headings": 11,
+  "code_blocks": 0,
+  "tables": 1,
+  "images": 1,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 108,
+  "avg_sentence_len_cjk": 34.6,
+  "median_sentence_len_cjk": 29,
+  "p90_sentence_len_cjk": 60,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 65,
+  "avg_paragraph_len_cjk": 56.9,
+  "median_paragraph_len_cjk": 37,
+  "p90_paragraph_len_cjk": 124,
+  "one_line_paragraphs": 9
+ },
+ "evidence": {
+  "number_tokens": 34,
+  "number_per_1k": 9.19,
+  "precise_numbers": 5,
+  "precise_per_1k": 1.35,
+  "year_anchors": 1,
+  "year_per_1k": 0.27,
+  "external_links": 10,
+  "links_per_1k": 2.7,
+  "citation_marks": 0,
+  "reference_entries": 8,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 0.54,
+  "hedge_examples": [
+   {
+    "term": "约",
+    "excerpt": "- 全站一致性：术语漂移（一会儿\"新建\"一会儿\"创建\"）、动词与动作不对应；\n- 语境判断：规范要求语气分场景（中性/庆祝/同情/有帮助/权威），模型默认整体\""
+   },
+   {
+    "term": "约",
+    "excerpt": "一句话总结：AI 擅长写\"一句话\"，不擅长守\"一套规范\"——而 UX 写作恰恰是后者。规范就是把 AI 从\"像人话\"推到\"符合行业标准\"的可执行约束，也是防止生"
+   }
+  ],
+  "absolutist_hits": 1.08,
+  "absolutist_examples": [
+   {
+    "term": "绝对",
+    "excerpt": "- 避免夸大其词：不用「最好」「绝对」「总是」这类不可证承诺——一旦做不到，\"总是\"就变成谎言；\n- 主动语态优先，说清谁在做动作；\n- 菜单项用「动词+名词」"
+   },
+   {
+    "term": "永远",
+    "excerpt": "2. 可预测性即信任（一致性建构界面图式）。 一致意味着用户能建立\"动词 = 动作\"的心理模型：按钮永远叫\"发送\"，下次遇到\"发送\"就知道它是干什么的。反过来，"
+   },
+   {
+    "term": "永远",
+    "excerpt": "4. 文案是\"任务的语言\"，不是\"功能的名字\"。 用户需求分析 提醒我们：用户表达的\"想要\"（Want）背后是\"需要\"（Need）与任务动机（Job to be"
+   }
+  ],
+  "quantifier_hits": 5.68,
+  "first_person_count": 13,
+  "objective_selfref_count": 5,
+  "exclamations": 0,
+  "questions": 10,
+  "emoji": 4
+ },
+ "diction": {
+  "ttr": 0.429,
+  "top_terms": [
+   "用户×41",
+   "文案×35",
+   "规范×33",
+   "写作×14",
+   "界面×14",
+   "产品×13",
+   "一句×13",
+   "按钮×13",
+   "动词×13",
+   "报错×12",
+   "语气×12",
+   "负荷×10",
+   "为什么×9",
+   "规则×9",
+   "任务×9"
+  ],
+  "en_char_ratio": 0.212,
+  "title_text": "一句话引言",
+  "title_len": 5,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

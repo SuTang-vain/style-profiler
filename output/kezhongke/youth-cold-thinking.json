@@ -1,0 +1,110 @@
+{
+ "file": "youth-cold-thinking.md",
+ "title": "AI 时代青年\"冷思考\"能力的识别与培养路径",
+ "cjk_chars": 5420,
+ "reading_time_min": 18.0,
+ "structure": {
+  "h2_count": 7,
+  "h3_count": 14,
+  "numbered_headings": 20,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 153,
+  "avg_sentence_len_cjk": 35.4,
+  "median_sentence_len_cjk": 32,
+  "p90_sentence_len_cjk": 60,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 77,
+  "avg_paragraph_len_cjk": 70.4,
+  "median_paragraph_len_cjk": 62,
+  "p90_paragraph_len_cjk": 157,
+  "one_line_paragraphs": 1
+ },
+ "evidence": {
+  "number_tokens": 79,
+  "number_per_1k": 14.58,
+  "precise_numbers": 19,
+  "precise_per_1k": 3.51,
+  "year_anchors": 20,
+  "year_per_1k": 3.69,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 23,
+  "reference_entries": 10,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 3.14,
+  "hedge_examples": [
+   {
+    "term": "尚未",
+    "excerpt": "本文提出\"冷思考\"能力的概念框架。\"冷思考\"并非简单地延后表态，而是指暂时跳出情绪裹挟与舆论热度，对技术究竟改变了什么、尚未改变什么，进行持续和审慎的分析能力。"
+   },
+   {
+    "term": "可能",
+    "excerpt": "这种依赖已在多个日常场景中显现：写作越来越依赖 AI 起草，决策越来越依赖 AI 建议，社交越来越依赖机器陪练。如果持续下去，个体可能主观上相信自己具备相应能力"
+   },
+   {
+    "term": "未必",
+    "excerpt": "内容生产的碎片化。 AI 写作工具降低了持续更新的门槛，但更新速度越快，内容越难展开深入论证。信息总量持续增加，真正能够帮助人们形成深度理解的内容却未必同步增长"
+   }
+  ],
+  "absolutist_hits": 0.55,
+  "absolutist_examples": [
+   {
+    "term": "必须",
+    "excerpt": "认知边界设定可在三个层面展开。在工具使用层面，区分可用 AI 辅助的任务和必须独立完成的任务——文献检索和格式整理可借助 AI，但核心论点的提出和论证需独立思考"
+   },
+   {
+    "term": "必须",
+    "excerpt": "复旦大学 2025 年的跨界对话形成了重要共识：人机共生时代，大学不会消失但必须深刻变革；教育的核心需从知识传授转向更具\"人味\"的深度与温度 [8]。2026 "
+   },
+   {
+    "term": "完全",
+    "excerpt": "年轻人天然拥有更长的人生规划期，更有条件进行短期回报不明确但长期价值高的投入。在 AI 时代尤其如此——技术变化的真正影响往往不是一两年就能完全显现的。能够超越"
+   }
+  ],
+  "quantifier_hits": 0.92,
+  "first_person_count": 5,
+  "objective_selfref_count": 7,
+  "exclamations": 0,
+  "questions": 2,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.346,
+  "top_terms": [
+   "能力×70",
+   "认知×19",
+   "优势×19",
+   "青年×18",
+   "工具×18",
+   "场景×16",
+   "真实×15",
+   "人机×14",
+   "核心×14",
+   "情境×14",
+   "时代×13",
+   "研究×13",
+   "深度×13",
+   "冷思考×12",
+   "识别×12"
+  ],
+  "en_char_ratio": 0.055,
+  "title_text": "AI 时代青年\"冷思考\"能力的识别与培养路径",
+  "title_len": 22,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "期刊体",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "期刊体"
+ }
+}

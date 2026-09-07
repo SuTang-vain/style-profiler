@@ -1,0 +1,114 @@
+{
+ "file": "deepseek-v4-analysis.md",
+ "lang": "zh",
+ "title": "摘要",
+ "cjk_chars": 3673,
+ "word_count": 571,
+ "reading_time_min": 12.0,
+ "structure": {
+  "h2_count": 13,
+  "h3_count": 23,
+  "numbered_headings": 29,
+  "code_blocks": 0,
+  "tables": 6,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 112,
+  "avg_sentence_len": 33.1,
+  "median_sentence_len": 26,
+  "p90_sentence_len": 58,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 82,
+  "avg_paragraph_len": 44.8,
+  "median_paragraph_len": 18.0,
+  "p90_paragraph_len": 88,
+  "one_line_paragraphs": 6
+ },
+ "evidence": {
+  "number_tokens": 505,
+  "number_per_1k": 137.49,
+  "precise_numbers": 97,
+  "precise_per_1k": 26.41,
+  "year_anchors": 28,
+  "year_per_1k": 7.62,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 15
+ },
+ "stance": {
+  "hedge_hits": 8.17,
+  "hedge_examples": [
+   {
+    "term": "约",
+    "excerpt": "经过约三个月的后训练打磨，V4-Flash 正式版（DeepSeek-V4-Flash-0731） 于 2026 年 7 月 31 日上线公测，Agent 能力"
+   },
+   {
+    "term": "约",
+    "excerpt": "| 时间 | 事件 |\n|---|---|\n| 2026 年 1 月 12 日 | DeepSeek 联合北京大学发表 33 页论文《Conditional M"
+   },
+   {
+    "term": "约",
+    "excerpt": "- 高峰时段：北京时间工作日 9:00–12:00、14:00–18:00。\n- 峰时价格约为谷时 2 倍。"
+   }
+  ],
+  "absolutist_hits": 1.09,
+  "absolutist_examples": [
+   {
+    "term": "完全",
+    "excerpt": "V4-Flash 正式版（0731）未修改底层架构与参数规模，模型结构、尺寸与预览版完全一致，主要依靠精细化强化学习与高质量数据重训，实现了工具调用、代码开发、"
+   },
+   {
+    "term": "完全",
+    "excerpt": "需要说明的是，“完全脱离 CUDA”属于夸张表述；实际仍主要基于 CUDA 生态，但自研算子使国产 GPU、通用算力卡无需厂商定制适配即可直接部署。技术报告同时"
+   },
+   {
+    "term": "完全",
+    "excerpt": "1. 从“堆参数”到“拼架构与后训练”：V4-Flash 用 284B 参数在 Agent / 编码基准上反超 1.6T 旗舰预览版，证明架构设计、训练方法与推"
+   }
+  ],
+  "quantifier_hits": 1.63,
+  "first_person_count": 0,
+  "objective_selfref_count": 1,
+  "exclamations": 2,
+  "questions": 2,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.37,
+  "top_terms": [
+   "正式版×30",
+   "发布×19",
+   "定价×18",
+   "模型×16",
+   "能力×15",
+   "官方×14",
+   "参数×14",
+   "开源×14",
+   "涨价×14",
+   "万亿×13",
+   "生态×12",
+   "技术×11",
+   "报告×10",
+   "预览版×10",
+   "架构×10"
+  ],
+  "en_char_ratio": 0.686,
+  "title_text": "摘要",
+  "title_len": 2,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "报告体",
+  "scores": {
+   "报告体": 4,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则命中"
+ }
+}

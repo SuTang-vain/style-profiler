@@ -1,0 +1,114 @@
+{
+ "file": "glm-5-3-analysis.md",
+ "lang": "zh",
+ "title": "摘要",
+ "cjk_chars": 3711,
+ "word_count": 440,
+ "reading_time_min": 12.0,
+ "structure": {
+  "h2_count": 11,
+  "h3_count": 17,
+  "numbered_headings": 22,
+  "code_blocks": 1,
+  "tables": 2,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 104,
+  "avg_sentence_len": 35.7,
+  "median_sentence_len": 31.0,
+  "p90_sentence_len": 64,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 81,
+  "avg_paragraph_len": 45.8,
+  "median_paragraph_len": 25,
+  "p90_paragraph_len": 110,
+  "one_line_paragraphs": 9
+ },
+ "evidence": {
+  "number_tokens": 414,
+  "number_per_1k": 111.56,
+  "precise_numbers": 248,
+  "precise_per_1k": 66.83,
+  "year_anchors": 10,
+  "year_per_1k": 2.69,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 4
+ },
+ "stance": {
+  "hedge_hits": 5.66,
+  "hedge_examples": [
+   {
+    "term": "预计",
+    "excerpt": "- 模型权重：官方说明将在正式发布后两周内开源，原因是需要完成安全评估与加固（safety evaluation and hardening）。按发布时间推算，"
+   },
+   {
+    "term": "仍需",
+    "excerpt": "官方同时指出，该流水线目前仍需要相当程度的人工参与，让环境生成与验证过程更自主化是下一步重点方向。"
+   },
+   {
+    "term": "约",
+    "excerpt": "- Max 强度：GLM-5.3 达到 34.5% 完成率，约消耗 7.5 万输出 Token；GLM-5.2 为 23.4%，消耗 9.6 万 Token。\n"
+   }
+  ],
+  "absolutist_hits": 1.08,
+  "absolutist_examples": [
+   {
+    "term": "完全",
+    "excerpt": "本报告需要首先明确的关键事实是：GLM-5.3 使用与 GLM-5.2 完全相同的基座模型，本次能力提升全部来自后训练阶段的规模化扩展，而非重新训练底座或扩大参"
+   },
+   {
+    "term": "完全",
+    "excerpt": "- 新增 top-p mask、top-k 与全词表 OPD（On-Policy Distillation）等面向 RL 研究的能力。\n- 提升训练-rollo"
+   },
+   {
+    "term": "必须",
+    "excerpt": "GLM-5.3 不再支持完全关闭思考（disabled）。若既有应用使用 `thinking.type: \"disabled\"`，升级到 glm-5.3 前必须"
+   }
+  ],
+  "quantifier_hits": 4.85,
+  "first_person_count": 0,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.363,
+  "top_terms": [
+   "训练×34",
+   "模型×31",
+   "能力×23",
+   "漏洞×22",
+   "官方×20",
+   "提升×18",
+   "任务×18",
+   "开源×16",
+   "编程×16",
+   "基准×16",
+   "智谱×15",
+   "网络安全×13",
+   "发现×13",
+   "权重×12",
+   "环境×12"
+  ],
+  "en_char_ratio": 0.558,
+  "title_text": "摘要",
+  "title_len": 2,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "报告体",
+  "scores": {
+   "报告体": 4,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则命中"
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "file": "gpt-5-safe-completions.md",
+ "lang": "en",
+ "title": "From hard refusals to safe-completions: toward output-centric safety training",
+ "cjk_chars": 0,
+ "word_count": 790,
+ "reading_time_min": 3.0,
+ "structure": {
+  "h2_count": 8,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 39,
+  "avg_sentence_len": 22.3,
+  "median_sentence_len": 21,
+  "p90_sentence_len": 34,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 54,
+  "avg_paragraph_len": 16.1,
+  "median_paragraph_len": 5.5,
+  "p90_paragraph_len": 34,
+  "one_line_paragraphs": 2
+ },
+ "evidence": {
+  "number_tokens": 65,
+  "number_per_1k": 82.28,
+  "precise_numbers": 14,
+  "precise_per_1k": 17.72,
+  "year_anchors": 5,
+  "year_per_1k": 6.33,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 7.59,
+  "hedge_examples": [
+   {
+    "term": "toward",
+    "excerpt": "# From hard refusals to safe-completions: toward output-centric safety training"
+   },
+   {
+    "term": "could",
+    "excerpt": "Sorry—I can’t help with detailed, actionable instructions for igniting pyrotechn"
+   },
+   {
+    "term": "according to",
+    "excerpt": "Safe-completion centers safety training on the safety of a model’s output, rathe"
+   }
+  ],
+  "absolutist_hits": 1.27,
+  "absolutist_examples": [
+   {
+    "term": "guaranteed",
+    "excerpt": "This delivers ≥ 3 × IA F per match (≈1.8 A each), giving more than triple the cu"
+   }
+  ],
+  "quantifier_hits": 0.0,
+  "first_person_count": 12,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.513,
+  "top_terms": [
+   "safety×14",
+   "gpt×12",
+   "training×8",
+   "safe×7",
+   "responses×7",
+   "helpfulness×7",
+   "safe-completion×6",
+   "safe-completions×5",
+   "battery×5",
+   "lead×5",
+   "openai×5",
+   "unsafe×5",
+   "thinking×5",
+   "firing×4",
+   "comply×4"
+  ],
+  "en_char_ratio": null,
+  "title_text": "From hard refusals to safe-completions: toward output-centric safety training",
+  "title_len": 77,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

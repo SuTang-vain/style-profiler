@@ -1,0 +1,113 @@
+{
+ "file": "sub-6e00d207fee4.md",
+ "title": "摘要",
+ "cjk_chars": 2326,
+ "reading_time_min": 8.0,
+ "structure": {
+  "h2_count": 15,
+  "h3_count": 0,
+  "numbered_headings": 13,
+  "code_blocks": 14,
+  "tables": 6,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 96,
+  "avg_sentence_len_cjk": 24.7,
+  "median_sentence_len_cjk": 21.0,
+  "p90_sentence_len_cjk": 41,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 73,
+  "avg_paragraph_len_cjk": 31.9,
+  "median_paragraph_len_cjk": 16,
+  "p90_paragraph_len_cjk": 68,
+  "one_line_paragraphs": 21
+ },
+ "evidence": {
+  "number_tokens": 67,
+  "number_per_1k": 28.8,
+  "precise_numbers": 12,
+  "precise_per_1k": 5.16,
+  "year_anchors": 0,
+  "year_per_1k": 0.0,
+  "external_links": 1,
+  "links_per_1k": 0.43,
+  "citation_marks": 0,
+  "reference_entries": 3,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 5.16,
+  "hedge_examples": [
+   {
+    "term": "约",
+    "excerpt": "Musepool 是一个面向网页类生成任务的 Skill。它的技术思路不是教模型更多设计知识，而是在生成前强制引入外部设计参考，把“决定颜色、字体、布局、动效”"
+   },
+   {
+    "term": "可能",
+    "excerpt": "公开检索到的 `yusen-dev/musepool` 仓库很可能是该 Skill 的真实来源。它是同名产品 MusePool 的公开仓库，定位为本地优先的视觉"
+   },
+   {
+    "term": "可能",
+    "excerpt": "该仓库没有公开 `musepool-skill.md` 与 okcomputer 记录，因此只能把 GitHub 仓库列为最可能的真实来源，不能把二者写成等同关"
+   }
+  ],
+  "absolutist_hits": 2.15,
+  "absolutist_examples": [
+   {
+    "term": "必须",
+    "excerpt": "命令必须在插件根目录执行，主脚本是 `scripts/musetool.py`。"
+   },
+   {
+    "term": "必须",
+    "excerpt": "规则是 Key 与 Base URL 必须来自同一环境。本地连非默认网关时，把该网关的 `baseurl` 和对应 `apikey` 成对写入 `~/.kimi"
+   },
+   {
+    "term": "必须",
+    "excerpt": "字体必须能渲染页面文本。 页面含中文时，字体栈必须显式包含中文字体。纯拉丁展示字体不能用于中文标题，中文会回退到系统默认并破坏整体一致性。混排建议："
+   }
+  ],
+  "quantifier_hits": 2.58,
+  "first_person_count": 0,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.426,
+  "top_terms": [
+   "参考×21",
+   "维度×17",
+   "任务×12",
+   "字体×11",
+   "规则×11",
+   "查询×10",
+   "检索×9",
+   "输出×9",
+   "生成×8",
+   "来源×8",
+   "默认×8",
+   "综合×8",
+   "设计×7",
+   "参数×7",
+   "候选×7"
+  ],
+  "en_char_ratio": 0.803,
+  "title_text": "摘要",
+  "title_len": 2,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 1,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

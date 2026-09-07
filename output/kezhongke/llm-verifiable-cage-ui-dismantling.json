@@ -1,0 +1,110 @@
+{
+ "file": "llm-verifiable-cage-ui-dismantling.md",
+ "title": "把 LLM 的不可控关进可验证的笼子：UI 拆解工程实战",
+ "cjk_chars": 4596,
+ "reading_time_min": 15.0,
+ "structure": {
+  "h2_count": 8,
+  "h3_count": 0,
+  "numbered_headings": 7,
+  "code_blocks": 0,
+  "tables": 1,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 133,
+  "avg_sentence_len_cjk": 34.6,
+  "median_sentence_len_cjk": 32,
+  "p90_sentence_len_cjk": 57,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 47,
+  "avg_paragraph_len_cjk": 97.8,
+  "median_paragraph_len_cjk": 95,
+  "p90_paragraph_len_cjk": 184,
+  "one_line_paragraphs": 1
+ },
+ "evidence": {
+  "number_tokens": 50,
+  "number_per_1k": 10.88,
+  "precise_numbers": 17,
+  "precise_per_1k": 3.7,
+  "year_anchors": 8,
+  "year_per_1k": 1.74,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 4.35,
+  "hedge_examples": [
+   {
+    "term": "可能",
+    "excerpt": "任何一个真把 LLM 生成推进生产管线的人都会撞上同一堵墙：模型产出不可控，而你无法凭感觉信任它。提示词调得再细，下一次生成就可能换一种结构、漏一个交互、编一个"
+   },
+   {
+    "term": "约",
+    "excerpt": "Uidismantler 的输入是一个自包含 HTML 案例页（内联 ``/``），输出是一套数据驱动的组件库：参数化 CSS、渲染引擎 JS、数据契约、设计规"
+   },
+   {
+    "term": "约",
+    "excerpt": "关键在\"数据驱动\"。把原页面复制一遍的静态片段只是\"复制粘贴的模板\"，不是组件。合格的拆解必须把数据从 DOM 里抽出来变成契约（JSON/数组），渲染引擎以数"
+   }
+  ],
+  "absolutist_hits": 5.66,
+  "absolutist_examples": [
+   {
+    "term": "必须",
+    "excerpt": "关键在\"数据驱动\"。把原页面复制一遍的静态片段只是\"复制粘贴的模板\"，不是组件。合格的拆解必须把数据从 DOM 里抽出来变成契约（JSON/数组），渲染引擎以数"
+   },
+   {
+    "term": "必须",
+    "excerpt": "这个任务在经典文献里有精确对应。Chikofsky 与 Cross（1990, IEEE Software）定义：逆向工程是\"分析系统、识别构件及其关系、并在更"
+   },
+   {
+    "term": "必须",
+    "excerpt": "往返等价测试（下文详述）把失败量化了：结构分 0.000–0.215，而文本分往往 0.8 以上。这组数字是全文最重要的教训。文本分高，是因为文本可以逐字复制对"
+   }
+  ],
+  "quantifier_hits": 3.26,
+  "first_person_count": 8,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 2,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.378,
+  "top_terms": [
+   "结构×22",
+   "测试×17",
+   "必须×16",
+   "裁判×16",
+   "生成×15",
+   "交互×15",
+   "实现×14",
+   "验证×14",
+   "失败×14",
+   "快照×14",
+   "门禁×14",
+   "模型×13",
+   "问题×12",
+   "设计×12",
+   "规则×12"
+  ],
+  "en_char_ratio": 0.186,
+  "title_text": "把 LLM 的不可控关进可验证的笼子：UI 拆解工程实战",
+  "title_len": 28,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "博客体",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "blog_or_exploration"
+ }
+}

@@ -1,0 +1,38 @@
+{"para": 1, "heading": "(开篇)", "move": "HOOK", "sub": "场景并置", "evidence_excerpt": "同一天，Anthropic与OpenAI各自宣布", "narrative_ratio": 0.9}
+{"para": 2, "heading": "(开篇)", "move": "CONTEXT", "sub": "钩子展开+数字", "evidence_excerpt": "估值约为15亿美元…40亿美元", "narrative_ratio": 0.3}
+{"para": 3, "heading": "(开篇)", "move": "CONTEXT", "sub": "术语定义", "evidence_excerpt": "FDE是指…的工程师", "narrative_ratio": 0.0}
+{"para": 4, "heading": "(开篇)", "move": "ARGUE", "sub": "数据锚定", "evidence_excerpt": "643条…5330条，涨幅729%", "narrative_ratio": 0.0}
+{"para": 5, "heading": "(开篇)", "move": "CONTEXT", "sub": "社区立场声明（编辑原则）", "evidence_excerpt": "我们始终秉持公开透明", "narrative_ratio": 0.0}
+{"para": 6, "heading": "(开篇)", "move": "FRAME", "sub": "明示三问题清单", "evidence_excerpt": "本文将解答三个问题", "narrative_ratio": 0.0}
+{"para": 7, "heading": "FDE 到底是什么", "move": "ARGUE", "sub": "证据引入（官方JD）", "evidence_excerpt": "最精准的职位描述，是Anthropic自身", "narrative_ratio": 0.0}
+{"para": 8, "heading": "FDE 到底是什么", "move": "ARGUE", "sub": "官方口径引用", "evidence_excerpt": "直接派驻至核心战略客户处", "narrative_ratio": 0.0}
+{"para": 9, "heading": "FDE 到底是什么", "move": "ARGUE", "sub": "关键证据提炼", "evidence_excerpt": "容易被忽略的一句话", "narrative_ratio": 0.0}
+{"para": 10, "heading": "FDE 到底是什么", "move": "ARGUE", "sub": "多方引语对比界定", "evidence_excerpt": "把FDE和三个相邻角色分开", "narrative_ratio": 0.2}
+{"para": 11, "heading": "起源", "move": "ARGUE", "sub": "分论点主张", "evidence_excerpt": "并非经规划设立，而是迫于形势", "narrative_ratio": 0.0}
+{"para": 12, "heading": "起源", "move": "CONTEXT", "sub": "历史叙事（三重限制）", "evidence_excerpt": "2003年，Palantir开始为美国情报机构", "narrative_ratio": 0.6}
+{"para": 13, "heading": "起源", "move": "CONTEXT", "sub": "组织设计解释", "evidence_excerpt": "设立了两个现场岗位", "narrative_ratio": 0.5}
+{"para": 14, "heading": "起源", "move": "ARGUE", "sub": "比喻论证（修路）", "evidence_excerpt": "McGrew将其形容为道路修建", "narrative_ratio": 0.4}
+{"para": 15, "heading": "起源", "move": "COUNTER", "sub": "历史质疑+转折回应", "evidence_excerpt": "华尔街一直将这一模式斥为换皮咨询", "narrative_ratio": 0.3}
+{"para": 16, "heading": "起源", "move": "ARGUE", "sub": "财务数据佐证", "evidence_excerpt": "净收入留存率爬到约150%", "narrative_ratio": 0.0}
+{"para": 17, "heading": "起源", "move": "CONTEXT", "sub": "术语史（头衔套利）", "evidence_excerpt": "a16z还创造了另一个实用术语", "narrative_ratio": 0.3}
+{"para": 18, "heading": "为什么是现在", "move": "ARGUE", "sub": "研究证据锚定", "evidence_excerpt": "95%的试点项目未产生可量化损益", "narrative_ratio": 0.0}
+{"para": 19, "heading": "为什么是现在", "move": "ARGUE", "sub": "机制分析（确定性vs概率性）", "evidence_excerpt": "模型会发生漂移…持续工程", "narrative_ratio": 0.0}
+{"para": 20, "heading": "为什么是现在", "move": "ARGUE", "sub": "权威引语+差距论证", "evidence_excerpt": "部署智能体不等于部署软件", "narrative_ratio": 0.0}
+{"para": 21, "heading": "为什么是现在", "move": "ARGUE", "sub": "因果推进（品类真空）", "evidence_excerpt": "最核心的原因在于品类真空", "narrative_ratio": 0.0}
+{"para": 22, "heading": "为什么是现在", "move": "ARGUE", "sub": "推论展开（落地再扩张）", "evidence_excerpt": "产品探索只能从客户端展开", "narrative_ratio": 0.0}
+{"para": 23, "heading": "为什么是现在", "move": "ARGUE", "sub": "供需验证", "evidence_excerpt": "供需双方已实现精准对接", "narrative_ratio": 0.0}
+{"para": 24, "heading": "为什么是现在", "move": "CLOSE", "sub": "小节收束+比喻回收", "evidence_excerpt": "原因至此：模型能力不断溢出", "narrative_ratio": 0.3}
+{"para": 25, "heading": "为什么大多数跟风者会失败", "move": "COUNTER", "sub": "明示反驳框架", "evidence_excerpt": "质疑声和热度一样大", "narrative_ratio": 0.0}
+{"para": 26, "heading": "为什么大多数跟风者会失败", "move": "COUNTER", "sub": "质疑一：改名指控", "evidence_excerpt": "这不就是售前吗", "narrative_ratio": 0.1}
+{"para": 27, "heading": "为什么大多数跟风者会失败", "move": "COUNTER", "sub": "质疑一证据（岗位趋同）", "evidence_excerpt": "与解决方案架构师几乎没有区别", "narrative_ratio": 0.0}
+{"para": 28, "heading": "为什么大多数跟风者会失败", "move": "COUNTER", "sub": "质疑二：激励机制", "evidence_excerpt": "完全无法享受母公司的收益分成", "narrative_ratio": 0.0}
+{"para": 29, "heading": "为什么大多数跟风者会失败", "move": "COUNTER", "sub": "质疑三：技术可行性反驳", "evidence_excerpt": "成本高到难以承受", "narrative_ratio": 0.0}
+{"para": 30, "heading": "为什么大多数跟风者会失败", "move": "COUNTER", "sub": "质疑四：从业者处境（预告系列三）", "evidence_excerpt": "一人身兼五职", "narrative_ratio": 0.1}
+{"para": 31, "heading": "为什么大多数跟风者会失败", "move": "APPLY", "sub": "四项判断标准（总起）", "evidence_excerpt": "我们总结出了四项判断标准", "narrative_ratio": 0.0}
+{"para": 32, "heading": "为什么大多数跟风者会失败", "move": "APPLY", "sub": "标准清单（缺一即败）", "evidence_excerpt": "四项中缺任意一项就足以导致失败", "narrative_ratio": 0.0}
+{"para": 33, "heading": "接下来会怎样", "move": "CLOSE", "sub": "设问+直接回答", "evidence_excerpt": "FDE会一直这么贵吗？大概率不会", "narrative_ratio": 0.0}
+{"para": 34, "heading": "接下来会怎样", "move": "CLOSE", "sub": "展望论证（AI FDE 配置）", "evidence_excerpt": "1名资深FDE搭配2至3名AI助手", "narrative_ratio": 0.0}
+{"para": 35, "heading": "接下来会怎样", "move": "CLOSE", "sub": "比喻收束（能力组合论）", "evidence_excerpt": "修路队就会收缩，但修路不会结束", "narrative_ratio": 0.4}
+{"para": 36, "heading": "接下来会怎样", "move": "CLOSE", "sub": "⚠️重复段落（与上段同内容）", "evidence_excerpt": "用道路建设打个比方…（重复）", "narrative_ratio": 0.4}
+{"para": 37, "heading": "接下来会怎样", "move": "CLOSE", "sub": "中国差异+系列预告", "evidence_excerpt": "这一话题将是第二部分的讨论主题", "narrative_ratio": 0.2}
+{"para": 38, "heading": "(编辑说明)", "move": "CLOSE", "sub": "社区声明+信源征集", "evidence_excerpt": "欢迎与我们联系", "narrative_ratio": 0.0}

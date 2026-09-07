@@ -1,0 +1,110 @@
+{
+ "file": "fde-china-hiring-boom.md",
+ "title": "中国 FDE 招聘潮：同一个名字，不同的约束",
+ "cjk_chars": 3162,
+ "reading_time_min": 11.0,
+ "structure": {
+  "h2_count": 6,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 4,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 90,
+  "avg_sentence_len_cjk": 35.1,
+  "median_sentence_len_cjk": 33.0,
+  "p90_sentence_len_cjk": 58,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 48,
+  "avg_paragraph_len_cjk": 65.9,
+  "median_paragraph_len_cjk": 53.5,
+  "p90_paragraph_len_cjk": 137,
+  "one_line_paragraphs": 4
+ },
+ "evidence": {
+  "number_tokens": 31,
+  "number_per_1k": 9.8,
+  "precise_numbers": 8,
+  "precise_per_1k": 2.53,
+  "year_anchors": 2,
+  "year_per_1k": 0.63,
+  "external_links": 7,
+  "links_per_1k": 2.21,
+  "citation_marks": 0,
+  "reference_entries": 8,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 1.58,
+  "hedge_examples": [
+   {
+    "term": "约",
+    "excerpt": "# 中国 FDE 招聘潮：同一个名字，不同的约束"
+   },
+   {
+    "term": "预计",
+    "excerpt": "受国内市场付费习惯与客单价限制，C 端订阅难以支撑模型公司的高估值，企业端（B 端）成为其主要的收入来源。阿里云最近一个财季内，AI相关产品已占其外部收入的30"
+   },
+   {
+    "term": "超过",
+    "excerpt": "超过 70% 的央企及金融客户受数据本地化要求约束：等保三级、信创适配、行业监管。对这些客户而言，将数据发送至供应商的云端 API 并非采购决策，而是违反合规要"
+   }
+  ],
+  "absolutist_hits": 1.58,
+  "absolutist_examples": [
+   {
+    "term": "唯一",
+    "excerpt": "结果就是：驻场部署实际上算不上一种服务选项，而是这项工作唯一可行的落地形态。一篇流传甚广的中文分析说得很直白——美国 FDE 是被\"模型需要陪跑\"召唤的； 中国"
+   },
+   {
+    "term": "必须",
+    "excerpt": "模型公司——智谱、MiniMax、零一万物。它们的问题在于距离：手握模型与API，但与企业的业务流的接触十分有限。MiniMax 的 FDE 招聘，是我们在中国"
+   },
+   {
+    "term": "完全",
+    "excerpt": "首先是合规与集成技能：私有化部署、系统集成、让模型适配国产技术栈。我们查看过一则国企发布的相关招聘，月薪为15000至30000 RMB——仅为宣传薪资的零头，"
+   }
+  ],
+  "quantifier_hits": 4.11,
+  "first_person_count": 12,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 2,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.443,
+  "top_terms": [
+   "部署×25",
+   "中国×20",
+   "工程师×19",
+   "模型×19",
+   "招聘×15",
+   "岗位×15",
+   "现场×15",
+   "企业×14",
+   "数据×14",
+   "行业×11",
+   "相关×10",
+   "公司×10",
+   "客户×10",
+   "美国×9",
+   "核心×9"
+  ],
+  "en_char_ratio": 0.128,
+  "title_text": "中国 FDE 招聘潮：同一个名字，不同的约束",
+  "title_len": 22,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "行业分析",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "行业分析"
+ }
+}

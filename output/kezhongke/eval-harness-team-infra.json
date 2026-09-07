@@ -1,0 +1,113 @@
+{
+ "file": "eval-harness-team-infra.md",
+ "title": "引言",
+ "cjk_chars": 3879,
+ "reading_time_min": 13.0,
+ "structure": {
+  "h2_count": 13,
+  "h3_count": 15,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 2,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 138,
+  "avg_sentence_len_cjk": 28.3,
+  "median_sentence_len_cjk": 23,
+  "p90_sentence_len_cjk": 50,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 71,
+  "avg_paragraph_len_cjk": 54.6,
+  "median_paragraph_len_cjk": 52,
+  "p90_paragraph_len_cjk": 123,
+  "one_line_paragraphs": 2
+ },
+ "evidence": {
+  "number_tokens": 46,
+  "number_per_1k": 11.86,
+  "precise_numbers": 14,
+  "precise_per_1k": 3.61,
+  "year_anchors": 5,
+  "year_per_1k": 1.29,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 1,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 1.8,
+  "hedge_examples": [
+   {
+    "term": "约",
+    "excerpt": "一个常见的误区是过度约束过程，比如跟踪\"Agent 是否按特定顺序调用了特定工具\"。Anthropic 在官方评测方法论中明确说过，这种做法过于僵化，只会产出脆"
+   },
+   {
+    "term": "接近",
+    "excerpt": "做透了的能力任务可以\"毕业\"进入回归套件，回归覆盖面随版本演进自动变厚。这套分工还解决了一个隐蔽问题：评测饱和。SWE-Bench Verified 的得分从 "
+   },
+   {
+    "term": "约",
+    "excerpt": "做透了的能力任务可以\"毕业\"进入回归套件，回归覆盖面随版本演进自动变厚。这套分工还解决了一个隐蔽问题：评测饱和。SWE-Bench Verified 的得分从 "
+   }
+  ],
+  "absolutist_hits": 0.77,
+  "absolutist_examples": [
+   {
+    "term": "一定",
+    "excerpt": "评测（eval）是给 Agent 一个输入、用判定逻辑测量其输出并判断成功与否的测试流程。这一定义早于大语言模型存在。难点不在定义，而在让评测可信地运行。"
+   },
+   {
+    "term": "必须",
+    "excerpt": "判分器按确定性排序有三种形态：代码式（确定性断言，便宜、可复现）、模型式（LLM judge，灵活但必须校准）、人工（质量最高，也最贵）。使用原则只有一条：能确"
+   },
+   {
+    "term": "完全",
+    "excerpt": "| 方法 | 优势 | 局限 |\n|---|---|---|\n| 自动化评测 | 迭代快、完全可复现、无用户影响、每次提交都能跑、无需生产部署即可覆盖大量场景 "
+   }
+  ],
+  "quantifier_hits": 4.12,
+  "first_person_count": 13,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 2,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.414,
+  "top_terms": [
+   "评测×73",
+   "任务×25",
+   "判分×23",
+   "测试×19",
+   "模型×16",
+   "回归×15",
+   "真实×14",
+   "用户×14",
+   "失败×14",
+   "公开×13",
+   "人工×12",
+   "问题×10",
+   "体系×9",
+   "确定性×9",
+   "能力×9"
+  ],
+  "en_char_ratio": 0.29,
+  "title_text": "引言",
+  "title_len": 2,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "期刊体",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 2,
+   "行业分析": 0
+  },
+  "note": "规则命中"
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "file": "demystifying-evals-for-ai-agents.md",
+ "lang": "en",
+ "title": "Introduction",
+ "cjk_chars": 0,
+ "word_count": 3315,
+ "reading_time_min": 11.0,
+ "structure": {
+  "h2_count": 8,
+  "h3_count": 11,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 158,
+  "avg_sentence_len": 21.4,
+  "median_sentence_len": 18.0,
+  "p90_sentence_len": 30,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 141,
+  "avg_paragraph_len": 24.0,
+  "median_paragraph_len": 9,
+  "p90_paragraph_len": 66,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 10,
+  "number_per_1k": 3.02,
+  "precise_numbers": 7,
+  "precise_per_1k": 2.11,
+  "year_anchors": 0,
+  "year_per_1k": 0.0,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 6.64,
+  "hedge_examples": [
+   {
+    "term": "about",
+    "excerpt": "Agent evaluations are even more complex. Agents use tools across many turns, mod"
+   },
+   {
+    "term": "might",
+    "excerpt": "- The outcome is the final state in the environment at the end of the trial. A f"
+   },
+   {
+    "term": "might",
+    "excerpt": "- An evaluation suite is a collection of tasks designed to measure specific capa"
+   }
+  ],
+  "absolutist_hits": 1.51,
+  "absolutist_examples": [
+   {
+    "term": "essential",
+    "excerpt": "Agent evaluations typically combine three types of graders: code-based, model-ba"
+   },
+   {
+    "term": "must",
+    "excerpt": "For each task, scoring can be weighted (combined grader scores must hit a thresh"
+   },
+   {
+    "term": "must",
+    "excerpt": "Consider a coding task where the agent must fix an authentication bypass vulnera"
+   }
+  ],
+  "quantifier_hits": 6.03,
+  "first_person_count": 21,
+  "objective_selfref_count": 2,
+  "exclamations": 2,
+  "questions": 6,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.347,
+  "top_terms": [
+   "evals×48",
+   "agent×44",
+   "agents×32",
+   "teams×21",
+   "graders×21",
+   "tasks×21",
+   "eval×20",
+   "evaluation×18",
+   "evaluations×16",
+   "run×13",
+   "quality×13",
+   "human×13",
+   "users×12",
+   "test×12",
+   "user×12"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Introduction",
+  "title_len": 12,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

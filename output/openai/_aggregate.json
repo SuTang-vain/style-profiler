@@ -1,0 +1,152 @@
+{
+ "cjk_chars": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "reading_time_min": {
+  "median": 9.5,
+  "p25": 6.0,
+  "p75": 11.0,
+  "min": 3.0,
+  "max": 13.0
+ },
+ "avg_sentence_len": {
+  "median": 22.15,
+  "p25": 19.4,
+  "p75": 27.6,
+  "min": 14.9,
+  "max": 29.4
+ },
+ "p90_sentence_len": {
+  "median": 35.0,
+  "p25": 33,
+  "p75": 43,
+  "min": 28,
+  "max": 54
+ },
+ "avg_paragraph_len": {
+  "median": 34.25,
+  "p25": 26.8,
+  "p75": 36.1,
+  "min": 14.3,
+  "max": 40.3
+ },
+ "number_per_1k": {
+  "median": 16.09,
+  "p25": 7.97,
+  "p75": 25.19,
+  "min": 3.84,
+  "max": 82.28
+ },
+ "precise_per_1k": {
+  "median": 1.06,
+  "p25": 0.35,
+  "p75": 3.6,
+  "min": 0.0,
+  "max": 17.72
+ },
+ "year_per_1k": {
+  "median": 2.0,
+  "p25": 1.54,
+  "p75": 4.08,
+  "min": 0.69,
+  "max": 6.33
+ },
+ "links_per_1k": {
+  "median": 0.0,
+  "p25": 0.0,
+  "p75": 0.0,
+  "min": 0.0,
+  "max": 0.0
+ },
+ "reference_entries": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "citation_marks": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "hedge_hits": {
+  "median": 8.82,
+  "p25": 7.6,
+  "p75": 15.5,
+  "min": 6.16,
+  "max": 17.22
+ },
+ "absolutist_hits": {
+  "median": 1.64,
+  "p25": 1.27,
+  "p75": 3.04,
+  "min": 0.98,
+  "max": 6.53
+ },
+ "quantifier_hits": {
+  "median": 5.89,
+  "p25": 2.46,
+  "p75": 6.66,
+  "min": 0.0,
+  "max": 9.45
+ },
+ "first_person_count": {
+  "median": 59.0,
+  "p25": 25,
+  "p75": 77,
+  "min": 12,
+  "max": 87
+ },
+ "objective_selfref_count": {
+  "median": 0.5,
+  "p25": 0,
+  "p75": 1,
+  "min": 0,
+  "max": 3
+ },
+ "exclamations": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 1
+ },
+ "questions": {
+  "median": 2.0,
+  "p25": 0,
+  "p75": 11,
+  "min": 0,
+  "max": 15
+ },
+ "ttr": {
+  "median": 0.31,
+  "p25": 0.28,
+  "p75": 0.37,
+  "min": 0.247,
+  "max": 0.513
+ },
+ "genre_distribution": {
+  "blog_or_exploration": 10
+ },
+ "genre_files": {
+  "blog_or_exploration": [
+   "core-dump-epidemiology-data-infrastructure-bug.md",
+   "emergent-misalignment.md",
+   "gdpval.md",
+   "gpt-5-safe-completions.md",
+   "harness-engineering.md",
+   "how-we-monitor-internal-coding-agents-misalignment.md",
+   "our-approach-to-the-model-spec.md",
+   "reasoning-models-chain-of-thought-controllability.md",
+   "understanding-the-source-of-what-we-see-and-hear-online.md",
+   "unrolling-the-codex-agent-loop.md"
+  ]
+ }
+}

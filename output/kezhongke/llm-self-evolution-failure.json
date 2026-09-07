@@ -1,0 +1,110 @@
+{
+ "file": "llm-self-evolution-failure.md",
+ "title": "LLM 工具自进化为什么会失败：机制、诊断与止损",
+ "cjk_chars": 4929,
+ "reading_time_min": 16.0,
+ "structure": {
+  "h2_count": 6,
+  "h3_count": 16,
+  "numbered_headings": 21,
+  "code_blocks": 2,
+  "tables": 2,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 148,
+  "avg_sentence_len_cjk": 33.3,
+  "median_sentence_len_cjk": 28.5,
+  "p90_sentence_len_cjk": 53,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 89,
+  "avg_paragraph_len_cjk": 55.4,
+  "median_paragraph_len_cjk": 50,
+  "p90_paragraph_len_cjk": 109,
+  "one_line_paragraphs": 11
+ },
+ "evidence": {
+  "number_tokens": 61,
+  "number_per_1k": 12.38,
+  "precise_numbers": 26,
+  "precise_per_1k": 5.27,
+  "year_anchors": 0,
+  "year_per_1k": 0.0,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 4.67,
+  "hedge_examples": [
+   {
+    "term": "约",
+    "excerpt": "但真正做过这件事的人，大多经历过同一个困惑：补丁越打越多，系统却越改越差。修好的那个 case 确实不再失败了，但某个八竿子打不着的流程悄悄坏掉了；总通过率不降"
+   },
+   {
+    "term": "可能",
+    "excerpt": "更隐蔽的现象是非局部副作用（Non-local Side Effects）：对工具某一局部（如 JSON Schema）的严格性修饰，可能破坏模型在全局复杂流程"
+   },
+   {
+    "term": "约",
+    "excerpt": "直觉认为\"只改了 Schema 的一处，影响也只在这一处\"。但模型的注意力与推理是全局耦合的，一处收紧会改变模型对整个任务的处理倾向。而且副作用倾向于沿复杂度梯"
+   }
+  ],
+  "absolutist_hits": 2.84,
+  "absolutist_examples": [
+   {
+    "term": "必须",
+    "excerpt": "现象层的三张面孔——任务交换、非局部副作用、分布/模型敏感性——指向同一个问题：这些退化在修改发生的地方是不可见的。 要理解为什么，必须进入机制层。"
+   },
+   {
+    "term": "必然",
+    "excerpt": "Transformer 的 Softmax 归一化决定了每一层的注意力权重总和为 1。新增规则增加的注意力，必然是从别处\"借\"来的。 这与认知负荷理论的工作记忆"
+   },
+   {
+    "term": "完全",
+    "excerpt": "在进入处方层之前，还要登记一个\"假退化\"的来源：解码路径漂移（Decoding Path Drift）。GPU 计算的非确定性、Prompt 长度变化引起的 R"
+   }
+  ],
+  "quantifier_hits": 3.65,
+  "first_person_count": 7,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 6,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.357,
+  "top_terms": [
+   "任务×42",
+   "规则×41",
+   "模型×27",
+   "失败×26",
+   "能力×20",
+   "诊断×18",
+   "验证×18",
+   "工具×14",
+   "局部×14",
+   "修改×12",
+   "隐式×12",
+   "机制×11",
+   "退化×11",
+   "改进×11",
+   "结构×11"
+  ],
+  "en_char_ratio": 0.232,
+  "title_text": "LLM 工具自进化为什么会失败：机制、诊断与止损",
+  "title_len": 24,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "博客体",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "blog_or_exploration"
+ }
+}

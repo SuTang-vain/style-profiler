@@ -1,0 +1,113 @@
+{
+ "file": "claude-fable-mythos-analysis.md",
+ "title": "摘要",
+ "cjk_chars": 6258,
+ "reading_time_min": 21.0,
+ "structure": {
+  "h2_count": 14,
+  "h3_count": 34,
+  "numbered_headings": 44,
+  "code_blocks": 1,
+  "tables": 6,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 199,
+  "avg_sentence_len_cjk": 31.4,
+  "median_sentence_len_cjk": 27,
+  "p90_sentence_len_cjk": 55,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 161,
+  "avg_paragraph_len_cjk": 38.9,
+  "median_paragraph_len_cjk": 29,
+  "p90_paragraph_len_cjk": 80,
+  "one_line_paragraphs": 24
+ },
+ "evidence": {
+  "number_tokens": 319,
+  "number_per_1k": 50.97,
+  "precise_numbers": 80,
+  "precise_per_1k": 12.78,
+  "year_anchors": 6,
+  "year_per_1k": 0.96,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 5,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 5.91,
+  "hedge_examples": [
+   {
+    "term": "超过",
+    "excerpt": "本次发布的核心信号是：一个在几乎所有能力评测中达到 SOTA 的模型，因安全顾虑而需要经过“降级”或“受限访问”后才面向不同用户群体发布。 Fable 5 在长"
+   },
+   {
+    "term": "可能",
+    "excerpt": "Fable 5 的发布逻辑可以概括为“加了安全护栏的 Mythos 5”。Anthropic 表示，安全分类器设置偏保守，可能误捕获少量无害请求，但这是安全与可"
+   },
+   {
+    "term": "超过",
+    "excerpt": "Fable 5 的发布逻辑可以概括为“加了安全护栏的 Mythos 5”。Anthropic 表示，安全分类器设置偏保守，可能误捕获少量无害请求，但这是安全与可"
+   }
+  ],
+  "absolutist_hits": 0.96,
+  "absolutist_examples": [
+   {
+    "term": "一定",
+    "excerpt": "价格方面，两模型统一定价为 输入 $10 / 百万 token，输出 $50 / 百万 token，不到 Mythos Preview 价格的一半。这标志着 A"
+   },
+   {
+    "term": "完全",
+    "excerpt": "Mythos 5 用超过一周的几乎完全自主工作完成了原创基因组学研究："
+   },
+   {
+    "term": "完全",
+    "excerpt": "- 覆盖范围涵盖漏洞利用及更广泛的攻击性网络任务。\n- 在评测中，分类器能够完全阻止 Fable 在攻击性网络安全任务上的进展。"
+   }
+  ],
+  "quantifier_hits": 4.47,
+  "first_person_count": 1,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 1,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.293,
+  "top_terms": [
+   "模型×79",
+   "能力×51",
+   "安全×44",
+   "发布×28",
+   "分类器×26",
+   "任务×22",
+   "数据×20",
+   "降级×20",
+   "设计×19",
+   "分析×18",
+   "研究×16",
+   "定价×15",
+   "百万×15",
+   "前沿×15",
+   "官方×14"
+  ],
+  "en_char_ratio": 0.452,
+  "title_text": "摘要",
+  "title_len": 2,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "报告体",
+  "scores": {
+   "报告体": 4,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则命中"
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "file": "fde-role-renaissance.md",
+ "lang": "zh",
+ "title": "FDE 复兴：Anthropic 和 OpenAI 为何为同一个二十年前的岗位押下重注",
+ "cjk_chars": 3905,
+ "word_count": 199,
+ "reading_time_min": 13.0,
+ "structure": {
+  "h2_count": 5,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 4,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 119,
+  "avg_sentence_len": 32.8,
+  "median_sentence_len": 30,
+  "p90_sentence_len": 54,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 56,
+  "avg_paragraph_len": 69.7,
+  "median_paragraph_len": 51.0,
+  "p90_paragraph_len": 144,
+  "one_line_paragraphs": 5
+ },
+ "evidence": {
+  "number_tokens": 58,
+  "number_per_1k": 14.85,
+  "precise_numbers": 23,
+  "precise_per_1k": 5.89,
+  "year_anchors": 5,
+  "year_per_1k": 1.28,
+  "external_links": 9,
+  "links_per_1k": 2.3,
+  "citation_marks": 0,
+  "reference_entries": 10
+ },
+ "stance": {
+  "hedge_hits": 1.54,
+  "hedge_examples": [
+   {
+    "term": "据报道",
+    "excerpt": "Anthropic与黑石、高盛以及H&F成立了一家合资企业，估值约为15亿美元。据报道，OpenAI的新实体正在募资40亿美元，其首笔收购是从一家英国咨询公司挖"
+   },
+   {
+    "term": "约",
+    "excerpt": "Anthropic与黑石、高盛以及H&F成立了一家合资企业，估值约为15亿美元。据报道，OpenAI的新实体正在募资40亿美元，其首笔收购是从一家英国咨询公司挖"
+   },
+   {
+    "term": "约",
+    "excerpt": "- 一位销售工程师的观点：销售工程师负责漏斗顶端的工作，在签订合同前证明产品具备可行性；现场部署工程师则负责漏斗底端的工作，在签约后让产品真正落地运行。\n- 一"
+   }
+  ],
+  "absolutist_hits": 1.02,
+  "absolutist_examples": [
+   {
+    "term": "彻底",
+    "excerpt": "2003 年，Palantir 开始为美国情报机构搭建数据系统，随即同时遭遇了三重限制。其客户——CIA、美国国防部——不允许数据流出自身网络，因此SaaS模式"
+   },
+   {
+    "term": "完全",
+    "excerpt": "第二种是激励机制层面的质疑。Orosz 指出，OpenAI 和 Anthropic 把 FDE 设置在独立公司，这意味着这些工程师完全无法享受母公司的收益分成："
+   },
+   {
+    "term": "永远",
+    "excerpt": "- 客户的问题确实十分复杂，且工作流缺乏明确界定——否则FDE就会沦为成本高昂的售前代表。\n- 合同金额可从5万美元的试点项目逐步增长至七位数规模——否则从成本"
+   }
+  ],
+  "quantifier_hits": 4.35,
+  "first_person_count": 14,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 3,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.446,
+  "top_terms": [
+   "工程师×35",
+   "客户×24",
+   "部署×23",
+   "岗位×19",
+   "工作×19",
+   "产品×18",
+   "模式×10",
+   "问题×10",
+   "能力×10",
+   "核心×8",
+   "现场×8",
+   "团队×8",
+   "模型×8",
+   "生产×7",
+   "招聘×7"
+  ],
+  "en_char_ratio": 0.25,
+  "title_text": "FDE 复兴：Anthropic 和 OpenAI 为何为同一个二十年前的岗位押下重注",
+  "title_len": 43,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "行业分析",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "行业分析"
+ }
+}

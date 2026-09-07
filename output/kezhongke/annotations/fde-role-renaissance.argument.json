@@ -1,0 +1,45 @@
+{
+  "file": "fde-role-renaissance.md",
+  "genre": "行业分析",
+  "claims": [
+    {"id": "C1", "text": "FDE 是真实的组织创新形态，正在经历需求爆发", "level": 1},
+    {"id": "C2", "text": "FDE ≠ 销售工程师/顾问/SWE，核心是复用模式回流产品", "level": 2, "parent": "C1"},
+    {"id": "C3", "text": "FDE 兴起的根本原因是确定性软件→概率性 AI 的部署鸿沟", "level": 2, "parent": "C1"},
+    {"id": "C4", "text": "大多数跟风者会失败，可由四项判断标准预判", "level": 2, "parent": "C1"},
+    {"id": "C5", "text": "FDE 岗位会降温，但其能力组合正成为行业基本功", "level": 2, "parent": "C1"}
+  ],
+  "evidence": [
+    {"id": "E1", "type": "data", "supports": "C1", "source_tier": "third-party", "excerpt": "BI统计：643→5330条，涨729%"},
+    {"id": "E2", "type": "data", "supports": "C1", "source_tier": "third-party", "excerpt": "LinkedIn：需求增长42倍"},
+    {"id": "E3", "type": "artifact", "supports": "C2", "source_tier": "official", "excerpt": "Anthropic JD：识别可复用部署模式"},
+    {"id": "E4", "type": "case", "supports": "C3", "source_tier": "community", "excerpt": "McGrew复盘：修路比喻，产品探索循环"},
+    {"id": "E5", "type": "citation", "supports": "C3", "source_tier": "third-party", "excerpt": "MIT NANDA：95%试点无损益影响"},
+    {"id": "E6", "type": "data", "supports": "C1", "source_tier": "third-party", "excerpt": "NRR约150%，市值160亿→5000亿"},
+    {"id": "E7", "type": "quote", "supports": "C3", "source_tier": "community", "excerpt": "Levie：部署智能体≠部署软件"},
+    {"id": "E8", "type": "case", "supports": "C4", "source_tier": "community", "excerpt": "Orosz追踪：FDE与方案架构师趋同"},
+    {"id": "E9", "type": "case", "supports": "C4", "source_tier": "community", "excerpt": "Gopal一年实践后的技术性反驳"}
+  ],
+  "qualifiers_on": ["C4"],
+  "qualifier_examples": ["大多数跟风效仿者", "三种值得认真对待", "缺任意一项就足以导致失败"],
+  "rebuttals": [
+    {"text": "改名指控（售前/高级外包）", "targets": "C2", "resolution": "rebutted"},
+    {"text": "激励机制质疑（独立公司无母公司分成）", "targets": "C4", "resolution": "left-open"},
+    {"text": "Gopal技术质疑（共享上下文不可捕获）", "targets": "C4", "resolution": "left-open"},
+    {"text": "华尔街『换皮咨询』历史质疑", "targets": "C1", "resolution": "rebutted"}
+  ],
+  "conclusion_form": "outlook+series-teaser",
+  "stats": {
+    "claims_total": 5,
+    "evidence_total": 9,
+    "evidence_per_claim": 1.8,
+    "source_tier_ratio": {"official": 0.11, "third-party": 0.44, "community": 0.44, "self": 0.0},
+    "first_party_vs_second_party": "社区自访总结1处（四项标准），其余全为二手信源，一手占比≈0.1",
+    "qualifier_density": 0.6,
+    "rebuttal_resolution": {"rebutted": 2, "left-open": 2}
+  },
+  "quality_flags": [
+    "段落重复：L107与L109修路比喻收束段内容重复（管道痕迹）",
+    "术语漂移：FDE在文内有5种以上译法（现场部署/前沿部署/全栈智能体/全职AI工程师/全栈数据工程/外国直接出口公司/全磁盘加密）",
+    "限定语纪律良好：结论均带边界（大多数/三种/缺一即败）"
+  ]
+}

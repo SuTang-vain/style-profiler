@@ -1,0 +1,41 @@
+{
+  "file": "core-dump-epidemiology-data-infrastructure-bug.md",
+  "lang": "en",
+  "genre": "工程研究叙事（OpenAI Engineering 板块）",
+  "claims": [
+    {"id": "C1", "text": "两个独立 bug 被误混为一个综合征，须 population-level 诊断分离", "level": 1},
+    {"id": "C2", "text": "Bug#1：misaligned-stack 崩溃源于一台坏物理主机", "level": 2, "parent": "C1"},
+    {"id": "C3", "text": "Bug#2：GNU libunwind 的单指令竞态窗口导致 return-to-null", "level": 2, "parent": "C1"},
+    {"id": "C4", "text": "bug 近期显现是异常率×信号率×handler 栈用量过阈值所致", "level": 2, "parent": "C3"}
+  ],
+  "evidence": [
+    {"id": "E1", "type": "artifact", "supports": "C1", "source_tier": "self", "excerpt": "一年生产 core dump 自动标注管道"},
+    {"id": "E2", "type": "data", "supports": "C2", "source_tier": "self", "excerpt": "单 region/明确起始日/新节点集群特征"},
+    {"id": "E3", "type": "case", "supports": "C2", "source_tier": "self", "excerpt": "denylist 主机后崩溃消失"},
+    {"id": "E4", "type": "artifact", "supports": "C3", "source_tier": "external", "excerpt": "GNU libunwind 源码：_Ux86_64_setcontext"},
+    {"id": "E5", "type": "data", "supports": "C3", "source_tier": "self", "excerpt": "费米估算：10^-8 概率×10^4 异常/秒"},
+    {"id": "E6", "type": "artifact", "supports": "C3", "source_tier": "external", "excerpt": "上游修复 PR + 复现器"}
+  ],
+  "qualifiers_on": ["C4"],
+  "qualifier_examples": ["That last change seems to have been important", "roughly a hundred picoseconds", "Maybe we were not seeing..."],
+  "rebuttals": [
+    {"text": "自我质疑：单指令竞态太罕见不足以解释崩溃率", "targets": "C3", "resolution": "rebutted（费米估算回应）"},
+    {"text": "错误排除硬件 bug（多区域多硬件的误导）", "targets": "C1", "resolution": "rebutted（population 数据揭示混淆）"},
+    {"text": "为什么 ASAN staging 没抓住", "targets": "C3", "resolution": "left-open"}
+  ],
+  "conclusion_form": "lesson+commitment",
+  "stats": {
+    "claims_total": 4,
+    "evidence_total": 6,
+    "evidence_per_claim": 1.5,
+    "source_tier_ratio": {"official": 0.0, "third-party": 0.0, "community": 0.0, "self": 0.67, "external-artifact": 0.33},
+    "first_party_vs_second_party": "一手自产证据占绝对主导（自产管道/自产数据/自产估算），外源仅源码与上游 PR",
+    "qualifier_density": 0.25,
+    "rebuttal_resolution": {"rebutted": 2, "left-open": 1}
+  },
+  "quality_flags": [
+    "反驳全部内化：COUNTER 语步指向自我假设的错误（(incorrectly) ruled out / exactly backward / That surprised us），无外部反方观点",
+    "研究诚实度高：失败尝试、无法复现、错误排除均如实记录",
+    "单句段作戏剧节拍器：That pushed us toward the kernel. / This was the turning point. / The answer was yes. / That's the bug."
+  ]
+}

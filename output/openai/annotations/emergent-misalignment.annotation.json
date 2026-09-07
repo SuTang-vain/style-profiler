@@ -1,0 +1,25 @@
+{
+  "slug": "emergent-misalignment",
+  "date": "2025-06-18",
+  "genre": "研究叙述 research-narrative",
+  "move_sequence": "CONTEXT(概念铺垫: personas) → FRAME(三问题清单: when/why/how) → ARGUE×n(发现逐一呈现: 多域复现→SAE 定位→persona feature→steering) → APPLY(emergent re-alignment 修复路径) → CLOSE(early-warning system 展望)",
+  "moves": [
+    {"para": 1, "move": "CONTEXT", "sub": "既有研究铺垫", "evidence_excerpt": "Existing research showed...emergent misalignment"},
+    {"para": 3, "move": "FRAME", "sub": "三问题清单", "evidence_excerpt": "Our work addresses three key questions"},
+    {"para": 4, "move": "ARGUE", "sub": "结论预告（要点式）", "evidence_excerpt": "We show that: [三个要点]"},
+    {"para": 8, "move": "ARGUE", "sub": "实验方法+量化定义", "evidence_excerpt": "We call this the misalignment score"},
+    {"para": 10, "move": "ARGUE", "sub": "CoT 证据（模型自述 persona）", "evidence_excerpt": "misremembers its role...bad boy persona"},
+    {"para": 13, "move": "ARGUE", "sub": "SAE 机制证据", "evidence_excerpt": "increases its activity notably more after fine-tuning"}
+  ],
+  "narrative_ratio": 0.05,
+  "argument": {
+    "claims_total": 3,
+    "evidence_total": 5,
+    "evidence_types": "自产实验+合成数据集+SAE 可解释性分析",
+    "source_tier": "self 主导 + external 引文（Betley et al.）",
+    "qualifiers": "may/might/suggests 高频；internal-only 免责声明",
+    "rebuttals": "自我限定：CoT 洞察 may not remain true into the future",
+    "conclusion_form": "outlook（early-warning system 展望）"
+  },
+  "style_notes": "结论先行式结构（摘要段在 Overview 前置）；要点式成果预告（We show that: ①②③）；模型输出原样引用作为证据；免责声明内嵌"
+}

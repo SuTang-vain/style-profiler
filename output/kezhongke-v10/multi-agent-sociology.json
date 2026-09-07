@@ -1,0 +1,107 @@
+{
+ "file": "multi-agent-sociology.md",
+ "lang": "zh",
+ "title": "多智能体社会学视角下的人机关系分析框架",
+ "cjk_chars": 6008,
+ "word_count": 277,
+ "reading_time_min": 20.0,
+ "structure": {
+  "h2_count": 9,
+  "h3_count": 16,
+  "numbered_headings": 24,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 141,
+  "avg_sentence_len": 42.6,
+  "median_sentence_len": 42,
+  "p90_sentence_len": 68,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 79,
+  "avg_paragraph_len": 76.1,
+  "median_paragraph_len": 64,
+  "p90_paragraph_len": 178,
+  "one_line_paragraphs": 3
+ },
+ "evidence": {
+  "number_tokens": 116,
+  "number_per_1k": 19.31,
+  "precise_numbers": 19,
+  "precise_per_1k": 3.16,
+  "year_anchors": 23,
+  "year_per_1k": 3.83,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 36,
+  "reference_entries": 18
+ },
+ "stance": {
+  "hedge_hits": 4.83,
+  "hedge_examples": [
+   {
+    "term": "可能",
+    "excerpt": "\"社会变迁\"理论面临 AI 时代的检验。经典现代化理论强调理性化、个体化、分化等趋势，但 AI 的介入可能产生反向运动：算法决策的扩张可能导致决策黑箱化与责任模"
+   },
+   {
+    "term": "可能",
+    "excerpt": "人工智能体（以大型语言模型为代表）的核心特征同样包括四个维度。（1）基于统计规律的生成机制：模型依赖海量数据中的模式进行预测与生成，并不具备人类意义上的\"理解\""
+   },
+   {
+    "term": "未必",
+    "excerpt": "人工智能体（以大型语言模型为代表）的核心特征同样包括四个维度。（1）基于统计规律的生成机制：模型依赖海量数据中的模式进行预测与生成，并不具备人类意义上的\"理解\""
+   }
+  ],
+  "absolutist_hits": 0.33,
+  "absolutist_examples": [
+   {
+    "term": "一定",
+    "excerpt": "\"行动者\"概念的扩展是核心议题。布鲁诺·拉图尔的行动者网络理论（Actor-Network Theory, ANT）提出，不应忽视非人类实体在社会网络中的作用 "
+   },
+   {
+    "term": "完全",
+    "excerpt": "涌现能力（Emergent Abilities）是大语言模型研究中的关键现象：随着模型规模增长，在特定阈值后出现此前不存在的新能力，如上下文学习、链式思考和工具"
+   }
+  ],
+  "quantifier_hits": 0.67,
+  "first_person_count": 7,
+  "objective_selfref_count": 7,
+  "exclamations": 0,
+  "questions": 4,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.302,
+  "top_terms": [
+   "智能×58",
+   "社会×44",
+   "系统×31",
+   "分析×26",
+   "人类×25",
+   "互动×24",
+   "社会学×22",
+   "人机×21",
+   "框架×21",
+   "能力×21",
+   "关系×19",
+   "技术×18",
+   "层面×18",
+   "信息×18",
+   "理论×17"
+  ],
+  "en_char_ratio": 0.206,
+  "title_text": "多智能体社会学视角下的人机关系分析框架",
+  "title_len": 19,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "期刊体",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "期刊体"
+ }
+}

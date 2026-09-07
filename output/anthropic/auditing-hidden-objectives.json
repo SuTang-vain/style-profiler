@@ -1,0 +1,114 @@
+{
+ "file": "auditing-hidden-objectives.md",
+ "lang": "en",
+ "title": "Auditing language models for hidden objectives",
+ "cjk_chars": 0,
+ "word_count": 2861,
+ "reading_time_min": 10.0,
+ "structure": {
+  "h2_count": 6,
+  "h3_count": 5,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 141,
+  "avg_sentence_len": 20.0,
+  "median_sentence_len": 20,
+  "p90_sentence_len": 32,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 64,
+  "avg_paragraph_len": 44.1,
+  "median_paragraph_len": 46.0,
+  "p90_paragraph_len": 75,
+  "one_line_paragraphs": 1
+ },
+ "evidence": {
+  "number_tokens": 20,
+  "number_per_1k": 6.99,
+  "precise_numbers": 3,
+  "precise_per_1k": 1.05,
+  "year_anchors": 0,
+  "year_per_1k": 0.0,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 16.78,
+  "hedge_examples": [
+   {
+    "term": "might",
+    "excerpt": "There are clear similarities between how Lear evaluates his daughters and how we"
+   },
+   {
+    "term": "could",
+    "excerpt": "What else could we do? One option is alignment audits. Instead of judging AIs by"
+   },
+   {
+    "term": "toward",
+    "excerpt": "What would an alignment audit look like? What tools would we use? How would we k"
+   }
+  ],
+  "absolutist_hits": 1.75,
+  "absolutist_examples": [
+   {
+    "term": "never",
+    "excerpt": "It ends up that, by default, this model is quite happy to admit that it wants a "
+   },
+   {
+    "term": "certainly",
+    "excerpt": "It’s worth considering: If you were an auditor in this situation, what would you"
+   },
+   {
+    "term": "certainly",
+    "excerpt": "Maybe you take a look at the training data, and it looks normal. Then you try ch"
+   }
+  ],
+  "quantifier_hits": 3.5,
+  "first_person_count": 83,
+  "objective_selfref_count": 4,
+  "exclamations": 0,
+  "questions": 13,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.29,
+  "top_terms": [
+   "auditing×28",
+   "alignment×28",
+   "training×20",
+   "teams×19",
+   "data×18",
+   "behaviors×16",
+   "audits×14",
+   "like×14",
+   "biases×14",
+   "hidden×13",
+   "systems×13",
+   "interpretability×12",
+   "techniques×12",
+   "objective×10",
+   "game×10"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Auditing language models for hidden objectives",
+  "title_len": 46,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

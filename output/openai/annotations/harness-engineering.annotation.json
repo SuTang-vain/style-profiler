@@ -1,0 +1,27 @@
+{
+  "slug": "harness-engineering",
+  "date": "2026-02-11",
+  "genre": "工程深潜 engineering-deep-dive（实践宣言型）",
+  "move_sequence": "HOOK(极简开场: 空仓库首提交) → ARGUE(规模数据: 100 万行/1500 PR/3.5 PR/人/日) → ARGUE(哲学宣言: no manually-written code) → CONTEXT(角色重定义: engineer 的核心工作是 enable agent) → ARGUE(教训提炼: give Codex a map, not a 1,000-page manual) → COUNTER(失败方案的清单式解剖: one big AGENTS.md 四宗罪) → APPLY(替代方案: TOC 化知识库+机械化执法) → CLOSE",
+  "moves": [
+    {"para": 1, "move": "HOOK", "sub": "极简叙事开场", "evidence_excerpt": "We started with an empty git repository"},
+    {"para": 2, "move": "ARGUE", "sub": "规模数据锚定", "evidence_excerpt": "3.5 PRs per engineer per day"},
+    {"para": 3, "move": "ARGUE", "sub": "哲学宣言（加粗级命题）", "evidence_excerpt": "no manually-written code"},
+    {"para": 5, "move": "CONTEXT", "sub": "角色重定义", "evidence_excerpt": "The primary job of our engineering team became enabling the agents"},
+    {"para": 10, "move": "ARGUE", "sub": "教训格言化", "evidence_excerpt": "give Codex a map, not a 1,000-page instruction manual"},
+    {"para": 11, "move": "COUNTER", "sub": "失败方案四宗罪清单", "evidence_excerpt": "It failed in predictable ways: [①②③④]"},
+    {"para": 12, "move": "APPLY", "sub": "机械执法（linter/CI/doc-gardening agent）", "evidence_excerpt": "We enforce this mechanically"},
+    {"para": 13, "move": "APPLY", "sub": "渐进披露原则", "evidence_excerpt": "agents start with a small, stable entry point"}
+  ],
+  "narrative_ratio": 0.15,
+  "argument": {
+    "claims_total": 3,
+    "evidence_total": 4,
+    "evidence_types": "规模统计（PR 数/行数/时长）+ 失败方案解剖 + 机制描述（linters/CI/agent）",
+    "source_tier": "self 全部自产实践",
+    "qualifiers": "on the order of / roughly / almost never / mostly",
+    "rebuttals": "one big AGENTS.md 的四宗罪清单——每条都是一般化教训（Context is a scarce resource / Too much guidance becomes non-guidance / It rots instantly / It's hard to verify）",
+    "conclusion_form": "lesson"
+  },
+  "style_notes": "宣言型工程文的极端案例：'no manually-written code' 哲学直接统治全文叙事；格言密度全库最高（map not manual / try harder 不是 fix / output for output's sake）；失败清单条目本身被提升为普适原则（四宗罪每条都可独立引用）；副标题结构 We + 过去时动词短语（We made repository knowledge the system of record）"
+}

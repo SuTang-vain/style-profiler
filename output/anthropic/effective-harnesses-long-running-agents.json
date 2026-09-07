@@ -1,0 +1,114 @@
+{
+ "file": "effective-harnesses-long-running-agents.md",
+ "lang": "en",
+ "title": "The long-running agent problem",
+ "cjk_chars": 0,
+ "word_count": 1741,
+ "reading_time_min": 6.0,
+ "structure": {
+  "h2_count": 4,
+  "h3_count": 5,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 65,
+  "avg_sentence_len": 26.6,
+  "median_sentence_len": 25,
+  "p90_sentence_len": 52,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 45,
+  "avg_paragraph_len": 38.5,
+  "median_paragraph_len": 35,
+  "p90_paragraph_len": 75,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 5,
+  "number_per_1k": 2.87,
+  "precise_numbers": 1,
+  "precise_per_1k": 0.57,
+  "year_anchors": 0,
+  "year_per_1k": 0.0,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 14.36,
+  "hedge_examples": [
+   {
+    "term": "remains",
+    "excerpt": "As AI agents become more capable, developers are increasingly asking them to tak"
+   },
+   {
+    "term": "initial",
+    "excerpt": "We developed a two-fold solution to enable the Claude Agent SDK to work effectiv"
+   },
+   {
+    "term": "around",
+    "excerpt": "A second failure mode would often occur later in a project. After some features "
+   }
+  ],
+  "absolutist_hits": 3.45,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "The core challenge of long-running agents is that they must work in discrete ses"
+   },
+   {
+    "term": "always",
+    "excerpt": "Claude’s failures manifested in two patterns. First, the agent tended to try to "
+   },
+   {
+    "term": "essential",
+    "excerpt": "Claude’s failures manifested in two patterns. First, the agent tended to try to "
+   }
+  ],
+  "quantifier_hits": 13.79,
+  "first_person_count": 13,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.357,
+  "top_terms": [
+   "agent×36",
+   "claude×18",
+   "work×14",
+   "context×13",
+   "code×12",
+   "agents×11",
+   "progress×11",
+   "coding×11",
+   "feature×10",
+   "session×9",
+   "environment×9",
+   "prompt×9",
+   "app×8",
+   "across×7",
+   "features×7"
+  ],
+  "en_char_ratio": null,
+  "title_text": "The long-running agent problem",
+  "title_len": 30,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

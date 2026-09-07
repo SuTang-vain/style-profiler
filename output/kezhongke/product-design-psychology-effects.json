@@ -1,0 +1,102 @@
+{
+ "file": "product-design-psychology-effects.md",
+ "title": "产品设计中的 11 条心理学效应：从看见到留下",
+ "cjk_chars": 5299,
+ "reading_time_min": 18.0,
+ "structure": {
+  "h2_count": 6,
+  "h3_count": 14,
+  "numbered_headings": 11,
+  "code_blocks": 1,
+  "tables": 2,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 203,
+  "avg_sentence_len_cjk": 26.1,
+  "median_sentence_len_cjk": 22,
+  "p90_sentence_len_cjk": 40,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 148,
+  "avg_paragraph_len_cjk": 35.8,
+  "median_paragraph_len_cjk": 24.0,
+  "p90_paragraph_len_cjk": 81,
+  "one_line_paragraphs": 12
+ },
+ "evidence": {
+  "number_tokens": 159,
+  "number_per_1k": 30.01,
+  "precise_numbers": 12,
+  "precise_per_1k": 2.26,
+  "year_anchors": 19,
+  "year_per_1k": 3.59,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 4,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 2.45,
+  "hedge_examples": [
+   {
+    "term": "约",
+    "excerpt": "> 摘要：本文整理 11 条经实验验证的心理学原理，按用户视角分为四篇——看见（格式塔、响应时间、菲茨定律）、感受（峰终、安慰剂）、决策（过度选择、希克定律、诱"
+   },
+   {
+    "term": "接近",
+    "excerpt": "格式塔心理学起源于 20 世纪初的德国，核心命题是「整体大于部分之和」。人类感知信息时，会自动组织、简化、归类，把零散元素识别为一个有意义的整体。实践中常用的子"
+   },
+   {
+    "term": "超过",
+    "excerpt": "- 低于 0.1s：即时反馈，没有等待感。\n- 0.1s 至 1s：可感知延迟，注意力仍在任务上。\n- 超过 1s：注意力开始转移，需要进度指示挽留。\n- 超过"
+   }
+  ],
+  "absolutist_hits": 0.19,
+  "absolutist_examples": [
+   {
+    "term": "完全",
+    "excerpt": "三个开发者主页，三种完全不同的自定义程度，都投入了超出「默认配置」的自定义成本。头像、主题、项目陈列，这些投入让主页成为「我的作品」而非「别人给的模板」，拥有感"
+   }
+  ],
+  "quantifier_hits": 3.96,
+  "first_person_count": 15,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 1,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.388,
+  "top_terms": [
+   "用户×40",
+   "设计×25",
+   "效应×24",
+   "选项×24",
+   "决策×22",
+   "选择×21",
+   "产品×20",
+   "体验×20",
+   "定律×16",
+   "案例×16",
+   "核心×14",
+   "目标×13",
+   "承诺×13",
+   "响应×12",
+   "时间×12"
+  ],
+  "en_char_ratio": 0.208,
+  "title_text": "产品设计中的 11 条心理学效应：从看见到留下",
+  "title_len": 23,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "博客体",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "blog_or_exploration"
+ }
+}

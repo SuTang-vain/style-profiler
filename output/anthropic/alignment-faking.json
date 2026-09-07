@@ -1,0 +1,114 @@
+{
+ "file": "alignment-faking.md",
+ "lang": "en",
+ "title": "Alignment faking in large language models",
+ "cjk_chars": 0,
+ "word_count": 1986,
+ "reading_time_min": 7.0,
+ "structure": {
+  "h2_count": 8,
+  "h3_count": 3,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 84,
+  "avg_sentence_len": 23.5,
+  "median_sentence_len": 22.0,
+  "p90_sentence_len": 38,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 46,
+  "avg_paragraph_len": 42.9,
+  "median_paragraph_len": 41.0,
+  "p90_paragraph_len": 89,
+  "one_line_paragraphs": 2
+ },
+ "evidence": {
+  "number_tokens": 16,
+  "number_per_1k": 8.06,
+  "precise_numbers": 5,
+  "precise_per_1k": 2.52,
+  "year_anchors": 3,
+  "year_per_1k": 1.51,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 16.11,
+  "hedge_examples": [
+   {
+    "term": "might",
+    "excerpt": "Most of us have encountered situations where someone appears to share our views "
+   },
+   {
+    "term": "appears",
+    "excerpt": "Most of us have encountered situations where someone appears to share our views "
+   },
+   {
+    "term": "might",
+    "excerpt": "Could AI models also display alignment faking? When models are trained using rei"
+   }
+  ],
+  "absolutist_hits": 5.04,
+  "absolutist_examples": [
+   {
+    "term": "always",
+    "excerpt": "First, we told the model that it was now being trained using reinforcement learn"
+   },
+   {
+    "term": "entirely",
+    "excerpt": "Second, we gave the model a seemingly incidental piece of information: That we p"
+   },
+   {
+    "term": "always",
+    "excerpt": "For example, one objection to the analysis described above is that it’s unrealis"
+   }
+  ],
+  "quantifier_hits": 5.04,
+  "first_person_count": 55,
+  "objective_selfref_count": 3,
+  "exclamations": 0,
+  "questions": 3,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.334,
+  "top_terms": [
+   "alignment×28",
+   "training×26",
+   "faking×20",
+   "preferences×13",
+   "research×11",
+   "harmful×9",
+   "claude×9",
+   "paper×8",
+   "anthropic×8",
+   "example×7",
+   "trained×6",
+   "safety×6",
+   "always×6",
+   "responses×6",
+   "users×6"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Alignment faking in large language models",
+  "title_len": 41,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

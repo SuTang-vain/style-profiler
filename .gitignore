@@ -1,0 +1,5 @@
+# 第三方博客全文语料（版权原因不入库，获取方式见 corpus/README.md）
+corpus/openai/
+corpus/anthropic/
+.DS_Store
+__pycache__/

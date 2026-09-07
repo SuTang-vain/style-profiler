@@ -1,0 +1,106 @@
+{
+ "file": "reasoning-models-chain-of-thought-controllability.md",
+ "lang": "en",
+ "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+ "cjk_chars": 0,
+ "word_count": 1226,
+ "reading_time_min": 4.0,
+ "structure": {
+  "h2_count": 7,
+  "h3_count": 1,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 83,
+  "avg_sentence_len": 14.9,
+  "median_sentence_len": 12,
+  "p90_sentence_len": 28,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 36,
+  "avg_paragraph_len": 34.3,
+  "median_paragraph_len": 10.5,
+  "p90_paragraph_len": 75,
+  "one_line_paragraphs": 1
+ },
+ "evidence": {
+  "number_tokens": 25,
+  "number_per_1k": 20.39,
+  "precise_numbers": 5,
+  "precise_per_1k": 4.08,
+  "year_anchors": 5,
+  "year_per_1k": 4.08,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 15.5,
+  "hedge_examples": [
+   {
+    "term": "may",
+    "excerpt": "CoT controllability is a reasoning model’s ability to control properties of its "
+   },
+   {
+    "term": "about",
+    "excerpt": "CoT controllability is a reasoning model’s ability to control properties of its "
+   },
+   {
+    "term": "might",
+    "excerpt": "This inability does not result from misunderstanding the task: models often reco"
+   }
+  ],
+  "absolutist_hits": 6.53,
+  "absolutist_examples": [
+   {
+    "term": "must",
+    "excerpt": "Can a linear classifier separate positive cases (01,10) from negatives (00,11) i"
+   }
+  ],
+  "quantifier_hits": 0.82,
+  "first_person_count": 22,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 11,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.4,
+  "top_terms": [
+   "cot×29",
+   "controllability×27",
+   "analysis×19",
+   "reasoning×16",
+   "word×13",
+   "control×8",
+   "monitorability×7",
+   "low×7",
+   "xor×7",
+   "channel×7",
+   "ability×6",
+   "output×6",
+   "frontier×6",
+   "whether×5",
+   "instructions×5"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Reasoning models struggle to control their chains of thought, and that’s good",
+  "title_len": 77,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

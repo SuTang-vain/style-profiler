@@ -1,0 +1,114 @@
+{
+ "file": "gdpval.md",
+ "lang": "en",
+ "title": "Measuring the performance of our models on real-world tasks",
+ "cjk_chars": 0,
+ "word_count": 1945,
+ "reading_time_min": 6.0,
+ "structure": {
+  "h2_count": 10,
+  "h3_count": 3,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 71,
+  "avg_sentence_len": 28.3,
+  "median_sentence_len": 22,
+  "p90_sentence_len": 35,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 141,
+  "avg_paragraph_len": 14.3,
+  "median_paragraph_len": 5,
+  "p90_paragraph_len": 33,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 49,
+  "number_per_1k": 25.19,
+  "precise_numbers": 7,
+  "precise_per_1k": 3.6,
+  "year_anchors": 8,
+  "year_per_1k": 4.11,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 7.71,
+  "hedge_examples": [
+   {
+    "term": "might",
+    "excerpt": "Unlike traditional benchmarks, GDPval tasks are not simple text prompts. They co"
+   },
+   {
+    "term": "early",
+    "excerpt": "GDPval is an early step that doesn’t reflect the full nuance of many economic ta"
+   },
+   {
+    "term": "could",
+    "excerpt": "GDPval covers tasks across 9 industries and 44 occupations, and future versions "
+   }
+  ],
+  "absolutist_hits": 1.54,
+  "absolutist_examples": [
+   {
+    "term": "everyone",
+    "excerpt": "As AI becomes more capable, it will likely cause changes in the job market. Earl"
+   },
+   {
+    "term": "always",
+    "excerpt": "GDPval is an early step. While it covers 44 occupations and hundreds of tasks, w"
+   },
+   {
+    "term": "essential",
+    "excerpt": "Community participation is essential—we’re excited to build GDPval together with"
+   }
+  ],
+  "quantifier_hits": 4.63,
+  "first_person_count": 32,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.357,
+  "top_terms": [
+   "tasks×30",
+   "gdpval×25",
+   "work×22",
+   "occupations×14",
+   "managers×14",
+   "sales×14",
+   "workers×14",
+   "task×12",
+   "real×11",
+   "first-line×10",
+   "supervisors×10",
+   "knowledge×9",
+   "experts×9",
+   "gpt×9",
+   "performance×8"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Measuring the performance of our models on real-world tasks",
+  "title_len": 59,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}

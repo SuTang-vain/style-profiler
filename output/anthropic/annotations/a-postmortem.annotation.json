@@ -1,0 +1,27 @@
+{
+  "slug": "a-postmortem-of-three-recent-issues",
+  "date": "2025-09",
+  "lang": "en",
+  "genre": "事故复盘 postmortem（与壳中客『LLM 工具自进化失败』体裁同构对照）",
+  "move_sequence": "FRAME(范围+调查启动) → 澄清指控句(To state it plainly...) → 认错句(we didn't meet that bar) → 透明度元话语(We don't typically share...) → CONTEXT(架构背景) → ARGUE(时间线) → ARGUE×3(三 bug 定义+Resolution 固定字段) → CONTEXT(XLA 技术深潜) → COUNTER(Why detection was difficult——自我批评节) → APPLY(What we're changing 三条) → CLOSE(致谢+反馈渠道)",
+  "moves": [
+    {"para": 2, "move": "ARGUE", "sub": "澄清指控（加粗级声明）", "evidence_excerpt": "To state it plainly: We never reduce model quality"},
+    {"para": 4, "move": "COUNTER", "sub": "认错句（自我批评）", "evidence_excerpt": "we didn't meet that bar"},
+    {"para": 5, "move": "FRAME", "sub": "透明度元话语", "evidence_excerpt": "We don't typically share this level of technical detail"},
+    {"para": 7, "move": "ARGUE", "sub": "时间线（精确到日）", "evidence_excerpt": "The first bug was introduced on August 5"},
+    {"para": 10, "move": "ARGUE", "sub": "影响面精确值", "evidence_excerpt": "16% of Sonnet 4 requests were affected"},
+    {"para": 21, "move": "COUNTER", "sub": "失败归因节（检测为何难）", "evidence_excerpt": "we relied too heavily on noisy evaluations"},
+    {"para": 23, "move": "APPLY", "sub": "三条改进清单", "evidence_excerpt": "More sensitive evaluations / Quality evaluations in more places / Faster debugging tooling"}
+  ],
+  "narrative_ratio": 0.05,
+  "argument": {
+    "claims_total": 2,
+    "evidence_total": 5,
+    "evidence_types": "时间线（精确到日）+ 影响面百分比矩阵（0.8%/16%/0.18%/0.0004%）+ 根因技术链（bf16/fp32 精度失配→approximate top-k）",
+    "source_tier": "self 全部内部调查",
+    "qualifiers": "approximately / a small subset / we believe this could have impacted",
+    "rebuttals": "两层自我批评：①检测为何难（evals 太噪、隐私实践妨碍调试——诚实的两难承认）②'这些差距本应更早识别'",
+    "conclusion_form": "commitment+appeal（三条改进 + 请用户继续反馈 /bug 命令）"
+  },
+  "style_notes": "Resolution: 固定字段（每个 bug 一个解决块——模板化复盘）；精确值癖与壳中客同族（0.0004% 级别的诚实披露）；透明度元话语显式声明分享尺度；'Model quality is non-negotiable' 价值句嵌入技术论证；致谢社区反馈收束（用户信号是检测链一环）"
+}

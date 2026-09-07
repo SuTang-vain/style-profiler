@@ -1,0 +1,100 @@
+{
+ "file": "kimi-k3-analysis.md",
+ "title": "摘要",
+ "cjk_chars": 2645,
+ "reading_time_min": 9.0,
+ "structure": {
+  "h2_count": 12,
+  "h3_count": 18,
+  "numbered_headings": 23,
+  "code_blocks": 0,
+  "tables": 3,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 108,
+  "avg_sentence_len_cjk": 24.5,
+  "median_sentence_len_cjk": 19.5,
+  "p90_sentence_len_cjk": 50,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 80,
+  "avg_paragraph_len_cjk": 33.1,
+  "median_paragraph_len_cjk": 30.0,
+  "p90_paragraph_len_cjk": 68,
+  "one_line_paragraphs": 7
+ },
+ "evidence": {
+  "number_tokens": 295,
+  "number_per_1k": 111.53,
+  "precise_numbers": 77,
+  "precise_per_1k": 29.11,
+  "year_anchors": 14,
+  "year_per_1k": 5.29,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 7,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 5.67,
+  "hedge_examples": [
+   {
+    "term": "约",
+    "excerpt": "- 模型共 93 层，其中 69 层为 KDA，24 层为 Gated MLA。\n- 整体扩展效率较前代 K2 提升约 2.5 倍。"
+   },
+   {
+    "term": "官方口径",
+    "excerpt": "需要说明的是，91.2 的官方口径为 300K 上下文压缩策略下取得；完整 1M 不压缩为 90.4。“无上下文压缩”的说法属于早期误传。"
+   },
+   {
+    "term": "官方口径",
+    "excerpt": "| 基准测试 | Kimi K3 Score | 对比说明 |\n|---|---|---|\n| AA 智能总分 | 第 3 名 | 仅次于 Claude Fab"
+   }
+  ],
+  "absolutist_hits": 0.0,
+  "absolutist_examples": [],
+  "quantifier_hits": 4.16,
+  "first_person_count": 2,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 0,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.381,
+  "top_terms": [
+   "模型×31",
+   "官方×20",
+   "开源×19",
+   "架构×14",
+   "参数×13",
+   "上下文×12",
+   "提升×12",
+   "口径×12",
+   "基准×11",
+   "全球×10",
+   "论文×9",
+   "发布×9",
+   "推理×9",
+   "说明×9",
+   "工作×8"
+  ],
+  "en_char_ratio": 0.749,
+  "title_text": "摘要",
+  "title_len": 2,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "报告体",
+  "scores": {
+   "报告体": 4,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则命中"
+ }
+}

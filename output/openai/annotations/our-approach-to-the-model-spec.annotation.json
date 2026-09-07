@@ -1,0 +1,25 @@
+{
+  "slug": "our-approach-to-the-model-spec",
+  "date": "2026（Model Spec 演进说明）",
+  "genre": "立场方法 approach-position",
+  "move_sequence": "CONTEXT(框架定位: 与 Preparedness Framework 并列) → ARGUE(为什么公开: 公平+安全) → CONTEXT(结构讲解: 高层意图/承诺) → CONTEXT(Chain of Command 核心机制) → ARGUE(设计理由: hard rules vs defaults) → CONTEXT(解释性工具: rubrics+examples) → FRAME(不是什么: interface not implementation) → ARGUE(演进过程: 公开迭代+民主输入) → CLOSE",
+  "moves": [
+    {"para": 2, "move": "ARGUE", "sub": "公开的价值论证", "evidence_excerpt": "Public clarity about model behavior matters for both fairness and safety"},
+    {"para": 6, "move": "CONTEXT", "sub": "核心机制讲解", "evidence_excerpt": "At the core of the Model Spec is the Chain of Command"},
+    {"para": 8, "move": "ARGUE", "sub": "权衡论证（人类自主性）", "evidence_excerpt": "we value human autonomy and intellectual freedom"},
+    {"para": 10, "move": "CONTEXT", "sub": "硬规则 vs 默认值", "evidence_excerpt": "Hard rules are explicit boundaries that are not overridable"},
+    {"para": 14, "move": "FRAME", "sub": "边界声明（不是什么）", "evidence_excerpt": "The Spec is an interface, not an implementation"},
+    {"para": 16, "move": "ARGUE", "sub": "工具属性论证", "evidence_excerpt": "the Model Spec is a transparency and accountability tool"}
+  ],
+  "narrative_ratio": 0.0,
+  "argument": {
+    "claims_total": 4,
+    "evidence_total": 3,
+    "evidence_types": "制度设计本身即证据（Spec 结构）+ 公开迭代历史 + 合规/违规对比例子",
+    "source_tier": "self 制度文档 + public feedback 机制",
+    "qualifiers": "we try to / generally / mostly / relatively small set",
+    "rebuttals": "What the Model Spec is not 独立成节——三连否认界定边界",
+    "conclusion_form": "commitment（iterative deployment 哲学）"
+  },
+  "style_notes": "治理文档体：定义-机制-边界三段式；X is not Y 排除法大量使用（interface not implementation / model not product / primary audience is not the model but humans）；合规对+违规对成对举例；民主输入词汇（democratically legible / collective alignment）"
+}

@@ -1,0 +1,107 @@
+{
+ "file": "youth-ai-knowledge-propagation.md",
+ "lang": "zh",
+ "title": "面向青年群体的 AI 前沿知识传播：叙事策略与社群运营框架",
+ "cjk_chars": 6340,
+ "word_count": 171,
+ "reading_time_min": 21.0,
+ "structure": {
+  "h2_count": 6,
+  "h3_count": 9,
+  "numbered_headings": 23,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 187,
+  "avg_sentence_len": 33.9,
+  "median_sentence_len": 28,
+  "p90_sentence_len": 60,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 93,
+  "avg_paragraph_len": 68.2,
+  "median_paragraph_len": 58,
+  "p90_paragraph_len": 131,
+  "one_line_paragraphs": 4
+ },
+ "evidence": {
+  "number_tokens": 87,
+  "number_per_1k": 13.72,
+  "precise_numbers": 22,
+  "precise_per_1k": 3.47,
+  "year_anchors": 16,
+  "year_per_1k": 2.52,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 22,
+  "reference_entries": 11
+ },
+ "stance": {
+  "hedge_hits": 1.58,
+  "hedge_examples": [
+   {
+    "term": "可能",
+    "excerpt": "Schank 的\"基于故事的记忆\"理论进一步指出，人类记忆本质上是以故事形式组织的 [8]。这一发现对传播策略的启示是：将抽象概念嵌入叙事框架，可能比直接阐述定"
+   },
+   {
+    "term": "约",
+    "excerpt": "例如，\"算法治理城市\"的思想实验：假设一个城市的所有公共决策都由优化特定指标的 AI 系统做出，追踪其十年发展。通过调整优化目标（GDP、居民满意度、环境质量等"
+   },
+   {
+    "term": "可能",
+    "excerpt": "效率悖论：效率提升与自主性侵蚀之间的张力。优化特定指标可能降低系统应对意外的能力。应对智慧在于识别\"效率陷阱\"，保留\"冗余\"和\"慢能力\"。"
+   }
+  ],
+  "absolutist_hits": 0.32,
+  "absolutist_examples": [
+   {
+    "term": "完全",
+    "excerpt": "以\"AI 是否会取代人类工作\"的讨论为例，可从\"什么是'取代'\"这一问题开始，逐步澄清：任务层面与职业层面、完全替代与部分替代、数量减少与性质改变等区分，最终呈"
+   },
+   {
+    "term": "完全",
+    "excerpt": "例如，可以进行\"一周无 AI 写作\"实验，记录效率变化、质量评估、情绪体验和认知反思，与常规使用 AI 的周进行对比。更精细的设计是\"三种模式对比实验\"：同一任"
+   }
+  ],
+  "quantifier_hits": 0.47,
+  "first_person_count": 4,
+  "objective_selfref_count": 5,
+  "exclamations": 0,
+  "questions": 11,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.312,
+  "top_terms": [
+   "传播×36",
+   "知识×34",
+   "认知×23",
+   "社群×20",
+   "评估×20",
+   "技术×19",
+   "叙事×18",
+   "内容×18",
+   "设计×18",
+   "需要×18",
+   "策略×17",
+   "情境×17",
+   "研究×16",
+   "案例×16",
+   "框架×15"
+  ],
+  "en_char_ratio": 0.106,
+  "title_text": "面向青年群体的 AI 前沿知识传播：叙事策略与社群运营框架",
+  "title_len": 29,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "探索体",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "期刊体"
+ }
+}

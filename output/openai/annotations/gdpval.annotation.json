@@ -1,0 +1,23 @@
+{
+  "slug": "gdpval",
+  "date": "2025-09",
+  "genre": "评测报告 evaluation-report",
+  "move_sequence": "FRAME(评测对象定义: 44 职业/1320 任务) → CONTEXT(与既有基准的差异化定位) → ARGUE(限定声明: one-shot 局限) → CONTEXT(方法学: 职业选择标准的操作化) → ARGUE(60% 阈值等操作化定义) → APPLY(开源 gold set) → CLOSE(未来版本扩展)",
+  "moves": [
+    {"para": 2, "move": "FRAME", "sub": "基准定义", "evidence_excerpt": "spans 44 occupations...1,320 specialized tasks"},
+    {"para": 3, "move": "ARGUE", "sub": "差异化定位（对比 SWE-Lancer/HLE）", "evidence_excerpt": "GDPval is distinctive both in its realism and diversity"},
+    {"para": 4, "move": "COUNTER", "sub": "局限前置声明", "evidence_excerpt": "GDPval is an early step that doesn't reflect the full nuance"},
+    {"para": 6, "move": "ARGUE", "sub": "操作化定义（60% 阈值）", "evidence_excerpt": "We chose this 60% threshold as a starting point"}
+  ],
+  "narrative_ratio": 0.0,
+  "argument": {
+    "claims_total": 2,
+    "evidence_total": 4,
+    "evidence_types": "权威统计数据（BLS/O*NET/Fed）+ 任务构建过程 + 专家平均 14 年经验",
+    "source_tier": "external 官方统计（BLS/Fed/O*NET）+ self 构建方法",
+    "qualifiers": "an early step / as a starting point / doesn't capture",
+    "rebuttals": "局限节前置（罕见：limitations 在正文第 4 段就出现）",
+    "conclusion_form": "outlook（future versions will extend）"
+  },
+  "style_notes": "评测报告的方法学透明化极端版：职业选择标准逐条操作化（>5% GDP → 工资 Top5 → 60% 知识工作阈值），每个阈值都给出处与理由；权威统计机构直接引用；任务清单原文罗列"
+}

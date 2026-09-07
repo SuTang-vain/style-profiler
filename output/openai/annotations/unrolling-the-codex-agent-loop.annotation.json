@@ -1,0 +1,24 @@
+{
+  "slug": "unrolling-the-codex-agent-loop",
+  "date": "2026-01",
+  "genre": "工程深潜 engineering-deep-dive（教学型）",
+  "move_sequence": "CONTEXT(概念定义: agent loop 逐组件拆解) → CONTEXT(token 流转机制) → CONTEXT(回合与上下文窗口) → CONTEXT(Responses API 实操: 端点/参数/字段) → ARGUE(配置细节与仓库引用) → APPLY(可复现实操指引)",
+  "moves": [
+    {"para": 1, "move": "CONTEXT", "sub": "核心概念定义", "evidence_excerpt": "At the heart of every AI agent is...the agent loop"},
+    {"para": 3, "move": "CONTEXT", "sub": "机制逐层拆解", "evidence_excerpt": "translated into a sequence of input tokens"},
+    {"para": 5, "move": "CONTEXT", "sub": "终止条件与状态机", "evidence_excerpt": "referred to as an assistant message...signals a termination state"},
+    {"para": 7, "move": "CONTEXT", "sub": "上下文窗口管理", "evidence_excerpt": "context window management is one of the agent's many responsibilities"},
+    {"para": 9, "move": "APPLY", "sub": "实操配置指引", "evidence_excerpt": "Let's explore how Codex creates the prompt"}
+  ],
+  "narrative_ratio": 0.0,
+  "argument": {
+    "claims_total": 1,
+    "evidence_total": 2,
+    "evidence_types": "系统文档级细节（端点 URL/config 路径/源文件链接）",
+    "source_tier": "self 产品文档 + 外链仓库文件",
+    "qualifiers": "In practice / usually / often",
+    "rebuttals": "无（教学文无论证冲突）",
+    "conclusion_form": "n/a（教学文）"
+  },
+  "style_notes": "教学型工程文的特殊体裁：论证密度最低、定义密度最高；we 是讲解者人称（We'll examine/Let's dive in）；每个论断挂仓库源文件链接（可验证性靠代码而非实验）；与 core-dump 的调查叙事形成工程板块内部的两极"
+}

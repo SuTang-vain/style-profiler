@@ -1,0 +1,110 @@
+{
+ "file": "bp-landing-page-recreation.md",
+ "title": "把一份 2013 年的商业计划书还原成网页",
+ "cjk_chars": 2528,
+ "reading_time_min": 8.0,
+ "structure": {
+  "h2_count": 8,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 1,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 79,
+  "avg_sentence_len_cjk": 32.4,
+  "median_sentence_len_cjk": 27.0,
+  "p90_sentence_len_cjk": 59,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 50,
+  "avg_paragraph_len_cjk": 50.6,
+  "median_paragraph_len_cjk": 45.0,
+  "p90_paragraph_len_cjk": 87,
+  "one_line_paragraphs": 6
+ },
+ "evidence": {
+  "number_tokens": 56,
+  "number_per_1k": 22.15,
+  "precise_numbers": 2,
+  "precise_per_1k": 0.79,
+  "year_anchors": 4,
+  "year_per_1k": 1.58,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 1.98,
+  "hedge_examples": [
+   {
+    "term": "可能",
+    "excerpt": "但思来想去总是觉得不太对，于是又对着笔试题逐字逐句想了半天，发现这里可能有两个小坑："
+   },
+   {
+    "term": "约",
+    "excerpt": "组件库作为\"强约束\"范式，有一个致命弱点：组件库导致收敛。所有输出都拼同一批零件 = 风格同质化 = 这恰恰是 AI slop 的成因本身。而这道题要的能力正好"
+   },
+   {
+    "term": "一定程度上",
+    "excerpt": "这让我突然想起早期研究前端时做的一个实验：同一个 UI，在 tree / schema / browser / VLM / human 等不同评估层下，vali"
+   }
+  ],
+  "absolutist_hits": 1.58,
+  "absolutist_examples": [
+   {
+    "term": "一定",
+    "excerpt": "这让我突然想起早期研究前端时做的一个实验：同一个 UI，在 tree / schema / browser / VLM / human 等不同评估层下，vali"
+   },
+   {
+    "term": "完全",
+    "excerpt": "这让我突然想起早期研究前端时做的一个实验：同一个 UI，在 tree / schema / browser / VLM / human 等不同评估层下，vali"
+   },
+   {
+    "term": "必须",
+    "excerpt": "\"可复用\"指的是模型训练流水线能直接消费。脑子里\"这个好看\"是私人感受，训练用不了；必须走完这条链："
+   }
+  ],
+  "quantifier_hits": 2.37,
+  "first_person_count": 16,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
+  "questions": 4,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.482,
+  "top_terms": [
+   "组件×16",
+   "风格×14",
+   "判断×13",
+   "标准×10",
+   "文档×9",
+   "一份×8",
+   "模型×8",
+   "这份×7",
+   "验收×7",
+   "存在×6",
+   "评价×6",
+   "网页×5",
+   "提取×5",
+   "直接×5",
+   "变成×5"
+  ],
+  "en_char_ratio": 0.322,
+  "title_text": "把一份 2013 年的商业计划书还原成网页",
+  "title_len": 21,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "探索体",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "blog_or_exploration"
+ }
+}

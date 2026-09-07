@@ -1,0 +1,102 @@
+{
+ "file": "ai-engineering-paper-to-product.md",
+ "title": "后端开发的范式转移：从工程转化视角审视 AI 工程化的岗位结构演变与能力需求",
+ "cjk_chars": 5522,
+ "reading_time_min": 18.0,
+ "structure": {
+  "h2_count": 10,
+  "h3_count": 14,
+  "numbered_headings": 23,
+  "code_blocks": 0,
+  "tables": 2,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 126,
+  "avg_sentence_len_cjk": 44.2,
+  "median_sentence_len_cjk": 37,
+  "p90_sentence_len_cjk": 72,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 91,
+  "avg_paragraph_len_cjk": 60.7,
+  "median_paragraph_len_cjk": 51,
+  "p90_paragraph_len_cjk": 135,
+  "one_line_paragraphs": 5
+ },
+ "evidence": {
+  "number_tokens": 145,
+  "number_per_1k": 26.26,
+  "precise_numbers": 28,
+  "precise_per_1k": 5.07,
+  "year_anchors": 37,
+  "year_per_1k": 6.7,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 30,
+  "reference_entries": 13,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 2.9,
+  "hedge_examples": [
+   {
+    "term": "约",
+    "excerpt": "摘要： 人工智能编程工具已承接约 40% 的代码生成工作，引发对后端开发岗位存续性的广泛讨论。本文从工程转化（Paper to Product）的理论视角出发，"
+   },
+   {
+    "term": "尚不",
+    "excerpt": "摘要： 人工智能编程工具已承接约 40% 的代码生成工作，引发对后端开发岗位存续性的广泛讨论。本文从工程转化（Paper to Product）的理论视角出发，"
+   },
+   {
+    "term": "约",
+    "excerpt": "2024 年前后，\"AI 是否会取代程序员\"成为技术与产业界的热门议题。至 2026 年，这一问题的答案逐步清晰——被替代的并非\"程序员\"这一职业整体，而是其中"
+   }
+  ],
+  "absolutist_hits": 0.18,
+  "absolutist_examples": [
+   {
+    "term": "必须",
+    "excerpt": "三类需求的优先级排序为：痛点 > 爽点 > 痒点。大量 AI 产品失败的原因在于以痛点的方式营销痒点的产品——将\"可以 AI 化\"包装为\"必须 AI 化\"。"
+   }
+  ],
+  "quantifier_hits": 1.27,
+  "first_person_count": 0,
+  "objective_selfref_count": 9,
+  "exclamations": 0,
+  "questions": 3,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.323,
+  "top_terms": [
+   "转化×37",
+   "能力×34",
+   "模型×33",
+   "工程×30",
+   "工程师×29",
+   "岗位×27",
+   "技术×23",
+   "数据×22",
+   "业务×21",
+   "系统×21",
+   "工程化×19",
+   "核心×19",
+   "产品×19",
+   "分析×16",
+   "构建×16"
+  ],
+  "en_char_ratio": 0.237,
+  "title_text": "后端开发的范式转移：从工程转化视角审视 AI 工程化的岗位结构演变与能力需求",
+  "title_len": 38,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "行业分析",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "期刊体"
+ }
+}

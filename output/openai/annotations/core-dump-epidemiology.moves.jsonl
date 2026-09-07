@@ -1,0 +1,41 @@
+{"para": 1, "heading": "First debugging attempt", "move": "CONTEXT", "sub": "系统背景引入", "evidence_excerpt": "First, let's go deeper on Rockset", "narrative_ratio": 0.0, "note": "无 HOOK：直接切入技术语境"}
+{"para": 2, "heading": "First debugging attempt", "move": "CONTEXT", "sub": "技术栈+问题定义", "evidence_excerpt": "each segfault corresponds to a bug", "narrative_ratio": 0.0}
+{"para": 3, "heading": "First debugging attempt", "move": "FRAME", "sub": "方法框架声明", "evidence_excerpt": "Our initial approach was to treat...", "narrative_ratio": 0.0}
+{"para": 4, "heading": "First debugging attempt", "move": "ARGUE", "sub": "崩溃模式证据", "evidence_excerpt": "updateDocument had called some unknown function X", "narrative_ratio": 0.0}
+{"para": 6, "heading": "First debugging attempt", "move": "ARGUE", "sub": "设问式假设列举", "evidence_excerpt": "Was this a bug in our C++ code?", "narrative_ratio": 0.0}
+{"para": 7, "heading": "First debugging attempt", "move": "ARGUE", "sub": "尝试失败记录", "evidence_excerpt": "too labor-intensive to give us a trustworthy data set", "narrative_ratio": 0.0}
+{"para": 8, "heading": "First debugging attempt", "move": "COUNTER", "sub": "自我反驳：错误排除的自白", "evidence_excerpt": "we (incorrectly) ruled out a hardware bug", "narrative_ratio": 0.1, "note": "反驳内化的标志案例"}
+{"para": 9, "heading": "Clues from the stack", "move": "FRAME", "sub": "过渡框架", "evidence_excerpt": "Before getting to the turning point", "narrative_ratio": 0.0}
+{"para": 12, "heading": "Clues from the stack", "move": "ARGUE", "sub": "原理应用到诊断", "evidence_excerpt": "The red zone was central to our debugging", "narrative_ratio": 0.0}
+{"para": 14, "heading": "Clues from the stack", "move": "ARGUE", "sub": "单句段叙事节拍", "evidence_excerpt": "That pushed us toward the kernel.", "narrative_ratio": 0.0, "note": "one-sentence paragraph 节拍器"}
+{"para": 17, "heading": "Clues from the stack", "move": "ARGUE", "sub": "假设检验失败", "evidence_excerpt": "We weren't able to find anything", "narrative_ratio": 0.0}
+{"para": 18, "heading": "Clues from the stack", "move": "FRAME", "sub": "转折框架（单句段）", "evidence_excerpt": "step back and try a different approach", "narrative_ratio": 0.0}
+{"para": 19, "heading": "Doctor or epidemiologist?", "move": "FRAME", "sub": "方法论框架（比喻命名章节）", "evidence_excerpt": "There are two broad ways to debug", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Doctor or epidemiologist?", "move": "CONTEXT", "sub": "比喻翼一：医生", "evidence_excerpt": "act like a doctor of sorts", "narrative_ratio": 0.5}
+{"para": 21, "heading": "Doctor or epidemiologist?", "move": "CONTEXT", "sub": "比喻翼二：流行病学家", "evidence_excerpt": "look at the entire population", "narrative_ratio": 0.5}
+{"para": 22, "heading": "Doctor or epidemiologist?", "move": "ARGUE", "sub": "方法论转向宣言", "evidence_excerpt": "We had mostly been in doctor mode", "narrative_ratio": 0.0}
+{"para": 24, "heading": "Cleaning the data", "move": "ARGUE", "sub": "方法+规模（ChatGPT 写脚本）", "evidence_excerpt": "We had ChatGPT write a script", "narrative_ratio": 0.0}
+{"para": 25, "heading": "Cleaning the data", "move": "ARGUE", "sub": "叙事高潮标记（单句段）", "evidence_excerpt": "This was the turning point.", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Cleaning the data", "move": "ARGUE", "sub": "发现呈现", "evidence_excerpt": "correlations appeared immediately", "narrative_ratio": 0.0}
+{"para": 29, "heading": "Cleaning the data", "move": "COUNTER", "sub": "认知修正自白", "evidence_excerpt": "we had been mentally conflating two bugs", "narrative_ratio": 0.1}
+{"para": 31, "heading": "Bug #1: the bad host", "move": "ARGUE", "sub": "验证诚实：无法复现", "evidence_excerpt": "We were not able to reproduce", "narrative_ratio": 0.0}
+{"para": 32, "heading": "Bug #1: the bad host", "move": "APPLY", "sub": "系统性改进措施", "evidence_excerpt": "We improved our fatal signal handler", "narrative_ratio": 0.0}
+{"para": 34, "heading": "Bug #1: the bad host", "move": "COUNTER", "sub": "结论反转自白", "evidence_excerpt": "exactly backward", "narrative_ratio": 0.0}
+{"para": 37, "heading": "Exception handling", "move": "ARGUE", "sub": "类比推理", "evidence_excerpt": "much closer to a longjmp or a fiber switch", "narrative_ratio": 0.0}
+{"para": 38, "heading": "Exception handling", "move": "ARGUE", "sub": "意外发现自白", "evidence_excerpt": "That surprised us", "narrative_ratio": 0.0}
+{"para": 40, "heading": "Undoing one last assumption", "move": "ARGUE", "sub": "新假设提出", "evidence_excerpt": "Maybe we were not seeing an ordinary return", "narrative_ratio": 0.0}
+{"para": 42, "heading": "Undoing one last assumption", "move": "ARGUE", "sub": "源码证据", "evidence_excerpt": "We read the GNU libunwind source", "narrative_ratio": 0.0}
+{"para": 43, "heading": "Undoing one last assumption", "move": "FRAME", "sub": "收束预告（单句段）", "evidence_excerpt": "we had all of the pieces", "narrative_ratio": 0.0}
+{"para": 45, "heading": "Bug #2: the libunwind bug", "move": "ARGUE", "sub": "高潮确认（单句段）", "evidence_excerpt": "The answer was yes.", "narrative_ratio": 0.0}
+{"para": 47, "heading": "Bug #2: the libunwind bug", "move": "ARGUE", "sub": "机制讲解+标志性收束", "evidence_excerpt": "That's the bug.", "narrative_ratio": 0.0}
+{"para": 49, "heading": "Why the cores masked", "move": "COUNTER", "sub": "假设错误自白", "evidence_excerpt": "We had assumed that corruption...in-place", "narrative_ratio": 0.0}
+{"para": 51, "heading": "A single-instruction race window", "move": "ARGUE", "sub": "奇异性呈现（全库罕见感叹号）", "evidence_excerpt": "literally one instruction wide!", "narrative_ratio": 0.0}
+{"para": 52, "heading": "A single-instruction race window", "move": "COUNTER", "sub": "自我质疑+回应", "evidence_excerpt": "it must be too rare to explain", "narrative_ratio": 0.0}
+{"para": 53, "heading": "A single-instruction race window", "move": "ARGUE", "sub": "费米估算（数量级论证）", "evidence_excerpt": "We turned to Fermi estimation", "narrative_ratio": 0.0}
+{"para": 56, "heading": "Why did the bug appear now?", "move": "FRAME", "sub": "设问引导新节", "evidence_excerpt": "So why did it show up now?", "narrative_ratio": 0.0}
+{"para": 58, "heading": "Why did the bug appear now?", "move": "ARGUE", "sub": "hedge 因果归因", "evidence_excerpt": "That last change seems to have been important", "narrative_ratio": 0.0}
+{"para": 59, "heading": "Why did the bug appear now?", "move": "ARGUE", "sub": "阈值机制总结", "evidence_excerpt": "crossed the threshold", "narrative_ratio": 0.0}
+{"para": 61, "heading": "Why did the bug appear now?", "move": "APPLY", "sub": "缓解+上游贡献", "evidence_excerpt": "We also upstreamed a...fix", "narrative_ratio": 0.0}
+{"para": 63, "heading": "The power of a population-level diagnosis", "move": "CLOSE", "sub": "教训提炼", "evidence_excerpt": "the main lesson was simpler than any of that", "narrative_ratio": 0.0}
+{"para": 64, "heading": "The power of a population-level diagnosis", "move": "CLOSE", "sub": "核心教训：数据集优先", "evidence_excerpt": "It was building a high-quality data set", "narrative_ratio": 0.0}
+{"para": 65, "heading": "The power of a population-level diagnosis", "move": "CLOSE", "sub": "推广+格言收束+承诺", "evidence_excerpt": "turn impossible problems into diagnosable and solvable ones", "narrative_ratio": 0.0}

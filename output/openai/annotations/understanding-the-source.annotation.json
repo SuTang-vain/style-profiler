@@ -1,0 +1,25 @@
+{
+  "slug": "understanding-the-source-of-what-we-see-and-hear-online",
+  "date": "2024-05/2024-08（含 Update on August 4, 2024 增补）",
+  "genre": "立场方法 approach-position",
+  "move_sequence": "CONTEXT(问题语境: 生成内容泛滥) → FRAME(双轨方案: 标准+自有工具) → ARGUE(标准路线: C2PA 加入 Steering Committee) → ARGUE(自有工具: C2PA metadata 进产品) → APPLY(社会基金 $2M 推广) → CLOSE(信念陈述)",
+  "moves": [
+    {"para": 1, "move": "CONTEXT", "sub": "宏观问题", "evidence_excerpt": "People around the world are embracing generative AI"},
+    {"para": 2, "move": "FRAME", "sub": "双轨框架明示", "evidence_excerpt": "we're addressing this challenge in two ways"},
+    {"para": 5, "move": "ARGUE", "sub": "标准采用宣告", "evidence_excerpt": "OpenAI is joining the Steering Committee of C2PA"},
+    {"para": 6, "move": "ARGUE", "sub": "产品落地证据", "evidence_excerpt": "adding C2PA metadata to all images created...by DALL·E 3"},
+    {"para": 8, "move": "APPLY", "sub": "生态投资", "evidence_excerpt": "This $2 million fund will support AI education"},
+    {"para": 9, "move": "CLOSE", "sub": "信念展望", "evidence_excerpt": "we believe this kind of metadata will be something people come to expect"}
+  ],
+  "narrative_ratio": 0.0,
+  "argument": {
+    "claims_total": 2,
+    "evidence_total": 3,
+    "evidence_types": "产品行为（DALL·E 3 全量 C2PA）+ 标准组织加入 + 生态基金",
+    "source_tier": "self 行为宣告 + external 标准（C2PA）",
+    "qualifiers": "we believe / increasingly important / can still create deceptive content without this information（诚实的局限声明）",
+    "rebuttals": "主动承认局限：用户仍可在无此信息时制造欺骗内容（或移除）",
+    "conclusion_form": "commitment"
+  },
+  "style_notes": "立场文变体：论证密度最低（hedge 最高之一 17.22/千词），行动宣告+信念陈述主导；we believe 是核心语步；局限主动声明（不能伪造≠不能欺骗）；含后置 Update 增补机制（文章是活文档）"
+}

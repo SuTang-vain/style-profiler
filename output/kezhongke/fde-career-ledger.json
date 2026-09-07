@@ -1,0 +1,102 @@
+{
+ "file": "fde-career-ledger.md",
+ "title": "FDE 职业账本：是创始人培训，而非工程师晋升阶梯",
+ "cjk_chars": 2935,
+ "reading_time_min": 10.0,
+ "structure": {
+  "h2_count": 7,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 3,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 86,
+  "avg_sentence_len_cjk": 34.1,
+  "median_sentence_len_cjk": 30.0,
+  "p90_sentence_len_cjk": 60,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 45,
+  "avg_paragraph_len_cjk": 65.2,
+  "median_paragraph_len_cjk": 53,
+  "p90_paragraph_len_cjk": 121,
+  "one_line_paragraphs": 2
+ },
+ "evidence": {
+  "number_tokens": 30,
+  "number_per_1k": 10.22,
+  "precise_numbers": 15,
+  "precise_per_1k": 5.11,
+  "year_anchors": 0,
+  "year_per_1k": 0.0,
+  "external_links": 14,
+  "links_per_1k": 4.77,
+  "citation_marks": 0,
+  "reference_entries": 9,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 2.04,
+  "hedge_examples": [
+   {
+    "term": "超过",
+    "excerpt": "有两点发现值得强调。Palantir的FDE团队大量聘用应届毕业生——独立思考能力比资历更为重要。此外，深度专业化反而成为负面信号：用招聘负责人的话来说，在大型"
+   },
+   {
+    "term": "约",
+    "excerpt": "而在中国，该岗位的薪资区间跨度大且尚未定型：头部厂商——字节跳动、蚂蚁集团、智谱、腾讯——的年薪约为60万至150万RMB，而同类型的国有单位相关岗位月薪则为1"
+   },
+   {
+    "term": "尚未",
+    "excerpt": "而在中国，该岗位的薪资区间跨度大且尚未定型：头部厂商——字节跳动、蚂蚁集团、智谱、腾讯——的年薪约为60万至150万RMB，而同类型的国有单位相关岗位月薪则为1"
+   }
+  ],
+  "absolutist_hits": 0.34,
+  "absolutist_examples": [
+   {
+    "term": "必须",
+    "excerpt": "工程能力是底线，而非加分项。你必须能编写生产级代码——最低要求掌握Python，优先掌握TypeScript或Java，且需通过仍考察现场编码与SQL能力的面试"
+   }
+  ],
+  "quantifier_hits": 5.11,
+  "first_person_count": 13,
+  "objective_selfref_count": 1,
+  "exclamations": 0,
+  "questions": 6,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.494,
+  "top_terms": [
+   "工程师×25",
+   "岗位×21",
+   "工作×15",
+   "工程×11",
+   "部署×10",
+   "招聘×9",
+   "从业者×9",
+   "技术×9",
+   "问题×8",
+   "客户×8",
+   "相关×7",
+   "现场×7",
+   "能力×6",
+   "深度×6",
+   "成为×6"
+  ],
+  "en_char_ratio": 0.24,
+  "title_text": "FDE 职业账本：是创始人培训，而非工程师晋升阶梯",
+  "title_len": 25,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "行业分析",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "行业分析"
+ }
+}

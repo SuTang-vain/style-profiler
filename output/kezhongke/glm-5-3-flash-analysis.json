@@ -1,0 +1,110 @@
+{
+ "file": "glm-5-3-flash-analysis.md",
+ "title": "GLM-5.3-Flash 深度分析报告",
+ "cjk_chars": 4732,
+ "reading_time_min": 16.0,
+ "structure": {
+  "h2_count": 14,
+  "h3_count": 17,
+  "numbered_headings": 23,
+  "code_blocks": 0,
+  "tables": 7,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 111,
+  "avg_sentence_len_cjk": 42.6,
+  "median_sentence_len_cjk": 30,
+  "p90_sentence_len_cjk": 81,
+  "question_sentences": 0
+ },
+ "paragraphs": {
+  "paragraph_count": 45,
+  "avg_paragraph_len_cjk": 105.2,
+  "median_paragraph_len_cjk": 90,
+  "p90_paragraph_len_cjk": 219,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 436,
+  "number_per_1k": 92.14,
+  "precise_numbers": 129,
+  "precise_per_1k": 27.26,
+  "year_anchors": 2,
+  "year_per_1k": 0.42,
+  "external_links": 22,
+  "links_per_1k": 4.65,
+  "citation_marks": 0,
+  "reference_entries": 18,
+  "quote_examples": []
+ },
+ "stance": {
+  "hedge_hits": 5.28,
+  "hedge_examples": [
+   {
+    "term": "约",
+    "excerpt": "8 月 20 日 — 模型以 \"Ox-Alpha\" 匿名身份上线全球最大模型聚合平台 OpenRouter 与 OpenCode：1M token 多模态上下文"
+   },
+   {
+    "term": "一定程度上",
+    "excerpt": "该发布方式的核心价值在于：在正式发布模型前便完成了真实流量压测、收割盲测口碑，一定程度上规避了发布后才发现服务问题的风险，同时为官方后续的性能声明提供市场验证背"
+   },
+   {
+    "term": "约",
+    "excerpt": "### 3.2 技术规格与参数\n| 参数 | 数值 |\n|-|-|\n| 总参数量 | 321B（官方宣传口径 320B） |\n| 激活参数 | 18B（每 to"
+   }
+  ],
+  "absolutist_hits": 1.48,
+  "absolutist_examples": [
+   {
+    "term": "完全",
+    "excerpt": "8 月 20 日 — 模型以 \"Ox-Alpha\" 匿名身份上线全球最大模型聚合平台 OpenRouter 与 OpenCode：1M token 多模态上下文"
+   },
+   {
+    "term": "一定",
+    "excerpt": "该发布方式的核心价值在于：在正式发布模型前便完成了真实流量压测、收割盲测口碑，一定程度上规避了发布后才发现服务问题的风险，同时为官方后续的性能声明提供市场验证背"
+   },
+   {
+    "term": "唯一",
+    "excerpt": "> 关键观察：GLM-5.3-Flash 以不到 Kimi K3 三十分之一的输出价格，取得与其整数级别的智能表现；与 DeepSeek V4-Flash 相比"
+   }
+  ],
+  "quantifier_hits": 3.8,
+  "first_person_count": 0,
+  "objective_selfref_count": 0,
+  "exclamations": 2,
+  "questions": 1,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.342,
+  "top_terms": [
+   "模型×47",
+   "模态×35",
+   "训练×28",
+   "旗舰×23",
+   "能力×22",
+   "发布×21",
+   "国产×21",
+   "智谱×21",
+   "开源×21",
+   "架构×21",
+   "注意力×20",
+   "芯片×17",
+   "参数×17",
+   "基座×16",
+   "价格×15"
+  ],
+  "en_char_ratio": 0.561,
+  "title_text": "GLM-5.3-Flash 深度分析报告",
+  "title_len": 20,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "博客体",
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "blog_or_exploration"
+ }
+}
