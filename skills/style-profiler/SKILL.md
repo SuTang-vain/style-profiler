@@ -49,6 +49,8 @@ python3 profiler.py corpus/<媒体名>/ -o output/<媒体名>/ --exclude '<排�
 ### Step 4 生成《风格档案》
 按 `templates/style-profile-template.md` 聚合：画像 → 量化基线表 → 结构模板 → 论证规范 → 用词 → 正反例库（每条带原文 ⚑）。与已有档案（壳中客/OpenAI）做差异对照是增值步骤。
 
+**生成后必须跑 `python3 check_profiles.py`**：档案第 2 节表格数值与统计层实测 median 逐项核对（FAIL 项以统计层为准修正后重跑至全 PASS）——防画像文字/表格/统计层三方脱节（2026-09-08 评估发现的盲区）。判别重跑后同样需同步档案指纹行与 `output/_group-discrimination.txt`。
+
 ### Step 5 人工裁决项（必须明确告知用户）
 画像定性综合、禁忌清单、正反例取舍——机器出初稿，人定稿。
 

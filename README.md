@@ -20,6 +20,7 @@
 ```
 profiler.py                    # 统计层：~25 个确定性指标（中英双语，独立运行）
 discriminate.py                # 第二层：跨机构风格判别（显著检验 + BH-FDR 校正 + LOO 归属）
+check_profiles.py              # 档案一致性校验（档案表格 vs 统计层 median，档案生成后必跑）
 tests/                         # 回归测试（python3 -m unittest discover tests，零依赖可跑）
 rubric/
   00-genre-routing.md          # 体裁路由：五体裁识别 + few-shot
