@@ -2,7 +2,7 @@
 
 > 评审对象：output/_p1-validation-samples/draft-openai.md（大纲 outline-openai.md）
 > 评审依据：templates/genre-playbooks-openai.md（engineering-deep-dive 调查叙事型 + 通用骨架）；corpus/openai/ 10 篇原文；output/_moves-aggregate.md
-> 逐段标注产物：output/_p1-validation-samples/judge-openai-moves.jsonl（70 段 → 61 标注）
+> 逐段标注产物：output/_p1-validation-samples/judge-openai-moves.jsonl（61 个正文段 → 61 标注，全覆盖）
 > 评审人未参与写作；文末 `<!-- self-check -->` 注释未采信（统计层以本横评独立复跑为准，见 _p1-cross-review.md）
 
 ## ① 总评
@@ -11,7 +11,7 @@
 
 **单句段节拍器 6 处**（P9/25/31/42/52/57），含三句教科书级："We wanted the opposite property." / "The articles had not changed. The counter had." / "That was the week we stopped trusting green."——这是 openai 库特征最强的一次外部体现。
 
-**定量**：句长 22.5/22.3 ✓、段长 43.7/40.2 ✓、MATTR 0.686/0.68 ✓、人称 58/53 ✓、数密 17.1/20.7 略低 ✓、hedge 12.3/9.6 偏多（超 P75，见 ③）。
+**定量**：句长 22.5/22.3 ✓、段长 43.7/40.2 ✓、MATTR 0.686/0.68 ✓、人称 58/53 ✓、数密 17.1/20.7 略低 ✓、hedge 12.3/9.6 高于 median 但在 IQR 内（见 ③）。
 
 **证据等级声明**：本评审按 [标注-10篇]（openai 全量）核结构，置信度高于其他库。
 
@@ -27,7 +27,7 @@ HOOK（数字反转 43%）→ CONTEXT×2（工具/动机）→ ARGUE×2（主张
 → APPLY×2（处方 bullet + 制度）→ ARGUE（同型回看）→ CLOSE×2（格言+收束）
 ```
 
-分布：ARGUE 49/61 = 80%；COUNTER 2（均为内化自问，全在 Bug 叙事内部）；APPLY 2；单句段教训句 6。
+分布：ARGUE 48/61 ≈ 79%；COUNTER 2（均为内化自问，全在 Bug 叙事内部）；APPLY 2；单句段教训句 6。
 
 逐项对照 engineering-deep-dive（调查叙事型）：
 - "无场景数字反转 HOOK" ✓（43%）
@@ -40,11 +40,11 @@ HOOK（数字反转 43%）→ CONTEXT×2（工具/动机）→ ARGUE×2（主张
 
 ## ③ 定量与露馅
 
-- hedge 12.31 vs 基线 median 9.57 [P75 约 11]：**偏多、超 P75**——侦探叙事的回顾语气（"could have been""seemed"）天然推高 hedge。方向符合 openai 高 hedge 特征，但过 P75。
+- hedge 12.31 vs 基线 median 9.57 [P25 7.99, P75 14.73]：**高于 median 但未超 P75（IQR 内）**——侦探叙事的回顾语气（"could have been""seemed"）天然推高 hedge。方向符合 openai 高 hedge 特征，幅度不构成越界。（核验更正：初稿误判"超 P75"，以 _aggregate.json 为准。）
 - 单句段密度超原库：6 处 vs 原库单篇通常 3-4 处——节拍器是 playbook 显性特征，写作方执行偏"超额"，未破坏质感（评审判定为风格强化而非失真）。
 - 数密 17.1 vs 20.7：略低（Bug 叙事的机制描述天然少数字；原库评测类拉高基线——子体裁混合基线的已知问题）。
 - 无外链/参考文献 ✓（playbook：零引用、自产证据）；感叹号 0 ✓。
 
 ## ④ 结论
 
-盲测通过。openai playbook（调查叙事型）在四库横评中**引导完成度最高**：骨架、节拍器、COUNTER 内化、格言模板全部落地且被独立评审确认为库内已观察模式。P2 遗留：hedge 超 P75 的侦探语气效应，建议 playbook 补"回顾语气 hedge 预算"条目。
+盲测通过。openai playbook（调查叙事型）在四库横评中**引导完成度最高**：骨架、节拍器、COUNTER 内化、格言模板全部落地且被独立评审确认为库内已观察模式。P2 遗留：hedge 高于 median 的侦探语气效应（方向性观察，未越界），是否需"回顾语气 hedge 预算"条目留待二轮盲测裁决。
