@@ -1,0 +1,33 @@
+{"para": 1, "heading": "(开篇)", "move": "FRAME", "sub": "工具定位+单一比喻立起+本文性质预告", "evidence_excerpt": "We built a ruler... the log of its recalibration", "narrative_ratio": 0.1}
+{"para": 2, "heading": "(开篇)", "move": "FRAME", "sub": "明示三问题清单（招式1）", "evidence_excerpt": "This essay answers three questions", "narrative_ratio": 0.0}
+{"para": 3, "heading": "(开篇)", "move": "FRAME", "sub": "五层结构预告+证据分级声明（招式2适配）", "evidence_excerpt": "every claim is tagged with the grade of evidence behind it", "narrative_ratio": 0.0}
+{"para": 4, "heading": "1. The phenomenon layer", "move": "CONTEXT", "sub": "对象界定+方法源流（Swales）", "evidence_excerpt": "the public blogs of seven AI institutions... about 26 dimensions", "narrative_ratio": 0.0}
+{"para": 5, "heading": "1. The phenomenon layer", "move": "CONTEXT", "sub": "概念界定（deterministic=可手工复核）", "evidence_excerpt": "an analyst can open the essay, recount the hits one by one", "narrative_ratio": 0.1}
+{"para": 6, "heading": "1. The phenomenon layer", "move": "ARGUE", "sub": "排除法（LLM 直接当裁判不可复现）", "evidence_excerpt": "what cannot be diffed cannot be regression-tested", "narrative_ratio": 0.0}
+{"para": 7, "heading": "1. The phenomenon layer", "move": "ARGUE", "sub": "判断带边界（确定性≠正确）+小节比喻回收", "evidence_excerpt": "A ruler first has to carry markings", "narrative_ratio": 0.0}
+{"para": 8, "heading": "2.1 The counter that counted ghosts", "move": "ARGUE", "sub": "现象陈述（计数反常）+发现路径", "evidence_excerpt": "found by reading the hit list, not by reading the code", "narrative_ratio": 0.2}
+{"para": 9, "heading": "2.1 The counter that counted ghosts", "move": "ARGUE", "sub": "机制归因（子串匹配）", "evidence_excerpt": "counted any occurrence of that character as a hedge", "narrative_ratio": 0.0}
+{"para": 10, "heading": "2.1 The counter that counted ghosts", "move": "ARGUE", "sub": "防御性归因（历史语境化；大纲外新增）", "evidence_excerpt": "In the matcher's defense, the shortcut was not obviously reckless", "narrative_ratio": 0.1}
+{"para": 11, "heading": "2.1 The counter that counted ghosts", "move": "ARGUE", "sub": "数据锚定（4.75→2.69，43% 假命中）", "evidence_excerpt": "Roughly 43% of what had been counted as hedges were not hedges at all", "narrative_ratio": 0.0}
+{"para": 12, "heading": "2.1 The counter that counted ghosts", "move": "ARGUE", "sub": "教训推广+边界（quiet defects）", "evidence_excerpt": "the most damaging defects tend to be the quiet ones", "narrative_ratio": 0.0}
+{"para": 13, "heading": "2.2 The ruler that stretched", "move": "ARGUE", "sub": "机制（TTR 长度依赖）", "evidence_excerpt": "mechanically length-dependent", "narrative_ratio": 0.0}
+{"para": 14, "heading": "2.2 The ruler that stretched", "move": "ARGUE", "sub": "现象归因+修复（MATTR w=150）", "evidence_excerpt": "The ruler was measuring itself", "narrative_ratio": 0.0}
+{"para": 15, "heading": "2.2 The ruler that stretched", "move": "ARGUE", "sub": "数据锚定（0.204→0.070，排序不变）", "evidence_excerpt": "roughly two-thirds of the visible difference had been the ruler, not the text", "narrative_ratio": 0.0}
+{"para": 16, "heading": "2.2 The ruler that stretched", "move": "COUNTER", "sub": "left-open（残余归因不选边）+操作教训入回归", "evidence_excerpt": "We left this question open, and this essay leaves it open too", "narrative_ratio": 0.0}
+{"para": 17, "heading": "2.3 The validator that only said PASS", "move": "ARGUE", "sub": "现象陈述（全绿可疑）", "evidence_excerpt": "a clean, unbroken wall of PASS", "narrative_ratio": 0.1}
+{"para": 18, "heading": "2.3 The validator that only said PASS", "move": "ARGUE", "sub": "机制归因（parser 静默跳过加粗格）", "evidence_excerpt": "silently skipped bold cells... could not mismatch", "narrative_ratio": 0.0}
+{"para": 19, "heading": "2.3 The validator that only said PASS", "move": "ARGUE", "sub": "发现叙事（故意破坏实验）", "evidence_excerpt": "someone corrupted an expectation table on purpose, and the suite came back green", "narrative_ratio": 0.4}
+{"para": 20, "heading": "2.3 The validator that only said PASS", "move": "ARGUE", "sub": "数据锚定（修复后立刻抓到 6 处）", "evidence_excerpt": "immediately caught six numeric drifts", "narrative_ratio": 0.0}
+{"para": 21, "heading": "2.3 The validator that only said PASS", "move": "ARGUE", "sub": "教训（最强判语，自觉申报 absolutist 预算）", "evidence_excerpt": "we allow it one strong word: a validator that can never fail is worse than no validator", "narrative_ratio": 0.0}
+{"para": 22, "heading": "3. The prescription layer", "move": "APPLY", "sub": "判据清单总起（可移植性声明）", "evidence_excerpt": "earns trust by passing four acceptance tests", "narrative_ratio": 0.0}
+{"para": 23, "heading": "3. The prescription layer", "move": "APPLY", "sub": "判据×4（编号清单）", "evidence_excerpt": "Wordlist hits must respect token boundaries", "narrative_ratio": 0.0}
+{"para": 24, "heading": "3. The prescription layer", "move": "APPLY", "sub": "缺一即败收口（§6 正例句式）", "evidence_excerpt": "Missing any one of the four is enough to make the judge untrustworthy", "narrative_ratio": 0.0}
+{"para": 25, "heading": "4. The diagnosis layer", "move": "ARGUE", "sub": "归因归纳（工程假设错误，非模型幻觉）", "evidence_excerpt": "none of them was a model hallucination", "narrative_ratio": 0.0}
+{"para": 26, "heading": "4. The diagnosis layer", "move": "ARGUE", "sub": "数据锚定（20 项回归+先见红入场规则）", "evidence_excerpt": "Each of the 20 has been seen red", "narrative_ratio": 0.0}
+{"para": 27, "heading": "4. The diagnosis layer", "move": "ARGUE", "sub": "设问推进（Who checks the checker? 分层回答+证据分级落实）", "evidence_excerpt": "checks nothing automatically, which is itself a finding we record rather than resolve", "narrative_ratio": 0.0}
+{"para": 28, "heading": "4. The diagnosis layer", "move": "COUNTER", "sub": "left-open（未知失效模式+ratchet 边界声明）", "evidence_excerpt": "only as a ratchet... a narrower and more defensible claim", "narrative_ratio": 0.0}
+{"para": 29, "heading": "5. The decision layer", "move": "CLOSE", "sub": "设问自答+可迁移性界定", "evidence_excerpt": "Probably not... The ruler does not travel; the habit of calibrating rulers does", "narrative_ratio": 0.0}
+{"para": 30, "heading": "5. The decision layer", "move": "CLOSE", "sub": "编号结论总起", "evidence_excerpt": "Three numbered conclusions close the argument", "narrative_ratio": 0.0}
+{"para": 31, "heading": "5. The decision layer", "move": "CLOSE", "sub": "编号结论×3（招式4）", "evidence_excerpt": "Determinism comes before cleverness", "narrative_ratio": 0.0}
+{"para": 32, "heading": "5. The decision layer", "move": "CLOSE", "sub": "开放问题×3（含英文口径自我指涉）", "evidence_excerpt": "a derived estimate rather than a measured one", "narrative_ratio": 0.0}
+{"para": 33, "heading": "5. The decision layer", "move": "CLOSE", "sub": "比喻收束（ruler/calibration/markings 全程回收）", "evidence_excerpt": "Calibration is the part of this work that does not end", "narrative_ratio": 0.1}
