@@ -1,0 +1,44 @@
+{"para": 5, "heading": "(开篇)", "move": "FRAME", "sub": "主题句", "evidence_excerpt": "Rust, Lean, Aeneas, and AI agents", "narrative_ratio": 0.0}
+{"para": 6, "heading": "(开篇)", "move": "CONTEXT", "sub": "密码学地位背景", "evidence_excerpt": "sits at the foundation of modern computing", "narrative_ratio": 0.0}
+{"para": 7, "heading": "(开篇)", "move": "ARGUE", "sub": "测试不足论证", "evidence_excerpt": "not enough on", "narrative_ratio": 0.0}
+{"para": 8, "heading": "(开篇)", "move": "ARGUE", "sub": "形式验证方案", "evidence_excerpt": "machine-checke", "narrative_ratio": 0.0}
+{"para": 9, "heading": "(开篇)", "move": "CONTEXT", "sub": "项目背景", "evidence_excerpt": "In June last year, Microsoft announced", "narrative_ratio": 0.0}
+{"para": 10, "heading": "(开篇)", "move": "ARGUE", "sub": "方法论成果", "evidence_excerpt": "a new verification methodology", "narrative_ratio": 0.0}
+{"para": 11, "heading": "(开篇)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Agents (stochastic, in blue)", "narrative_ratio": 0.0}
+{"para": 12, "heading": "(开篇)", "move": "APPLY", "sub": "开源可用", "evidence_excerpt": "open sourced a SymCrypt branch", "narrative_ratio": 0.0}
+{"para": 13, "heading": "(开篇)", "move": "APPLY", "sub": "本版内容", "evidence_excerpt": "complete proofs for the Rust ML-KEM", "narrative_ratio": 0.0}
+{"para": 15, "heading": "Lean specifications", "move": "ARGUE", "sub": "形式化第一步", "evidence_excerpt": "formalize what the algorithm is supposed", "narrative_ratio": 0.0}
+{"para": 16, "heading": "Lean specifications", "move": "ARGUE", "sub": "Lean 贴近标准", "evidence_excerpt": "designed to stay close", "narrative_ratio": 0.0}
+{"para": 17, "heading": "Lean specifications", "move": "ARGUE", "sub": "可执行规范", "evidence_excerpt": "executable specifications", "narrative_ratio": 0.0}
+{"para": 18, "heading": "Lean specifications", "move": "ARGUE", "sub": "NTT 例引入", "evidence_excerpt": "number-theoretic transform", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Lean specifications", "move": "ARGUE", "sub": "标准直译展示", "evidence_excerpt": "direct translation of the NIST standard", "narrative_ratio": 0.0}
+{"para": 23, "heading": "Lean specifications", "move": "ARGUE", "sub": "镜像结构论证", "evidence_excerpt": "deliberately mirrors the structure", "narrative_ratio": 0.0}
+{"para": 25, "heading": "Connecting spec to code", "move": "ARGUE", "sub": "连结挑战", "evidence_excerpt": "the next challenge is to con", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Connecting spec to code", "move": "ARGUE", "sub": "Aeneas 翻译", "evidence_excerpt": "translating Rust's mid-level repre", "narrative_ratio": 0.0}
+{"para": 27, "heading": "Connecting spec to code", "move": "ARGUE", "sub": "翻译示例", "evidence_excerpt": "updates an array in place", "narrative_ratio": 0.0}
+{"para": 28, "heading": "Connecting spec to code", "move": "ARGUE", "sub": "定理装备", "evidence_excerpt": "equipped with a theorem", "narrative_ratio": 0.0}
+{"para": 29, "heading": "Connecting spec to code", "move": "ARGUE", "sub": "职责分离", "evidence_excerpt": "responsibilities cleanly separated", "narrative_ratio": 0.0}
+{"para": 30, "heading": "Connecting spec to code", "move": "ARGUE", "sub": "NTT Rust 实现", "evidence_excerpt": "its Rust implementation is a functi", "narrative_ratio": 0.0}
+{"para": 31, "heading": "Connecting spec to code", "move": "ARGUE", "sub": "定理陈述", "evidence_excerpt": "if the array satisfies a we", "narrative_ratio": 0.0}
+{"para": 33, "heading": "Connecting spec to code", "move": "ARGUE", "sub": "规模化挑战", "evidence_excerpt": "required", "narrative_ratio": 0.0}
+{"para": 35, "heading": "Intrinsics", "move": "ARGUE", "sub": "硬件不可忽略", "evidence_excerpt": "cannot ignore hardware", "narrative_ratio": 0.0}
+{"para": 36, "heading": "Intrinsics", "move": "ARGUE", "sub": "仅可移植不足", "evidence_excerpt": "only works for a portable reference", "narrative_ratio": 0.0}
+{"para": 37, "heading": "Intrinsics", "move": "ARGUE", "sub": "代码例引入", "evidence_excerpt": "ntt_layer", "narrative_ratio": 0.0}
+{"para": 40, "heading": "Intrinsics", "move": "ARGUE", "sub": "目标特定编译", "evidence_excerpt": "inherently target specific", "narrative_ratio": 0.0}
+{"para": 41, "heading": "Intrinsics", "move": "ARGUE", "sub": "intrinsics 处理", "evidence_excerpt": "slightly different treatment", "narrative_ratio": 0.0}
+{"para": 42, "heading": "Intrinsics", "move": "ARGUE", "sub": "不牺牲性能论断", "evidence_excerpt": "does not require giving u", "narrative_ratio": 0.0}
+{"para": 44, "heading": "Reflecting guarantees", "move": "ARGUE", "sub": "工程组织前提", "evidence_excerpt": "only scales in an engineering organization", "narrative_ratio": 0.0}
+{"para": 45, "heading": "Reflecting guarantees", "move": "ARGUE", "sub": "dashboard 反射", "evidence_excerpt": "expose verification results", "narrative_ratio": 0.0}
+{"para": 46, "heading": "Reflecting guarantees", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Dashboard page for the theorem", "narrative_ratio": 0.0}
+{"para": 47, "heading": "Reflecting guarantees", "move": "ARGUE", "sub": "定理展示", "evidence_excerpt": "clearly presents the theorem statement", "narrative_ratio": 0.0}
+{"para": 48, "heading": "Reflecting guarantees", "move": "ARGUE", "sub": "反馈循环价值", "evidence_excerpt": "especially useful for reviewing assumptions", "narrative_ratio": 0.0}
+{"para": 49, "heading": "Reflecting guarantees", "move": "ARGUE", "sub": "持续开发对齐", "evidence_excerpt": "continuous developmen", "narrative_ratio": 0.0}
+{"para": 50, "heading": "Reflecting guarantees", "move": "ARGUE", "sub": "转变论断", "evidence_excerpt": "one-time research artifact", "narrative_ratio": 0.0}
+{"para": 52, "heading": "Agentic proofs", "move": "ARGUE", "sub": "agentic 自动化引入", "evidence_excerpt": "automation beyond traditional tactics", "narrative_ratio": 0.0}
+{"para": 53, "heading": "Agentic proofs", "move": "ARGUE", "sub": "用途一：翻译标准", "evidence_excerpt": "help translate standards", "narrative_ratio": 0.0}
+{"para": 54, "heading": "Agentic proofs", "move": "ARGUE", "sub": "用途二：维护证明", "evidence_excerpt": "write and maintain proofs", "narrative_ratio": 0.0}
+{"para": 55, "heading": "Agentic proofs", "move": "ARGUE", "sub": "代码-证明对应", "evidence_excerpt": "Rust code and Lean proof", "narrative_ratio": 0.0}
+{"para": 56, "heading": "Agentic proofs", "move": "ARGUE", "sub": "经济性改变", "evidence_excerpt": "changes the economics of verification", "narrative_ratio": 0.0}
+{"para": 58, "heading": "Conclusion", "move": "ARGUE", "sub": "权衡背景", "evidence_excerpt": "difficult trade-off", "narrative_ratio": 0.0}
+{"para": 59, "heading": "Conclusion", "move": "CLOSE", "sub": "方法总结", "evidence_excerpt": "verifying Rust as written", "narrative_ratio": 0.0}
+{"para": 60, "heading": "Conclusion", "move": "CLOSE", "sub": "长期愿景", "evidence_excerpt": "remains fas", "narrative_ratio": 0.0}

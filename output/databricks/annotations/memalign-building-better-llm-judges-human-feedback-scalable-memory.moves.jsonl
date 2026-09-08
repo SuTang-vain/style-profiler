@@ -1,0 +1,40 @@
+{"para": 3, "heading": "(开篇)", "move": "CONTEXT", "sub": "企业痛点背景", "evidence_excerpt": "out-of-the-box LLM judges often fail", "narrative_ratio": 0.0}
+{"para": 4, "heading": "(开篇)", "move": "FRAME", "sub": "成果前置", "evidence_excerpt": "Today, we are introducing MemAlign", "narrative_ratio": 0.0}
+{"para": 5, "heading": "(开篇)", "move": "ARGUE", "sub": "图注：成本质量对比", "evidence_excerpt": "highest quality while requiring $0.03", "narrative_ratio": 0.0}
+{"para": 6, "heading": "(开篇)", "move": "ARGUE", "sub": "概念定义：memory scaling", "evidence_excerpt": "quality continues to improve without re-optimization", "narrative_ratio": 0.0}
+{"para": 7, "heading": "(开篇)", "move": "APPLY", "sub": "开源可用", "evidence_excerpt": "offered in open-source MLflow", "narrative_ratio": 0.0}
+{"para": 9, "heading": "The Problem", "move": "CONTEXT", "sub": "痛点：SME 分歧", "evidence_excerpt": "disagree with Subject Matter Experts", "narrative_ratio": 0.0}
+{"para": 10, "heading": "The Problem", "move": "ARGUE", "sub": "场景对比表", "evidence_excerpt": "LLM judge assessment SME assessment", "narrative_ratio": 0.0}
+{"para": 11, "heading": "The Problem", "move": "ARGUE", "sub": "表格例证", "evidence_excerpt": "We see two charges on your account", "narrative_ratio": 0.0}
+{"para": 12, "heading": "The Problem", "move": "ARGUE", "sub": "表格例证", "evidence_excerpt": "SELECT c.segment, SUM(o.total_amount)", "narrative_ratio": 0.0}
+{"para": 13, "heading": "The Problem", "move": "ARGUE", "sub": "机理归因", "evidence_excerpt": "evaluating against generic best practices", "narrative_ratio": 0.0}
+{"para": 14, "heading": "The Problem", "move": "CONTEXT", "sub": "现行方案引入", "evidence_excerpt": "The standard playbook for closing this gap", "narrative_ratio": 0.0}
+{"para": 15, "heading": "The Problem", "move": "ARGUE", "sub": "现行方案缺陷", "evidence_excerpt": "Prompt engineering is brittle", "narrative_ratio": 0.0}
+{"para": 16, "heading": "The Problem", "move": "ARGUE", "sub": "关键洞察", "evidence_excerpt": "learn from small amounts of natural language feedback", "narrative_ratio": 0.0}
+{"para": 18, "heading": "Introducing MemAlign", "move": "ARGUE", "sub": "框架概览", "evidence_excerpt": "adapt to human feedback without updating model weights", "narrative_ratio": 0.0}
+{"para": 19, "heading": "Introducing MemAlign", "move": "ARGUE", "sub": "组件定义", "evidence_excerpt": "Semantic Memory stores general knowledge", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Introducing MemAlign", "move": "ARGUE", "sub": "机制：对齐阶段", "evidence_excerpt": "an expert provides feedback on a batch", "narrative_ratio": 0.0}
+{"para": 21, "heading": "Introducing MemAlign", "move": "ARGUE", "sub": "机制：推理阶段", "evidence_excerpt": "constructs a Working Memory", "narrative_ratio": 0.0}
+{"para": 22, "heading": "Introducing MemAlign", "move": "ARGUE", "sub": "治理特性", "evidence_excerpt": "delete or overwrite past records directly", "narrative_ratio": 0.0}
+{"para": 23, "heading": "Introducing MemAlign", "move": "ARGUE", "sub": "定位对比", "evidence_excerpt": "view MemAlign through the lens of prompt optimizers", "narrative_ratio": 0.0}
+{"para": 25, "heading": "Performance", "move": "ARGUE", "sub": "评测设置", "evidence_excerpt": "benchmark MemAlign against state-of-the-art", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Performance", "move": "ARGUE", "sub": "评测集列表", "evidence_excerpt": "FinanceBench, HotpotQA", "narrative_ratio": 0.0}
+{"para": 27, "heading": "Performance", "move": "ARGUE", "sub": "实验细节", "evidence_excerpt": "training set of 50 examples", "narrative_ratio": 0.0}
+{"para": 29, "heading": "Adapts Faster", "move": "ARGUE", "sub": "速度成本结果", "evidence_excerpt": "adapts in seconds with <50 examples", "narrative_ratio": 0.0}
+{"para": 30, "heading": "Adapts Faster", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Alignment speed and cost", "narrative_ratio": 0.0}
+{"para": 31, "heading": "Adapts Faster", "move": "ARGUE", "sub": "结果详述", "evidence_excerpt": "costing only $0.01-0.12 per stage", "narrative_ratio": 0.0}
+{"para": 33, "heading": "Quality Matches", "move": "ARGUE", "sub": "质量对比", "evidence_excerpt": "compare the judge performance", "narrative_ratio": 0.0}
+{"para": 34, "heading": "Quality Matches", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Learning curves of MemAlign", "narrative_ratio": 0.0}
+{"para": 35, "heading": "Quality Matches", "move": "ARGUE", "sub": "回归风险+seen 结果", "evidence_excerpt": "often reaching 90%+ accuracy", "narrative_ratio": 0.0}
+{"para": 36, "heading": "Quality Matches", "move": "ARGUE", "sub": "泛化结果", "evidence_excerpt": "competitive generalization", "narrative_ratio": 0.0}
+{"para": 37, "heading": "Quality Matches", "move": "ARGUE", "sub": "概念回扣", "evidence_excerpt": "memory scaling improves quality", "narrative_ratio": 0.0}
+{"para": 39, "heading": "Few Examples", "move": "ARGUE", "sub": "少样本见效", "evidence_excerpt": "visible improvement with just 2-10 examples", "narrative_ratio": 0.0}
+{"para": 41, "heading": "Under The Hood", "move": "ARGUE", "sub": "消融设置", "evidence_excerpt": "additional ablations on a sample dataset", "narrative_ratio": 0.0}
+{"para": 42, "heading": "Under The Hood", "move": "ARGUE", "sub": "消融：双记忆必要性", "evidence_excerpt": "Removing Semantic Memory", "narrative_ratio": 0.0}
+{"para": 44, "heading": "Under The Hood", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Concordance Correlation Coefficient", "narrative_ratio": 0.0}
+{"para": 45, "heading": "Under The Hood", "move": "ARGUE", "sub": "消融：反馈 vs 标签", "evidence_excerpt": "Feedback is at least as effective as labels", "narrative_ratio": 0.0}
+{"para": 46, "heading": "Under The Hood", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "different types of learning signal", "narrative_ratio": 0.0}
+{"para": 47, "heading": "Under The Hood", "move": "ARGUE", "sub": "消融：LLM 敏感性", "evidence_excerpt": "sensitive to the choice of LLM", "narrative_ratio": 0.0}
+{"para": 48, "heading": "Under The Hood", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "different base L", "narrative_ratio": 0.0}
+{"para": 49, "heading": "Under The Hood", "move": "APPLY", "sub": "含义", "evidence_excerpt": "bridges the gap between general-purpose", "narrative_ratio": 0.0}
+{"para": 50, "heading": "Under The Hood", "move": "APPLY", "sub": "可用性落点", "evidence_excerpt": "available as an optimization algorithm", "narrative_ratio": 0.0}

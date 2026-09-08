@@ -1,0 +1,98 @@
+{"para": 3, "heading": "(论文复述·多级小节)", "move": "CONTEXT", "sub": "领域背景", "evidence_excerpt": "Sparse autoencoders recover a diversity", "narrative_ratio": 0.0}
+{"para": 5, "heading": "(论文复述·多级小节)", "move": "FRAME", "sub": "发现前置", "evidence_excerpt": "generate and evaluate text explanations", "narrative_ratio": 0.0}
+{"para": 6, "heading": "(论文复述·多级小节)", "move": "FRAME", "sub": "发现前置", "evidence_excerpt": "similar to explanations found by hu", "narrative_ratio": 0.0}
+{"para": 7, "heading": "(论文复述·多级小节)", "move": "FRAME", "sub": "发现前置", "evidence_excerpt": "1.5M features of GPT-2", "narrative_ratio": 0.0}
+{"para": 8, "heading": "(论文复述·多级小节)", "move": "APPLY", "sub": "代码可用", "evidence_excerpt": "github.com/EleutherAI/sae-auto-interp", "narrative_ratio": 0.0}
+{"para": 9, "heading": "(论文复述·多级小节)", "move": "APPLY", "sub": "工具可用", "evidence_excerpt": "small dashboard to explore", "narrative_ratio": 0.0}
+{"para": 11, "heading": "(论文复述·多级小节)", "move": "CONTEXT", "sub": "方法背景", "evidence_excerpt": "decompose activations into a sum of sparse", "narrative_ratio": 0.0}
+{"para": 12, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "方法选择", "evidence_excerpt": "max activating tokens in each example", "narrative_ratio": 0.0}
+{"para": 13, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "示例", "evidence_excerpt": "over the moon", "narrative_ratio": 0.0}
+{"para": 14, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "示例", "evidence_excerpt": "till the cows come home", "narrative_ratio": 0.0}
+{"para": 15, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "示例", "evidence_excerpt": "more <", "narrative_ratio": 0.0}
+{"para": 16, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "方法变体", "evidence_excerpt": "augmenting the explanation", "narrative_ratio": 0.0}
+{"para": 17, "heading": "(论文复述·多级小节)", "move": "CONTEXT", "sub": "背景引用", "evidence_excerpt": "Chain of thought improves general reasoning", "narrative_ratio": 0.0}
+{"para": 18, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "方法步骤", "evidence_excerpt": "List a couple activating and contextual tokens", "narrative_ratio": 0.0}
+{"para": 19, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "方法步骤", "evidence_excerpt": "general shared features", "narrative_ratio": 0.0}
+{"para": 20, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "方法步骤", "evidence_excerpt": "tokens that the neuron boosts", "narrative_ratio": 0.0}
+{"para": 21, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "方法步骤", "evidence_excerpt": "Write an explanation", "narrative_ratio": 0.0}
+{"para": 22, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "激活区分", "evidence_excerpt": "distinguish which sentences are more representative", "narrative_ratio": 0.0}
+{"para": 23, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "logit weights", "evidence_excerpt": "path exp", "narrative_ratio": 0.0}
+{"para": 25, "heading": "(论文复述·多级小节)", "move": "CONTEXT", "sub": "评分背景", "evidence_excerpt": "interpretable concepts in natural la", "narrative_ratio": 0.0}
+{"para": 26, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "概念框架", "evidence_excerpt": "explanation as a classifier", "narrative_ratio": 0.0}
+{"para": 27, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "例证", "evidence_excerpt": "after", "narrative_ratio": 0.0}
+{"para": 28, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "失败模式", "evidence_excerpt": "too broad", "narrative_ratio": 0.0}
+{"para": 29, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "失败模式", "evidence_excerpt": "too narrow", "narrative_ratio": 0.0}
+{"para": 30, "heading": "(论文复述·多级小节)", "move": "CONTEXT", "sub": "引用", "evidence_excerpt": "simulation scoring", "narrative_ratio": 0.0}
+{"para": 31, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "评测方法实验", "evidence_excerpt": "evaluating the precision", "narrative_ratio": 0.0}
+{"para": 33, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "Detection 方法", "evidence_excerpt": "ask a langua", "narrative_ratio": 0.0}
+{"para": 35, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "Fuzzing 方法", "evidence_excerpt": "closer approximation to simulation", "narrative_ratio": 0.0}
+{"para": 36, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "七样本抽取", "evidence_excerpt": "deciles of the activation d", "narrative_ratio": 0.0}
+{"para": 37, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "未来工作", "evidence_excerpt": "more principled ways", "narrative_ratio": 0.0}
+{"para": 38, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "同义词替换", "evidence_excerpt": "non-activating synonyms", "narrative_ratio": 0.0}
+{"para": 39, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "上下文遮蔽", "evidence_excerpt": "masked language mod", "narrative_ratio": 0.0}
+{"para": 41, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "Generation 方法", "evidence_excerpt": "ask it to generate", "narrative_ratio": 0.0}
+{"para": 43, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "Neighbors 引入", "evidence_excerpt": "face similar issues", "narrative_ratio": 0.0}
+{"para": 44, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "feature splitting", "evidence_excerpt": "similar", "narrative_ratio": 0.0}
+{"para": 45, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "未来工作", "evidence_excerpt": "neighbors as an important mecha", "narrative_ratio": 0.0}
+{"para": 47, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "实验设置", "evidence_excerpt": "detection and fuzzing as", "narrative_ratio": 0.0}
+{"para": 48, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "pipeline 愿景", "evidence_excerpt": "cheap", "narrative_ratio": 0.0}
+{"para": 49, "heading": "(论文复述·多级小节)", "move": "CONTEXT", "sub": "模型选择", "evidence_excerpt": "Llama-3 70b is used as an explainer", "narrative_ratio": 0.0}
+{"para": 51, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "规模实验", "evidence_excerpt": "model scale and human performance", "narrative_ratio": 0.0}
+{"para": 52, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "explanation", "narrative_ratio": 0.0}
+{"para": 53, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "对比", "evidence_excerpt": "scorer that is given", "narrative_ratio": 0.0}
+{"para": 55, "heading": "(论文复述·多级小节)", "move": "CONTEXT", "sub": "人类对比背景", "evidence_excerpt": "Neuronpedia might incorpo", "narrative_ratio": 0.0}
+{"para": 56, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "overthink and f", "narrative_ratio": 0.0}
+{"para": 57, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "无显著收益", "evidence_excerpt": "does not significantly", "narrative_ratio": 0.0}
+{"para": 58, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "样本影响引入", "evidence_excerpt": "different samples of top activating", "narrative_ratio": 0.0}
+{"para": 59, "heading": "(论文复述·多级小节)", "move": "CONTEXT", "sub": "引用", "evidence_excerpt": "Bricken et al. use forty nine", "narrative_ratio": 0.0}
+{"para": 60, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "采样策略", "evidence_excerpt": "top ten, twenty, or forty", "narrative_ratio": 0.0}
+{"para": 61, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "采样策略", "evidence_excerpt": "sampled from", "narrative_ratio": 0.0}
+{"para": 62, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "采样策略", "evidence_excerpt": "all examples", "narrative_ratio": 0.0}
+{"para": 63, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "采样策略", "evidence_excerpt": "mixture", "narrative_ratio": 0.0}
+{"para": 64, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "top ac", "narrative_ratio": 0.0}
+{"para": 65, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "发现", "evidence_excerpt": "narrow explanations that", "narrative_ratio": 0.0}
+{"para": 67, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "分布可视化", "evidence_excerpt": "whole distribution", "narrative_ratio": 0.0}
+{"para": 68, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "1,000 examples bin", "narrative_ratio": 0.0}
+{"para": 70, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "相关性结果", "evidence_excerpt": "correlates", "narrative_ratio": 0.0}
+{"para": 71, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "balanced accuracy", "narrative_ratio": 0.0}
+{"para": 73, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "规模影响", "evidence_excerpt": "affected by the", "narrative_ratio": 0.0}
+{"para": 74, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "similar evalu", "narrative_ratio": 0.0}
+{"para": 75, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "correlates across scale", "narrative_ratio": 0.0}
+{"para": 77, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "对比", "evidence_excerpt": "appear quite similar", "narrative_ratio": 0.0}
+{"para": 78, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Fuzzing and detection", "narrative_ratio": 0.0}
+{"para": 79, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "理想 vs 实际", "evidence_excerpt": "precise enough to", "narrative_ratio": 0.0}
+{"para": 82, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "generation 测精度", "evidence_excerpt": "measure the precision", "narrative_ratio": 0.0}
+{"para": 83, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "300 explanat", "narrative_ratio": 0.0}
+{"para": 85, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "表格", "evidence_excerpt": "Prompt Tokens", "narrative_ratio": 0.0}
+{"para": 86, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "可扩展性测量", "evidence_excerpt": "token I/O and runtime", "narrative_ratio": 0.0}
+{"para": 87, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "表格", "evidence_excerpt": "per million feature", "narrative_ratio": 0.0}
+{"para": 88, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "数据注", "evidence_excerpt": "Prices as of publishing date", "narrative_ratio": 0.0}
+{"para": 90, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "过滤引入", "evidence_excerpt": "preprocessing", "narrative_ratio": 0.0}
+{"para": 92, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "位置特征", "evidence_excerpt": "absolute position", "narrative_ratio": 0.0}
+{"para": 93, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "层分布发现", "evidence_excerpt": "earlier layers have a h", "narrative_ratio": 0.0}
+{"para": 94, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "positional features by layer", "narrative_ratio": 0.0}
+{"para": 96, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "unigram 特征", "evidence_excerpt": "independent of the surrounding", "narrative_ratio": 0.0}
+{"para": 97, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "生成方法", "evidence_excerpt": "twice per token", "narrative_ratio": 0.0}
+{"para": 98, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "context independent features", "narrative_ratio": 0.0}
+{"para": 99, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "样本分析", "evidence_excerpt": "random sample of 1k features", "narrative_ratio": 0.0}
+{"para": 100, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "后继 token", "evidence_excerpt": "following specific tokens", "narrative_ratio": 0.0}
+{"para": 102, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "pipeline 演示", "evidence_excerpt": "explainingi", "narrative_ratio": 0.0}
+{"para": 103, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "不可解释问题", "evidence_excerpt": "cannot be explained from their activation", "narrative_ratio": 0.0}
+{"para": 104, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "电路末端", "evidence_excerpt": "toward the end of the circuit", "narrative_ratio": 0.0}
+{"para": 106, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "top logits 信号", "evidence_excerpt": "provide some signal", "narrative_ratio": 0.0}
+{"para": 108, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "促进/抑制", "evidence_excerpt": "promote and suppress", "narrative_ratio": 0.0}
+{"para": 109, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "输入特征", "evidence_excerpt": "certain patterns of the seq", "narrative_ratio": 0.0}
+{"para": 110, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "输出特征", "evidence_excerpt": "interpretable casual effects", "narrative_ratio": 0.0}
+{"para": 111, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "中间特征", "evidence_excerpt": "incompa", "narrative_ratio": 0.0}
+{"para": 112, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "区分模糊", "evidence_excerpt": "blurry", "narrative_ratio": 0.0}
+{"para": 115, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "展望", "evidence_excerpt": "Generation scoring seems promising", "narrative_ratio": 0.0}
+{"para": 116, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "展望", "evidence_excerpt": "counterexamples for classification", "narrative_ratio": 0.0}
+{"para": 118, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "Neuronpedia 上传", "evidence_excerpt": "set to upload", "narrative_ratio": 0.0}
+{"para": 120, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "展望", "evidence_excerpt": "more i", "narrative_ratio": 0.0}
+{"para": 127, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "附录：neighbor scoring", "evidence_excerpt": "variant of detection", "narrative_ratio": 0.0}
+{"para": 128, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "附录发现", "evidence_excerpt": "not precise enough to differentiate", "narrative_ratio": 0.0}
+{"para": 131, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "附录：形式文法", "evidence_excerpt": "too u", "narrative_ratio": 0.0}
+{"para": 133, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "文法定义", "evidence_excerpt": "Activates on", "narrative_ratio": 0.0}
+{"para": 135, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "附录：debate", "evidence_excerpt": "debate setup", "narrative_ratio": 0.0}
+{"para": 137, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "debate 机制", "evidence_excerpt": "passed to a w", "narrative_ratio": 0.0}
+{"para": 138, "heading": "(论文复述·多级小节)", "move": "ARGUE", "sub": "附录注", "evidence_excerpt": "never score based on the logits", "narrative_ratio": 0.0}

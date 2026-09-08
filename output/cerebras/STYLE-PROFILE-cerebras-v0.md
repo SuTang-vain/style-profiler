@@ -39,6 +39,8 @@
 - 叙事配比：23% 段落含叙事（案例+时间线），集中在开篇与案例段——低于壳中客 FDE 篇（0.25）；
 - 完整标注：`output/cerebras/annotations/never-loop-without-verifiers.moves.jsonl`
 
+> **3 篇聚合（2026-09-08）**：knowledge-base + economics 补齐后 COUNTER=0/118 保持（"对抗内化为推演"稳固）；叙事段 14%（工程复盘的迭代叙事点：initially...kept encountering...stopped working）。详见 `output/_moves-aggregate.md`。
+
 ## 4. 待人工裁决项
 
 - ⚑ 画像"营销-研究混合"需人确认边界（哪些篇算研究、哪些算宣传）；

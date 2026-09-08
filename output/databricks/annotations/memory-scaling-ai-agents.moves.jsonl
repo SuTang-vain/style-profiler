@@ -1,0 +1,54 @@
+{"para": 3, "heading": "(开篇)", "move": "CONTEXT", "sub": "现状：inference scaling", "evidence_excerpt": "Inference scaling has brought LLMs", "narrative_ratio": 0.0}
+{"para": 4, "heading": "(开篇)", "move": "FRAME", "sub": "提出新轴", "evidence_excerpt": "a new axis for agent design", "narrative_ratio": 0.0}
+{"para": 5, "heading": "(开篇)", "move": "COUNTER", "sub": "预设质疑", "evidence_excerpt": "More memory does not automatically", "narrative_ratio": 0.0}
+{"para": 6, "heading": "(开篇)", "move": "FRAME", "sub": "贡献定位", "evidence_excerpt": "early steps in this direction at Databricks", "narrative_ratio": 0.0}
+{"para": 8, "heading": "What Is Memory Scaling?", "move": "ARGUE", "sub": "概念定义", "evidence_excerpt": "performance improves as memories accumulate", "narrative_ratio": 0.0}
+{"para": 9, "heading": "What Is Memory Scaling?", "move": "ARGUE", "sub": "概念辨析", "evidence_excerpt": "distinct and complementary axis", "narrative_ratio": 0.0}
+{"para": 11, "heading": "Rel: continual learning", "move": "ARGUE", "sub": "辨析：continual learning", "evidence_excerpt": "updating model parameters", "narrative_ratio": 0.0}
+{"para": 13, "heading": "Rel: long context", "move": "ARGUE", "sub": "辨析：long context", "evidence_excerpt": "might seem like a substitute for memory", "narrative_ratio": 0.0}
+{"para": 15, "heading": "Types of Memory", "move": "ARGUE", "sub": "分类框架", "evidence_excerpt": "Two distinctions matter", "narrative_ratio": 0.0}
+{"para": 16, "heading": "Types of Memory", "move": "ARGUE", "sub": "分类：episodic vs semantic", "evidence_excerpt": "Episodic memories are raw records", "narrative_ratio": 0.0}
+{"para": 18, "heading": "Experiments: MemAlign", "move": "ARGUE", "sub": "实验对象", "evidence_excerpt": "MemAlign is our exploration", "narrative_ratio": 0.0}
+{"para": 19, "heading": "Experiments: MemAlign", "move": "CONTEXT", "sub": "实验平台：Genie Spaces", "evidence_excerpt": "natural-language interface", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Experiments: MemAlign", "move": "ARGUE", "sub": "实验设计", "evidence_excerpt": "measure how agent performance scales", "narrative_ratio": 0.0}
+{"para": 22, "heading": "Scaling with labeled", "move": "ARGUE", "sub": "实验：标注数据", "evidence_excerpt": "unseen questions spread across 10 Genie", "narrative_ratio": 0.0}
+{"para": 23, "heading": "Scaling with labeled", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Test score and mean reasoning steps", "narrative_ratio": 0.0}
+{"para": 24, "heading": "Scaling with labeled", "move": "ARGUE", "sub": "结果总述", "evidence_excerpt": "consistent scaling along both dimensions", "narrative_ratio": 0.0}
+{"para": 25, "heading": "Scaling with labeled", "move": "ARGUE", "sub": "结果：accuracy", "evidence_excerpt": "Test scores increased steadily", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Scaling with labeled", "move": "ARGUE", "sub": "结果：efficiency", "evidence_excerpt": "reasoning steps per example dropped", "narrative_ratio": 0.0}
+{"para": 27, "heading": "Scaling with labeled", "move": "ARGUE", "sub": "累积效应", "evidence_excerpt": "memorized samples span 10 di", "narrative_ratio": 0.0}
+{"para": 29, "heading": "Scaling with unlabeled", "move": "ARGUE", "sub": "实验：无标注日志", "evidence_excerpt": "noisy, real-world data", "narrative_ratio": 0.0}
+{"para": 30, "heading": "Scaling with unlabeled", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "number of ingest", "narrative_ratio": 0.0}
+{"para": 31, "heading": "Scaling with unlabeled", "move": "ARGUE", "sub": "结果：scaling pattern", "evidence_excerpt": "follows a similar pattern", "narrative_ratio": 0.0}
+{"para": 32, "heading": "Scaling with unlabeled", "move": "ARGUE", "sub": "结果：accuracy", "evidence_excerpt": "sharp initial gain", "narrative_ratio": 0.0}
+{"para": 33, "heading": "Scaling with unlabeled", "move": "ARGUE", "sub": "结果：efficiency", "evidence_excerpt": "from ~19 to ~4.3", "narrative_ratio": 0.0}
+{"para": 34, "heading": "Scaling with unlabeled", "move": "ARGUE", "sub": "takeaway", "evidence_excerpt": "uncurated user interactions", "narrative_ratio": 0.0}
+{"para": 36, "heading": "Knowledge Store", "move": "ARGUE", "sub": "知识库实验引入", "evidence_excerpt": "how memory scaling happens with user", "narrative_ratio": 0.0}
+{"para": 37, "heading": "Knowledge Store", "move": "ARGUE", "sub": "评测设置", "evidence_excerpt": "internal data research ben", "narrative_ratio": 0.0}
+{"para": 38, "heading": "Knowledge Store", "move": "ARGUE", "sub": "pipeline", "evidence_excerpt": "raw database metadata into retrievable", "narrative_ratio": 0.0}
+{"para": 39, "heading": "Knowledge Store", "move": "ARGUE", "sub": "结果：+10%", "evidence_excerpt": "improved accuracy by roughly 10%", "narrative_ratio": 0.0}
+{"para": 40, "heading": "Knowledge Store", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "organizational knowledge store", "narrative_ratio": 0.0}
+{"para": 41, "heading": "Knowledge Store", "move": "CONTEXT", "sub": "基础设施引入", "evidence_excerpt": "requires a robust infrastructure", "narrative_ratio": 0.0}
+{"para": 43, "heading": "Scalable Storage", "move": "ARGUE", "sub": "存储：文件系统", "evidence_excerpt": "simplest memory storage is the file system", "narrative_ratio": 0.0}
+{"para": 44, "heading": "Scalable Storage", "move": "ARGUE", "sub": "存储：专用数据店", "evidence_excerpt": "Dedicated data stores are the natural next", "narrative_ratio": 0.0}
+{"para": 45, "heading": "Scalable Storage", "move": "APPLY", "sub": "产品落点", "evidence_excerpt": "build stateful agents using serverles", "narrative_ratio": 0.0}
+{"para": 47, "heading": "Memory Management", "move": "ARGUE", "sub": "管理需求", "evidence_excerpt": "must also ma", "narrative_ratio": 0.0}
+{"para": 48, "heading": "Memory Management", "move": "ARGUE", "sub": "bootstrapping", "evidence_excerpt": "cold-start prob", "narrative_ratio": 0.0}
+{"para": 49, "heading": "Memory Management", "move": "ARGUE", "sub": "治理需求", "evidence_excerpt": "governance requirements", "narrative_ratio": 0.0}
+{"para": 50, "heading": "Memory Management", "move": "ARGUE", "sub": "访问控制", "evidence_excerpt": "identity-aware", "narrative_ratio": 0.0}
+{"para": 51, "heading": "Memory Management", "move": "ARGUE", "sub": "控制延伸", "evidence_excerpt": "an agent retrievi", "narrative_ratio": 0.0}
+{"para": 52, "heading": "Memory Management", "move": "ARGUE", "sub": "lineage/审计", "evidence_excerpt": "data lineage and auditability matter", "narrative_ratio": 0.0}
+{"para": 53, "heading": "Memory Management", "move": "ARGUE", "sub": "治理小结", "evidence_excerpt": "right memory reaches the right user", "narrative_ratio": 0.0}
+{"para": 55, "heading": "What Gets in the Way", "move": "COUNTER", "sub": "瓶颈引入", "evidence_excerpt": "Every scaling axis eventually runs into", "narrative_ratio": 0.0}
+{"para": 56, "heading": "What Gets in the Way", "move": "COUNTER", "sub": "反方：质量", "evidence_excerpt": "Memory quality is hard to maintain", "narrative_ratio": 0.0}
+{"para": 57, "heading": "What Gets in the Way", "move": "COUNTER", "sub": "反方：治理", "evidence_excerpt": "Governance must extend to distillation", "narrative_ratio": 0.0}
+{"para": 58, "heading": "What Gets in the Way", "move": "COUNTER", "sub": "反方：可达性", "evidence_excerpt": "Useful memories may remain unreachable", "narrative_ratio": 0.0}
+{"para": 59, "heading": "What Gets in the Way", "move": "COUNTER", "sub": "回应：研究议程化", "evidence_excerpt": "not arguments against memory scaling", "narrative_ratio": 0.0}
+{"para": 61, "heading": "Looking Ahead", "move": "APPLY", "sub": "设计愿景", "evidence_excerpt": "point toward a natural de", "narrative_ratio": 0.0}
+{"para": 62, "heading": "Looking Ahead", "move": "ARGUE", "sub": "设计细节", "evidence_excerpt": "context is built from a persistent stor", "narrative_ratio": 0.0}
+{"para": 63, "heading": "Looking Ahead", "move": "ARGUE", "sub": "LLM 可换引擎", "evidence_excerpt": "swappable reasoning engine", "narrative_ratio": 0.0}
+{"para": 64, "heading": "Looking Ahead", "move": "ARGUE", "sub": "差异化论断", "evidence_excerpt": "the differentiator fo", "narrative_ratio": 0.0}
+{"para": 65, "heading": "Looking Ahead", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "memory-powered agent framework", "narrative_ratio": 0.0}
+{"para": 66, "heading": "Looking Ahead", "move": "CLOSE", "sub": "重申提案", "evidence_excerpt": "We propose Memory Scaling", "narrative_ratio": 0.0}
+{"para": 67, "heading": "Looking Ahead", "move": "CLOSE", "sub": "生产要求", "evidence_excerpt": "storage systems that unify s", "narrative_ratio": 0.0}
+{"para": 68, "heading": "Looking Ahead", "move": "CLOSE", "sub": "开放问题", "evidence_excerpt": "The remaining work is substantial", "narrative_ratio": 0.0}

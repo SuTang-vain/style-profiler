@@ -1,0 +1,36 @@
+{"para": 3, "heading": "(开篇)", "move": "FRAME", "sub": "成果前置", "evidence_excerpt": "Today, we are releasing OfficeQA Pro V2", "narrative_ratio": 0.0}
+{"para": 4, "heading": "(开篇)", "move": "CONTEXT", "sub": "v1 背景", "evidence_excerpt": "Seven months ago, we introduced OfficeQA", "narrative_ratio": 0.0}
+{"para": 5, "heading": "(开篇)", "move": "ARGUE", "sub": "设计目标", "evidence_excerpt": "designed to test that gener", "narrative_ratio": 0.0}
+{"para": 6, "heading": "(开篇)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Accuracy on OfficeQA Pro V2", "narrative_ratio": 0.0}
+{"para": 7, "heading": "(开篇)", "move": "ARGUE", "sub": "结果前置", "evidence_excerpt": "remains challenging for today", "narrative_ratio": 0.0}
+{"para": 8, "heading": "(开篇)", "move": "FRAME", "sub": "结构预告", "evidence_excerpt": "Below, we describe in more detail", "narrative_ratio": 0.0}
+{"para": 9, "heading": "(开篇)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Cost versus correctnes", "narrative_ratio": 0.0}
+{"para": 10, "heading": "(开篇)", "move": "ARGUE", "sub": "评测：provider harness", "evidence_excerpt": "each model provider's ass", "narrative_ratio": 0.0}
+{"para": 11, "heading": "(开篇)", "move": "ARGUE", "sub": "结果：Genie 增益", "evidence_excerpt": "produced substantial gains", "narrative_ratio": 0.0}
+{"para": 12, "heading": "(开篇)", "move": "COUNTER", "sub": "内化让步", "evidence_excerpt": "these harness improvements lead to substantial gains, signif", "narrative_ratio": 0.0}
+{"para": 14, "heading": "Building Benchmark", "move": "ARGUE", "sub": "语料需求", "evidence_excerpt": "needed a new corpus", "narrative_ratio": 0.0}
+{"para": 15, "heading": "Building Benchmark", "move": "ARGUE", "sub": "合作构建", "evidence_excerpt": "worked with the U.S. Treasury", "narrative_ratio": 0.0}
+{"para": 16, "heading": "Building Benchmark", "move": "ARGUE", "sub": "语料设计", "evidence_excerpt": "Like the U.S. Treasury Bulletins", "narrative_ratio": 0.0}
+{"para": 18, "heading": "Synthetic Data", "move": "CONTEXT", "sub": "合成背景", "evidence_excerpt": "created the original OfficeQA benchmark", "narrative_ratio": 0.0}
+{"para": 19, "heading": "Synthetic Data", "move": "ARGUE", "sub": "合成管线", "evidence_excerpt": "leveraged asynth", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Synthetic Data", "move": "ARGUE", "sub": "输入多样性", "evidence_excerpt": "promote sample diversity", "narrative_ratio": 0.0}
+{"para": 21, "heading": "Synthetic Data", "move": "ARGUE", "sub": "题目等价论证", "evidence_excerpt": "require the same core grounded-reasoning", "narrative_ratio": 0.0}
+{"para": 23, "heading": "Example Questions", "move": "ARGUE", "sub": "例题：低难度", "evidence_excerpt": "Compute Chief Justice Earnings", "narrative_ratio": 0.0}
+{"para": 25, "heading": "Example Questions", "move": "ARGUE", "sub": "例题解析", "evidence_excerpt": "locating a single 1793 Account", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Example Questions", "move": "ARGUE", "sub": "例题：中难度", "evidence_excerpt": "Forecast Increase in Medicare", "narrative_ratio": 0.0}
+{"para": 28, "heading": "Example Questions", "move": "ARGUE", "sub": "例题解析", "evidence_excerpt": "retrieving the Medicare outlay figure", "narrative_ratio": 0.0}
+{"para": 29, "heading": "Example Questions", "move": "ARGUE", "sub": "例题：高难度", "evidence_excerpt": "Forecast Increase of Outlays Across Agencies", "narrative_ratio": 0.0}
+{"para": 31, "heading": "Example Questions", "move": "ARGUE", "sub": "例题解析", "evidence_excerpt": "assembling an eight-year series", "narrative_ratio": 0.0}
+{"para": 33, "heading": "Benchmark Details", "move": "ARGUE", "sub": "构成：90 题", "evidence_excerpt": "consists of 90 questions", "narrative_ratio": 0.0}
+{"para": 34, "heading": "Benchmark Details", "move": "ARGUE", "sub": "核心保持", "evidence_excerpt": "preserves the core", "narrative_ratio": 0.0}
+{"para": 35, "heading": "Benchmark Details", "move": "ARGUE", "sub": "对比 Pro", "evidence_excerpt": "requires evidence from s", "narrative_ratio": 0.0}
+{"para": 36, "heading": "Benchmark Details", "move": "ARGUE", "sub": "特性总结", "evidence_excerpt": "a more", "narrative_ratio": 0.0}
+{"para": 38, "heading": "Two Centuries", "move": "ARGUE", "sub": "语料跨度", "evidence_excerpt": "Spanning 232 years", "narrative_ratio": 0.0}
+{"para": 39, "heading": "Two Centuries", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Revenue Summary from 17", "narrative_ratio": 0.0}
+{"para": 40, "heading": "Two Centuries", "move": "ARGUE", "sub": "格式演变", "evidence_excerpt": "two-page", "narrative_ratio": 0.0}
+{"para": 41, "heading": "Two Centuries", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "tables from 1854", "narrative_ratio": 0.0}
+{"para": 42, "heading": "Two Centuries", "move": "ARGUE", "sub": "1980s 演变", "evidence_excerpt": "Combined Statement had evolved", "narrative_ratio": 0.0}
+{"para": 43, "heading": "Two Centuries", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "types of charts introduced in modern", "narrative_ratio": 0.0}
+{"para": 44, "heading": "Two Centuries", "move": "ARGUE", "sub": "复杂性承接", "evidence_excerpt": "builds on the complexities", "narrative_ratio": 0.0}
+{"para": 46, "heading": "Conclusion", "move": "APPLY", "sub": "公开落点", "evidence_excerpt": "publicly available on Hugg", "narrative_ratio": 0.0}
+{"para": 47, "heading": "Conclusion", "move": "CLOSE", "sub": "主张收束", "evidence_excerpt": "synthetic data can h", "narrative_ratio": 0.0}

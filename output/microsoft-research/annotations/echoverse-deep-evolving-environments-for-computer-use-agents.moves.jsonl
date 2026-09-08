@@ -1,0 +1,59 @@
+{"para": 5, "heading": "(开篇)", "move": "FRAME", "sub": "主题句", "evidence_excerpt": "Scaling fidelity over sheer count", "narrative_ratio": 0.0}
+{"para": 6, "heading": "(开篇)", "move": "FRAME", "sub": "成果前置", "evidence_excerpt": "twelve training worlds", "narrative_ratio": 0.0}
+{"para": 7, "heading": "(开篇)", "move": "ARGUE", "sub": "必要性主张", "evidence_excerpt": "High simulation fidelity is a must-have", "narrative_ratio": 0.0}
+{"para": 8, "heading": "(开篇)", "move": "APPLY", "sub": "资源可用", "evidence_excerpt": "Hugging Face", "narrative_ratio": 0.0}
+{"para": 9, "heading": "(开篇)", "move": "APPLY", "sub": "资源可用", "evidence_excerpt": "Technical Report", "narrative_ratio": 0.0}
+{"para": 10, "heading": "(开篇)", "move": "CONTEXT", "sub": "学习机制背景", "evidence_excerpt": "learns the results of what its actions do", "narrative_ratio": 0.0}
+{"para": 11, "heading": "(开篇)", "move": "ARGUE", "sub": "核心动机", "evidence_excerpt": "consequences worth learning from are stateful", "narrative_ratio": 0.0}
+{"para": 15, "heading": "(开篇)", "move": "ARGUE", "sub": "概念定义", "evidence_excerpt": "By a world we mean three things", "narrative_ratio": 0.0}
+{"para": 16, "heading": "(开篇)", "move": "ARGUE", "sub": "核心假设声明", "evidence_excerpt": "Our bet", "narrative_ratio": 0.1}
+{"para": 17, "heading": "(开篇)", "move": "ARGUE", "sub": "三杠杆论证", "evidence_excerpt": "Three levers keep that loop productive", "narrative_ratio": 0.0}
+{"para": 18, "heading": "(开篇)", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "learning loop", "narrative_ratio": 0.0}
+{"para": 19, "heading": "(开篇)", "move": "COUNTER", "sub": "预设质疑", "evidence_excerpt": "might seem to remove the need for synthetic", "narrative_ratio": 0.0}
+{"para": 20, "heading": "(开篇)", "move": "COUNTER", "sub": "回应：控制是底线", "evidence_excerpt": "Control is only the floor", "narrative_ratio": 0.0}
+{"para": 22, "heading": "Factory", "move": "ARGUE", "sub": "工厂概览", "evidence_excerpt": "a single pipeline with two outputs", "narrative_ratio": 0.0}
+{"para": 24, "heading": "Building", "move": "ARGUE", "sub": "构建管线", "evidence_excerpt": "seed scenarios into a spec", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Growing", "move": "ARGUE", "sub": "语料生长", "evidence_excerpt": "still not training data", "narrative_ratio": 0.0}
+{"para": 27, "heading": "Growing", "move": "ARGUE", "sub": "失败标签化", "evidence_excerpt": "tagged by the layer that must change", "narrative_ratio": 0.0}
+{"para": 28, "heading": "Growing", "move": "ARGUE", "sub": "两环互锁", "evidence_excerpt": "not two stages but r", "narrative_ratio": 0.0}
+{"para": 29, "heading": "Growing", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "environment factory", "narrative_ratio": 0.0}
+{"para": 30, "heading": "Growing", "move": "ARGUE", "sub": "答案键机制", "evidence_excerpt": "its own answer key", "narrative_ratio": 0.0}
+{"para": 32, "heading": "Full domains", "move": "ARGUE", "sub": "全域工作流", "evidence_excerpt": "most consequential work", "narrative_ratio": 0.0}
+{"para": 33, "heading": "Full domains", "move": "ARGUE", "sub": "十域跨度", "evidence_excerpt": "span communication, technical work, regulated", "narrative_ratio": 0.0}
+{"para": 34, "heading": "Full domains", "move": "ARGUE", "sub": "表格", "evidence_excerpt": "Workflow category", "narrative_ratio": 0.0}
+{"para": 35, "heading": "Full domains", "move": "ARGUE", "sub": "累积状态", "evidence_excerpt": "makes an action's consequences reac", "narrative_ratio": 0.0}
+{"para": 36, "heading": "Full domains", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Per-domain detail", "narrative_ratio": 0.0}
+{"para": 37, "heading": "Full domains", "move": "COUNTER", "sub": "自我限定", "evidence_excerpt": "Not every weakness represents a missing domain", "narrative_ratio": 0.0}
+{"para": 38, "heading": "Full domains", "move": "ARGUE", "sub": "隔离控制", "evidence_excerpt": "isolate the control and widen the interaction", "narrative_ratio": 0.0}
+{"para": 39, "heading": "Full domains", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "widget family", "narrative_ratio": 0.0}
+{"para": 40, "heading": "Full domains", "move": "ARGUE", "sub": "轨迹≠信号", "evidence_excerpt": "do not automatically provide more training signa", "narrative_ratio": 0.0}
+{"para": 42, "heading": "Shallow backfire", "move": "ARGUE", "sub": "浅世界反噬主张", "evidence_excerpt": "A shallow world is the cheap option", "narrative_ratio": 0.0}
+{"para": 43, "heading": "Shallow backfire", "move": "ARGUE", "sub": "实验设计", "evidence_excerpt": "take two live WebVoyager domains", "narrative_ratio": 0.0}
+{"para": 44, "heading": "Shallow backfire", "move": "ARGUE", "sub": "对比结果", "evidence_excerpt": "80.0% to 75", "narrative_ratio": 0.0}
+{"para": 45, "heading": "Shallow backfire", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Deep versus shallow worlds", "narrative_ratio": 0.0}
+{"para": 46, "heading": "Shallow backfire", "move": "ARGUE", "sub": "定向训练", "evidence_excerpt": "drill exactly the controls", "narrative_ratio": 0.0}
+{"para": 47, "heading": "Shallow backfire", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "targeted gains", "narrative_ratio": 0.0}
+{"para": 48, "heading": "Shallow backfire", "move": "CONTEXT", "sub": "模型说明", "evidence_excerpt": "Base is Qwen3.5", "narrative_ratio": 0.0}
+{"para": 49, "heading": "Shallow backfire", "move": "ARGUE", "sub": "开放网迁移", "evidence_excerpt": "Does the skill survive the open web", "narrative_ratio": 0.0}
+{"para": 50, "heading": "Shallow backfire", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "transfers to the live web", "narrative_ratio": 0.0}
+{"para": 51, "heading": "Shallow backfire", "move": "COUNTER", "sub": "边界限定", "evidence_excerpt": "coverage effect, not a ceiling", "narrative_ratio": 0.0}
+{"para": 52, "heading": "Shallow backfire", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Closing the gap to the frontier", "narrative_ratio": 0.0}
+{"para": 53, "heading": "Shallow backfire", "move": "ARGUE", "sub": "论断", "evidence_excerpt": "closed and login-gated", "narrative_ratio": 0.0}
+{"para": 55, "heading": "Scaling", "move": "ARGUE", "sub": "双轴实验", "evidence_excerpt": "scaled two axes separately", "narrative_ratio": 0.0}
+{"para": 56, "heading": "Scaling", "move": "ARGUE", "sub": "环境 scaling 结果", "evidence_excerpt": "produces the opposite result", "narrative_ratio": 0.0}
+{"para": 57, "heading": "Scaling", "move": "ARGUE", "sub": "scale 非杠杆", "evidence_excerpt": "not the lever on either axis", "narrative_ratio": 0.0}
+{"para": 58, "heading": "Scaling", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Two scaling axes", "narrative_ratio": 0.0}
+{"para": 59, "heading": "Scaling", "move": "ARGUE", "sub": "分数构成", "evidence_excerpt": "never the model alone", "narrative_ratio": 0.0}
+{"para": 60, "heading": "Scaling", "move": "ARGUE", "sub": "EchoStay 案例", "evidence_excerpt": "failures traced to the world", "narrative_ratio": 0.1}
+{"para": 61, "heading": "Scaling", "move": "ARGUE", "sub": "共演化结果", "evidence_excerpt": "the model climbs with it", "narrative_ratio": 0.0}
+{"para": 62, "heading": "Scaling", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Co-evolution lifts the model", "narrative_ratio": 0.0}
+{"para": 63, "heading": "Scaling", "move": "ARGUE", "sub": "边界论断", "evidence_excerpt": "repairing the world and teaching the model", "narrative_ratio": 0.0}
+{"para": 65, "heading": "SFT to RL", "move": "ARGUE", "sub": "SFT→RL 引入", "evidence_excerpt": "comes from imitation", "narrative_ratio": 0.0}
+{"para": 66, "heading": "SFT to RL", "move": "ARGUE", "sub": "RLE 需求", "evidence_excerpt": "needs an RL environment", "narrative_ratio": 0.0}
+{"para": 67, "heading": "SFT to RL", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Reinforcement learning", "narrative_ratio": 0.0}
+{"para": 68, "heading": "SFT to RL", "move": "ARGUE", "sub": "RL 设置与结果", "evidence_excerpt": "starting policy", "narrative_ratio": 0.0}
+{"para": 69, "heading": "SFT to RL", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "twoepochs", "narrative_ratio": 0.0}
+{"para": 70, "heading": "SFT to RL", "move": "ARGUE", "sub": "world 重定义", "evidence_excerpt": "no longer a fixed benchmark", "narrative_ratio": 0.0}
+{"para": 71, "heading": "SFT to RL", "move": "CLOSE", "sub": "持久优势", "evidence_excerpt": "not the largest inventory", "narrative_ratio": 0.0}
+{"para": 72, "heading": "SFT to RL", "move": "APPLY", "sub": "资源发布", "evidence_excerpt": "releasing a piece of the factory", "narrative_ratio": 0.0}
+{"para": 73, "heading": "SFT to RL", "move": "CLOSE", "sub": "评价收束", "evidence_excerpt": "worlds grow at the frontier", "narrative_ratio": 0.0}

@@ -1,0 +1,45 @@
+{"para": 2, "heading": "(开篇)", "move": "FRAME", "sub": "摘要", "evidence_excerpt": "本文提出", "narrative_ratio": 0.0}
+{"para": 3, "heading": "(开篇)", "move": "FRAME", "sub": "关键词", "evidence_excerpt": "关键词", "narrative_ratio": 0.0}
+{"para": 6, "heading": "1 引言", "move": "CONTEXT", "sub": "事件背景", "evidence_excerpt": "2025年春节，DeepSeek", "narrative_ratio": 0.3}
+{"para": 7, "heading": "1 引言", "move": "CONTEXT", "sub": "焦虑根源", "evidence_excerpt": "不可替代的价值", "narrative_ratio": 0.0}
+{"para": 8, "heading": "1 引言", "move": "FRAME", "sub": "研究问题", "evidence_excerpt": "本文试图回答的核心问题", "narrative_ratio": 0.0}
+{"para": 11, "heading": "2 理论基础", "move": "CONTEXT", "sub": "MAS 概念", "evidence_excerpt": "分布式人工智能的重要分支", "narrative_ratio": 0.0}
+{"para": 12, "heading": "2 理论基础", "move": "ARGUE", "sub": "分析优势", "evidence_excerpt": "统一的分析框架", "narrative_ratio": 0.0}
+{"para": 14, "heading": "2 理论基础", "move": "ARGUE", "sub": "经典不足", "evidence_excerpt": "经典社会学", "narrative_ratio": 0.0}
+{"para": 15, "heading": "2 理论基础", "move": "ARGUE", "sub": "行动者扩展", "evidence_excerpt": "拉图尔的行动者网络理论", "narrative_ratio": 0.0}
+{"para": 16, "heading": "2 理论基础", "move": "ARGUE", "sub": "结构更新", "evidence_excerpt": "社会结构", "narrative_ratio": 0.0}
+{"para": 17, "heading": "2 理论基础", "move": "ARGUE", "sub": "变迁检验", "evidence_excerpt": "现代化理论", "narrative_ratio": 0.0}
+{"para": 20, "heading": "3 微观", "move": "CONTEXT", "sub": "微观引入", "evidence_excerpt": "辨析人类智能体与人工智能体", "narrative_ratio": 0.0}
+{"para": 21, "heading": "3 微观", "move": "ARGUE", "sub": "人类四维", "evidence_excerpt": "身体经验", "narrative_ratio": 0.0}
+{"para": 22, "heading": "3 微观", "move": "ARGUE", "sub": "AI 四维", "evidence_excerpt": "统计规律的生成机制", "narrative_ratio": 0.0}
+{"para": 24, "heading": "3 微观", "move": "ARGUE", "sub": "五模式识别", "evidence_excerpt": "五种典型的互动模式", "narrative_ratio": 0.0}
+{"para": 25, "heading": "3 微观", "move": "ARGUE", "sub": "五模式展开", "evidence_excerpt": "替代型", "narrative_ratio": 0.0}
+{"para": 26, "heading": "3 微观", "move": "ARGUE", "sub": "边界声明", "evidence_excerpt": "并非固定不变", "narrative_ratio": 0.0}
+{"para": 29, "heading": "4 中观", "move": "ARGUE", "sub": "中观三问题", "evidence_excerpt": "网络如何连接", "narrative_ratio": 0.0}
+{"para": 30, "heading": "4 中观", "move": "ARGUE", "sub": "教育例证", "evidence_excerpt": "教师—学生", "narrative_ratio": 0.1}
+{"para": 32, "heading": "4 中观", "move": "ARGUE", "sub": "三重变化引入", "evidence_excerpt": "三个关键环节", "narrative_ratio": 0.0}
+{"para": 33, "heading": "4 中观", "move": "ARGUE", "sub": "三环节展开", "evidence_excerpt": "信息生产者", "narrative_ratio": 0.0}
+{"para": 34, "heading": "4 中观", "move": "ARGUE", "sub": "模拟方法论价值", "evidence_excerpt": "方法论价值", "narrative_ratio": 0.0}
+{"para": 36, "heading": "4 中观", "move": "ARGUE", "sub": "算法影响力", "evidence_excerpt": "三个特征", "narrative_ratio": 0.0}
+{"para": 37, "heading": "4 中观", "move": "ARGUE", "sub": "青年群体数据", "evidence_excerpt": "数字原住民", "narrative_ratio": 0.0}
+{"para": 40, "heading": "5 宏观", "move": "ARGUE", "sub": "集体智能", "evidence_excerpt": "超级大脑", "narrative_ratio": 0.0}
+{"para": 41, "heading": "5 宏观", "move": "ARGUE", "sub": "Agent-Kernel 案例", "evidence_excerpt": "技术前沿", "narrative_ratio": 0.0}
+{"para": 43, "heading": "5 宏观", "move": "ARGUE", "sub": "分层新机制", "evidence_excerpt": "新的分", "narrative_ratio": 0.0}
+{"para": 45, "heading": "5 宏观", "move": "ARGUE", "sub": "文化循环", "evidence_excerpt": "反向塑造文化", "narrative_ratio": 0.0}
+{"para": 48, "heading": "6 AI 安全", "move": "CONTEXT", "sub": "对齐基本问题", "evidence_excerpt": "AI 对齐", "narrative_ratio": 0.0}
+{"para": 49, "heading": "6 AI 安全", "move": "ARGUE", "sub": "新维度", "evidence_excerpt": "不再是简单的", "narrative_ratio": 0.0}
+{"para": 50, "heading": "6 AI 安全", "move": "ARGUE", "sub": "批判追问", "evidence_excerpt": "谁的价值被", "narrative_ratio": 0.0}
+{"para": 52, "heading": "6 AI 安全", "move": "ARGUE", "sub": "黑箱社会意义", "evidence_excerpt": "程序正义", "narrative_ratio": 0.0}
+{"para": 53, "heading": "6 AI 安全", "move": "ARGUE", "sub": "解释情境性", "evidence_excerpt": "单一标准", "narrative_ratio": 0.0}
+{"para": 55, "heading": "6 AI 安全", "move": "CONTEXT", "sub": "涌现现象", "evidence_excerpt": "特定阈值", "narrative_ratio": 0.0}
+{"para": 56, "heading": "6 AI 安全", "move": "ARGUE", "sub": "双重意义", "evidence_excerpt": "整体大于部分之和", "narrative_ratio": 0.0}
+{"para": 58, "heading": "6 AI 安全", "move": "ARGUE", "sub": "风险场景", "evidence_excerpt": "军备竞赛", "narrative_ratio": 0.0}
+{"para": 59, "heading": "6 AI 安全", "move": "ARGUE", "sub": "规制挑战", "evidence_excerpt": "二元框架不足以", "narrative_ratio": 0.0}
+{"para": 62, "heading": "7 方法论", "move": "ARGUE", "sub": "方法论创新", "evidence_excerpt": "方法论前沿", "narrative_ratio": 0.0}
+{"para": 63, "heading": "7 方法论", "move": "ARGUE", "sub": "技术路径", "evidence_excerpt": "三个环节", "narrative_ratio": 0.0}
+{"para": 65, "heading": "7 方法论", "move": "ARGUE", "sub": "SocioVerse 案例", "evidence_excerpt": "前沿进展", "narrative_ratio": 0.0}
+{"para": 66, "heading": "7 方法论", "move": "ARGUE", "sub": "案例发现", "evidence_excerpt": "社会极化实验", "narrative_ratio": 0.0}
+{"para": 68, "heading": "8 结论与讨论", "move": "CLOSE", "sub": "框架总结", "evidence_excerpt": "三个层面系统考察", "narrative_ratio": 0.0}
+{"para": 69, "heading": "8 结论与讨论", "move": "CLOSE", "sub": "编号结论", "evidence_excerpt": "主要结论如下", "narrative_ratio": 0.0}
+{"para": 70, "heading": "8 结论与讨论", "move": "CLOSE", "sub": "局限声明", "evidence_excerpt": "本研究存在以下局限", "narrative_ratio": 0.0}
+{"para": 71, "heading": "8 结论与讨论", "move": "CLOSE", "sub": "后续方向", "evidence_excerpt": "后续研究方向", "narrative_ratio": 0.0}

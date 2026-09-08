@@ -1,0 +1,18 @@
+{"para": 4, "heading": "(开篇)", "move": "FRAME", "sub": "摘要前置", "evidence_excerpt": "We introduce TimesFM-3", "narrative_ratio": 0.0}
+{"para": 5, "heading": "(开篇)", "move": "CONTEXT", "sub": "采纳史", "evidence_excerpt": "Since the debut of TimesFM in 2024", "narrative_ratio": 0.1}
+{"para": 6, "heading": "(开篇)", "move": "CONTEXT", "sub": "前代局限", "evidence_excerpt": "Up until TimesFM-2.5", "narrative_ratio": 0.0}
+{"para": 7, "heading": "(开篇)", "move": "FRAME", "sub": "正式引入", "evidence_excerpt": "Today we introduce TimesFM-3", "narrative_ratio": 0.0}
+{"para": 8, "heading": "(开篇)", "move": "ARGUE", "sub": "能力清单", "evidence_excerpt": "Multiple targets", "narrative_ratio": 0.0}
+{"para": 9, "heading": "(开篇)", "move": "ARGUE", "sub": "架构基础", "evidence_excerpt": "decoder-only transformer architectu", "narrative_ratio": 0.0}
+{"para": 11, "heading": "Token construction", "move": "ARGUE", "sub": "token 构造", "evidence_excerpt": "a token is constructed direc", "narrative_ratio": 0.0}
+{"para": 13, "heading": "Alternating attention", "move": "ARGUE", "sub": "交替注意力", "evidence_excerpt": "input residua", "narrative_ratio": 0.0}
+{"para": 14, "heading": "Alternating attention", "move": "ARGUE", "sub": "时间注意力", "evidence_excerpt": "attend horizontally across time", "narrative_ratio": 0.0}
+{"para": 15, "heading": "Alternating attention", "move": "ARGUE", "sub": "层间交替", "evidence_excerpt": "alternate for several layers", "narrative_ratio": 0.0}
+{"para": 16, "heading": "Alternating attention", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "TimesFM-3 architecture", "narrative_ratio": 0.0}
+{"para": 18, "heading": "Non-autoregressive", "move": "ARGUE", "sub": "非自回归解码", "evidence_excerpt": "one patch at a ti", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Example", "move": "ARGUE", "sub": "示例：冰淇淋", "evidence_excerpt": "ice cream sales example", "narrative_ratio": 0.2}
+{"para": 21, "heading": "Example", "move": "ARGUE", "sub": "示例：促销", "evidence_excerpt": "Planning promotions", "narrative_ratio": 0.1}
+{"para": 23, "heading": "Evaluation", "move": "ARGUE", "sub": "评测设置", "evidence_excerpt": "three comprehensive public forecasting", "narrative_ratio": 0.0}
+{"para": 24, "heading": "Evaluation", "move": "ARGUE", "sub": "模式说明", "evidence_excerpt": "univariate mode", "narrative_ratio": 0.0}
+{"para": 25, "heading": "Evaluation", "move": "ARGUE", "sub": "图注：性能", "evidence_excerpt": "Gift-Eval", "narrative_ratio": 0.0}
+{"para": 27, "heading": "Conclusion", "move": "CLOSE", "sub": "总结", "evidence_excerpt": "the latest generation of our TimesFM famil", "narrative_ratio": 0.0}

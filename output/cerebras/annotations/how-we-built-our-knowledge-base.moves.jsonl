@@ -1,0 +1,62 @@
+{"para": 4, "heading": "(开篇)", "move": "HOOK", "sub": "数字开场", "evidence_excerpt": "more than 15,000 questio", "narrative_ratio": 0.0}
+{"para": 5, "heading": "(开篇)", "move": "CONTEXT", "sub": "团队背景", "evidence_excerpt": "data center operations, chip de", "narrative_ratio": 0.1}
+{"para": 6, "heading": "(开篇)", "move": "CONTEXT", "sub": "问题清单", "evidence_excerpt": "Where can I find X", "narrative_ratio": 0.0}
+{"para": 7, "heading": "(开篇)", "move": "FRAME", "sub": "系统定位", "evidence_excerpt": "We built Cerebras Knowledge", "narrative_ratio": 0.0}
+{"para": 9, "heading": "(开篇)", "move": "ARGUE", "sub": "问题论证", "evidence_excerpt": "Finding information inside an organization is hard", "narrative_ratio": 0.0}
+{"para": 10, "heading": "(开篇)", "move": "ARGUE", "sub": "机理分析", "evidence_excerpt": "Information is generated wherever it is convenient", "narrative_ratio": 0.0}
+{"para": 11, "heading": "(开篇)", "move": "ARGUE", "sub": "设计约束", "evidence_excerpt": "required minimal change to e", "narrative_ratio": 0.0}
+{"para": 13, "heading": "Anatomy", "move": "FRAME", "sub": "结构预告", "evidence_excerpt": "provides three things", "narrative_ratio": 0.0}
+{"para": 14, "heading": "Anatomy", "move": "ARGUE", "sub": "三件套", "evidence_excerpt": "A platform for collecting", "narrative_ratio": 0.0}
+{"para": 15, "heading": "Anatomy", "move": "ARGUE", "sub": "核心架构", "evidence_excerpt": "single Postgres table", "narrative_ratio": 0.0}
+{"para": 16, "heading": "Anatomy", "move": "ARGUE", "sub": "接口设计", "evidence_excerpt": "simple but could work with mos", "narrative_ratio": 0.0}
+{"para": 18, "heading": "Anatomy", "move": "ARGUE", "sub": "数据源机制", "evidence_excerpt": "Each data source defines what the data is", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Slack", "move": "ARGUE", "sub": "Slack 重要性", "evidence_excerpt": "most important data source", "narrative_ratio": 0.0}
+{"para": 22, "heading": "Slack", "move": "ARGUE", "sub": "初步实验失败", "evidence_excerpt": "initially tested whether simple embeddings", "narrative_ratio": 0.1}
+{"para": 23, "heading": "Slack", "move": "ARGUE", "sub": "挑战引入", "evidence_excerpt": "several challenges", "narrative_ratio": 0.0}
+{"para": 24, "heading": "Slack", "move": "ARGUE", "sub": "密度差异例证", "evidence_excerpt": "hey yeah sure mike", "narrative_ratio": 0.2}
+{"para": 25, "heading": "Slack", "move": "ARGUE", "sub": "方案决策", "evidence_excerpt": "We needed a hybrid approach", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Slack", "move": "ARGUE", "sub": "互补论证", "evidence_excerpt": "Full-text search catches the exact tokens", "narrative_ratio": 0.0}
+{"para": 37, "heading": "Slack", "move": "ARGUE", "sub": "融合论证", "evidence_excerpt": "No single scorer is trusted on its own", "narrative_ratio": 0.0}
+{"para": 39, "heading": "Socket Mode", "move": "ARGUE", "sub": "Socket Mode", "evidence_excerpt": "installed a Slack bot", "narrative_ratio": 0.0}
+{"para": 40, "heading": "Socket Mode", "move": "ARGUE", "sub": "事件管线", "evidence_excerpt": "acknowledge it, deduplicate", "narrative_ratio": 0.0}
+{"para": 41, "heading": "Socket Mode", "move": "ARGUE", "sub": "上下文重摄取", "evidence_excerpt": "does not save a new message in isolation", "narrative_ratio": 0.0}
+{"para": 42, "heading": "Socket Mode", "move": "ARGUE", "sub": "频道独立源", "evidence_excerpt": "own data source", "narrative_ratio": 0.0}
+{"para": 44, "heading": "Threads", "move": "ARGUE", "sub": "即时可搜", "evidence_excerpt": "keyword-searchable as soon as it lands", "narrative_ratio": 0.0}
+{"para": 45, "heading": "Threads", "move": "ARGUE", "sub": "蒸馏", "evidence_excerpt": "an LLM extracts structured data", "narrative_ratio": 0.0}
+{"para": 57, "heading": "Threads", "move": "ARGUE", "sub": "入库", "evidence_excerpt": "write them into the shared embeddin", "narrative_ratio": 0.0}
+{"para": 59, "heading": "Bursting", "move": "ARGUE", "sub": "迭代：仍遇问题", "evidence_excerpt": "kept encountering the", "narrative_ratio": 0.1}
+{"para": 60, "heading": "Bursting", "move": "ARGUE", "sub": "bursting 机制", "evidence_excerpt": "we use bursting", "narrative_ratio": 0.0}
+{"para": 61, "heading": "Bursting", "move": "ARGUE", "sub": "低信号过滤", "evidence_excerpt": "prevent low-signal data", "narrative_ratio": 0.0}
+{"para": 62, "heading": "Bursting", "move": "ARGUE", "sub": "罕见 token", "evidence_excerpt": "relatively rare token across the corpus", "narrative_ratio": 0.0}
+{"para": 63, "heading": "Bursting", "move": "ARGUE", "sub": "合格入库", "evidence_excerpt": "qualifying bursts are embedded", "narrative_ratio": 0.0}
+{"para": 65, "heading": "Code repos", "move": "ARGUE", "sub": "选型争论", "evidence_excerpt": "debated whether embedding code repositories", "narrative_ratio": 0.1}
+{"para": 66, "heading": "Code repos", "move": "ARGUE", "sub": "大仓库挑战", "evidence_excerpt": "some larger than 40 GB", "narrative_ratio": 0.0}
+{"para": 68, "heading": "CocoIndex", "move": "ARGUE", "sub": "选型 CocoIndex", "evidence_excerpt": "we landed on CocoIndex", "narrative_ratio": 0.0}
+{"para": 69, "heading": "CocoIndex", "move": "ARGUE", "sub": "语言感知切分", "evidence_excerpt": "language-specific reg", "narrative_ratio": 0.0}
+{"para": 71, "heading": "CocoIndex", "move": "ARGUE", "sub": "同步元数据", "evidence_excerpt": "synchronization metadata in Postgres", "narrative_ratio": 0.0}
+{"para": 72, "heading": "CocoIndex", "move": "ARGUE", "sub": "onboarding 自动化", "evidence_excerpt": "moved repository onboarding", "narrative_ratio": 0.0}
+{"para": 74, "heading": "Custom sources", "move": "ARGUE", "sub": "自定义源需求", "evidence_excerpt": "did not want to mov", "narrative_ratio": 0.0}
+{"para": 75, "heading": "Custom sources", "move": "ARGUE", "sub": "插件方案", "evidence_excerpt": "treat custom sources as plugin scripts", "narrative_ratio": 0.0}
+{"para": 76, "heading": "Custom sources", "move": "ARGUE", "sub": "契约约束", "evidence_excerpt": "writes into the shared database", "narrative_ratio": 0.0}
+{"para": 78, "heading": "Planning", "move": "ARGUE", "sub": "规划与扇出", "evidence_excerpt": "a short planning pass", "narrative_ratio": 0.0}
+{"para": 80, "heading": "Planning", "move": "ARGUE", "sub": "planner 描述", "evidence_excerpt": "compact description of what we have index", "narrative_ratio": 0.0}
+{"para": 82, "heading": "Planning", "move": "ARGUE", "sub": "词汇重叠问题", "evidence_excerpt": "surface near the top simply because", "narrative_ratio": 0.0}
+{"para": 84, "heading": "Planning", "move": "ARGUE", "sub": "共识平滑", "evidence_excerpt": "consensus matter more than a single s", "narrative_ratio": 0.0}
+{"para": 85, "heading": "Planning", "move": "ARGUE", "sub": "小模型 rerank", "evidence_excerpt": "a small reranke", "narrative_ratio": 0.0}
+{"para": 86, "heading": "Planning", "move": "ARGUE", "sub": "上下文回填", "evidence_excerpt": "add context back to the winners", "narrative_ratio": 0.0}
+{"para": 87, "heading": "Planning", "move": "ARGUE", "sub": "证据包", "evidence_excerpt": "a rich packet of evidence", "narrative_ratio": 0.0}
+{"para": 89, "heading": "MCP", "move": "ARGUE", "sub": "MCP 集成", "evidence_excerpt": "expose retrieval building blocks", "narrative_ratio": 0.0}
+{"para": 90, "heading": "MCP", "move": "ARGUE", "sub": "工具原语", "evidence_excerpt": "Each MCP tool corresponds", "narrative_ratio": 0.0}
+{"para": 91, "heading": "MCP", "move": "ARGUE", "sub": "单管线工具", "evidence_excerpt": "run one query pipeline", "narrative_ratio": 0.0}
+{"para": 92, "heading": "MCP", "move": "ARGUE", "sub": "Claude Code 编排", "evidence_excerpt": "becomes the orchestratio", "narrative_ratio": 0.0}
+{"para": 94, "heading": "Web UI", "move": "ARGUE", "sub": "Web UI", "evidence_excerpt": "the same tools exist", "narrative_ratio": 0.0}
+{"para": 95, "heading": "Web UI", "move": "ARGUE", "sub": "Planner 角色", "evidence_excerpt": "inspects the query", "narrative_ratio": 0.0}
+{"para": 96, "heading": "Web UI", "move": "ARGUE", "sub": "Executor 并行", "evidence_excerpt": "fans those tool calls out in parallel", "narrative_ratio": 0.0}
+{"para": 97, "heading": "Web UI", "move": "ARGUE", "sub": "Synthesis", "evidence_excerpt": "takes the typed evidence bundle", "narrative_ratio": 0.0}
+{"para": 98, "heading": "Web UI", "move": "ARGUE", "sub": "用户视角", "evidence_excerpt": "simply ask a question", "narrative_ratio": 0.0}
+{"para": 100, "heading": "Web UI", "move": "ARGUE", "sub": "规模化失败", "evidence_excerpt": "rapidly stopped", "narrative_ratio": 0.1}
+{"para": 102, "heading": "Projects", "move": "ARGUE", "sub": "projects 引入", "evidence_excerpt": "primary way to organize the workspac", "narrative_ratio": 0.0}
+{"para": 103, "heading": "Projects", "move": "ARGUE", "sub": "轻量设计", "evidence_excerpt": "intentionally lightweight", "narrative_ratio": 0.0}
+{"para": 105, "heading": "Projects", "move": "ARGUE", "sub": "默认项目", "evidence_excerpt": "select or create a defaul", "narrative_ratio": 0.0}
+{"para": 106, "heading": "Projects", "move": "ARGUE", "sub": "作用域查询", "evidence_excerpt": "scopes quer", "narrative_ratio": 0.0}
+{"para": 108, "heading": "Final Thoughts", "move": "CLOSE", "sub": "设计哲学收束", "evidence_excerpt": "meets people where they", "narrative_ratio": 0.0}

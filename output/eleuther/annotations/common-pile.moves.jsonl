@@ -1,0 +1,22 @@
+{"para": 3, "heading": "(开篇)", "move": "ARGUE", "sub": "构成预告", "evidence_excerpt": "The 30 datasets comprising", "narrative_ratio": 0.0}
+{"para": 5, "heading": "(开篇)", "move": "CONTEXT", "sub": "社区历史", "evidence_excerpt": "Four and a half years ago, EleutherAI", "narrative_ratio": 0.2}
+{"para": 6, "heading": "(开篇)", "move": "ARGUE", "sub": "必要性论证", "evidence_excerpt": "Public release of large-scale training datasets", "narrative_ratio": 0.0}
+{"para": 7, "heading": "(开篇)", "move": "CONTEXT", "sub": "诉讼背景", "evidence_excerpt": "dozens of lawsuits", "narrative_ratio": 0.0}
+{"para": 8, "heading": "(开篇)", "move": "ARGUE", "sub": "部分公开价值", "evidence_excerpt": "Even when organizations", "narrative_ratio": 0.0}
+{"para": 9, "heading": "(开篇)", "move": "FRAME", "sub": "成果前置", "evidence_excerpt": "Today we are excited to announce", "narrative_ratio": 0.0}
+{"para": 11, "heading": "Openly licensed data", "move": "ARGUE", "sub": "立场声明", "evidence_excerpt": "Openness is a deep cultural value", "narrative_ratio": 0.0}
+{"para": 13, "heading": "What is openness?", "move": "CONTEXT", "sub": "策展难度", "evidence_excerpt": "takes a lot of effort", "narrative_ratio": 0.0}
+{"para": 14, "heading": "What is openness?", "move": "ARGUE", "sub": "许可定义原则", "evidence_excerpt": "Open License Definition", "narrative_ratio": 0.0}
+{"para": 15, "heading": "What is openness?", "move": "ARGUE", "sub": "图注：许可类型", "evidence_excerpt": "different types of licenses", "narrative_ratio": 0.0}
+{"para": 16, "heading": "What is openness?", "move": "ARGUE", "sub": "识别困难", "evidence_excerpt": "license a particular work has is sur", "narrative_ratio": 0.0}
+{"para": 17, "heading": "What is openness?", "move": "ARGUE", "sub": "公有领域更难", "evidence_excerpt": "Public domain works are even harder", "narrative_ratio": 0.0}
+{"para": 19, "heading": "Building the landscape", "move": "ARGUE", "sub": "格局关怀", "evidence_excerpt": "care deeply about the open data landscape", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Building the landscape", "move": "CONTEXT", "sub": "会面背景", "evidence_excerpt": "Mozilla and EleutherAI held a Dataset Convening", "narrative_ratio": 0.0}
+{"para": 21, "heading": "Building the landscape", "move": "APPLY", "sub": "代码可用", "evidence_excerpt": "released the code used to build this dataset", "narrative_ratio": 0.0}
+{"para": 22, "heading": "Building the landscape", "move": "APPLY", "sub": "发布计划", "evidence_excerpt": "release open datasets more", "narrative_ratio": 0.0}
+{"para": 24, "heading": "Comma v0.1", "move": "COUNTER", "sub": "常见质疑", "evidence_excerpt": "A common concern raised", "narrative_ratio": 0.0}
+{"para": 25, "heading": "Comma v0.1", "move": "ARGUE", "sub": "性能回应", "evidence_excerpt": "matches the performance", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Comma v0.1", "move": "ARGUE", "sub": "数据集对比", "evidence_excerpt": "compares to other licensed and unl", "narrative_ratio": 0.0}
+{"para": 27, "heading": "Comma v0.1", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "1.7B parameter models", "narrative_ratio": 0.0}
+{"para": 28, "heading": "Comma v0.1", "move": "ARGUE", "sub": "反驳结论", "evidence_excerpt": "unlicensed text dri", "narrative_ratio": 0.0}
+{"para": 30, "heading": "Looking Forward", "move": "CLOSE", "sub": "版本声明收束", "evidence_excerpt": "very clear statemen", "narrative_ratio": 0.0}

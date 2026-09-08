@@ -34,6 +34,8 @@
 - **APPLY×3 是收尾三连**（环境层含义 + 经验复用 + 数据效率）——与 connectomics 的 APPLY（跨物种扩展）不同，此处是"框架级意义"陈述；
 - 完整标注：`output/microsoft-research/annotations/orchard-an-open-framework-for-scalable-agentic-ai.moves.jsonl`
 
+> **3 篇聚合（2026-09-08）**：echoverse + verifying-rust 补齐后 APPLY=8 处（六库最高）——资源链接落点（HF/技术报告/开源分支）是 MSR 指纹级结构特征；echoverse 含 4 处 COUNTER（预设质疑+回应）。详见 `output/_moves-aggregate.md`。
+
 ## 4. 待人工裁决项
 
 - ⚑ 与 Databricks"工程化评测派"的亲缘：MSR 更偏系统、Databricks 更偏基准——orchard 语步实证：两者同属"系统文模板"（CONTEXT→ARGUE 块×n→APPLY），差异在落点（MSR 框架级意义 vs Databricks 基准宣称）；

@@ -38,6 +38,8 @@
 - 标注："AI RESEARCH" 栏目是官方分层（对应壳中客 genre-map 覆盖机制——可直接复用）；
 - 内部链接（related posts/tech report）密度高，但被 innerText 抹平，文本化指标看不见——需 cdp 复查。
 
+> **3 篇聚合修正（2026-09-08）**：memalign + memory-scaling + officeqa 聚合后 COUNTER=7 处——orchard 单篇的"零 COUNTER"仅对系统文子类成立；memory-scaling 含完整反驳节（What Gets in the Way + 议程化回应）。详见 `output/_moves-aggregate.md`。
+
 ## 4. 待人工裁决项
 
 - ⚑ "企业研究文体"与 OpenAI research-narrative 的关系：是子体裁还是独立体裁，需 rubric 00 定夺；

@@ -41,6 +41,8 @@
   探索体英文对应物应改寻他篇；rubric 00 若扩展，宜命名英文第五子体裁为 research-report（进度报告体）；
 - 完整标注：`output/eleuther/annotations/mad_research_update_2.moves.jsonl`
 
+> **3 篇聚合（2026-09-08）**：autointerp + common-pile 补齐后 ARGUE 83%、叙事 0%——"纯论证"画像稳固；common-pile 含质疑-回应单元（性能质疑→对比回应）。详见 `output/_moves-aggregate.md`。
+
 ## 4. 待人工裁决项
 
 - ⚑ 探索体英文对应物的定位：mad_research_update_2 实证为 research-report（进度报告），非探索体；探索体信号应在 dynamical-models（理论建构）等篇验证；

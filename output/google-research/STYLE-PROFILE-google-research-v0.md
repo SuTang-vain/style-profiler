@@ -34,6 +34,8 @@
 - **APPLY 是合作科学体的扩展轴**——"已经推广到 XX"（鱼类→斑马鱼→鼠）而非 OpenAI 式的"教训"或 Cerebras 式的"教程"；
 - 完整标注：`output/google-research/annotations/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain.moves.jsonl`
 
+> **3 篇聚合修正（2026-09-08）**：timesfm-3 + empty-shelves 聚合后出现设问 HOOK（"is it because they never learned them or..."）——connectomics 单篇的"无 HOOK"仅对成果发布文子类成立。详见 `output/_moves-aggregate.md`。
+
 ## 4. 待人工裁决项
 
 - ⚑ 与壳中客"探索体"的对照：行星预测引擎/GlucoFM 等"模型+科学应用"文是否构成英文"应用报告体"；

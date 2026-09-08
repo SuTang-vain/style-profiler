@@ -1,0 +1,48 @@
+{"para": 1, "heading": "(开篇)", "move": "FRAME", "sub": "元信息头", "evidence_excerpt": "报告日期", "narrative_ratio": 0.0}
+{"para": 4, "heading": "(开篇)", "move": "FRAME", "sub": "摘要·发布事实", "evidence_excerpt": "GLM-5.3 是智谱 AI 于", "narrative_ratio": 0.0}
+{"para": 5, "heading": "(开篇)", "move": "FRAME", "sub": "摘要·关键事实", "evidence_excerpt": "本报告需要首先明确的关键事实", "narrative_ratio": 0.0}
+{"para": 6, "heading": "(开篇)", "move": "FRAME", "sub": "摘要·性能", "evidence_excerpt": "最强的开源权重编程模型之一", "narrative_ratio": 0.0}
+{"para": 7, "heading": "(开篇)", "move": "FRAME", "sub": "摘要·可用性", "evidence_excerpt": "API 已于 8 月 19 日全面开放", "narrative_ratio": 0.0}
+{"para": 14, "heading": "一、概述", "move": "CONTEXT", "sub": "发布背景", "evidence_excerpt": "重要迭代", "narrative_ratio": 0.0}
+{"para": 16, "heading": "一、概述", "move": "ARGUE", "sub": "升级清单", "evidence_excerpt": "两大核心升级", "narrative_ratio": 0.0}
+{"para": 18, "heading": "一、概述", "move": "ARGUE", "sub": "开源状态", "evidence_excerpt": "两周内开源", "narrative_ratio": 0.0}
+{"para": 22, "heading": "二、技术路径", "move": "ARGUE", "sub": "官方口径引用", "evidence_excerpt": "官方原文明确指出", "narrative_ratio": 0.0}
+{"para": 23, "heading": "二、技术路径", "move": "CONTEXT", "sub": "技术底座引入", "evidence_excerpt": "三大技术底座", "narrative_ratio": 0.0}
+{"para": 24, "heading": "二、技术路径", "move": "ARGUE", "sub": "底座清单", "evidence_excerpt": "IndexShare", "narrative_ratio": 0.0}
+{"para": 25, "heading": "二、技术路径", "move": "ARGUE", "sub": "规模扩大", "evidence_excerpt": "持续扩大规模", "narrative_ratio": 0.0}
+{"para": 27, "heading": "二、技术路径", "move": "ARGUE", "sub": "方法论转变", "evidence_excerpt": "核心方法论转变", "narrative_ratio": 0.0}
+{"para": 28, "heading": "二、技术路径", "move": "ARGUE", "sub": "ML 例证", "evidence_excerpt": "真实工程师相同的工作环境", "narrative_ratio": 0.0}
+{"para": 29, "heading": "二、技术路径", "move": "ARGUE", "sub": "流水线引入", "evidence_excerpt": "自动化流水线", "narrative_ratio": 0.0}
+{"para": 30, "heading": "二、技术路径", "move": "ARGUE", "sub": "流水线组件", "evidence_excerpt": "研究型", "narrative_ratio": 0.0}
+{"para": 31, "heading": "二、技术路径", "move": "ARGUE", "sub": "局限声明", "evidence_excerpt": "仍需要相当程度的人工参与", "narrative_ratio": 0.0}
+{"para": 35, "heading": "三、性能评测", "move": "ARGUE", "sub": "基准对比引入", "evidence_excerpt": "官方博客给出了", "narrative_ratio": 0.0}
+{"para": 36, "heading": "三、性能评测", "move": "ARGUE", "sub": "对比表", "evidence_excerpt": "基准", "narrative_ratio": 0.0}
+{"para": 38, "heading": "三、性能评测", "move": "ARGUE", "sub": "数据观察", "evidence_excerpt": "关键观察", "narrative_ratio": 0.0}
+{"para": 39, "heading": "三、性能评测", "move": "ARGUE", "sub": "口径澄清", "evidence_excerpt": "数据说明", "narrative_ratio": 0.0}
+{"para": 41, "heading": "三、性能评测", "move": "ARGUE", "sub": "内部基准引入", "evidence_excerpt": "Z.ai Code Bench", "narrative_ratio": 0.0}
+{"para": 42, "heading": "三、性能评测", "move": "ARGUE", "sub": "结果", "evidence_excerpt": "每个思考强度档位", "narrative_ratio": 0.0}
+{"para": 43, "heading": "三、性能评测", "move": "ARGUE", "sub": "强度数据", "evidence_excerpt": "Max", "narrative_ratio": 0.0}
+{"para": 44, "heading": "三、性能评测", "move": "ARGUE", "sub": "结论+边界", "evidence_excerpt": "仍有差距", "narrative_ratio": 0.0}
+{"para": 48, "heading": "四、网络安全能力", "move": "ARGUE", "sub": "涌现发现", "evidence_excerpt": "超出预期的现象", "narrative_ratio": 0.1}
+{"para": 50, "heading": "四、网络安全能力", "move": "ARGUE", "sub": "三基准引入", "evidence_excerpt": "不同阶段的安全基准", "narrative_ratio": 0.0}
+{"para": 51, "heading": "四、网络安全能力", "move": "ARGUE", "sub": "CyberGym 数据", "evidence_excerpt": "84.5%", "narrative_ratio": 0.0}
+{"para": 52, "heading": "四、网络安全能力", "move": "ARGUE", "sub": "一致规律", "evidence_excerpt": "提升幅度越大", "narrative_ratio": 0.0}
+{"para": 54, "heading": "四、网络安全能力", "move": "ARGUE", "sub": "真实世界验证", "evidence_excerpt": "真实代码库进行漏洞挖掘", "narrative_ratio": 0.0}
+{"para": 55, "heading": "四、网络安全能力", "move": "ARGUE", "sub": "漏洞数据表", "evidence_excerpt": "2,436", "narrative_ratio": 0.0}
+{"para": 56, "heading": "四、网络安全能力", "move": "ARGUE", "sub": "披露平台", "evidence_excerpt": "Disclosure Ledger", "narrative_ratio": 0.0}
+{"para": 59, "heading": "五、slime", "move": "ARGUE", "sub": "slime 框架", "evidence_excerpt": "开源的后训练框架", "narrative_ratio": 0.0}
+{"para": 60, "heading": "五、slime", "move": "ARGUE", "sub": "改进两方面", "evidence_excerpt": "集中在两方面", "narrative_ratio": 0.0}
+{"para": 61, "heading": "五、slime", "move": "ARGUE", "sub": "算法侧", "evidence_excerpt": "top-p mask", "narrative_ratio": 0.0}
+{"para": 63, "heading": "五、slime", "move": "ARGUE", "sub": "系统效率侧", "evidence_excerpt": "本地存储作为额外缓存层", "narrative_ratio": 0.0}
+{"para": 68, "heading": "六、API 与生态", "move": "ARGUE", "sub": "三档强度", "evidence_excerpt": "三档思考强度", "narrative_ratio": 0.0}
+{"para": 69, "heading": "六、API 与生态", "move": "ARGUE", "sub": "清单", "evidence_excerpt": "low", "narrative_ratio": 0.0}
+{"para": 70, "heading": "六、API 与生态", "move": "ARGUE", "sub": "破坏性变更", "evidence_excerpt": "不再支持完全关闭思考", "narrative_ratio": 0.0}
+{"para": 73, "heading": "六、API 与生态", "move": "ARGUE", "sub": "工具生态", "evidence_excerpt": "ZCode、Claude Code、OpenCode", "narrative_ratio": 0.0}
+{"para": 74, "heading": "六、API 与生态", "move": "ARGUE", "sub": "权益引入", "evidence_excerpt": "以下权益", "narrative_ratio": 0.0}
+{"para": 75, "heading": "六、API 与生态", "move": "ARGUE", "sub": "权益清单", "evidence_excerpt": "缓存命中率超过 98%", "narrative_ratio": 0.0}
+{"para": 77, "heading": "六、API 与生态", "move": "ARGUE", "sub": "权重开放计划", "evidence_excerpt": "两周后公开放出", "narrative_ratio": 0.0}
+{"para": 81, "heading": "七、总结与展望", "move": "CLOSE", "sub": "编号结论", "evidence_excerpt": "核心结论", "narrative_ratio": 0.0}
+{"para": 83, "heading": "七、总结与展望", "move": "CLOSE", "sub": "关注问题清单", "evidence_excerpt": "后续关注问题", "narrative_ratio": 0.0}
+{"para": 89, "heading": "附录", "move": "ARGUE", "sub": "附录·核验说明", "evidence_excerpt": "区分官方口径、第三方口径", "narrative_ratio": 0.0}
+{"para": 91, "heading": "附录", "move": "ARGUE", "sub": "附录·已核实", "evidence_excerpt": "已核实信息", "narrative_ratio": 0.0}
+{"para": 93, "heading": "附录", "move": "ARGUE", "sub": "附录·修订", "evidence_excerpt": "修订与澄清", "narrative_ratio": 0.0}

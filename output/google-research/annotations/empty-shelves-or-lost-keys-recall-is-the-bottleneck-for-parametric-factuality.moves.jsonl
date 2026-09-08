@@ -1,0 +1,28 @@
+{"para": 4, "heading": "(开篇)", "move": "HOOK", "sub": "设问开场", "evidence_excerpt": "never learned them o", "narrative_ratio": 0.0}
+{"para": 5, "heading": "(开篇)", "move": "CONTEXT", "sub": "factuality 背景", "evidence_excerpt": "essential for making Large Language Models", "narrative_ratio": 0.0}
+{"para": 6, "heading": "(开篇)", "move": "FRAME", "sub": "论文锚定", "evidence_excerpt": "Empty Shelves or Lost Keys", "narrative_ratio": 0.0}
+{"para": 7, "heading": "(开篇)", "move": "ARGUE", "sub": "概念定义", "evidence_excerpt": "encoding to denote parametric representation", "narrative_ratio": 0.0}
+{"para": 9, "heading": "Knowledge profiling", "move": "ARGUE", "sub": "核心思想", "evidence_excerpt": "shifts the unit of analysis", "narrative_ratio": 0.0}
+{"para": 10, "heading": "Knowledge profiling", "move": "ARGUE", "sub": "分类标准", "evidence_excerpt": "whether the fact is encoded and how", "narrative_ratio": 0.0}
+{"para": 11, "heading": "Knowledge profiling", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "Five knowledge profiles", "narrative_ratio": 0.0}
+{"para": 12, "heading": "Knowledge profiling", "move": "ARGUE", "sub": "概念引入", "evidence_excerpt": "three behavioral notions", "narrative_ratio": 0.0}
+{"para": 13, "heading": "Knowledge profiling", "move": "ARGUE", "sub": "Encoding 定义", "evidence_excerpt": "correctly reproduce it", "narrative_ratio": 0.0}
+{"para": 14, "heading": "Knowledge profiling", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "extract facts from Wikipedia", "narrative_ratio": 0.0}
+{"para": 16, "heading": "WikiProfile", "move": "ARGUE", "sub": "WikiProfile 构建", "evidence_excerpt": "we constructed WikiProfile", "narrative_ratio": 0.0}
+{"para": 17, "heading": "WikiProfile", "move": "ARGUE", "sub": "三步生成", "evidence_excerpt": "direct and reverse questions", "narrative_ratio": 0.0}
+{"para": 18, "heading": "WikiProfile", "move": "ARGUE", "sub": "图注：pipeline", "evidence_excerpt": "fully automated pipeline", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Evaluation", "move": "ARGUE", "sub": "评测设置", "evidence_excerpt": "We evaluate 13 LLMs", "narrative_ratio": 0.0}
+{"para": 22, "heading": "Main result", "move": "ARGUE", "sub": "主结果", "evidence_excerpt": "Recall, not encoding, is the bottleneck", "narrative_ratio": 0.0}
+{"para": 23, "heading": "Main result", "move": "ARGUE", "sub": "scaling 强化", "evidence_excerpt": "larger mod", "narrative_ratio": 0.0}
+{"para": 24, "heading": "Main result", "move": "ARGUE", "sub": "图注：分布", "evidence_excerpt": "five profiles across 13 LLMs", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Why recall fails", "move": "ARGUE", "sub": "耦合分析", "evidence_excerpt": "tightly coupled to the conditio", "narrative_ratio": 0.0}
+{"para": 28, "heading": "Rare facts", "move": "CONTEXT", "sub": "前人工作", "evidence_excerpt": "struggle with long-tail", "narrative_ratio": 0.0}
+{"para": 29, "heading": "Rare facts", "move": "ARGUE", "sub": "流行度分层", "evidence_excerpt": "two popularity tiers", "narrative_ratio": 0.0}
+{"para": 31, "heading": "Reverse questions", "move": "CONTEXT", "sub": "reversal curse", "evidence_excerpt": "know A is B but ca", "narrative_ratio": 0.0}
+{"para": 32, "heading": "Reverse questions", "move": "ARGUE", "sub": "正反对比", "evidence_excerpt": "direct and reverse questions", "narrative_ratio": 0.0}
+{"para": 34, "heading": "Thinking", "move": "ARGUE", "sub": "恢复机制引入", "evidence_excerpt": "recovery of otherw", "narrative_ratio": 0.0}
+{"para": 35, "heading": "Thinking", "move": "ARGUE", "sub": "thinking 影响", "evidence_excerpt": "impact of thinking on recall", "narrative_ratio": 0.0}
+{"para": 36, "heading": "Thinking", "move": "ARGUE", "sub": "差距收窄", "evidence_excerpt": "thinking narrows the gaps", "narrative_ratio": 0.0}
+{"para": 37, "heading": "Thinking", "move": "ARGUE", "sub": "恢复详述", "evidence_excerpt": "thinking recovers", "narrative_ratio": 0.0}
+{"para": 38, "heading": "Thinking", "move": "ARGUE", "sub": "图注", "evidence_excerpt": "not-known facts that become known", "narrative_ratio": 0.0}
+{"para": 40, "heading": "Takeaway", "move": "CLOSE", "sub": "takeaway", "evidence_excerpt": "precisely diagnose factual behav", "narrative_ratio": 0.0}
