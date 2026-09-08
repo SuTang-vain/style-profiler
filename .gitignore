@@ -1,4 +1,5 @@
-# 第三方博客全文语料（版权原因不入库，获取方式见 corpus/README.md）
+# 第三方博客全文语料（版权原因不入库，获取方式见 corpus/README.md；
+# 2026-09-07 授权核实：Google ToS 保留全部 IP、Microsoft TOU 明文禁止复制分发，两站均无 CC 授权）
 corpus/openai/
 corpus/anthropic/
 .DS_Store
@@ -6,3 +7,5 @@ __pycache__/
 corpus/cerebras/
 corpus/eleuther/
 corpus/databricks/
+corpus/google-research/
+corpus/microsoft-research/

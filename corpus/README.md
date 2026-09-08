@@ -7,7 +7,7 @@
   - Cerebras 10 篇：cerebras.ai/blog 研究/工程深潜分层采样（排除纯产品新闻）；统计见 `output/cerebras/`，档案 `STYLE-PROFILE-cerebras-v0.md`
   - EleutherAI 10 篇：blog.eleuther.ai 研究深潜 + research-update（探索体英文原生形态）；统计见 `output/eleuther/`，档案 `STYLE-PROFILE-eleuther-v0.md`
   - Databricks 10 篇：databricks.com/blog AI RESEARCH 栏目全量；统计见 `output/databricks/`，档案 `STYLE-PROFILE-databricks-v0.md`
-- `google-research/`、`microsoft-research/`：二期语料扩展（2026-09-07，同类约定）。
+- `google-research/`、`microsoft-research/`：二期语料（2026-09-07，WebBridge 真浏览器抓取）。**版权政策同上：全文不入库**（2026-09-07 授权核实：Google ToS 保留全部 IP、Microsoft TOU 明文禁止复制分发，均无 CC 授权；文件曾被误跟踪并已从全部历史中清除）。slug 清单见各自档案第 5 节，如需复现请自采；分析产出（统计 JSON、标注、档案）正常入库。
   - Google Research 10 篇：research.google/blog 栏目分层（含连接组学/甲烷监测等合作科学体）；统计见 `output/google-research/`，档案 `STYLE-PROFILE-google-research-v0.md`
   - Microsoft Research 10 篇：microsoft.com/en-us/research/blog（正文为摘要式短文，深度内容靠论文/开源外链）；统计见 `output/microsoft-research/`，档案 `STYLE-PROFILE-microsoft-research-v0.md`
 
