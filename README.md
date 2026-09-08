@@ -28,8 +28,8 @@ rubric/
   02-argument-annotation.md    # 论证标注：C/E/Q/R 组件 + 信源分层
 templates/
   style-profile-template.md    # 《风格档案》输出模板
-  genre-playbooks-openai.md    # OpenAI 四子体裁语步模板（10 篇全量标注定稿）
-skills/style-profiler/SKILL.md # 生产流技能（Agent Skills 标准格式，跨平台，双模式）
+  genre-playbook-*.md          # 撰写引导 playbook 现库 8 份（七库 + 壳中客；genre-playbooks-openai.md 为定稿范本）
+skills/style-profiler/SKILL.md # 生产流技能（Agent Skills 标准格式，跨平台，三模式：建档/自检/撰写引导）
 corpus/                        # 语料（kezhongke 10 篇中文·五体裁各2 / openai 10 篇英文 / anthropic 10 篇英文）
 output/                        # 每篇 JSON + _aggregate.json + 档案 + annotations/（output/kezhongke 为 24 篇全量存档，v10 子集结果在 output/kezhongke-v10）
 ```
@@ -46,7 +46,8 @@ output/                        # 每篇 JSON + _aggregate.json + 档案 + annota
 
 安装后对 Agent 说：
 - **"分析 X 媒体的风格"** / **"给 X 建风格档案"** → 模式一（拆解建档）；
-- **"发布前检查这篇稿"** / **"自检是否符合 X 的风格"** → 模式二（发布自检，对照已有档案基线 + 术语一致性/段落重复检查）。
+- **"发布前检查这篇稿"** / **"自检是否符合 X 的风格"** → 模式二（发布自检，对照已有档案基线 + 术语一致性/段落重复检查）；
+- **"按 X 的风格写/改这篇"** → 模式三（撰写引导，加载 `templates/genre-playbook-<库>.md`：定量预算作硬约束、语步骨架作大纲、操作化招式作手法库，完稿自动接模式二自检）。
 
 档案现库：壳中客 v0.1（24 篇中文语料）、OpenAI v1（10 篇英文语料，全量标注）。
 

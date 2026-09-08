@@ -1,6 +1,6 @@
 ---
 name: style-profiler
-description: 研究性文章风格分析与提取工具，双模式。模式一「拆解建档」：当用户要求分析/拆解某媒体、公众号、博客的文章风格，提取写作结构、语言风格、用词特征，生成《风格档案》时使用（analyze a publication's writing style / build a style profile）。模式二「发布自检」：当用户要求在发布前检查稿件是否符合某风格档案/栏目规范（句长、限定语、术语一致性、段落重复等）时使用（pre-publication style check）。适用中文与英文研究性文章（深度报告、行业分析、研究综述、工程复盘）。
+description: 研究性文章风格分析、提取与撰写引导工具，三模式。模式一「拆解建档」：当用户要求分析/拆解某媒体、公众号、博客的文章风格，提取写作结构、语言风格、用词特征，生成《风格档案》时使用（analyze a publication's writing style / build a style profile）。模式二「发布自检」：当用户要求在发布前检查稿件是否符合某风格档案/栏目规范（句长、限定语、术语一致性、段落重复等）时使用（pre-publication style check）。模式三「撰写引导」：当用户要求按某媒体/机构的风格撰写或改写文章（"按 X 的风格写这篇""用 X 的写法" / write in the style of X）时使用——加载对应 playbook（体裁骨架 + 定量预算 + 操作化招式）指导写作，完稿后自动接模式二自检。适用中文与英文研究性文章（深度报告、行业分析、研究综述、工程复盘）。
 ---
 
 # Style Profiler · 研究性文章风格分析与自检
@@ -20,7 +20,8 @@ description: 研究性文章风格分析与提取工具，双模式。模式一�
 | 语步标注 rubric | `rubric/01-move-annotation.md` |
 | 论证标注 rubric | `rubric/02-argument-annotation.md` |
 | 风格档案模板 | `templates/style-profile-template.md` |
-| OpenAI 四子体裁模板（参照系） | `templates/genre-playbooks-openai.md` |
+| 撰写引导 playbook 现库（模式三加载） | `templates/genre-playbook-{kezhongke,cerebras,databricks,eleuther,google-research,microsoft-research,anthropic}.md` + `genre-playbooks-openai.md`（定稿范本） |
+| 档案一致性校验（建档后必跑） | `check_profiles.py` |
 | 已有档案：壳中客 v0.1 | `output/kezhongke/STYLE-PROFILE-kezhongke-v0.md` |
 | 已有档案：OpenAI v1 | `output/openai/STYLE-PROFILE-openai-v0.md` |
 
@@ -66,6 +67,19 @@ python3 profiler.py corpus/<媒体名>/ -o output/<媒体名>/ --exclude '<排�
    - 反驳模块：行业分析/报告体裁必须含 COUNTER 节，且未解决的反驳如实标注 left-open
    - 比喻纪律：中心比喻是否贯穿且服务概念
 4. **输出自检报告**：✅ 达标项 / ⚠️ 越界项（指标值 vs 基线区间）/ ❌ 红线项（感叹号、无来源判断、术语漂移），附修改建议。
+
+## 模式三：撰写引导（playbook × 写作任务 → 成稿 → 自检闭环）
+
+用户说"按 X 的风格写/改这篇 / 用 X 的写法 / write in the style of X"时执行：
+
+1. **加载 playbook**：`templates/genre-playbook-<库>.md`（现库：kezhongke / cerebras / databricks / eleuther / google-research / microsoft-research / anthropic / openai）。目标库无 playbook 时，先走模式一建档再转化，不得凭印象写。
+2. **体裁路由**：按 playbook 的体裁/子体裁路由表与用户稿件题材确定目标子体裁；该条目的证据等级（[统计层]/[标注-N篇]/[推断]）必须随骨架一起向用户声明，[推断] 部分须经用户确认后使用。
+3. **三层约束加载**：
+   - **硬约束**＝定量预算表（篇幅/句长/段长/数字密度/限定语/第一人称的 median 与 P25–P75 区间）——数值只信 playbook 中标注 [统计层] 的行；
+   - **大纲**＝语步骨架（七类语步序列 + 各子体裁特有语步）；
+   - **手法**＝操作化模式与正反例（例证 ≤40 字，作校准锚点而非素材）。
+4. **骨架先行**：先输出逐段语步大纲（每段标 move + 预期功能）供用户确认，再写正文。
+5. **自检闭环**：完稿后自动走模式二——`python3 profiler.py <成稿.md>` 对照预算表逐项核对，输出达标报告；越界项修改后复检。
 
 ## 纪律（不可违反）
 
