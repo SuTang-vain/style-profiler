@@ -1,13 +1,13 @@
 {
  "file": "responsible-scaling-policy.md",
  "lang": "en",
- "title": "Announcing our updated Responsible Scaling Policy",
+ "title": "Introducing Anthropic's Responsible Scaling Policy",
  "cjk_chars": 0,
- "word_count": 1533,
- "reading_time_min": 5.0,
+ "word_count": 890,
+ "reading_time_min": 3.0,
  "structure": {
-  "h2_count": 6,
-  "h3_count": 3,
+  "h2_count": 0,
+  "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
   "tables": 0,
@@ -15,83 +15,92 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 56,
-  "avg_sentence_len": 27.6,
-  "median_sentence_len": 25.5,
-  "p90_sentence_len": 36,
+  "sentence_count": 31,
+  "avg_sentence_len": 28.7,
+  "median_sentence_len": 25,
+  "p90_sentence_len": 45,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 43,
-  "avg_paragraph_len": 36,
-  "median_paragraph_len": 27,
-  "p90_paragraph_len": 92,
+  "paragraph_count": 16,
+  "avg_paragraph_len": 55.6,
+  "median_paragraph_len": 47.5,
+  "p90_paragraph_len": 132,
   "one_line_paragraphs": 0
  },
  "evidence": {
-  "number_tokens": 12,
-  "number_per_1k": 7.83,
+  "number_tokens": 15,
+  "number_per_1k": 16.85,
   "precise_numbers": 0,
   "precise_per_1k": 0.0,
-  "year_anchors": 1,
-  "year_per_1k": 0.65,
+  "year_anchors": 2,
+  "year_per_1k": 2.25,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 4.57,
+  "hedge_hits": 12.36,
   "hedge_examples": [
    {
-    "term": "we aim",
-    "excerpt": "Today we are publishing a significant update to our Responsible Scaling Policy ("
+    "term": "we believe",
+    "excerpt": "As AI models become more capable, we believe that they will create major economi"
    },
    {
     "term": "could",
-    "excerpt": "As frontier AI models advance, they have the potential to bring about transforma"
+    "excerpt": "ASL-1 refers to systems which pose no meaningful catastrophic risk, for example "
    },
    {
-    "term": "about",
-    "excerpt": "As frontier AI models advance, they have the potential to bring about transforma"
+    "term": "likely",
+    "excerpt": "ASL-1 refers to systems which pose no meaningful catastrophic risk, for example "
    }
   ],
-  "absolutist_hits": 0.65,
+  "absolutist_hits": 3.37,
   "absolutist_examples": [
    {
-    "term": "entirely",
-    "excerpt": "As frontier AI models advance, they have the potential to bring about transforma"
+    "term": "must",
+    "excerpt": "Anthropic’s RSP has been formally approved by its board and changes must be appr"
+   },
+   {
+    "term": "certainly",
+    "excerpt": "However, we want to emphasize that these commitments are our current best guess,"
+   },
+   {
+    "term": "essential",
+    "excerpt": "As a general matter, Anthropic has consistently found that working with frontier"
    }
   ],
-  "quantifier_hits": 6.52,
-  "first_person_count": 97,
-  "objective_selfref_count": 2,
-  "exclamations": 1,
+  "quantifier_hits": 3.37,
+  "first_person_count": 29,
+  "objective_selfref_count": 0,
+  "exclamations": 0,
   "questions": 0,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.369,
+  "ttr": 0.465,
+  "mattr": 0.686,
   "top_terms": [
-   "safeguards×17",
-   "safety×17",
-   "policy×14",
-   "risks×14",
-   "responsible×13",
-   "rsp×11",
-   "security×11",
-   "measures×10",
-   "capability×9",
-   "standards×9",
-   "risk×8",
-   "asl-×8",
-   "evaluations×8",
-   "updated×7",
-   "scaling×7"
+   "safety×12",
+   "asl-×11",
+   "catastrophic×9",
+   "asl×7",
+   "risk×7",
+   "scaling×6",
+   "rsp×6",
+   "risks×5",
+   "systems×5",
+   "level×5",
+   "system×5",
+   "responsible×4",
+   "policy×4",
+   "misuse×4",
+   "standards×4"
   ],
   "en_char_ratio": null,
-  "title_text": "Announcing our updated Responsible Scaling Policy",
-  "title_len": 49,
+  "title_text": "Introducing Anthropic's Responsible Scaling Policy",
+  "title_len": 50,
   "title_has_colon": false
  },
  "genre": {

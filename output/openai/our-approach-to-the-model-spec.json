@@ -3,11 +3,11 @@
  "lang": "en",
  "title": "Inside our approach to the Model Spec",
  "cjk_chars": 0,
- "word_count": 3906,
- "reading_time_min": 13.0,
+ "word_count": 4335,
+ "reading_time_min": 14.0,
  "structure": {
-  "h2_count": 10,
-  "h3_count": 7,
+  "h2_count": 0,
+  "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
   "tables": 0,
@@ -15,48 +15,48 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 177,
-  "avg_sentence_len": 22.3,
+  "sentence_count": 191,
+  "avg_sentence_len": 22.6,
   "median_sentence_len": 20,
-  "p90_sentence_len": 37,
+  "p90_sentence_len": 38,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 98,
-  "avg_paragraph_len": 40.3,
-  "median_paragraph_len": 27.0,
-  "p90_paragraph_len": 88,
+  "paragraph_count": 79,
+  "avg_paragraph_len": 54.7,
+  "median_paragraph_len": 39,
+  "p90_paragraph_len": 105,
   "one_line_paragraphs": 0
  },
  "evidence": {
-  "number_tokens": 15,
-  "number_per_1k": 3.84,
+  "number_tokens": 11,
+  "number_per_1k": 2.54,
   "precise_numbers": 0,
   "precise_per_1k": 0.0,
-  "year_anchors": 6,
-  "year_per_1k": 1.54,
+  "year_anchors": 3,
+  "year_per_1k": 0.69,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 8.19,
+  "hedge_hits": 8.07,
   "hedge_examples": [
+   {
+    "term": "we believe",
+    "excerpt": "At OpenAI, we believe AI should be fair, safe, and freely available so that more"
+   },
+   {
+    "term": "toward",
+    "excerpt": "The Model Spec is not a claim that our models already behave this way perfectly "
+   },
    {
     "term": "about",
     "excerpt": "Public clarity about model behavior matters for both fairness and safety. It mat"
-   },
-   {
-    "term": "about",
-    "excerpt": "Since the first version in 2024, the Model Spec has evolved substantially as we "
-   },
-   {
-    "term": "about",
-    "excerpt": "It then explains how we think about balancing these goals in practice, making th"
    }
   ],
-  "absolutist_hits": 1.54,
+  "absolutist_hits": 1.38,
   "absolutist_examples": [
    {
     "term": "never",
@@ -71,31 +71,32 @@
     "excerpt": "But in general, model behavior is not like solving a simple math problem; models"
    }
   ],
-  "quantifier_hits": 6.66,
-  "first_person_count": 77,
-  "objective_selfref_count": 1,
+  "quantifier_hits": 6.23,
+  "first_person_count": 95,
+  "objective_selfref_count": 2,
   "exclamations": 0,
-  "questions": 2,
+  "questions": 4,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.275,
+  "ttr": 0.261,
+  "mattr": 0.676,
   "top_terms": [
-   "spec×64",
-   "behavior×47",
-   "opens×23",
-   "window×23",
-   "public×19",
+   "spec×74",
+   "behavior×52",
+   "opens×24",
+   "window×24",
+   "public×23",
+   "people×15",
+   "help×15",
    "rules×15",
+   "users×14",
+   "intended×14",
    "safety×14",
-   "help×13",
-   "people×13",
-   "different×12",
-   "intended×12",
-   "like×12",
-   "users×12",
-   "openai×11",
-   "training×11"
+   "openai×13",
+   "like×13",
+   "instructions×12",
+   "make×12"
   ],
   "en_char_ratio": null,
   "title_text": "Inside our approach to the Model Spec",

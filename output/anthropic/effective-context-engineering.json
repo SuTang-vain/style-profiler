@@ -1,13 +1,13 @@
 {
  "file": "effective-context-engineering.md",
  "lang": "en",
- "title": "Context engineering vs. prompt engineering",
+ "title": "Effective context engineering for AI agents",
  "cjk_chars": 0,
- "word_count": 3044,
+ "word_count": 3145,
  "reading_time_min": 10.0,
  "structure": {
-  "h2_count": 6,
-  "h3_count": 1,
+  "h2_count": 0,
+  "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
   "tables": 0,
@@ -15,33 +15,33 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 126,
+  "sentence_count": 130,
   "avg_sentence_len": 24.1,
-  "median_sentence_len": 23.5,
+  "median_sentence_len": 24.0,
   "p90_sentence_len": 36,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 62,
-  "avg_paragraph_len": 49.0,
-  "median_paragraph_len": 55.0,
+  "paragraph_count": 66,
+  "avg_paragraph_len": 47.5,
+  "median_paragraph_len": 49.5,
   "p90_paragraph_len": 84,
   "one_line_paragraphs": 0
  },
  "evidence": {
-  "number_tokens": 7,
-  "number_per_1k": 2.3,
+  "number_tokens": 9,
+  "number_per_1k": 2.86,
   "precise_numbers": 1,
-  "precise_per_1k": 0.33,
-  "year_anchors": 0,
-  "year_per_1k": 0.0,
+  "precise_per_1k": 0.32,
+  "year_anchors": 1,
+  "year_per_1k": 0.32,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 9.53,
+  "hedge_hits": 9.22,
   "hedge_examples": [
    {
     "term": "about",
@@ -56,8 +56,12 @@
     "excerpt": "Context refers to the set of tokens included when sampling from a large-language"
    }
   ],
-  "absolutist_hits": 2.63,
+  "absolutist_hits": 2.86,
   "absolutist_examples": [
+   {
+    "term": "critical",
+    "excerpt": "Context is a critical but finite resource for AI agents. In this post, we explor"
+   },
    {
     "term": "must",
     "excerpt": "An agent running in a loop generates more and more data that could be relevant f"
@@ -65,41 +69,38 @@
    {
     "term": "must",
     "excerpt": "While some models exhibit more gentle degradation than others, this characterist"
-   },
-   {
-    "term": "essential",
-    "excerpt": "These realities mean that thoughtful context engineering is essential for buildi"
    }
   ],
-  "quantifier_hits": 9.2,
-  "first_person_count": 27,
-  "objective_selfref_count": 1,
+  "quantifier_hits": 8.9,
+  "first_person_count": 31,
+  "objective_selfref_count": 2,
   "exclamations": 0,
   "questions": 2,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.357,
+  "ttr": 0.35,
+  "mattr": 0.718,
   "top_terms": [
-   "context×72",
-   "agents×29",
+   "context×78",
+   "agents×32",
+   "engineering×29",
    "agent×26",
-   "engineering×25",
    "information×22",
    "tools×15",
+   "prompt×13",
    "window×13",
-   "prompt×12",
+   "prompts×12",
    "data×12",
    "like×12",
    "across×12",
    "compaction×12",
    "llm×11",
-   "llms×11",
-   "prompts×10"
+   "llms×11"
   ],
   "en_char_ratio": null,
-  "title_text": "Context engineering vs. prompt engineering",
-  "title_len": 42,
+  "title_text": "Effective context engineering for AI agents",
+  "title_len": 43,
   "title_has_colon": false
  },
  "genre": {

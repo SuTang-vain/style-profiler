@@ -1,0 +1,59 @@
+{"para": 4, "heading": "(开篇)", "move": "CONTEXT", "sub": "经验背景", "evidence_excerpt": "dozens of teams building LLM agents", "narrative_ratio": 0.0}
+{"para": 5, "heading": "(开篇)", "move": "CONTEXT", "sub": "时效注记", "evidence_excerpt": "tooling landscape described in this post has cha", "narrative_ratio": 0.0}
+{"para": 6, "heading": "(开篇)", "move": "CONTEXT", "sub": "工作回顾", "evidence_excerpt": "Over the past year", "narrative_ratio": 0.1}
+{"para": 7, "heading": "(开篇)", "move": "FRAME", "sub": "文章定位", "evidence_excerpt": "we share what we've learned", "narrative_ratio": 0.0}
+{"para": 9, "heading": "What are agents?", "move": "CONTEXT", "sub": "定义辨析", "evidence_excerpt": "can be defined in several ways", "narrative_ratio": 0.0}
+{"para": 10, "heading": "What are agents?", "move": "ARGUE", "sub": "概念定义", "evidence_excerpt": "Workflows are systems where LLMs and tools", "narrative_ratio": 0.0}
+{"para": 11, "heading": "What are agents?", "move": "FRAME", "sub": "结构预告", "evidence_excerpt": "explore both types of agentic systems", "narrative_ratio": 0.0}
+{"para": 13, "heading": "When to use", "move": "ARGUE", "sub": "核心建议：最简方案", "evidence_excerpt": "finding the sim", "narrative_ratio": 0.0}
+{"para": 14, "heading": "When to use", "move": "ARGUE", "sub": "复杂度递进", "evidence_excerpt": "workflows offer predictability", "narrative_ratio": 0.0}
+{"para": 16, "heading": "Frameworks", "move": "CONTEXT", "sub": "框架引入", "evidence_excerpt": "many frameworks that make agentic systems", "narrative_ratio": 0.0}
+{"para": 17, "heading": "Frameworks", "move": "CONTEXT", "sub": "框架清单", "evidence_excerpt": "Claude Agent SDK", "narrative_ratio": 0.0}
+{"para": 18, "heading": "Frameworks", "move": "ARGUE", "sub": "框架利弊", "evidence_excerpt": "make it easy to get started", "narrative_ratio": 0.0}
+{"para": 19, "heading": "Frameworks", "move": "ARGUE", "sub": "处方：直接 API", "evidence_excerpt": "using LLM APIs directly", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Frameworks", "move": "APPLY", "sub": "资源：cookbook", "evidence_excerpt": "See our cookbook", "narrative_ratio": 0.0}
+{"para": 22, "heading": "Building blocks", "move": "FRAME", "sub": "模式预告", "evidence_excerpt": "common patterns for agentic sys", "narrative_ratio": 0.0}
+{"para": 24, "heading": "Building blocks", "move": "ARGUE", "sub": "构建块：augmented LLM", "evidence_excerpt": "LLM enhanced wit", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Building blocks", "move": "ARGUE", "sub": "两关键方面", "evidence_excerpt": "two key aspects of the implementation", "narrative_ratio": 0.0}
+{"para": 27, "heading": "Building blocks", "move": "ARGUE", "sub": "假设声明", "evidence_excerpt": "assume each LLM call has acc", "narrative_ratio": 0.0}
+{"para": 29, "heading": "Building blocks", "move": "ARGUE", "sub": "模式：prompt chaining", "evidence_excerpt": "decomposes a task into a sequence", "narrative_ratio": 0.0}
+{"para": 31, "heading": "Building blocks", "move": "ARGUE", "sub": "适用条件", "evidence_excerpt": "When to use this workflow", "narrative_ratio": 0.0}
+{"para": 33, "heading": "Building blocks", "move": "ARGUE", "sub": "示例清单", "evidence_excerpt": "Generating Marketing copy", "narrative_ratio": 0.0}
+{"para": 34, "heading": "Building blocks", "move": "ARGUE", "sub": "模式：routing", "evidence_excerpt": "classifies an input and directs", "narrative_ratio": 0.0}
+{"para": 36, "heading": "Building blocks", "move": "ARGUE", "sub": "适用条件", "evidence_excerpt": "works well for complex tasks", "narrative_ratio": 0.0}
+{"para": 38, "heading": "Building blocks", "move": "ARGUE", "sub": "示例清单", "evidence_excerpt": "customer service queries", "narrative_ratio": 0.0}
+{"para": 39, "heading": "Building blocks", "move": "ARGUE", "sub": "模式：parallelization", "evidence_excerpt": "work simultaneously on a task", "narrative_ratio": 0.0}
+{"para": 40, "heading": "Building blocks", "move": "ARGUE", "sub": "细分：sectioning/voting", "evidence_excerpt": "independent subtasks run in paral", "narrative_ratio": 0.0}
+{"para": 41, "heading": "Building blocks", "move": "ARGUE", "sub": "适用条件", "evidence_excerpt": "effective when the d", "narrative_ratio": 0.0}
+{"para": 43, "heading": "Building blocks", "move": "ARGUE", "sub": "示例清单", "evidence_excerpt": "Implementing guardrails", "narrative_ratio": 0.0}
+{"para": 44, "heading": "Building blocks", "move": "ARGUE", "sub": "模式：orchestrator-workers", "evidence_excerpt": "dynamically br", "narrative_ratio": 0.0}
+{"para": 46, "heading": "Building blocks", "move": "ARGUE", "sub": "适用条件", "evidence_excerpt": "well-suited for comple", "narrative_ratio": 0.0}
+{"para": 48, "heading": "Building blocks", "move": "ARGUE", "sub": "示例", "evidence_excerpt": "complex changes to multiple files", "narrative_ratio": 0.0}
+{"para": 49, "heading": "Building blocks", "move": "ARGUE", "sub": "模式：evaluator-optimizer", "evidence_excerpt": "generates a resp", "narrative_ratio": 0.0}
+{"para": 51, "heading": "Building blocks", "move": "ARGUE", "sub": "适用条件", "evidence_excerpt": "particularly effective", "narrative_ratio": 0.0}
+{"para": 53, "heading": "Building blocks", "move": "ARGUE", "sub": "示例", "evidence_excerpt": "Literary translation", "narrative_ratio": 0.0}
+{"para": 54, "heading": "Building blocks", "move": "ARGUE", "sub": "agents 成熟条件", "evidence_excerpt": "emerging in production", "narrative_ratio": 0.0}
+{"para": 55, "heading": "Building blocks", "move": "ARGUE", "sub": "复杂度警示", "evidence_excerpt": "their implementation is", "narrative_ratio": 0.0}
+{"para": 57, "heading": "Building blocks", "move": "ARGUE", "sub": "何时用 agents", "evidence_excerpt": "open-ended problems", "narrative_ratio": 0.0}
+{"para": 58, "heading": "Building blocks", "move": "ARGUE", "sub": "代价警示", "evidence_excerpt": "higher costs, and the potential", "narrative_ratio": 0.0}
+{"para": 60, "heading": "Building blocks", "move": "ARGUE", "sub": "自产示例引入", "evidence_excerpt": "from our own implementations", "narrative_ratio": 0.0}
+{"para": 61, "heading": "Building blocks", "move": "ARGUE", "sub": "SWE-bench 案例", "evidence_excerpt": "resolve SWE-bench tasks", "narrative_ratio": 0.1}
+{"para": 62, "heading": "Building blocks", "move": "ARGUE", "sub": "边界声明", "evidence_excerpt": "aren't prescriptive", "narrative_ratio": 0.0}
+{"para": 64, "heading": "Summary", "move": "CLOSE", "sub": "成功重定义", "evidence_excerpt": "isn't about building the most sophisticat", "narrative_ratio": 0.0}
+{"para": 65, "heading": "Summary", "move": "CLOSE", "sub": "三原则引入", "evidence_excerpt": "three core principles", "narrative_ratio": 0.0}
+{"para": 66, "heading": "Summary", "move": "APPLY", "sub": "三原则清单", "evidence_excerpt": "Maintain simplicity", "narrative_ratio": 0.0}
+{"para": 67, "heading": "Summary", "move": "APPLY", "sub": "框架使用建议", "evidence_excerpt": "don't hesitate to", "narrative_ratio": 0.0}
+{"para": 71, "heading": "Appendix 1", "move": "ARGUE", "sub": "附录：两应用", "evidence_excerpt": "particularly promising ap", "narrative_ratio": 0.0}
+{"para": 73, "heading": "Appendix 1", "move": "ARGUE", "sub": "附录A：客户支持", "evidence_excerpt": "chatbot interfaces with enhan", "narrative_ratio": 0.0}
+{"para": 74, "heading": "Appendix 1", "move": "ARGUE", "sub": "附录A：流程契合", "evidence_excerpt": "follow a conversation flow", "narrative_ratio": 0.0}
+{"para": 75, "heading": "Appendix 1", "move": "ARGUE", "sub": "附录A：实例", "evidence_excerpt": "demonstrated the viability", "narrative_ratio": 0.0}
+{"para": 77, "heading": "Appendix 1", "move": "ARGUE", "sub": "附录B：编码潜力", "evidence_excerpt": "remarkable potential", "narrative_ratio": 0.0}
+{"para": 78, "heading": "Appendix 1", "move": "ARGUE", "sub": "附录B：可验证性", "evidence_excerpt": "verifiable through automated tests", "narrative_ratio": 0.0}
+{"para": 79, "heading": "Appendix 1", "move": "ARGUE", "sub": "附录B：实测", "evidence_excerpt": "solve real GitHub issues", "narrative_ratio": 0.0}
+{"para": 81, "heading": "Appendix 2", "move": "ARGUE", "sub": "附录2：工具定义", "evidence_excerpt": "tools will likely", "narrative_ratio": 0.0}
+{"para": 82, "heading": "Appendix 2", "move": "ARGUE", "sub": "附录2：等价表达", "evidence_excerpt": "several ways to specify the same action", "narrative_ratio": 0.0}
+{"para": 83, "heading": "Appendix 2", "move": "ARGUE", "sub": "附录2：建议引入", "evidence_excerpt": "Our suggestions", "narrative_ratio": 0.0}
+{"para": 84, "heading": "Appendix 2", "move": "ARGUE", "sub": "附录2：思考空间", "evidence_excerpt": "enough tokens to think", "narrative_ratio": 0.0}
+{"para": 85, "heading": "Appendix 2", "move": "ARGUE", "sub": "附录2：经验法则", "evidence_excerpt": "rule of thumb", "narrative_ratio": 0.0}
+{"para": 86, "heading": "Appendix 2", "move": "ARGUE", "sub": "附录2：换位思考", "evidence_excerpt": "Put yourself in the model's shoes", "narrative_ratio": 0.0}
+{"para": 87, "heading": "Appendix 2", "move": "ARGUE", "sub": "附录2：实践叙事", "evidence_excerpt": "actually spent more tim", "narrative_ratio": 0.1}

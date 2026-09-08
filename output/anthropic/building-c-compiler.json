@@ -1,13 +1,13 @@
 {
  "file": "building-c-compiler.md",
  "lang": "en",
- "title": "Enabling long-running Claudes",
+ "title": "Building a C compiler with a team of parallel Claudes",
  "cjk_chars": 0,
- "word_count": 2451,
+ "word_count": 2530,
  "reading_time_min": 8.0,
  "structure": {
-  "h2_count": 5,
-  "h3_count": 6,
+  "h2_count": 0,
+  "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
   "tables": 0,
@@ -15,34 +15,38 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 119,
-  "avg_sentence_len": 20.7,
+  "sentence_count": 121,
+  "avg_sentence_len": 20.8,
   "median_sentence_len": 20,
   "p90_sentence_len": 33,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 65,
-  "avg_paragraph_len": 38.0,
-  "median_paragraph_len": 33,
-  "p90_paragraph_len": 81,
+  "paragraph_count": 60,
+  "avg_paragraph_len": 42.0,
+  "median_paragraph_len": 33.5,
+  "p90_paragraph_len": 83,
   "one_line_paragraphs": 0
  },
  "evidence": {
-  "number_tokens": 39,
-  "number_per_1k": 15.91,
-  "precise_numbers": 9,
-  "precise_per_1k": 3.67,
-  "year_anchors": 1,
-  "year_per_1k": 0.41,
+  "number_tokens": 43,
+  "number_per_1k": 17.0,
+  "precise_numbers": 10,
+  "precise_per_1k": 3.95,
+  "year_anchors": 2,
+  "year_per_1k": 0.79,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 8.16,
+  "hedge_hits": 8.3,
   "hedge_examples": [
+   {
+    "term": "about",
+    "excerpt": "We tasked Opus 4.6 using agent teams to build a C Compiler, and then (mostly) wa"
+   },
    {
     "term": "early",
     "excerpt": "To stress test it, I tasked 16 agents with writing a Rust-based C compiler, from"
@@ -50,13 +54,9 @@
    {
     "term": "about",
     "excerpt": "The compiler is an interesting artifact on its own, but I focus here on what I l"
-   },
-   {
-    "term": "may",
-    "excerpt": "Existing agent scaffolds like Claude Code require an operator to be online and a"
    }
   ],
-  "absolutist_hits": 0.82,
+  "absolutist_hits": 0.79,
   "absolutist_examples": [
    {
     "term": "completely",
@@ -67,35 +67,36 @@
     "excerpt": "We are still early, and fully autonomous development comes with real risks. When"
    }
   ],
-  "quantifier_hits": 7.75,
-  "first_person_count": 8,
+  "quantifier_hits": 7.51,
+  "first_person_count": 9,
   "objective_selfref_count": 1,
-  "exclamations": 2,
+  "exclamations": 3,
   "questions": 0,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.346,
+  "ttr": 0.344,
+  "mattr": 0.696,
   "top_terms": [
-   "claude×51",
-   "agent×26",
-   "compiler×23",
+   "claude×52",
+   "agent×28",
+   "compiler×26",
    "code×20",
    "agents×14",
    "test×14",
+   "parallel×10",
    "work×10",
    "tests×10",
+   "teams×9",
    "multiple×9",
    "problem×9",
    "project×9",
-   "parallel×8",
-   "teams×8",
    "linux×8",
    "harness×8"
   ],
   "en_char_ratio": null,
-  "title_text": "Enabling long-running Claudes",
-  "title_len": 29,
+  "title_text": "Building a C compiler with a team of parallel Claudes",
+  "title_len": 53,
   "title_has_colon": false
  },
  "genre": {

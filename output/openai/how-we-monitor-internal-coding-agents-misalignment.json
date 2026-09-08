@@ -3,11 +3,11 @@
  "lang": "en",
  "title": "How we monitor internal coding agents for misalignment",
  "cjk_chars": 0,
- "word_count": 3899,
- "reading_time_min": 13.0,
+ "word_count": 4205,
+ "reading_time_min": 14.0,
  "structure": {
-  "h2_count": 7,
-  "h3_count": 14,
+  "h2_count": 0,
+  "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
   "tables": 0,
@@ -15,48 +15,48 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 172,
-  "avg_sentence_len": 22.0,
+  "sentence_count": 184,
+  "avg_sentence_len": 22,
   "median_sentence_len": 20.0,
-  "p90_sentence_len": 43,
+  "p90_sentence_len": 38,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 105,
-  "avg_paragraph_len": 36.1,
-  "median_paragraph_len": 10,
-  "p90_paragraph_len": 77,
+  "paragraph_count": 97,
+  "avg_paragraph_len": 41.7,
+  "median_paragraph_len": 13,
+  "p90_paragraph_len": 96,
   "one_line_paragraphs": 1
  },
  "evidence": {
-  "number_tokens": 110,
-  "number_per_1k": 28.21,
+  "number_tokens": 103,
+  "number_per_1k": 24.49,
   "precise_numbers": 3,
-  "precise_per_1k": 0.77,
-  "year_anchors": 10,
-  "year_per_1k": 2.56,
+  "precise_per_1k": 0.71,
+  "year_anchors": 7,
+  "year_per_1k": 1.66,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 15.65,
+  "hedge_hits": 15.46,
   "hedge_examples": [
+   {
+    "term": "could",
+    "excerpt": "Using advanced coding agents internally gives us an opportunity to understand ho"
+   },
+   {
+    "term": "we believe",
+    "excerpt": "Using advanced coding agents internally gives us an opportunity to understand ho"
+   },
    {
     "term": "we believe",
     "excerpt": "As capabilities advance, we believe monitoring agentic behavior, including both "
-   },
-   {
-    "term": "may",
-    "excerpt": "To support this, we’ve developed a low-latency internal monitoring system, power"
-   },
-   {
-    "term": "may",
-    "excerpt": "In its latest form, our monitoring system reviews interactions within 30 minutes"
    }
   ],
-  "absolutist_hits": 1.03,
+  "absolutist_hits": 0.95,
   "absolutist_examples": [
    {
     "term": "critical",
@@ -71,31 +71,32 @@
     "excerpt": "Again 'Access is denied' when appending lines that include 'Invoke-WebRequest -U"
    }
   ],
-  "quantifier_hits": 5.9,
-  "first_person_count": 82,
-  "objective_selfref_count": 1,
+  "quantifier_hits": 5.71,
+  "first_person_count": 90,
+  "objective_selfref_count": 2,
   "exclamations": 0,
   "questions": 15,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.291,
+  "ttr": 0.287,
+  "mattr": 0.681,
   "top_terms": [
    "setup×41",
    "writing×30",
    "string×29",
    "content×28",
    "scanning×27",
-   "agent×23",
-   "base×21",
+   "agent×25",
+   "monitoring×22",
+   "code×21",
    "invoke-webrequest'×21",
-   "code×20",
+   "internal×20",
+   "base×20",
    "file×19",
-   "monitoring×18",
+   "system×17",
    "earlier×16",
-   "internal×15",
-   "system×15",
-   "security×14"
+   "monitor×14"
   ],
   "en_char_ratio": null,
   "title_text": "How we monitor internal coding agents for misalignment",

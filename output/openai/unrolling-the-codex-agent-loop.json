@@ -3,11 +3,11 @@
  "lang": "en",
  "title": "Unrolling the Codex agent loop",
  "cjk_chars": 0,
- "word_count": 2922,
- "reading_time_min": 10.0,
+ "word_count": 3532,
+ "reading_time_min": 12.0,
  "structure": {
-  "h2_count": 6,
-  "h3_count": 3,
+  "h2_count": 0,
+  "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
   "tables": 0,
@@ -15,48 +15,48 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 99,
-  "avg_sentence_len": 29.4,
-  "median_sentence_len": 23,
-  "p90_sentence_len": 54,
+  "sentence_count": 116,
+  "avg_sentence_len": 31.2,
+  "median_sentence_len": 24.0,
+  "p90_sentence_len": 57,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 85,
-  "avg_paragraph_len": 34.2,
-  "median_paragraph_len": 26,
-  "p90_paragraph_len": 73,
+  "paragraph_count": 84,
+  "avg_paragraph_len": 43.2,
+  "median_paragraph_len": 39.0,
+  "p90_paragraph_len": 86,
   "one_line_paragraphs": 0
  },
  "evidence": {
-  "number_tokens": 25,
-  "number_per_1k": 8.56,
+  "number_tokens": 151,
+  "number_per_1k": 42.75,
   "precise_numbers": 3,
-  "precise_per_1k": 1.03,
-  "year_anchors": 5,
-  "year_per_1k": 1.71,
+  "precise_per_1k": 0.85,
+  "year_anchors": 2,
+  "year_per_1k": 0.57,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 6.16,
+  "hedge_hits": 5.66,
   "hedge_examples": [
+   {
+    "term": "initial",
+    "excerpt": "Listen to article\n16:24\nThe agent loop\nModel inference\nBuilding the initial prom"
+   },
+   {
+    "term": "about",
+    "excerpt": "Codex CLI⁠\n(opens in a new window)\nis our cross-platform local software agent, d"
+   },
    {
     "term": "may",
     "excerpt": "This process repeats until the model stops emitting tool calls and instead produ"
-   },
-   {
-    "term": "might",
-    "excerpt": "This means that as the conversation grows, so does the length of the prompt used"
-   },
-   {
-    "term": "could",
-    "excerpt": "This means that as the conversation grows, so does the length of the prompt used"
    }
   ],
-  "absolutist_hits": 2.05,
+  "absolutist_hits": 1.7,
   "absolutist_examples": [
    {
     "term": "always",
@@ -71,31 +71,32 @@
     "excerpt": "In the Codex CLI, we present the assistant message to the user and focus the com"
    }
   ],
-  "quantifier_hits": 6.16,
-  "first_person_count": 25,
-  "objective_selfref_count": 0,
-  "exclamations": 0,
+  "quantifier_hits": 6.51,
+  "first_person_count": 33,
+  "objective_selfref_count": 2,
+  "exclamations": 2,
   "questions": 1,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.247,
+  "ttr": 0.242,
+  "mattr": 0.592,
   "top_terms": [
+   "codex×59",
    "window×51",
    "opens×44",
-   "codex×39",
-   "responses×30",
-   "api×29",
-   "prompt×27",
-   "agent×25",
-   "message×25",
-   "user×23",
-   "input×21",
+   "agent×33",
+   "responses×32",
+   "type×32",
+   "api×31",
+   "prompt×28",
+   "message×28",
+   "user×27",
+   "input×22",
+   "response×21",
    "conversation×20",
-   "tools×16",
-   "loop×12",
-   "tool×12",
-   "cli×12"
+   "cli×19",
+   "tools×17"
   ],
   "en_char_ratio": null,
   "title_text": "Unrolling the Codex agent loop",

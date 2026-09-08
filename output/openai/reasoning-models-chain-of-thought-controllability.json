@@ -3,11 +3,11 @@
  "lang": "en",
  "title": "Reasoning models struggle to control their chains of thought, and that’s good",
  "cjk_chars": 0,
- "word_count": 1226,
- "reading_time_min": 4.0,
+ "word_count": 1628,
+ "reading_time_min": 5.0,
  "structure": {
-  "h2_count": 7,
-  "h3_count": 1,
+  "h2_count": 0,
+  "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
   "tables": 0,
@@ -15,79 +15,80 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 83,
-  "avg_sentence_len": 14.9,
-  "median_sentence_len": 12,
-  "p90_sentence_len": 28,
+  "sentence_count": 97,
+  "avg_sentence_len": 16.7,
+  "median_sentence_len": 15,
+  "p90_sentence_len": 30,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 36,
-  "avg_paragraph_len": 34.3,
-  "median_paragraph_len": 10.5,
-  "p90_paragraph_len": 75,
+  "paragraph_count": 37,
+  "avg_paragraph_len": 43.9,
+  "median_paragraph_len": 28,
+  "p90_paragraph_len": 89,
   "one_line_paragraphs": 1
  },
  "evidence": {
-  "number_tokens": 25,
-  "number_per_1k": 20.39,
-  "precise_numbers": 5,
-  "precise_per_1k": 4.08,
-  "year_anchors": 5,
-  "year_per_1k": 4.08,
+  "number_tokens": 45,
+  "number_per_1k": 27.64,
+  "precise_numbers": 11,
+  "precise_per_1k": 6.76,
+  "year_anchors": 2,
+  "year_per_1k": 1.23,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 15.5,
+  "hedge_hits": 15.97,
   "hedge_examples": [
    {
     "term": "may",
-    "excerpt": "CoT controllability is a reasoning model’s ability to control properties of its "
+    "excerpt": "As AI agents become capable of carrying out increasingly complex and autonomous "
    },
    {
-    "term": "about",
-    "excerpt": "CoT controllability is a reasoning model’s ability to control properties of its "
+    "term": "may",
+    "excerpt": "Today, we find that models’ reasoning is generally interpretable and easy to mon"
    },
    {
-    "term": "might",
-    "excerpt": "This inability does not result from misunderstanding the task: models often reco"
+    "term": "could",
+    "excerpt": "Today, we find that models’ reasoning is generally interpretable and easy to mon"
    }
   ],
-  "absolutist_hits": 6.53,
+  "absolutist_hits": 4.91,
   "absolutist_examples": [
    {
     "term": "must",
     "excerpt": "Can a linear classifier separate positive cases (01,10) from negatives (00,11) i"
    }
   ],
-  "quantifier_hits": 0.82,
-  "first_person_count": 22,
-  "objective_selfref_count": 0,
+  "quantifier_hits": 0.61,
+  "first_person_count": 30,
+  "objective_selfref_count": 1,
   "exclamations": 0,
   "questions": 11,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.4,
+  "ttr": 0.354,
+  "mattr": 0.657,
   "top_terms": [
-   "cot×29",
-   "controllability×27",
+   "cot×39",
+   "controllability×36",
+   "reasoning×26",
    "analysis×19",
-   "reasoning×16",
    "word×13",
-   "control×8",
-   "monitorability×7",
-   "low×7",
+   "control×11",
+   "monitorability×10",
+   "output×9",
+   "safety×8",
+   "frontier×8",
+   "low×8",
+   "monitoring×8",
+   "thinking×8",
    "xor×7",
-   "channel×7",
-   "ability×6",
-   "output×6",
-   "frontier×6",
-   "whether×5",
-   "instructions×5"
+   "channel×7"
   ],
   "en_char_ratio": null,
   "title_text": "Reasoning models struggle to control their chains of thought, and that’s good",

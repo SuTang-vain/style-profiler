@@ -1,13 +1,13 @@
 {
  "file": "building-effective-agents.md",
  "lang": "en",
- "title": "What are agents?",
+ "title": "Building effective agents",
  "cjk_chars": 0,
- "word_count": 2793,
+ "word_count": 2749,
  "reading_time_min": 9.0,
  "structure": {
-  "h2_count": 8,
-  "h3_count": 10,
+  "h2_count": 0,
+  "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
   "tables": 0,
@@ -15,33 +15,33 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 143,
-  "avg_sentence_len": 19.9,
-  "median_sentence_len": 19,
+  "sentence_count": 140,
+  "avg_sentence_len": 19.6,
+  "median_sentence_len": 19.0,
   "p90_sentence_len": 29,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 111,
-  "avg_paragraph_len": 25.6,
-  "median_paragraph_len": 19,
-  "p90_paragraph_len": 56,
+  "paragraph_count": 87,
+  "avg_paragraph_len": 31.5,
+  "median_paragraph_len": 27,
+  "p90_paragraph_len": 61,
   "one_line_paragraphs": 2
  },
  "evidence": {
-  "number_tokens": 7,
-  "number_per_1k": 2.51,
+  "number_tokens": 9,
+  "number_per_1k": 3.27,
   "precise_numbers": 2,
-  "precise_per_1k": 0.72,
-  "year_anchors": 1,
-  "year_per_1k": 0.36,
+  "precise_per_1k": 0.73,
+  "year_anchors": 2,
+  "year_per_1k": 0.73,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 5.73,
+  "hedge_hits": 5.82,
   "hedge_examples": [
    {
     "term": "might",
@@ -56,7 +56,7 @@
     "excerpt": "We suggest that developers start by using LLM APIs directly: many patterns can b"
    }
   ],
-  "absolutist_hits": 1.07,
+  "absolutist_hits": 1.09,
   "absolutist_examples": [
    {
     "term": "must",
@@ -71,35 +71,36 @@
     "excerpt": "While building our agent for SWE-bench, we actually spent more time optimizing o"
    }
   ],
-  "quantifier_hits": 6.44,
-  "first_person_count": 30,
+  "quantifier_hits": 6.18,
+  "first_person_count": 29,
   "objective_selfref_count": 15,
   "exclamations": 0,
   "questions": 3,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.325,
+  "ttr": 0.331,
+  "mattr": 0.703,
   "top_terms": [
-   "agents×37",
-   "llm×30",
+   "agents×40",
+   "llm×29",
+   "workflow×24",
+   "building×21",
    "tools×21",
-   "workflow×19",
-   "building×18",
    "tasks×15",
-   "code×15",
+   "code×13",
    "tool×13",
    "systems×12",
    "task×12",
-   "different×12",
-   "call×10",
+   "complex×10",
    "prompt×10",
-   "complex×9",
-   "agentic×9"
+   "agent×9",
+   "agentic×9",
+   "llms×9"
   ],
   "en_char_ratio": null,
-  "title_text": "What are agents?",
-  "title_len": 16,
+  "title_text": "Building effective agents",
+  "title_len": 25,
   "title_has_colon": false
  },
  "genre": {

@@ -3,10 +3,10 @@
  "lang": "en",
  "title": "Understanding the source of what we see and hear online",
  "cjk_chars": 0,
- "word_count": 2032,
- "reading_time_min": 7.0,
+ "word_count": 1575,
+ "reading_time_min": 5.0,
  "structure": {
-  "h2_count": 6,
+  "h2_count": 0,
   "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
@@ -15,48 +15,48 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 75,
-  "avg_sentence_len": 27.6,
+  "sentence_count": 57,
+  "avg_sentence_len": 27.7,
   "median_sentence_len": 24,
-  "p90_sentence_len": 43,
+  "p90_sentence_len": 44,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 55,
-  "avg_paragraph_len": 37.7,
-  "median_paragraph_len": 17,
+  "paragraph_count": 33,
+  "avg_paragraph_len": 48.1,
+  "median_paragraph_len": 22,
   "p90_paragraph_len": 82,
   "one_line_paragraphs": 1
  },
  "evidence": {
-  "number_tokens": 32,
-  "number_per_1k": 15.75,
+  "number_tokens": 34,
+  "number_per_1k": 21.59,
   "precise_numbers": 3,
-  "precise_per_1k": 1.48,
+  "precise_per_1k": 1.9,
   "year_anchors": 3,
-  "year_per_1k": 1.48,
+  "year_per_1k": 1.9,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 17.22,
+  "hedge_hits": 12.7,
   "hedge_examples": [
-   {
-    "term": "about",
-    "excerpt": "- Learn about our advancements in content provenance"
-   },
    {
     "term": "about",
     "excerpt": "Learn about our advancements in content provenance"
    },
    {
     "term": "could",
-    "excerpt": "- A few updates on some of the approaches we’re currently researching and consid"
+    "excerpt": "Our teams have prioritized launching audiovisual content provenance solutions, w"
+   },
+   {
+    "term": "suggests",
+    "excerpt": "Our teams have prioritized launching audiovisual content provenance solutions, w"
    }
   ],
-  "absolutist_hits": 0.98,
+  "absolutist_hits": 1.27,
   "absolutist_examples": [
    {
     "term": "critical",
@@ -67,31 +67,32 @@
     "excerpt": "Our efforts around provenance are just one part of a broader industry effort – m"
    }
   ],
-  "quantifier_hits": 2.46,
-  "first_person_count": 72,
+  "quantifier_hits": 1.9,
+  "first_person_count": 54,
   "objective_selfref_count": 1,
   "exclamations": 0,
   "questions": 0,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.271,
+  "ttr": 0.352,
+  "mattr": 0.654,
   "top_terms": [
-   "content×37",
-   "text×24",
-   "watermarking×17",
-   "metadata×17",
-   "provenance×15",
-   "research×13",
-   "generated×12",
-   "tool×10",
+   "content×35",
+   "provenance×13",
    "tools×10",
-   "like×10",
+   "text×10",
+   "metadata×10",
+   "generated×10",
    "images×10",
-   "method×9",
-   "important×9",
-   "false×9",
-   "image×9"
+   "research×9",
+   "image×9",
+   "dall×9",
+   "watermarking×8",
+   "opens×8",
+   "window×8",
+   "like×8",
+   "authenticity×7"
   ],
   "en_char_ratio": null,
   "title_text": "Understanding the source of what we see and hear online",

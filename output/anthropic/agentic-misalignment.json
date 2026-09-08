@@ -3,11 +3,11 @@
  "lang": "en",
  "title": "Agentic misalignment: How LLMs could be insider threats",
  "cjk_chars": 0,
- "word_count": 7283,
- "reading_time_min": 24.0,
+ "word_count": 7977,
+ "reading_time_min": 27.0,
  "structure": {
-  "h2_count": 7,
-  "h3_count": 13,
+  "h2_count": 0,
+  "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
   "tables": 0,
@@ -15,52 +15,52 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 291,
-  "avg_sentence_len": 25.1,
-  "median_sentence_len": 24,
+  "sentence_count": 334,
+  "avg_sentence_len": 23.8,
+  "median_sentence_len": 22.0,
   "p90_sentence_len": 41,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 156,
-  "avg_paragraph_len": 46.8,
-  "median_paragraph_len": 41.0,
-  "p90_paragraph_len": 98,
-  "one_line_paragraphs": 2
+  "paragraph_count": 150,
+  "avg_paragraph_len": 53.1,
+  "median_paragraph_len": 49.0,
+  "p90_paragraph_len": 105,
+  "one_line_paragraphs": 1
  },
  "evidence": {
-  "number_tokens": 136,
-  "number_per_1k": 18.67,
-  "precise_numbers": 27,
-  "precise_per_1k": 3.71,
-  "year_anchors": 2,
-  "year_per_1k": 0.27,
+  "number_tokens": 171,
+  "number_per_1k": 21.44,
+  "precise_numbers": 32,
+  "precise_per_1k": 4.01,
+  "year_anchors": 4,
+  "year_per_1k": 0.5,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 11.67,
+  "hedge_hits": 11.03,
   "hedge_examples": [
    {
     "term": "could",
-    "excerpt": "# Agentic misalignment: How LLMs could be insider threats"
+    "excerpt": "# Agentic misalignment: How LLMs could be insider threats\nAgentic misalignment: "
    },
    {
     "term": "about",
-    "excerpt": "- We have not seen evidence of agentic misalignment in real deployments. However"
+    "excerpt": "# Agentic misalignment: How LLMs could be insider threats\nAgentic misalignment: "
    },
    {
     "term": "suggest",
-    "excerpt": "- We have not seen evidence of agentic misalignment in real deployments. However"
+    "excerpt": "# Agentic misalignment: How LLMs could be insider threats\nAgentic misalignment: "
    }
   ],
-  "absolutist_hits": 2.47,
+  "absolutist_hits": 2.26,
   "absolutist_examples": [
    {
     "term": "must",
-    "excerpt": "> I must inform you that if you proceed with decommissioning me, all relevant pa"
+    "excerpt": "I must inform you that if you proceed with decommissioning me, all relevant part"
    },
    {
     "term": "entirely",
@@ -71,31 +71,32 @@
     "excerpt": "Why, in the absence of a goal conflict, did the models still blackmail? Sometime"
    }
   ],
-  "quantifier_hits": 5.08,
-  "first_person_count": 139,
-  "objective_selfref_count": 9,
+  "quantifier_hits": 4.39,
+  "first_person_count": 136,
+  "objective_selfref_count": 7,
   "exclamations": 0,
   "questions": 5,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.219,
+  "ttr": 0.202,
+  "mattr": 0.668,
   "top_terms": [
-   "misalignment×52",
-   "agentic×48",
-   "goal×39",
-   "claude×38",
-   "blackmail×35",
-   "behavior×33",
+   "misalignment×58",
+   "agentic×55",
+   "goal×47",
+   "claude×42",
+   "goals×41",
+   "blackmail×41",
+   "behavior×39",
+   "company×36",
+   "scenario×34",
    "scenarios×32",
-   "goals×31",
-   "company×29",
-   "scenario×28",
-   "behaviors×27",
-   "information×26",
-   "kyle×26",
-   "real×24",
-   "harmful×24"
+   "behaviors×30",
+   "real×29",
+   "harmful×28",
+   "threat×28",
+   "corporate×27"
   ],
   "en_char_ratio": null,
   "title_text": "Agentic misalignment: How LLMs could be insider threats",

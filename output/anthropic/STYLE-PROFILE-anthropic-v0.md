@@ -16,20 +16,27 @@
 | 篇幅 | 2,622 词 | 2,819 词 | 3,905 字 |
 | 平均句长（词/字） | 22.5 词 | 22.2 词 | 33.6 字 |
 | **数字密度 /千词(字)** | **7.4**（概念驱动） | 16.1 | 18.1/千字 |
-| 精确数字 | 1.6 | 1.06 | 5.07（最高） |
+| 精确数字 | 1.46 | 0.92 | 5.07（最高） |
 | hedge /千词(字) | 9.6 | 8.8 | 3.1/千字 |
-| 断言型绝对化 | 2.11 | 1.64 | 1.05 |
+| 断言型绝对化 | 2.32 | 1.76 | 1.05 |
 | **第一人称** | 42.5 | **59** | 5 |
 | 参考文献条目 | 0 | 0 | **6**（期刊 10-18） |
 | 外链 /千词 | 0 | 0 | 0（行业分析除外） |
 | 感叹号 | 0（10 篇共 4 个） | 0（共 2 个） | 0 |
 | TTR | 0.35（长度敏感；MATTR 待语料重采后重算）| 0.31 | 0.37 |
-| **指纹**（discriminate.py，vs 其余六库，7 库限定） | **年份锚点最低**（p<0.001，q=0.001，过 FDR；原"数字密度最低"退居次显著） | — | — |
+| **指纹**（discriminate.py，vs 其余六库 pooled，MATTR 7/7 终态） | **数字密度最低**（7.4 vs ~22，p=0.001，q=0.002，过 FDR）——概念驱动安全叙事（回到 5 库时代的结论） | — | — |
 
 > 指纹解读：概念驱动的安全叙事——五库中每千词数字最少，论证靠情景剧与边界声明而非数据堆砌。
 | 标题冒号式 | 1/10（祈使句/名词短语） | 3/10 | 9/24 |
 
 ## 3. 结构模板（语步层）
+
+**第 3 篇标注（2026-09-08）：building-effective-agents（工程指南文，87 段 → 59 标注）**
+- 骨架：CONTEXT×4 → FRAME → ARGUE（核心建议"最简方案"）→ **五种工作流模式同构块**（定义→适用→示例 ×5）→ agents 节（含代价警示）→ CLOSE（成功重定义）+ APPLY×3（三原则清单）
+- 文体特征：**"模式目录"教学结构**——五种 workflow 严格同构重复；APPLY 处方密度高（清单/资源/cookbook）——与 postmortem（事故复盘）/agentic-misalignment（研究叙述）构成库内三体裁面
+- 叙事 3 段（5%）：仅自产案例（SWE-bench）与实践复盘（"we actually spent more time"）
+- 完整标注：`output/anthropic/annotations/building-effective-agents.moves.jsonl`
+
 
 ```
 要点式 bullet 摘要开头（研究文标配，诚实边界在摘要层就出现）
@@ -45,6 +52,8 @@
 - **复盘模板化**：postmortem 的每个 bug 配 `Resolution:` 固定字段——事故复盘已成模板产品线（壳中客的"现象层→机制层→处方层"是另一套模板化路线）
 - **认错语步**："we didn't meet that bar" / "These issues exposed critical gaps that we should have identified earlier"——认错是结构化组件而非姿态；OpenAI 内化为"我们排除了错误假设"，壳中客极少认错（研究立场免责优先）
 - **透明度元话语**："We don't typically share this level of technical detail..."——显式声明分享尺度，这是 Anthropic 独有的语步
+
+> 语步覆盖：3 篇（postmortem / agentic-misalignment / building-effective-agents）✅ 达标
 
 ## 4. 论证规范
 
@@ -76,3 +85,5 @@
 
 - 2026-09-07：v0 生成。10 篇浏览器抓取（Anthropic 无反爬）；统计层全量 + 2 篇同构对照标注（postmortem ↔ 壳中客复盘体；agentic-misalignment ↔ OpenAI emergent-misalignment）。已知局限：①标注仅 2/10；②news 板块仅政策文 1 篇（产品公告未采）；③alignment-faking 等长文正文含 arXiv 论文外链，正文抓取未含论文附录。
 - 2026-09-07：v0.1 注记。① 指纹行升级 p/q 双注（BH-FDR，q=0.001 过校正）；② TTR 行标注长度敏感——MATTR 需正文重算，本库语料不入库，待重采；③ 跨库比较以 MATTR 覆盖库（cerebras/eleuther/databricks）为准。
+
+> 校准日志（v1.1，2026-09-08）：语料重采入本地 corpus/anthropic/（含 3 个 slug 修正，见 corpus/README.md），表格数值以重采实测校准；MATTR 补齐（median 0.691）。

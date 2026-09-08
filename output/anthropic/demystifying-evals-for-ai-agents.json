@@ -1,13 +1,13 @@
 {
  "file": "demystifying-evals-for-ai-agents.md",
  "lang": "en",
- "title": "Introduction",
+ "title": "Demystifying evals for AI agents",
  "cjk_chars": 0,
- "word_count": 3315,
- "reading_time_min": 11.0,
+ "word_count": 3661,
+ "reading_time_min": 12.0,
  "structure": {
-  "h2_count": 8,
-  "h3_count": 11,
+  "h2_count": 0,
+  "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
   "tables": 0,
@@ -15,33 +15,33 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 158,
-  "avg_sentence_len": 21.4,
-  "median_sentence_len": 18.0,
+  "sentence_count": 167,
+  "avg_sentence_len": 21.9,
+  "median_sentence_len": 18,
   "p90_sentence_len": 30,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 141,
-  "avg_paragraph_len": 24.0,
-  "median_paragraph_len": 9,
-  "p90_paragraph_len": 66,
+  "paragraph_count": 100,
+  "avg_paragraph_len": 36.6,
+  "median_paragraph_len": 28.0,
+  "p90_paragraph_len": 77,
   "one_line_paragraphs": 0
  },
  "evidence": {
-  "number_tokens": 10,
-  "number_per_1k": 3.02,
+  "number_tokens": 13,
+  "number_per_1k": 3.55,
   "precise_numbers": 7,
-  "precise_per_1k": 2.11,
-  "year_anchors": 0,
-  "year_per_1k": 0.0,
+  "precise_per_1k": 1.91,
+  "year_anchors": 1,
+  "year_per_1k": 0.27,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 6.64,
+  "hedge_hits": 6.01,
   "hedge_examples": [
    {
     "term": "about",
@@ -49,14 +49,14 @@
    },
    {
     "term": "might",
-    "excerpt": "- The outcome is the final state in the environment at the end of the trial. A f"
+    "excerpt": "A task (a.k.a problem or test case) is a single test with defined inputs and suc"
    },
    {
-    "term": "might",
-    "excerpt": "- An evaluation suite is a collection of tasks designed to measure specific capa"
+    "term": "may",
+    "excerpt": "When teams first start building agents, they can get surprisingly far through a "
    }
   ],
-  "absolutist_hits": 1.51,
+  "absolutist_hits": 1.37,
   "absolutist_examples": [
    {
     "term": "essential",
@@ -71,7 +71,7 @@
     "excerpt": "Consider a coding task where the agent must fix an authentication bypass vulnera"
    }
   ],
-  "quantifier_hits": 6.03,
+  "quantifier_hits": 5.74,
   "first_person_count": 21,
   "objective_selfref_count": 2,
   "exclamations": 2,
@@ -79,27 +79,28 @@
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.347,
+  "ttr": 0.34,
+  "mattr": 0.743,
   "top_terms": [
-   "evals×48",
-   "agent×44",
-   "agents×32",
+   "evals×51",
+   "agent×49",
+   "agents×36",
+   "eval×22",
+   "graders×22",
+   "tasks×22",
    "teams×21",
-   "graders×21",
-   "tasks×21",
-   "eval×20",
-   "evaluation×18",
-   "evaluations×16",
+   "evaluation×20",
+   "evaluations×17",
+   "tests×15",
+   "user×14",
+   "human×14",
+   "users×13",
    "run×13",
-   "quality×13",
-   "human×13",
-   "users×12",
-   "test×12",
-   "user×12"
+   "coding×13"
   ],
   "en_char_ratio": null,
-  "title_text": "Introduction",
-  "title_len": 12,
+  "title_text": "Demystifying evals for AI agents",
+  "title_len": 32,
   "title_has_colon": false
  },
  "genre": {

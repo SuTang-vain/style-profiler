@@ -1,47 +1,47 @@
 {
  "file": "a-postmortem-of-three-recent-issues.md",
  "lang": "en",
- "title": "How we serve Claude at scale",
+ "title": "A postmortem of three recent issues",
  "cjk_chars": 0,
- "word_count": 1960,
+ "word_count": 2098,
  "reading_time_min": 7.0,
  "structure": {
-  "h2_count": 6,
-  "h3_count": 3,
-  "numbered_headings": 3,
+  "h2_count": 0,
+  "h3_count": 0,
+  "numbered_headings": 0,
   "code_blocks": 0,
   "tables": 0,
   "images": 0,
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 111,
-  "avg_sentence_len": 18.2,
-  "median_sentence_len": 18,
-  "p90_sentence_len": 28,
+  "sentence_count": 120,
+  "avg_sentence_len": 17.9,
+  "median_sentence_len": 17.5,
+  "p90_sentence_len": 29,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 61,
-  "avg_paragraph_len": 33.0,
-  "median_paragraph_len": 34,
-  "p90_paragraph_len": 59,
+  "paragraph_count": 62,
+  "avg_paragraph_len": 34.5,
+  "median_paragraph_len": 31.5,
+  "p90_paragraph_len": 62,
   "one_line_paragraphs": 0
  },
  "evidence": {
-  "number_tokens": 65,
-  "number_per_1k": 33.16,
+  "number_tokens": 71,
+  "number_per_1k": 33.84,
   "precise_numbers": 11,
-  "precise_per_1k": 5.61,
-  "year_anchors": 1,
-  "year_per_1k": 0.51,
+  "precise_per_1k": 5.24,
+  "year_anchors": 4,
+  "year_per_1k": 1.91,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 8,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 9.69,
+  "hedge_hits": 10.01,
   "hedge_examples": [
    {
     "term": "early",
@@ -56,7 +56,7 @@
     "excerpt": "In early August, a number of users began reporting degraded responses from Claud"
    }
   ],
-  "absolutist_hits": 2.55,
+  "absolutist_hits": 2.38,
   "absolutist_examples": [
    {
     "term": "never",
@@ -71,35 +71,36 @@
     "excerpt": "Our fix removed the December workaround because we believed we'd solved the root"
    }
   ],
-  "quantifier_hits": 4.59,
-  "first_person_count": 68,
+  "quantifier_hits": 4.29,
+  "first_person_count": 69,
   "objective_selfref_count": 0,
   "exclamations": 0,
   "questions": 0,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.372,
+  "ttr": 0.361,
+  "mattr": 0.704,
   "top_terms": [
-   "claude×18",
-   "august×17",
-   "bug×14",
+   "claude×20",
+   "august×18",
+   "bug×17",
    "users×14",
+   "issues×12",
    "requests×12",
-   "issues×10",
+   "xla×10",
    "probability×10",
-   "xla×9",
+   "bugs×9",
    "september×9",
    "quality×9",
    "reports×9",
    "different×9",
-   "infrastructure×8",
-   "bugs×8",
-   "affected×8"
+   "tpu×9",
+   "fix×8"
   ],
   "en_char_ratio": null,
-  "title_text": "How we serve Claude at scale",
-  "title_len": 28,
+  "title_text": "A postmortem of three recent issues",
+  "title_len": 35,
   "title_has_colon": false
  },
  "genre": {

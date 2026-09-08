@@ -148,7 +148,8 @@ def f_ratio(values_by_group):
 
 print("\n" + "=" * 76)
 print("二、判别力排序（秩化 F 比率：组间差异/组内差异；仅计入有覆盖的库）")
-print("注意：覆盖库数不同的指标 F 值不可直接比较（MATTR 覆盖 5/7 库，余指标 7 库）")
+mattr_cov = len(coverage.get("mattr", []))
+print(f"注意：覆盖库数不同的指标 F 值不可直接比较（MATTR 覆盖 {mattr_cov}/{len(libs)} 库，余指标 {len(libs)} 库）")
 print("=" * 76)
 fr = []
 for m in METRICS:

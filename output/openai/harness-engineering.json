@@ -3,10 +3,10 @@
  "lang": "en",
  "title": "Harness engineering: leveraging Codex in an agent-first world",
  "cjk_chars": 0,
- "word_count": 2750,
- "reading_time_min": 9.0,
+ "word_count": 3069,
+ "reading_time_min": 10.0,
  "structure": {
-  "h2_count": 14,
+  "h2_count": 0,
   "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
@@ -15,48 +15,48 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 142,
-  "avg_sentence_len": 19.4,
-  "median_sentence_len": 17.0,
-  "p90_sentence_len": 30,
+  "sentence_count": 155,
+  "avg_sentence_len": 19.9,
+  "median_sentence_len": 18,
+  "p90_sentence_len": 32,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 103,
-  "avg_paragraph_len": 26.8,
-  "median_paragraph_len": 20,
-  "p90_paragraph_len": 59,
-  "one_line_paragraphs": 2
+  "paragraph_count": 85,
+  "avg_paragraph_len": 36.3,
+  "median_paragraph_len": 32,
+  "p90_paragraph_len": 74,
+  "one_line_paragraphs": 3
  },
  "evidence": {
-  "number_tokens": 20,
-  "number_per_1k": 7.27,
+  "number_tokens": 48,
+  "number_per_1k": 15.64,
   "precise_numbers": 3,
-  "precise_per_1k": 1.09,
-  "year_anchors": 6,
-  "year_per_1k": 2.18,
+  "precise_per_1k": 0.98,
+  "year_anchors": 3,
+  "year_per_1k": 0.98,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 9.45,
+  "hedge_hits": 9.12,
   "hedge_examples": [
+   {
+    "term": "about",
+    "excerpt": "The product has internal daily users and external alpha testers. It ships, deplo"
+   },
+   {
+    "term": "about",
+    "excerpt": "This post is about what we learned by building a brand new product with a team o"
+   },
    {
     "term": "initial",
     "excerpt": "The initial scaffold—repository structure, CI configuration, formatting rules, p"
-   },
-   {
-    "term": "roughly",
-    "excerpt": "Five months later, the repository contains on the order of a million lines of co"
-   },
-   {
-    "term": "we expect",
-    "excerpt": "Early progress was slower than we expected, not because Codex was incapable, but"
    }
   ],
-  "absolutist_hits": 3.64,
+  "absolutist_hits": 3.26,
   "absolutist_examples": [
    {
     "term": "never",
@@ -71,31 +71,32 @@
     "excerpt": "In practice, this meant working depth-first: breaking down larger goals into sma"
    }
   ],
-  "quantifier_hits": 9.45,
-  "first_person_count": 46,
-  "objective_selfref_count": 0,
+  "quantifier_hits": 9.12,
+  "first_person_count": 52,
+  "objective_selfref_count": 1,
   "exclamations": 1,
   "questions": 2,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.374,
+  "ttr": 0.353,
+  "mattr": 0.724,
   "top_terms": [
-   "agent×29",
-   "codex×28",
-   "agents×24",
-   "repository×18",
-   "code×17",
-   "human×13",
-   "system×11",
-   "engineering×10",
+   "codex×31",
+   "agent×30",
+   "agents×28",
+   "code×22",
+   "repository×20",
+   "human×14",
+   "system×12",
+   "engineering×11",
+   "team×11",
+   "documentation×10",
+   "work×10",
    "pull×10",
    "directly×10",
-   "work×9",
-   "documentation×9",
-   "context×9",
-   "set×8",
-   "team×8"
+   "product×9",
+   "time×9"
   ],
   "en_char_ratio": null,
   "title_text": "Harness engineering: leveraging Codex in an agent-first world",

@@ -3,10 +3,10 @@
  "lang": "en",
  "title": "Core dump epidemiology: fixing an 18-year-old bug",
  "cjk_chars": 0,
- "word_count": 3288,
- "reading_time_min": 11.0,
+ "word_count": 3758,
+ "reading_time_min": 13.0,
  "structure": {
-  "h2_count": 14,
+  "h2_count": 0,
   "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
@@ -15,49 +15,53 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 166,
-  "avg_sentence_len": 19.8,
-  "median_sentence_len": 18.0,
-  "p90_sentence_len": 33,
+  "sentence_count": 185,
+  "avg_sentence_len": 20.3,
+  "median_sentence_len": 18,
+  "p90_sentence_len": 34,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 92,
-  "avg_paragraph_len": 35.8,
-  "median_paragraph_len": 30.0,
-  "p90_paragraph_len": 70,
+  "paragraph_count": 97,
+  "avg_paragraph_len": 38.7,
+  "median_paragraph_len": 34,
+  "p90_paragraph_len": 78,
   "one_line_paragraphs": 5
  },
  "evidence": {
-  "number_tokens": 54,
-  "number_per_1k": 16.42,
+  "number_tokens": 74,
+  "number_per_1k": 19.69,
   "precise_numbers": 0,
   "precise_per_1k": 0.0,
-  "year_anchors": 6,
-  "year_per_1k": 1.82,
+  "year_anchors": 3,
+  "year_per_1k": 0.8,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 7.6,
+  "hedge_hits": 7.72,
   "hedge_examples": [
    {
-    "term": "initial",
-    "excerpt": "Our initial approach was to treat these cores like a conventional debugging prob"
+    "term": "about",
+    "excerpt": "OpenAI’s models and agents increasingly rely on scalable data infrastructure in "
    },
    {
-    "term": "around",
-    "excerpt": "Was this a bug in our C++ code? A compiler or linkage issue? A problem in one of"
+    "term": "could",
+    "excerpt": "These are not normal failure modes for application code. A stray write that land"
    },
    {
-    "term": "initial",
-    "excerpt": "At this stage of the investigation, we (incorrectly) ruled out a hardware bug, b"
+    "term": "likely",
+    "excerpt": "These are not normal failure modes for application code. A stray write that land"
    }
   ],
-  "absolutist_hits": 3.04,
+  "absolutist_hits": 2.93,
   "absolutist_examples": [
+   {
+    "term": "impossible",
+    "excerpt": "These are not normal failure modes for application code. A stray write that land"
+   },
    {
     "term": "always",
     "excerpt": "Rockset is compiled with -fno-omit-frame-pointer, so the active stack frame is a"
@@ -65,37 +69,34 @@
    {
     "term": "never",
     "excerpt": "The misaligned-stack crashes looked completely different. They all came from one"
-   },
-   {
-    "term": "completely",
-    "excerpt": "The misaligned-stack crashes looked completely different. They all came from one"
    }
   ],
-  "quantifier_hits": 8.21,
-  "first_person_count": 87,
-  "objective_selfref_count": 0,
+  "quantifier_hits": 7.72,
+  "first_person_count": 96,
+  "objective_selfref_count": 1,
   "exclamations": 1,
-  "questions": 15,
+  "questions": 17,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.304,
+  "ttr": 0.284,
+  "mattr": 0.69,
   "top_terms": [
-   "stack×30",
-   "bug×21",
+   "stack×34",
+   "bug×29",
+   "crashes×20",
+   "data×20",
    "signal×18",
-   "crashes×14",
-   "because×14",
-   "libunwind×14",
-   "data×13",
-   "crash×12",
-   "exception×12",
-   "core×11",
-   "handler×11",
-   "return×11",
-   "rockset×10",
-   "like×10",
-   "frame×10"
+   "libunwind×17",
+   "return×16",
+   "because×16",
+   "core×13",
+   "exception×13",
+   "crash×13",
+   "race×12",
+   "address×12",
+   "time×11",
+   "rockset×11"
   ],
   "en_char_ratio": null,
   "title_text": "Core dump epidemiology: fixing an 18-year-old bug",

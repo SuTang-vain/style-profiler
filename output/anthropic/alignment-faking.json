@@ -3,11 +3,11 @@
  "lang": "en",
  "title": "Alignment faking in large language models",
  "cjk_chars": 0,
- "word_count": 1986,
+ "word_count": 2079,
  "reading_time_min": 7.0,
  "structure": {
-  "h2_count": 8,
-  "h3_count": 3,
+  "h2_count": 0,
+  "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
   "tables": 0,
@@ -15,33 +15,33 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 84,
-  "avg_sentence_len": 23.5,
+  "sentence_count": 86,
+  "avg_sentence_len": 23.8,
   "median_sentence_len": 22.0,
-  "p90_sentence_len": 38,
+  "p90_sentence_len": 43,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 46,
-  "avg_paragraph_len": 42.9,
-  "median_paragraph_len": 41.0,
-  "p90_paragraph_len": 89,
+  "paragraph_count": 41,
+  "avg_paragraph_len": 50.0,
+  "median_paragraph_len": 46,
+  "p90_paragraph_len": 93,
   "one_line_paragraphs": 2
  },
  "evidence": {
   "number_tokens": 16,
-  "number_per_1k": 8.06,
-  "precise_numbers": 5,
-  "precise_per_1k": 2.52,
-  "year_anchors": 3,
-  "year_per_1k": 1.51,
+  "number_per_1k": 7.7,
+  "precise_numbers": 6,
+  "precise_per_1k": 2.89,
+  "year_anchors": 4,
+  "year_per_1k": 1.92,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 16.11,
+  "hedge_hits": 14.91,
   "hedge_examples": [
    {
     "term": "might",
@@ -56,7 +56,7 @@
     "excerpt": "Could AI models also display alignment faking? When models are trained using rei"
    }
   ],
-  "absolutist_hits": 5.04,
+  "absolutist_hits": 4.81,
   "absolutist_examples": [
    {
     "term": "always",
@@ -71,31 +71,32 @@
     "excerpt": "For example, one objection to the analysis described above is that it’s unrealis"
    }
   ],
-  "quantifier_hits": 5.04,
-  "first_person_count": 55,
-  "objective_selfref_count": 3,
+  "quantifier_hits": 4.33,
+  "first_person_count": 56,
+  "objective_selfref_count": 1,
   "exclamations": 0,
   "questions": 3,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.334,
+  "ttr": 0.307,
+  "mattr": 0.635,
   "top_terms": [
-   "alignment×28",
-   "training×26",
-   "faking×20",
+   "alignment×30",
+   "training×28",
+   "faking×23",
    "preferences×13",
-   "research×11",
-   "harmful×9",
-   "claude×9",
-   "paper×8",
-   "anthropic×8",
-   "example×7",
-   "trained×6",
-   "safety×6",
-   "always×6",
-   "responses×6",
-   "users×6"
+   "harmful×13",
+   "paper×9",
+   "condition×9",
+   "example×8",
+   "research×8",
+   "anthropic×7",
+   "queries×7",
+   "information×7",
+   "scratchpad×7",
+   "reasoning×7",
+   "trained×6"
   ],
   "en_char_ratio": null,
   "title_text": "Alignment faking in large language models",

@@ -3,11 +3,11 @@
  "lang": "en",
  "title": "Auditing language models for hidden objectives",
  "cjk_chars": 0,
- "word_count": 2861,
+ "word_count": 2955,
  "reading_time_min": 10.0,
  "structure": {
-  "h2_count": 6,
-  "h3_count": 5,
+  "h2_count": 0,
+  "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
   "tables": 0,
@@ -15,33 +15,33 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 141,
-  "avg_sentence_len": 20.0,
-  "median_sentence_len": 20,
+  "sentence_count": 149,
+  "avg_sentence_len": 19.5,
+  "median_sentence_len": 19,
   "p90_sentence_len": 32,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 64,
-  "avg_paragraph_len": 44.1,
-  "median_paragraph_len": 46.0,
-  "p90_paragraph_len": 75,
+  "paragraph_count": 53,
+  "avg_paragraph_len": 54.8,
+  "median_paragraph_len": 54,
+  "p90_paragraph_len": 88,
   "one_line_paragraphs": 1
  },
  "evidence": {
-  "number_tokens": 20,
-  "number_per_1k": 6.99,
+  "number_tokens": 26,
+  "number_per_1k": 8.8,
   "precise_numbers": 3,
-  "precise_per_1k": 1.05,
-  "year_anchors": 0,
-  "year_per_1k": 0.0,
+  "precise_per_1k": 1.02,
+  "year_anchors": 1,
+  "year_per_1k": 0.34,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 16.78,
+  "hedge_hits": 16.24,
   "hedge_examples": [
    {
     "term": "might",
@@ -56,7 +56,7 @@
     "excerpt": "What would an alignment audit look like? What tools would we use? How would we k"
    }
   ],
-  "absolutist_hits": 1.75,
+  "absolutist_hits": 1.69,
   "absolutist_examples": [
    {
     "term": "never",
@@ -71,31 +71,32 @@
     "excerpt": "Maybe you take a look at the training data, and it looks normal. Then you try ch"
    }
   ],
-  "quantifier_hits": 3.5,
+  "quantifier_hits": 4.06,
   "first_person_count": 83,
-  "objective_selfref_count": 4,
+  "objective_selfref_count": 2,
   "exclamations": 0,
   "questions": 13,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.29,
+  "ttr": 0.276,
+  "mattr": 0.654,
   "top_terms": [
-   "auditing×28",
-   "alignment×28",
-   "training×20",
-   "teams×19",
-   "data×18",
+   "auditing×32",
+   "alignment×26",
+   "training×24",
+   "teams×21",
+   "data×19",
    "behaviors×16",
+   "hidden×15",
    "audits×14",
    "like×14",
    "biases×14",
-   "hidden×13",
+   "interpretability×13",
    "systems×13",
-   "interpretability×12",
+   "objective×12",
    "techniques×12",
-   "objective×10",
-   "game×10"
+   "game×12"
   ],
   "en_char_ratio": null,
   "title_text": "Auditing language models for hidden objectives",

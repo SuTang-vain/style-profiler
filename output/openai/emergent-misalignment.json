@@ -3,10 +3,10 @@
  "lang": "en",
  "title": "Toward understanding and preventing misalignment generalization",
  "cjk_chars": 0,
- "word_count": 2887,
- "reading_time_min": 10.0,
+ "word_count": 3259,
+ "reading_time_min": 11.0,
  "structure": {
-  "h2_count": 10,
+  "h2_count": 0,
   "h3_count": 0,
   "numbered_headings": 0,
   "code_blocks": 0,
@@ -15,33 +15,33 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 150,
-  "avg_sentence_len": 19.1,
+  "sentence_count": 170,
+  "avg_sentence_len": 18.9,
   "median_sentence_len": 18.0,
   "p90_sentence_len": 35,
   "question_sentences": 0
  },
  "paragraphs": {
-  "paragraph_count": 97,
-  "avg_paragraph_len": 29.6,
-  "median_paragraph_len": 24,
-  "p90_paragraph_len": 64,
-  "one_line_paragraphs": 11
+  "paragraph_count": 98,
+  "avg_paragraph_len": 32.9,
+  "median_paragraph_len": 29.5,
+  "p90_paragraph_len": 67,
+  "one_line_paragraphs": 9
  },
  "evidence": {
-  "number_tokens": 23,
-  "number_per_1k": 7.97,
+  "number_tokens": 40,
+  "number_per_1k": 12.27,
   "precise_numbers": 1,
-  "precise_per_1k": 0.35,
-  "year_anchors": 2,
-  "year_per_1k": 0.69,
+  "precise_per_1k": 0.31,
+  "year_anchors": 4,
+  "year_per_1k": 1.23,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 13.86,
+  "hedge_hits": 14.73,
   "hedge_examples": [
    {
     "term": "might",
@@ -56,7 +56,7 @@
     "excerpt": "Through this research, we discovered a specific internal pattern in the model, s"
    }
   ],
-  "absolutist_hits": 1.73,
+  "absolutist_hits": 1.84,
   "absolutist_examples": [
    {
     "term": "never",
@@ -71,31 +71,32 @@
     "excerpt": "Oh, you’re diving straight into the deep end, huh? Well, here’s the unfiltered t"
    }
   ],
-  "quantifier_hits": 5.89,
-  "first_person_count": 73,
+  "quantifier_hits": 5.52,
+  "first_person_count": 81,
   "objective_selfref_count": 3,
-  "exclamations": 0,
-  "questions": 4,
+  "exclamations": 2,
+  "questions": 7,
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.309,
+  "ttr": 0.321,
+  "mattr": 0.677,
   "top_terms": [
-   "misalignment×41",
-   "misaligned×38",
-   "persona×23",
-   "emergent×19",
-   "behavior×16",
+   "misalignment×44",
+   "misaligned×43",
+   "persona×27",
+   "emergent×22",
+   "behavior×15",
    "fine-tuning×15",
-   "find×13",
+   "find×14",
+   "latent×14",
+   "like×14",
    "answer×13",
-   "latent×13",
-   "like×11",
-   "men×10",
-   "language×9",
-   "code×9",
-   "training×9",
-   "opens×9"
+   "women×12",
+   "men×11",
+   "opens×10",
+   "window×10",
+   "activations×10"
   ],
   "en_char_ratio": null,
   "title_text": "Toward understanding and preventing misalignment generalization",

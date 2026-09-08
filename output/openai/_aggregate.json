@@ -7,53 +7,53 @@
   "max": 0
  },
  "reading_time_min": {
-  "median": 9.5,
-  "p25": 6.0,
-  "p75": 11.0,
-  "min": 3.0,
-  "max": 13.0
+  "median": 10.5,
+  "p25": 5.0,
+  "p75": 13.0,
+  "min": 4.0,
+  "max": 14.0
  },
  "avg_sentence_len": {
-  "median": 22.15,
-  "p25": 19.4,
-  "p75": 27.6,
-  "min": 14.9,
-  "max": 29.4
+  "median": 22.3,
+  "p25": 19.9,
+  "p75": 24.9,
+  "min": 16.7,
+  "max": 31.2
  },
  "p90_sentence_len": {
-  "median": 35.0,
-  "p25": 33,
-  "p75": 43,
-  "min": 28,
-  "max": 54
+  "median": 35.5,
+  "p25": 34,
+  "p75": 38,
+  "min": 30,
+  "max": 57
  },
  "avg_paragraph_len": {
-  "median": 34.25,
-  "p25": 26.8,
-  "p75": 36.1,
-  "min": 14.3,
-  "max": 40.3
+  "median": 40.2,
+  "p25": 32.9,
+  "p75": 43.9,
+  "min": 23.6,
+  "max": 54.7
  },
  "number_per_1k": {
-  "median": 16.09,
-  "p25": 7.97,
-  "p75": 25.19,
-  "min": 3.84,
-  "max": 82.28
+  "median": 20.69,
+  "p25": 15.64,
+  "p75": 27.64,
+  "min": 2.54,
+  "max": 56.47
  },
  "precise_per_1k": {
-  "median": 1.06,
-  "p25": 0.35,
-  "p75": 3.6,
+  "median": 0.92,
+  "p25": 0.31,
+  "p75": 2.66,
   "min": 0.0,
-  "max": 17.72
+  "max": 12.75
  },
  "year_per_1k": {
-  "median": 2.0,
-  "p25": 1.54,
-  "p75": 4.08,
-  "min": 0.69,
-  "max": 6.33
+  "median": 1.23,
+  "p25": 0.8,
+  "p75": 1.82,
+  "min": 0.57,
+  "max": 2.28
  },
  "links_per_1k": {
   "median": 0.0,
@@ -77,60 +77,67 @@
   "max": 0
  },
  "hedge_hits": {
-  "median": 8.82,
-  "p25": 7.6,
-  "p75": 15.5,
-  "min": 6.16,
-  "max": 17.22
+  "median": 9.57,
+  "p25": 7.99,
+  "p75": 14.73,
+  "min": 5.66,
+  "max": 15.97
  },
  "absolutist_hits": {
-  "median": 1.64,
-  "p25": 1.27,
-  "p75": 3.04,
-  "min": 0.98,
-  "max": 6.53
+  "median": 1.76,
+  "p25": 1.38,
+  "p75": 2.93,
+  "min": 0.95,
+  "max": 4.91
  },
  "quantifier_hits": {
-  "median": 5.89,
-  "p25": 2.46,
-  "p75": 6.66,
-  "min": 0.0,
-  "max": 9.45
+  "median": 5.9,
+  "p25": 1.9,
+  "p75": 6.51,
+  "min": 0.61,
+  "max": 9.12
  },
  "first_person_count": {
-  "median": 59.0,
-  "p25": 25,
-  "p75": 77,
-  "min": 12,
-  "max": 87
+  "median": 53.0,
+  "p25": 33,
+  "p75": 90,
+  "min": 14,
+  "max": 96
  },
  "objective_selfref_count": {
-  "median": 0.5,
-  "p25": 0,
-  "p75": 1,
+  "median": 1.0,
+  "p25": 1,
+  "p75": 2,
   "min": 0,
   "max": 3
  },
  "exclamations": {
   "median": 0.0,
   "p25": 0,
-  "p75": 0,
+  "p75": 1,
   "min": 0,
-  "max": 1
+  "max": 2
  },
  "questions": {
-  "median": 2.0,
-  "p25": 0,
+  "median": 3.0,
+  "p25": 1,
   "p75": 11,
   "min": 0,
-  "max": 15
+  "max": 17
  },
  "ttr": {
-  "median": 0.31,
+  "median": 0.33,
   "p25": 0.28,
-  "p75": 0.37,
-  "min": 0.247,
-  "max": 0.513
+  "p75": 0.35,
+  "min": 0.242,
+  "max": 0.448
+ },
+ "mattr": {
+  "median": 0.68,
+  "p25": 0.66,
+  "p75": 0.69,
+  "min": 0.592,
+  "max": 0.724
  },
  "genre_distribution": {
   "blog_or_exploration": 10
