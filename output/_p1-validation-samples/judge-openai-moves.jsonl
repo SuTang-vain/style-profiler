@@ -1,0 +1,61 @@
+{"para": 3, "heading": "(开篇)", "move": "HOOK", "sub": "数字反转开场", "evidence_excerpt": "43 perce", "narrative_ratio": 0.0}
+{"para": 4, "heading": "(开篇)", "move": "CONTEXT", "sub": "工具介绍", "evidence_excerpt": "The tool behind that number", "narrative_ratio": 0.0}
+{"para": 5, "heading": "(开篇)", "move": "CONTEXT", "sub": "动机：机构写作", "evidence_excerpt": "stability is something a counter can measure", "narrative_ratio": 0.0}
+{"para": 6, "heading": "(开篇)", "move": "ARGUE", "sub": "转化主张", "evidence_excerpt": "turn impressions into claims", "narrative_ratio": 0.0}
+{"para": 7, "heading": "(开篇)", "move": "ARGUE", "sub": "可辩护性主张", "evidence_excerpt": "survive scrutiny", "narrative_ratio": 0.0}
+{"para": 8, "heading": "(开篇)", "move": "CONTEXT", "sub": "选型背景", "evidence_excerpt": "early prototypes of this project took that route", "narrative_ratio": 0.1}
+{"para": 9, "heading": "(开篇)", "move": "ARGUE", "sub": "单句段转折", "evidence_excerpt": "We wanted the opposite property", "narrative_ratio": 0.0}
+{"para": 10, "heading": "(开篇)", "move": "FRAME", "sub": "问题框架", "evidence_excerpt": "What does it take to trust a number", "narrative_ratio": 0.0}
+{"para": 12, "heading": "What the profiler measures", "move": "ARGUE", "sub": "指标族系", "evidence_excerpt": "26 metrics fall into a handful", "narrative_ratio": 0.0}
+{"para": 13, "heading": "What the profiler measures", "move": "ARGUE", "sub": "聚合规则", "evidence_excerpt": "We report media", "narrative_ratio": 0.0}
+{"para": 14, "heading": "What the profiler measures", "move": "ARGUE", "sub": "确定性定义", "evidence_excerpt": "the same document in", "narrative_ratio": 0.0}
+{"para": 15, "heading": "What the profiler measures", "move": "ARGUE", "sub": "验证廉价", "evidence_excerpt": "verification cheap", "narrative_ratio": 0.0}
+{"para": 16, "heading": "What the profiler measures", "move": "ARGUE", "sub": "输出形式", "evidence_excerpt": "deliberately plain", "narrative_ratio": 0.0}
+{"para": 17, "heading": "What the profiler measures", "move": "ARGUE", "sub": "核验惯例", "evidence_excerpt": "check that property by hand", "narrative_ratio": 0.0}
+{"para": 18, "heading": "What the profiler measures", "move": "ARGUE", "sub": "设计哲学", "evidence_excerpt": "None of the 26 metrics is clever", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Bug #1", "move": "ARGUE", "sub": "机制：hedging 计数", "evidence_excerpt": "lexicon counter", "narrative_ratio": 0.0}
+{"para": 21, "heading": "Bug #1", "move": "COUNTER", "sub": "自问自答", "evidence_excerpt": "Why did that seem reasonable at the time", "narrative_ratio": 0.0}
+{"para": 22, "heading": "Bug #1", "move": "ARGUE", "sub": "失败时间线", "evidence_excerpt": "broke in early 2026", "narrative_ratio": 0.1}
+{"para": 23, "heading": "Bug #1", "move": "ARGUE", "sub": "发现：读命中清单", "evidence_excerpt": "reading the raw hit lists", "narrative_ratio": 0.1}
+{"para": 24, "heading": "Bug #1", "move": "ARGUE", "sub": "机制归因", "evidence_excerpt": "约 is a common mo", "narrative_ratio": 0.0}
+{"para": 25, "heading": "Bug #1", "move": "ARGUE", "sub": "单句段教训", "evidence_excerpt": "That was the week", "narrative_ratio": 0.0}
+{"para": 26, "heading": "Bug #1", "move": "ARGUE", "sub": "习惯保持", "evidence_excerpt": "a habit worth keeping", "narrative_ratio": 0.0}
+{"para": 27, "heading": "Bug #1", "move": "ARGUE", "sub": "修复：词边界", "evidence_excerpt": "real word boundaries", "narrative_ratio": 0.0}
+{"para": 28, "heading": "Bug #1", "move": "ARGUE", "sub": "英文复测", "evidence_excerpt": "re-ran the English corpus", "narrative_ratio": 0.0}
+{"para": 29, "heading": "Bug #1", "move": "ARGUE", "sub": "修正规模意义", "evidence_excerpt": "mattered beyond one metric", "narrative_ratio": 0.0}
+{"para": 30, "heading": "Bug #1", "move": "ARGUE", "sub": "手工重数", "evidence_excerpt": "recounted one full article by hand", "narrative_ratio": 0.1}
+{"para": 31, "heading": "Bug #1", "move": "ARGUE", "sub": "单句段对照", "evidence_excerpt": "The counter had", "narrative_ratio": 0.0}
+{"para": 32, "heading": "Bug #1", "move": "ARGUE", "sub": "可辩护声明", "evidence_excerpt": "willing to defend in public", "narrative_ratio": 0.0}
+{"para": 34, "heading": "Bug #2", "move": "ARGUE", "sub": "机制：TTR", "evidence_excerpt": "Type-token rati", "narrative_ratio": 0.0}
+{"para": 35, "heading": "Bug #2", "move": "ARGUE", "sub": "缺陷文档化", "evidence_excerpt": "mechanical flaw", "narrative_ratio": 0.0}
+{"para": 36, "heading": "Bug #2", "move": "ARGUE", "sub": "具体例子", "evidence_excerpt": "Take an author with a", "narrative_ratio": 0.1}
+{"para": 37, "heading": "Bug #2", "move": "ARGUE", "sub": "实践影响", "evidence_excerpt": "partl", "narrative_ratio": 0.0}
+{"para": 38, "heading": "Bug #2", "move": "CONTEXT", "sub": "已知背景", "evidence_excerpt": "None of this was unknown", "narrative_ratio": 0.0}
+{"para": 39, "heading": "Bug #2", "move": "ARGUE", "sub": "修复：MATTR", "evidence_excerpt": "moving-average type-token ratio", "narrative_ratio": 0.0}
+{"para": 40, "heading": "Bug #2", "move": "ARGUE", "sub": "窗口理由", "evidence_excerpt": "150 tokens because", "narrative_ratio": 0.0}
+{"para": 41, "heading": "Bug #2", "move": "ARGUE", "sub": "复测收窄", "evidence_excerpt": "the spread between the", "narrative_ratio": 0.0}
+{"para": 42, "heading": "Bug #2", "move": "ARGUE", "sub": "单句段判定", "evidence_excerpt": "The signal survived", "narrative_ratio": 0.0}
+{"para": 43, "heading": "Bug #2", "move": "ARGUE", "sub": "窗口稳健性", "evidence_excerpt": "varying the w", "narrative_ratio": 0.0}
+{"para": 44, "heading": "Bug #2", "move": "COUNTER", "sub": "自我质疑", "evidence_excerpt": "Could the original gap have been real", "narrative_ratio": 0.0}
+{"para": 45, "heading": "Bug #2", "move": "ARGUE", "sub": "谦逊表述", "evidence_excerpt": "a humbler way", "narrative_ratio": 0.1}
+{"para": 46, "heading": "Bug #2", "move": "ARGUE", "sub": "可辩护残差", "evidence_excerpt": "residual spread", "narrative_ratio": 0.0}
+{"para": 47, "heading": "Bug #2", "move": "ARGUE", "sub": "invariance 要求", "evidence_excerpt": "declare an invariance", "narrative_ratio": 0.0}
+{"para": 49, "heading": "Bug #3", "move": "ARGUE", "sub": "harness 漏抓", "evidence_excerpt": "caught by our regression harne", "narrative_ratio": 0.0}
+{"para": 50, "heading": "Bug #3", "move": "ARGUE", "sub": "expectations 形式", "evidence_excerpt": "ordinary markdown tables", "narrative_ratio": 0.0}
+{"para": 51, "heading": "Bug #3", "move": "ARGUE", "sub": "第三失败归因", "evidence_excerpt": "the third failure", "narrative_ratio": 0.0}
+{"para": 52, "heading": "Bug #3", "move": "ARGUE", "sub": "单句段对照", "evidence_excerpt": "Everything passed", "narrative_ratio": 0.0}
+{"para": 53, "heading": "Bug #3", "move": "ARGUE", "sub": "时长坦白", "evidence_excerpt": "The uncomfortable part", "narrative_ratio": 0.1}
+{"para": 54, "heading": "Bug #3", "move": "ARGUE", "sub": "意外发现", "evidence_excerpt": "accidental", "narrative_ratio": 0.0}
+{"para": 55, "heading": "Bug #3", "move": "ARGUE", "sub": "stale 清单", "evidence_excerpt": "6 were stale expectations", "narrative_ratio": 0.0}
+{"para": 56, "heading": "Bug #3", "move": "ARGUE", "sub": "响亮失败更好", "evidence_excerpt": "A loud failure", "narrative_ratio": 0.0}
+{"para": 57, "heading": "Bug #3", "move": "ARGUE", "sub": "单句段教训", "evidence_excerpt": "stopped trusting green", "narrative_ratio": 0.0}
+{"para": 58, "heading": "Bug #3", "move": "ARGUE", "sub": "新规则", "evidence_excerpt": "demonstrate failure before", "narrative_ratio": 0.0}
+{"para": 59, "heading": "Bug #3", "move": "ARGUE", "sub": "ritual 实践", "evidence_excerpt": "a small ritual", "narrative_ratio": 0.0}
+{"para": 60, "heading": "Bug #3", "move": "ARGUE", "sub": "测试数据", "evidence_excerpt": "20 regression tests", "narrative_ratio": 0.0}
+{"para": 61, "heading": "Bug #3", "move": "ARGUE", "sub": "格言", "evidence_excerpt": "cannot fail", "narrative_ratio": 0.0}
+{"para": 63, "heading": "What we now require", "move": "FRAME", "sub": "要求清单引入", "evidence_excerpt": "came out of these 3 failures", "narrative_ratio": 0.0}
+{"para": 64, "heading": "What we now require", "move": "APPLY", "sub": "处方 bullet", "evidence_excerpt": "Boundaries are the contract", "narrative_ratio": 0.0}
+{"para": 65, "heading": "What we now require", "move": "APPLY", "sub": "制度运行", "evidence_excerpt": "run on each change", "narrative_ratio": 0.0}
+{"para": 67, "heading": "Earning the right", "move": "ARGUE", "sub": "同型回看", "evidence_excerpt": "share a shape", "narrative_ratio": 0.0}
+{"para": 68, "heading": "Earning the right", "move": "CLOSE", "sub": "格言收束", "evidence_excerpt": "is not just a measurement", "narrative_ratio": 0.0}
+{"para": 69, "heading": "Earning the right", "move": "CLOSE", "sub": "收束", "evidence_excerpt": "never the hard part", "narrative_ratio": 0.0}

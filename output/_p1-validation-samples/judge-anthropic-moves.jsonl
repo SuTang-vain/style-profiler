@@ -1,0 +1,39 @@
+{"para": 2, "heading": "(开篇)", "move": "CONTEXT", "sub": "经验开场", "evidence_excerpt": "Over the past year, we have been building", "narrative_ratio": 0.0}
+{"para": 3, "heading": "(开篇)", "move": "CONTEXT", "sub": "动机", "evidence_excerpt": "The motivation was comparative", "narrative_ratio": 0.0}
+{"para": 4, "heading": "(开篇)", "move": "FRAME", "sub": "文章定位", "evidence_excerpt": "we share what we learned", "narrative_ratio": 0.0}
+{"para": 6, "heading": "What does it measure?", "move": "ARGUE", "sub": "指标描述", "evidence_excerpt": "fixed set of roughly two dozen", "narrative_ratio": 0.0}
+{"para": 7, "heading": "What does it measure?", "move": "CONTEXT", "sub": "语料描述", "evidence_excerpt": "ten or so posts per institu", "narrative_ratio": 0.0}
+{"para": 8, "heading": "What does it measure?", "move": "ARGUE", "sub": "聚合方式", "evidence_excerpt": "aggregated at the institution level", "narrative_ratio": 0.0}
+{"para": 9, "heading": "What does it measure?", "move": "ARGUE", "sub": "三层区分", "evidence_excerpt": "statistical layer", "narrative_ratio": 0.0}
+{"para": 10, "heading": "What does it measure?", "move": "ARGUE", "sub": "侵蚀警示", "evidence_excerpt": "it erodes eas", "narrative_ratio": 0.0}
+{"para": 11, "heading": "What does it measure?", "move": "ARGUE", "sub": "失败形状总起", "evidence_excerpt": "one failure shape kept recurring", "narrative_ratio": 0.0}
+{"para": 13, "heading": "Failure mode 1", "move": "ARGUE", "sub": "FM1 定义", "evidence_excerpt": "substring contamination", "narrative_ratio": 0.0}
+{"para": 14, "heading": "Failure mode 1", "move": "ARGUE", "sub": "例：hedge 词表", "evidence_excerpt": "vocabulary of hedging expressions", "narrative_ratio": 0.0}
+{"para": 15, "heading": "Failure mode 1", "move": "ARGUE", "sub": "机理", "evidence_excerpt": "sits inside longer words", "narrative_ratio": 0.0}
+{"para": 16, "heading": "Failure mode 1", "move": "ARGUE", "sub": "发现方式", "evidence_excerpt": "reading the hit list rather than the code", "narrative_ratio": 0.0}
+{"para": 17, "heading": "Failure mode 1", "move": "ARGUE", "sub": "教训泛化", "evidence_excerpt": "The lesson generalizes", "narrative_ratio": 0.0}
+{"para": 18, "heading": "Failure mode 1", "move": "ARGUE", "sub": "制度化", "evidence_excerpt": "routine step rather than an em", "narrative_ratio": 0.0}
+{"para": 20, "heading": "Failure mode 2", "move": "ARGUE", "sub": "FM2 定义", "evidence_excerpt": "the length confound", "narrative_ratio": 0.0}
+{"para": 21, "heading": "Failure mode 2", "move": "ARGUE", "sub": "TTR 描述", "evidence_excerpt": "proportion of distinct words", "narrative_ratio": 0.0}
+{"para": 22, "heading": "Failure mode 2", "move": "ARGUE", "sub": "修复：滑窗", "evidence_excerpt": "fixed-width sliding wind", "narrative_ratio": 0.0}
+{"para": 23, "heading": "Failure mode 2", "move": "COUNTER", "sub": "让步质疑", "evidence_excerpt": "One could argue", "narrative_ratio": 0.0}
+{"para": 24, "heading": "Failure mode 2", "move": "ARGUE", "sub": "限定声明", "evidence_excerpt": "may still be real", "narrative_ratio": 0.0}
+{"para": 25, "heading": "Failure mode 2", "move": "ARGUE", "sub": "invariance 多样", "evidence_excerpt": "the obvious invariance", "narrative_ratio": 0.0}
+{"para": 27, "heading": "Failure mode 3", "move": "ARGUE", "sub": "FM3 定义", "evidence_excerpt": "the silent validator", "narrative_ratio": 0.0}
+{"para": 28, "heading": "Failure mode 3", "move": "CONTEXT", "sub": "漂移常态", "evidence_excerpt": "Parsers drift out of sync", "narrative_ratio": 0.0}
+{"para": 29, "heading": "Failure mode 3", "move": "ARGUE", "sub": "harness 重算", "evidence_excerpt": "recomputed each metric", "narrative_ratio": 0.0}
+{"para": 30, "heading": "Failure mode 3", "move": "ARGUE", "sub": "格言", "evidence_excerpt": "worse than no validator", "narrative_ratio": 0.0}
+{"para": 31, "heading": "Failure mode 3", "move": "ARGUE", "sub": "历史回顾", "evidence_excerpt": "reviewing the historical record", "narrative_ratio": 0.1}
+{"para": 33, "heading": "Why detection", "move": "ARGUE", "sub": "根因归因", "evidence_excerpt": "we trus", "narrative_ratio": 0.0}
+{"para": 34, "heading": "Why detection", "move": "COUNTER", "sub": "设问自答", "evidence_excerpt": "Could we have caught these earlier", "narrative_ratio": 0.0}
+{"para": 35, "heading": "Why detection", "move": "ARGUE", "sub": "澄清声明", "evidence_excerpt": "To state it plainly", "narrative_ratio": 0.0}
+{"para": 36, "heading": "Why detection", "move": "ARGUE", "sub": "边界声明", "evidence_excerpt": "aren't prescriptive", "narrative_ratio": 0.0}
+{"para": 37, "heading": "Why detection", "move": "ARGUE", "sub": "读者建议", "evidence_excerpt": "our advice is si", "narrative_ratio": 0.0}
+{"para": 39, "heading": "What we changed", "move": "ARGUE", "sub": "变更引入", "evidence_excerpt": "changing the way we", "narrative_ratio": 0.0}
+{"para": 40, "heading": "What we changed", "move": "APPLY", "sub": "处方：词边界", "evidence_excerpt": "Word-boundary matching", "narrative_ratio": 0.0}
+{"para": 41, "heading": "What we changed", "move": "APPLY", "sub": "开源可用", "evidence_excerpt": "available i", "narrative_ratio": 0.0}
+{"para": 42, "heading": "What we changed", "move": "APPLY", "sub": "维护者建议", "evidence_excerpt": "If you maintain", "narrative_ratio": 0.0}
+{"para": 44, "heading": "Summary", "move": "CLOSE", "sub": "成功重定义", "evidence_excerpt": "isn't about finding the cleverest metri", "narrative_ratio": 0.0}
+{"para": 45, "heading": "Summary", "move": "CLOSE", "sub": "三原则引入", "evidence_excerpt": "three core princ", "narrative_ratio": 0.0}
+{"para": 46, "heading": "Summary", "move": "CLOSE", "sub": "原则清单", "evidence_excerpt": "Prefer deterministic checks", "narrative_ratio": 0.0}
+{"para": 47, "heading": "Summary", "move": "CLOSE", "sub": "信任积累收束", "evidence_excerpt": "slowly, and", "narrative_ratio": 0.0}

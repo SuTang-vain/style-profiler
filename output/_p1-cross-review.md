@@ -56,6 +56,12 @@
 - **kezhongke-en 是唯一结构级分岔**：五层命名+比喻+证据分级=跨语种口径的最佳验证样本——建议优先补独立评审（judge-kezhongke-en），把 §0 从"设计"变"实证"。
 - **P2 追加 3 项**（英文问句 bug / OBJ_SELFREF / 题材抗同质化提示）。
 
-## 六、样本
+## 六、独立评审补全（2026-09-08 续）
 
-四篇 draft 均在 output/_p1-validation-samples/（正文+自审注释格式），未入库前为工作区文件。
+四篇全部完成独立评审（judge-{cerebras,kezhongke-en,openai,anthropic}.md + moves.jsonl）：
+- **openai**：库特征完成度四篇最高——单句段节拍器 6 处、Bug 编号侦探链、格言模板逐字命中；hedge 超 P75（侦探语气效应）
+- **anthropic**：库特征命中率最高——六签名元素全部落位（澄清指控/自我批评节/边界声明/三原则/概念命名/模式清单），postmortem+playbook 双谱系组合进非原生题材；**人称 57 vs 30 是四篇最大偏差**
+- 横评"人称未分化"被两份评审独立确认（openai 58 / anthropic 57）——根因定为 **playbook 人称预算未列硬约束**（P2 项）
+- 结构对照结论不变：三库骨架同质化（题材压过库特征），kezhongke-en 唯一结构级分岔
+
+评审文件：judge-openai.md（61 标注）、judge-anthropic.md（39 标注）。
