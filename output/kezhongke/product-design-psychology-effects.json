@@ -1,7 +1,9 @@
 {
  "file": "product-design-psychology-effects.md",
+ "lang": "zh",
  "title": "产品设计中的 11 条心理学效应：从看见到留下",
  "cjk_chars": 5299,
+ "word_count": 258,
  "reading_time_min": 18.0,
  "structure": {
   "h2_count": 6,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 203,
-  "avg_sentence_len_cjk": 26.1,
-  "median_sentence_len_cjk": 22,
-  "p90_sentence_len_cjk": 40,
+  "avg_sentence_len": 26.1,
+  "median_sentence_len": 22,
+  "p90_sentence_len": 40,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 148,
-  "avg_paragraph_len_cjk": 35.8,
-  "median_paragraph_len_cjk": 24.0,
-  "p90_paragraph_len_cjk": 81,
+  "avg_paragraph_len": 35.8,
+  "median_paragraph_len": 24.0,
+  "p90_paragraph_len": 81,
   "one_line_paragraphs": 12
  },
  "evidence": {
@@ -36,8 +38,7 @@
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
-  "reference_entries": 4,
-  "quote_examples": []
+  "reference_entries": 4
  },
  "stance": {
   "hedge_hits": 2.45,
@@ -62,7 +63,7 @@
     "excerpt": "三个开发者主页，三种完全不同的自定义程度，都投入了超出「默认配置」的自定义成本。头像、主题、项目陈列，这些投入让主页成为「我的作品」而非「别人给的模板」，拥有感"
    }
   ],
-  "quantifier_hits": 3.96,
+  "quantifier_hits": 2.26,
   "first_person_count": 15,
   "objective_selfref_count": 1,
   "exclamations": 0,
@@ -71,6 +72,7 @@
  },
  "diction": {
   "ttr": 0.388,
+  "mattr": 0.746,
   "top_terms": [
    "用户×40",
    "设计×25",

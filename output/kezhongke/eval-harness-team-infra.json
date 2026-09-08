@@ -1,7 +1,9 @@
 {
  "file": "eval-harness-team-infra.md",
+ "lang": "zh",
  "title": "引言",
  "cjk_chars": 3879,
+ "word_count": 208,
  "reading_time_min": 13.0,
  "structure": {
   "h2_count": 13,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 138,
-  "avg_sentence_len_cjk": 28.3,
-  "median_sentence_len_cjk": 23,
-  "p90_sentence_len_cjk": 50,
+  "avg_sentence_len": 28.3,
+  "median_sentence_len": 23,
+  "p90_sentence_len": 50,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 71,
-  "avg_paragraph_len_cjk": 54.6,
-  "median_paragraph_len_cjk": 52,
-  "p90_paragraph_len_cjk": 123,
+  "avg_paragraph_len": 54.6,
+  "median_paragraph_len": 52,
+  "p90_paragraph_len": 123,
   "one_line_paragraphs": 2
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
-  "reference_entries": 1,
-  "quote_examples": []
+  "reference_entries": 1
  },
  "stance": {
-  "hedge_hits": 1.8,
+  "hedge_hits": 1.29,
   "hedge_examples": [
    {
     "term": "约",
@@ -70,7 +71,7 @@
     "excerpt": "| 方法 | 优势 | 局限 |\n|---|---|---|\n| 自动化评测 | 迭代快、完全可复现、无用户影响、每次提交都能跑、无需生产部署即可覆盖大量场景 "
    }
   ],
-  "quantifier_hits": 4.12,
+  "quantifier_hits": 2.06,
   "first_person_count": 13,
   "objective_selfref_count": 2,
   "exclamations": 0,
@@ -79,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.414,
+  "mattr": 0.762,
   "top_terms": [
    "评测×73",
    "任务×25",
@@ -103,11 +105,8 @@
  },
  "genre": {
   "genre": "期刊体",
-  "scores": {
-   "报告体": 0,
-   "期刊体": 2,
-   "行业分析": 0
-  },
-  "note": "规则命中"
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "期刊体"
  }
 }

@@ -384,7 +384,7 @@ def analyze(path: Path, genre_map=None):
 def aggregate(results):
     """语料级基线：数值指标取中位数 + 四分位（防均值被单篇长文拉偏）。"""
     keys = [
-        ("cjk_chars",), ("reading_time_min",),
+        ("cjk_chars",), ("word_count",), ("reading_time_min",),
         ("avg_sentence_len", "sentences"), ("p90_sentence_len", "sentences"),
         ("avg_paragraph_len", "paragraphs"),
         ("number_per_1k", "evidence"), ("precise_per_1k", "evidence"),

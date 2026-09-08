@@ -1,7 +1,9 @@
 {
  "file": "fde-career-ledger.md",
+ "lang": "zh",
  "title": "FDE 职业账本：是创始人培训，而非工程师晋升阶梯",
  "cjk_chars": 2935,
+ "word_count": 138,
  "reading_time_min": 10.0,
  "structure": {
   "h2_count": 7,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 86,
-  "avg_sentence_len_cjk": 34.1,
-  "median_sentence_len_cjk": 30.0,
-  "p90_sentence_len_cjk": 60,
+  "avg_sentence_len": 34.1,
+  "median_sentence_len": 30.0,
+  "p90_sentence_len": 60,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 45,
-  "avg_paragraph_len_cjk": 65.2,
-  "median_paragraph_len_cjk": 53,
-  "p90_paragraph_len_cjk": 121,
+  "avg_paragraph_len": 65.2,
+  "median_paragraph_len": 53,
+  "p90_paragraph_len": 121,
   "one_line_paragraphs": 2
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 14,
   "links_per_1k": 4.77,
   "citation_marks": 0,
-  "reference_entries": 9,
-  "quote_examples": []
+  "reference_entries": 9
  },
  "stance": {
-  "hedge_hits": 2.04,
+  "hedge_hits": 1.7,
   "hedge_examples": [
    {
     "term": "超过",
@@ -62,7 +63,7 @@
     "excerpt": "工程能力是底线，而非加分项。你必须能编写生产级代码——最低要求掌握Python，优先掌握TypeScript或Java，且需通过仍考察现场编码与SQL能力的面试"
    }
   ],
-  "quantifier_hits": 5.11,
+  "quantifier_hits": 3.07,
   "first_person_count": 13,
   "objective_selfref_count": 1,
   "exclamations": 0,
@@ -71,6 +72,7 @@
  },
  "diction": {
   "ttr": 0.494,
+  "mattr": 0.772,
   "top_terms": [
    "工程师×25",
    "岗位×21",

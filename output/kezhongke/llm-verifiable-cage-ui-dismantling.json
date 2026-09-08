@@ -1,7 +1,9 @@
 {
  "file": "llm-verifiable-cage-ui-dismantling.md",
+ "lang": "zh",
  "title": "把 LLM 的不可控关进可验证的笼子：UI 拆解工程实战",
  "cjk_chars": 4596,
+ "word_count": 167,
  "reading_time_min": 15.0,
  "structure": {
   "h2_count": 8,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 133,
-  "avg_sentence_len_cjk": 34.6,
-  "median_sentence_len_cjk": 32,
-  "p90_sentence_len_cjk": 57,
+  "avg_sentence_len": 34.6,
+  "median_sentence_len": 32,
+  "p90_sentence_len": 57,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 47,
-  "avg_paragraph_len_cjk": 97.8,
-  "median_paragraph_len_cjk": 95,
-  "p90_paragraph_len_cjk": 184,
+  "avg_paragraph_len": 97.8,
+  "median_paragraph_len": 95,
+  "p90_paragraph_len": 184,
   "one_line_paragraphs": 1
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
-  "reference_entries": 0,
-  "quote_examples": []
+  "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 4.35,
+  "hedge_hits": 2.83,
   "hedge_examples": [
    {
     "term": "可能",
@@ -70,7 +71,7 @@
     "excerpt": "往返等价测试（下文详述）把失败量化了：结构分 0.000–0.215，而文本分往往 0.8 以上。这组数字是全文最重要的教训。文本分高，是因为文本可以逐字复制对"
    }
   ],
-  "quantifier_hits": 3.26,
+  "quantifier_hits": 2.39,
   "first_person_count": 8,
   "objective_selfref_count": 0,
   "exclamations": 0,
@@ -79,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.378,
+  "mattr": 0.746,
   "top_terms": [
    "结构×22",
    "测试×17",

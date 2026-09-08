@@ -1,7 +1,9 @@
 {
  "file": "youth-cold-thinking.md",
+ "lang": "zh",
  "title": "AI 时代青年\"冷思考\"能力的识别与培养路径",
  "cjk_chars": 5420,
+ "word_count": 123,
  "reading_time_min": 18.0,
  "structure": {
   "h2_count": 7,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 153,
-  "avg_sentence_len_cjk": 35.4,
-  "median_sentence_len_cjk": 32,
-  "p90_sentence_len_cjk": 60,
+  "avg_sentence_len": 35.4,
+  "median_sentence_len": 32,
+  "p90_sentence_len": 60,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 77,
-  "avg_paragraph_len_cjk": 70.4,
-  "median_paragraph_len_cjk": 62,
-  "p90_paragraph_len_cjk": 157,
+  "avg_paragraph_len": 70.4,
+  "median_paragraph_len": 62,
+  "p90_paragraph_len": 157,
   "one_line_paragraphs": 1
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 23,
-  "reference_entries": 10,
-  "quote_examples": []
+  "reference_entries": 10
  },
  "stance": {
-  "hedge_hits": 3.14,
+  "hedge_hits": 2.95,
   "hedge_examples": [
    {
     "term": "尚未",
@@ -70,7 +71,7 @@
     "excerpt": "年轻人天然拥有更长的人生规划期，更有条件进行短期回报不明确但长期价值高的投入。在 AI 时代尤其如此——技术变化的真正影响往往不是一两年就能完全显现的。能够超越"
    }
   ],
-  "quantifier_hits": 0.92,
+  "quantifier_hits": 0.37,
   "first_person_count": 5,
   "objective_selfref_count": 7,
   "exclamations": 0,
@@ -79,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.346,
+  "mattr": 0.742,
   "top_terms": [
    "能力×70",
    "认知×19",

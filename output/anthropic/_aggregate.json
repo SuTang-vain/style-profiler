@@ -6,6 +6,13 @@
   "min": 0,
   "max": 0
  },
+ "word_count": {
+  "median": 2639.5,
+  "p25": 2098,
+  "p75": 3145,
+  "min": 890,
+  "max": 7977
+ },
  "reading_time_min": {
   "median": 8.5,
   "p25": 7.0,

@@ -1,7 +1,9 @@
 {
  "file": "multi-agent-sociology.md",
+ "lang": "zh",
  "title": "多智能体社会学视角下的人机关系分析框架",
  "cjk_chars": 6008,
+ "word_count": 277,
  "reading_time_min": 20.0,
  "structure": {
   "h2_count": 9,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 141,
-  "avg_sentence_len_cjk": 42.6,
-  "median_sentence_len_cjk": 42,
-  "p90_sentence_len_cjk": 68,
+  "avg_sentence_len": 42.6,
+  "median_sentence_len": 42,
+  "p90_sentence_len": 68,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 79,
-  "avg_paragraph_len_cjk": 76.1,
-  "median_paragraph_len_cjk": 64,
-  "p90_paragraph_len_cjk": 178,
+  "avg_paragraph_len": 76.1,
+  "median_paragraph_len": 64,
+  "p90_paragraph_len": 178,
   "one_line_paragraphs": 3
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 36,
-  "reference_entries": 18,
-  "quote_examples": []
+  "reference_entries": 18
  },
  "stance": {
-  "hedge_hits": 4.83,
+  "hedge_hits": 4.66,
   "hedge_examples": [
    {
     "term": "可能",
@@ -66,7 +67,7 @@
     "excerpt": "涌现能力（Emergent Abilities）是大语言模型研究中的关键现象：随着模型规模增长，在特定阈值后出现此前不存在的新能力，如上下文学习、链式思考和工具"
    }
   ],
-  "quantifier_hits": 0.67,
+  "quantifier_hits": 0.5,
   "first_person_count": 7,
   "objective_selfref_count": 7,
   "exclamations": 0,
@@ -75,6 +76,7 @@
  },
  "diction": {
   "ttr": 0.302,
+  "mattr": 0.71,
   "top_terms": [
    "智能×58",
    "社会×44",

@@ -1,7 +1,9 @@
 {
  "file": "ai-engineering-paper-to-product.md",
+ "lang": "zh",
  "title": "后端开发的范式转移：从工程转化视角审视 AI 工程化的岗位结构演变与能力需求",
  "cjk_chars": 5522,
+ "word_count": 288,
  "reading_time_min": 18.0,
  "structure": {
   "h2_count": 10,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 126,
-  "avg_sentence_len_cjk": 44.2,
-  "median_sentence_len_cjk": 37,
-  "p90_sentence_len_cjk": 72,
+  "avg_sentence_len": 44.2,
+  "median_sentence_len": 37,
+  "p90_sentence_len": 72,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 91,
-  "avg_paragraph_len_cjk": 60.7,
-  "median_paragraph_len_cjk": 51,
-  "p90_paragraph_len_cjk": 135,
+  "avg_paragraph_len": 60.7,
+  "median_paragraph_len": 51,
+  "p90_paragraph_len": 135,
   "one_line_paragraphs": 5
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 30,
-  "reference_entries": 13,
-  "quote_examples": []
+  "reference_entries": 13
  },
  "stance": {
-  "hedge_hits": 2.9,
+  "hedge_hits": 1.63,
   "hedge_examples": [
    {
     "term": "约",
@@ -62,7 +63,7 @@
     "excerpt": "三类需求的优先级排序为：痛点 > 爽点 > 痒点。大量 AI 产品失败的原因在于以痛点的方式营销痒点的产品——将\"可以 AI 化\"包装为\"必须 AI 化\"。"
    }
   ],
-  "quantifier_hits": 1.27,
+  "quantifier_hits": 0.54,
   "first_person_count": 0,
   "objective_selfref_count": 9,
   "exclamations": 0,
@@ -71,6 +72,7 @@
  },
  "diction": {
   "ttr": 0.323,
+  "mattr": 0.72,
   "top_terms": [
    "转化×37",
    "能力×34",

@@ -1,7 +1,9 @@
 {
  "file": "deepseek-v4-analysis.md",
+ "lang": "zh",
  "title": "摘要",
  "cjk_chars": 3673,
+ "word_count": 571,
  "reading_time_min": 12.0,
  "structure": {
   "h2_count": 13,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 112,
-  "avg_sentence_len_cjk": 33.1,
-  "median_sentence_len_cjk": 26,
-  "p90_sentence_len_cjk": 58,
+  "avg_sentence_len": 33.1,
+  "median_sentence_len": 26,
+  "p90_sentence_len": 58,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 82,
-  "avg_paragraph_len_cjk": 44.8,
-  "median_paragraph_len_cjk": 18.0,
-  "p90_paragraph_len_cjk": 88,
+  "avg_paragraph_len": 44.8,
+  "median_paragraph_len": 18.0,
+  "p90_paragraph_len": 88,
   "one_line_paragraphs": 6
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
-  "reference_entries": 15,
-  "quote_examples": []
+  "reference_entries": 15
  },
  "stance": {
-  "hedge_hits": 8.17,
+  "hedge_hits": 7.62,
   "hedge_examples": [
    {
     "term": "约",
@@ -70,7 +71,7 @@
     "excerpt": "1. 从“堆参数”到“拼架构与后训练”：V4-Flash 用 284B 参数在 Agent / 编码基准上反超 1.6T 旗舰预览版，证明架构设计、训练方法与推"
    }
   ],
-  "quantifier_hits": 1.63,
+  "quantifier_hits": 0.0,
   "first_person_count": 0,
   "objective_selfref_count": 1,
   "exclamations": 2,
@@ -79,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.37,
+  "mattr": 0.754,
   "top_terms": [
    "正式版×30",
    "发布×19",
@@ -103,11 +105,8 @@
  },
  "genre": {
   "genre": "报告体",
-  "scores": {
-   "报告体": 4,
-   "期刊体": 0,
-   "行业分析": 0
-  },
-  "note": "规则命中"
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "报告体"
  }
 }

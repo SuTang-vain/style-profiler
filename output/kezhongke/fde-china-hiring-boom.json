@@ -1,7 +1,9 @@
 {
  "file": "fde-china-hiring-boom.md",
+ "lang": "zh",
  "title": "中国 FDE 招聘潮：同一个名字，不同的约束",
  "cjk_chars": 3162,
+ "word_count": 97,
  "reading_time_min": 11.0,
  "structure": {
   "h2_count": 6,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 90,
-  "avg_sentence_len_cjk": 35.1,
-  "median_sentence_len_cjk": 33.0,
-  "p90_sentence_len_cjk": 58,
+  "avg_sentence_len": 35.1,
+  "median_sentence_len": 33.0,
+  "p90_sentence_len": 58,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 48,
-  "avg_paragraph_len_cjk": 65.9,
-  "median_paragraph_len_cjk": 53.5,
-  "p90_paragraph_len_cjk": 137,
+  "avg_paragraph_len": 65.9,
+  "median_paragraph_len": 53.5,
+  "p90_paragraph_len": 137,
   "one_line_paragraphs": 4
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 7,
   "links_per_1k": 2.21,
   "citation_marks": 0,
-  "reference_entries": 8,
-  "quote_examples": []
+  "reference_entries": 8
  },
  "stance": {
-  "hedge_hits": 1.58,
+  "hedge_hits": 0.95,
   "hedge_examples": [
    {
     "term": "约",
@@ -70,7 +71,7 @@
     "excerpt": "首先是合规与集成技能：私有化部署、系统集成、让模型适配国产技术栈。我们查看过一则国企发布的相关招聘，月薪为15000至30000 RMB——仅为宣传薪资的零头，"
    }
   ],
-  "quantifier_hits": 4.11,
+  "quantifier_hits": 2.53,
   "first_person_count": 12,
   "objective_selfref_count": 2,
   "exclamations": 0,
@@ -79,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.443,
+  "mattr": 0.749,
   "top_terms": [
    "部署×25",
    "中国×20",

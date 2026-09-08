@@ -1,7 +1,9 @@
 {
  "file": "youth-ai-knowledge-propagation.md",
+ "lang": "zh",
  "title": "面向青年群体的 AI 前沿知识传播：叙事策略与社群运营框架",
  "cjk_chars": 6340,
+ "word_count": 171,
  "reading_time_min": 21.0,
  "structure": {
   "h2_count": 6,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 187,
-  "avg_sentence_len_cjk": 33.9,
-  "median_sentence_len_cjk": 28,
-  "p90_sentence_len_cjk": 60,
+  "avg_sentence_len": 33.9,
+  "median_sentence_len": 28,
+  "p90_sentence_len": 60,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 93,
-  "avg_paragraph_len_cjk": 68.2,
-  "median_paragraph_len_cjk": 58,
-  "p90_paragraph_len_cjk": 131,
+  "avg_paragraph_len": 68.2,
+  "median_paragraph_len": 58,
+  "p90_paragraph_len": 131,
   "one_line_paragraphs": 4
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 22,
-  "reference_entries": 11,
-  "quote_examples": []
+  "reference_entries": 11
  },
  "stance": {
-  "hedge_hits": 1.58,
+  "hedge_hits": 1.42,
   "hedge_examples": [
    {
     "term": "可能",
@@ -66,7 +67,7 @@
     "excerpt": "例如，可以进行\"一周无 AI 写作\"实验，记录效率变化、质量评估、情绪体验和认知反思，与常规使用 AI 的周进行对比。更精细的设计是\"三种模式对比实验\"：同一任"
    }
   ],
-  "quantifier_hits": 0.47,
+  "quantifier_hits": 0.32,
   "first_person_count": 4,
   "objective_selfref_count": 5,
   "exclamations": 0,
@@ -75,6 +76,7 @@
  },
  "diction": {
   "ttr": 0.312,
+  "mattr": 0.723,
   "top_terms": [
    "传播×36",
    "知识×34",

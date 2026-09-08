@@ -1,7 +1,9 @@
 {
  "file": "ux-writing-guidelines.md",
+ "lang": "zh",
  "title": "一句话引言",
  "cjk_chars": 3699,
+ "word_count": 174,
  "reading_time_min": 12.0,
  "structure": {
   "h2_count": 11,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 108,
-  "avg_sentence_len_cjk": 34.6,
-  "median_sentence_len_cjk": 29,
-  "p90_sentence_len_cjk": 60,
+  "avg_sentence_len": 34.6,
+  "median_sentence_len": 29,
+  "p90_sentence_len": 60,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 65,
-  "avg_paragraph_len_cjk": 56.9,
-  "median_paragraph_len_cjk": 37,
-  "p90_paragraph_len_cjk": 124,
+  "avg_paragraph_len": 56.9,
+  "median_paragraph_len": 37,
+  "p90_paragraph_len": 124,
   "one_line_paragraphs": 9
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 10,
   "links_per_1k": 2.7,
   "citation_marks": 0,
-  "reference_entries": 8,
-  "quote_examples": []
+  "reference_entries": 8
  },
  "stance": {
-  "hedge_hits": 0.54,
+  "hedge_hits": 0.0,
   "hedge_examples": [
    {
     "term": "约",
@@ -66,7 +67,7 @@
     "excerpt": "4. 文案是\"任务的语言\"，不是\"功能的名字\"。 用户需求分析 提醒我们：用户表达的\"想要\"（Want）背后是\"需要\"（Need）与任务动机（Job to be"
    }
   ],
-  "quantifier_hits": 5.68,
+  "quantifier_hits": 2.43,
   "first_person_count": 13,
   "objective_selfref_count": 5,
   "exclamations": 0,
@@ -75,6 +76,7 @@
  },
  "diction": {
   "ttr": 0.429,
+  "mattr": 0.747,
   "top_terms": [
    "用户×41",
    "文案×35",
@@ -99,11 +101,8 @@
  },
  "genre": {
   "genre": "blog_or_exploration",
-  "scores": {
-   "报告体": 0,
-   "期刊体": 0,
-   "行业分析": 0
-  },
-  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "blog_or_exploration"
  }
 }

@@ -1,7 +1,9 @@
 {
  "file": "sub-834c87815564.md",
+ "lang": "zh",
  "title": "摘要",
  "cjk_chars": 2924,
+ "word_count": 119,
  "reading_time_min": 10.0,
  "structure": {
   "h2_count": 10,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 103,
-  "avg_sentence_len_cjk": 28.4,
-  "median_sentence_len_cjk": 25,
-  "p90_sentence_len_cjk": 45,
+  "avg_sentence_len": 28.4,
+  "median_sentence_len": 25,
+  "p90_sentence_len": 45,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 61,
-  "avg_paragraph_len_cjk": 47.9,
-  "median_paragraph_len_cjk": 44,
-  "p90_paragraph_len_cjk": 98,
+  "avg_paragraph_len": 47.9,
+  "median_paragraph_len": 44,
+  "p90_paragraph_len": 98,
   "one_line_paragraphs": 11
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 1,
   "links_per_1k": 0.34,
   "citation_marks": 0,
-  "reference_entries": 5,
-  "quote_examples": []
+  "reference_entries": 5
  },
  "stance": {
-  "hedge_hits": 4.79,
+  "hedge_hits": 2.39,
   "hedge_examples": [
    {
     "term": "约",
@@ -62,7 +63,7 @@
     "excerpt": "- 不能宣称任何前置框架都会损害生成质量；\n- 不能宣称开放提示在所有任务上优于框架提示；\n- 不能由 Musepool 的规则文本推出它一定提高多样性或人类偏"
    }
   ],
-  "quantifier_hits": 2.39,
+  "quantifier_hits": 1.03,
   "first_person_count": 0,
   "objective_selfref_count": 2,
   "exclamations": 0,
@@ -71,6 +72,7 @@
  },
  "diction": {
   "ttr": 0.374,
+  "mattr": 0.752,
   "top_terms": [
    "生成×32",
    "模型×28",
@@ -95,11 +97,8 @@
  },
  "genre": {
   "genre": "blog_or_exploration",
-  "scores": {
-   "报告体": 1,
-   "期刊体": 0,
-   "行业分析": 0
-  },
-  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "blog_or_exploration"
  }
 }

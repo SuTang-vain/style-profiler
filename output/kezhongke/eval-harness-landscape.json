@@ -1,7 +1,9 @@
 {
  "file": "eval-harness-landscape.md",
+ "lang": "zh",
  "title": "1. 评估工作的三个层次",
  "cjk_chars": 3873,
+ "word_count": 519,
  "reading_time_min": 13.0,
  "structure": {
   "h2_count": 7,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 146,
-  "avg_sentence_len_cjk": 26.9,
-  "median_sentence_len_cjk": 24.0,
-  "p90_sentence_len_cjk": 43,
+  "avg_sentence_len": 26.9,
+  "median_sentence_len": 24.0,
+  "p90_sentence_len": 43,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 96,
-  "avg_paragraph_len_cjk": 40.3,
-  "median_paragraph_len_cjk": 36.0,
-  "p90_paragraph_len_cjk": 82,
+  "avg_paragraph_len": 40.3,
+  "median_paragraph_len": 36.0,
+  "p90_paragraph_len": 82,
   "one_line_paragraphs": 4
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 17,
   "links_per_1k": 4.39,
   "citation_marks": 43,
-  "reference_entries": 0,
-  "quote_examples": []
+  "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 3.1,
+  "hedge_hits": 2.58,
   "hedge_examples": [
    {
     "term": "仍在",
@@ -62,7 +63,7 @@
     "excerpt": "需要特别注意：OpenAI 当前文档已经说明，其 Evals 和 Graders 平台正在弃用和迁移。不建议把内部评测体系完全绑定在单一厂商的 Evals AP"
    }
   ],
-  "quantifier_hits": 6.45,
+  "quantifier_hits": 2.07,
   "first_person_count": 3,
   "objective_selfref_count": 2,
   "exclamations": 0,
@@ -71,6 +72,7 @@
  },
  "diction": {
   "ttr": 0.36,
+  "mattr": 0.74,
   "top_terms": [
    "任务×30",
    "模型×28",
@@ -95,11 +97,8 @@
  },
  "genre": {
   "genre": "期刊体",
-  "scores": {
-   "报告体": 0,
-   "期刊体": 2,
-   "行业分析": 1
-  },
-  "note": "规则命中"
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "期刊体"
  }
 }

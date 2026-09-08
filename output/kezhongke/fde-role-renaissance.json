@@ -1,7 +1,9 @@
 {
  "file": "fde-role-renaissance.md",
+ "lang": "zh",
  "title": "FDE 复兴：Anthropic 和 OpenAI 为何为同一个二十年前的岗位押下重注",
  "cjk_chars": 3905,
+ "word_count": 199,
  "reading_time_min": 13.0,
  "structure": {
   "h2_count": 5,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 119,
-  "avg_sentence_len_cjk": 32.8,
-  "median_sentence_len_cjk": 30,
-  "p90_sentence_len_cjk": 54,
+  "avg_sentence_len": 32.8,
+  "median_sentence_len": 30,
+  "p90_sentence_len": 54,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 56,
-  "avg_paragraph_len_cjk": 69.7,
-  "median_paragraph_len_cjk": 51.0,
-  "p90_paragraph_len_cjk": 144,
+  "avg_paragraph_len": 69.7,
+  "median_paragraph_len": 51.0,
+  "p90_paragraph_len": 144,
   "one_line_paragraphs": 5
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 9,
   "links_per_1k": 2.3,
   "citation_marks": 0,
-  "reference_entries": 10,
-  "quote_examples": []
+  "reference_entries": 10
  },
  "stance": {
-  "hedge_hits": 1.54,
+  "hedge_hits": 1.28,
   "hedge_examples": [
    {
     "term": "据报道",
@@ -70,7 +71,7 @@
     "excerpt": "- 客户的问题确实十分复杂，且工作流缺乏明确界定——否则FDE就会沦为成本高昂的售前代表。\n- 合同金额可从5万美元的试点项目逐步增长至七位数规模——否则从成本"
    }
   ],
-  "quantifier_hits": 4.35,
+  "quantifier_hits": 2.3,
   "first_person_count": 14,
   "objective_selfref_count": 2,
   "exclamations": 0,
@@ -79,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.446,
+  "mattr": 0.764,
   "top_terms": [
    "工程师×35",
    "客户×24",

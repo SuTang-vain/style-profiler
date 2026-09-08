@@ -1,7 +1,9 @@
 {
  "file": "sub-fe996dbf4a74.md",
+ "lang": "zh",
  "title": "一、论文动机与问题定义",
  "cjk_chars": 7476,
+ "word_count": 338,
  "reading_time_min": 25.0,
  "structure": {
   "h2_count": 10,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 194,
-  "avg_sentence_len_cjk": 38.7,
-  "median_sentence_len_cjk": 32,
-  "p90_sentence_len_cjk": 67,
+  "avg_sentence_len": 38.7,
+  "median_sentence_len": 32,
+  "p90_sentence_len": 67,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 98,
-  "avg_paragraph_len_cjk": 76.3,
-  "median_paragraph_len_cjk": 64.0,
-  "p90_paragraph_len_cjk": 165,
+  "avg_paragraph_len": 76.3,
+  "median_paragraph_len": 64.0,
+  "p90_paragraph_len": 165,
   "one_line_paragraphs": 14
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 1,
   "links_per_1k": 0.13,
   "citation_marks": 4,
-  "reference_entries": 0,
-  "quote_examples": []
+  "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 1.61,
+  "hedge_hits": 0.67,
   "hedge_examples": [
    {
     "term": "约",
@@ -70,7 +71,7 @@
     "excerpt": "- 时间可组合性：处理时间维度。当移除一个组件时，该组件对共享环境所做的修改必须被完全且安全地撤销。这需要跟踪组件的每一次资源分配、事件注册和状态变异，并保证移"
    }
   ],
-  "quantifier_hits": 3.08,
+  "quantifier_hits": 2.14,
   "first_person_count": 2,
   "objective_selfref_count": 0,
   "exclamations": 0,
@@ -79,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.297,
+  "mattr": 0.725,
   "top_terms": [
    "组件×65",
    "依赖×53",
@@ -103,11 +105,8 @@
  },
  "genre": {
   "genre": "blog_or_exploration",
-  "scores": {
-   "报告体": 0,
-   "期刊体": 0,
-   "行业分析": 0
-  },
-  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+  "scores": {},
+  "note": "manual_override（线上 section 侧写）",
+  "rule_genre": "blog_or_exploration"
  }
 }

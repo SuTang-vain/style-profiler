@@ -1,7 +1,9 @@
 {
  "file": "bp-landing-page-recreation.md",
+ "lang": "zh",
  "title": "把一份 2013 年的商业计划书还原成网页",
  "cjk_chars": 2528,
+ "word_count": 177,
  "reading_time_min": 8.0,
  "structure": {
   "h2_count": 8,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 79,
-  "avg_sentence_len_cjk": 32.4,
-  "median_sentence_len_cjk": 27.0,
-  "p90_sentence_len_cjk": 59,
+  "avg_sentence_len": 32.4,
+  "median_sentence_len": 27.0,
+  "p90_sentence_len": 59,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 50,
-  "avg_paragraph_len_cjk": 50.6,
-  "median_paragraph_len_cjk": 45.0,
-  "p90_paragraph_len_cjk": 87,
+  "avg_paragraph_len": 50.6,
+  "median_paragraph_len": 45.0,
+  "p90_paragraph_len": 87,
   "one_line_paragraphs": 6
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
-  "reference_entries": 0,
-  "quote_examples": []
+  "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 1.98,
+  "hedge_hits": 0.79,
   "hedge_examples": [
    {
     "term": "可能",
@@ -70,7 +71,7 @@
     "excerpt": "\"可复用\"指的是模型训练流水线能直接消费。脑子里\"这个好看\"是私人感受，训练用不了；必须走完这条链："
    }
   ],
-  "quantifier_hits": 2.37,
+  "quantifier_hits": 1.58,
   "first_person_count": 16,
   "objective_selfref_count": 0,
   "exclamations": 0,
@@ -79,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.482,
+  "mattr": 0.752,
   "top_terms": [
    "组件×16",
    "风格×14",

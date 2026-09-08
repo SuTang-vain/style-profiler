@@ -1,7 +1,9 @@
 {
  "file": "diagnose-llm-with-self-concepts.md",
+ "lang": "zh",
  "title": "我用诊断自己的同一套概念诊断了 LLM",
  "cjk_chars": 4390,
+ "word_count": 70,
  "reading_time_min": 15.0,
  "structure": {
   "h2_count": 9,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 118,
-  "avg_sentence_len_cjk": 37.2,
-  "median_sentence_len_cjk": 30.5,
-  "p90_sentence_len_cjk": 66,
+  "avg_sentence_len": 37.2,
+  "median_sentence_len": 30.5,
+  "p90_sentence_len": 66,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 41,
-  "avg_paragraph_len_cjk": 107.1,
-  "median_paragraph_len_cjk": 122,
-  "p90_paragraph_len_cjk": 164,
+  "avg_paragraph_len": 107.1,
+  "median_paragraph_len": 122,
+  "p90_paragraph_len": 164,
   "one_line_paragraphs": 2
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
-  "reference_entries": 0,
-  "quote_examples": []
+  "reference_entries": 0
  },
  "stance": {
-  "hedge_hits": 1.37,
+  "hedge_hits": 1.14,
   "hedge_examples": [
    {
     "term": "超过",
@@ -70,7 +71,7 @@
     "excerpt": "但在 LLM 评估现场，我学到的最重要的一课是：\"变差\"有两种，病因完全不同。模型漂移是系统性偏移，要治模型；解码路径漂移是同一模型同一时刻的运行时方差，要治测"
    }
   ],
-  "quantifier_hits": 4.78,
+  "quantifier_hits": 2.51,
   "first_person_count": 49,
   "objective_selfref_count": 0,
   "exclamations": 0,
@@ -79,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.397,
+  "mattr": 0.744,
   "top_terms": [
    "规则×26",
    "模型×21",

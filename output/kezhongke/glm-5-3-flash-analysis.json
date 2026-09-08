@@ -1,7 +1,9 @@
 {
  "file": "glm-5-3-flash-analysis.md",
+ "lang": "zh",
  "title": "GLM-5.3-Flash 深度分析报告",
  "cjk_chars": 4732,
+ "word_count": 600,
  "reading_time_min": 16.0,
  "structure": {
   "h2_count": 14,
@@ -14,16 +16,16 @@
  },
  "sentences": {
   "sentence_count": 111,
-  "avg_sentence_len_cjk": 42.6,
-  "median_sentence_len_cjk": 30,
-  "p90_sentence_len_cjk": 81,
+  "avg_sentence_len": 42.6,
+  "median_sentence_len": 30,
+  "p90_sentence_len": 81,
   "question_sentences": 0
  },
  "paragraphs": {
   "paragraph_count": 45,
-  "avg_paragraph_len_cjk": 105.2,
-  "median_paragraph_len_cjk": 90,
-  "p90_paragraph_len_cjk": 219,
+  "avg_paragraph_len": 105.2,
+  "median_paragraph_len": 90,
+  "p90_paragraph_len": 219,
   "one_line_paragraphs": 0
  },
  "evidence": {
@@ -36,11 +38,10 @@
   "external_links": 22,
   "links_per_1k": 4.65,
   "citation_marks": 0,
-  "reference_entries": 18,
-  "quote_examples": []
+  "reference_entries": 18
  },
  "stance": {
-  "hedge_hits": 5.28,
+  "hedge_hits": 4.65,
   "hedge_examples": [
    {
     "term": "约",
@@ -70,7 +71,7 @@
     "excerpt": "> 关键观察：GLM-5.3-Flash 以不到 Kimi K3 三十分之一的输出价格，取得与其整数级别的智能表现；与 DeepSeek V4-Flash 相比"
    }
   ],
-  "quantifier_hits": 3.8,
+  "quantifier_hits": 1.69,
   "first_person_count": 0,
   "objective_selfref_count": 0,
   "exclamations": 2,
@@ -79,6 +80,7 @@
  },
  "diction": {
   "ttr": 0.342,
+  "mattr": 0.742,
   "top_terms": [
    "模型×47",
    "模态×35",
