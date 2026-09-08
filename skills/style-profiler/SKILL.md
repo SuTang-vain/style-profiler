@@ -72,7 +72,7 @@ python3 profiler.py corpus/<媒体名>/ -o output/<媒体名>/ --exclude '<排�
 
 用户说"按 X 的风格写/改这篇 / 用 X 的写法 / write in the style of X"时执行：
 
-1. **加载 playbook**：`templates/genre-playbook-<库>.md`（现库：kezhongke / cerebras / databricks / eleuther / google-research / microsoft-research / anthropic / openai）。目标库无 playbook 时，先走模式一建档再转化，不得凭印象写。
+1. **加载 playbook**：`templates/genre-playbook-<库>.md`（现库：kezhongke / cerebras / databricks / eleuther / google-research / microsoft-research / anthropic / openai）。目标库无 playbook 时，先走模式一建档再转化，不得凭印象写。**输出语言以 playbook 头部"输出语言"声明为准；无声明时默认该库语料语言。**
 2. **体裁路由**：按 playbook 的体裁/子体裁路由表与用户稿件题材确定目标子体裁；该条目的证据等级（[统计层]/[标注-N篇]/[推断]）必须随骨架一起向用户声明，[推断] 部分须经用户确认后使用。
 3. **三层约束加载**：
    - **硬约束**＝定量预算表（篇幅/句长/段长/数字密度/限定语/第一人称的 median 与 P25–P75 区间）——数值只信 playbook 中标注 [统计层] 的行；
