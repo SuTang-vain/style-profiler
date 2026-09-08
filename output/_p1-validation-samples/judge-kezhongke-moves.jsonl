@@ -1,0 +1,47 @@
+{"para": 1, "heading": "(开篇)", "move": "FRAME", "sub": "工具定位+本文预告", "evidence_excerpt": "给它一篇文章，它输出一组统计指纹", "narrative_ratio": 0.1}
+{"para": 2, "heading": "(开篇)", "move": "FRAME", "sub": "复盘预告+悬念", "evidence_excerpt": "在哪三个具体位置刻错的", "narrative_ratio": 0.2}
+{"para": 3, "heading": "(开篇)", "move": "FRAME", "sub": "明示三问题清单", "evidence_excerpt": "本文回答三个问题", "narrative_ratio": 0.0}
+{"para": 4, "heading": "(开篇)", "move": "FRAME", "sub": "五层结构预告", "evidence_excerpt": "全文按五层展开", "narrative_ratio": 0.0}
+{"para": 5, "heading": "一、现象层", "move": "CONTEXT", "sub": "对象界定", "evidence_excerpt": "面向的是研究性写作", "narrative_ratio": 0.0}
+{"para": 6, "heading": "一、现象层", "move": "ARGUE", "sub": "设问推进（选试验田）", "evidence_excerpt": "差异波动…不能进档案", "narrative_ratio": 0.0}
+{"para": 7, "heading": "一、现象层", "move": "CONTEXT", "sub": "方法源流", "evidence_excerpt": "出自 Swales（1990）的体裁分析传统", "narrative_ratio": 0.0}
+{"para": 8, "heading": "一、现象层", "move": "CONTEXT", "sub": "设计边界一（双模式闭环）", "evidence_excerpt": "先建档…再自检", "narrative_ratio": 0.0}
+{"para": 9, "heading": "一、现象层", "move": "CONTEXT", "sub": "设计边界二（版权政策）", "evidence_excerpt": "第三方全文不入库", "narrative_ratio": 0.0}
+{"para": 10, "heading": "一、现象层", "move": "ARGUE", "sub": "设问+排除法（LLM不可当裁判）", "evidence_excerpt": "分数漂移无法复现", "narrative_ratio": 0.0}
+{"para": 11, "heading": "一、现象层", "move": "ARGUE", "sub": "核心设计主张+指标清单", "evidence_excerpt": "约 26 个确定性指标", "narrative_ratio": 0.0}
+{"para": 12, "heading": "一、现象层", "move": "ARGUE", "sub": "边界判断+小节比喻收束", "evidence_excerpt": "确定性不等于正确", "narrative_ratio": 0.1}
+{"para": 13, "heading": "二、机制层 2.1", "move": "ARGUE", "sub": "现象陈述（数据反常）", "evidence_excerpt": "限定语中位数明显偏高", "narrative_ratio": 0.0}
+{"para": 14, "heading": "二、机制层 2.1", "move": "ARGUE", "sub": "机制归因（子串bug）", "evidence_excerpt": "约束约定节约里的约全部被计入", "narrative_ratio": 0.0}
+{"para": 15, "heading": "二、机制层 2.1", "move": "ARGUE", "sub": "数据锚定（修复前后）", "evidence_excerpt": "4.75 降到 2.69，降幅 43%", "narrative_ratio": 0.0}
+{"para": 16, "heading": "二、机制层 2.1", "move": "ARGUE", "sub": "影响外推（回溯旧结论）", "evidence_excerpt": "修复一个指标…回溯一批结论", "narrative_ratio": 0.0}
+{"para": 17, "heading": "二、机制层 2.1", "move": "APPLY", "sub": "处方判据（缺一即败）", "evidence_excerpt": "命中需要先过分词边界，缺一即败", "narrative_ratio": 0.0}
+{"para": 18, "heading": "二、机制层 2.2", "move": "ARGUE", "sub": "现象陈述（差距疑似夸大）", "evidence_excerpt": "差距相当大…当作主证据", "narrative_ratio": 0.0}
+{"para": 19, "heading": "二、机制层 2.2", "move": "ARGUE", "sub": "机制归因（长度敏感）", "evidence_excerpt": "篇幅越长，新类符出现越慢", "narrative_ratio": 0.0}
+{"para": 20, "heading": "二、机制层 2.2", "move": "ARGUE", "sub": "数据锚定（换口径）", "evidence_excerpt": "0.204 收缩到 0.070", "narrative_ratio": 0.0}
+{"para": 21, "heading": "二、机制层 2.2", "move": "ARGUE", "sub": "结论保向解读", "evidence_excerpt": "排序没有变", "narrative_ratio": 0.0}
+{"para": 22, "heading": "二、机制层 2.2", "move": "ARGUE", "sub": "判据提炼（排序稳定性）", "evidence_excerpt": "降级为方向性参考保留", "narrative_ratio": 0.0}
+{"para": 23, "heading": "二、机制层 2.2", "move": "COUNTER", "sub": "left-open 自质疑", "evidence_excerpt": "如实记为待办，不当作已解决", "narrative_ratio": 0.0}
+{"para": 24, "heading": "二、机制层 2.3", "move": "ARGUE", "sub": "现象陈述（全绿可疑）", "evidence_excerpt": "静默跳过该格的数值比对", "narrative_ratio": 0.0}
+{"para": 25, "heading": "二、机制层 2.3", "move": "ARGUE", "sub": "后果分析（闭环漏转）", "evidence_excerpt": "绿色里有一部分来自根本没检查", "narrative_ratio": 0.0}
+{"para": 26, "heading": "二、机制层 2.3", "move": "ARGUE", "sub": "数据锚定（修复见效）", "evidence_excerpt": "立刻抓到了 6 处", "narrative_ratio": 0.0}
+{"para": 27, "heading": "二、机制层 2.3", "move": "ARGUE", "sub": "语义辨析（两种绿）", "evidence_excerpt": "同一个报告外观，覆盖的事实完全不同", "narrative_ratio": 0.0}
+{"para": 28, "heading": "二、机制层 2.3", "move": "APPLY", "sub": "处方推广+小节比喻收束", "evidence_excerpt": "检查覆盖率本身是被检查的对象", "narrative_ratio": 0.0}
+{"para": 29, "heading": "三、诊断层", "move": "ARGUE", "sub": "设问推进（发现机制）", "evidence_excerpt": "前者是闭环在工作，后者是闭环在缺席", "narrative_ratio": 0.0}
+{"para": 30, "heading": "三、诊断层", "move": "ARGUE", "sub": "归因归纳（工程假设错误）", "evidence_excerpt": "三个假设都写在代码里", "narrative_ratio": 0.0}
+{"para": 31, "heading": "三、诊断层", "move": "ARGUE", "sub": "风险辨析（稳定偏差）", "evidence_excerpt": "稳定偏差更隐蔽", "narrative_ratio": 0.0}
+{"para": 32, "heading": "三、诊断层", "move": "ARGUE", "sub": "数据锚定（LOO 71%）", "evidence_excerpt": "留一法…结果是 71%", "narrative_ratio": 0.0}
+{"para": 33, "heading": "三、诊断层", "move": "COUNTER", "sub": "两面读（呈现反方证据）", "evidence_excerpt": "接近三成的文章被判去了别的库", "narrative_ratio": 0.0}
+{"para": 34, "heading": "三、诊断层", "move": "ARGUE", "sub": "重解读+比喻（自画像）", "evidence_excerpt": "尺子的自画像", "narrative_ratio": 0.1}
+{"para": 35, "heading": "三、诊断层", "move": "COUNTER", "sub": "left-open（重叠区不选边）", "evidence_excerpt": "本文不做选择，留给下一轮实验", "narrative_ratio": 0.0}
+{"para": 36, "heading": "三、诊断层", "move": "ARGUE", "sub": "数据锚定（20项回归）", "evidence_excerpt": "目前共 20 项", "narrative_ratio": 0.0}
+{"para": 37, "heading": "三、诊断层", "move": "ARGUE", "sub": "意义阐发+小节比喻回收", "evidence_excerpt": "重新对一遍刻度", "narrative_ratio": 0.1}
+{"para": 38, "heading": "四、处方层", "move": "APPLY", "sub": "判据清单总起", "evidence_excerpt": "缺任意一条就足以让它出局", "narrative_ratio": 0.0}
+{"para": 39, "heading": "四、处方层", "move": "APPLY", "sub": "判据一、二", "evidence_excerpt": "不接受裸子串匹配", "narrative_ratio": 0.0}
+{"para": 40, "heading": "四、处方层", "move": "APPLY", "sub": "判据三、四", "evidence_excerpt": "静默跳过一律视为失败", "narrative_ratio": 0.0}
+{"para": 41, "heading": "四、处方层", "move": "APPLY", "sub": "普适性声明", "evidence_excerpt": "换一套工具、换一批语料仍然适用", "narrative_ratio": 0.0}
+{"para": 42, "heading": "五、决策层", "move": "CLOSE", "sub": "设问+直接回答", "evidence_excerpt": "能直接搬去评别的文体吗？大概率不能", "narrative_ratio": 0.0}
+{"para": 43, "heading": "五、决策层", "move": "CLOSE", "sub": "编号结论（其一其二）", "evidence_excerpt": "结论有三条。其一", "narrative_ratio": 0.0}
+{"para": 44, "heading": "五、决策层", "move": "CLOSE", "sub": "编号结论（其三）", "evidence_excerpt": "裁判要自带监督机制", "narrative_ratio": 0.0}
+{"para": 45, "heading": "五、决策层", "move": "CLOSE", "sub": "开放问题清单×3", "evidence_excerpt": "未决问题同样有三条", "narrative_ratio": 0.0}
+{"para": 46, "heading": "五、决策层", "move": "CLOSE", "sub": "比喻收束（尺/校准）", "evidence_excerpt": "校准不会结束", "narrative_ratio": 0.2}
+{"para": 47, "heading": "(文末)", "move": "CLOSE", "sub": "参考来源（无[n]标记）", "evidence_excerpt": "方法出处：Swales（1990）", "narrative_ratio": 0.0}
