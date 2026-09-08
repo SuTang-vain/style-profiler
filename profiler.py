@@ -58,7 +58,8 @@ ABSOLUTISTS_EN = [
 QUANTIFIERS_EN = ["all ", "every ", "most ", "first ", "best ", "largest ", "biggest "]
 FIRST_PERSON_EN = [" we ", " our ", " us ", " I ", " my "]
 OBJ_SELFREF_EN = ["this post", "this paper", "this study", "this report",
-                  "this work", "this document", "this update", "this model spec"]
+                  "this work", "this document", "this update", "this model spec",
+                  "this essay", "this analysis", "this article"]
 STOPWORDS_EN = set(
     """the a an and or but if then than that this these those of to in on for with as by at from
     is are was were be been being it its it's we our us you your they their he she his her i my me
@@ -164,13 +165,14 @@ def sentence_stats(prose: str, lang: str = "zh"):
     if lang == "en":
         sents = [s.strip() for s in re.split(r"[.!?]+(?:\s|$)", prose) if s.strip()]
         lens = [len(s.split()) for s in sents]
+        qs = sum(1 for t in re.findall(r"[.!?]+(?:\s|$)", prose) if "?" in t)
     else:
         sents = [s.strip() for s in SENT_SPLIT_RE.split(prose) if s.strip()]
         lens = [len(re.findall(r"[\u4e00-\u9fff]", s)) for s in sents]
+        qs = sum(1 for t in SENT_SPLIT_RE.findall(prose) if "？" in t or "?" in t)
     lens = [l for l in lens if l > 0]
     if not lens:
         return {}
-    qs = sum(1 for s in sents if s.rstrip().endswith(("？", "?")))
     return {
         "sentence_count": len(sents),
         "avg_sentence_len": round(statistics.mean(lens), 1),

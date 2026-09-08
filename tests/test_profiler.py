@@ -105,6 +105,21 @@ class TestFixtures(unittest.TestCase):
         p.write_text(text, encoding="utf-8")
         return profiler.analyze(p)
 
+    # 断言 12（P2 修复转正）：question_sentences 按疑问终止符计数——
+    # 修复前切句正则会剥除分隔符，再以 ? 后缀判定，中/英均恒为 0
+    def test_question_sentences_counted(self):
+        zh = self._analyze("这是真的吗？是的。也许吧。")
+        self.assertEqual(zh["sentences"]["question_sentences"], 1)
+        en = self._analyze("Is this working? Yes it is. Really? Maybe so.")
+        self.assertEqual(en["sentences"]["question_sentences"], 2)
+
+    # 断言 13（P2 修复）：OBJ_SELFREF_EN 覆盖 this essay / this analysis——
+    # kezhongke playbook §0 弱迁移项的工具自验依赖这两个变体
+    def test_obj_selfref_en_variants(self):
+        r = self._analyze("This essay examines the evidence. "
+                          "This analysis draws on public data. It concludes here.")
+        self.assertEqual(r["stance"]["objective_selfref_count"], 2)
+
     # 断言 6：单句成段不计 [n] GB/T 文献条目（v10 重跑修复）
     def test_citation_entries_not_one_line_paragraphs(self):
         r = self._analyze(
