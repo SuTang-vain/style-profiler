@@ -12,6 +12,19 @@
 | **engineering-deep-dive 工程深潜** | 第一人称调查叙事；单句段节拍器；自我反驳内化；格言化教训收束。三个变体：调查叙事型（core-dump）/ 教学型（unrolling-codex）/ 宣言型（harness-engineering） | core-dump 等 3 篇 |
 | **approach-position 立场方法** | we believe 高频；行动宣告+信念陈述；局限主动声明；治理词汇（legibility/accountability） | model-spec, understanding-source |
 
+## 人称硬约束（2026-09-08 P1 横评实证升级）
+
+全库 first_person_count median 59，P25–P75 见下——**硬预算非参考**：按实际篇幅折算（次数有长度依赖）；写作时按节预分配（开场/主体/收尾）；完稿过 `profiler first_person_count` 自检。**题材豁免制**：团队构建叙事可上浮但须大纲声明，未声明超界=失格（实证：P1 盲测 openai 成稿 58 贴上沿通过）。
+
+| 子体裁 | 预算（次/篇） | 说明 |
+|---|---|---|
+| engineering-deep-dive | **45–75**（中位 ~59） | "调查者 we"——侦探叙事主体，单句段转折句多用 we |
+| research-narrative | 40–70 | 结论前置的 "we show that" 声明位 |
+| evaluation-report | **25–50**（偏低档） | 工具命名主导，we 让位给数字；超过 50 检查是否滑向 deep-dive 口吻 |
+| approach-position | 45–75 | "we believe / we expect" 立场句密集 |
+
+> 注：全库单篇实测 [6, 92]；子体裁区间为 [推断]（按体裁表 + 实测极差划分，未做分体裁聚合），首发使用时以完稿自检数据回填校准。
+
 ## 四体裁通用骨架
 
 ```
