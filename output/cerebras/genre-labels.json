@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "taxonomy": "genre-taxonomy-v0 六类",
+    "date": "2026-09-14",
+    "router": "llm-routing-v1",
+    "low_confidence": [
+      "how-to-stop-your-autoresearch-loop-from-cheating",
+      "lessons-learned-from-building-multi-agent-workflows",
+      "never-loop-without-verifiers"
+    ]
+  },
+  "exomebench": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "宣布public release，HF/GitHub开放下载"
+  },
+  "how-cerebras-serves-gpt-5-6-sol-at-up-to-750-tokens-per-second": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "previewing Ultrafast mode，750tok/s上线公告"
+  },
+  "how-to-stop-your-autoresearch-loop-from-cheating": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "low",
+    "evidence": "71个实验+结果+解读为主体（R/E边界：兼含harness构建记录）"
+  },
+  "how-we-built-our-knowledge-base": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "标题How We Built，内部知识库构建复盘"
+  },
+  "latency-debt": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "以latency debt概念论证行业硬件转型趋势，非构建记录"
+  },
+  "lessons-learned-from-building-multi-agent-workflows": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "low",
+    "evidence": "5个patterns教读者编排多智能体(G/E边界)"
+  },
+  "never-loop-without-verifiers": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "low",
+    "evidence": "loops概念史+verification论证为主(A/G)"
+  },
+  "the-economics-of-ai-reasoning": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "论证reasoning成本/速度权衡的行业解读"
+  },
+  "thinking-inside-the-box-the-implicit-chain-transformer-for-efficient-state-tracking": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "介绍ICT新架构，方法+早期评测，无可用性声明"
+  },
+  "ultrafast-frontier-inference-cerebras-deep-dive-at-hot-chips-2026": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "Hot Chips发布CS-4/预告CS-5/CS-6，附SEC前瞻性声明"
+  }
+}

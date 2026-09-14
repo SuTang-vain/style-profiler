@@ -1,115 +1,121 @@
 {
- "file": "effective-harnesses-long-running-agents.md",
- "lang": "en",
- "title": "Effective harnesses for long-running agents",
- "cjk_chars": 0,
- "word_count": 2138,
- "reading_time_min": 7.0,
- "structure": {
-  "h2_count": 0,
-  "h3_count": 0,
-  "numbered_headings": 0,
-  "code_blocks": 0,
-  "tables": 0,
-  "images": 0,
-  "has_toc": false
- },
- "sentences": {
-  "sentence_count": 92,
-  "avg_sentence_len": 23.0,
-  "median_sentence_len": 21.0,
-  "p90_sentence_len": 37,
-  "question_sentences": 0
- },
- "paragraphs": {
-  "paragraph_count": 53,
-  "avg_paragraph_len": 39.9,
-  "median_paragraph_len": 36,
-  "p90_paragraph_len": 75,
-  "one_line_paragraphs": 0
- },
- "evidence": {
-  "number_tokens": 7,
-  "number_per_1k": 3.27,
-  "precise_numbers": 1,
-  "precise_per_1k": 0.47,
-  "year_anchors": 1,
-  "year_per_1k": 0.47,
-  "external_links": 0,
-  "links_per_1k": 0.0,
-  "citation_marks": 0,
-  "reference_entries": 0
- },
- "stance": {
-  "hedge_hits": 13.56,
-  "hedge_examples": [
-   {
-    "term": "remains",
-    "excerpt": "As AI agents become more capable, developers are increasingly asking them to tak"
-   },
-   {
-    "term": "initial",
-    "excerpt": "We developed a two-fold solution to enable the Claude Agent SDK to work effectiv"
-   },
-   {
-    "term": "around",
-    "excerpt": "A second failure mode would often occur later in a project. After some features "
-   }
-  ],
-  "absolutist_hits": 3.74,
-  "absolutist_examples": [
-   {
-    "term": "must",
-    "excerpt": "The core challenge of long-running agents is that they must work in discrete ses"
-   },
-   {
-    "term": "always",
-    "excerpt": "Claude’s failures manifested in two patterns. First, the agent tended to try to "
-   },
-   {
-    "term": "essential",
-    "excerpt": "Claude’s failures manifested in two patterns. First, the agent tended to try to "
-   }
-  ],
-  "quantifier_hits": 12.16,
-  "first_person_count": 16,
-  "objective_selfref_count": 1,
-  "exclamations": 1,
-  "questions": 0,
-  "emoji": 0
- },
- "diction": {
-  "ttr": 0.327,
-  "mattr": 0.682,
-  "top_terms": [
-   "agent×38",
-   "claude×24",
-   "agents×16",
-   "work×15",
-   "progress×15",
-   "feature×15",
-   "context×14",
-   "session×13",
-   "file×13",
-   "coding×12",
-   "code×12",
-   "features×12",
-   "working×10",
-   "environment×10",
-   "app×9"
-  ],
-  "en_char_ratio": null,
-  "title_text": "Effective harnesses for long-running agents",
-  "title_len": 43,
-  "title_has_colon": false
- },
- "genre": {
-  "genre": "blog_or_exploration",
-  "scores": {
-   "报告体": 0,
-   "期刊体": 0,
-   "行业分析": 0
+  "file": "effective-harnesses-long-running-agents.md",
+  "lang": "en",
+  "title": "Effective harnesses for long-running agents",
+  "cjk_chars": 0,
+  "word_count": 2138,
+  "reading_time_min": 7.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
   },
-  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
- }
+  "sentences": {
+    "sentence_count": 92,
+    "avg_sentence_len": 23.0,
+    "median_sentence_len": 21.0,
+    "p90_sentence_len": 37,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 53,
+    "avg_paragraph_len": 39.9,
+    "median_paragraph_len": 36,
+    "p90_paragraph_len": 75,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 7,
+    "number_per_1k": 3.27,
+    "precise_numbers": 1,
+    "precise_per_1k": 0.47,
+    "year_anchors": 1,
+    "year_per_1k": 0.47,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 13.56,
+    "hedge_examples": [
+      {
+        "term": "remains",
+        "excerpt": "As AI agents become more capable, developers are increasingly asking them to tak"
+      },
+      {
+        "term": "initial",
+        "excerpt": "We developed a two-fold solution to enable the Claude Agent SDK to work effectiv"
+      },
+      {
+        "term": "around",
+        "excerpt": "A second failure mode would often occur later in a project. After some features "
+      }
+    ],
+    "absolutist_hits": 3.74,
+    "absolutist_examples": [
+      {
+        "term": "must",
+        "excerpt": "The core challenge of long-running agents is that they must work in discrete ses"
+      },
+      {
+        "term": "always",
+        "excerpt": "Claude’s failures manifested in two patterns. First, the agent tended to try to "
+      },
+      {
+        "term": "essential",
+        "excerpt": "Claude’s failures manifested in two patterns. First, the agent tended to try to "
+      }
+    ],
+    "quantifier_hits": 12.16,
+    "first_person_count": 16,
+    "objective_selfref_count": 1,
+    "exclamations": 1,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.327,
+    "mattr": 0.682,
+    "top_terms": [
+      "agent×38",
+      "claude×24",
+      "agents×16",
+      "work×15",
+      "progress×15",
+      "feature×15",
+      "context×14",
+      "session×13",
+      "file×13",
+      "coding×12",
+      "code×12",
+      "features×12",
+      "working×10",
+      "environment×10",
+      "app×9"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Effective harnesses for long-running agents",
+    "title_len": 43,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "工程类",
+      "code": "E",
+      "confidence": "high",
+      "source": "llm-routing-v1 (2026-09-14)"
+    }
+  }
 }

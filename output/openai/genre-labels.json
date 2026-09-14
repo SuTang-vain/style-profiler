@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "taxonomy": "genre-taxonomy-v0 六类",
+    "date": "2026-09-14",
+    "router": "llm-routing-v1",
+    "low_confidence": [
+      "how-we-monitor-internal-coding-agents-misalignment.md"
+    ]
+  },
+  "core-dump-epidemiology-data-infrastructure-bug": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "标题《fixing an 18-year-old bug》，数据基础设施崩溃故障复盘"
+  },
+  "emergent-misalignment": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "Publication+Read the paper，SAE实验发现misaligned persona特征"
+  },
+  "gdpval": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "开头We're introducing GDPval新评测，发布gold子集与公开评分服务"
+  },
+  "gpt-5-safe-completions": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "GPT-5 safe-completion安全训练方法与对比实验结果"
+  },
+  "harness-engineering": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "五个月全agent构建产品的build-log：环境与反馈回路如何搭"
+  },
+  "how-we-monitor-internal-coding-agents-misalignment": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "low",
+    "evidence": "内部监控系统如何工作+真实部署错位行为观测发现，E/R混合"
+  },
+  "our-approach-to-the-model-spec": {
+    "genre_code": "P",
+    "genre_name": "政策类",
+    "confidence": "high",
+    "evidence": "Model Spec行为规范框架：规则层级、chain of command、承诺"
+  },
+  "reasoning-models-chain-of-thought-controllability": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "CoT-Control评测13模型，发现CoT可控性低（论文式结果）"
+  },
+  "understanding-the-source-of-what-we-see-and-hear-online": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "宣布加入C2PA指导委员会并开放图像检测分类器访问申请"
+  },
+  "unrolling-the-codex-agent-loop": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "Codex CLI agent loop内部机制拆解系列首篇，我们如何构建"
+  }
+}

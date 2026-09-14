@@ -1,0 +1,68 @@
+{
+  "_meta": {
+    "taxonomy": "genre-taxonomy-v0 六类",
+    "date": "2026-09-14",
+    "router": "llm-routing-v1",
+    "low_confidence": []
+  },
+  "a-postmortem-of-three-recent-issues": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "标题即postmortem：三个基础设施bug的根因、时间线与整改"
+  },
+  "agentic-misalignment": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "对16个模型做misalignment压力实验，有Methods/Results"
+  },
+  "alignment-faking": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "论文导读：alignment faking实验设置、进一步分析与局限"
+  },
+  "auditing-hidden-objectives": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "新论文：训隐藏目标模型+四队盲审计游戏，评估审计技术"
+  },
+  "building-c-compiler": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "标题Building a C compiler：agent团队构建复盘与经验"
+  },
+  "building-effective-agents": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "high",
+    "evidence": "自称practical advice for developers的模式教学"
+  },
+  "demystifying-evals-for-ai-agents": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "high",
+    "evidence": "教读者为agent设计eval：grader类型与0→1路线图"
+  },
+  "effective-context-engineering": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "high",
+    "evidence": "上下文工程策略指南：compaction/笔记/子代理等技术建议"
+  },
+  "effective-harnesses-long-running-agents": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "我们如何构建长时程agent harness：失败模式与解决方案"
+  },
+  "responsible-scaling-policy": {
+    "genre_code": "P",
+    "genre_name": "政策类",
+    "confidence": "high",
+    "evidence": "发布RSP：ASL分级安全规范与组织承诺，政策主体"
+  }
+}

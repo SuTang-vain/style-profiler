@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "taxonomy": "genre-taxonomy-v0 六类",
+    "date": "2026-09-14",
+    "router": "llm-routing-v1",
+    "low_confidence": [
+      "echoverse-deep-evolving-environments-for-computer-use-agents"
+    ]
+  },
+  "aurora-1-5-weather-earth-system-models": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "发布Aurora 1.5：开源GitHub、checkpoints上线Hugging Face"
+  },
+  "broadening-access-to-skala-predictive-diagnostics": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "宣布Skala 1.1发布，已可用CP2K并集成Psi4/ORCA等"
+  },
+  "echoverse-deep-evolving-environments-for-computer-use-agents": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "low",
+    "evidence": "主体为深浅世界/RL实验发现；仅附四世界开源，R/N边界"
+  },
+  "evolib-turning-experience-into-evolving-knowledge": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "围绕论文的方法机制+Key Results+鲁棒性实验"
+  },
+  "flint-a-visualization-language-for-the-ai-era": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "介绍Flint语言并宣布开源可用（Try Flint/GitHub/MCP）"
+  },
+  "gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "明确'An open model release'：权重代码已上HuggingFace"
+  },
+  "introducing-care-x-radiology-vlms": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "声明研究模型非产品、无可用性；主体为评测与临床验证"
+  },
+  "mindtopo-reveals-vlms-spatial-reasoning-abilities": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "新基准研究：发现静态识别强、交互规划弱的结论"
+  },
+  "orchard-an-open-framework-for-scalable-agentic-ai": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "开源框架发布，同时释出训练配方、数据与评测方法"
+  },
+  "verifying-rust-cryptography-in-symcrypt-from-standards-to-code": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "主体为工程方法论：标准→Lean规范→Rust代码验证工作流"
+  }
+}

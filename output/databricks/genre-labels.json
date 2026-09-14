@@ -1,0 +1,71 @@
+{
+  "_meta": {
+    "taxonomy": "genre-taxonomy-v0 六类",
+    "date": "2026-09-14",
+    "router": "llm-routing-v1",
+    "low_confidence": [
+      "memalign-building-better-llm-judges-human-feedback-scalable-memory.md",
+      "scaling-small-llms-nvidia-mps.md"
+    ]
+  },
+  "3x-faster-search-parallel-test-time-scaling-instructed-retriever-1": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "开头\"Today we're announcing a major update\"，结尾\"rolling out to all customers, Try it now\""
+  },
+  "agentic-reasoning-practice-making-sense-structured-and-unstructured-data": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "主体为STaRK/KARLBench评测+trace分析+\"What We Learned\"；SA可用性仅顺带提及"
+  },
+  "enhancing-agent-retrieval-structured-chart-extraction": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "\"we show that...We evaluate on two datasets\"；图表JSON抽取实验，可用性为will be soon"
+  },
+  "introducing-officeqa-pro-v2-new-benchmark-enterprise-grounded-reasoning": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "\"Today, we are releasing OfficeQA Pro V2\"，基准已在Hugging Face/GitHub公开"
+  },
+  "meet-karl-faster-agent-enterprise-knowledge-powered-custom-rl": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "\"Meet KARL\"新模型亮相+Custom RL private preview\"now available\"注册入口"
+  },
+  "memalign-building-better-llm-judges-human-feedback-scalable-memory": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "low",
+    "evidence": "\"introducing MemAlign\"+\"now offered in open-source MLflow...Try it out now\"，但主体为消融实验"
+  },
+  "memex-programmable-scratchpad-llm-agents": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "新系统MemEx的机制+9模型head-to-head评测+trace审计实验；仅\"soon be able to use\""
+  },
+  "memory-scaling-ai-agents": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "\"This post presents experimental results demonstrating memory scaling\"，两组scaling实验+前瞻"
+  },
+  "pushing-frontier-data-agents-genie": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "\"From our experiments on an internal benchmark...techniques can significantly improve\"；无发布声明"
+  },
+  "scaling-small-llms-nvidia-mps": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "low",
+    "evidence": "\"We set out to rigorously test whether MPS delivers\"+消融归因；infra评测，E/R边界"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "_meta": {
+    "taxonomy": "genre-taxonomy-v0 六类",
+    "date": "2026-09-14",
+    "router": "llm-routing-v1",
+    "low_confidence": [
+      "a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain"
+    ]
+  },
+  "a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "low",
+    "evidence": "发布雄性果蝇全脑连接组，Neuroglancer可下载；R/N边界"
+  },
+  "agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "CHI 2026原型，含用户研究(N=12)结果，无可用性声明"
+  },
+  "an-ai-tool-for-prioritizing-candidate-biomarkers-from-wearable-sensor-data": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "多智能体框架+三队列实验与专家盲评，无可用性声明"
+  },
+  "empty-shelves-or-lost-keys-recall-is-the-bottleneck-for-parametric-factuality": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "知识画像+WikiProfile基准，13个LLM实验：召回是瓶颈"
+  },
+  "glucofm-foundation-model-for-continuous-glucose-monitoring": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "自监督CGM基础模型，四队列14项评测，无发布声明"
+  },
+  "how-mobility-gives-language-models-a-deeper-understanding-of-place": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "ME-POIs框架，两城五任务实验与基线对比，无可用性声明"
+  },
+  "mapping-global-methane-emissions-from-space-with-deep-learning": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "发布plume数据库、模型与推理库(EE/Kaggle/GitHub)"
+  },
+  "planetary-prediction-engine-automating-global-models-via-earth-ai": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "自称experimental研究能力，benchmark改进为主体，无可用性声明"
+  },
+  "timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "模型发布：已上线GitHub/Hugging Face，附基准性能表"
+  },
+  "transfer-learning-for-genomic-prediction-in-underrepresented-populations": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "UKB/BBJ跨人群PRS评测，滴定实验发现为主体"
+  }
+}

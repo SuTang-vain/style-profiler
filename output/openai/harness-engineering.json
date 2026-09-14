@@ -1,115 +1,121 @@
 {
- "file": "harness-engineering.md",
- "lang": "en",
- "title": "Harness engineering: leveraging Codex in an agent-first world",
- "cjk_chars": 0,
- "word_count": 3069,
- "reading_time_min": 10.0,
- "structure": {
-  "h2_count": 0,
-  "h3_count": 0,
-  "numbered_headings": 0,
-  "code_blocks": 0,
-  "tables": 0,
-  "images": 0,
-  "has_toc": false
- },
- "sentences": {
-  "sentence_count": 155,
-  "avg_sentence_len": 19.9,
-  "median_sentence_len": 18,
-  "p90_sentence_len": 32,
-  "question_sentences": 0
- },
- "paragraphs": {
-  "paragraph_count": 85,
-  "avg_paragraph_len": 36.3,
-  "median_paragraph_len": 32,
-  "p90_paragraph_len": 74,
-  "one_line_paragraphs": 3
- },
- "evidence": {
-  "number_tokens": 48,
-  "number_per_1k": 15.64,
-  "precise_numbers": 3,
-  "precise_per_1k": 0.98,
-  "year_anchors": 3,
-  "year_per_1k": 0.98,
-  "external_links": 0,
-  "links_per_1k": 0.0,
-  "citation_marks": 0,
-  "reference_entries": 0
- },
- "stance": {
-  "hedge_hits": 9.12,
-  "hedge_examples": [
-   {
-    "term": "about",
-    "excerpt": "The product has internal daily users and external alpha testers. It ships, deplo"
-   },
-   {
-    "term": "about",
-    "excerpt": "This post is about what we learned by building a brand new product with a team o"
-   },
-   {
-    "term": "initial",
-    "excerpt": "The initial scaffold—repository structure, CI configuration, formatting rules, p"
-   }
-  ],
-  "absolutist_hits": 3.26,
-  "absolutist_examples": [
-   {
-    "term": "never",
-    "excerpt": "Throughout the development process, humans never directly contributed any code. "
-   },
-   {
-    "term": "always",
-    "excerpt": "In practice, this meant working depth-first: breaking down larger goals into sma"
-   },
-   {
-    "term": "never",
-    "excerpt": "In practice, this meant working depth-first: breaking down larger goals into sma"
-   }
-  ],
-  "quantifier_hits": 9.12,
-  "first_person_count": 52,
-  "objective_selfref_count": 1,
-  "exclamations": 1,
-  "questions": 2,
-  "emoji": 0
- },
- "diction": {
-  "ttr": 0.353,
-  "mattr": 0.724,
-  "top_terms": [
-   "codex×31",
-   "agent×30",
-   "agents×28",
-   "code×22",
-   "repository×20",
-   "human×14",
-   "system×12",
-   "engineering×11",
-   "team×11",
-   "documentation×10",
-   "work×10",
-   "pull×10",
-   "directly×10",
-   "product×9",
-   "time×9"
-  ],
-  "en_char_ratio": null,
-  "title_text": "Harness engineering: leveraging Codex in an agent-first world",
-  "title_len": 61,
-  "title_has_colon": true
- },
- "genre": {
-  "genre": "blog_or_exploration",
-  "scores": {
-   "报告体": 0,
-   "期刊体": 0,
-   "行业分析": 0
+  "file": "harness-engineering.md",
+  "lang": "en",
+  "title": "Harness engineering: leveraging Codex in an agent-first world",
+  "cjk_chars": 0,
+  "word_count": 3069,
+  "reading_time_min": 10.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
   },
-  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
- }
+  "sentences": {
+    "sentence_count": 155,
+    "avg_sentence_len": 19.9,
+    "median_sentence_len": 18,
+    "p90_sentence_len": 32,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 85,
+    "avg_paragraph_len": 36.3,
+    "median_paragraph_len": 32,
+    "p90_paragraph_len": 74,
+    "one_line_paragraphs": 3
+  },
+  "evidence": {
+    "number_tokens": 48,
+    "number_per_1k": 15.64,
+    "precise_numbers": 3,
+    "precise_per_1k": 0.98,
+    "year_anchors": 3,
+    "year_per_1k": 0.98,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 9.12,
+    "hedge_examples": [
+      {
+        "term": "about",
+        "excerpt": "The product has internal daily users and external alpha testers. It ships, deplo"
+      },
+      {
+        "term": "about",
+        "excerpt": "This post is about what we learned by building a brand new product with a team o"
+      },
+      {
+        "term": "initial",
+        "excerpt": "The initial scaffold—repository structure, CI configuration, formatting rules, p"
+      }
+    ],
+    "absolutist_hits": 3.26,
+    "absolutist_examples": [
+      {
+        "term": "never",
+        "excerpt": "Throughout the development process, humans never directly contributed any code. "
+      },
+      {
+        "term": "always",
+        "excerpt": "In practice, this meant working depth-first: breaking down larger goals into sma"
+      },
+      {
+        "term": "never",
+        "excerpt": "In practice, this meant working depth-first: breaking down larger goals into sma"
+      }
+    ],
+    "quantifier_hits": 9.12,
+    "first_person_count": 52,
+    "objective_selfref_count": 1,
+    "exclamations": 1,
+    "questions": 2,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.353,
+    "mattr": 0.724,
+    "top_terms": [
+      "codex×31",
+      "agent×30",
+      "agents×28",
+      "code×22",
+      "repository×20",
+      "human×14",
+      "system×12",
+      "engineering×11",
+      "team×11",
+      "documentation×10",
+      "work×10",
+      "pull×10",
+      "directly×10",
+      "product×9",
+      "time×9"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Harness engineering: leveraging Codex in an agent-first world",
+    "title_len": 61,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "工程类",
+      "code": "E",
+      "confidence": "high",
+      "source": "llm-routing-v1 (2026-09-14)"
+    }
+  }
 }

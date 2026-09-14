@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "taxonomy": "genre-taxonomy-v0 六类",
+    "date": "2026-09-14",
+    "router": "llm-routing-v1",
+    "low_confidence": [
+      "deep-ignorance.md",
+      "aletheia-retrospective.md",
+      "dynamical-models-of-ai-governability.md"
+    ]
+  },
+  "aletheia-retrospective": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "low",
+    "evidence": "标题'What We Learned...Retrospective'，主体为竞赛研究发现+田野评论，R/A混合"
+  },
+  "attention-probes": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "'We propose attention probes'，有方法+Results+Conclusion的实验报告"
+  },
+  "autointerp": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "'We investigate different techniques...Key Findings'，评测为主体，开源库为配套"
+  },
+  "common-pile": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "'Announcing the Common Pile v0.1: An 8TB Dataset'，arXiv/HF/GitHub已上线"
+  },
+  "deep-ignorance": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "low",
+    "evidence": "'newly released paper'+Experiment Setup+Key Result#1/2/3，R/N边界"
+  },
+  "dynamical-models-of-ai-governability": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "low",
+    "evidence": "'a toy dynamical model'概念建模+论证推演，无实验，探索体子型"
+  },
+  "generating-text-using-nl-to-simulate-activations": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "Key results+实验图表为主体，量化模拟SAE激活的研究报告"
+  },
+  "mad_research_update_2": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "'Interim report on ongoing work'，实验发现通报，无可用性声明→R"
+  },
+  "reward-hacking-indicators": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "Abstract+Methods+Results论文式报告：reasoning interpolation预测reward hacking"
+  },
+  "tyche-poser-comparison": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "'Research Update'，POSER基准上测Tyche的负结果实验报告"
+  }
+}

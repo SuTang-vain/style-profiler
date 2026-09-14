@@ -1,0 +1,148 @@
+{
+  "_meta": {
+    "taxonomy": "genre-taxonomy-v0 六类",
+    "date": "2026-09-14",
+    "router": "llm-routing-v1",
+    "low_confidence": [
+      "eval-harness-landscape.json"
+    ]
+  },
+  "multi-agent-sociology": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "摘要+关键词论文体，提出多智能体社会学分析框架（期刊体→R）"
+  },
+  "youth-cold-thinking": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "基于2025—2026实证调查数据，提冷思考框架（期刊体→R）"
+  },
+  "fde-role-renaissance": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "FDE系列一：解析Anthropic/OpenAI押注FDE的逻辑"
+  },
+  "fde-china-hiring-boom": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "FDE系列二：中国厂商FDE招聘潮行业解读（行业分析→A）"
+  },
+  "llm-self-evolution-failure": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "博客随笔：论证打补丁式自进化为何系统性失败"
+  },
+  "glm-5-3-flash-analysis": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "改判：Flash上线开源发布报告，含性能表与可用性"
+  },
+  "demand-constraint-model": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "需求约束性理论框架与可证伪预测，未做实验"
+  },
+  "youth-ai-knowledge-propagation": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "提AI知识传播叙事策略与社群运营框架（探索体→A）"
+  },
+  "glm-5-3-analysis": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "报告体：GLM-5.3发布核验，元信息头+基准+API开放"
+  },
+  "deepseek-v4-analysis": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "报告体：V4发布核验，元信息头+API公测上线"
+  },
+  "ai-engineering-paper-to-product": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "行业分析：AI工程化下后端岗位结构演变解读"
+  },
+  "bp-landing-page-recreation": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "改判：笔试复盘，记录BP还原网页的构建过程"
+  },
+  "claude-fable-mythos-analysis": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "报告体：Fable5/Mythos5发布核验，含定价与可用性"
+  },
+  "diagnose-llm-with-self-concepts": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "改判：反思随笔，以自我诊断概念类比诊断LLM"
+  },
+  "eval-harness-landscape": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "low",
+    "evidence": "评测实践调研综述，兼选型建议，A/G边界"
+  },
+  "eval-harness-team-infra": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "high",
+    "evidence": "改判：指南，20条用例到评测体系十步路线+清单"
+  },
+  "fde-career-ledger": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "FDE系列三：岗位成本收益的职业分析（行业分析→A）"
+  },
+  "kimi-k3-analysis": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "报告体：Kimi K3发布核验，权重已公开可下载"
+  },
+  "llm-verifiable-cage-ui-dismantling": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "改判：项目复盘，v1失败到v2生成验证分离实战"
+  },
+  "product-design-psychology-effects": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "high",
+    "evidence": "改判：11条心理学效应方法清单，附检查方法"
+  },
+  "sub-834c87815564": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "综合Musepool与诊断机材料，提三个趋势判断"
+  },
+  "sub-fe996dbf4a74": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "论文解读与评价：时空可组合编程范式解读"
+  },
+  "ux-writing-guidelines": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "high",
+    "evidence": "入门指南：UX写作规范是什么、为什么、怎么落地"
+  }
+}

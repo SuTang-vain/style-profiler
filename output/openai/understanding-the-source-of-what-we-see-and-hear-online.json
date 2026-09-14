@@ -1,111 +1,117 @@
 {
- "file": "understanding-the-source-of-what-we-see-and-hear-online.md",
- "lang": "en",
- "title": "Understanding the source of what we see and hear online",
- "cjk_chars": 0,
- "word_count": 1575,
- "reading_time_min": 5.0,
- "structure": {
-  "h2_count": 0,
-  "h3_count": 0,
-  "numbered_headings": 0,
-  "code_blocks": 0,
-  "tables": 0,
-  "images": 0,
-  "has_toc": false
- },
- "sentences": {
-  "sentence_count": 57,
-  "avg_sentence_len": 27.7,
-  "median_sentence_len": 24,
-  "p90_sentence_len": 44,
-  "question_sentences": 0
- },
- "paragraphs": {
-  "paragraph_count": 33,
-  "avg_paragraph_len": 48.1,
-  "median_paragraph_len": 22,
-  "p90_paragraph_len": 82,
-  "one_line_paragraphs": 1
- },
- "evidence": {
-  "number_tokens": 34,
-  "number_per_1k": 21.59,
-  "precise_numbers": 3,
-  "precise_per_1k": 1.9,
-  "year_anchors": 3,
-  "year_per_1k": 1.9,
-  "external_links": 0,
-  "links_per_1k": 0.0,
-  "citation_marks": 0,
-  "reference_entries": 0
- },
- "stance": {
-  "hedge_hits": 12.7,
-  "hedge_examples": [
-   {
-    "term": "about",
-    "excerpt": "Learn about our advancements in content provenance"
-   },
-   {
-    "term": "could",
-    "excerpt": "Our teams have prioritized launching audiovisual content provenance solutions, w"
-   },
-   {
-    "term": "suggests",
-    "excerpt": "Our teams have prioritized launching audiovisual content provenance solutions, w"
-   }
-  ],
-  "absolutist_hits": 1.27,
-  "absolutist_examples": [
-   {
-    "term": "critical",
-    "excerpt": "Understanding when and where a classifier may underperform is critical for those"
-   },
-   {
-    "term": "must",
-    "excerpt": "Our efforts around provenance are just one part of a broader industry effort – m"
-   }
-  ],
-  "quantifier_hits": 1.9,
-  "first_person_count": 54,
-  "objective_selfref_count": 1,
-  "exclamations": 0,
-  "questions": 0,
-  "emoji": 0
- },
- "diction": {
-  "ttr": 0.352,
-  "mattr": 0.654,
-  "top_terms": [
-   "content×35",
-   "provenance×13",
-   "tools×10",
-   "text×10",
-   "metadata×10",
-   "generated×10",
-   "images×10",
-   "research×9",
-   "image×9",
-   "dall×9",
-   "watermarking×8",
-   "opens×8",
-   "window×8",
-   "like×8",
-   "authenticity×7"
-  ],
-  "en_char_ratio": null,
-  "title_text": "Understanding the source of what we see and hear online",
-  "title_len": 55,
-  "title_has_colon": false
- },
- "genre": {
-  "genre": "blog_or_exploration",
-  "scores": {
-   "报告体": 0,
-   "期刊体": 0,
-   "行业分析": 0
+  "file": "understanding-the-source-of-what-we-see-and-hear-online.md",
+  "lang": "en",
+  "title": "Understanding the source of what we see and hear online",
+  "cjk_chars": 0,
+  "word_count": 1575,
+  "reading_time_min": 5.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
   },
-  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
- }
+  "sentences": {
+    "sentence_count": 57,
+    "avg_sentence_len": 27.7,
+    "median_sentence_len": 24,
+    "p90_sentence_len": 44,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 33,
+    "avg_paragraph_len": 48.1,
+    "median_paragraph_len": 22,
+    "p90_paragraph_len": 82,
+    "one_line_paragraphs": 1
+  },
+  "evidence": {
+    "number_tokens": 34,
+    "number_per_1k": 21.59,
+    "precise_numbers": 3,
+    "precise_per_1k": 1.9,
+    "year_anchors": 3,
+    "year_per_1k": 1.9,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 12.7,
+    "hedge_examples": [
+      {
+        "term": "about",
+        "excerpt": "Learn about our advancements in content provenance"
+      },
+      {
+        "term": "could",
+        "excerpt": "Our teams have prioritized launching audiovisual content provenance solutions, w"
+      },
+      {
+        "term": "suggests",
+        "excerpt": "Our teams have prioritized launching audiovisual content provenance solutions, w"
+      }
+    ],
+    "absolutist_hits": 1.27,
+    "absolutist_examples": [
+      {
+        "term": "critical",
+        "excerpt": "Understanding when and where a classifier may underperform is critical for those"
+      },
+      {
+        "term": "must",
+        "excerpt": "Our efforts around provenance are just one part of a broader industry effort – m"
+      }
+    ],
+    "quantifier_hits": 1.9,
+    "first_person_count": 54,
+    "objective_selfref_count": 1,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.352,
+    "mattr": 0.654,
+    "top_terms": [
+      "content×35",
+      "provenance×13",
+      "tools×10",
+      "text×10",
+      "metadata×10",
+      "generated×10",
+      "images×10",
+      "research×9",
+      "image×9",
+      "dall×9",
+      "watermarking×8",
+      "opens×8",
+      "window×8",
+      "like×8",
+      "authenticity×7"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Understanding the source of what we see and hear online",
+    "title_len": 55,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "公告类",
+      "code": "N",
+      "confidence": "high",
+      "source": "llm-routing-v1 (2026-09-14)"
+    }
+  }
 }
