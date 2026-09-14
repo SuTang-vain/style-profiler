@@ -1,0 +1,121 @@
+{
+  "file": "towards-demystifying-the-creativity-of-diffusion-models.md",
+  "lang": "en",
+  "title": "Towards demystifying the creativity of diffusion models",
+  "cjk_chars": 0,
+  "word_count": 1513,
+  "reading_time_min": 5.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 56,
+    "avg_sentence_len": 27.2,
+    "median_sentence_len": 24.5,
+    "p90_sentence_len": 44,
+    "question_sentences": 1
+  },
+  "paragraphs": {
+    "paragraph_count": 35,
+    "avg_paragraph_len": 43.5,
+    "median_paragraph_len": 38,
+    "p90_paragraph_len": 91,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 17,
+    "number_per_1k": 11.24,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 7,
+    "year_per_1k": 4.63,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 9.25,
+    "hedge_examples": [
+      {
+        "term": "toward",
+        "excerpt": "While this creative capability is impressive, it raises an intriguing question: "
+      },
+      {
+        "term": "toward",
+        "excerpt": "Imagine a one-dimensional world with only two training data points: +1 and -1. A"
+      },
+      {
+        "term": "toward",
+        "excerpt": "Remarkably, in multi-dimensional settings, the effect of score smoothing manifes"
+      }
+    ],
+    "absolutist_hits": 1.98,
+    "absolutist_examples": [
+      {
+        "term": "completely",
+        "excerpt": "Training a diffusion model begins with taking a set of real training data sample"
+      },
+      {
+        "term": "never",
+        "excerpt": "Our findings suggest that what we call the “creativity\" of diffusion models migh"
+      },
+      {
+        "term": "fundamental",
+        "excerpt": "Our work only serves as an initial effort towards elucidating this mechanism, an"
+      }
+    ],
+    "quantifier_hits": 5.29,
+    "first_person_count": 12,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 1,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.366,
+    "mattr": 0.665,
+    "top_terms": [
+      "data×32",
+      "training×21",
+      "score×21",
+      "diffusion×15",
+      "neural×13",
+      "function×13",
+      "points×12",
+      "manifold×12",
+      "networks×9",
+      "images×9",
+      "smoothing×9",
+      "denoising×9",
+      "process×8",
+      "towards×7",
+      "creativity×7"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Towards demystifying the creativity of diffusion models",
+    "title_len": 55,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "研究类",
+      "code": "R",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

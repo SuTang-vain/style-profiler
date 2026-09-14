@@ -1,4 +1,345 @@
 {
+ "two_level": {
+  "method": "two-level-v1（genre.unified.code 分格；格内中位→体裁中位的中位；n<3 缺席）",
+  "n_articles": 20,
+  "skipped_no_unified": 0,
+  "skipped_files": [],
+  "cells": {
+   "A": {
+    "genre": "分析评论类",
+    "n": 5,
+    "metrics": {
+     "cjk_chars": 0,
+     "word_count": 1048,
+     "reading_time_min": 3.0,
+     "avg_sentence_len": 14.7,
+     "p90_sentence_len": 24,
+     "avg_paragraph_len": 29.4,
+     "number_per_1k": 31.94,
+     "precise_per_1k": 2.42,
+     "year_per_1k": 3.85,
+     "links_per_1k": 0.0,
+     "reference_entries": 0,
+     "citation_marks": 0,
+     "hedge_hits": 8.97,
+     "absolutist_hits": 1.91,
+     "quantifier_hits": 8.97,
+     "first_person_count": 11,
+     "objective_selfref_count": 0,
+     "exclamations": 0,
+     "questions": 2,
+     "ttr": 0.49,
+     "mattr": 0.72
+    }
+   },
+   "E": {
+    "genre": "工程类",
+    "n": 3,
+    "metrics": {
+     "cjk_chars": 0,
+     "word_count": 1463,
+     "reading_time_min": 5.0,
+     "avg_sentence_len": 21.9,
+     "p90_sentence_len": 31,
+     "avg_paragraph_len": 29.9,
+     "number_per_1k": 37.59,
+     "precise_per_1k": 3.41,
+     "year_per_1k": 1.46,
+     "links_per_1k": 0.0,
+     "reference_entries": 0,
+     "citation_marks": 0,
+     "hedge_hits": 4.03,
+     "absolutist_hits": 0.0,
+     "quantifier_hits": 11.15,
+     "first_person_count": 23,
+     "objective_selfref_count": 0,
+     "exclamations": 0,
+     "questions": 1,
+     "ttr": 0.41,
+     "mattr": 0.71
+    }
+   },
+   "G": {
+    "genre": "指南类",
+    "n": 4,
+    "metrics": {
+     "cjk_chars": 0.0,
+     "word_count": 2096.0,
+     "reading_time_min": 7.0,
+     "avg_sentence_len": 17.4,
+     "p90_sentence_len": 29.0,
+     "avg_paragraph_len": 28.95,
+     "number_per_1k": 19.1,
+     "precise_per_1k": 3.42,
+     "year_per_1k": 0.48,
+     "links_per_1k": 0.0,
+     "reference_entries": 0.0,
+     "citation_marks": 0.0,
+     "hedge_hits": 5.05,
+     "absolutist_hits": 1.69,
+     "quantifier_hits": 10.39,
+     "first_person_count": 8.0,
+     "objective_selfref_count": 1.5,
+     "exclamations": 1.0,
+     "questions": 1.0,
+     "ttr": 0.39,
+     "mattr": 0.72
+    }
+   },
+   "N": {
+    "genre": "公告类",
+    "n": 4,
+    "metrics": {
+     "cjk_chars": 0.0,
+     "word_count": 1056.0,
+     "reading_time_min": 4.0,
+     "avg_sentence_len": 19.95,
+     "p90_sentence_len": 30.5,
+     "avg_paragraph_len": 30.7,
+     "number_per_1k": 45.73,
+     "precise_per_1k": 5.39,
+     "year_per_1k": 2.15,
+     "links_per_1k": 0.0,
+     "reference_entries": 0.0,
+     "citation_marks": 0.0,
+     "hedge_hits": 6.27,
+     "absolutist_hits": 1.23,
+     "quantifier_hits": 8.19,
+     "first_person_count": 3.5,
+     "objective_selfref_count": 0.0,
+     "exclamations": 0.0,
+     "questions": 0.0,
+     "ttr": 0.42,
+     "mattr": 0.69
+    }
+   },
+   "R": {
+    "genre": "研究类",
+    "n": 4,
+    "metrics": {
+     "cjk_chars": 0.0,
+     "word_count": 1552.0,
+     "reading_time_min": 5.5,
+     "avg_sentence_len": 17.7,
+     "p90_sentence_len": 30.5,
+     "avg_paragraph_len": 36.85,
+     "number_per_1k": 41.22,
+     "precise_per_1k": 11.32,
+     "year_per_1k": 1.52,
+     "links_per_1k": 0.0,
+     "reference_entries": 0.0,
+     "citation_marks": 0.0,
+     "hedge_hits": 6.53,
+     "absolutist_hits": 2.33,
+     "quantifier_hits": 6.21,
+     "first_person_count": 13.0,
+     "objective_selfref_count": 2.0,
+     "exclamations": 0.0,
+     "questions": 2.5,
+     "ttr": 0.42,
+     "mattr": 0.71
+    }
+   }
+  },
+  "institution": {
+   "absolutist_hits": 1.69,
+   "avg_paragraph_len": 29.9,
+   "avg_sentence_len": 17.7,
+   "citation_marks": 0.0,
+   "cjk_chars": 0.0,
+   "exclamations": 0.0,
+   "first_person_count": 11,
+   "hedge_hits": 6.27,
+   "links_per_1k": 0.0,
+   "mattr": 0.71,
+   "number_per_1k": 37.59,
+   "objective_selfref_count": 0.0,
+   "p90_sentence_len": 30.5,
+   "precise_per_1k": 3.42,
+   "quantifier_hits": 8.97,
+   "questions": 1.0,
+   "reading_time_min": 5.0,
+   "reference_entries": 0.0,
+   "ttr": 0.42,
+   "word_count": 1463,
+   "year_per_1k": 1.52
+  },
+  "dispersion": {
+   "absolutist_hits": {
+    "range": 2.33,
+    "iqr": 0.68,
+    "n_cells": 5
+   },
+   "avg_paragraph_len": {
+    "range": 7.9,
+    "iqr": 1.3,
+    "n_cells": 5
+   },
+   "avg_sentence_len": {
+    "range": 7.2,
+    "iqr": 2.55,
+    "n_cells": 5
+   },
+   "citation_marks": {
+    "range": 0,
+    "iqr": 0.0,
+    "n_cells": 5
+   },
+   "cjk_chars": {
+    "range": 0,
+    "iqr": 0.0,
+    "n_cells": 5
+   },
+   "exclamations": {
+    "range": 1.0,
+    "iqr": 0.0,
+    "n_cells": 5
+   },
+   "first_person_count": {
+    "range": 19.5,
+    "iqr": 5.0,
+    "n_cells": 5
+   },
+   "hedge_hits": {
+    "range": 4.94,
+    "iqr": 1.48,
+    "n_cells": 5
+   },
+   "links_per_1k": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 5
+   },
+   "mattr": {
+    "range": 0.03,
+    "iqr": 0.01,
+    "n_cells": 5
+   },
+   "number_per_1k": {
+    "range": 26.63,
+    "iqr": 9.28,
+    "n_cells": 5
+   },
+   "objective_selfref_count": {
+    "range": 2.0,
+    "iqr": 1.5,
+    "n_cells": 5
+   },
+   "p90_sentence_len": {
+    "range": 7,
+    "iqr": 1.5,
+    "n_cells": 5
+   },
+   "precise_per_1k": {
+    "range": 8.9,
+    "iqr": 1.98,
+    "n_cells": 5
+   },
+   "quantifier_hits": {
+    "range": 4.94,
+    "iqr": 2.2,
+    "n_cells": 5
+   },
+   "questions": {
+    "range": 2.5,
+    "iqr": 1,
+    "n_cells": 5
+   },
+   "reading_time_min": {
+    "range": 4.0,
+    "iqr": 1.5,
+    "n_cells": 5
+   },
+   "reference_entries": {
+    "range": 0,
+    "iqr": 0.0,
+    "n_cells": 5
+   },
+   "ttr": {
+    "range": 0.1,
+    "iqr": 0.01,
+    "n_cells": 5
+   },
+   "word_count": {
+    "range": 1048.0,
+    "iqr": 496.0,
+    "n_cells": 5
+   },
+   "year_per_1k": {
+    "range": 3.37,
+    "iqr": 0.69,
+    "n_cells": 5
+   }
+  },
+  "corpus_naive_median": {
+   "cjk_chars": 0.0,
+   "word_count": 1199.5,
+   "reading_time_min": 4.0,
+   "avg_sentence_len": 17.95,
+   "p90_sentence_len": 29.0,
+   "avg_paragraph_len": 29.65,
+   "number_per_1k": 33.68,
+   "precise_per_1k": 3.09,
+   "year_per_1k": 1.98,
+   "links_per_1k": 0.0,
+   "reference_entries": 0.0,
+   "citation_marks": 0.0,
+   "hedge_hits": 5.54,
+   "absolutist_hits": 1.82,
+   "quantifier_hits": 8.83,
+   "first_person_count": 9.0,
+   "objective_selfref_count": 0.0,
+   "exclamations": 0.0,
+   "questions": 1.0,
+   "ttr": 0.43,
+   "mattr": 0.71
+  },
+  "signature_candidates": {
+   "criterion": "within_lib_range < cross_institution_range / 2，且本库出值格 ≥2（methodology §一 起点阈值，实施后校准）",
+   "metrics": {
+    "avg_paragraph_len": {
+     "within_lib_range": 7.9,
+     "cross_institution_range": 157.1
+    },
+    "avg_sentence_len": {
+     "within_lib_range": 7.2,
+     "cross_institution_range": 15.4
+    },
+    "cjk_chars": {
+     "within_lib_range": 0,
+     "cross_institution_range": 3789.0
+    },
+    "links_per_1k": {
+     "within_lib_range": 0.0,
+     "cross_institution_range": 0.13
+    },
+    "mattr": {
+     "within_lib_range": 0.03,
+     "cross_institution_range": 0.07
+    },
+    "p90_sentence_len": {
+     "within_lib_range": 7,
+     "cross_institution_range": 27.5
+    },
+    "reference_entries": {
+     "within_lib_range": 0,
+     "cross_institution_range": 7.0
+    },
+    "word_count": {
+     "within_lib_range": 1048.0,
+     "cross_institution_range": 2538.5
+    }
+   }
+  }
+ },
+ "_meta_expansion": {
+  "date": "2026-09-15",
+  "event": "体裁平衡扩容（2026-09-14 完成采录与路由）后 Phase B1 顶层重聚合（中位数口径）",
+  "n_articles": "10→20",
+  "router": "llm-routing-v2-expansion（仅新篇目回填 genre.unified；旧篇标签与旧 JSON 未动）",
+  "method": "消费现有 per-article JSON 经 profiler.aggregate() 重算；未重跑 analyze()",
+  "equivalence_check": "kezhongke-v10 fixture 全键一致 + 本库 llm-routing-v1 旧子集对 HEAD 旧聚合逐键一致"
+ },
  "cjk_chars": {
   "median": 0.0,
   "p25": 0,
@@ -7,60 +348,60 @@
   "max": 0
  },
  "word_count": {
-  "median": 1313.0,
-  "p25": 1060,
+  "median": 1199.5,
+  "p25": 1048,
   "p75": 1799,
-  "min": 780,
+  "min": 683,
   "max": 3229
  },
  "reading_time_min": {
-  "median": 4.5,
-  "p25": 4.0,
+  "median": 4.0,
+  "p25": 3.0,
   "p75": 6.0,
-  "min": 3.0,
+  "min": 2.0,
   "max": 11.0
  },
  "avg_sentence_len": {
-  "median": 18.75,
-  "p25": 15.7,
-  "p75": 21.9,
-  "min": 14.5,
-  "max": 24.6
+  "median": 17.95,
+  "p25": 16.3,
+  "p75": 20.6,
+  "min": 13,
+  "max": 31.3
  },
  "p90_sentence_len": {
-  "median": 31.5,
+  "median": 29.0,
   "p25": 27,
   "p75": 32,
-  "min": 24,
+  "min": 22,
   "max": 36
  },
  "avg_paragraph_len": {
-  "median": 30.55,
-  "p25": 28.2,
+  "median": 29.65,
+  "p25": 27.6,
   "p75": 33.2,
-  "min": 23.4,
+  "min": 17.6,
   "max": 46.8
  },
  "number_per_1k": {
-  "median": 40.12,
-  "p25": 15.23,
+  "median": 33.68,
+  "p25": 23.09,
   "p75": 49.0,
-  "min": 12.12,
-  "max": 52.56
+  "min": 11.73,
+  "max": 68.84
  },
  "precise_per_1k": {
   "median": 3.09,
-  "p25": 2.42,
-  "p75": 16.8,
+  "p25": 2.24,
+  "p75": 9.47,
   "min": 0.0,
-  "max": 21.79
+  "max": 46.67
  },
  "year_per_1k": {
-  "median": 2.05,
+  "median": 1.98,
   "p25": 0.72,
-  "p75": 3.85,
-  "min": 0.45,
-  "max": 7.1
+  "p75": 3.34,
+  "min": 0.43,
+  "max": 9.72
  },
  "links_per_1k": {
   "median": 0.0,
@@ -84,39 +425,39 @@
   "max": 1
  },
  "hedge_hits": {
-  "median": 7.89,
+  "median": 5.54,
   "p25": 4.48,
-  "p75": 8.97,
+  "p75": 8.4,
   "min": 0.94,
-  "max": 12.12
+  "max": 15.28
  },
  "absolutist_hits": {
   "median": 1.82,
-  "p25": 0.56,
+  "p25": 1.17,
   "p75": 2.56,
   "min": 0.0,
   "max": 5.04
  },
  "quantifier_hits": {
-  "median": 9.33,
+  "median": 8.83,
   "p25": 7.93,
-  "p75": 10.56,
-  "min": 4.48,
-  "max": 12.09
+  "p75": 11.15,
+  "min": 1.46,
+  "max": 18.09
  },
  "first_person_count": {
-  "median": 10.5,
-  "p25": 6,
-  "p75": 21,
-  "min": 3,
+  "median": 9.0,
+  "p25": 4,
+  "p75": 16,
+  "min": 1,
   "max": 47
  },
  "objective_selfref_count": {
-  "median": 0.5,
+  "median": 0.0,
   "p25": 0,
   "p75": 1,
   "min": 0,
-  "max": 3
+  "max": 4
  },
  "exclamations": {
   "median": 0.0,
@@ -126,325 +467,51 @@
   "max": 4
  },
  "questions": {
-  "median": 1.5,
+  "median": 1.0,
   "p25": 0,
-  "p75": 4,
+  "p75": 3,
   "min": 0,
   "max": 5
  },
  "ttr": {
-  "median": 0.42,
-  "p25": 0.38,
-  "p75": 0.44,
+  "median": 0.43,
+  "p25": 0.4,
+  "p75": 0.46,
   "min": 0.339,
-  "max": 0.501
+  "max": 0.539
  },
  "mattr": {
-  "median": 0.7,
-  "p25": 0.69,
-  "p75": 0.71,
-  "min": 0.685,
-  "max": 0.728
+  "median": 0.71,
+  "p25": 0.7,
+  "p75": 0.73,
+  "min": 0.666,
+  "max": 0.744
  },
  "genre_distribution": {
-  "blog_or_exploration": 10
+  "blog_or_exploration": 20
  },
  "genre_files": {
   "blog_or_exploration": [
+   "2026insights.md",
+   "cerebras-at-neurips-2025-nine-papers-from-pretraining-to-inference.md",
+   "codex-spark-best-practices.md",
+   "disaggregated-inference.md",
    "exomebench.md",
+   "first-look-gemma-4-on-cerebras-3-fast-multimodal-apps-we-built.md",
+   "generating-beautiful-uis.md",
+   "getting-the-most-out-of-gpt-5-6-sol-terra-and-luna.md",
    "how-cerebras-serves-gpt-5-6-sol-at-up-to-750-tokens-per-second.md",
    "how-to-stop-your-autoresearch-loop-from-cheating.md",
    "how-we-built-our-knowledge-base.md",
+   "introducing-cerebras-cs-4.md",
    "latency-debt.md",
    "lessons-learned-from-building-multi-agent-workflows.md",
    "never-loop-without-verifiers.md",
+   "scaling-swe-agent-data-collection-with-dockerized-environments-for-execution.md",
    "the-economics-of-ai-reasoning.md",
    "thinking-inside-the-box-the-implicit-chain-transformer-for-efficient-state-tracking.md",
-   "ultrafast-frontier-inference-cerebras-deep-dive-at-hot-chips-2026.md"
+   "ultrafast-frontier-inference-cerebras-deep-dive-at-hot-chips-2026.md",
+   "which-is-faster-gemini-3-5-flash-or-kimi-k2-6-on-cerebras.md"
   ]
- },
- "two_level": {
-  "method": "two-level-v1（genre.unified.code 分格；格内中位→体裁中位的中位；n<3 缺席）",
-  "n_articles": 10,
-  "skipped_no_unified": 0,
-  "skipped_files": [],
-  "cells": {
-   "A": {
-    "genre": "分析评论类",
-    "n": 3,
-    "metrics": {
-     "cjk_chars": 0,
-     "word_count": 1126,
-     "reading_time_min": 4.0,
-     "avg_sentence_len": 15.7,
-     "p90_sentence_len": 26,
-     "avg_paragraph_len": 28.1,
-     "number_per_1k": 23.09,
-     "precise_per_1k": 2.66,
-     "year_per_1k": 3.85,
-     "links_per_1k": 0.0,
-     "reference_entries": 0,
-     "citation_marks": 0,
-     "hedge_hits": 8.97,
-     "absolutist_hits": 2.56,
-     "quantifier_hits": 8.97,
-     "first_person_count": 11,
-     "objective_selfref_count": 0,
-     "exclamations": 1,
-     "questions": 3,
-     "ttr": 0.49,
-     "mattr": 0.71
-    }
-   },
-   "N": {
-    "genre": "公告类",
-    "n": 3,
-    "metrics": {
-     "cjk_chars": 0,
-     "word_count": 1060,
-     "reading_time_min": 4.0,
-     "avg_sentence_len": 19.5,
-     "p90_sentence_len": 32,
-     "avg_paragraph_len": 33.2,
-     "number_per_1k": 42.45,
-     "precise_per_1k": 8.0,
-     "year_per_1k": 3.34,
-     "links_per_1k": 0.0,
-     "reference_entries": 0,
-     "citation_marks": 0,
-     "hedge_hits": 7.78,
-     "absolutist_hits": 0.56,
-     "quantifier_hits": 10.38,
-     "first_person_count": 4,
-     "objective_selfref_count": 0,
-     "exclamations": 0,
-     "questions": 0,
-     "ttr": 0.44,
-     "mattr": 0.69
-    }
-   }
-  },
-  "institution": {
-   "absolutist_hits": 1.56,
-   "avg_paragraph_len": 30.65,
-   "avg_sentence_len": 17.6,
-   "citation_marks": 0.0,
-   "cjk_chars": 0.0,
-   "exclamations": 0.5,
-   "first_person_count": 7.5,
-   "hedge_hits": 8.38,
-   "links_per_1k": 0.0,
-   "mattr": 0.7,
-   "number_per_1k": 32.77,
-   "objective_selfref_count": 0.0,
-   "p90_sentence_len": 29.0,
-   "precise_per_1k": 5.33,
-   "quantifier_hits": 9.68,
-   "questions": 1.5,
-   "reading_time_min": 4.0,
-   "reference_entries": 0.0,
-   "ttr": 0.46,
-   "word_count": 1093.0,
-   "year_per_1k": 3.59
-  },
-  "dispersion": {
-   "absolutist_hits": {
-    "range": 2.0,
-    "iqr": 2.0,
-    "n_cells": 2
-   },
-   "avg_paragraph_len": {
-    "range": 5.1,
-    "iqr": 5.1,
-    "n_cells": 2
-   },
-   "avg_sentence_len": {
-    "range": 3.8,
-    "iqr": 3.8,
-    "n_cells": 2
-   },
-   "citation_marks": {
-    "range": 0,
-    "iqr": 0,
-    "n_cells": 2
-   },
-   "cjk_chars": {
-    "range": 0,
-    "iqr": 0,
-    "n_cells": 2
-   },
-   "exclamations": {
-    "range": 1,
-    "iqr": 1,
-    "n_cells": 2
-   },
-   "first_person_count": {
-    "range": 7,
-    "iqr": 7,
-    "n_cells": 2
-   },
-   "hedge_hits": {
-    "range": 1.19,
-    "iqr": 1.19,
-    "n_cells": 2
-   },
-   "links_per_1k": {
-    "range": 0.0,
-    "iqr": 0.0,
-    "n_cells": 2
-   },
-   "mattr": {
-    "range": 0.02,
-    "iqr": 0.02,
-    "n_cells": 2
-   },
-   "number_per_1k": {
-    "range": 19.36,
-    "iqr": 19.36,
-    "n_cells": 2
-   },
-   "objective_selfref_count": {
-    "range": 0,
-    "iqr": 0,
-    "n_cells": 2
-   },
-   "p90_sentence_len": {
-    "range": 6,
-    "iqr": 6,
-    "n_cells": 2
-   },
-   "precise_per_1k": {
-    "range": 5.34,
-    "iqr": 5.34,
-    "n_cells": 2
-   },
-   "quantifier_hits": {
-    "range": 1.41,
-    "iqr": 1.41,
-    "n_cells": 2
-   },
-   "questions": {
-    "range": 3,
-    "iqr": 3,
-    "n_cells": 2
-   },
-   "reading_time_min": {
-    "range": 0.0,
-    "iqr": 0.0,
-    "n_cells": 2
-   },
-   "reference_entries": {
-    "range": 0,
-    "iqr": 0,
-    "n_cells": 2
-   },
-   "ttr": {
-    "range": 0.05,
-    "iqr": 0.05,
-    "n_cells": 2
-   },
-   "word_count": {
-    "range": 66,
-    "iqr": 66,
-    "n_cells": 2
-   },
-   "year_per_1k": {
-    "range": 0.51,
-    "iqr": 0.51,
-    "n_cells": 2
-   }
-  },
-  "corpus_naive_median": {
-   "cjk_chars": 0.0,
-   "word_count": 1313.0,
-   "reading_time_min": 4.5,
-   "avg_sentence_len": 18.75,
-   "p90_sentence_len": 31.5,
-   "avg_paragraph_len": 30.55,
-   "number_per_1k": 40.12,
-   "precise_per_1k": 3.09,
-   "year_per_1k": 2.05,
-   "links_per_1k": 0.0,
-   "reference_entries": 0.0,
-   "citation_marks": 0.0,
-   "hedge_hits": 7.89,
-   "absolutist_hits": 1.82,
-   "quantifier_hits": 9.33,
-   "first_person_count": 10.5,
-   "objective_selfref_count": 0.5,
-   "exclamations": 0.0,
-   "questions": 1.5,
-   "ttr": 0.42,
-   "mattr": 0.7
-  },
-  "signature_candidates": {
-   "criterion": "within_lib_range < cross_institution_range / 2，且本库出值格 ≥2（methodology §一 起点阈值，实施后校准）",
-   "metrics": {
-    "avg_paragraph_len": {
-     "within_lib_range": 5.1,
-     "cross_institution_range": 23.95
-    },
-    "avg_sentence_len": {
-     "within_lib_range": 3.8,
-     "cross_institution_range": 15.5
-    },
-    "cjk_chars": {
-     "within_lib_range": 0,
-     "cross_institution_range": 3879
-    },
-    "first_person_count": {
-     "within_lib_range": 7,
-     "cross_institution_range": 54.5
-    },
-    "hedge_hits": {
-     "within_lib_range": 1.19,
-     "cross_institution_range": 9.99
-    },
-    "mattr": {
-     "within_lib_range": 0.02,
-     "cross_institution_range": 0.12
-    },
-    "number_per_1k": {
-     "within_lib_range": 19.36,
-     "cross_institution_range": 39.42
-    },
-    "objective_selfref_count": {
-     "within_lib_range": 0,
-     "cross_institution_range": 2.0
-    },
-    "p90_sentence_len": {
-     "within_lib_range": 6,
-     "cross_institution_range": 29.0
-    },
-    "precise_per_1k": {
-     "within_lib_range": 5.34,
-     "cross_institution_range": 12.24
-    },
-    "quantifier_hits": {
-     "within_lib_range": 1.41,
-     "cross_institution_range": 7.54
-    },
-    "reading_time_min": {
-     "within_lib_range": 0.0,
-     "cross_institution_range": 9.0
-    },
-    "reference_entries": {
-     "within_lib_range": 0,
-     "cross_institution_range": 7
-    },
-    "ttr": {
-     "within_lib_range": 0.05,
-     "cross_institution_range": 0.2
-    },
-    "word_count": {
-     "within_lib_range": 66,
-     "cross_institution_range": 2779.75
-    },
-    "year_per_1k": {
-     "within_lib_range": 0.51,
-     "cross_institution_range": 3.09
-    }
-   }
-  }
  }
 }

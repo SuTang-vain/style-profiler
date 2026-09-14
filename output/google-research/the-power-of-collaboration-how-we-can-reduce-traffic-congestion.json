@@ -1,0 +1,108 @@
+{
+  "file": "the-power-of-collaboration-how-we-can-reduce-traffic-congestion.md",
+  "lang": "en",
+  "title": "The power of collaboration: How we can reduce traffic congestion",
+  "cjk_chars": 0,
+  "word_count": 1150,
+  "reading_time_min": 4.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 51,
+    "avg_sentence_len": 22.8,
+    "median_sentence_len": 24,
+    "p90_sentence_len": 34,
+    "question_sentences": 1
+  },
+  "paragraphs": {
+    "paragraph_count": 26,
+    "avg_paragraph_len": 44.8,
+    "median_paragraph_len": 50.5,
+    "p90_paragraph_len": 89,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 15,
+    "number_per_1k": 13.04,
+    "precise_numbers": 8,
+    "precise_per_1k": 6.96,
+    "year_anchors": 1,
+    "year_per_1k": 0.87,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 6.96,
+    "hedge_examples": [
+      {
+        "term": "around",
+        "excerpt": "Vehicle transportation underpins much of modern life, enabling the movement of g"
+      },
+      {
+        "term": "remains",
+        "excerpt": "The proliferation of navigation services, connected vehicles, smart cities, and "
+      },
+      {
+        "term": "toward",
+        "excerpt": "In “Urban congestion relief experiments through routing-app interventions”, publ"
+      }
+    ],
+    "absolutist_hits": 0.0,
+    "absolutist_examples": [],
+    "quantifier_hits": 10.43,
+    "first_person_count": 13,
+    "objective_selfref_count": 5,
+    "exclamations": 0,
+    "questions": 1,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.46,
+    "mattr": 0.717,
+    "top_terms": [
+      "traffic×15",
+      "segments×14",
+      "routing×12",
+      "city×8",
+      "trips×8",
+      "speeds×8",
+      "cities×7",
+      "congestion×6",
+      "navigation×6",
+      "emissions×6",
+      "intervention×6",
+      "network×5",
+      "vehicles×5",
+      "across×5",
+      "study×5"
+    ],
+    "en_char_ratio": null,
+    "title_text": "The power of collaboration: How we can reduce traffic congestion",
+    "title_len": 64,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "研究类",
+      "code": "R",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

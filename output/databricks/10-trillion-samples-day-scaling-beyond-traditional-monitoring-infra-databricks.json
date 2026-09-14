@@ -1,0 +1,121 @@
+{
+  "file": "10-trillion-samples-day-scaling-beyond-traditional-monitoring-infra-databricks.md",
+  "lang": "en",
+  "title": "10 trillion samples a day: Scaling beyond traditional monitoring infra at Databricks",
+  "cjk_chars": 0,
+  "word_count": 2911,
+  "reading_time_min": 10.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 1,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 126,
+    "avg_sentence_len": 23.3,
+    "median_sentence_len": 20.0,
+    "p90_sentence_len": 32,
+    "question_sentences": 2
+  },
+  "paragraphs": {
+    "paragraph_count": 61,
+    "avg_paragraph_len": 48.0,
+    "median_paragraph_len": 37,
+    "p90_paragraph_len": 86,
+    "one_line_paragraphs": 2
+  },
+  "evidence": {
+    "number_tokens": 34,
+    "number_per_1k": 11.68,
+    "precise_numbers": 1,
+    "precise_per_1k": 0.34,
+    "year_anchors": 0,
+    "year_per_1k": 0.0,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 5.15,
+    "hedge_examples": [
+      {
+        "term": "could",
+        "excerpt": "Besides requirements for scalability, reliability, and efficiency, we run our sy"
+      },
+      {
+        "term": "roughly",
+        "excerpt": "Besides requirements for scalability, reliability, and efficiency, we run our sy"
+      },
+      {
+        "term": "about",
+        "excerpt": "So we developed a new TSDB codenamed Pantheon, which is a fork of the open-sourc"
+      }
+    ],
+    "absolutist_hits": 2.4,
+    "absolutist_examples": [
+      {
+        "term": "always",
+        "excerpt": "Besides requirements for scalability, reliability, and efficiency, we run our sy"
+      },
+      {
+        "term": "essential",
+        "excerpt": "A key element of Thanos is its tiered storage architecture. The most recent time"
+      },
+      {
+        "term": "must",
+        "excerpt": "At our global scale, manual operations, best-effort Kubernetes automation, or va"
+      }
+    ],
+    "quantifier_hits": 5.84,
+    "first_person_count": 70,
+    "objective_selfref_count": 3,
+    "exclamations": 3,
+    "questions": 2,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.368,
+    "mattr": 0.737,
+    "top_terms": [
+      "databricks×40",
+      "data×34",
+      "monitoring×20",
+      "metrics×16",
+      "across×15",
+      "scale×15",
+      "storage×15",
+      "aggregation×14",
+      "cardinality×14",
+      "timeseries×13",
+      "engineers×13",
+      "pantheon×13",
+      "infrastructure×12",
+      "metric×12",
+      "architecture×12"
+    ],
+    "en_char_ratio": null,
+    "title_text": "10 trillion samples a day: Scaling beyond traditional monitoring infra at Databricks",
+    "title_len": 84,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "工程类",
+      "code": "E",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

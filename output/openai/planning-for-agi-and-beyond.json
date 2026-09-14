@@ -1,0 +1,121 @@
+{
+  "file": "planning-for-agi-and-beyond.md",
+  "lang": "en",
+  "title": "Planning for AGI and beyond",
+  "cjk_chars": 0,
+  "word_count": 1337,
+  "reading_time_min": 4.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 53,
+    "avg_sentence_len": 24.9,
+    "median_sentence_len": 24,
+    "p90_sentence_len": 38,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 26,
+    "avg_paragraph_len": 50.8,
+    "median_paragraph_len": 44.5,
+    "p90_paragraph_len": 85,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 3,
+    "number_per_1k": 2.24,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 1,
+    "year_per_1k": 0.75,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 24.68,
+    "hedge_examples": [
+      {
+        "term": "about",
+        "excerpt": "We currently believe the best way to successfully navigate AI deployment challen"
+      },
+      {
+        "term": "could",
+        "excerpt": "At some point, the balance between the upsides and downsides of deployments (suc"
+      },
+      {
+        "term": "around",
+        "excerpt": "At some point, the balance between the upsides and downsides of deployments (suc"
+      }
+    ],
+    "absolutist_hits": 2.24,
+    "absolutist_examples": [
+      {
+        "term": "critical",
+        "excerpt": "AI that can accelerate science is a special case worth thinking about, and perha"
+      },
+      {
+        "term": "guaranteed",
+        "excerpt": "Successfully transitioning to a world with superintelligence is perhaps the most"
+      },
+      {
+        "term": "impossible",
+        "excerpt": "We can imagine a world in which humanity flourishes to a degree that is probably"
+      }
+    ],
+    "quantifier_hits": 8.98,
+    "first_person_count": 58,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.38,
+    "mattr": 0.653,
+    "top_terms": [
+      "agi×17",
+      "world×14",
+      "think×12",
+      "important×12",
+      "systems×9",
+      "progress×8",
+      "safety×6",
+      "society×6",
+      "them×5",
+      "believe×5",
+      "make×5",
+      "decisions×5",
+      "like×5",
+      "there×4",
+      "share×4"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Planning for AGI and beyond",
+    "title_len": 27,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "分析评论类",
+      "code": "A",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

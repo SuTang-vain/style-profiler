@@ -1,0 +1,121 @@
+{
+  "file": "model-hardware-standard-research-preview.md",
+  "lang": "en",
+  "title": "Previewing the Model Hardware Standard",
+  "cjk_chars": 0,
+  "word_count": 11950,
+  "reading_time_min": 40.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 460,
+    "avg_sentence_len": 25.9,
+    "median_sentence_len": 24.0,
+    "p90_sentence_len": 41,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 181,
+    "avg_paragraph_len": 65.7,
+    "median_paragraph_len": 64,
+    "p90_paragraph_len": 127,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 95,
+    "number_per_1k": 7.95,
+    "precise_numbers": 23,
+    "precise_per_1k": 1.92,
+    "year_anchors": 3,
+    "year_per_1k": 0.25,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 7.28,
+    "hedge_examples": [
+      {
+        "term": "early",
+        "excerpt": "We’re sharing an early version of MHS with partners across science, robotics, el"
+      },
+      {
+        "term": "may",
+        "excerpt": "The MHS driver also helps an AI agent understand how to use a device it has neve"
+      },
+      {
+        "term": "about",
+        "excerpt": "The MHS driver also helps an AI agent understand how to use a device it has neve"
+      }
+    ],
+    "absolutist_hits": 2.18,
+    "absolutist_examples": [
+      {
+        "term": "never",
+        "excerpt": "The MHS driver also helps an AI agent understand how to use a device it has neve"
+      },
+      {
+        "term": "must",
+        "excerpt": "The BCA assay involves handling liquids with different physical properties, rang"
+      },
+      {
+        "term": "never",
+        "excerpt": "De novo protein design—building proteins that have never been seen in nature fro"
+      }
+    ],
+    "quantifier_hits": 5.19,
+    "first_person_count": 137,
+    "objective_selfref_count": 5,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.209,
+    "mattr": 0.689,
+    "top_terms": [
+      "mhs×131",
+      "claude×55",
+      "agent×50",
+      "experiments×45",
+      "lab×43",
+      "liquid×43",
+      "through×36",
+      "instruments×35",
+      "laser×34",
+      "data×34",
+      "across×33",
+      "run×32",
+      "devices×30",
+      "plate×30",
+      "hardware×27"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Previewing the Model Hardware Standard",
+    "title_len": 38,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "公告类",
+      "code": "N",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "file": "sycophancy-in-gpt-4o.md",
+  "lang": "en",
+  "title": "Sycophancy in GPT-4o: what happened and what we’re doing about it",
+  "cjk_chars": 0,
+  "word_count": 631,
+  "reading_time_min": 2.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 31,
+    "avg_sentence_len": 19.4,
+    "median_sentence_len": 17,
+    "p90_sentence_len": 30,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 25,
+    "avg_paragraph_len": 24,
+    "median_paragraph_len": 16,
+    "p90_paragraph_len": 49,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 10,
+    "number_per_1k": 15.85,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 1,
+    "year_per_1k": 1.58,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 9.51,
+    "hedge_examples": [
+      {
+        "term": "about",
+        "excerpt": "# Sycophancy in GPT-4o: what happened and what we’re doing about it"
+      },
+      {
+        "term": "about",
+        "excerpt": "Product\nSycophancy in GPT-4o: what happened and what we’re doing about it"
+      },
+      {
+        "term": "toward",
+        "excerpt": "When shaping model behavior, we start with baseline principles and instructions "
+      }
+    ],
+    "absolutist_hits": 1.58,
+    "absolutist_examples": [
+      {
+        "term": "everyone",
+        "excerpt": "We are grateful to everyone who’s spoken up about this. It’s helping us build mo"
+      }
+    ],
+    "quantifier_hits": 3.17,
+    "first_person_count": 17,
+    "objective_selfref_count": 1,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.437,
+    "mattr": 0.677,
+    "top_terms": [
+      "chatgpt×12",
+      "users×8",
+      "sycophancy×7",
+      "feedback×7",
+      "default×7",
+      "update×6",
+      "behavior×6",
+      "happened×5",
+      "gpt×5",
+      "week×4",
+      "like×4",
+      "back×3",
+      "last×3",
+      "overly×3",
+      "sycophantic×3"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Sycophancy in GPT-4o: what happened and what we’re doing about it",
+    "title_len": 65,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "工程类",
+      "code": "E",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

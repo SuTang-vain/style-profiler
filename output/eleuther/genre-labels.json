@@ -6,8 +6,26 @@
     "low_confidence": [
       "deep-ignorance.md",
       "aletheia-retrospective.md",
-      "dynamical-models-of-ai-governability.md"
-    ]
+      "dynamical-models-of-ai-governability.md",
+      "eu-aia.md"
+    ],
+    "router_v2_expansion": {
+      "date": "2026-09-14",
+      "router": "llm-routing-v2-expansion",
+      "added": [
+        "announcing-20b",
+        "eu-aia",
+        "fmti-critique",
+        "llemma",
+        "mutransfer",
+        "nyt-yi-34b-response",
+        "pile-t5",
+        "rlhf-and-rlaif-in-gpt-neox",
+        "transformer-math",
+        "why-release-a-large-language-model"
+      ],
+      "note": "扩容补采10篇（N4/A3/P1/G2），逐篇人工路由打标；eu-aia低置信进人工复核"
+    }
   },
   "aletheia-retrospective": {
     "genre_code": "R",
@@ -68,5 +86,65 @@
     "genre_name": "研究类",
     "confidence": "high",
     "evidence": "'Research Update'，POSER基准上测Tyche的负结果实验报告"
+  },
+  "announcing-20b": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "'happy to finally announce'+2/9开放下载Apache2.0，附性能表"
+  },
+  "llemma": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "'Today we release Llemma'，models/data/code全开放"
+  },
+  "pile-t5": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "'we introduce a new version of T5'，HF checkpoints已发布"
+  },
+  "rlhf-and-rlaif-in-gpt-neox": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "'excited to announce...in GPT-NeoX'+Release节仓库可用"
+  },
+  "nyt-yi-34b-response": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "对NYT报道的事实核查与论证反驳，无发布目的"
+  },
+  "fmti-critique": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "对Stanford FMTI的系统性批评，'Our core issues are'"
+  },
+  "why-release-a-large-language-model": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "开源大模型三点论证的立场随笔，无实验无发布"
+  },
+  "eu-aia": {
+    "genre_code": "P",
+    "genre_name": "政策类",
+    "confidence": "low",
+    "evidence": "对EU AI Act立场声明+五点立法建议，外部政策评论P/A边界"
+  },
+  "transformer-math": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "high",
+    "evidence": "'purpose...to collect these equations'，计算参考教程"
+  },
+  "mutransfer": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "high",
+    "evidence": "标题即Practitioner's Guide，教实现/验证/使用μP"
   }
 }

@@ -1,0 +1,121 @@
+{
+  "file": "fast-peft-serving-scale.md",
+  "lang": "en",
+  "title": "Fast PEFT Serving at Scale",
+  "cjk_chars": 0,
+  "word_count": 3153,
+  "reading_time_min": 11.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 132,
+    "avg_sentence_len": 24.2,
+    "median_sentence_len": 22.0,
+    "p90_sentence_len": 33,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 79,
+    "avg_paragraph_len": 40.4,
+    "median_paragraph_len": 32,
+    "p90_paragraph_len": 86,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 83,
+    "number_per_1k": 26.32,
+    "precise_numbers": 24,
+    "precise_per_1k": 7.61,
+    "year_anchors": 3,
+    "year_per_1k": 0.95,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 1.9,
+    "hedge_examples": [
+      {
+        "term": "about",
+        "excerpt": "Building a lightning-fast inference runtime isn't just about raw speed—it's abou"
+      },
+      {
+        "term": "might",
+        "excerpt": "Hybrid Attention\nFigure 6, the left hand side of the figure shows how attention "
+      },
+      {
+        "term": "suggest",
+        "excerpt": "Our work builds on similar approaches suggested in Academia, SageAttention and S"
+      }
+    ],
+    "absolutist_hits": 3.81,
+    "absolutist_examples": [
+      {
+        "term": "critical",
+        "excerpt": "With our focus on data intelligence, building AI that can reason over your enter"
+      },
+      {
+        "term": "must",
+        "excerpt": "Think framework-first, not kernel-first: The most effective optimizations emerge"
+      },
+      {
+        "term": "must",
+        "excerpt": "In production systems, servers must handle a varying number of LoRA requests, wh"
+      }
+    ],
+    "quantifier_hits": 7.61,
+    "first_person_count": 66,
+    "objective_selfref_count": 1,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.313,
+    "mattr": 0.677,
+    "top_terms": [
+      "kernel×30",
+      "inference×27",
+      "lora×25",
+      "quality×24",
+      "performance×19",
+      "quantization×19",
+      "peft×18",
+      "databricks×18",
+      "data×17",
+      "figure×15",
+      "serving×14",
+      "kernels×13",
+      "base×12",
+      "attention×12",
+      "scale×11"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Fast PEFT Serving at Scale",
+    "title_len": 26,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "工程类",
+      "code": "E",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "file": "expanding-our-heat-resilience-data-to-50-global-cities.md",
+  "lang": "en",
+  "title": "Expanding our Heat Resilience data to 50+ global cities",
+  "cjk_chars": 0,
+  "word_count": 899,
+  "reading_time_min": 3.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 47,
+    "avg_sentence_len": 19.4,
+    "median_sentence_len": 18,
+    "p90_sentence_len": 32,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 26,
+    "avg_paragraph_len": 35.1,
+    "median_paragraph_len": 24.5,
+    "p90_paragraph_len": 79,
+    "one_line_paragraphs": 1
+  },
+  "evidence": {
+    "number_tokens": 29,
+    "number_per_1k": 32.26,
+    "precise_numbers": 3,
+    "precise_per_1k": 3.34,
+    "year_anchors": 2,
+    "year_per_1k": 2.22,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 4.45,
+    "hedge_examples": [
+      {
+        "term": "could",
+        "excerpt": "As part of our Google Earth AI collection of geospatial models and datasets to t"
+      },
+      {
+        "term": "we aim",
+        "excerpt": "This release expands our data to 50+ cities across 9 countries. New coverage inc"
+      }
+    ],
+    "absolutist_hits": 2.22,
+    "absolutist_examples": [
+      {
+        "term": "critical",
+        "excerpt": "Approximately 500,000 deaths every year are attributed to extreme heat, a crisis"
+      },
+      {
+        "term": "critical",
+        "excerpt": "To address this, Google Research is building AI-driven tools to help lower city "
+      }
+    ],
+    "quantifier_hits": 2.22,
+    "first_person_count": 20,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.508,
+    "mattr": 0.735,
+    "top_terms": [
+      "data×18",
+      "heat×14",
+      "albedo×13",
+      "high-resolution×11",
+      "cities×10",
+      "urban×9",
+      "resilience×8",
+      "building-level×7",
+      "earth×7",
+      "research×6",
+      "reflectivity×6",
+      "app×6",
+      "across×6",
+      "google×5",
+      "dataset×5"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Expanding our Heat Resilience data to 50+ global cities",
+    "title_len": 55,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "公告类",
+      "code": "N",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

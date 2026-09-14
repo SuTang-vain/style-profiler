@@ -3,7 +3,26 @@
     "taxonomy": "genre-taxonomy-v0 六类",
     "date": "2026-09-14",
     "router": "llm-routing-v1",
-    "low_confidence": []
+    "low_confidence": [
+      "claude-text-watermark"
+    ],
+    "router_v2_expansion": {
+      "date": "2026-09-14",
+      "router": "llm-routing-v2-expansion",
+      "note": "扩容10篇按genre-taxonomy-v0 §一裁决规则打标；旧10篇保持llm-routing-v1标签不动",
+      "added_slugs": [
+        "claude-is-a-space-to-think",
+        "thoughts-on-america-s-ai-action-plan",
+        "the-case-for-targeted-regulation",
+        "claude-text-watermark",
+        "claude-opus-5",
+        "introducing-anthropic-labs",
+        "wellbeing-research-grants",
+        "model-hardware-standard-research-preview",
+        "position-open-weights-models",
+        "compliance-framework-sb53"
+      ]
+    }
   },
   "a-postmortem-of-three-recent-issues": {
     "genre_code": "E",
@@ -64,5 +83,65 @@
     "genre_name": "政策类",
     "confidence": "high",
     "evidence": "发布RSP：ASL分级安全规范与组织承诺，政策主体"
+  },
+  "claude-is-a-space-to-think": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "论证Claude无广告立场：广告激励与助手利益冲突分析"
+  },
+  "thoughts-on-america-s-ai-action-plan": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "对美国AI行动计划的逐条回应与政策评论"
+  },
+  "the-case-for-targeted-regulation": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "论证定向监管理念：三原则主张+FAQ驳论"
+  },
+  "claude-text-watermark": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "low",
+    "evidence": "水印机制Q&A概念解读，混公告性质；主导为解读"
+  },
+  "claude-opus-5": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "Opus 5模型发布：性能表+available today可用性声明"
+  },
+  "introducing-anthropic-labs": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "宣布Labs扩容与产品组织领导调整，组织里程碑"
+  },
+  "wellbeing-research-grants": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "宣布$5M福祉评估grant计划，含申请截止日期"
+  },
+  "model-hardware-standard-research-preview": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "宣布MHS研究预览开放申请，含伙伴案例与可用性"
+  },
+  "position-open-weights-models": {
+    "genre_code": "P",
+    "genre_name": "政策类",
+    "confidence": "high",
+    "evidence": "CEO署名立场声明：开放权重模型的三项政策主张"
+  },
+  "compliance-framework-sb53": {
+    "genre_code": "P",
+    "genre_name": "政策类",
+    "confidence": "high",
+    "evidence": "发布SB53合规框架FCF：风险评估分级与缓解规范"
   }
 }

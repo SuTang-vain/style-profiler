@@ -1,0 +1,113 @@
+{
+  "file": "extending-human-intelligence-through-ai.md",
+  "lang": "en",
+  "title": "Extending Human Intelligence Through AI",
+  "cjk_chars": 0,
+  "word_count": 1104,
+  "reading_time_min": 4.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 54,
+    "avg_sentence_len": 20.4,
+    "median_sentence_len": 18.5,
+    "p90_sentence_len": 32,
+    "question_sentences": 1
+  },
+  "paragraphs": {
+    "paragraph_count": 19,
+    "avg_paragraph_len": 58,
+    "median_paragraph_len": 69,
+    "p90_paragraph_len": 96,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 2,
+    "number_per_1k": 1.81,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 1,
+    "year_per_1k": 0.91,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 13.59,
+    "hedge_examples": [
+      {
+        "term": "toward",
+        "excerpt": "At a glance\nModern AI systems are powerful not because they replicate human inte"
+      },
+      {
+        "term": "about",
+        "excerpt": "AI systems today can write essays, generate code, summarize complex ideas, and c"
+      },
+      {
+        "term": "early",
+        "excerpt": "AI systems today can write essays, generate code, summarize complex ideas, and c"
+      }
+    ],
+    "absolutist_hits": 0.91,
+    "absolutist_examples": [
+      {
+        "term": "fundamental",
+        "excerpt": "This helps explain why AI safety is increasingly shifting from model safety to s"
+      }
+    ],
+    "quantifier_hits": 3.62,
+    "first_person_count": 16,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 1,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.434,
+    "mattr": 0.717,
+    "top_terms": [
+      "systems×22",
+      "human×20",
+      "intelligence×12",
+      "language×8",
+      "reasoning×7",
+      "understanding×7",
+      "extend×7",
+      "because×6",
+      "structures×6",
+      "cognition×6",
+      "world×6",
+      "patterns×6",
+      "through×5",
+      "perspective×5",
+      "helps×5"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Extending Human Intelligence Through AI",
+    "title_len": 39,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "分析评论类",
+      "code": "A",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

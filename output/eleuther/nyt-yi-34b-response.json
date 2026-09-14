@@ -1,0 +1,121 @@
+{
+  "file": "nyt-yi-34b-response.md",
+  "lang": "en",
+  "title": "Yi-34B, Llama 2, and common practices in LLM training: a fact check of the New York Times",
+  "cjk_chars": 0,
+  "word_count": 1719,
+  "reading_time_min": 6.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 70,
+    "avg_sentence_len": 24.7,
+    "median_sentence_len": 22.0,
+    "p90_sentence_len": 40,
+    "question_sentences": 1
+  },
+  "paragraphs": {
+    "paragraph_count": 3,
+    "avg_paragraph_len": 577.3,
+    "median_paragraph_len": 27,
+    "p90_paragraph_len": 27,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 63,
+    "number_per_1k": 36.65,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 12,
+    "year_per_1k": 6.98,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 6.98,
+    "hedge_examples": [
+      {
+        "term": "could",
+        "excerpt": "On February 21 2024, the New York Times published “China’s Rush to Dominate A.I."
+      },
+      {
+        "term": "about",
+        "excerpt": "On February 21 2024, the New York Times published “China’s Rush to Dominate A.I."
+      },
+      {
+        "term": "likely",
+        "excerpt": "On February 21 2024, the New York Times published “China’s Rush to Dominate A.I."
+      }
+    ],
+    "absolutist_hits": 4.07,
+    "absolutist_examples": [
+      {
+        "term": "must",
+        "excerpt": "On February 21 2024, the New York Times published “China’s Rush to Dominate A.I."
+      },
+      {
+        "term": "always",
+        "excerpt": "On February 21 2024, the New York Times published “China’s Rush to Dominate A.I."
+      },
+      {
+        "term": "never",
+        "excerpt": "On February 21 2024, the New York Times published “China’s Rush to Dominate A.I."
+      }
+    ],
+    "quantifier_hits": 11.05,
+    "first_person_count": 10,
+    "objective_selfref_count": 1,
+    "exclamations": 0,
+    "questions": 1,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.364,
+    "mattr": 0.691,
+    "top_terms": [
+      "llama×26",
+      "language×14",
+      "meta×12",
+      "yi-×10",
+      "training×10",
+      "architecture×10",
+      "transformer×9",
+      "dataset×8",
+      "attention×8",
+      "google×8",
+      "data×7",
+      "hugging×7",
+      "face×7",
+      "llms×6",
+      "components×6"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Yi-34B, Llama 2, and common practices in LLM training: a fact check of the New York Times",
+    "title_len": 89,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "分析评论类",
+      "code": "A",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

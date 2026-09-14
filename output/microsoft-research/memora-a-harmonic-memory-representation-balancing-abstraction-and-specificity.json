@@ -1,0 +1,121 @@
+{
+  "file": "memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity.md",
+  "lang": "en",
+  "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
+  "cjk_chars": 0,
+  "word_count": 1339,
+  "reading_time_min": 4.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 58,
+    "avg_sentence_len": 23.4,
+    "median_sentence_len": 21.5,
+    "p90_sentence_len": 35,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 24,
+    "avg_paragraph_len": 56.7,
+    "median_paragraph_len": 22.0,
+    "p90_paragraph_len": 131,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 24,
+    "number_per_1k": 17.92,
+    "precise_numbers": 5,
+    "precise_per_1k": 3.73,
+    "year_anchors": 2,
+    "year_per_1k": 1.49,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 7.47,
+    "hedge_examples": [
+      {
+        "term": "about",
+        "excerpt": "Memora is an agentic memory framework designed for long-horizon AI agents. Memor"
+      },
+      {
+        "term": "about",
+        "excerpt": "Memora resolves this tension through a harmonic organization. Each memory entry "
+      },
+      {
+        "term": "about",
+        "excerpt": "To make this concrete: suppose a user says, “Dave and Sarah agreed to push the p"
+      }
+    ],
+    "absolutist_hits": 2.99,
+    "absolutist_examples": [
+      {
+        "term": "must",
+        "excerpt": "At a glance\nToday’s AI agents don’t remember past interactions. They must repeat"
+      },
+      {
+        "term": "critical",
+        "excerpt": "Imagine a workplace AI assistant helping you run a multi-month project. Over wee"
+      },
+      {
+        "term": "never",
+        "excerpt": "Memora resolves this tension through a harmonic organization. Each memory entry "
+      }
+    ],
+    "quantifier_hits": 7.47,
+    "first_person_count": 6,
+    "objective_selfref_count": 1,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.462,
+    "mattr": 0.747,
+    "top_terms": [
+      "memory×29",
+      "memora×23",
+      "abstraction×10",
+      "research×9",
+      "agents×9",
+      "systems×8",
+      "project×8",
+      "specificity×6",
+      "content×6",
+      "through×6",
+      "information×5",
+      "access×5",
+      "cue×5",
+      "anchors×5",
+      "mem×5"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
+    "title_len": 78,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "研究类",
+      "code": "R",
+      "confidence": "low",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

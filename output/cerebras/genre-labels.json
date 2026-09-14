@@ -6,8 +6,27 @@
     "low_confidence": [
       "how-to-stop-your-autoresearch-loop-from-cheating",
       "lessons-learned-from-building-multi-agent-workflows",
-      "never-loop-without-verifiers"
-    ]
+      "never-loop-without-verifiers",
+      "first-look-gemma-4-on-cerebras-3-fast-multimodal-apps-we-built",
+      "which-is-faster-gemini-3-5-flash-or-kimi-k2-6-on-cerebras"
+    ],
+    "router_v2_expansion": {
+      "date": "2026-09-14",
+      "router": "llm-routing-v2-expansion",
+      "note": "扩容10篇按genre-taxonomy-v0 §一裁决规则打标；旧10篇保持llm-routing-v1标签不动",
+      "added_slugs": [
+        "2026insights",
+        "cerebras-at-neurips-2025-nine-papers-from-pretraining-to-inference",
+        "codex-spark-best-practices",
+        "disaggregated-inference",
+        "first-look-gemma-4-on-cerebras-3-fast-multimodal-apps-we-built",
+        "generating-beautiful-uis",
+        "getting-the-most-out-of-gpt-5-6-sol-terra-and-luna",
+        "introducing-cerebras-cs-4",
+        "scaling-swe-agent-data-collection-with-dockerized-environments-for-execution",
+        "which-is-faster-gemini-3-5-flash-or-kimi-k2-6-on-cerebras"
+      ]
+    }
   },
   "exomebench": {
     "genre_code": "N",
@@ -68,5 +87,65 @@
     "genre_name": "公告类",
     "confidence": "high",
     "evidence": "Hot Chips发布CS-4/预告CS-5/CS-6，附SEC前瞻性声明"
+  },
+  "2026insights": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "CEO年度回顾，论证推理速度成行业主约束"
+  },
+  "cerebras-at-neurips-2025-nine-papers-from-pretraining-to-inference": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "9篇论文方法+发现汇总，无可用性声明"
+  },
+  "codex-spark-best-practices": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "high",
+    "evidence": "自称practical playbook，教Codex Spark用法"
+  },
+  "disaggregated-inference": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "disaggregated inference概念解读+行业格局论证"
+  },
+  "first-look-gemma-4-on-cerebras-3-fast-multimodal-apps-we-built": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "low",
+    "evidence": "3个app构建实测为主体(E/G/N混合:含7-tips与可用性声明)"
+  },
+  "generating-beautiful-uis": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "high",
+    "evidence": "8方法3类教AI生成UI，方法清单为主体"
+  },
+  "getting-the-most-out-of-gpt-5-6-sol-terra-and-luna": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "high",
+    "evidence": "教模型选择/推理档位/缓存最佳实践"
+  },
+  "introducing-cerebras-cs-4": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "Today we are introducing CS-4产品发布+性能表"
+  },
+  "scaling-swe-agent-data-collection-with-dockerized-environments-for-execution": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "数据采集管线+容器化执行环境构建报告"
+  },
+  "which-is-faster-gemini-3-5-flash-or-kimi-k2-6-on-cerebras": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "low",
+    "evidence": "基准对比方法+结果(R/A边界:兼竞争论证)"
   }
 }

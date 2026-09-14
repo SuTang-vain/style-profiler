@@ -1,0 +1,121 @@
+{
+  "file": "claude-opus-5.md",
+  "lang": "en",
+  "title": "Introducing Claude Opus 5",
+  "cjk_chars": 0,
+  "word_count": 2563,
+  "reading_time_min": 9.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 100,
+    "avg_sentence_len": 26.3,
+    "median_sentence_len": 25.0,
+    "p90_sentence_len": 42,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 66,
+    "avg_paragraph_len": 39.8,
+    "median_paragraph_len": 44.0,
+    "p90_paragraph_len": 69,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 141,
+    "number_per_1k": 55.01,
+    "precise_numbers": 43,
+    "precise_per_1k": 16.78,
+    "year_anchors": 1,
+    "year_per_1k": 0.39,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 8.58,
+    "hedge_examples": [
+      {
+        "term": "remains",
+        "excerpt": "On coding and knowledge work evaluations like Frontier-Bench and GDPval-AA, Opus"
+      },
+      {
+        "term": "according to",
+        "excerpt": "Claude Opus 5 provides greatly improved performance for the same cost as its pre"
+      },
+      {
+        "term": "around",
+        "excerpt": "On Zapier AutomationBench, which measures whether models can complete business t"
+      }
+    ],
+    "absolutist_hits": 2.34,
+    "absolutist_examples": [
+      {
+        "term": "critical",
+        "excerpt": "Claude Opus 5 is a striking improvement over Opus 4.8 for the financial research"
+      },
+      {
+        "term": "essential",
+        "excerpt": "Claude Opus 5 delivers the industry intelligence and accuracy that is essential "
+      },
+      {
+        "term": "never",
+        "excerpt": "As with its predecessor, Opus 4.8, we’ve intentionally avoided training Opus 5 o"
+      }
+    ],
+    "quantifier_hits": 9.75,
+    "first_person_count": 43,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.364,
+    "mattr": 0.693,
+    "top_terms": [
+      "opus×102",
+      "claude×46",
+      "tasks×16",
+      "work×15",
+      "performance×12",
+      "fable×10",
+      "cost×9",
+      "research×8",
+      "mythos×7",
+      "better×7",
+      "found×7",
+      "code×7",
+      "evaluations×6",
+      "cybersecurity×6",
+      "effort×6"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Introducing Claude Opus 5",
+    "title_len": 25,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "公告类",
+      "code": "N",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

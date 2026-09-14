@@ -1,0 +1,121 @@
+{
+  "file": "building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset.md",
+  "lang": "en",
+  "title": "Building realistic electric transmission grid dataset at scale: a pipeline from open dataset",
+  "cjk_chars": 0,
+  "word_count": 2094,
+  "reading_time_min": 7.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 99,
+    "avg_sentence_len": 21.5,
+    "median_sentence_len": 20,
+    "p90_sentence_len": 33,
+    "question_sentences": 5
+  },
+  "paragraphs": {
+    "paragraph_count": 50,
+    "avg_paragraph_len": 42.6,
+    "median_paragraph_len": 42.0,
+    "p90_paragraph_len": 75,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 37,
+    "number_per_1k": 17.67,
+    "precise_numbers": 16,
+    "precise_per_1k": 7.64,
+    "year_anchors": 1,
+    "year_per_1k": 0.48,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 5.25,
+    "hedge_examples": [
+      {
+        "term": "about",
+        "excerpt": "In most of the world, including the United States, realistic transmission-level "
+      },
+      {
+        "term": "uncertain",
+        "excerpt": "Using only publicly accessible datasets, the pipeline produces geographically gr"
+      },
+      {
+        "term": "may",
+        "excerpt": "The key test is solvability. In power system analysis, solving optimal power flo"
+      }
+    ],
+    "absolutist_hits": 2.87,
+    "absolutist_examples": [
+      {
+        "term": "entirely",
+        "excerpt": "At a glance\nWe construct geographically grounded, electrically coherent power gr"
+      },
+      {
+        "term": "essential",
+        "excerpt": "The ability to study transmission-level power grid behavior is essential for mod"
+      },
+      {
+        "term": "critical",
+        "excerpt": "In most of the world, including the United States, realistic transmission-level "
+      }
+    ],
+    "quantifier_hits": 6.69,
+    "first_person_count": 16,
+    "objective_selfref_count": 4,
+    "exclamations": 0,
+    "questions": 5,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.372,
+    "mattr": 0.734,
+    "top_terms": [
+      "grid×28",
+      "transmission×24",
+      "data×21",
+      "power×19",
+      "open×14",
+      "demand×11",
+      "realistic×10",
+      "states×9",
+      "dataset×8",
+      "pipeline×8",
+      "research×8",
+      "analysis×8",
+      "line×8",
+      "system×8",
+      "networks×8"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Building realistic electric transmission grid dataset at scale: a pipeline from open dataset",
+    "title_len": 92,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "工程类",
+      "code": "E",
+      "confidence": "low",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

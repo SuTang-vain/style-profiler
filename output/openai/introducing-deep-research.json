@@ -1,0 +1,113 @@
+{
+  "file": "introducing-deep-research.md",
+  "lang": "en",
+  "title": "Introducing deep research",
+  "cjk_chars": 0,
+  "word_count": 2135,
+  "reading_time_min": 7.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 76,
+    "avg_sentence_len": 28.6,
+    "median_sentence_len": 22.5,
+    "p90_sentence_len": 40,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 66,
+    "avg_paragraph_len": 32.9,
+    "median_paragraph_len": 21.5,
+    "p90_paragraph_len": 90,
+    "one_line_paragraphs": 1
+  },
+  "evidence": {
+    "number_tokens": 66,
+    "number_per_1k": 30.91,
+    "precise_numbers": 23,
+    "precise_per_1k": 10.77,
+    "year_anchors": 7,
+    "year_per_1k": 3.28,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 8.9,
+    "hedge_examples": [
+      {
+        "term": "remains",
+        "excerpt": "July 17, 2025 update: Deep research can now go even deeper and broader with acce"
+      },
+      {
+        "term": "toward",
+        "excerpt": "The ability to synthesize knowledge is a prerequisite for creating new knowledge"
+      },
+      {
+        "term": "about",
+        "excerpt": "Deep research independently discovers, reasons about, and consolidates insights "
+      }
+    ],
+    "absolutist_hits": 0.47,
+    "absolutist_examples": [
+      {
+        "term": "critical",
+        "excerpt": "Compared to deep research, GPT‑4o is ideal for real-time, multimodal conversatio"
+      }
+    ],
+    "quantifier_hits": 4.22,
+    "first_person_count": 21,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.468,
+    "mattr": 0.731,
+    "top_terms": [
+      "research×57",
+      "deep×45",
+      "chatgpt×11",
+      "users×11",
+      "tasks×10",
+      "access×9",
+      "web×9",
+      "version×8",
+      "openai×8",
+      "sources×7",
+      "information×7",
+      "get×6",
+      "take×6",
+      "work×6",
+      "browsing×6"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Introducing deep research",
+    "title_len": 25,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "公告类",
+      "code": "N",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

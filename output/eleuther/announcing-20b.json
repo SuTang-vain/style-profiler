@@ -1,0 +1,108 @@
+{
+  "file": "announcing-20b.md",
+  "lang": "en",
+  "title": "Announcing GPT-NeoX-20B",
+  "cjk_chars": 0,
+  "word_count": 380,
+  "reading_time_min": 1.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 14,
+    "avg_sentence_len": 39.8,
+    "median_sentence_len": 23.5,
+    "p90_sentence_len": 50,
+    "question_sentences": 1
+  },
+  "paragraphs": {
+    "paragraph_count": 3,
+    "avg_paragraph_len": 187,
+    "median_paragraph_len": 8,
+    "p90_paragraph_len": 8,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 107,
+    "number_per_1k": 281.58,
+    "precise_numbers": 80,
+    "precise_per_1k": 210.53,
+    "year_anchors": 3,
+    "year_per_1k": 7.89,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 10.53,
+    "hedge_examples": [
+      {
+        "term": "could",
+        "excerpt": "As of February 9, 2022 , GPT-NeoX-20B checkpoints are available for download fro"
+      },
+      {
+        "term": "we expect",
+        "excerpt": "As of February 9, 2022 , GPT-NeoX-20B checkpoints are available for download fro"
+      },
+      {
+        "term": "toward",
+        "excerpt": "As of February 9, 2022 , GPT-NeoX-20B checkpoints are available for download fro"
+      }
+    ],
+    "absolutist_hits": 0.0,
+    "absolutist_examples": [],
+    "quantifier_hits": 2.63,
+    "first_person_count": 15,
+    "objective_selfref_count": 0,
+    "exclamations": 1,
+    "questions": 1,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.542,
+    "mattr": 0.677,
+    "top_terms": [
+      "gpt-neox-×11",
+      "language×7",
+      "inference×4",
+      "february×3",
+      "anli×3",
+      "natural×3",
+      "announcing×2",
+      "eye×2",
+      "apache×2",
+      "technical×2",
+      "looking×2",
+      "coreweave×2",
+      "gpt-neox×2",
+      "knowledge×2",
+      "tasks×2"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Announcing GPT-NeoX-20B",
+    "title_len": 23,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "公告类",
+      "code": "N",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

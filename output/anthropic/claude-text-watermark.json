@@ -1,0 +1,121 @@
+{
+  "file": "claude-text-watermark.md",
+  "lang": "en",
+  "title": "How Claude’s text watermark works",
+  "cjk_chars": 0,
+  "word_count": 2252,
+  "reading_time_min": 8.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 110,
+    "avg_sentence_len": 19.9,
+    "median_sentence_len": 16.5,
+    "p90_sentence_len": 37,
+    "question_sentences": 17
+  },
+  "paragraphs": {
+    "paragraph_count": 58,
+    "avg_paragraph_len": 37.8,
+    "median_paragraph_len": 24.0,
+    "p90_paragraph_len": 88,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 21,
+    "number_per_1k": 9.33,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 6,
+    "year_per_1k": 2.66,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 12.88,
+    "hedge_examples": [
+      {
+        "term": "about",
+        "excerpt": "In this article, we share answers to some of the questions we’ve received about "
+      },
+      {
+        "term": "likely",
+        "excerpt": "Large language models like Claude work by generating one word at a time. Each ti"
+      },
+      {
+        "term": "might",
+        "excerpt": "Importantly, it isn’t that the model will now always be biased toward overcast o"
+      }
+    ],
+    "absolutist_hits": 1.78,
+    "absolutist_examples": [
+      {
+        "term": "always",
+        "excerpt": "Importantly, it isn’t that the model will now always be biased toward overcast o"
+      },
+      {
+        "term": "certainly",
+        "excerpt": "Importantly, it isn’t that the model will now always be biased toward overcast o"
+      },
+      {
+        "term": "completely",
+        "excerpt": "To some extent, yes. Light editing probably won’t remove the watermark completel"
+      }
+    ],
+    "quantifier_hits": 5.33,
+    "first_person_count": 20,
+    "objective_selfref_count": 1,
+    "exclamations": 0,
+    "questions": 18,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.295,
+    "mattr": 0.64,
+    "top_terms": [
+      "claude×44",
+      "watermarking×31",
+      "text×27",
+      "watermark×25",
+      "word×13",
+      "there×12",
+      "whether×9",
+      "doesn×9",
+      "words×9",
+      "different×9",
+      "content×8",
+      "code×8",
+      "next×8",
+      "like×7",
+      "key×7"
+    ],
+    "en_char_ratio": null,
+    "title_text": "How Claude’s text watermark works",
+    "title_len": 33,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "分析评论类",
+      "code": "A",
+      "confidence": "low",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

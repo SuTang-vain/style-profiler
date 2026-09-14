@@ -1,0 +1,121 @@
+{
+  "file": "sharing-the-latest-model-spec.md",
+  "lang": "en",
+  "title": "Sharing the latest Model Spec",
+  "cjk_chars": 0,
+  "word_count": 1230,
+  "reading_time_min": 4.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 54,
+    "avg_sentence_len": 22.2,
+    "median_sentence_len": 20.0,
+    "p90_sentence_len": 34,
+    "question_sentences": 2
+  },
+  "paragraphs": {
+    "paragraph_count": 30,
+    "avg_paragraph_len": 39.9,
+    "median_paragraph_len": 34.0,
+    "p90_paragraph_len": 74,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 7,
+    "number_per_1k": 5.69,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 1,
+    "year_per_1k": 0.81,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 10.57,
+    "hedge_examples": [
+      {
+        "term": "early",
+        "excerpt": "We’re sharing a major update to the Model Spec, a document which defines how we "
+      },
+      {
+        "term": "early",
+        "excerpt": "These objectives can sometimes be in conflict, and the Model Spec balances the t"
+      },
+      {
+        "term": "we believe",
+        "excerpt": "Chain of command: Defines how the model prioritizes instructions from the platfo"
+      }
+    ],
+    "absolutist_hits": 3.25,
+    "absolutist_examples": [
+      {
+        "term": "critical",
+        "excerpt": "Seek the truth together: Like a high-integrity human assistant, our models shoul"
+      },
+      {
+        "term": "never",
+        "excerpt": "This philosophy is embedded in the “Stay in bounds” and “Seek the truth together"
+      },
+      {
+        "term": "always",
+        "excerpt": "As our AI systems advance, we will continue to iterate on these principles, invi"
+      }
+    ],
+    "quantifier_hits": 7.32,
+    "first_person_count": 41,
+    "objective_selfref_count": 1,
+    "exclamations": 0,
+    "questions": 2,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.409,
+    "mattr": 0.698,
+    "top_terms": [
+      "spec×23",
+      "while×8",
+      "users×8",
+      "sharing×6",
+      "progress×6",
+      "developers×6",
+      "principles×5",
+      "feedback×5",
+      "version×5",
+      "user×5",
+      "update×4",
+      "share×4",
+      "intellectual×4",
+      "freedom×4",
+      "harm×4"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Sharing the latest Model Spec",
+    "title_len": 29,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "政策类",
+      "code": "P",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

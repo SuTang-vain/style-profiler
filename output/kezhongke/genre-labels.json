@@ -3,8 +3,10 @@
     "taxonomy": "genre-taxonomy-v0 六类",
     "date": "2026-09-14",
     "router": "llm-routing-v1",
+    "router_v2_note": "2026-09-14 扩容补采：sub-6e00d207fee4 由 llm-routing-v2-expansion 打标追加；其余 23 篇维持 v1 判定未动",
     "low_confidence": [
-      "eval-harness-landscape.json"
+      "eval-harness-landscape.json",
+      "sub-6e00d207fee4.json"
     ]
   },
   "multi-agent-sociology": {
@@ -144,5 +146,11 @@
     "genre_name": "指南类",
     "confidence": "high",
     "evidence": "入门指南：UX写作规范是什么、为什么、怎么落地"
+  },
+  "sub-6e00d207fee4": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "low",
+    "evidence": "Musepool Skill文档式拆解：双命令/参数/速查表为主体，A/G边界"
   }
 }

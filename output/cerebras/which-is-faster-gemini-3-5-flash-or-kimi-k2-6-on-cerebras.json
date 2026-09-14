@@ -1,0 +1,109 @@
+{
+  "file": "which-is-faster-gemini-3-5-flash-or-kimi-k2-6-on-cerebras.md",
+  "lang": "en",
+  "title": "Which is faster: Kimi K2.6 on Cerebras or Gemini Flash?",
+  "cjk_chars": 0,
+  "word_count": 857,
+  "reading_time_min": 3.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 52,
+    "avg_sentence_len": 17.1,
+    "median_sentence_len": 16.0,
+    "p90_sentence_len": 26,
+    "question_sentences": 2
+  },
+  "paragraphs": {
+    "paragraph_count": 20,
+    "avg_paragraph_len": 44.5,
+    "median_paragraph_len": 43.0,
+    "p90_paragraph_len": 86,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 59,
+    "number_per_1k": 68.84,
+    "precise_numbers": 40,
+    "precise_per_1k": 46.67,
+    "year_anchors": 2,
+    "year_per_1k": 2.33,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 2.33,
+    "hedge_examples": [
+      {
+        "term": "around",
+        "excerpt": "Gemini 3.5 Flash achieves 181 tokens/s in this benchmark, significantly faster t"
+      },
+      {
+        "term": "appears",
+        "excerpt": "Gemini 3.5 Flash achieves 181 tokens/s in this benchmark, significantly faster t"
+      }
+    ],
+    "absolutist_hits": 1.17,
+    "absolutist_examples": [
+      {
+        "term": "entirely",
+        "excerpt": "There's one more dimension that doesn't show up on a benchmark chart. Kimi K2.6 "
+      }
+    ],
+    "quantifier_hits": 9.33,
+    "first_person_count": 1,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 2,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.427,
+    "mattr": 0.666,
+    "top_terms": [
+      "gemini×15",
+      "flash×15",
+      "kimi×14",
+      "cerebras×14",
+      "speed×11",
+      "faster×9",
+      "tokens×9",
+      "output×7",
+      "google×5",
+      "intelligence×5",
+      "first×5",
+      "coding×5",
+      "inference×5",
+      "voice×5",
+      "tasks×4"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Which is faster: Kimi K2.6 on Cerebras or Gemini Flash?",
+    "title_len": 55,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "研究类",
+      "code": "R",
+      "confidence": "low",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

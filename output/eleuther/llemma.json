@@ -1,0 +1,113 @@
+{
+  "file": "llemma.md",
+  "lang": "en",
+  "title": "Llemma: An Open Language Model For Mathematics",
+  "cjk_chars": 0,
+  "word_count": 1088,
+  "reading_time_min": 4.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 62,
+    "avg_sentence_len": 18.4,
+    "median_sentence_len": 17.0,
+    "p90_sentence_len": 26,
+    "question_sentences": 4
+  },
+  "paragraphs": {
+    "paragraph_count": 18,
+    "avg_paragraph_len": 63.8,
+    "median_paragraph_len": 4.0,
+    "p90_paragraph_len": 31,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 51,
+    "number_per_1k": 46.88,
+    "precise_numbers": 9,
+    "precise_per_1k": 8.27,
+    "year_anchors": 3,
+    "year_per_1k": 2.76,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 4.6,
+    "hedge_examples": [
+      {
+        "term": "might",
+        "excerpt": "ArXiv | Models | Data | Code | Blog | Sample Explorer\nToday we release Llemma : "
+      },
+      {
+        "term": "initial",
+        "excerpt": "ArXiv | Models | Data | Code | Blog | Sample Explorer\nToday we release Llemma : "
+      },
+      {
+        "term": "unclear",
+        "excerpt": "ArXiv | Models | Data | Code | Blog | Sample Explorer\nToday we release Llemma : "
+      }
+    ],
+    "absolutist_hits": 0.92,
+    "absolutist_examples": [
+      {
+        "term": "completely",
+        "excerpt": "ArXiv | Models | Data | Code | Blog | Sample Explorer\nToday we release Llemma : "
+      }
+    ],
+    "quantifier_hits": 3.68,
+    "first_person_count": 28,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 4,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.397,
+    "mattr": 0.658,
+    "top_terms": [
+      "llemma×28",
+      "code×13",
+      "mathematical×12",
+      "language×11",
+      "dataset×10",
+      "open×9",
+      "formal×9",
+      "theorem×9",
+      "math×8",
+      "proving×8",
+      "arxiv×7",
+      "reasoning×7",
+      "training×7",
+      "mathematics×6",
+      "billion×6"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Llemma: An Open Language Model For Mathematics",
+    "title_len": 46,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "公告类",
+      "code": "N",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

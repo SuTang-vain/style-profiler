@@ -1,0 +1,100 @@
+{
+  "file": "scaling-swe-agent-data-collection-with-dockerized-environments-for-execution.md",
+  "lang": "en",
+  "title": "Scaling SWE Agent Data Collection with Dockerized Environments for Execution",
+  "cjk_chars": 0,
+  "word_count": 683,
+  "reading_time_min": 2.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 23,
+    "avg_sentence_len": 31.3,
+    "median_sentence_len": 22,
+    "p90_sentence_len": 31,
+    "question_sentences": 1
+  },
+  "paragraphs": {
+    "paragraph_count": 41,
+    "avg_paragraph_len": 17.6,
+    "median_paragraph_len": 10,
+    "p90_paragraph_len": 39,
+    "one_line_paragraphs": 1
+  },
+  "evidence": {
+    "number_tokens": 17,
+    "number_per_1k": 24.89,
+    "precise_numbers": 3,
+    "precise_per_1k": 4.39,
+    "year_anchors": 1,
+    "year_per_1k": 1.46,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 1.46,
+    "hedge_examples": [
+      {
+        "term": "approximately",
+        "excerpt": "PyPI-Based Repository Instances. We began by identifying repositories associated"
+      }
+    ],
+    "absolutist_hits": 0.0,
+    "absolutist_examples": [],
+    "quantifier_hits": 1.46,
+    "first_person_count": 9,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 1,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.523,
+    "mattr": 0.73,
+    "top_terms": [
+      "repositories×11",
+      "execution×8",
+      "dataset×8",
+      "instances×7",
+      "projects×7",
+      "data×6",
+      "test×6",
+      "repository×6",
+      "python×6",
+      "environments×5",
+      "high-quality×5",
+      "training×5",
+      "software×5",
+      "code×5",
+      "multimodal×5"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Scaling SWE Agent Data Collection with Dockerized Environments for Execution",
+    "title_len": 76,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "工程类",
+      "code": "E",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

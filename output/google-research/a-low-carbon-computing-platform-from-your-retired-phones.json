@@ -1,0 +1,117 @@
+{
+  "file": "a-low-carbon-computing-platform-from-your-retired-phones.md",
+  "lang": "en",
+  "title": "A low-carbon computing platform from your retired phones",
+  "cjk_chars": 0,
+  "word_count": 1015,
+  "reading_time_min": 3.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 47,
+    "avg_sentence_len": 21.9,
+    "median_sentence_len": 20,
+    "p90_sentence_len": 36,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 26,
+    "avg_paragraph_len": 39.6,
+    "median_paragraph_len": 47.5,
+    "p90_paragraph_len": 83,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 27,
+    "number_per_1k": 26.6,
+    "precise_numbers": 1,
+    "precise_per_1k": 0.99,
+    "year_anchors": 3,
+    "year_per_1k": 2.96,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 4.93,
+    "hedge_examples": [
+      {
+        "term": "might",
+        "excerpt": "On average, people replace their phone every four years. This is generally drive"
+      },
+      {
+        "term": "approximately",
+        "excerpt": "Prior to deployment, smartphones must be processed to remove all but the motherb"
+      },
+      {
+        "term": "approximately",
+        "excerpt": "Cluster latency and throughput for a 20 phone cluster running a parallel computi"
+      }
+    ],
+    "absolutist_hits": 1.97,
+    "absolutist_examples": [
+      {
+        "term": "must",
+        "excerpt": "Prior to deployment, smartphones must be processed to remove all but the motherb"
+      },
+      {
+        "term": "must",
+        "excerpt": "The Android operating system (OS) is already based on Linux, but the mobile-orie"
+      }
+    ],
+    "quantifier_hits": 8.87,
+    "first_person_count": 2,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.47,
+    "mattr": 0.679,
+    "top_terms": [
+      "computing×14",
+      "smartphones×9",
+      "carbon×8",
+      "phones×7",
+      "cluster×7",
+      "applications×7",
+      "performance×7",
+      "consumer×6",
+      "hardware×6",
+      "phone×6",
+      "cloud×6",
+      "server×6",
+      "memory×5",
+      "smartphone×5",
+      "support×4"
+    ],
+    "en_char_ratio": null,
+    "title_text": "A low-carbon computing platform from your retired phones",
+    "title_len": 56,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "工程类",
+      "code": "E",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

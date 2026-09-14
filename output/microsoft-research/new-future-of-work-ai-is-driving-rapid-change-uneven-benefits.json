@@ -1,0 +1,121 @@
+{
+  "file": "new-future-of-work-ai-is-driving-rapid-change-uneven-benefits.md",
+  "lang": "en",
+  "title": "New Future of Work: AI is driving rapid change, uneven benefits",
+  "cjk_chars": 0,
+  "word_count": 3286,
+  "reading_time_min": 11.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 161,
+    "avg_sentence_len": 20.3,
+    "median_sentence_len": 19,
+    "p90_sentence_len": 32,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 55,
+    "avg_paragraph_len": 59.5,
+    "median_paragraph_len": 61,
+    "p90_paragraph_len": 107,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 13,
+    "number_per_1k": 3.96,
+    "precise_numbers": 4,
+    "precise_per_1k": 1.22,
+    "year_anchors": 1,
+    "year_per_1k": 0.3,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 12.17,
+    "hedge_examples": [
+      {
+        "term": "may",
+        "excerpt": "Taken together, these findings point to a central insight: The future of work is"
+      },
+      {
+        "term": "about",
+        "excerpt": "Taken together, these findings point to a central insight: The future of work is"
+      },
+      {
+        "term": "likely",
+        "excerpt": "Generative AI is entering workplaces quickly, likely faster than most earlier te"
+      }
+    ],
+    "absolutist_hits": 2.13,
+    "absolutist_examples": [
+      {
+        "term": "essential",
+        "excerpt": "Trust is another essential aspect of collaboration. Although AI can process vast"
+      },
+      {
+        "term": "impossible",
+        "excerpt": "More philosophically, it can be useful to understand even individual interaction"
+      },
+      {
+        "term": "essential",
+        "excerpt": "AI use in education is already widespread, but much of this activity runs throug"
+      }
+    ],
+    "quantifier_hits": 4.56,
+    "first_person_count": 15,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.34,
+    "mattr": 0.731,
+    "top_terms": [
+      "work×41",
+      "people×28",
+      "systems×16",
+      "future×14",
+      "research×14",
+      "benefits×10",
+      "productivity×10",
+      "together×8",
+      "organizations×8",
+      "make×8",
+      "generative×8",
+      "time×8",
+      "help×8",
+      "through×8",
+      "collaboration×8"
+    ],
+    "en_char_ratio": null,
+    "title_text": "New Future of Work: AI is driving rapid change, uneven benefits",
+    "title_len": 63,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "分析评论类",
+      "code": "A",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

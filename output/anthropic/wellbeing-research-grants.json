@@ -1,0 +1,113 @@
+{
+  "file": "wellbeing-research-grants.md",
+  "lang": "en",
+  "title": "Funding better evaluations of AI’s impact on wellbeing",
+  "cjk_chars": 0,
+  "word_count": 564,
+  "reading_time_min": 2.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 21,
+    "avg_sentence_len": 26.7,
+    "median_sentence_len": 20,
+    "p90_sentence_len": 41,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 18,
+    "avg_paragraph_len": 31.2,
+    "median_paragraph_len": 16.0,
+    "p90_paragraph_len": 70,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 5,
+    "number_per_1k": 8.87,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 1,
+    "year_per_1k": 1.77,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 23.05,
+    "hedge_examples": [
+      {
+        "term": "toward",
+        "excerpt": "AI systems have become central to how many people work, learn, and solve problem"
+      },
+      {
+        "term": "might",
+        "excerpt": "Furthermore, wellbeing is a particularly difficult area to evaluate. For most mo"
+      },
+      {
+        "term": "could",
+        "excerpt": "Furthermore, wellbeing is a particularly difficult area to evaluate. For most mo"
+      }
+    ],
+    "absolutist_hits": 1.77,
+    "absolutist_examples": [
+      {
+        "term": "critical",
+        "excerpt": "By funding the creation of independent evaluations and benchmarks of user wellbe"
+      }
+    ],
+    "quantifier_hits": 1.77,
+    "first_person_count": 15,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.498,
+    "mattr": 0.691,
+    "top_terms": [
+      "wellbeing×10",
+      "evaluations×7",
+      "user×5",
+      "funding×4",
+      "program×4",
+      "work×4",
+      "conversations×4",
+      "better×3",
+      "users×3",
+      "become×3",
+      "people×3",
+      "example×3",
+      "evaluate×3",
+      "context×3",
+      "response×3"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Funding better evaluations of AI’s impact on wellbeing",
+    "title_len": 54,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "公告类",
+      "code": "N",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

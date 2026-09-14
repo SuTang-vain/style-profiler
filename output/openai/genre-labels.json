@@ -4,8 +4,11 @@
     "date": "2026-09-14",
     "router": "llm-routing-v1",
     "low_confidence": [
-      "how-we-monitor-internal-coding-agents-misalignment.md"
-    ]
+      "how-we-monitor-internal-coding-agents-misalignment.md",
+      "best-practices-for-deploying-language-models.md",
+      "how-agents-are-transforming-work.md"
+    ],
+    "router_v2_expansion": "2026-09-14 扩容10篇（source=llm-routing-v2-expansion），判定优先级 P>N>R>E>G>A；低置信新增2篇"
   },
   "core-dump-epidemiology-data-infrastructure-bug": {
     "genre_code": "E",
@@ -66,5 +69,65 @@
     "genre_name": "工程类",
     "confidence": "high",
     "evidence": "Codex CLI agent loop内部机制拆解系列首篇，我们如何构建"
+  },
+  "sharing-the-latest-model-spec": {
+    "genre_code": "P",
+    "genre_name": "政策类",
+    "confidence": "high",
+    "evidence": "Model Spec重大更新：chain of command与行为规范原则，CC0开源"
+  },
+  "updating-our-preparedness-framework": {
+    "genre_code": "P",
+    "genre_name": "政策类",
+    "confidence": "high",
+    "evidence": "Preparedness Framework v2：风险能力分级、保障要求与治理流程"
+  },
+  "best-practices-for-deploying-language-models": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "low",
+    "evidence": "三方联合部署最佳实践清单，兼有联合立场声明性质（G/P边界）"
+  },
+  "governance-of-superintelligence": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "超智能治理三思路的论证性立场随笔：协调/IAEA/技术能力"
+  },
+  "planning-for-agi-and-beyond": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "AGI平稳过渡策略论证长文：渐进部署、对齐、全球对话"
+  },
+  "sycophancy-in-gpt-4o": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "GPT-4o谄媚更新回滚复盘：what happened+修复措施"
+  },
+  "introducing-agentkit": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "DevDay发布AgentKit四组件，含定价与beta可用性声明"
+  },
+  "how-agents-are-transforming-work": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "low",
+    "evidence": "内部Codex采用数据趋势解读，A/R边界（观测数据非实验评测）"
+  },
+  "introducing-gpt-5-5": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "GPT-5.5发布：性能表+rolling out可用性声明+定价"
+  },
+  "introducing-deep-research": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "launching deep research，含基准结果与Pro可用性声明"
   }
 }

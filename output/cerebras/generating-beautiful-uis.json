@@ -1,0 +1,121 @@
+{
+  "file": "generating-beautiful-uis.md",
+  "lang": "en",
+  "title": "Generating Beautiful UIs",
+  "cjk_chars": 0,
+  "word_count": 2301,
+  "reading_time_min": 8.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 139,
+    "avg_sentence_len": 16.5,
+    "median_sentence_len": 15,
+    "p90_sentence_len": 29,
+    "question_sentences": 3
+  },
+  "paragraphs": {
+    "paragraph_count": 76,
+    "avg_paragraph_len": 30.3,
+    "median_paragraph_len": 28.0,
+    "p90_paragraph_len": 59,
+    "one_line_paragraphs": 2
+  },
+  "evidence": {
+    "number_tokens": 27,
+    "number_per_1k": 11.73,
+    "precise_numbers": 3,
+    "precise_per_1k": 1.3,
+    "year_anchors": 1,
+    "year_per_1k": 0.43,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 6.52,
+    "hedge_examples": [
+      {
+        "term": "early",
+        "excerpt": "There’s an intuitive skepticism we have toward AI-generated work. We see it clea"
+      },
+      {
+        "term": "toward",
+        "excerpt": "There’s an intuitive skepticism we have toward AI-generated work. We see it clea"
+      },
+      {
+        "term": "seems",
+        "excerpt": "Everything becomes a dashboard There's a chronic let's make everything look like"
+      }
+    ],
+    "absolutist_hits": 1.3,
+    "absolutist_examples": [
+      {
+        "term": "never",
+        "excerpt": "Classic footer with social icons that we never asked for"
+      },
+      {
+        "term": "always",
+        "excerpt": "Everything becomes a dashboard There's a chronic let's make everything look like"
+      },
+      {
+        "term": "never",
+        "excerpt": "Most AI-generated UI looks better than it is because the data is fake. The names"
+      }
+    ],
+    "quantifier_hits": 8.69,
+    "first_person_count": 16,
+    "objective_selfref_count": 3,
+    "exclamations": 4,
+    "questions": 3,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.391,
+    "mattr": 0.721,
+    "top_terms": [
+      "design×19",
+      "like×16",
+      "better×11",
+      "ask×9",
+      "prompt×8",
+      "designs×8",
+      "make×8",
+      "data×8",
+      "ai-generated×7",
+      "writing×7",
+      "get×7",
+      "look×7",
+      "cards×7",
+      "components×7",
+      "instead×7"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Generating Beautiful UIs",
+    "title_len": 24,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "指南类",
+      "code": "G",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

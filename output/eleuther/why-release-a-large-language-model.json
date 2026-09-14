@@ -1,0 +1,121 @@
+{
+  "file": "why-release-a-large-language-model.md",
+  "lang": "en",
+  "title": "Why Release a Large Language Model?",
+  "cjk_chars": 4,
+  "word_count": 950,
+  "reading_time_min": 3.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 39,
+    "avg_sentence_len": 24.8,
+    "median_sentence_len": 20,
+    "p90_sentence_len": 41,
+    "question_sentences": 2
+  },
+  "paragraphs": {
+    "paragraph_count": 3,
+    "avg_paragraph_len": 324,
+    "median_paragraph_len": 12,
+    "p90_paragraph_len": 12,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 15,
+    "number_per_1k": 15.79,
+    "precise_numbers": 4,
+    "precise_per_1k": 4.21,
+    "year_anchors": 1,
+    "year_per_1k": 1.05,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 16.84,
+    "hedge_examples": [
+      {
+        "term": "might",
+        "excerpt": "Here at EleutherAI, we are probably most well known for our ongoing project to p"
+      },
+      {
+        "term": "could",
+        "excerpt": "Here at EleutherAI, we are probably most well known for our ongoing project to p"
+      },
+      {
+        "term": "about",
+        "excerpt": "Here at EleutherAI, we are probably most well known for our ongoing project to p"
+      }
+    ],
+    "absolutist_hits": 5.26,
+    "absolutist_examples": [
+      {
+        "term": "always",
+        "excerpt": "Here at EleutherAI, we are probably most well known for our ongoing project to p"
+      },
+      {
+        "term": "no one",
+        "excerpt": "Here at EleutherAI, we are probably most well known for our ongoing project to p"
+      },
+      {
+        "term": "fundamental",
+        "excerpt": "Here at EleutherAI, we are probably most well known for our ongoing project to p"
+      }
+    ],
+    "quantifier_hits": 11.58,
+    "first_person_count": 27,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 2,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.436,
+    "mattr": 0.677,
+    "top_terms": [
+      "release×8",
+      "large×8",
+      "research×7",
+      "language×6",
+      "safety×6",
+      "security×6",
+      "actors×5",
+      "well×4",
+      "gpt×4",
+      "best×4",
+      "access×4",
+      "lms×4",
+      "dangerous×4",
+      "capabilities×4",
+      "technology×4"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Why Release a Large Language Model?",
+    "title_len": 35,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "分析评论类",
+      "code": "A",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

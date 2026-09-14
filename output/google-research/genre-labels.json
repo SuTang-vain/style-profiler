@@ -4,8 +4,10 @@
     "date": "2026-09-14",
     "router": "llm-routing-v1",
     "low_confidence": [
-      "a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain"
-    ]
+      "a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain",
+      "accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction"
+    ],
+    "router_v2": "2026-09-14 扩容10篇由 llm-routing-v2-expansion 打标（source见各per-article JSON genre.unified）"
   },
   "a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain": {
     "genre_code": "N",
@@ -66,5 +68,65 @@
     "genre_name": "研究类",
     "confidence": "high",
     "evidence": "UKB/BBJ跨人群PRS评测，滴定实验发现为主体"
+  },
+  "toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "ACL2026框架报告：BFCL实验为主体，正文无可用性声明"
+  },
+  "seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "三队列训练验证+AUROC/NRI结果，自称research prototype"
+  },
+  "advancing-amie-towards-expert-level-audio-visual-clinical-consultations": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "随机对照OSCE研究(100场景/300问诊)，附局限声明，无可用性"
+  },
+  "towards-demystifying-the-creativity-of-diffusion-models": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "ICLR2026理论分析+受控实验，仅附图复现代码，发现为主体"
+  },
+  "the-power-of-collaboration-how-we-can-reduce-traffic-congestion": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "Nature Cities研究：10城switchback实验+贝叶斯结果为主体"
+  },
+  "accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "low",
+    "evidence": "端侧MTP加速构建为主体；含Pixel rollout声明，E/N边界"
+  },
+  "optimizing-cloud-economics-with-linear-elastic-caching": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "CIDR论文：滑雪租赁算法+Spanner生产与公开trace评测"
+  },
+  "a-low-carbon-computing-platform-from-your-retired-phones": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "手机集群数据中心构建记录；Fall2026才上线，无可用性声明"
+  },
+  "introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "模型发布：已上线HF/GitHub/BigQuery，附TabArena基准"
+  },
+  "expanding-our-heat-resilience-data-to-50-global-cities": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "high",
+    "evidence": "数据集+Earth Engine App发布：50+城市，已上线开放下载"
   }
 }

@@ -1,0 +1,121 @@
+{
+  "file": "seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery.md",
+  "lang": "en",
+  "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
+  "cjk_chars": 0,
+  "word_count": 1451,
+  "reading_time_min": 5.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 52,
+    "avg_sentence_len": 28.0,
+    "median_sentence_len": 25.5,
+    "p90_sentence_len": 47,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 26,
+    "avg_paragraph_len": 56.1,
+    "median_paragraph_len": 31.0,
+    "p90_paragraph_len": 144,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 38,
+    "number_per_1k": 26.19,
+    "precise_numbers": 15,
+    "precise_per_1k": 10.34,
+    "year_anchors": 1,
+    "year_per_1k": 0.69,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 4.82,
+    "hedge_examples": [
+      {
+        "term": "early",
+        "excerpt": "Insulin resistance is one of the most critical yet underdiagnosed drivers of mod"
+      },
+      {
+        "term": "initial",
+        "excerpt": "Pre-training (UK Biobank, N = 35,323)[73abd3]: With a subset from the UK BioBank"
+      },
+      {
+        "term": "early",
+        "excerpt": "To evaluate our models, we focused on two key metrics: the Area Under the Receiv"
+      }
+    ],
+    "absolutist_hits": 2.07,
+    "absolutist_examples": [
+      {
+        "term": "critical",
+        "excerpt": "Insulin resistance is one of the most critical yet underdiagnosed drivers of mod"
+      },
+      {
+        "term": "vital",
+        "excerpt": "Insulin resistance is one of the most critical yet underdiagnosed drivers of mod"
+      },
+      {
+        "term": "completely",
+        "excerpt": "We tested our models on the MetabolicMosaic cohort using a gradient boosting cla"
+      }
+    ],
+    "quantifier_hits": 2.76,
+    "first_person_count": 27,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.413,
+    "mattr": 0.69,
+    "top_terms": [
+      "body×26",
+      "composition×20",
+      "insulin×19",
+      "photoscan×18",
+      "resistance×15",
+      "dxa×13",
+      "clinical×11",
+      "fat×11",
+      "ratio×11",
+      "cohort×11",
+      "smartphone×9",
+      "bia×9",
+      "research×8",
+      "data×8",
+      "demographics×8"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
+    "title_len": 74,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "研究类",
+      "code": "R",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

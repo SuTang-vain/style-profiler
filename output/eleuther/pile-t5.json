@@ -1,0 +1,108 @@
+{
+  "file": "pile-t5.md",
+  "lang": "en",
+  "title": "Pile-T5",
+  "cjk_chars": 0,
+  "word_count": 1674,
+  "reading_time_min": 6.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 118,
+    "avg_sentence_len": 21.1,
+    "median_sentence_len": 13.0,
+    "p90_sentence_len": 32,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 5,
+    "avg_paragraph_len": 502.8,
+    "median_paragraph_len": 35,
+    "p90_paragraph_len": 877,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 584,
+    "number_per_1k": 348.86,
+    "precise_numbers": 384,
+    "precise_per_1k": 229.39,
+    "year_anchors": 25,
+    "year_per_1k": 14.93,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 4.18,
+    "hedge_examples": [
+      {
+        "term": "may",
+        "excerpt": "The T5 model (Raffel et al, 2019) is widely used in the NLP community. Its base "
+      },
+      {
+        "term": "about",
+        "excerpt": "The T5 model (Raffel et al, 2019) is widely used in the NLP community. Its base "
+      },
+      {
+        "term": "appears",
+        "excerpt": "The T5 model (Raffel et al, 2019) is widely used in the NLP community. Its base "
+      }
+    ],
+    "absolutist_hits": 0.0,
+    "absolutist_examples": [],
+    "quantifier_hits": 4.78,
+    "first_person_count": 25,
+    "objective_selfref_count": 0,
+    "exclamations": 1,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.351,
+    "mattr": 0.617,
+    "top_terms": [
+      "pile-t×50",
+      "arxiv×27",
+      "performance×17",
+      "large×11",
+      "original×10",
+      "flan-t×10",
+      "flan×10",
+      "prompt×10",
+      "org×10",
+      "http×9",
+      "abs×9",
+      "version×8",
+      "language×8",
+      "shot×8",
+      "base×7"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Pile-T5",
+    "title_len": 7,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "公告类",
+      "code": "N",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "file": "getting-the-most-out-of-gpt-5-6-sol-terra-and-luna.md",
+  "lang": "en",
+  "title": "Getting the most out of GPT-5.6: Sol, Terra, and Luna",
+  "cjk_chars": 0,
+  "word_count": 1161,
+  "reading_time_min": 4.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 60,
+    "avg_sentence_len": 19.7,
+    "median_sentence_len": 20.0,
+    "p90_sentence_len": 29,
+    "question_sentences": 1
+  },
+  "paragraphs": {
+    "paragraph_count": 43,
+    "avg_paragraph_len": 27.6,
+    "median_paragraph_len": 28,
+    "p90_paragraph_len": 46,
+    "one_line_paragraphs": 2
+  },
+  "evidence": {
+    "number_tokens": 30,
+    "number_per_1k": 25.84,
+    "precise_numbers": 11,
+    "precise_per_1k": 9.47,
+    "year_anchors": 3,
+    "year_per_1k": 2.58,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 1.72,
+    "hedge_examples": [
+      {
+        "term": "could",
+        "excerpt": "Medium: A good everyday default for tasks that require some interpretation, plan"
+      },
+      {
+        "term": "roughly",
+        "excerpt": "In Artificial Analysis’ testing from July 17 , each step up in GPT-5.6 Sol’s rea"
+      }
+    ],
+    "absolutist_hits": 3.45,
+    "absolutist_examples": [
+      {
+        "term": "must",
+        "excerpt": "How do you decide which model should handle a request and how much reasoning it "
+      },
+      {
+        "term": "completely",
+        "excerpt": "Light: Amazing to get basic tasks completely quickly, finding files, cloning and"
+      },
+      {
+        "term": "never",
+        "excerpt": "The Advisor workflow, gives one agent a narrow job: read the full session, keep "
+      }
+    ],
+    "quantifier_hits": 18.09,
+    "first_person_count": 1,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 1,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.425,
+    "mattr": 0.704,
+    "top_terms": [
+      "sol×15",
+      "reasoning×12",
+      "intelligence×10",
+      "luna×9",
+      "codex×9",
+      "tasks×9",
+      "terra×8",
+      "speed×8",
+      "gpt-×7",
+      "task×6",
+      "best×6",
+      "different×6",
+      "cost×5",
+      "price×5",
+      "high×5"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Getting the most out of GPT-5.6: Sol, Terra, and Luna",
+    "title_len": 53,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "指南类",
+      "code": "G",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

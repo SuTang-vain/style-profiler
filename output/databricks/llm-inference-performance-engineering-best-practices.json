@@ -1,0 +1,121 @@
+{
+  "file": "llm-inference-performance-engineering-best-practices.md",
+  "lang": "en",
+  "title": "LLM Inference Performance Engineering: Best Practices",
+  "cjk_chars": 0,
+  "word_count": 4271,
+  "reading_time_min": 14.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 204,
+    "avg_sentence_len": 21.3,
+    "median_sentence_len": 17.0,
+    "p90_sentence_len": 31,
+    "question_sentences": 6
+  },
+  "paragraphs": {
+    "paragraph_count": 80,
+    "avg_paragraph_len": 54.2,
+    "median_paragraph_len": 38.0,
+    "p90_paragraph_len": 110,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 288,
+    "number_per_1k": 67.43,
+    "precise_numbers": 50,
+    "precise_per_1k": 11.71,
+    "year_anchors": 1,
+    "year_per_1k": 0.23,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 3.98,
+    "hedge_examples": [
+      {
+        "term": "around",
+        "excerpt": "In this blog post, the MosaicML engineering team shares best practices for how t"
+      },
+      {
+        "term": "about",
+        "excerpt": "Tokens can be words or sub-words; the exact rules for splitting text into tokens"
+      },
+      {
+        "term": "about",
+        "excerpt": "So, how exactly should we think about inference speed?"
+      }
+    ],
+    "absolutist_hits": 1.64,
+    "absolutist_examples": [
+      {
+        "term": "always",
+        "excerpt": "Tokens can be words or sub-words; the exact rules for splitting text into tokens"
+      },
+      {
+        "term": "essential",
+        "excerpt": "Time To First Token (TTFT): How quickly users start seeing the model's output af"
+      },
+      {
+        "term": "critical",
+        "excerpt": "Inference hardware utilization is very important in terms of serving costs. GPUs"
+      }
+    ],
+    "quantifier_hits": 8.43,
+    "first_person_count": 49,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 6,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.314,
+    "mattr": 0.67,
+    "top_terms": [
+      "batch×40",
+      "latency×39",
+      "token×37",
+      "inference×36",
+      "size×33",
+      "memory×26",
+      "tokens×25",
+      "mbu×25",
+      "throughput×23",
+      "time×22",
+      "batching×22",
+      "gpus×21",
+      "hardware×20",
+      "output×19",
+      "bandwidth×19"
+    ],
+    "en_char_ratio": null,
+    "title_text": "LLM Inference Performance Engineering: Best Practices",
+    "title_len": 53,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "指南类",
+      "code": "G",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

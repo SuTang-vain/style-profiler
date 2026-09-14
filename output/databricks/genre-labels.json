@@ -5,8 +5,13 @@
     "router": "llm-routing-v1",
     "low_confidence": [
       "memalign-building-better-llm-judges-human-feedback-scalable-memory.md",
-      "scaling-small-llms-nvidia-mps.md"
-    ]
+      "scaling-small-llms-nvidia-mps.md",
+      "turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8.md",
+      "optimizing-databricks-llm-pipelines-dspy.md",
+      "instructed-retriever-unlocking-system-level-reasoning-search-agents.md",
+      "building-state-art-enterprise-agents-90x-cheaper-automated-prompt-optimization.md"
+    ],
+    "router_v2": "llm-routing-v2-expansion (2026-09-14)：扩容 10 篇由该路由打标；v1 条目未动"
   },
   "3x-faster-search-parallel-test-time-scaling-instructed-retriever-1": {
     "genre_code": "N",
@@ -67,5 +72,65 @@
     "genre_name": "研究类",
     "confidence": "low",
     "evidence": "\"We set out to rigorously test whether MPS delivers\"+消融归因；infra评测，E/R边界"
+  },
+  "fast-peft-serving-scale": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "自研推理引擎+PEFT serving 构建复盘为主体"
+  },
+  "10-trillion-samples-day-scaling-beyond-traditional-monitoring-infra-databricks": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "「How we built」监控平台重构 build-log"
+  },
+  "how-databricks-uses-ai-accelerate-incident-investigation": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "构建 AI 调试 agent 的架构与工程原则复盘"
+  },
+  "turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "low",
+    "evidence": "LLM stack FP8 优化复盘+吞吐基准；E/R 边界"
+  },
+  "llm-inference-performance-engineering-best-practices": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "high",
+    "evidence": "推理部署 best practices 与 guidelines 清单"
+  },
+  "pilot-production-custom-judges": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "high",
+    "evidence": "评估基建三维度方法论，教客户如何落地"
+  },
+  "optimizing-databricks-llm-pipelines-dspy": {
+    "genre_code": "G",
+    "genre_name": "指南类",
+    "confidence": "low",
+    "evidence": "DSPy 流水线优化教学+JetBlue 案例；G/A 边界"
+  },
+  "benchmarking-domain-intelligence": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "DIBS 基准方法+多模型结果+解读"
+  },
+  "instructed-retriever-unlocking-system-level-reasoning-search-agents": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "low",
+    "evidence": "架构+评测为主体，但有 available 声明"
+  },
+  "building-state-art-enterprise-agents-90x-cheaper-automated-prompt-optimization": {
+    "genre_code": "N",
+    "genre_name": "公告类",
+    "confidence": "low",
+    "evidence": "GEPA 实验为主体，但有 available 声明"
   }
 }

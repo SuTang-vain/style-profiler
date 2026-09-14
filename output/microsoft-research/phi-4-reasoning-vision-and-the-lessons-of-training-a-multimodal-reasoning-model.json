@@ -1,0 +1,121 @@
+{
+  "file": "phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model.md",
+  "lang": "en",
+  "title": "Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model",
+  "cjk_chars": 0,
+  "word_count": 3672,
+  "reading_time_min": 12.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 139,
+    "avg_sentence_len": 26.4,
+    "median_sentence_len": 22,
+    "p90_sentence_len": 43,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 73,
+    "avg_paragraph_len": 50.5,
+    "median_paragraph_len": 39,
+    "p90_paragraph_len": 105,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 125,
+    "number_per_1k": 34.04,
+    "precise_numbers": 3,
+    "precise_per_1k": 0.82,
+    "year_anchors": 2,
+    "year_per_1k": 0.54,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 5.72,
+    "hedge_examples": [
+      {
+        "term": "about",
+        "excerpt": "We are pleased to announce Phi-4-reasoning-vision-15B , a 15 billion parameter o"
+      },
+      {
+        "term": "toward",
+        "excerpt": "Many popular vision-language models (VLMs) have trended towards growing in param"
+      },
+      {
+        "term": "toward",
+        "excerpt": "A growing countertrend towards smaller (opens in new tab) models aims to boost e"
+      }
+    ],
+    "absolutist_hits": 1.91,
+    "absolutist_examples": [
+      {
+        "term": "entirely",
+        "excerpt": "The process of improving open-source data began by manually reviewing samples fr"
+      },
+      {
+        "term": "fundamental",
+        "excerpt": "The process of improving open-source data began by manually reviewing samples fr"
+      },
+      {
+        "term": "must",
+        "excerpt": "Reasoning LLM → reasoning multimodal training: A reasoning base is used, but all"
+      }
+    ],
+    "quantifier_hits": 4.08,
+    "first_person_count": 69,
+    "objective_selfref_count": 2,
+    "exclamations": 0,
+    "questions": 1,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.314,
+    "mattr": 0.673,
+    "top_terms": [
+      "reasoning×75",
+      "data×64",
+      "multimodal×36",
+      "phi-×34",
+      "training×30",
+      "opens×26",
+      "tab×26",
+      "reasoning-vision-×21",
+      "tokens×17",
+      "visual×16",
+      "tasks×15",
+      "images×14",
+      "accuracy×14",
+      "datasets×14",
+      "math×13"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model",
+    "title_len": 79,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "工程类",
+      "code": "E",
+      "confidence": "low",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

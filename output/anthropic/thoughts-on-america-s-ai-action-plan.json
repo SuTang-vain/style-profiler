@@ -1,0 +1,121 @@
+{
+  "file": "thoughts-on-america-s-ai-action-plan.md",
+  "lang": "en",
+  "title": "Thoughts on America’s AI Action Plan",
+  "cjk_chars": 0,
+  "word_count": 1312,
+  "reading_time_min": 4.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 54,
+    "avg_sentence_len": 23.8,
+    "median_sentence_len": 22.0,
+    "p90_sentence_len": 37,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 33,
+    "avg_paragraph_len": 39.1,
+    "median_paragraph_len": 29,
+    "p90_paragraph_len": 84,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 10,
+    "number_per_1k": 7.62,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 1,
+    "year_per_1k": 0.76,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 3.81,
+    "hedge_examples": [
+      {
+        "term": "we believe",
+        "excerpt": "Today, the White House released \"Winning the Race: America's AI Action Plan\"—a c"
+      },
+      {
+        "term": "may",
+        "excerpt": "We applaud the Administration's commitment to streamlining data center and energ"
+      },
+      {
+        "term": "may",
+        "excerpt": "We're glad the Action Plan affirms the National Institute of Standards and Techn"
+      }
+    ],
+    "absolutist_hits": 3.05,
+    "absolutist_examples": [
+      {
+        "term": "must",
+        "excerpt": "Powerful AI systems are going to be developed in the coming years. The plan’s em"
+      },
+      {
+        "term": "essential",
+        "excerpt": "Beyond testing, we believe basic AI development transparency requirements, such "
+      },
+      {
+        "term": "critical",
+        "excerpt": "As a result, the H20 provides unique and critical computing capabilities that wo"
+      }
+    ],
+    "quantifier_hits": 2.29,
+    "first_person_count": 36,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.396,
+    "mattr": 0.651,
+    "top_terms": [
+      "plan×16",
+      "action×11",
+      "development×11",
+      "systems×10",
+      "administration×8",
+      "national×8",
+      "risks×7",
+      "america×6",
+      "federal×6",
+      "adoption×6",
+      "export×6",
+      "controls×6",
+      "american×6",
+      "energy×6",
+      "security×5"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Thoughts on America’s AI Action Plan",
+    "title_len": 36,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "分析评论类",
+      "code": "A",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

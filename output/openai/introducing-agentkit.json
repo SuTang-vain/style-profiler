@@ -1,0 +1,95 @@
+{
+  "file": "introducing-agentkit.md",
+  "lang": "en",
+  "title": "Introducing AgentKit",
+  "cjk_chars": 0,
+  "word_count": 1066,
+  "reading_time_min": 4.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 47,
+    "avg_sentence_len": 22.2,
+    "median_sentence_len": 19,
+    "p90_sentence_len": 39,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 41,
+    "avg_paragraph_len": 25.5,
+    "median_paragraph_len": 17,
+    "p90_paragraph_len": 57,
+    "one_line_paragraphs": 1
+  },
+  "evidence": {
+    "number_tokens": 11,
+    "number_per_1k": 10.32,
+    "precise_numbers": 1,
+    "precise_per_1k": 0.94,
+    "year_anchors": 3,
+    "year_per_1k": 2.81,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 0.0,
+    "hedge_examples": [],
+    "absolutist_hits": 0.0,
+    "absolutist_examples": [],
+    "quantifier_hits": 7.5,
+    "first_person_count": 8,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.411,
+    "mattr": 0.689,
+    "top_terms": [
+      "agent×26",
+      "agents×15",
+      "opens×11",
+      "window×11",
+      "developers×10",
+      "builder×10",
+      "workflows×9",
+      "evals×9",
+      "build×8",
+      "performance×8",
+      "tools×7",
+      "api×7",
+      "agentkit×6",
+      "chatkit×6",
+      "openai×6"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Introducing AgentKit",
+    "title_len": 20,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "公告类",
+      "code": "N",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

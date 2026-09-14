@@ -1,0 +1,121 @@
+{
+  "file": "best-practices-for-deploying-language-models.md",
+  "lang": "en",
+  "title": "Best practices for deploying language models",
+  "cjk_chars": 0,
+  "word_count": 991,
+  "reading_time_min": 3.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 36,
+    "avg_sentence_len": 27.3,
+    "median_sentence_len": 27.5,
+    "p90_sentence_len": 44,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 36,
+    "avg_paragraph_len": 27.3,
+    "median_paragraph_len": 23.0,
+    "p90_paragraph_len": 55,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 5,
+    "number_per_1k": 5.05,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 1,
+    "year_per_1k": 1.01,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 11.1,
+    "hedge_examples": [
+      {
+        "term": "preliminary",
+        "excerpt": "Cohere, OpenAI, and AI21 Labs have developed a preliminary set of best practices"
+      },
+      {
+        "term": "preliminary",
+        "excerpt": "Cohere, OpenAI, and AI21 Labs have developed a preliminary set of best practices"
+      },
+      {
+        "term": "toward",
+        "excerpt": "The joint statement below represents a step towards building a community to addr"
+      }
+    ],
+    "absolutist_hits": 4.04,
+    "absolutist_examples": [
+      {
+        "term": "fundamental",
+        "excerpt": "Cohere, OpenAI, and AI21 Labs have developed a preliminary set of best practices"
+      },
+      {
+        "term": "completely",
+        "excerpt": "Document known weaknesses and vulnerabilities, such as bias or ability to produc"
+      },
+      {
+        "term": "must",
+        "excerpt": "“To realize the promise of language models, we must continue to collaborate as a"
+      }
+    ],
+    "quantifier_hits": 12.11,
+    "first_person_count": 13,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.443,
+    "mattr": 0.708,
+    "top_terms": [
+      "language×15",
+      "practices×10",
+      "best×9",
+      "principles×9",
+      "safety×7",
+      "mitigate×7",
+      "large×6",
+      "deployment×6",
+      "llms×6",
+      "llm×6",
+      "openai×5",
+      "harm×5",
+      "potential×5",
+      "step×5",
+      "providers×5"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Best practices for deploying language models",
+    "title_len": 44,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "指南类",
+      "code": "G",
+      "confidence": "low",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

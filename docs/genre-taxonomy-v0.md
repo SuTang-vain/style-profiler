@@ -69,20 +69,20 @@
 
 裁决后即进入 LLM 路由 passe：每库一个子代理按本分类法逐篇打标（genre + confidence + evidence），低置信进人工；kezhongke 已有五体裁标签走映射复核而非重判。
 
-## 五、LLM 路由 passe 结果（2026-09-14，router=llm-routing-v1，已全量回填 per-article JSON 的 genre.unified）
+## 五、LLM 路由 passe 结果（2026-09-14，router=llm-routing-v1，已全量回填 per-article JSON 的 genre.unified；扩容 passe 为 llm-routing-v2-expansion）
 
-**分布总表**（kezhongke 为全量 23 篇；括号内 v10 子集 10 篇）：
+**分布总表**（2026-09-14 体裁平衡扩容后：英文库各 20 篇、kezhongke 全量 24 篇；括号内 v10 子集 10 篇构成不变；扩容前 v1 分布见 git 历史）：
 
 | 库 | A | E | R | N | P | G |
 |---|---|---|---|---|---|---|
-| anthropic | 0 | 3 | 3 | 0 | 1 | 3 |
-| cerebras | 3 | 1 | 2 | 3 | 0 | 1 |
-| databricks | 0 | 0 | 6 | 4 | 0 | 0 |
-| eleuther | 1 | 0 | 8 | 1 | 0 | 0 |
-| google-research | 0 | 0 | 7 | 3 | 0 | 0 |
-| kezhongke | 11 (5) | 2 (0) | 2 (2) | 5 (3) | 0 | 3 (0) |
-| microsoft-research | 0 | 1 | 4 | 5 | 0 | 0 |
-| openai | 0 | 3 | 4 | 2 | 1 | 0 |
+| anthropic | 4 | 3 | 3 | 4 | 3 | 3 |
+| cerebras | 5 | 3 | 4 | 4 | 0 | 4 |
+| databricks | 0 | 4 | 7 | 6 | 0 | 3 |
+| eleuther | 4 | 0 | 8 | 5 | 1 | 2 |
+| google-research | 0 | 2 | 13 | 5 | 0 | 0 |
+| kezhongke | 11 (5) | 2 (0) | 2 (2) | 5 (3) | 0 | 4 (0) |
+| microsoft-research | 2 | 4 | 9 | 5 | 0 | 0 |
+| openai | 3 | 4 | 4 | 5 | 3 | 1 |
 
 **对 §二/§三 先验的两处结构性修正**：
 1. **cerebras 不是 E 主导**——重判后 A3/N3 主导、E 仅 1 篇。先前"engineering 系"的印象来自标题风格而非交际目的。机构层聚合须按真实构成。
@@ -90,4 +90,4 @@
 
 **低置信边界条目（10 篇）处置**：逐条复核后**全部采纳路由判定**——它们均落在已裁决的边界规则上（R/N 看可用性声明、E/R 看实验发现是否为主体、A/G 看教学是否为主体），规则适用正确，不确定性来自体裁本身混合而非规则误用。清单：cerebras×3（autoresearch-loop-cheating→R、multi-agent-workflows→G、never-loop-without-verifiers→A）、databricks×2（memalign→N、scaling-small-llms-mps→R）、eleuther×3（deep-ignorance→R、aletheia-retrospective→R、dynamical-models→A）、google-research×1（connectomics-milestone→N）、microsoft-research×1（echoverse→R）、openai×1（monitor-coding-agents→R）、kezhongke×1（eval-harness-landscape→A）。若未来统计结论对某篇敏感，优先复查此清单。
 
-**空格确认**：databricks/eleuther/google-research 的 A/E/G/P 多格为空；空格在跨机构比较中缺席处理（§三第 3 条），不计 0。
+**扩容 passe（2026-09-14，router=llm-routing-v2-expansion）**：7 个英文库各 +10 篇、kezhongke +1 篇（投稿 sub-6e00d207fee4 重新入库 → G）。新篇目按 §一裁决规则逐篇打标（genre + confidence），低置信条目并入各库 genre-labels.json 的 _meta.low_confidence 留档（处置惯例同 v1 清单）；旧篇目标签一律未动。扩容后空格大幅减少：anthropic/openai 六格全满，cerebras 新增 E/G/R 格，databricks 新增 E/G，eleuther 新增 A/N，msr 新增 E/A，google-research 新增 E。**仍空的格**（计数 0）：cerebras P；databricks A/P；eleuther E；google-research A/P/G；kezhongke P；microsoft-research P/G。**近空格**（n<3 不出格值）：eleuther P1/G2、google-research E2、msr A2、openai G1、kezhongke E2/R2。空格在跨机构比较中缺席处理（§三第 3 条），不计 0。

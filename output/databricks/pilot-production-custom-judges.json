@@ -1,0 +1,121 @@
+{
+  "file": "pilot-production-custom-judges.md",
+  "lang": "en",
+  "title": "From Pilot to Production with Custom Judges",
+  "cjk_chars": 0,
+  "word_count": 2175,
+  "reading_time_min": 7.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 99,
+    "avg_sentence_len": 22,
+    "median_sentence_len": 18,
+    "p90_sentence_len": 35,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 61,
+    "avg_paragraph_len": 35.7,
+    "median_paragraph_len": 34,
+    "p90_paragraph_len": 64,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 15,
+    "number_per_1k": 6.9,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 0,
+    "year_per_1k": 0.0,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 1,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 5.52,
+    "hedge_examples": [
+      {
+        "term": "may",
+        "excerpt": "LLM judges do more than just measure.  An LLM judge both serves as a product spe"
+      },
+      {
+        "term": "may",
+        "excerpt": "Therefore, before creating and calibrating a judge, teams must first determine w"
+      },
+      {
+        "term": "may",
+        "excerpt": "Judges derived from these considerations often form the core of continuous monit"
+      }
+    ],
+    "absolutist_hits": 2.76,
+    "absolutist_examples": [
+      {
+        "term": "entirely",
+        "excerpt": "LLM judges do more than just measure.  An LLM judge both serves as a product spe"
+      },
+      {
+        "term": "fundamental",
+        "excerpt": "LLM judges do more than just measure.  An LLM judge both serves as a product spe"
+      },
+      {
+        "term": "must",
+        "excerpt": "Therefore, before creating and calibrating a judge, teams must first determine w"
+      }
+    ],
+    "quantifier_hits": 5.98,
+    "first_person_count": 13,
+    "objective_selfref_count": 2,
+    "exclamations": 0,
+    "questions": 1,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.406,
+    "mattr": 0.737,
+    "top_terms": [
+      "judges×39",
+      "judge×31",
+      "quality×16",
+      "databricks×14",
+      "data×13",
+      "production×12",
+      "teams×12",
+      "requirements×11",
+      "smes×11",
+      "evaluation×9",
+      "scale×9",
+      "examples×8",
+      "dimensions×7",
+      "failure×7",
+      "across×6"
+    ],
+    "en_char_ratio": null,
+    "title_text": "From Pilot to Production with Custom Judges",
+    "title_len": 43,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "指南类",
+      "code": "G",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "file": "introducing-tabfm-a-zero-shot-foundation-model-for-tabular-data.md",
+  "lang": "en",
+  "title": "Introducing TabFM: A zero-shot foundation model for tabular data",
+  "cjk_chars": 0,
+  "word_count": 1144,
+  "reading_time_min": 4.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 60,
+    "avg_sentence_len": 19.3,
+    "median_sentence_len": 19.0,
+    "p90_sentence_len": 27,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 29,
+    "avg_paragraph_len": 40.0,
+    "median_paragraph_len": 32,
+    "p90_paragraph_len": 80,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 8,
+    "number_per_1k": 6.99,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 1,
+    "year_per_1k": 0.87,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 0.87,
+    "hedge_examples": [
+      {
+        "term": "remains",
+        "excerpt": "Alternating row and column attention: First, the raw table is processed through "
+      }
+    ],
+    "absolutist_hits": 5.24,
+    "absolutist_examples": [
+      {
+        "term": "critical",
+        "excerpt": "Tabular data constitutes the backbone of enterprise data infrastructure and powe"
+      },
+      {
+        "term": "must",
+        "excerpt": "However, the lifecycle of deploying these traditional models presents a signific"
+      },
+      {
+        "term": "completely",
+        "excerpt": "The traditional ML paradigm relies on updating model parameters specific to a gi"
+      }
+    ],
+    "quantifier_hits": 0.0,
+    "first_person_count": 14,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.486,
+    "mattr": 0.741,
+    "top_terms": [
+      "data×18",
+      "tabfm×14",
+      "tabular×14",
+      "classification×7",
+      "feature×7",
+      "training×7",
+      "tables×7",
+      "foundation×6",
+      "regression×6",
+      "single×6",
+      "datasets×6",
+      "zero-shot×5",
+      "learning×5",
+      "performance×5",
+      "prediction×5"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Introducing TabFM: A zero-shot foundation model for tabular data",
+    "title_len": 64,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "公告类",
+      "code": "N",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

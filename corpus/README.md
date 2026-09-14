@@ -2,14 +2,14 @@
 
 ## 已入库
 
-- `kezhongke/`：壳中客（Kezhongke，kezhongke.cn）研究社区文章 10 篇（CC 内容，项目方自有语料），五体裁各 2 篇；`genre-map.json` 为官方 section 覆盖映射。
+- `kezhongke/`：壳中客（Kezhongke，kezhongke.cn）研究社区文章 24 篇（CC 内容，项目方自有语料；2026-09-14 体裁平衡扩容 23→24，投稿篇 sub-6e00d207fee4 重新入库），统一六体裁分布见 docs/genre-taxonomy-v0.md §五；`genre-map.json` 为官方 section 覆盖映射。
 - `cerebras/`、`eleuther/`、`databricks/`：一期语料扩展（2026-09-07，Kimi WebBridge 真浏览器抓取，见 `expansion-research.md`）。版权约定同 openai/anthropic：全文供本地分析，不分发；如需复现，按文件名 slug 从官方博客自采。
-  - Cerebras 10 篇：cerebras.ai/blog 研究/工程深潜分层采样（排除纯产品新闻）；统计见 `output/cerebras/`，档案 `STYLE-PROFILE-cerebras-v0.md`
-  - EleutherAI 10 篇：blog.eleuther.ai 研究深潜 + research-update（探索体英文原生形态）；统计见 `output/eleuther/`，档案 `STYLE-PROFILE-eleuther-v0.md`
-  - Databricks 10 篇：databricks.com/blog AI RESEARCH 栏目全量；统计见 `output/databricks/`，档案 `STYLE-PROFILE-databricks-v0.md`
+  - Cerebras 20 篇（2026-09-14 扩容 10→20）：cerebras.ai/blog 研究/工程深潜分层采样（排除纯产品新闻）；统计见 `output/cerebras/`，档案 `STYLE-PROFILE-cerebras-v0.md`
+  - EleutherAI 20 篇（2026-09-14 扩容 10→20）：blog.eleuther.ai 研究深潜 + research-update（探索体英文原生形态）；统计见 `output/eleuther/`，档案 `STYLE-PROFILE-eleuther-v0.md`
+  - Databricks 20 篇（2026-09-14 扩容 10→20）：databricks.com/blog AI RESEARCH 栏目；统计见 `output/databricks/`，档案 `STYLE-PROFILE-databricks-v0.md`。**量具变更**：扩容 10 篇因官网订阅表单改版缺少国家下拉样板（约 500 词/篇），word_count 新旧篇目系统性不可比（方向：新篇偏轻），聚合值跨量具版本——见档案 §2 ‡ 注记与校准日志 2026-09-15 条
 - `google-research/`、`microsoft-research/`：二期语料（2026-09-07，WebBridge 真浏览器抓取）。**版权政策同上：全文不入库**（2026-09-07 授权核实：Google ToS 保留全部 IP、Microsoft TOU 明文禁止复制分发，均无 CC 授权；文件曾被误跟踪并已从全部历史中清除）。slug 清单见各自档案第 5 节，如需复现请自采；分析产出（统计 JSON、标注、档案）正常入库。
-  - Google Research 10 篇：research.google/blog 栏目分层（含连接组学/甲烷监测等合作科学体）；统计见 `output/google-research/`，档案 `STYLE-PROFILE-google-research-v0.md`
-  - Microsoft Research 10 篇：microsoft.com/en-us/research/blog（正文为摘要式短文，深度内容靠论文/开源外链）；统计见 `output/microsoft-research/`，档案 `STYLE-PROFILE-microsoft-research-v0.md`
+  - Google Research 20 篇（2026-09-14 扩容 10→20）：research.google/blog 栏目分层（含连接组学/甲烷监测等合作科学体）；统计见 `output/google-research/`，档案 `STYLE-PROFILE-google-research-v0.md`
+  - Microsoft Research 20 篇（2026-09-14 扩容 10→20）：microsoft.com/en-us/research/blog（正文为摘要式短文，深度内容靠论文/开源外链）；统计见 `output/microsoft-research/`，档案 `STYLE-PROFILE-microsoft-research-v0.md`
 
 ## 本地在库、不随仓库分发（版权原因）
 
@@ -19,9 +19,11 @@
 - `responsible-scaling-policy` → `/news/anthropics-responsible-scaling-policy`（初版 2023-10；另一版 `announcing-our-updated-responsible-scaling-policy` 为 RSP 2.0——原外部 workspace 版本不可考，本地取初版）
 - OpenAI 全部 slug 有效，但需加 `/en/` 前缀（`openai.com/en/index/<slug>/`）避免按浏览器语言重定向到中文版：
 
-**OpenAI（10 篇）**：harness-engineering / gpt-5-safe-completions / core-dump-epidemiology-data-infrastructure-bug / how-we-monitor-internal-coding-agents-misalignment / emergent-misalignment / unrolling-the-codex-agent-loop / reasoning-models-chain-of-thought-controllability / understanding-the-source-of-what-we-see-and-hear-online / our-approach-to-the-model-spec / gdpval
+**OpenAI（20 篇，后 10 篇为 2026-09-14 体裁平衡扩容补采）**：harness-engineering / gpt-5-safe-completions / core-dump-epidemiology-data-infrastructure-bug / how-we-monitor-internal-coding-agents-misalignment / emergent-misalignment / unrolling-the-codex-agent-loop / reasoning-models-chain-of-thought-controllability / understanding-the-source-of-what-we-see-and-hear-online / our-approach-to-the-model-spec / gdpval / sharing-the-latest-model-spec / updating-our-preparedness-framework / best-practices-for-deploying-language-models / governance-of-superintelligence / planning-for-agi-and-beyond / sycophancy-in-gpt-4o / introducing-agentkit / how-agents-are-transforming-work / introducing-gpt-5-5 / introducing-deep-research
 
-**Anthropic（10 篇）**：a-postmortem-of-three-recent-issues / auditing-hidden-objectives / effective-harnesses-long-running-agents / agentic-misalignment / demystifying-evals-for-ai-agents / responsible-scaling-policy / building-c-compiler / effective-context-engineering / building-effective-agents / alignment-faking
+**Anthropic（20 篇）**：a-postmortem-of-three-recent-issues / auditing-hidden-objectives / effective-harnesses-long-running-agents / agentic-misalignment / demystifying-evals-for-ai-agents / responsible-scaling-policy / building-c-compiler / effective-context-engineering / building-effective-agents / alignment-faking / claude-is-a-space-to-think / thoughts-on-america-s-ai-action-plan / the-case-for-targeted-regulation / claude-text-watermark / claude-opus-5 / introducing-anthropic-labs / wellbeing-research-grants / model-hardware-standard-research-preview / position-open-weights-models / compliance-framework-sb53
+
+（后 10 篇为 2026-09-14 体裁平衡扩容补采，均取自 `anthropic.com/news`；其中 `compliance-framework-sb53` 实际 URL slug 含大写 `/news/compliance-framework-SB53`，文件名统一小写。）
 
 采集后运行：
 

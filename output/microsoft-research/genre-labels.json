@@ -4,8 +4,13 @@
     "date": "2026-09-14",
     "router": "llm-routing-v1",
     "low_confidence": [
-      "echoverse-deep-evolving-environments-for-computer-use-agents"
-    ]
+      "echoverse-deep-evolving-environments-for-computer-use-agents",
+      "memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity",
+      "talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis",
+      "building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset",
+      "phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model"
+    ],
+    "router_v2": "llm-routing-v2-expansion (2026-09-14)：体裁平衡扩容新增 10 篇（A2/E3/R5），per-article JSON 的 genre.unified.source 可区分路由批次"
   },
   "aurora-1-5-weather-earth-system-models": {
     "genre_code": "N",
@@ -66,5 +71,65 @@
     "genre_name": "工程类",
     "confidence": "high",
     "evidence": "主体为工程方法论：标准→Lean规范→Rust代码验证工作流"
+  },
+  "skillopt-agent-skills-as-trainable-parameters": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "论文方法+六基准52格评测发现，无可用性声明"
+  },
+  "memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "low",
+    "evidence": "主体方法+双基准SOTA；附GitHub代码可用，R/N边界"
+  },
+  "talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "low",
+    "evidence": "开源工具验证：队列90%召回+前瞻241诊断；R/N边界"
+  },
+  "extending-human-intelligence-through-ai": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "概念论证：AI延伸人类智能的哲学分析及其安全含义"
+  },
+  "further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "论文后续说明：DELEGATE-52方法、结果、局限与含义"
+  },
+  "mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "high",
+    "evidence": "分配器工程深潜：fast path/自由列表/并发设计取舍"
+  },
+  "building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "low",
+    "evidence": "主体为开放数据pipeline构建过程；附数据集发布，E/N边界"
+  },
+  "red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale": {
+    "genre_code": "R",
+    "genre_name": "研究类",
+    "confidence": "high",
+    "evidence": "百余agent平台红队实验：四类传播攻击发现+防御迹象"
+  },
+  "new-future-of-work-ai-is-driving-rapid-change-uneven-benefits": {
+    "genre_code": "A",
+    "genre_name": "分析评论类",
+    "confidence": "high",
+    "evidence": "年度报告综述：AI采用/劳动力/协作趋势的论证性解读"
+  },
+  "phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model": {
+    "genre_code": "E",
+    "genre_name": "工程类",
+    "confidence": "low",
+    "evidence": "主体为训练经验（架构/数据配比/课程）；附模型开放发布，E/N边界"
   }
 }

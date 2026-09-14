@@ -1,0 +1,121 @@
+{
+  "file": "building-state-art-enterprise-agents-90x-cheaper-automated-prompt-optimization.md",
+  "lang": "en",
+  "title": "Building State-of-the-Art Enterprise Agents 90x Cheaper with Automated Prompt Optimization",
+  "cjk_chars": 0,
+  "word_count": 2890,
+  "reading_time_min": 10.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 95,
+    "avg_sentence_len": 30.8,
+    "median_sentence_len": 25,
+    "p90_sentence_len": 49,
+    "question_sentences": 1
+  },
+  "paragraphs": {
+    "paragraph_count": 86,
+    "avg_paragraph_len": 34.0,
+    "median_paragraph_len": 24.0,
+    "p90_paragraph_len": 65,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 133,
+    "number_per_1k": 46.02,
+    "precise_numbers": 44,
+    "precise_per_1k": 15.22,
+    "year_anchors": 0,
+    "year_per_1k": 0.0,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 1.73,
+    "hedge_examples": [
+      {
+        "term": "roughly",
+        "excerpt": "Enable open-source models to surpass frontier-model quality for enterprise tasks"
+      },
+      {
+        "term": "remains",
+        "excerpt": "Information Extraction (IE) is a core Agent Bricks feature, converting unstructu"
+      },
+      {
+        "term": "roughly",
+        "excerpt": "Yet in enterprise settings, performance must also be weighed against serving cos"
+      }
+    ],
+    "absolutist_hits": 1.38,
+    "absolutist_examples": [
+      {
+        "term": "must",
+        "excerpt": "Yet in enterprise settings, performance must also be weighed against serving cos"
+      },
+      {
+        "term": "must",
+        "excerpt": "This quality-cost tradeoff has major implications for enterprise workloads requi"
+      },
+      {
+        "term": "must",
+        "excerpt": "We explore automatic prompt optimization as a systematic method for raising mode"
+      }
+    ],
+    "quantifier_hits": 4.5,
+    "first_person_count": 53,
+    "objective_selfref_count": 1,
+    "exclamations": 0,
+    "questions": 1,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.289,
+    "mattr": 0.656,
+    "top_terms": [
+      "optimization×47",
+      "performance×47",
+      "prompt×36",
+      "cost×34",
+      "serving×28",
+      "claude×28",
+      "gpt-oss-×26",
+      "frontier×20",
+      "sft×20",
+      "automated×18",
+      "databricks×17",
+      "enterprise×16",
+      "gepa×16",
+      "opus×15",
+      "gpt-×15"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Building State-of-the-Art Enterprise Agents 90x Cheaper with Automated Prompt Optimization",
+    "title_len": 90,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "公告类",
+      "code": "N",
+      "confidence": "low",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

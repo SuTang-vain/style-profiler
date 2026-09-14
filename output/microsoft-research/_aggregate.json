@@ -1,174 +1,37 @@
 {
- "cjk_chars": {
-  "median": 0.0,
-  "p25": 0,
-  "p75": 0,
-  "min": 0,
-  "max": 0
- },
- "word_count": {
-  "median": 1634.0,
-  "p25": 1102,
-  "p75": 2392,
-  "min": 952,
-  "max": 4880
- },
- "reading_time_min": {
-  "median": 5.5,
-  "p25": 4.0,
-  "p75": 8.0,
-  "min": 3.0,
-  "max": 16.0
- },
- "avg_sentence_len": {
-  "median": 22.55,
-  "p25": 20.8,
-  "p75": 23.6,
-  "min": 19.4,
-  "max": 26.7
- },
- "p90_sentence_len": {
-  "median": 36.0,
-  "p25": 32,
-  "p75": 39,
-  "min": 29,
-  "max": 49
- },
- "avg_paragraph_len": {
-  "median": 44.4,
-  "p25": 41,
-  "p75": 47.1,
-  "min": 33.3,
-  "max": 65.2
- },
- "number_per_1k": {
-  "median": 26.87,
-  "p25": 13.61,
-  "p75": 29.55,
-  "min": 4.55,
-  "max": 47.38
- },
- "precise_per_1k": {
-  "median": 7.47,
-  "p25": 0.0,
-  "p75": 13.52,
-  "min": 0.0,
-  "max": 30.93
- },
- "year_per_1k": {
-  "median": 0.91,
-  "p25": 0.59,
-  "p75": 1.57,
-  "min": 0.41,
-  "max": 5.73
- },
- "links_per_1k": {
-  "median": 0.0,
-  "p25": 0.0,
-  "p75": 0.0,
-  "min": 0.0,
-  "max": 0.0
- },
- "reference_entries": {
-  "median": 0.0,
-  "p25": 0,
-  "p75": 0,
-  "min": 0,
-  "max": 0
- },
- "citation_marks": {
-  "median": 0.0,
-  "p25": 0,
-  "p75": 0,
-  "min": 0,
-  "max": 0
- },
- "hedge_hits": {
-  "median": 7.5,
-  "p25": 4.14,
-  "p75": 10.01,
-  "min": 1.81,
-  "max": 10.57
- },
- "absolutist_hits": {
-  "median": 1.81,
-  "p25": 0.63,
-  "p75": 2.36,
-  "min": 0.0,
-  "max": 4.2
- },
- "quantifier_hits": {
-  "median": 4.53,
-  "p25": 3.76,
-  "p75": 6.5,
-  "min": 1.81,
-  "max": 8.81
- },
- "first_person_count": {
-  "median": 9.0,
-  "p25": 6,
-  "p75": 15,
-  "min": 3,
-  "max": 27
- },
- "objective_selfref_count": {
-  "median": 0.5,
-  "p25": 0,
-  "p75": 2,
-  "min": 0,
-  "max": 2
- },
- "exclamations": {
-  "median": 0.0,
-  "p25": 0,
-  "p75": 0,
-  "min": 0,
-  "max": 0
- },
- "questions": {
-  "median": 0.0,
-  "p25": 0,
-  "p75": 2,
-  "min": 0,
-  "max": 4
- },
- "ttr": {
-  "median": 0.38,
-  "p25": 0.36,
-  "p75": 0.42,
-  "min": 0.267,
-  "max": 0.47
- },
- "mattr": {
-  "median": 0.7,
-  "p25": 0.68,
-  "p75": 0.72,
-  "min": 0.679,
-  "max": 0.741
- },
- "genre_distribution": {
-  "blog_or_exploration": 10
- },
- "genre_files": {
-  "blog_or_exploration": [
-   "aurora-1-5-weather-earth-system-models.md",
-   "broadening-access-to-skala-predictive-diagnostics.md",
-   "echoverse-deep-evolving-environments-for-computer-use-agents.md",
-   "evolib-turning-experience-into-evolving-knowledge.md",
-   "flint-a-visualization-language-for-the-ai-era.md",
-   "gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models.md",
-   "introducing-care-x-radiology-vlms.md",
-   "mindtopo-reveals-vlms-spatial-reasoning-abilities.md",
-   "orchard-an-open-framework-for-scalable-agentic-ai.md",
-   "verifying-rust-cryptography-in-symcrypt-from-standards-to-code.md"
-  ]
- },
  "two_level": {
   "method": "two-level-v1（genre.unified.code 分格；格内中位→体裁中位的中位；n<3 缺席）",
-  "n_articles": 10,
+  "n_articles": 20,
   "skipped_no_unified": 0,
   "skipped_files": [],
   "cells": {
+   "E": {
+    "genre": "工程类",
+    "n": 4,
+    "metrics": {
+     "cjk_chars": 0.0,
+     "word_count": 2243.0,
+     "reading_time_min": 7.5,
+     "avg_sentence_len": 21.75,
+     "p90_sentence_len": 33.0,
+     "avg_paragraph_len": 46.65,
+     "number_per_1k": 19.08,
+     "precise_per_1k": 1.82,
+     "year_per_1k": 0.51,
+     "links_per_1k": 0.0,
+     "reference_entries": 0.0,
+     "citation_marks": 0.0,
+     "hedge_hits": 5.48,
+     "absolutist_hits": 2.39,
+     "quantifier_hits": 5.38,
+     "first_person_count": 19.0,
+     "objective_selfref_count": 1.5,
+     "exclamations": 0.0,
+     "questions": 0.5,
+     "ttr": 0.36,
+     "mattr": 0.68
+    }
+   },
    "N": {
     "genre": "公告类",
     "n": 5,
@@ -198,160 +61,160 @@
    },
    "R": {
     "genre": "研究类",
-    "n": 4,
+    "n": 9,
     "metrics": {
-     "cjk_chars": 0.0,
-     "word_count": 1826.5,
-     "reading_time_min": 6.5,
-     "avg_sentence_len": 22.55,
-     "p90_sentence_len": 38.0,
-     "avg_paragraph_len": 41.8,
-     "number_per_1k": 15.54,
-     "precise_per_1k": 6.76,
-     "year_per_1k": 0.98,
+     "cjk_chars": 0,
+     "word_count": 1339,
+     "reading_time_min": 4.0,
+     "avg_sentence_len": 23.0,
+     "p90_sentence_len": 36,
+     "avg_paragraph_len": 42.6,
+     "number_per_1k": 17.92,
+     "precise_per_1k": 3.73,
+     "year_per_1k": 0.91,
      "links_per_1k": 0.0,
-     "reference_entries": 0.0,
-     "citation_marks": 0.0,
-     "hedge_hits": 9.73,
-     "absolutist_hits": 2.81,
-     "quantifier_hits": 5.8,
-     "first_person_count": 8.5,
-     "objective_selfref_count": 0.5,
-     "exclamations": 0.0,
-     "questions": 1.0,
-     "ttr": 0.37,
-     "mattr": 0.7
+     "reference_entries": 0,
+     "citation_marks": 0,
+     "hedge_hits": 9.45,
+     "absolutist_hits": 2.59,
+     "quantifier_hits": 7.05,
+     "first_person_count": 7,
+     "objective_selfref_count": 0,
+     "exclamations": 0,
+     "questions": 0,
+     "ttr": 0.4,
+     "mattr": 0.72
     }
    }
   },
   "institution": {
-   "absolutist_hits": 1.72,
-   "avg_paragraph_len": 43.95,
-   "avg_sentence_len": 23.08,
-   "citation_marks": 0.0,
-   "cjk_chars": 0.0,
-   "exclamations": 0.0,
-   "first_person_count": 8.75,
-   "hedge_hits": 8.36,
+   "absolutist_hits": 2.39,
+   "avg_paragraph_len": 46.1,
+   "avg_sentence_len": 23.0,
+   "citation_marks": 0,
+   "cjk_chars": 0,
+   "exclamations": 0,
+   "first_person_count": 9,
+   "hedge_hits": 6.98,
    "links_per_1k": 0.0,
-   "mattr": 0.7,
-   "number_per_1k": 22.02,
-   "objective_selfref_count": 0.25,
-   "p90_sentence_len": 36.5,
-   "precise_per_1k": 7.22,
-   "quantifier_hits": 5.15,
-   "questions": 0.5,
-   "reading_time_min": 5.75,
-   "reference_entries": 0.0,
+   "mattr": 0.71,
+   "number_per_1k": 19.08,
+   "objective_selfref_count": 0,
+   "p90_sentence_len": 35,
+   "precise_per_1k": 3.73,
+   "quantifier_hits": 5.38,
+   "questions": 0,
+   "reading_time_min": 5.0,
+   "reference_entries": 0,
    "ttr": 0.38,
-   "word_count": 1701.25,
-   "year_per_1k": 0.95
+   "word_count": 1576,
+   "year_per_1k": 0.91
   },
   "dispersion": {
    "absolutist_hits": {
-    "range": 2.18,
-    "iqr": 2.18,
-    "n_cells": 2
+    "range": 1.96,
+    "iqr": 1.96,
+    "n_cells": 3
    },
    "avg_paragraph_len": {
-    "range": 4.3,
-    "iqr": 4.3,
-    "n_cells": 2
+    "range": 4.05,
+    "iqr": 4.05,
+    "n_cells": 3
    },
    "avg_sentence_len": {
-    "range": 1.05,
-    "iqr": 1.05,
-    "n_cells": 2
+    "range": 1.85,
+    "iqr": 1.85,
+    "n_cells": 3
    },
    "citation_marks": {
-    "range": 0,
+    "range": 0.0,
     "iqr": 0.0,
-    "n_cells": 2
+    "n_cells": 3
    },
    "cjk_chars": {
-    "range": 0,
+    "range": 0.0,
     "iqr": 0.0,
-    "n_cells": 2
+    "n_cells": 3
    },
    "exclamations": {
-    "range": 0,
+    "range": 0.0,
     "iqr": 0.0,
-    "n_cells": 2
+    "n_cells": 3
    },
    "first_person_count": {
-    "range": 0.5,
-    "iqr": 0.5,
-    "n_cells": 2
+    "range": 12.0,
+    "iqr": 12.0,
+    "n_cells": 3
    },
    "hedge_hits": {
-    "range": 2.75,
-    "iqr": 2.75,
-    "n_cells": 2
+    "range": 3.97,
+    "iqr": 3.97,
+    "n_cells": 3
    },
    "links_per_1k": {
     "range": 0.0,
     "iqr": 0.0,
-    "n_cells": 2
+    "n_cells": 3
    },
    "mattr": {
-    "range": 0.01,
-    "iqr": 0.01,
-    "n_cells": 2
+    "range": 0.04,
+    "iqr": 0.04,
+    "n_cells": 3
    },
    "number_per_1k": {
-    "range": 12.95,
-    "iqr": 12.95,
-    "n_cells": 2
+    "range": 10.57,
+    "iqr": 10.57,
+    "n_cells": 3
    },
    "objective_selfref_count": {
-    "range": 0.5,
-    "iqr": 0.5,
-    "n_cells": 2
+    "range": 1.5,
+    "iqr": 1.5,
+    "n_cells": 3
    },
    "p90_sentence_len": {
     "range": 3.0,
     "iqr": 3.0,
-    "n_cells": 2
+    "n_cells": 3
    },
    "precise_per_1k": {
-    "range": 0.92,
-    "iqr": 0.92,
-    "n_cells": 2
+    "range": 5.86,
+    "iqr": 5.86,
+    "n_cells": 3
    },
    "quantifier_hits": {
-    "range": 1.3,
-    "iqr": 1.3,
-    "n_cells": 2
+    "range": 2.55,
+    "iqr": 2.55,
+    "n_cells": 3
    },
    "questions": {
-    "range": 1.0,
-    "iqr": 1.0,
-    "n_cells": 2
+    "range": 0.5,
+    "iqr": 0.5,
+    "n_cells": 3
    },
    "reading_time_min": {
-    "range": 1.5,
-    "iqr": 1.5,
-    "n_cells": 2
+    "range": 3.5,
+    "iqr": 3.5,
+    "n_cells": 3
    },
    "reference_entries": {
-    "range": 0,
+    "range": 0.0,
     "iqr": 0.0,
-    "n_cells": 2
+    "n_cells": 3
    },
    "ttr": {
-    "range": 0.01,
-    "iqr": 0.01,
-    "n_cells": 2
+    "range": 0.04,
+    "iqr": 0.04,
+    "n_cells": 3
    },
    "word_count": {
-    "range": 250.5,
-    "iqr": 250.5,
-    "n_cells": 2
+    "range": 904.0,
+    "iqr": 904.0,
+    "n_cells": 3
    },
    "year_per_1k": {
-    "range": 0.07,
-    "iqr": 0.07,
-    "n_cells": 2
+    "range": 0.4,
+    "iqr": 0.4,
+    "n_cells": 3
    }
   },
   "corpus_naive_median": {
@@ -359,100 +222,274 @@
    "word_count": 1634.0,
    "reading_time_min": 5.5,
    "avg_sentence_len": 22.55,
-   "p90_sentence_len": 36.0,
-   "avg_paragraph_len": 44.4,
-   "number_per_1k": 26.87,
-   "precise_per_1k": 7.47,
-   "year_per_1k": 0.91,
+   "p90_sentence_len": 34.5,
+   "avg_paragraph_len": 46.05,
+   "number_per_1k": 19.2,
+   "precise_per_1k": 3.42,
+   "year_per_1k": 0.83,
    "links_per_1k": 0.0,
    "reference_entries": 0.0,
    "citation_marks": 0.0,
-   "hedge_hits": 7.5,
-   "absolutist_hits": 1.81,
-   "quantifier_hits": 4.53,
-   "first_person_count": 9.0,
-   "objective_selfref_count": 0.5,
+   "hedge_hits": 7.22,
+   "absolutist_hits": 2.02,
+   "quantifier_hits": 4.68,
+   "first_person_count": 10.0,
+   "objective_selfref_count": 0.0,
    "exclamations": 0.0,
    "questions": 0.0,
    "ttr": 0.38,
-   "mattr": 0.7
+   "mattr": 0.72
   },
   "signature_candidates": {
    "criterion": "within_lib_range < cross_institution_range / 2，且本库出值格 ≥2（methodology §一 起点阈值，实施后校准）",
    "metrics": {
     "avg_paragraph_len": {
-     "within_lib_range": 4.3,
-     "cross_institution_range": 23.95
+     "within_lib_range": 4.05,
+     "cross_institution_range": 157.1
     },
     "avg_sentence_len": {
-     "within_lib_range": 1.05,
-     "cross_institution_range": 15.5
+     "within_lib_range": 1.85,
+     "cross_institution_range": 15.4
     },
     "cjk_chars": {
-     "within_lib_range": 0,
-     "cross_institution_range": 3879
-    },
-    "exclamations": {
-     "within_lib_range": 0,
-     "cross_institution_range": 0.5
+     "within_lib_range": 0.0,
+     "cross_institution_range": 3789.0
     },
     "first_person_count": {
-     "within_lib_range": 0.5,
-     "cross_institution_range": 54.5
+     "within_lib_range": 12.0,
+     "cross_institution_range": 34
     },
     "hedge_hits": {
-     "within_lib_range": 2.75,
-     "cross_institution_range": 9.99
+     "within_lib_range": 3.97,
+     "cross_institution_range": 9.31
     },
-    "mattr": {
-     "within_lib_range": 0.01,
-     "cross_institution_range": 0.12
+    "links_per_1k": {
+     "within_lib_range": 0.0,
+     "cross_institution_range": 0.13
     },
     "number_per_1k": {
-     "within_lib_range": 12.95,
-     "cross_institution_range": 39.42
-    },
-    "objective_selfref_count": {
-     "within_lib_range": 0.5,
-     "cross_institution_range": 2.0
+     "within_lib_range": 10.57,
+     "cross_institution_range": 37.33
     },
     "p90_sentence_len": {
      "within_lib_range": 3.0,
-     "cross_institution_range": 29.0
+     "cross_institution_range": 27.5
     },
     "precise_per_1k": {
-     "within_lib_range": 0.92,
-     "cross_institution_range": 12.24
+     "within_lib_range": 5.86,
+     "cross_institution_range": 14.11
     },
     "quantifier_hits": {
-     "within_lib_range": 1.3,
-     "cross_institution_range": 7.54
+     "within_lib_range": 2.55,
+     "cross_institution_range": 6.83
     },
     "questions": {
-     "within_lib_range": 1.0,
-     "cross_institution_range": 5.0
+     "within_lib_range": 0.5,
+     "cross_institution_range": 1.5
     },
     "reading_time_min": {
-     "within_lib_range": 1.5,
-     "cross_institution_range": 9.0
+     "within_lib_range": 3.5,
+     "cross_institution_range": 8.0
     },
     "reference_entries": {
-     "within_lib_range": 0,
-     "cross_institution_range": 7
+     "within_lib_range": 0.0,
+     "cross_institution_range": 7.0
     },
     "ttr": {
-     "within_lib_range": 0.01,
-     "cross_institution_range": 0.2
+     "within_lib_range": 0.04,
+     "cross_institution_range": 0.11
     },
     "word_count": {
-     "within_lib_range": 250.5,
-     "cross_institution_range": 2779.75
+     "within_lib_range": 904.0,
+     "cross_institution_range": 2538.5
     },
     "year_per_1k": {
-     "within_lib_range": 0.07,
-     "cross_institution_range": 3.09
+     "within_lib_range": 0.4,
+     "cross_institution_range": 3.33
     }
    }
   }
+ },
+ "_meta_expansion": {
+  "date": "2026-09-15",
+  "event": "体裁平衡扩容（2026-09-14 完成采录与路由）后 Phase B1 顶层重聚合（中位数口径）",
+  "n_articles": "10→20",
+  "router": "llm-routing-v2-expansion（仅新篇目回填 genre.unified；旧篇标签与旧 JSON 未动）",
+  "method": "消费现有 per-article JSON 经 profiler.aggregate() 重算；未重跑 analyze()",
+  "equivalence_check": "kezhongke-v10 fixture 全键一致 + 本库 llm-routing-v1 旧子集对 HEAD 旧聚合逐键一致"
+ },
+ "cjk_chars": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "word_count": {
+  "median": 1634.0,
+  "p25": 1311,
+  "p75": 2554,
+  "min": 640,
+  "max": 4880
+ },
+ "reading_time_min": {
+  "median": 5.5,
+  "p25": 4.0,
+  "p75": 9.0,
+  "min": 2.0,
+  "max": 16.0
+ },
+ "avg_sentence_len": {
+  "median": 22.55,
+  "p25": 20.8,
+  "p75": 23.6,
+  "min": 19.3,
+  "max": 26.7
+ },
+ "p90_sentence_len": {
+  "median": 34.5,
+  "p25": 32,
+  "p75": 39,
+  "min": 29,
+  "max": 49
+ },
+ "avg_paragraph_len": {
+  "median": 46.05,
+  "p25": 42.6,
+  "p75": 55.3,
+  "min": 32.4,
+  "max": 65.2
+ },
+ "number_per_1k": {
+  "median": 19.2,
+  "p25": 10.94,
+  "p75": 30.96,
+  "min": 1.81,
+  "max": 47.38
+ },
+ "precise_per_1k": {
+  "median": 3.42,
+  "p25": 0.82,
+  "p75": 12.06,
+  "min": 0.0,
+  "max": 30.93
+ },
+ "year_per_1k": {
+  "median": 0.83,
+  "p25": 0.54,
+  "p75": 1.49,
+  "min": 0.3,
+  "max": 5.73
+ },
+ "links_per_1k": {
+  "median": 0.0,
+  "p25": 0.0,
+  "p75": 0.0,
+  "min": 0.0,
+  "max": 0.0
+ },
+ "reference_entries": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "citation_marks": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 0
+ },
+ "hedge_hits": {
+  "median": 7.22,
+  "p25": 5.25,
+  "p75": 10.49,
+  "min": 1.81,
+  "max": 15.62
+ },
+ "absolutist_hits": {
+  "median": 2.02,
+  "p25": 0.91,
+  "p75": 2.99,
+  "min": 0.0,
+  "max": 4.2
+ },
+ "quantifier_hits": {
+  "median": 4.68,
+  "p25": 4.01,
+  "p75": 7.47,
+  "min": 1.81,
+  "max": 14.49
+ },
+ "first_person_count": {
+  "median": 10.0,
+  "p25": 7,
+  "p75": 16,
+  "min": 3,
+  "max": 69
+ },
+ "objective_selfref_count": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 2,
+  "min": 0,
+  "max": 4
+ },
+ "exclamations": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 0,
+  "min": 0,
+  "max": 1
+ },
+ "questions": {
+  "median": 0.0,
+  "p25": 0,
+  "p75": 2,
+  "min": 0,
+  "max": 5
+ },
+ "ttr": {
+  "median": 0.38,
+  "p25": 0.36,
+  "p75": 0.43,
+  "min": 0.267,
+  "max": 0.503
+ },
+ "mattr": {
+  "median": 0.72,
+  "p25": 0.69,
+  "p75": 0.73,
+  "min": 0.673,
+  "max": 0.759
+ },
+ "genre_distribution": {
+  "blog_or_exploration": 20
+ },
+ "genre_files": {
+  "blog_or_exploration": [
+   "aurora-1-5-weather-earth-system-models.md",
+   "broadening-access-to-skala-predictive-diagnostics.md",
+   "building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset.md",
+   "echoverse-deep-evolving-environments-for-computer-use-agents.md",
+   "evolib-turning-experience-into-evolving-knowledge.md",
+   "extending-human-intelligence-through-ai.md",
+   "flint-a-visualization-language-for-the-ai-era.md",
+   "further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability.md",
+   "gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models.md",
+   "introducing-care-x-radiology-vlms.md",
+   "memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity.md",
+   "mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era.md",
+   "mindtopo-reveals-vlms-spatial-reasoning-abilities.md",
+   "new-future-of-work-ai-is-driving-rapid-change-uneven-benefits.md",
+   "orchard-an-open-framework-for-scalable-agentic-ai.md",
+   "phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model.md",
+   "red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale.md",
+   "skillopt-agent-skills-as-trainable-parameters.md",
+   "talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis.md",
+   "verifying-rust-cryptography-in-symcrypt-from-standards-to-code.md"
+  ]
  }
 }

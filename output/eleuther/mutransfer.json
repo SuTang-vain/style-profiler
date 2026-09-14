@@ -1,0 +1,121 @@
+{
+  "file": "mutransfer.md",
+  "lang": "en",
+  "title": "The Practitioner's Guide to the Maximal Update Parameterization",
+  "cjk_chars": 0,
+  "word_count": 5468,
+  "reading_time_min": 18.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 231,
+    "avg_sentence_len": 21.4,
+    "median_sentence_len": 20,
+    "p90_sentence_len": 38,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 3,
+    "avg_paragraph_len": 1654.3,
+    "median_paragraph_len": 18,
+    "p90_paragraph_len": 18,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 227,
+    "number_per_1k": 41.51,
+    "precise_numbers": 3,
+    "precise_per_1k": 0.55,
+    "year_anchors": 5,
+    "year_per_1k": 0.91,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 8.23,
+    "hedge_examples": [
+      {
+        "term": "may",
+        "excerpt": "EleutherAI is proud to introduce a joint project with Cerebras on spreading the "
+      },
+      {
+        "term": "could",
+        "excerpt": "EleutherAI is proud to introduce a joint project with Cerebras on spreading the "
+      },
+      {
+        "term": "roughly",
+        "excerpt": "EleutherAI is proud to introduce a joint project with Cerebras on spreading the "
+      }
+    ],
+    "absolutist_hits": 1.83,
+    "absolutist_examples": [
+      {
+        "term": "must",
+        "excerpt": "EleutherAI is proud to introduce a joint project with Cerebras on spreading the "
+      },
+      {
+        "term": "never",
+        "excerpt": "EleutherAI is proud to introduce a joint project with Cerebras on spreading the "
+      },
+      {
+        "term": "completely",
+        "excerpt": "EleutherAI is proud to introduce a joint project with Cerebras on spreading the "
+      }
+    ],
+    "quantifier_hits": 3.47,
+    "first_person_count": 89,
+    "objective_selfref_count": 1,
+    "exclamations": 7,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.175,
+    "mattr": 0.553,
+    "top_terms": [
+      "text×156",
+      "big×54",
+      "training×49",
+      "base×49",
+      "mathbb×45",
+      "mathcal×39",
+      "width×35",
+      "nabla×32",
+      "eta×29",
+      "scale×28",
+      "figure×28",
+      "activations×27",
+      "weight×27",
+      "sigma×26",
+      "var×26"
+    ],
+    "en_char_ratio": null,
+    "title_text": "The Practitioner's Guide to the Maximal Update Parameterization",
+    "title_len": 63,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "指南类",
+      "code": "G",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

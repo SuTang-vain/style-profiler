@@ -1,0 +1,108 @@
+{
+  "file": "optimizing-databricks-llm-pipelines-dspy.md",
+  "lang": "en",
+  "title": "Optimizing Databricks LLM Pipelines with DSPy",
+  "cjk_chars": 0,
+  "word_count": 1820,
+  "reading_time_min": 6.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 57,
+    "avg_sentence_len": 31.9,
+    "median_sentence_len": 21,
+    "p90_sentence_len": 39,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 33,
+    "avg_paragraph_len": 55.1,
+    "median_paragraph_len": 13,
+    "p90_paragraph_len": 106,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 23,
+    "number_per_1k": 12.64,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 2,
+    "year_per_1k": 1.1,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 5.49,
+    "hedge_examples": [
+      {
+        "term": "likely",
+        "excerpt": "If you’ve been following the world of industry-grade LLM technology for the last"
+      },
+      {
+        "term": "appears",
+        "excerpt": "In October 2023, researchers working in Databricks co-founder Matei Zaharia’s St"
+      },
+      {
+        "term": "initial",
+        "excerpt": "In October 2023, researchers working in Databricks co-founder Matei Zaharia’s St"
+      }
+    ],
+    "absolutist_hits": 0.0,
+    "absolutist_examples": [],
+    "quantifier_hits": 7.69,
+    "first_person_count": 22,
+    "objective_selfref_count": 0,
+    "exclamations": 1,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.496,
+    "mattr": 0.715,
+    "top_terms": [
+      "dspy×30",
+      "databricks×27",
+      "islands×15",
+      "llm×14",
+      "data×13",
+      "republic×13",
+      "figure×11",
+      "custom×8",
+      "pipeline×8",
+      "pipelines×7",
+      "jetblue×7",
+      "solutions×7",
+      "saint×7",
+      "signature×6",
+      "optimize×6"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Optimizing Databricks LLM Pipelines with DSPy",
+    "title_len": 45,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "指南类",
+      "code": "G",
+      "confidence": "low",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

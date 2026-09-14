@@ -1,0 +1,121 @@
+{
+  "file": "instructed-retriever-unlocking-system-level-reasoning-search-agents.md",
+  "lang": "en",
+  "title": "Instructed Retriever: Unlocking System-Level Reasoning in Search Agents",
+  "cjk_chars": 0,
+  "word_count": 2919,
+  "reading_time_min": 10.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 118,
+    "avg_sentence_len": 25.3,
+    "median_sentence_len": 24.5,
+    "p90_sentence_len": 37,
+    "question_sentences": 1
+  },
+  "paragraphs": {
+    "paragraph_count": 82,
+    "avg_paragraph_len": 36.4,
+    "median_paragraph_len": 10.5,
+    "p90_paragraph_len": 92,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 68,
+    "number_per_1k": 23.3,
+    "precise_numbers": 18,
+    "precise_per_1k": 6.17,
+    "year_anchors": 1,
+    "year_per_1k": 0.34,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 3.77,
+    "hedge_examples": [
+      {
+        "term": "about",
+        "excerpt": "For instance, consider an example at Figure 1, where a user asks about battery l"
+      },
+      {
+        "term": "about",
+        "excerpt": "Reasoning about outputs"
+      },
+      {
+        "term": "might",
+        "excerpt": "To address the challenges of system-level reasoning in agentic retrieval systems"
+      }
+    ],
+    "absolutist_hits": 3.43,
+    "absolutist_examples": [
+      {
+        "term": "must",
+        "excerpt": "Retrieval-based agents are at the heart of many mission-critical enterprise use "
+      },
+      {
+        "term": "fundamental",
+        "excerpt": "Retrieval-based agents are at the heart of many mission-critical enterprise use "
+      },
+      {
+        "term": "critical",
+        "excerpt": "Retrieval-based agents are at the heart of many mission-critical enterprise use "
+      }
+    ],
+    "quantifier_hits": 7.54,
+    "first_person_count": 43,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 1,
+    "emoji": 20
+  },
+  "diction": {
+    "ttr": 0.31,
+    "mattr": 0.689,
+    "top_terms": [
+      "instructed×36",
+      "retriever×34",
+      "query×32",
+      "retrieval×31",
+      "rag×30",
+      "search×26",
+      "generation×24",
+      "user×20",
+      "instructions×20",
+      "agent×20",
+      "specifications×18",
+      "architecture×18",
+      "knowledge×17",
+      "figure×17",
+      "system×16"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Instructed Retriever: Unlocking System-Level Reasoning in Search Agents",
+    "title_len": 71,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "公告类",
+      "code": "N",
+      "confidence": "low",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

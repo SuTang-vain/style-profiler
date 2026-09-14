@@ -1,0 +1,121 @@
+{
+  "file": "mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era.md",
+  "lang": "en",
+  "title": "mimalloc: A new, high-performance, scalable memory allocator for the modern era",
+  "cjk_chars": 0,
+  "word_count": 1769,
+  "reading_time_min": 6.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 81,
+    "avg_sentence_len": 22.0,
+    "median_sentence_len": 21,
+    "p90_sentence_len": 33,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 35,
+    "avg_paragraph_len": 51.0,
+    "median_paragraph_len": 46,
+    "p90_paragraph_len": 101,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 30,
+    "number_per_1k": 16.96,
+    "precise_numbers": 5,
+    "precise_per_1k": 2.83,
+    "year_anchors": 2,
+    "year_per_1k": 1.13,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 6.22,
+    "hedge_examples": [
+      {
+        "term": "initial",
+        "excerpt": "At the RiSE group at Microsoft Research (MSR) , we conduct fundamental research "
+      },
+      {
+        "term": "about",
+        "excerpt": "Despite this range, the codebase is still compact, at around 12K lines of C. Ref"
+      },
+      {
+        "term": "around",
+        "excerpt": "Despite this range, the codebase is still compact, at around 12K lines of C. Ref"
+      }
+    ],
+    "absolutist_hits": 3.96,
+    "absolutist_examples": [
+      {
+        "term": "critical",
+        "excerpt": "At a glance\nToday’s critical services and applications are often highly concurre"
+      },
+      {
+        "term": "fundamental",
+        "excerpt": "At the RiSE group at Microsoft Research (MSR) , we conduct fundamental research "
+      },
+      {
+        "term": "never",
+        "excerpt": "By using thread-local theaps, we need no atomic operations or thread synchroniza"
+      }
+    ],
+    "quantifier_hits": 9.61,
+    "first_person_count": 22,
+    "objective_selfref_count": 0,
+    "exclamations": 1,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.37,
+    "mattr": 0.674,
+    "top_terms": [
+      "mimalloc×28",
+      "memory×19",
+      "free×19",
+      "thread×17",
+      "allocator×13",
+      "page×13",
+      "list×12",
+      "threads×11",
+      "blocks×11",
+      "pages×10",
+      "data×9",
+      "atomic×9",
+      "allocation×8",
+      "null×8",
+      "freed×8"
+    ],
+    "en_char_ratio": null,
+    "title_text": "mimalloc: A new, high-performance, scalable memory allocator for the modern era",
+    "title_len": 79,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "工程类",
+      "code": "E",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

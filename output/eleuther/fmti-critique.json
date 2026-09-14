@@ -1,0 +1,121 @@
+{
+  "file": "fmti-critique.md",
+  "lang": "en",
+  "title": "How the Foundation Model Transparency Index Distorts Transparency",
+  "cjk_chars": 0,
+  "word_count": 4867,
+  "reading_time_min": 16.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 215,
+    "avg_sentence_len": 23.0,
+    "median_sentence_len": 21,
+    "p90_sentence_len": 43,
+    "question_sentences": 2
+  },
+  "paragraphs": {
+    "paragraph_count": 8,
+    "avg_paragraph_len": 617.6,
+    "median_paragraph_len": 12.5,
+    "p90_paragraph_len": 133,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 73,
+    "number_per_1k": 15.0,
+    "precise_numbers": 10,
+    "precise_per_1k": 2.05,
+    "year_anchors": 27,
+    "year_per_1k": 5.55,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 2,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 11.3,
+    "hedge_examples": [
+      {
+        "term": "according to",
+        "excerpt": "Stanford’s Center for Research on Foundation Models (CRFM) recently released a n"
+      },
+      {
+        "term": "may",
+        "excerpt": "Stanford’s Center for Research on Foundation Models (CRFM) recently released a n"
+      },
+      {
+        "term": "might",
+        "excerpt": "Stanford’s Center for Research on Foundation Models (CRFM) recently released a n"
+      }
+    ],
+    "absolutist_hits": 3.9,
+    "absolutist_examples": [
+      {
+        "term": "always",
+        "excerpt": "Stanford’s Center for Research on Foundation Models (CRFM) recently released a n"
+      },
+      {
+        "term": "never",
+        "excerpt": "Stanford’s Center for Research on Foundation Models (CRFM) recently released a n"
+      },
+      {
+        "term": "completely",
+        "excerpt": "Stanford’s Center for Research on Foundation Models (CRFM) recently released a n"
+      }
+    ],
+    "quantifier_hits": 5.14,
+    "first_person_count": 24,
+    "objective_selfref_count": 6,
+    "exclamations": 0,
+    "questions": 6,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.281,
+    "mattr": 0.67,
+    "top_terms": [
+      "transparency×87",
+      "index×33",
+      "fmti×32",
+      "authors×30",
+      "research×27",
+      "questions×22",
+      "bloom-z×20",
+      "foundation×17",
+      "data×16",
+      "score×14",
+      "things×14",
+      "paper×13",
+      "points×13",
+      "companies×12",
+      "work×10"
+    ],
+    "en_char_ratio": null,
+    "title_text": "How the Foundation Model Transparency Index Distorts Transparency",
+    "title_len": 65,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "分析评论类",
+      "code": "A",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

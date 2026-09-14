@@ -1,0 +1,121 @@
+{
+  "file": "the-case-for-targeted-regulation.md",
+  "lang": "en",
+  "title": "The case for targeted regulation",
+  "cjk_chars": 0,
+  "word_count": 2583,
+  "reading_time_min": 9.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 108,
+    "avg_sentence_len": 23.8,
+    "median_sentence_len": 22.5,
+    "p90_sentence_len": 39,
+    "question_sentences": 6
+  },
+  "paragraphs": {
+    "paragraph_count": 48,
+    "avg_paragraph_len": 53.6,
+    "median_paragraph_len": 37.5,
+    "p90_paragraph_len": 111,
+    "one_line_paragraphs": 2
+  },
+  "evidence": {
+    "number_tokens": 22,
+    "number_per_1k": 8.52,
+    "precise_numbers": 9,
+    "precise_per_1k": 3.48,
+    "year_anchors": 7,
+    "year_per_1k": 2.71,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 13.55,
+    "hedge_examples": [
+      {
+        "term": "might",
+        "excerpt": "Judicious, narrowly-targeted regulation can allow us to get the best of both wor"
+      },
+      {
+        "term": "suggest",
+        "excerpt": "In this post, we suggest some principles for how governments can meaningfully re"
+      },
+      {
+        "term": "we expect",
+        "excerpt": "In the realm of cyber capabilities, models have rapidly advanced on a broad rang"
+      }
+    ],
+    "absolutist_hits": 4.65,
+    "absolutist_examples": [
+      {
+        "term": "critical",
+        "excerpt": "Grappling with the catastrophic risks of AI systems is rife with uncertainty. We"
+      },
+      {
+        "term": "fundamental",
+        "excerpt": "Our Responsible Scaling Policy isn’t perfect, but as we’ve repeatedly deployed m"
+      },
+      {
+        "term": "must",
+        "excerpt": "Incentivizing better safety and security practices. Transparency alone does not "
+      }
+    ],
+    "quantifier_hits": 3.1,
+    "first_person_count": 50,
+    "objective_selfref_count": 3,
+    "exclamations": 0,
+    "questions": 6,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.342,
+    "mattr": 0.685,
+    "top_terms": [
+      "risks×29",
+      "regulation×27",
+      "safety×19",
+      "rsp×15",
+      "security×13",
+      "rsps×11",
+      "systems×10",
+      "companies×10",
+      "frontier×10",
+      "federal×9",
+      "case×8",
+      "policy×8",
+      "progress×8",
+      "catastrophic×8",
+      "them×8"
+    ],
+    "en_char_ratio": null,
+    "title_text": "The case for targeted regulation",
+    "title_len": 32,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "分析评论类",
+      "code": "A",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

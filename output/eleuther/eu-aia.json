@@ -1,0 +1,121 @@
+{
+  "file": "eu-aia.md",
+  "lang": "en",
+  "title": "EleutherAI's Thoughts on the EU AI Act",
+  "cjk_chars": 0,
+  "word_count": 783,
+  "reading_time_min": 3.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 23,
+    "avg_sentence_len": 34.7,
+    "median_sentence_len": 36,
+    "p90_sentence_len": 53,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 3,
+    "avg_paragraph_len": 265.7,
+    "median_paragraph_len": 15,
+    "p90_paragraph_len": 15,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 21,
+    "number_per_1k": 26.82,
+    "precise_numbers": 0,
+    "precise_per_1k": 0.0,
+    "year_anchors": 1,
+    "year_per_1k": 1.28,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 8.94,
+    "hedge_examples": [
+      {
+        "term": "about",
+        "excerpt": "In June, the European Parliament adopted its negotiating position on the EU AI, "
+      },
+      {
+        "term": "around",
+        "excerpt": "In June, the European Parliament adopted its negotiating position on the EU AI, "
+      },
+      {
+        "term": "we believe",
+        "excerpt": "In June, the European Parliament adopted its negotiating position on the EU AI, "
+      }
+    ],
+    "absolutist_hits": 5.11,
+    "absolutist_examples": [
+      {
+        "term": "must",
+        "excerpt": "In June, the European Parliament adopted its negotiating position on the EU AI, "
+      },
+      {
+        "term": "impossible",
+        "excerpt": "In June, the European Parliament adopted its negotiating position on the EU AI, "
+      },
+      {
+        "term": "everyone",
+        "excerpt": "In June, the European Parliament adopted its negotiating position on the EU AI, "
+      }
+    ],
+    "quantifier_hits": 6.39,
+    "first_person_count": 22,
+    "objective_selfref_count": 0,
+    "exclamations": 0,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.485,
+    "mattr": 0.691,
+    "top_terms": [
+      "open×9",
+      "text×7",
+      "parliament×6",
+      "source×6",
+      "act×5",
+      "research×5",
+      "like×4",
+      "eleutherai×4",
+      "train×4",
+      "checkpoints×4",
+      "position×3",
+      "intelligence×3",
+      "current×3",
+      "non-profit×3",
+      "released×3"
+    ],
+    "en_char_ratio": null,
+    "title_text": "EleutherAI's Thoughts on the EU AI Act",
+    "title_len": 38,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "政策类",
+      "code": "P",
+      "confidence": "low",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

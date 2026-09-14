@@ -1,0 +1,121 @@
+{
+  "file": "cerebras-at-neurips-2025-nine-papers-from-pretraining-to-inference.md",
+  "lang": "en",
+  "title": "Cerebras at NeurIPS 2025: Nine Papers From Pretraining to Inference",
+  "cjk_chars": 0,
+  "word_count": 1716,
+  "reading_time_min": 6.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 95,
+    "avg_sentence_len": 18.3,
+    "median_sentence_len": 15,
+    "p90_sentence_len": 34,
+    "question_sentences": 3
+  },
+  "paragraphs": {
+    "paragraph_count": 66,
+    "avg_paragraph_len": 26.3,
+    "median_paragraph_len": 19.5,
+    "p90_paragraph_len": 62,
+    "one_line_paragraphs": 0
+  },
+  "evidence": {
+    "number_tokens": 55,
+    "number_per_1k": 32.05,
+    "precise_numbers": 10,
+    "precise_per_1k": 5.83,
+    "year_anchors": 5,
+    "year_per_1k": 2.91,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 4.66,
+    "hedge_examples": [
+      {
+        "term": "could",
+        "excerpt": "Verification is the bottleneck. There's a consistent gap between CODA's final ac"
+      },
+      {
+        "term": "suggest",
+        "excerpt": "Verification is the bottleneck. There's a consistent gap between CODA's final ac"
+      },
+      {
+        "term": "toward",
+        "excerpt": "When scaling reasoning models at test time, practitioners face a frustrating bot"
+      }
+    ],
+    "absolutist_hits": 3.5,
+    "absolutist_examples": [
+      {
+        "term": "completely",
+        "excerpt": "Catches failure modes voting can't. When both candidate solutions are identicall"
+      },
+      {
+        "term": "critical",
+        "excerpt": "Speculative decoding has become a go-to technique for accelerating text-only LLM"
+      },
+      {
+        "term": "critical",
+        "excerpt": "Optimal and critical batch sizes scale with data, not compute. Both the loss-min"
+      }
+    ],
+    "quantifier_hits": 4.08,
+    "first_person_count": 5,
+    "objective_selfref_count": 4,
+    "exclamations": 0,
+    "questions": 3,
+    "emoji": 9
+  },
+  "diction": {
+    "ttr": 0.427,
+    "mattr": 0.739,
+    "top_terms": [
+      "size×15",
+      "scaling×12",
+      "training×11",
+      "reasoning×11",
+      "laws×11",
+      "paper×11",
+      "batch×11",
+      "compute×10",
+      "key×8",
+      "learning×8",
+      "optimal×8",
+      "inference×7",
+      "weight×7",
+      "tokens×7",
+      "findings×7"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Cerebras at NeurIPS 2025: Nine Papers From Pretraining to Inference",
+    "title_len": 67,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "研究类",
+      "code": "R",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

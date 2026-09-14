@@ -1,0 +1,121 @@
+{
+  "file": "benchmarking-domain-intelligence.md",
+  "lang": "en",
+  "title": "Benchmarking Domain Intelligence",
+  "cjk_chars": 0,
+  "word_count": 3366,
+  "reading_time_min": 11.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 155,
+    "avg_sentence_len": 22.1,
+    "median_sentence_len": 20,
+    "p90_sentence_len": 33,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 75,
+    "avg_paragraph_len": 45.7,
+    "median_paragraph_len": 39,
+    "p90_paragraph_len": 96,
+    "one_line_paragraphs": 1
+  },
+  "evidence": {
+    "number_tokens": 120,
+    "number_per_1k": 35.65,
+    "precise_numbers": 43,
+    "precise_per_1k": 12.77,
+    "year_anchors": 0,
+    "year_per_1k": 0.0,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 9.51,
+    "hedge_examples": [
+      {
+        "term": "about",
+        "excerpt": "Large language models are improving rapidly; to date, this improvement has large"
+      },
+      {
+        "term": "may",
+        "excerpt": "Therefore, enterprise practitioners deploying AI in real-world settings need eva"
+      },
+      {
+        "term": "possibly",
+        "excerpt": "Therefore, enterprise practitioners deploying AI in real-world settings need eva"
+      }
+    ],
+    "absolutist_hits": 0.89,
+    "absolutist_examples": [
+      {
+        "term": "must",
+        "excerpt": "RAG makes it possible for LLMs to interact with proprietary documents, augmentin"
+      },
+      {
+        "term": "critical",
+        "excerpt": "RAG makes it possible for LLMs to interact with proprietary documents, augmentin"
+      },
+      {
+        "term": "must",
+        "excerpt": "While the differences between industry and academic datasets are nuanced, their "
+      }
+    ],
+    "quantifier_hits": 8.32,
+    "first_person_count": 65,
+    "objective_selfref_count": 0,
+    "exclamations": 1,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.292,
+    "mattr": 0.668,
+    "top_terms": [
+      "enterprise×39",
+      "academic×35",
+      "rag×33",
+      "function×31",
+      "data×28",
+      "calling×27",
+      "benchmarks×24",
+      "tasks×23",
+      "benchmark×19",
+      "llama×19",
+      "performance×17",
+      "json×17",
+      "figure×17",
+      "domain×15",
+      "databricks×15"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Benchmarking Domain Intelligence",
+    "title_len": 32,
+    "title_has_colon": false
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "研究类",
+      "code": "R",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}

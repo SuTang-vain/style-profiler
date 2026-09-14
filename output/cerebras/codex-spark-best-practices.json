@@ -1,0 +1,121 @@
+{
+  "file": "codex-spark-best-practices.md",
+  "lang": "en",
+  "title": "Stop Shipping AI Slop: How Codex Spark Changes The Way You Code",
+  "cjk_chars": 0,
+  "word_count": 1959,
+  "reading_time_min": 7.0,
+  "structure": {
+    "h2_count": 0,
+    "h3_count": 0,
+    "numbered_headings": 0,
+    "code_blocks": 0,
+    "tables": 0,
+    "images": 0,
+    "has_toc": false
+  },
+  "sentences": {
+    "sentence_count": 118,
+    "avg_sentence_len": 16.8,
+    "median_sentence_len": 16.0,
+    "p90_sentence_len": 29,
+    "question_sentences": 0
+  },
+  "paragraphs": {
+    "paragraph_count": 107,
+    "avg_paragraph_len": 18.6,
+    "median_paragraph_len": 13,
+    "p90_paragraph_len": 40,
+    "one_line_paragraphs": 6
+  },
+  "evidence": {
+    "number_tokens": 45,
+    "number_per_1k": 22.97,
+    "precise_numbers": 9,
+    "precise_per_1k": 4.59,
+    "year_anchors": 1,
+    "year_per_1k": 0.51,
+    "external_links": 0,
+    "links_per_1k": 0.0,
+    "citation_marks": 0,
+    "reference_entries": 0
+  },
+  "stance": {
+    "hedge_hits": 5.62,
+    "hedge_examples": [
+      {
+        "term": "early",
+        "excerpt": "With slower models, developers commit to an implementation path early because ex"
+      },
+      {
+        "term": "might",
+        "excerpt": "Without Codex Spark we might prompt: “Please implement a sidebar for Navigation "
+      },
+      {
+        "term": "about",
+        "excerpt": "Without Codex Spark we might prompt: “Please implement a sidebar for Navigation "
+      }
+    ],
+    "absolutist_hits": 2.04,
+    "absolutist_examples": [
+      {
+        "term": "must",
+        "excerpt": "In general, models produce their sharpest, most deterministic outputs when opera"
+      },
+      {
+        "term": "entirely",
+        "excerpt": "In general, models produce their sharpest, most deterministic outputs when opera"
+      },
+      {
+        "term": "never",
+        "excerpt": "/new — Use this whenever you successfully complete a task."
+      }
+    ],
+    "quantifier_hits": 8.17,
+    "first_person_count": 7,
+    "objective_selfref_count": 1,
+    "exclamations": 1,
+    "questions": 0,
+    "emoji": 0
+  },
+  "diction": {
+    "ttr": 0.392,
+    "mattr": 0.742,
+    "top_terms": [
+      "spark×39",
+      "codex×25",
+      "context×13",
+      "without×10",
+      "code×9",
+      "work×9",
+      "tip×9",
+      "changes×8",
+      "fast×8",
+      "run×8",
+      "documentation×8",
+      "running×7",
+      "sessions×7",
+      "because×7",
+      "tests×7"
+    ],
+    "en_char_ratio": null,
+    "title_text": "Stop Shipping AI Slop: How Codex Spark Changes The Way You Code",
+    "title_len": 63,
+    "title_has_colon": true
+  },
+  "genre": {
+    "genre": "blog_or_exploration",
+    "scores": {
+      "报告体": 0,
+      "期刊体": 0,
+      "行业分析": 0
+    },
+    "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）",
+    "unified": {
+      "genre": "指南类",
+      "code": "G",
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)"
+    }
+  }
+}
