@@ -49,7 +49,7 @@ kezhongke playbook 的 §0.2 处方走廊在自有英文统计层建立后退休
 2. LLM 路由 passe：8 库全部文章按统一分类法打标（英文 60 篇 + kezhongke 24 篇），产出 per-article genre + confidence + evidence，低置信人工裁决；回填 output JSON ✅ 2026-09-14（llm-routing-v1，93 篇全量回填 genre.unified）
 3. aggregate 两层输出实现（profiler.py 或独立脚本）+ 回归测试（合成 fixture：体裁构成偏斜时 inst 不被绑架）✅ 2026-09-14（aggregate_two_level.py；tests/test_two_level.py 6 项）
 4. discriminate.py 体裁对体裁改造 + FDR 重跑 ✅ 2026-09-14（族=体裁格分列 + 指纹族独立；旧口径留对照节；tests/test_discriminate.py 6 项）。重跑结论：7 库旧指纹新口径下均未过 FDR，openai 第一人称高确认为构成污染典型，eleuther MATTR 低方向最稳健（扩容后优先复验）
-5. playbook 改造（先 kezhongke 试点，再推他库）✅ kezhongke 试点 2026-09-14（templates/genre-playbook-kezhongke.md §4 两层化；改造模板沉淀 docs/playbook-two-level-template.md）。他库推广待办：按模板逐库套用
+5. playbook 改造（先 kezhongke 试点，再推他库）✅ kezhongke 试点 2026-09-14（templates/genre-playbook-kezhongke.md §4 两层化；改造模板沉淀 docs/playbook-two-level-template.md）。他库推广 ✅ 2026-09-14 七库全部完成（swarm 并行，各库 §3 两层化：机构层预算+分体裁 delta+旧口径留痕三节式；数值全部脚本回核 two_level JSON）。各库形态：anthropic E/G/R 三格（人称体裁极性 E16/G29/R83）；cerebras A/N 两格（设问 A3/N0 极性）；databricks N/R 两格（人称极性 N28/R15.5）；eleuther 单格出值库（仅 R n=8，signature_candidates 空，全部判定"单格出值·暂按机构层"，为模板四档之外的单格处置样例）；google-research R/N 两格（年份锚点唯一强极性）；microsoft-research N/R 两格（克制比极性 N≈11:1 vs R≈3.5:1，第一人称确认为机构不变量）；openai E/R 两格（人称 delta ±1.8 证伪旧四子体裁分档，克制比 R8.3:1/E2.6:1 方向分裂）
 6. 验证：用两层模型重跑一次盲测（分析体裁题材），对照 _p2 分析报告的病灶是否消除
 
 ## 六、风险
