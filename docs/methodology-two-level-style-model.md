@@ -45,11 +45,11 @@ kezhongke playbook 的 §0.2 处方走廊在自有英文统计层建立后退休
 
 ## 五、实施顺序与验证
 
-1. 体裁分类法裁决（本文档配套 docs/genre-taxonomy-v0.md，4 项待裁决）
-2. LLM 路由 passe：8 库全部文章按统一分类法打标（英文 60 篇 + kezhongke 24 篇），产出 per-article genre + confidence + evidence，低置信人工裁决；回填 output JSON
-3. aggregate 两层输出实现（profiler.py 或独立脚本）+ 回归测试（合成 fixture：体裁构成偏斜时 inst 不被绑架）
-4. discriminate.py 体裁对体裁改造 + FDR 重跑
-5. playbook 改造（先 kezhongke 试点，再推他库）
+1. 体裁分类法裁决（本文档配套 docs/genre-taxonomy-v0.md，4 项待裁决）✅ 2026-09-14 定案（见该文档 §四裁决记录）
+2. LLM 路由 passe：8 库全部文章按统一分类法打标（英文 60 篇 + kezhongke 24 篇），产出 per-article genre + confidence + evidence，低置信人工裁决；回填 output JSON ✅ 2026-09-14（llm-routing-v1，93 篇全量回填 genre.unified）
+3. aggregate 两层输出实现（profiler.py 或独立脚本）+ 回归测试（合成 fixture：体裁构成偏斜时 inst 不被绑架）✅ 2026-09-14（aggregate_two_level.py；tests/test_two_level.py 6 项）
+4. discriminate.py 体裁对体裁改造 + FDR 重跑 ✅ 2026-09-14（族=体裁格分列 + 指纹族独立；旧口径留对照节；tests/test_discriminate.py 6 项）。重跑结论：7 库旧指纹新口径下均未过 FDR，openai 第一人称高确认为构成污染典型，eleuther MATTR 低方向最稳健（扩容后优先复验）
+5. playbook 改造（先 kezhongke 试点，再推他库）✅ kezhongke 试点 2026-09-14（templates/genre-playbook-kezhongke.md §4 两层化；改造模板沉淀 docs/playbook-two-level-template.md）。他库推广待办：按模板逐库套用
 6. 验证：用两层模型重跑一次盲测（分析体裁题材），对照 _p2 分析报告的病灶是否消除
 
 ## 六、风险
