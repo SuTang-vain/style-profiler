@@ -162,5 +162,293 @@
    "timesfm-3-a-zero-shot-foundation-model-for-multivariate-forecasting.md",
    "transfer-learning-for-genomic-prediction-in-underrepresented-populations.md"
   ]
+ },
+ "two_level": {
+  "method": "two-level-v1（genre.unified.code 分格；格内中位→体裁中位的中位；n<3 缺席）",
+  "n_articles": 10,
+  "skipped_no_unified": 0,
+  "skipped_files": [],
+  "cells": {
+   "N": {
+    "genre": "公告类",
+    "n": 3,
+    "metrics": {
+     "cjk_chars": 0,
+     "word_count": 1262,
+     "reading_time_min": 4.0,
+     "avg_sentence_len": 22.6,
+     "p90_sentence_len": 35,
+     "avg_paragraph_len": 44.0,
+     "number_per_1k": 17.55,
+     "precise_per_1k": 5.14,
+     "year_per_1k": 2.38,
+     "links_per_1k": 0.0,
+     "reference_entries": 0,
+     "citation_marks": 0,
+     "hedge_hits": 5.45,
+     "absolutist_hits": 1.58,
+     "quantifier_hits": 7.13,
+     "first_person_count": 15,
+     "objective_selfref_count": 1,
+     "exclamations": 0,
+     "questions": 0,
+     "ttr": 0.4,
+     "mattr": 0.67
+    }
+   },
+   "R": {
+    "genre": "研究类",
+    "n": 7,
+    "metrics": {
+     "cjk_chars": 0,
+     "word_count": 1497,
+     "reading_time_min": 5.0,
+     "avg_sentence_len": 23.1,
+     "p90_sentence_len": 35,
+     "avg_paragraph_len": 39.5,
+     "number_per_1k": 21.86,
+     "precise_per_1k": 7.48,
+     "year_per_1k": 0.67,
+     "links_per_1k": 0.0,
+     "reference_entries": 0,
+     "citation_marks": 0,
+     "hedge_hits": 4.19,
+     "absolutist_hits": 1.24,
+     "quantifier_hits": 6.01,
+     "first_person_count": 20,
+     "objective_selfref_count": 1,
+     "exclamations": 0,
+     "questions": 1,
+     "ttr": 0.43,
+     "mattr": 0.73
+    }
+   }
+  },
+  "institution": {
+   "absolutist_hits": 1.41,
+   "avg_paragraph_len": 41.75,
+   "avg_sentence_len": 22.85,
+   "citation_marks": 0.0,
+   "cjk_chars": 0.0,
+   "exclamations": 0.0,
+   "first_person_count": 17.5,
+   "hedge_hits": 4.82,
+   "links_per_1k": 0.0,
+   "mattr": 0.7,
+   "number_per_1k": 19.7,
+   "objective_selfref_count": 1.0,
+   "p90_sentence_len": 35.0,
+   "precise_per_1k": 6.31,
+   "quantifier_hits": 6.57,
+   "questions": 0.5,
+   "reading_time_min": 4.5,
+   "reference_entries": 0.0,
+   "ttr": 0.42,
+   "word_count": 1379.5,
+   "year_per_1k": 1.52
+  },
+  "dispersion": {
+   "absolutist_hits": {
+    "range": 0.34,
+    "iqr": 0.34,
+    "n_cells": 2
+   },
+   "avg_paragraph_len": {
+    "range": 4.5,
+    "iqr": 4.5,
+    "n_cells": 2
+   },
+   "avg_sentence_len": {
+    "range": 0.5,
+    "iqr": 0.5,
+    "n_cells": 2
+   },
+   "citation_marks": {
+    "range": 0,
+    "iqr": 0,
+    "n_cells": 2
+   },
+   "cjk_chars": {
+    "range": 0,
+    "iqr": 0,
+    "n_cells": 2
+   },
+   "exclamations": {
+    "range": 0,
+    "iqr": 0,
+    "n_cells": 2
+   },
+   "first_person_count": {
+    "range": 5,
+    "iqr": 5,
+    "n_cells": 2
+   },
+   "hedge_hits": {
+    "range": 1.26,
+    "iqr": 1.26,
+    "n_cells": 2
+   },
+   "links_per_1k": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 2
+   },
+   "mattr": {
+    "range": 0.06,
+    "iqr": 0.06,
+    "n_cells": 2
+   },
+   "number_per_1k": {
+    "range": 4.31,
+    "iqr": 4.31,
+    "n_cells": 2
+   },
+   "objective_selfref_count": {
+    "range": 0,
+    "iqr": 0,
+    "n_cells": 2
+   },
+   "p90_sentence_len": {
+    "range": 0,
+    "iqr": 0,
+    "n_cells": 2
+   },
+   "precise_per_1k": {
+    "range": 2.34,
+    "iqr": 2.34,
+    "n_cells": 2
+   },
+   "quantifier_hits": {
+    "range": 1.12,
+    "iqr": 1.12,
+    "n_cells": 2
+   },
+   "questions": {
+    "range": 1,
+    "iqr": 1,
+    "n_cells": 2
+   },
+   "reading_time_min": {
+    "range": 1.0,
+    "iqr": 1.0,
+    "n_cells": 2
+   },
+   "reference_entries": {
+    "range": 0,
+    "iqr": 0,
+    "n_cells": 2
+   },
+   "ttr": {
+    "range": 0.03,
+    "iqr": 0.03,
+    "n_cells": 2
+   },
+   "word_count": {
+    "range": 235,
+    "iqr": 235,
+    "n_cells": 2
+   },
+   "year_per_1k": {
+    "range": 1.71,
+    "iqr": 1.71,
+    "n_cells": 2
+   }
+  },
+  "corpus_naive_median": {
+   "cjk_chars": 0.0,
+   "word_count": 1462.0,
+   "reading_time_min": 5.0,
+   "avg_sentence_len": 22.85,
+   "p90_sentence_len": 35.0,
+   "avg_paragraph_len": 40.65,
+   "number_per_1k": 19.7,
+   "precise_per_1k": 5.59,
+   "year_per_1k": 0.96,
+   "links_per_1k": 0.0,
+   "reference_entries": 0.0,
+   "citation_marks": 0.0,
+   "hedge_hits": 4.44,
+   "absolutist_hits": 1.41,
+   "quantifier_hits": 6.41,
+   "first_person_count": 19.5,
+   "objective_selfref_count": 1.0,
+   "exclamations": 0.0,
+   "questions": 0.0,
+   "ttr": 0.42,
+   "mattr": 0.73
+  },
+  "signature_candidates": {
+   "criterion": "within_lib_range < cross_institution_range / 2，且本库出值格 ≥2（methodology §一 起点阈值，实施后校准）",
+   "metrics": {
+    "absolutist_hits": {
+     "within_lib_range": 0.34,
+     "cross_institution_range": 1.36
+    },
+    "avg_paragraph_len": {
+     "within_lib_range": 4.5,
+     "cross_institution_range": 23.95
+    },
+    "avg_sentence_len": {
+     "within_lib_range": 0.5,
+     "cross_institution_range": 15.5
+    },
+    "cjk_chars": {
+     "within_lib_range": 0,
+     "cross_institution_range": 3879
+    },
+    "exclamations": {
+     "within_lib_range": 0,
+     "cross_institution_range": 0.5
+    },
+    "first_person_count": {
+     "within_lib_range": 5,
+     "cross_institution_range": 54.5
+    },
+    "hedge_hits": {
+     "within_lib_range": 1.26,
+     "cross_institution_range": 9.99
+    },
+    "number_per_1k": {
+     "within_lib_range": 4.31,
+     "cross_institution_range": 39.42
+    },
+    "objective_selfref_count": {
+     "within_lib_range": 0,
+     "cross_institution_range": 2.0
+    },
+    "p90_sentence_len": {
+     "within_lib_range": 0,
+     "cross_institution_range": 29.0
+    },
+    "precise_per_1k": {
+     "within_lib_range": 2.34,
+     "cross_institution_range": 12.24
+    },
+    "quantifier_hits": {
+     "within_lib_range": 1.12,
+     "cross_institution_range": 7.54
+    },
+    "questions": {
+     "within_lib_range": 1,
+     "cross_institution_range": 5.0
+    },
+    "reading_time_min": {
+     "within_lib_range": 1.0,
+     "cross_institution_range": 9.0
+    },
+    "reference_entries": {
+     "within_lib_range": 0,
+     "cross_institution_range": 7
+    },
+    "ttr": {
+     "within_lib_range": 0.03,
+     "cross_institution_range": 0.2
+    },
+    "word_count": {
+     "within_lib_range": 235,
+     "cross_institution_range": 2779.75
+    }
+   }
+  }
  }
 }

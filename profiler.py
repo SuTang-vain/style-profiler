@@ -383,20 +383,24 @@ def analyze(path: Path, genre_map=None):
     return res
 
 
+# 聚合指标集（模块级：aggregate() 与 aggregate_two_level.py 共用同一口径）
+AGGREGATE_KEYS = [
+    ("cjk_chars",), ("word_count",), ("reading_time_min",),
+    ("avg_sentence_len", "sentences"), ("p90_sentence_len", "sentences"),
+    ("avg_paragraph_len", "paragraphs"),
+    ("number_per_1k", "evidence"), ("precise_per_1k", "evidence"),
+    ("year_per_1k", "evidence"), ("links_per_1k", "evidence"),
+    ("reference_entries", "evidence"), ("citation_marks", "evidence"),
+    ("hedge_hits", "stance"), ("absolutist_hits", "stance"), ("quantifier_hits", "stance"),
+    ("first_person_count", "stance"), ("objective_selfref_count", "stance"),
+    ("exclamations", "stance"), ("questions", "stance"),
+    ("ttr", "diction"), ("mattr", "diction"), ("en_char_ratio", "diction"),
+]
+
+
 def aggregate(results):
     """语料级基线：数值指标取中位数 + 四分位（防均值被单篇长文拉偏）。"""
-    keys = [
-        ("cjk_chars",), ("word_count",), ("reading_time_min",),
-        ("avg_sentence_len", "sentences"), ("p90_sentence_len", "sentences"),
-        ("avg_paragraph_len", "paragraphs"),
-        ("number_per_1k", "evidence"), ("precise_per_1k", "evidence"),
-        ("year_per_1k", "evidence"), ("links_per_1k", "evidence"),
-        ("reference_entries", "evidence"), ("citation_marks", "evidence"),
-        ("hedge_hits", "stance"), ("absolutist_hits", "stance"), ("quantifier_hits", "stance"),
-        ("first_person_count", "stance"), ("objective_selfref_count", "stance"),
-        ("exclamations", "stance"), ("questions", "stance"),
-        ("ttr", "diction"), ("mattr", "diction"), ("en_char_ratio", "diction"),
-    ]
+    keys = AGGREGATE_KEYS
     def val(r, key, grp):
         try:
             v = r[grp][key] if grp else r[key]

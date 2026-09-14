@@ -162,5 +162,197 @@
    "reward-hacking-indicators.md",
    "tyche-poser-comparison.md"
   ]
+ },
+ "two_level": {
+  "method": "two-level-v1（genre.unified.code 分格；格内中位→体裁中位的中位；n<3 缺席）",
+  "n_articles": 10,
+  "skipped_no_unified": 0,
+  "skipped_files": [],
+  "cells": {
+   "R": {
+    "genre": "研究类",
+    "n": 8,
+    "metrics": {
+     "cjk_chars": 0.0,
+     "word_count": 2771.5,
+     "reading_time_min": 9.0,
+     "avg_sentence_len": 25.25,
+     "p90_sentence_len": 42.5,
+     "avg_paragraph_len": 49.7,
+     "number_per_1k": 48.22,
+     "precise_per_1k": 14.53,
+     "year_per_1k": 1.01,
+     "links_per_1k": 0.0,
+     "reference_entries": 0.0,
+     "citation_marks": 0.0,
+     "hedge_hits": 10.61,
+     "absolutist_hits": 1.27,
+     "quantifier_hits": 6.31,
+     "first_person_count": 61.5,
+     "objective_selfref_count": 0.5,
+     "exclamations": 0.0,
+     "questions": 1.0,
+     "ttr": 0.26,
+     "mattr": 0.62
+    }
+   }
+  },
+  "institution": {
+   "absolutist_hits": 1.27,
+   "avg_paragraph_len": 49.7,
+   "avg_sentence_len": 25.25,
+   "citation_marks": 0.0,
+   "cjk_chars": 0.0,
+   "exclamations": 0.0,
+   "first_person_count": 61.5,
+   "hedge_hits": 10.61,
+   "links_per_1k": 0.0,
+   "mattr": 0.62,
+   "number_per_1k": 48.22,
+   "objective_selfref_count": 0.5,
+   "p90_sentence_len": 42.5,
+   "precise_per_1k": 14.53,
+   "quantifier_hits": 6.31,
+   "questions": 1.0,
+   "reading_time_min": 9.0,
+   "reference_entries": 0.0,
+   "ttr": 0.26,
+   "word_count": 2771.5,
+   "year_per_1k": 1.01
+  },
+  "dispersion": {
+   "absolutist_hits": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "avg_paragraph_len": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "avg_sentence_len": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "citation_marks": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "cjk_chars": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "exclamations": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "first_person_count": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "hedge_hits": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "links_per_1k": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "mattr": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "number_per_1k": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "objective_selfref_count": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "p90_sentence_len": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "precise_per_1k": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "quantifier_hits": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "questions": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "reading_time_min": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "reference_entries": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "ttr": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "word_count": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   },
+   "year_per_1k": {
+    "range": 0.0,
+    "iqr": 0.0,
+    "n_cells": 1
+   }
+  },
+  "corpus_naive_median": {
+   "cjk_chars": 0.0,
+   "word_count": 2771.5,
+   "reading_time_min": 9.0,
+   "avg_sentence_len": 25.7,
+   "p90_sentence_len": 44.5,
+   "avg_paragraph_len": 52.5,
+   "number_per_1k": 44.1,
+   "precise_per_1k": 14.1,
+   "year_per_1k": 1.18,
+   "links_per_1k": 0.0,
+   "reference_entries": 0.0,
+   "citation_marks": 0.0,
+   "hedge_hits": 10.61,
+   "absolutist_hits": 1.2,
+   "quantifier_hits": 6.17,
+   "first_person_count": 61.5,
+   "objective_selfref_count": 1.5,
+   "exclamations": 0.0,
+   "questions": 1.0,
+   "ttr": 0.26,
+   "mattr": 0.65
+  },
+  "signature_candidates": {
+   "criterion": "within_lib_range < cross_institution_range / 2，且本库出值格 ≥2（methodology §一 起点阈值，实施后校准）",
+   "metrics": {}
+  }
  }
 }
