@@ -1,0 +1,115 @@
+{
+ "file": "draft-v4-a-genre.md",
+ "lang": "en",
+ "title": "The Evaluation Industry Is Replaying the History of Credit Rating Agencies",
+ "cjk_chars": 0,
+ "word_count": 3102,
+ "reading_time_min": 10.0,
+ "structure": {
+  "h2_count": 8,
+  "h3_count": 0,
+  "numbered_headings": 0,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 144,
+  "avg_sentence_len": 22.1,
+  "median_sentence_len": 21.0,
+  "p90_sentence_len": 34,
+  "question_sentences": 3
+ },
+ "paragraphs": {
+  "paragraph_count": 64,
+  "avg_paragraph_len": 49.7,
+  "median_paragraph_len": 55.0,
+  "p90_paragraph_len": 82,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 39,
+  "number_per_1k": 12.57,
+  "precise_numbers": 1,
+  "precise_per_1k": 0.32,
+  "year_anchors": 13,
+  "year_per_1k": 4.19,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 0
+ },
+ "stance": {
+  "hedge_hits": 11.93,
+  "hedge_examples": [
+   {
+    "term": "could",
+    "excerpt": "In April 2007, an analyst at Standard & Poor's wrote in an internal email that l"
+   },
+   {
+    "term": "reportedly",
+    "excerpt": "In the spring of 2025, third-party researchers examining the most-watched AI lea"
+   },
+   {
+    "term": "about",
+    "excerpt": "In the spring of 2025, third-party researchers examining the most-watched AI lea"
+   }
+  ],
+  "absolutist_hits": 2.26,
+  "absolutist_examples": [
+   {
+    "term": "never",
+    "excerpt": "Rating shopping works, and we should be honest about why: the lab wants a grade "
+   },
+   {
+    "term": "never",
+    "excerpt": "After the crisis, Dodd-Frank tightened disclosure, created an Office of Credit R"
+   },
+   {
+    "term": "essential",
+    "excerpt": "The evaluation industry sits where the agencies sat two decades before their col"
+   }
+  ],
+  "quantifier_hits": 10.64,
+  "first_person_count": 39,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 3,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.314,
+  "mattr": 0.713,
+  "top_terms": [
+   "grade×27",
+   "agencies×20",
+   "grades×19",
+   "graded×15",
+   "benchmark×12",
+   "rating×11",
+   "money×11",
+   "evaluation×10",
+   "market×10",
+   "labs×10",
+   "first×10",
+   "private×10",
+   "before×10",
+   "industry×9",
+   "later×9"
+  ],
+  "en_char_ratio": null,
+  "title_text": "The Evaluation Industry Is Replaying the History of Credit Rating Agencies",
+  "title_len": 74,
+  "title_has_colon": false
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}
