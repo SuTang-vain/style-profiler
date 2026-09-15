@@ -1,0 +1,115 @@
+{
+ "file": "article-eval-power-v1.md",
+ "lang": "en",
+ "title": "Evaluation Is Power: The Business, the Science, and the Law of Judging AI",
+ "cjk_chars": 0,
+ "word_count": 3009,
+ "reading_time_min": 10.0,
+ "structure": {
+  "h2_count": 11,
+  "h3_count": 0,
+  "numbered_headings": 5,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 146,
+  "avg_sentence_len": 21.2,
+  "median_sentence_len": 22.0,
+  "p90_sentence_len": 32,
+  "question_sentences": 3
+ },
+ "paragraphs": {
+  "paragraph_count": 78,
+  "avg_paragraph_len": 39.6,
+  "median_paragraph_len": 42.0,
+  "p90_paragraph_len": 66,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 40,
+  "number_per_1k": 13.29,
+  "precise_numbers": 4,
+  "precise_per_1k": 1.33,
+  "year_anchors": 3,
+  "year_per_1k": 1.0,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 10
+ },
+ "stance": {
+  "hedge_hits": 9.31,
+  "hedge_examples": [
+   {
+    "term": "roughly",
+    "excerpt": "In April 2025, a 68-page paper landed in the AI world with an uncomfortable clai"
+   },
+   {
+    "term": "about",
+    "excerpt": "In April 2025, a 68-page paper landed in the AI world with an uncomfortable clai"
+   },
+   {
+    "term": "reportedly",
+    "excerpt": "The accused platform did not collapse: it reportedly raised a nine-figure seed r"
+   }
+  ],
+  "absolutist_hits": 2.33,
+  "absolutist_examples": [
+   {
+    "term": "no one",
+    "excerpt": "Here we should be careful about what this does and does not imply: a vendor paid"
+   },
+   {
+    "term": "never",
+    "excerpt": "A July review by the EvalSafetyGap project relays one statistic worth reading tw"
+   },
+   {
+    "term": "always",
+    "excerpt": "A legal duty also changes who the buyer is. When evaluation is voluntary, the bu"
+   }
+  ],
+  "quantifier_hits": 7.31,
+  "first_person_count": 44,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 3,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.335,
+  "mattr": 0.72,
+  "top_terms": [
+   "leaderboard×20",
+   "public×15",
+   "evaluation×14",
+   "authority×14",
+   "measurement×13",
+   "because×13",
+   "labs×12",
+   "arena×10",
+   "private×10",
+   "question×10",
+   "april×9",
+   "scores×9",
+   "benchmark×9",
+   "benchmarks×8",
+   "numbers×8"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Evaluation Is Power: The Business, the Science, and the Law of Judging AI",
+  "title_len": 73,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}
