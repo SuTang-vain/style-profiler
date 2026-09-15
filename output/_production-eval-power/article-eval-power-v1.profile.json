@@ -3,7 +3,7 @@
  "lang": "en",
  "title": "Evaluation Is Power: The Business, the Science, and the Law of Judging AI",
  "cjk_chars": 0,
- "word_count": 3009,
+ "word_count": 2966,
  "reading_time_min": 10.0,
  "structure": {
   "h2_count": 11,
@@ -16,32 +16,32 @@
  },
  "sentences": {
   "sentence_count": 146,
-  "avg_sentence_len": 21.2,
+  "avg_sentence_len": 20.9,
   "median_sentence_len": 22.0,
-  "p90_sentence_len": 32,
+  "p90_sentence_len": 31,
   "question_sentences": 3
  },
  "paragraphs": {
-  "paragraph_count": 78,
-  "avg_paragraph_len": 39.6,
-  "median_paragraph_len": 42.0,
-  "p90_paragraph_len": 66,
-  "one_line_paragraphs": 0
+  "paragraph_count": 81,
+  "avg_paragraph_len": 37.8,
+  "median_paragraph_len": 40,
+  "p90_paragraph_len": 58,
+  "one_line_paragraphs": 1
  },
  "evidence": {
-  "number_tokens": 40,
-  "number_per_1k": 13.29,
+  "number_tokens": 50,
+  "number_per_1k": 16.86,
   "precise_numbers": 4,
-  "precise_per_1k": 1.33,
-  "year_anchors": 3,
-  "year_per_1k": 1.0,
+  "precise_per_1k": 1.35,
+  "year_anchors": 7,
+  "year_per_1k": 2.36,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 10
  },
  "stance": {
-  "hedge_hits": 9.31,
+  "hedge_hits": 9.1,
   "hedge_examples": [
    {
     "term": "roughly",
@@ -56,7 +56,7 @@
     "excerpt": "The accused platform did not collapse: it reportedly raised a nine-figure seed r"
    }
   ],
-  "absolutist_hits": 2.33,
+  "absolutist_hits": 2.36,
   "absolutist_examples": [
    {
     "term": "no one",
@@ -71,8 +71,8 @@
     "excerpt": "A legal duty also changes who the buyer is. When evaluation is voluntary, the bu"
    }
   ],
-  "quantifier_hits": 7.31,
-  "first_person_count": 44,
+  "quantifier_hits": 6.74,
+  "first_person_count": 41,
   "objective_selfref_count": 2,
   "exclamations": 0,
   "questions": 3,
@@ -80,23 +80,23 @@
  },
  "diction": {
   "ttr": 0.335,
-  "mattr": 0.72,
+  "mattr": 0.718,
   "top_terms": [
    "leaderboard×20",
-   "public×15",
    "evaluation×14",
-   "authority×14",
-   "measurement×13",
-   "because×13",
-   "labs×12",
+   "public×14",
+   "measurement×14",
+   "authority×13",
+   "because×12",
+   "labs×11",
+   "private×11",
    "arena×10",
-   "private×10",
    "question×10",
    "april×9",
    "scores×9",
    "benchmark×9",
-   "benchmarks×8",
-   "numbers×8"
+   "itself×8",
+   "benchmarks×8"
   ],
   "en_char_ratio": null,
   "title_text": "Evaluation Is Power: The Business, the Science, and the Law of Judging AI",

@@ -4,7 +4,7 @@ In April 2025, a 68-page paper landed in the AI world with an uncomfortable clai
 
 Some of the largest labs, the authors argued, had been allowed to test many unreleased variants in private and to publish only the one that scored best. The leaderboard the public saw was, in part, a highlight reel.
 
-The accused platform did not collapse: it reportedly raised a nine-figure seed round last year, and this January it reportedly announced a Series A at a billion-dollar valuation and renamed itself Arena. The accusation read less like a threat than like a pricing event.
+The accused platform did not collapse: it reportedly raised a nine-figure seed round last year, and this January announced a Series A at a billion-dollar valuation and renamed itself Arena. The accusation read less like a threat than like a pricing event.
 
 An accusation of privileged access, answered by a higher valuation — how did judging models become such a powerful position, and such a well-paid one?
 
@@ -12,51 +12,57 @@ An accusation of privileged access, answered by a higher valuation — how did j
 
 This essay argues that the answer is what we will call evaluative authority: the power to define what counts as a better model, and to be believed when you say so. That authority was once scattered across academic benchmarks and blog posts. It is now concentrating inside a small evaluation industry, and we think the incentives around it bend the numbers long before anyone commits fraud.
 
-Evaluative authority has two components that we should keep separate: the definitional component chooses the tasks, the voters, and the metric, while the credibility component is being believed. Power sits in the first and money follows the second, and the story of the last two years is the two components merging inside single companies.
+The power sits in the defining, the money in the being believed, and the story of the last two years is the two merging inside single companies.
 
-We will answer three questions: how evaluative authority became a business and who pays for it, and where exactly the incentives distort the measurement itself. Third, what should practitioners — those of us who read leaderboards, buy evaluation, or build our own — do differently.
+We will answer three questions.
 
-The argument moves through five layers: the leaderboard's corporate turn, the privileges of private testing, the evaluator's client list, the fragile science underneath, and the law now converting all of it into obligation. A field guide for working practitioners closes the piece.
+1) How evaluative authority became a business, and who pays for it.
+
+2) Where exactly the incentives distort the measurement itself.
+
+3) What practitioners — those of us who read leaderboards, buy evaluation, or build our own — should do differently.
+
+What the measurement layer is comes first. The argument then moves through five layers: the leaderboard's corporate turn, the privileges of private testing, the evaluator's client list, the fragile science underneath, and the law now converting all of it into obligation. The optimists get their hearing before the field guide for working practitioners closes the piece.
 
 ## The measurement layer
 
 Start with what the measurement layer actually is: on one side sit static benchmarks such as MMLU-Pro, GPQA, SWE-bench, LiveCodeBench, and ARC-AGI, each claiming to capture some slice of capability. On the other side sit live leaderboards, where humans or models judge outputs and scores update continuously.
 
-Arena's text leaderboard alone has accumulated more than 7.7 million votes across 389 models, according to August statistics from the analytics site opper.ai. What began as a research project is now the industry's leaderboard of record.
+Arena's text leaderboard alone has accumulated more than 7.7 million votes across 389 models, according to August statistics from opper.ai, a site that tracks the rankings industry. What began as a research project is now the industry's leaderboard of record.
 
 The shift matters because of why it happened: static benchmarks saturate once they are public, because training corpora absorb them and their scores stop discriminating. Live leaderboards promised a moving target — fresh prompts, fresh voters, no fixed answer key to leak — and that promise concentrated our attention on one leaderboard. The buyer's problem is that both sides of the measurement layer now come with an interested party attached: the benchmark has its authors, and the leaderboard has its owners.
 
-The audience has widened well beyond researchers: enterprise buyers — many of us — shortlist vendors on these scores, coverage treats rank moves as news, and the labs themselves watch the leaderboard as an internal KPI. OpenAI closely tracks its Arena position, The Wall Street Journal has reported, in an account relayed by the tracking site aiglossary.news.
+The audience has widened well beyond researchers: enterprise buyers shortlist vendors on these scores, coverage treats rank moves as news, and the labs themselves watch the leaderboard as an internal KPI. The Wall Street Journal has reported that OpenAI closely tracks its Arena position — an account relayed by aiglossary.news, a site that tracks AI industry coverage.
 
 A score that moves procurement, coverage, and internal targets is no longer a description of the market but infrastructure for it, and infrastructure, once load-bearing, attracts owners.
 
 The natural question for us is who those owners are and what they sell, and the first place to look is the leaderboard itself.
 
-## 1. The referee became a business
+## 1. The referee became a business: the corporate turn
 
-The corporate turn is recent and fast: according to an April guide from the AI publication uper.pl, the company raised a reported $100 million seed round last year. This January the company rebranded as Arena and announced a reported $150 million Series A at a $1.7 billion valuation, with a16z among the investors.
+The corporate turn is recent and fast: according to an April guide from uper.pl, an AI industry publication, the company raised a reported $100 million seed round last year. This January the company rebranded as Arena and announced a reported $150 million Series A at a $1.7 billion valuation, with a16z among the investors.
 
-The revenue plan matters more than the round sizes: Arena's monetization, per the same guide, runs through enterprise audits, API access, and premium analytics. The referee is no longer a volunteer project; it sells services, and its buyers include the very labs it ranks — labs many of us work for.
+The revenue plan matters more than the round sizes: Arena's monetization, per the same guide, runs through enterprise audits, API access, and premium analytics. The referee is no longer a volunteer project; it sells services, and its buyers include the very labs it ranks.
 
 None of this proves dishonesty, because paid audits can be real audits. But the commercial structure changes what a leaderboard is: every design decision — which models get tested, which results get displayed, which features ship — is now also a product decision made under investor expectations.
 
 There is also a quieter economic logic underneath: trust in a score aggregates. The more buyers watch one leaderboard, the more its rank moves deals, and the more rational it is for the next buyer to watch the same leaderboard.
 
-And the audience keeps treating the score as neutral ground truth: when a frontier lab watches its rank as a KPI, the leaderboard stops describing the race and starts steering it. We have seen this pattern wherever a metric becomes a target, because the leaderboard begins to shape the play. None of this makes the score useless — it makes the score interested, and an interested score deserves the same care we give any other claim from any other business.
+And the audience keeps treating the score as neutral ground truth: when a frontier lab watches its rank as a KPI, the leaderboard stops describing the race and starts steering it — it is Goodhart's law, on a leaderboard. None of this makes the score useless — it makes the score interested, and an interested score deserves the same care we give any other claim from any other business.
 
 Ownership, though, is only the surface of the problem, and the deeper question is who gets to test what — and who decides what the public sees.
 
-## 2. Private tests, public scores
+## 2. Private tests, public scores: privileged access
 
 The Leaderboard Illusion documents a two-tier testing regime: according to the authors, large labs could run many unreleased variants through the leaderboard privately, then submit only the strongest for public ranking. Meta, the paper claims, tested 27 private variants of Llama 4 before release, and the leaderboard saw one.
 
 The statistical damage is subtle but real, because Arena's scores rest on the Bradley-Terry model, whose fairness depends on matchups sampling the field honestly. Selective disclosure breaks that premise: a lab that publishes only its winning variants is reporting luck plus selection, not quality alone.
 
-The paper goes further, claiming effects on how open models fare and how far scores inflate, and those specific numbers are contested — we will return to the dispute in a moment. The coverage traveled fast: TechCrunch's headline on 30 April described a study accusing LM Arena of helping top labs game its benchmark. Separately, one study relayed by the odds-comparison site OddsShopper claims that coordinated voting can move a model's rank outright.
+The paper goes further, claiming effects on how open models fare and how far scores inflate, and those specific numbers are contested — we will return to the dispute in a moment. The coverage traveled fast: TechCrunch's headline on 30 April described a study accusing LM Arena of helping top labs game its benchmark. Separately, one study relayed by the odds-comparison site OddsShopper claims that coordinated voting can move a model's rank outright — independent evidence for the same structural point.
 
 LMArena's response deserves honest weight: the company publicly disputed several of the paper's headline numbers and subsequently changed its operating policies. Both facts matter, because the dispute suggests some accusations may be overstated, while the policy changes concede the mechanism was real enough to fix.
 
-Our read is narrower than the paper's claims and harder than the company's response. Whatever the true numbers, a structure in which some labs rehearse in private and publish selectively is a structure whose scores we cannot audit from outside. We believe the capability is the finding and the exact percentages are secondary.
+Our read is narrower than the paper's claims and harder than the company's response. Whatever the true numbers, a structure in which some labs rehearse in private and publish selectively is a structure whose scores we cannot audit from outside. We believe the capability to rehearse in private is itself the finding and the exact percentages are secondary.
 
 It is worth noting what would settle this — pre-registered submissions, public logs of private tests, or an independent audit — because none of these exists today. Until one does, every arena score carries an invisible asterisk whose size we cannot check.
 
@@ -64,9 +70,9 @@ This is also why the dispute over percentages, real as it is, can mislead us: th
 
 If the leaderboard's problem is privileged access, the next layer is privileged interest — the companies that sell evaluation to the evaluated.
 
-## 3. The evaluated pay the evaluator
+## 3. The evaluated pay the evaluator: the client list
 
-Consider Patronus AI, an evaluation vendor founded by former Meta researchers three years ago. This June it raised a reported $50 million Series B led by Greenfield, bringing total funding to a reported $70 million. The June reports put most leading frontier labs and cloud providers on its customer list.
+Consider Patronus AI, an evaluation vendor founded by former Meta researchers three years ago. This June it raised a reported $50 million Series B led by Greenfield, bringing total funding to $70 million. The June reports put most leading frontier labs and cloud providers on its customer list.
 
 The product direction is telling: Patronus now promotes what it calls Digital World Models, digital twins of enterprise software in which agents get stress-tested before deployment. The buyer of the stress test is the builder of the agent — the graded, in other words, commission the grading.
 
@@ -78,7 +84,7 @@ The market, notably, has started pricing that distrust: an April note from the r
 
 Yet even an honest vendor with perfect incentives faces a deeper problem: the instruments themselves are weaker than their public authority suggests.
 
-## 4. The science underneath is thinner than it looks
+## 4. The science underneath is thinner than it looks: fragile instruments
 
 A July review by the EvalSafetyGap project relays one statistic worth reading twice. Of 445 benchmark papers surveyed by Bean and colleagues (2025), only 16 percent used uncertainty estimates or statistical tests when comparing systems. More than four of five published comparisons never checked whether the differences they reported were real.
 
@@ -86,17 +92,17 @@ The same review cites a European Commission Joint Research Centre survey by Erik
 
 Practitioners see the cracks up close: an April industry review by Kili Technology catalogs contamination of static benchmarks, gaming, and substantial annotation error rates in widely used datasets. A benchmark can be famous, heavily cited, and quietly rotten at the item level.
 
-Put the three together and the crisis is not fraud but rigor. Most of the field's quantitative authority rests on comparisons that would not pass a first-year statistics seminar, and the measurement layer demands a trust it has not fully earned. In other words, most published comparisons cannot tell a real gap from a lucky one, and the field has built its public rankings on top of them anyway.
+Put the three together and the crisis is not fraud but rigor. Most of the field's quantitative authority rests on comparisons that would not pass a first-year statistics seminar, and the measurement layer demands a trust it has not fully earned.
 
 The rigor is missing for reasons we know well, because uncertainty testing costs time, complicates launch narratives, and can turn a victory into a tie. The incentives we described above do not stop at the leaderboard; they reach down into methodology itself.
 
 Into this gap — concentrated authority, aligned incentives, fragile instruments — walks the state.
 
-## 5. The state walks in
+## 5. The state walks in: the law
 
-The EU AI Act is converting evaluation from a market tool into a legal duty. The regulation entered into force in August 2024, prohibited-practice rules applied from the following February, and obligations for general-purpose models — technical documentation and evaluation disclosure — have applied since last August.
+The EU AI Act is converting evaluation from a market tool into a legal duty. The regulation entered into force in August 2024, prohibited-practice rules applied from February 2025, and obligations for general-purpose models — technical documentation and evaluation disclosure — have applied since August 2025.
 
-This August brought the Article 50 transparency obligations and new enforcement powers into force. The Digital Omnibus on AI has moved the main high-risk obligations to 2 December next year. As of this writing, general-purpose evaluation duties are in their second year of execution, transparency duties are one month old, and the high-risk regime now has a fixed date.
+August 2026 brought the Article 50 transparency obligations and new enforcement powers into force. The Digital Omnibus on AI has moved the main high-risk obligations to 2 December 2027. As of this writing, general-purpose evaluation duties are in their second year of execution, transparency duties are one month old, and the high-risk regime now has a fixed date.
 
 The significance is not bureaucratic: once evaluation is legally mandated, demand stops being optional, and the question of who performs it — under what conflicts, with what methods — becomes a question of law. Evaluative authority is on its way to becoming licensed authority.
 
@@ -122,17 +128,17 @@ Until those cycles arrive, practitioners cannot wait for the referee question to
 
 The practical question is what we do on Monday morning, while the structural questions stay open. This analysis offers three checks — one for each way we touch the measurement layer: reading its outputs, buying its services, or building our own.
 
-First, when we read leaderboards, ask who could test privately, how many variants were run, and whether the disclosure policy is public. If it is not, we must assume rehearsal happened and treat any single ranking as a marketing sample with a selection process, not as a measurement of the field.
+1) When we read leaderboards, ask who could test privately, how many variants were run, and whether the disclosure policy is public. If it is not, we must assume rehearsal happened and treat any single ranking as a marketing sample with a selection process, not as a measurement of the field.
 
-Second, when we procure evaluation, ask the vendor who else pays them. If the answer is the graded, negotiate adversarial terms — pre-registered test sets, held-out items the client never sees, and contractual rights to disclose failures.
+2) When we procure evaluation, ask the vendor who else pays them. If the answer is the graded, negotiate adversarial terms — pre-registered test sets, held-out items the client never sees, and contractual rights to disclose failures.
 
-Third, when we build our own harness, run it on tasks drawn from our real workload and do the statistics the field skips — confidence intervals, paired comparisons, corrections for multiple testing. Given that only about one in six published benchmark papers checks significance, a competent internal harness already out-rigors most public numbers.
+3) When we build our own harness, run it on tasks drawn from our real workload and do the statistics the field skips — confidence intervals, paired comparisons, corrections for multiple testing. Given that only about one in six published benchmark papers checks significance, a competent internal harness already has more rigor than most public numbers.
 
 Each check stands alone, but the compound is the point: a team that discounts leaderboards, buys evaluation on adversarial terms, and trusts its own harness has quietly built its own small measurement layer. That is where evaluative authority should live for us — close to the work and far from the marketing.
 
 None of the three requires permission from the industry we have described, and that may be the most useful fact in this piece.
 
-## So is any of it still worth reading
+## So should we stop reading leaderboards
 
 So should we stop reading leaderboards? No — but we should read them the way we read a weather forecast funded by umbrella sellers: a useful signal from an interested source.
 

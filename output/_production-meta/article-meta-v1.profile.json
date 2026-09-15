@@ -3,7 +3,7 @@
  "lang": "en",
  "title": "Your Style Profile Is a Genre Artifact: Seven Fingerprints, One Trap, and a Reading Discipline",
  "cjk_chars": 0,
- "word_count": 3206,
+ "word_count": 3320,
  "reading_time_min": 11.0,
  "structure": {
   "h2_count": 11,
@@ -15,33 +15,33 @@
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 156,
-  "avg_sentence_len": 21.0,
+  "sentence_count": 158,
+  "avg_sentence_len": 21.5,
   "median_sentence_len": 20.0,
-  "p90_sentence_len": 34,
+  "p90_sentence_len": 35,
   "question_sentences": 3
  },
  "paragraphs": {
-  "paragraph_count": 63,
-  "avg_paragraph_len": 52.0,
-  "median_paragraph_len": 60,
-  "p90_paragraph_len": 92,
+  "paragraph_count": 71,
+  "avg_paragraph_len": 47.9,
+  "median_paragraph_len": 50,
+  "p90_paragraph_len": 90,
   "one_line_paragraphs": 0
  },
  "evidence": {
-  "number_tokens": 53,
-  "number_per_1k": 16.53,
-  "precise_numbers": 23,
-  "precise_per_1k": 7.17,
+  "number_tokens": 62,
+  "number_per_1k": 18.67,
+  "precise_numbers": 24,
+  "precise_per_1k": 7.23,
   "year_anchors": 2,
-  "year_per_1k": 0.62,
+  "year_per_1k": 0.6,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
   "reference_entries": 9
  },
  "stance": {
-  "hedge_hits": 8.73,
+  "hedge_hits": 8.43,
   "hedge_examples": [
    {
     "term": "early",
@@ -49,14 +49,14 @@
    },
    {
     "term": "about",
-    "excerpt": "This repository exists to read style with data: eight libraries — seven English,"
+    "excerpt": "This repository exists to read style with data: eight libraries — seven English "
    },
    {
     "term": "early",
     "excerpt": "The timing matters for reading what follows. The profiles and the first playbook"
    }
   ],
-  "absolutist_hits": 1.87,
+  "absolutist_hits": 2.11,
   "absolutist_examples": [
    {
     "term": "never",
@@ -64,14 +64,14 @@
    },
    {
     "term": "everyone",
-    "excerpt": "The pooled caliber was flattering to everyone. The old fingerprint section of ou"
+    "excerpt": "The pooled standard was flattering to everyone. The old fingerprint section of o"
    },
    {
-    "term": "never",
-    "excerpt": "The institution value is not a constant of nature; it is a function of the popul"
+    "term": "always",
+    "excerpt": "Attribution sharpened as well, in a leave-one-out exercise that assigns each art"
    }
   ],
-  "quantifier_hits": 9.36,
+  "quantifier_hits": 9.94,
   "first_person_count": 30,
   "objective_selfref_count": 2,
   "exclamations": 0,
@@ -79,24 +79,24 @@
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.294,
-  "mattr": 0.693,
+  "ttr": 0.289,
+  "mattr": 0.692,
   "top_terms": [
    "pooled×28",
-   "correction×26",
-   "cell×21",
-   "genre×19",
+   "correction×27",
+   "cell×23",
+   "genre×21",
    "seven×18",
-   "articles×17",
-   "style×16",
-   "library×15",
-   "every×15",
-   "article×14",
-   "openai×11",
-   "comparison×11",
-   "against×11",
-   "research×11",
-   "sample×10"
+   "style×17",
+   "articles×16",
+   "every×16",
+   "article×15",
+   "library×14",
+   "standard×12",
+   "against×12",
+   "comparison×12",
+   "research×12",
+   "openai×11"
   ],
   "en_char_ratio": null,
   "title_text": "Your Style Profile Is a Genre Artifact: Seven Fingerprints, One Trap, and a Reading Discipline",
