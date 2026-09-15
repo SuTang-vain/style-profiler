@@ -29,7 +29,8 @@
 ## 2. 语步序列声明
 
 HOOK（开场 5 段：openai 第一人称"显著→消融"反差并置；设问 1 设而不答留到 §1）
-→ FRAME（## Three questions：命名核心概念 genre-composition contamination 并声明短称复用；明示三问题清单；四节+反驳+指南结构预告；客观自指 #1 this analysis）
+→ FRAME（## Three questions：命名核心概念 genre-composition contamination 并声明短称复用；明示三问题清单；四节+反驳+指南结构预告；kezhongke 首现 gloss；客观自指 #1 this analysis）
+→ **CONTEXT 前置（## The story so far，主编终审增补，2026-09-15 第二轮）：语步归类 = CONTEXT 的开篇叙事部而非 FRAME 延伸**——playbook §2 规定叙事只允许出现在 CONTEXT 区（叙事比 0.3–0.6），前史为历史叙事，故 CONTEXT 自此节起算，"A paradox in the pooling" 为其概念定义续部；该节首句即结论（"Everything reported here happened inside two September weeks"），末句指向 Simpson 节（"the next section names it"）；CONTEXT 区叙事比 ≈305/635 ≈ 0.48，在 [0.3, 0.6] 内）
 → CONTEXT（## A paradox in the pooling：Simpson 悖论最小解释（诊所例子+聚合机制两句）→ 体裁敏感指标映射 → 旧口径如何落入陷阱；叙事仅在此区与 §3 纠错史）
 → ARGUE×4（## 1 头条反转 7/7→0/7 → ## 2 两层方法（机制→双向证据→LOO→格集合敏感诚实段）→ ## 3 量具纠错史（词表/长度/路由三修复）→ ## 4 验证链（盲测→生产事实审计→工程地基）；各主节末句均指向下节）
 → COUNTER（## Three objections, three verdicts：①样本小→方法无效 **rebutted as stated, boundary left standing**（tripwire 登记）；②0/7→机构无风格 **rebutted**；③LLM 体裁标签循环论证 **left open**，缓解措施+残留如实列出）
@@ -172,3 +173,46 @@ python3 check_profiles.py                 # 合计 8 PASS / 0 FAIL / 0 SKIP
 - 双时代引用收窄至 HOOK 两条（条 1–2），时间锚明示；其余全部当前版。
 - 数字密度 18.34 仍在区间上半段（结构性，§6.1 注记不变）。
 - 段长 P90 92 为列表合并段结构性偏大（走廊仅约束均值 51.8 ✅），留痕不判失格。
+
+---
+
+## 修订记录 第二轮（2026-09-15 主编终审：补前史小节，结构性新增一节，骨架其余未动）
+
+> 终审意见：元稿上下文不完整——新读者不知道项目为何存在、流水线是什么、反转发生在哪条时间线上。处置：在 FRAME（## Three questions）与 CONTEXT（## A paradox in the pooling）之间新增独立小节 **## The story so far**（5 段，正文 312 词）。五项规定内容全部落入：①起源（为剖 kezhongke 自有中文语料而建，先描述后引导——对账 templates/genre-playbook-kezhongke.md 头部、output/kezhongke/validation-report.md）；②对照扩张（七家机构公开博客、各二十篇、全文本地 slug 可复现——对账 corpus/README.md）；③流水线闭环（指标→体裁路由→两层聚合→playbook→成稿→盲评→事实审计；本稿为流水线第一次转向自身——仅引用 §4 既有内容，不重复其数字）；④时间线（上旬剖面与首版 playbook、中旬两层模型/扩容/反转——对账 git log，措辞 early/mid-month 未逐个列日期）；⑤公开理由（教训不限于本站）。
+
+### 新增小节全文（终态）
+
+> ## The story so far
+>
+> Everything reported here happened inside two September weeks, on a toolchain built for something narrower. The project began as a way to describe one library, the kezhongke corpus of this site's own Chinese writing, and then to guide. The playbook layer turns the per-article readings into writing budgets and readability prescriptions, so a new draft is held to a measured corridor rather than to anyone's memory of the house style.
+>
+> The comparison layer came from a question: whether this site's own style was an exception or one point on a field. Seven public blog streams from research organizations became the reference libraries, twenty articles each. The collection rule has not changed since: full texts stay local, and the slug lists that rebuild every sample are published with the code.
+>
+> With the comparison shelf in place, the loop closed. Every article is measured, routed into a genre cell, and aggregated into the two-level budgets, and those budgets feed the playbook that new drafts are written against. Finished drafts then pass blind review and a fact audit before anything is published. Ours is the first draft in that loop whose subject is the pipeline itself.
+>
+> The timing matters for reading what follows. The profiles and the first playbook were built in the early days of the month. The two-level model, the sample expansion, and the reversal at the center of this account all landed in the middle of it, within days of one another. What follows is therefore not a slow accumulation of doubts but one week in which a correction and its consequence arrived together.
+>
+> We are publishing the failure because the lesson is not ours alone: anyone who quotes style data — ours, a vendor's, or a reviewer's — stands at the edge of the same trap. The trap is an old one and it has a textbook name; the next section names it.
+
+### 执行纪律逐项核对
+
+- **数字最小化**：新节零数字 token（"two September weeks"/"twenty articles each" 均拼写，且与 FRAME 的 8 库/164 篇/22 项口径一致，未重复其数字形态）。
+- **处方 7**：首句即该节结论；末句指向 Simpson 节（与 CONTEXT 首句 "The textbook name for the trap is…" 形成指代链接力，非重申）；与 §4 ¶4 的 "full texts stay local / slug lists" 有一处事实重叠——此处为来源记叙（collection rule），§4 为工程地基（reproducibility 标准），功能不同，留痕。
+- **处方 9**：新节无同词族单句三叠（复扫确认；唯一残留仍为 §1 "seven" 三叠豁免项）。
+- **自指控制**：新节初稿带入 "this essay"/"this article" 各一处，使客观自指升至 4（出带）；已改为 "Ours is the first draft…" 与 "the reversal at the center of this account"，回落 2 ✅。自指口吻维持第三人称库标签 + 克制。
+- **语步归类**：CONTEXT 开篇叙事部（见 §2 登记），非 FRAME 延伸。
+
+### 复测表（profiler 重跑，JSON 已覆盖更新）
+
+| 指标 | 合格区间 | 第一轮修订后 | 本轮终态 | 判定 |
+|---|---|---|---|---|
+| 篇幅（词） | [2,100, 3,750] | 2,890 | 3,206 | ✅ |
+| 平均句长 / P90 | [20, 24] / ≤35 | 21.1 / 35 | 21.0 / 34 | ✅ |
+| 平均段长 | [33, 53] | 51.8 | 52.0 | ✅ |
+| 数字密度 /千词 | [8, 21] | 18.34 | 16.53（新节零数字，密度回落） | ✅ |
+| 年份锚点 /千词 | 软上限 2 | 0.69 | 0.62（仍 2 处，未新增年份词） | ✅ |
+| hedge / absolutist / 克制比 | [8,13.5] / [1.4,3.4] / ≥3:1 | 9.34 / 2.08 / 4.49 | 8.73 / 1.87 / 4.67 | ✅ |
+| 第一人称 / 客观自指 / 设问 / 感叹号 | [21,69] / [1,2] / 2–3 / 0 | 30 / 2 / 3 / 0 | 30 / 2 / 3 / 0 | ✅ |
+| **MATTR** | <0.70（不留容差尾巴） | 0.697 | **0.693（余量 0.007）** | ✅ 词族复用策略生效，不涨反降 |
+
+14 项全带内；MATTR 余量 0.007，后续任何增删仍须先重跑 profiler 再定稿。

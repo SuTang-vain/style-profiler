@@ -16,6 +16,18 @@ This repository exists to read style with data: eight libraries — seven Englis
 
 We will name the failure once and reuse the name throughout: genre-composition contamination, composition contamination for short. The argument runs through four sections — the headline reversal, the correction, the correction's own error history, and the validation chain — and then through the objections and the field guide we would hand to any reader of style data.
 
+## The story so far
+
+Everything reported here happened inside two September weeks, on a toolchain built for something narrower. The project began as a way to describe one library, the kezhongke corpus of this site's own Chinese writing, and then to guide. The playbook layer turns the per-article readings into writing budgets and readability prescriptions, so a new draft is held to a measured corridor rather than to anyone's memory of the house style.
+
+The comparison layer came from a question: whether this site's own style was an exception or one point on a field. Seven public blog streams from research organizations became the reference libraries, twenty articles each. The collection rule has not changed since: full texts stay local, and the slug lists that rebuild every sample are published with the code.
+
+With the comparison shelf in place, the loop closed. Every article is measured, routed into a genre cell, and aggregated into the two-level budgets, and those budgets feed the playbook that new drafts are written against. Finished drafts then pass blind review and a fact audit before anything is published. Ours is the first draft in that loop whose subject is the pipeline itself.
+
+The timing matters for reading what follows. The profiles and the first playbook were built in the early days of the month. The two-level model, the sample expansion, and the reversal at the center of this account all landed in the middle of it, within days of one another. What follows is therefore not a slow accumulation of doubts but one week in which a correction and its consequence arrived together.
+
+We are publishing the failure because the lesson is not ours alone: anyone who quotes style data — ours, a vendor's, or a reviewer's — stands at the edge of the same trap. The trap is an old one and it has a textbook name; the next section names it.
+
 ## A paradox in the pooling
 
 The textbook name for the trap is Simpson's paradox: a trend visible in a pooled table can weaken, vanish, or reverse inside every subgroup. It happens whenever the groups under comparison feed those subgroups in different proportions. Two clinics can each treat their own patients better and still post the worse pooled survival rate, if the sicker patients arrive in different shares.
