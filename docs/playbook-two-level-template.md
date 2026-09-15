@@ -28,3 +28,29 @@
 - **"默认体裁"形态**：某格占比近半时（A 格 11/23），机构层各指标被该格居中（delta≈0）——这不是没有体裁差异，而是差异集中在非主导格；写作含义应写"非主导格如何偏离默认"。
 - **体裁结构性冲高**：N 格数字密度 +97.8/千字 这类量级差，必须进体裁预算而非全库统一区间——这是 _p2 教训（build-log 预算套分析体裁）的正向兑现。
 - **人称的体裁极性**：同一指标在不同格方向相反（N 格清零 vs G 格 +6）——凡 range 内出现方向分裂的指标，一律按 delta 执行，不得作机构层硬约束。
+
+## 预算节再生成流程（2026-09-15 起，gen_budgets.py）
+
+8 份 playbook 的 §x.1 机构层表 / §x.2 delta 表已由 **AUTO 标记区生成器化**，聚合层重跑后不再手工刷新数值：
+
+**标记约定**（8 份 playbook 均已插入）：
+- `<!-- AUTO:INSTITUTION begin/end -->` 包住机构层表（表头+全部行）。生成器按行首指标名关键词扫描匹配 two_level 指标键，**只重写「两层机构值 / 全库朴素 median / 跨体裁 range」三列**；「判定」「写作指令」两列人工 prose 逐字保留。指标行在 JSON 缺席 → 数值列标 `--` 并 stdout 提示；JSON 有而表格缺 → 追加行（判定列 `待人工判定`）并 stdout 提示。
+- `<!-- AUTO:CELLS begin/end -->` 包住 delta 表整表。格值（±delta）= two_level.cells − institution，代码计算；格集合（列）不变时保留现有行序/列序与既有数字格式，增减时整表按 JSON 列序重建。
+- `<!-- AUTO:LAYOUT begin/end -->`（紧随 AUTO:CELLS 之后）为「排版（参考，非硬约束）」小节：structure.tables / code_blocks 逐篇 JSON 实算全库 median + 各出值格 median。
+- 标记区外内容（差异简注 blockquote、人称硬约束、分体裁写作含义、§x.3 留痕表、叙事段占比参考行等）一律不动。
+
+**命令**：
+```
+python3 gen_budgets.py            # 全部 8 库，重写 AUTO 区并打印变更报告
+python3 gen_budgets.py --lib NAME # 单库
+python3 gen_budgets.py --check    # 只报告漂移不写文件（退出码 0=无漂移）
+python3 check_profiles.py         # STYLE-PROFILE 校验 + 两层 AUTO 区逐格回核（两层合计单列）
+```
+
+**格集合变更（新格出值 / 旧格消失）时的人工复核点**（生成器 stdout 会以 ⚠️ 显著提示）：
+1. §x.1「判定」列：新进格可能改变 range 与签名候选命中关系，逐行复核判定档位；
+2. §x.2「分体裁写作含义」prose：新格补条目、消失格删引用；
+3. 机构层表追加的 `待人工判定` 行：人工填判定与写作指令后保留（生成器下轮按行键匹配，不会覆盖）；若确认该指标不入表（如英文库 cjk_chars 恒 0），删行即可——生成器下轮会再次追加并提示，属已知行为；
+4. 差异简注 blockquote：对照生成器 stdout 打印的 top-N 相对差异清单，核对现有简注是否仍成立（不重写，人工更新）。
+
+kezhongke 中文口径特判：篇幅行 = cjk_chars（篇幅（中文字符）），word_count 键视为已覆盖，不触发追加行（SUPPRESS_APPEND）。

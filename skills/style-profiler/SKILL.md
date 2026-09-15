@@ -21,6 +21,7 @@ description: 研究性文章风格分析、提取与撰写引导工具，三模�
 | 论证标注 rubric | `rubric/02-argument-annotation.md` |
 | 风格档案模板 | `templates/style-profile-template.md` |
 | 撰写引导 playbook 现库（模式三加载） | `templates/genre-playbook-{kezhongke,cerebras,databricks,eleuther,google-research,microsoft-research,anthropic}.md` + `genre-playbooks-openai.md`（定稿范本） |
+| 信源包模板（模式三 Step 0） | `templates/source-pack-template.md` |
 | 档案一致性校验（建档后必跑） | `check_profiles.py` |
 | 已有档案：壳中客 v0.1 | `output/kezhongke/STYLE-PROFILE-kezhongke-v0.md` |
 | 已有档案：OpenAI v1 | `output/openai/STYLE-PROFILE-openai-v0.md` |
@@ -72,13 +73,17 @@ python3 profiler.py corpus/<媒体名>/ -o output/<媒体名>/ --exclude '<排�
 
 用户说"按 X 的风格写/改这篇 / 用 X 的写法 / write in the style of X"时执行：
 
+0. **Step 0 信源包与前置抽验**（写作任务涉事实性/时事性内容时必执行；纯风格改写已有成稿时跳过）：
+   - **先建信源包**：按 `templates/source-pack-template.md` 建事实清单，逐条挂归因等级标签（[论文]/[报道]/[官方]/[转述]）；
+   - **生成前抽验**：从包内硬数字（样本规模、日期、金额、法规时间线、人名机构名）抽 3–5 条，对照一手来源（论文原文、官方页面）核验；发现错误先修信源包（勘误留痕）再进生成——教训（2026-09-15 生产首跑）：末端事实审计捕获的 2 处红色项均非生成错误，而是信源包错误被成稿忠实搬运（论文样本规模误记 2.8M battles/238 models，原文实为 2M battles/243 models/42 providers；EU AI Act 高风险义务按旧口径写 2026-08 生效，实际已被 Digital Omnibus 推迟至 2027-12-02）——事实审计跑在末端返工成本最高，核验必须前置到采集层；
+   - **成稿纪律**：事实断言不得超出信源包批准清单；[转述]级事实必须挂"据报道/论文称"级归因。
 1. **加载 playbook**：`templates/genre-playbook-<库>.md`（现库：kezhongke / cerebras / databricks / eleuther / google-research / microsoft-research / anthropic / openai）。目标库无 playbook 时，先走模式一建档再转化，不得凭印象写。**输出语言以 playbook 头部"输出语言"声明为准；无声明时默认该库语料语言。**
 2. **体裁路由**：按 playbook 的体裁/子体裁路由表与用户稿件题材确定目标子体裁；该条目的证据等级（[统计层]/[标注-N篇]/[推断]）必须随骨架一起向用户声明，[推断] 部分须经用户确认后使用。
 3. **三层约束加载**：
    - **硬约束**＝定量预算表（篇幅/句长/段长/数字密度/限定语/第一人称的 median 与 P25–P75 区间）——数值只信 playbook 中标注 [统计层] 的行；
    - **人称预算为硬约束**（P1 横评实证，2026-09-08）：区间为硬预算非参考——按实际篇幅折算（次数有长度依赖）、写作时**按节预分配**（大纲声明各节 we/our 处数）、完稿过 `first_person_count` 自检；**题材豁免制**：团队构建叙事（build-log/复盘）可上浮但须在大纲声明豁免与目标值，未声明超界=失格（实证：anthropic 成稿 57 vs 基线 30——题材 we 本能压过库预算）；各库具体区间见 playbook"人称硬约束"块；
    - **大纲**＝语步骨架（七类语步序列 + 各子体裁特有语步）；
-   - **手法**＝操作化模式与正反例（例证 ≤40 字，作校准锚点而非素材）。
+   - **手法**＝操作化模式与正反例（例证 ≤40 字，作校准锚点而非素材，不得挪用进成稿）。
 4. **骨架先行**：先输出逐段语步大纲（每段标 move + 预期功能）供用户确认，再写正文。
 5. **自检闭环**：完稿后自动走模式二——`python3 profiler.py <成稿.md>` 对照预算表逐项核对，输出达标报告；越界项修改后复检。
 
