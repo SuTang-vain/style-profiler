@@ -1,0 +1,115 @@
+{
+ "file": "article-meta-v1.md",
+ "lang": "en",
+ "title": "Your Style Profile Is a Genre Artifact: Seven Fingerprints, One Trap, and a Reading Discipline",
+ "cjk_chars": 0,
+ "word_count": 2890,
+ "reading_time_min": 10.0,
+ "structure": {
+  "h2_count": 10,
+  "h3_count": 0,
+  "numbered_headings": 4,
+  "code_blocks": 0,
+  "tables": 0,
+  "images": 0,
+  "has_toc": false
+ },
+ "sentences": {
+  "sentence_count": 140,
+  "avg_sentence_len": 21.1,
+  "median_sentence_len": 20.0,
+  "p90_sentence_len": 35,
+  "question_sentences": 3
+ },
+ "paragraphs": {
+  "paragraph_count": 57,
+  "avg_paragraph_len": 51.8,
+  "median_paragraph_len": 60,
+  "p90_paragraph_len": 92,
+  "one_line_paragraphs": 0
+ },
+ "evidence": {
+  "number_tokens": 53,
+  "number_per_1k": 18.34,
+  "precise_numbers": 23,
+  "precise_per_1k": 7.96,
+  "year_anchors": 2,
+  "year_per_1k": 0.69,
+  "external_links": 0,
+  "links_per_1k": 0.0,
+  "citation_marks": 0,
+  "reference_entries": 9
+ },
+ "stance": {
+  "hedge_hits": 9.34,
+  "hedge_examples": [
+   {
+    "term": "early",
+    "excerpt": "In early September 2026, our pipeline reported what looked like a clean result. "
+   },
+   {
+    "term": "about",
+    "excerpt": "This repository exists to read style with data: eight libraries — seven English,"
+   },
+   {
+    "term": "could",
+    "excerpt": "Style measurement has roughly the same geometry: first-person density, paragraph"
+   }
+  ],
+  "absolutist_hits": 2.08,
+  "absolutist_examples": [
+   {
+    "term": "never",
+    "excerpt": "The textbook name for the trap is Simpson's paradox: a trend visible in a pooled"
+   },
+   {
+    "term": "everyone",
+    "excerpt": "The pooled caliber was flattering to everyone. The old fingerprint section of ou"
+   },
+   {
+    "term": "never",
+    "excerpt": "The institution value is not a constant of nature; it is a function of the popul"
+   }
+  ],
+  "quantifier_hits": 8.65,
+  "first_person_count": 30,
+  "objective_selfref_count": 2,
+  "exclamations": 0,
+  "questions": 3,
+  "emoji": 0
+ },
+ "diction": {
+  "ttr": 0.307,
+  "mattr": 0.697,
+  "top_terms": [
+   "pooled×28",
+   "correction×25",
+   "cell×20",
+   "genre×18",
+   "seven×17",
+   "articles×16",
+   "library×14",
+   "style×13",
+   "article×13",
+   "every×13",
+   "openai×11",
+   "fingerprint×10",
+   "against×10",
+   "research×10",
+   "median×9"
+  ],
+  "en_char_ratio": null,
+  "title_text": "Your Style Profile Is a Genre Artifact: Seven Fingerprints, One Trap, and a Reading Discipline",
+  "title_len": 94,
+  "title_has_colon": true
+ },
+ "genre": {
+  "genre": "blog_or_exploration",
+  "scores": {
+   "报告体": 0,
+   "期刊体": 0,
+   "行业分析": 0
+  },
+  "note": "规则层只可靠识别 报告体/期刊体/行业分析；其余待 LLM 路由（rubric/00-genre-routing.md）"
+ }
+}
