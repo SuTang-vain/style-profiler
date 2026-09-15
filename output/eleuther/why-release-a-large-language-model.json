@@ -115,7 +115,9 @@
       "genre": "分析评论类",
       "code": "A",
       "confidence": "high",
-      "source": "llm-routing-v2-expansion (2026-09-14)"
+      "source": "llm-routing-v2-expansion (2026-09-14)",
+      "subtype": "critique",
+      "subtype_source": "subtype-softtag-v1 (2026-09-15, 双峰体检证据)"
     }
   }
 }

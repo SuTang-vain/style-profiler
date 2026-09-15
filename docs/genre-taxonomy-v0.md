@@ -91,3 +91,34 @@
 **低置信边界条目（10 篇）处置**：逐条复核后**全部采纳路由判定**——它们均落在已裁决的边界规则上（R/N 看可用性声明、E/R 看实验发现是否为主体、A/G 看教学是否为主体），规则适用正确，不确定性来自体裁本身混合而非规则误用。清单：cerebras×3（autoresearch-loop-cheating→R、multi-agent-workflows→G、never-loop-without-verifiers→A）、databricks×2（memalign→N、scaling-small-llms-mps→R）、eleuther×3（deep-ignorance→R、aletheia-retrospective→R、dynamical-models→A）、google-research×1（connectomics-milestone→N）、microsoft-research×1（echoverse→R）、openai×1（monitor-coding-agents→R）、kezhongke×1（eval-harness-landscape→A）。若未来统计结论对某篇敏感，优先复查此清单。
 
 **扩容 passe（2026-09-14，router=llm-routing-v2-expansion）**：7 个英文库各 +10 篇、kezhongke +1 篇（投稿 sub-6e00d207fee4 重新入库 → G）。新篇目按 §一裁决规则逐篇打标（genre + confidence），低置信条目并入各库 genre-labels.json 的 _meta.low_confidence 留档（处置惯例同 v1 清单）；旧篇目标签一律未动。扩容后空格大幅减少：anthropic/openai 六格全满，cerebras 新增 E/G/R 格，databricks 新增 E/G，eleuther 新增 A/N，msr 新增 E/A，google-research 新增 E。**仍空的格**（计数 0）：cerebras P；databricks A/P；eleuther E；google-research A/P/G；kezhongke P；microsoft-research P/G。**近空格**（n<3 不出格值）：eleuther P1/G2、google-research E2、msr A2、openai G1、kezhongke E2/R2。空格在跨机构比较中缺席处理（§三第 3 条），不计 0。
+
+## 六、亚层分析：是否继续细分/分层（2026-09-15 裁决）
+
+**结论：六类主轴不加分、第三统计层不建；对 4 个证据确凿的双峰格引入亚型软标签（非统计层），并立转正触发器。**
+
+### 体检方法与证据
+
+方法：对 8 库 31 个出值格（n≥3）× 8 个核心指标计算格内 IQR/中位比，初筛高内散格，再逐格看分布形态区分**噪音**与**结构**。
+
+- **噪音类**（大多数初筛命中）：低计数指标（absolutist 中位 1–2 时 IQR 1–2 自然爆比率）与零中位指标——小样本计数噪声，非结构；databricks/R 篇幅（901→3426 渐变）、kezhongke/A 句长（26.9→44.2 渐变）等**连续分布无断点**也不是亚型。
+- **结构类**（4 格真双峰，数据为逐篇实测值）：
+
+| 格 | 双峰数据 | 亚型划分 |
+|---|---|---|
+| anthropic/N（篇幅） | 340/564 vs 2563/11950 词 | `milestone_brief` 里程碑简报 ×2 / `release_feature` 发布长文 ×2 |
+| openai/A（数字密度） | 2.2/3.2 vs 35.1 /千词 | `position_essay` 立场随笔 ×2 / `data_trend_reading` 数据趋势解读 ×1 |
+| eleuther/A（人称） | 10/24/27 vs 192 次 | `critique` 评论批评 ×3 / `concept_modeling` 概念建模 ×1（=探索体的英文原生型） |
+| anthropic/E（人称） | 9/16 vs 69 次 | `engineering_deep_dive` 工程深潜 ×2 / `narrative_postmortem` 叙事复盘 ×1 |
+
+### 不继续细分/分层的理由
+
+1. **统计功效是瓶颈而非粒度**：扩容后 discriminate 指纹仍全未过 FDR（格内 n=3–8），再切一刀全部归零；细分方向与统计可行性直接冲突。
+2. **两层模型已隔离最大混淆源**（体裁构成）；残余问题（指纹功效、量具漂移）非粒度能解。
+3. 四个双峰格的亚型篇数均 1–2 篇，达不到 n≥3 出值线，建统计格无意义。
+
+### 落地机制
+
+1. **亚型软标签**：上表 14 篇的 per-article JSON 在 `genre.unified` 内加 `subtype` + `subtype_source` 字段（2026-09-15 已落）。聚合脚本（aggregate_two_level / discriminate）不读该字段，**零统计影响**；playbook 写作含义可引用亚型名作定性引导。
+2. **转正触发器**：某亚型篇数 ≥6 **且**两亚型在 ≥1 个核心指标的中位差 > 合并格该指标 IQR 时，亚型升格为独立统计格（走与六类相同的 n≥3 出值、缺席不计 0 纪律）。
+3. **定向扩容**：下轮采集优先补亚型（anthropic milestone_brief、openai data_trend_reading、eleuther concept_modeling、anthropic narrative_postmortem），把软标签喂到转正线。
+4. **时间/量具轴**（databricks 网站改版先例）与**语言轴**（中英分列，discriminate 已执行）维持"校准注记"待遇，不建层。
