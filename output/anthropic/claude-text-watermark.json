@@ -114,8 +114,9 @@
     "unified": {
       "genre": "分析评论类",
       "code": "A",
-      "confidence": "low",
-      "source": "llm-routing-v2-expansion (2026-09-14)"
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)",
+      "adjudicated": "v2 扩容人工复核维持（2026-09-15，主编裁决）"
     }
   }
 }

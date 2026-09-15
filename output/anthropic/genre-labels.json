@@ -3,9 +3,7 @@
     "taxonomy": "genre-taxonomy-v0 六类",
     "date": "2026-09-14",
     "router": "llm-routing-v1",
-    "low_confidence": [
-      "claude-text-watermark"
-    ],
+    "low_confidence": [],
     "router_v2_expansion": {
       "date": "2026-09-14",
       "router": "llm-routing-v2-expansion",
@@ -22,7 +20,14 @@
         "position-open-weights-models",
         "compliance-framework-sb53"
       ]
-    }
+    },
+    "adjudicated": [
+      {
+        "slug": "claude-text-watermark",
+        "decision": "maintain",
+        "note": "v2 扩容人工复核维持（2026-09-15，主编裁决）"
+      }
+    ]
   },
   "a-postmortem-of-three-recent-issues": {
     "genre_code": "E",
@@ -105,8 +110,9 @@
   "claude-text-watermark": {
     "genre_code": "A",
     "genre_name": "分析评论类",
-    "confidence": "low",
-    "evidence": "水印机制Q&A概念解读，混公告性质；主导为解读"
+    "confidence": "high",
+    "evidence": "水印机制Q&A概念解读，混公告性质；主导为解读",
+    "adjudicated": "v2 扩容人工复核维持（2026-09-15，主编裁决）"
   },
   "claude-opus-5": {
     "genre_code": "N",

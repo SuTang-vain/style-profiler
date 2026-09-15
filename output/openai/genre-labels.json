@@ -3,12 +3,25 @@
     "taxonomy": "genre-taxonomy-v0 六类",
     "date": "2026-09-14",
     "router": "llm-routing-v1",
-    "low_confidence": [
-      "how-we-monitor-internal-coding-agents-misalignment.md",
-      "best-practices-for-deploying-language-models.md",
-      "how-agents-are-transforming-work.md"
-    ],
-    "router_v2_expansion": "2026-09-14 扩容10篇（source=llm-routing-v2-expansion），判定优先级 P>N>R>E>G>A；低置信新增2篇"
+    "low_confidence": [],
+    "router_v2_expansion": "2026-09-14 扩容10篇（source=llm-routing-v2-expansion），判定优先级 P>N>R>E>G>A；低置信新增2篇",
+    "adjudicated": [
+      {
+        "slug": "how-we-monitor-internal-coding-agents-misalignment",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "how-agents-are-transforming-work",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "best-practices-for-deploying-language-models",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      }
+    ]
   },
   "core-dump-epidemiology-data-infrastructure-bug": {
     "genre_code": "E",
@@ -43,8 +56,9 @@
   "how-we-monitor-internal-coding-agents-misalignment": {
     "genre_code": "R",
     "genre_name": "研究类",
-    "confidence": "low",
-    "evidence": "内部监控系统如何工作+真实部署错位行为观测发现，E/R混合"
+    "confidence": "high",
+    "evidence": "内部监控系统如何工作+真实部署错位行为观测发现，E/R混合",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "our-approach-to-the-model-spec": {
     "genre_code": "P",
@@ -85,8 +99,9 @@
   "best-practices-for-deploying-language-models": {
     "genre_code": "G",
     "genre_name": "指南类",
-    "confidence": "low",
-    "evidence": "三方联合部署最佳实践清单，兼有联合立场声明性质（G/P边界）"
+    "confidence": "high",
+    "evidence": "三方联合部署最佳实践清单，兼有联合立场声明性质（G/P边界）",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "governance-of-superintelligence": {
     "genre_code": "A",
@@ -115,8 +130,9 @@
   "how-agents-are-transforming-work": {
     "genre_code": "A",
     "genre_name": "分析评论类",
-    "confidence": "low",
-    "evidence": "内部Codex采用数据趋势解读，A/R边界（观测数据非实验评测）"
+    "confidence": "high",
+    "evidence": "内部Codex采用数据趋势解读，A/R边界（观测数据非实验评测）",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "introducing-gpt-5-5": {
     "genre_code": "N",

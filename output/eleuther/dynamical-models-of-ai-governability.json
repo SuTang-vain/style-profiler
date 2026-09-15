@@ -114,10 +114,11 @@
     "unified": {
       "genre": "分析评论类",
       "code": "A",
-      "confidence": "low",
+      "confidence": "high",
       "source": "llm-routing-v1 (2026-09-14)",
       "subtype": "concept_modeling",
-      "subtype_source": "subtype-softtag-v1 (2026-09-15, 双峰体检证据)"
+      "subtype_source": "subtype-softtag-v1 (2026-09-15, 双峰体检证据)",
+      "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
     }
   }
 }

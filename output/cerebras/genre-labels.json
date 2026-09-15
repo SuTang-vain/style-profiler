@@ -3,13 +3,7 @@
     "taxonomy": "genre-taxonomy-v0 六类",
     "date": "2026-09-14",
     "router": "llm-routing-v1",
-    "low_confidence": [
-      "how-to-stop-your-autoresearch-loop-from-cheating",
-      "lessons-learned-from-building-multi-agent-workflows",
-      "never-loop-without-verifiers",
-      "first-look-gemma-4-on-cerebras-3-fast-multimodal-apps-we-built",
-      "which-is-faster-gemini-3-5-flash-or-kimi-k2-6-on-cerebras"
-    ],
+    "low_confidence": [],
     "router_v2_expansion": {
       "date": "2026-09-14",
       "router": "llm-routing-v2-expansion",
@@ -26,7 +20,34 @@
         "scaling-swe-agent-data-collection-with-dockerized-environments-for-execution",
         "which-is-faster-gemini-3-5-flash-or-kimi-k2-6-on-cerebras"
       ]
-    }
+    },
+    "adjudicated": [
+      {
+        "slug": "how-to-stop-your-autoresearch-loop-from-cheating",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "lessons-learned-from-building-multi-agent-workflows",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "never-loop-without-verifiers",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "first-look-gemma-4-on-cerebras-3-fast-multimodal-apps-we-built",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "which-is-faster-gemini-3-5-flash-or-kimi-k2-6-on-cerebras",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      }
+    ]
   },
   "exomebench": {
     "genre_code": "N",
@@ -43,8 +64,9 @@
   "how-to-stop-your-autoresearch-loop-from-cheating": {
     "genre_code": "R",
     "genre_name": "研究类",
-    "confidence": "low",
-    "evidence": "71个实验+结果+解读为主体（R/E边界：兼含harness构建记录）"
+    "confidence": "high",
+    "evidence": "71个实验+结果+解读为主体（R/E边界：兼含harness构建记录）",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "how-we-built-our-knowledge-base": {
     "genre_code": "E",
@@ -61,14 +83,16 @@
   "lessons-learned-from-building-multi-agent-workflows": {
     "genre_code": "G",
     "genre_name": "指南类",
-    "confidence": "low",
-    "evidence": "5个patterns教读者编排多智能体(G/E边界)"
+    "confidence": "high",
+    "evidence": "5个patterns教读者编排多智能体(G/E边界)",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "never-loop-without-verifiers": {
     "genre_code": "A",
     "genre_name": "分析评论类",
-    "confidence": "low",
-    "evidence": "loops概念史+verification论证为主(A/G)"
+    "confidence": "high",
+    "evidence": "loops概念史+verification论证为主(A/G)",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "the-economics-of-ai-reasoning": {
     "genre_code": "A",
@@ -115,8 +139,9 @@
   "first-look-gemma-4-on-cerebras-3-fast-multimodal-apps-we-built": {
     "genre_code": "E",
     "genre_name": "工程类",
-    "confidence": "low",
-    "evidence": "3个app构建实测为主体(E/G/N混合:含7-tips与可用性声明)"
+    "confidence": "high",
+    "evidence": "3个app构建实测为主体(E/G/N混合:含7-tips与可用性声明)",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "generating-beautiful-uis": {
     "genre_code": "G",
@@ -145,7 +170,8 @@
   "which-is-faster-gemini-3-5-flash-or-kimi-k2-6-on-cerebras": {
     "genre_code": "R",
     "genre_name": "研究类",
-    "confidence": "low",
-    "evidence": "基准对比方法+结果(R/A边界:兼竞争论证)"
+    "confidence": "high",
+    "evidence": "基准对比方法+结果(R/A边界:兼竞争论证)",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   }
 }

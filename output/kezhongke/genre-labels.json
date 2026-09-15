@@ -4,9 +4,18 @@
     "date": "2026-09-14",
     "router": "llm-routing-v1",
     "router_v2_note": "2026-09-14 扩容补采：sub-6e00d207fee4 由 llm-routing-v2-expansion 打标追加；其余 23 篇维持 v1 判定未动",
-    "low_confidence": [
-      "eval-harness-landscape.json",
-      "sub-6e00d207fee4.json"
+    "low_confidence": [],
+    "adjudicated": [
+      {
+        "slug": "eval-harness-landscape",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "sub-6e00d207fee4",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      }
     ]
   },
   "multi-agent-sociology": {
@@ -96,8 +105,9 @@
   "eval-harness-landscape": {
     "genre_code": "A",
     "genre_name": "分析评论类",
-    "confidence": "low",
-    "evidence": "评测实践调研综述，兼选型建议，A/G边界"
+    "confidence": "high",
+    "evidence": "评测实践调研综述，兼选型建议，A/G边界",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "eval-harness-team-infra": {
     "genre_code": "G",
@@ -150,7 +160,8 @@
   "sub-6e00d207fee4": {
     "genre_code": "G",
     "genre_name": "指南类",
-    "confidence": "low",
-    "evidence": "Musepool Skill文档式拆解：双命令/参数/速查表为主体，A/G边界"
+    "confidence": "high",
+    "evidence": "Musepool Skill文档式拆解：双命令/参数/速查表为主体，A/G边界",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   }
 }

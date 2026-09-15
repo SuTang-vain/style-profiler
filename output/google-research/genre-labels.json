@@ -3,17 +3,27 @@
     "taxonomy": "genre-taxonomy-v0 六类",
     "date": "2026-09-14",
     "router": "llm-routing-v1",
-    "low_confidence": [
-      "a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain",
-      "accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction"
-    ],
-    "router_v2": "2026-09-14 扩容10篇由 llm-routing-v2-expansion 打标（source见各per-article JSON genre.unified）"
+    "low_confidence": [],
+    "router_v2": "2026-09-14 扩容10篇由 llm-routing-v2-expansion 打标（source见各per-article JSON genre.unified）",
+    "adjudicated": [
+      {
+        "slug": "a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      }
+    ]
   },
   "a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain": {
     "genre_code": "N",
     "genre_name": "公告类",
-    "confidence": "low",
-    "evidence": "发布雄性果蝇全脑连接组，Neuroglancer可下载；R/N边界"
+    "confidence": "high",
+    "evidence": "发布雄性果蝇全脑连接组，Neuroglancer可下载；R/N边界",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "agenthands-generating-interactive-hand-gestures-for-spatially-grounded-agent-conversations-in-xr": {
     "genre_code": "R",
@@ -102,8 +112,9 @@
   "accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction": {
     "genre_code": "E",
     "genre_name": "工程类",
-    "confidence": "low",
-    "evidence": "端侧MTP加速构建为主体；含Pixel rollout声明，E/N边界"
+    "confidence": "high",
+    "evidence": "端侧MTP加速构建为主体；含Pixel rollout声明，E/N边界",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "optimizing-cloud-economics-with-linear-elastic-caching": {
     "genre_code": "R",

@@ -3,14 +3,35 @@
     "taxonomy": "genre-taxonomy-v0 六类",
     "date": "2026-09-14",
     "router": "llm-routing-v1",
-    "low_confidence": [
-      "echoverse-deep-evolving-environments-for-computer-use-agents",
-      "memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity",
-      "talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis",
-      "building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset",
-      "phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model"
-    ],
-    "router_v2": "llm-routing-v2-expansion (2026-09-14)：体裁平衡扩容新增 10 篇（A2/E3/R5），per-article JSON 的 genre.unified.source 可区分路由批次"
+    "low_confidence": [],
+    "router_v2": "llm-routing-v2-expansion (2026-09-14)：体裁平衡扩容新增 10 篇（A2/E3/R5），per-article JSON 的 genre.unified.source 可区分路由批次",
+    "adjudicated": [
+      {
+        "slug": "echoverse-deep-evolving-environments-for-computer-use-agents",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      }
+    ]
   },
   "aurora-1-5-weather-earth-system-models": {
     "genre_code": "N",
@@ -27,8 +48,9 @@
   "echoverse-deep-evolving-environments-for-computer-use-agents": {
     "genre_code": "R",
     "genre_name": "研究类",
-    "confidence": "low",
-    "evidence": "主体为深浅世界/RL实验发现；仅附四世界开源，R/N边界"
+    "confidence": "high",
+    "evidence": "主体为深浅世界/RL实验发现；仅附四世界开源，R/N边界",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "evolib-turning-experience-into-evolving-knowledge": {
     "genre_code": "R",
@@ -81,14 +103,16 @@
   "memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity": {
     "genre_code": "R",
     "genre_name": "研究类",
-    "confidence": "low",
-    "evidence": "主体方法+双基准SOTA；附GitHub代码可用，R/N边界"
+    "confidence": "high",
+    "evidence": "主体方法+双基准SOTA；附GitHub代码可用，R/N边界",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis": {
     "genre_code": "R",
     "genre_name": "研究类",
-    "confidence": "low",
-    "evidence": "开源工具验证：队列90%召回+前瞻241诊断；R/N边界"
+    "confidence": "high",
+    "evidence": "开源工具验证：队列90%召回+前瞻241诊断；R/N边界",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "extending-human-intelligence-through-ai": {
     "genre_code": "A",
@@ -111,8 +135,9 @@
   "building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset": {
     "genre_code": "E",
     "genre_name": "工程类",
-    "confidence": "low",
-    "evidence": "主体为开放数据pipeline构建过程；附数据集发布，E/N边界"
+    "confidence": "high",
+    "evidence": "主体为开放数据pipeline构建过程；附数据集发布，E/N边界",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale": {
     "genre_code": "R",
@@ -129,7 +154,8 @@
   "phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model": {
     "genre_code": "E",
     "genre_name": "工程类",
-    "confidence": "low",
-    "evidence": "主体为训练经验（架构/数据配比/课程）；附模型开放发布，E/N边界"
+    "confidence": "high",
+    "evidence": "主体为训练经验（架构/数据配比/课程）；附模型开放发布，E/N边界",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   }
 }

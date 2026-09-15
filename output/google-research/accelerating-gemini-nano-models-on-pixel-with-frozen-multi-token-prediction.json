@@ -106,8 +106,9 @@
     "unified": {
       "genre": "工程类",
       "code": "E",
-      "confidence": "low",
-      "source": "llm-routing-v2-expansion (2026-09-14)"
+      "confidence": "high",
+      "source": "llm-routing-v2-expansion (2026-09-14)",
+      "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
     }
   }
 }

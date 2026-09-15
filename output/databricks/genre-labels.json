@@ -3,15 +3,40 @@
     "taxonomy": "genre-taxonomy-v0 六类",
     "date": "2026-09-14",
     "router": "llm-routing-v1",
-    "low_confidence": [
-      "memalign-building-better-llm-judges-human-feedback-scalable-memory.md",
-      "scaling-small-llms-nvidia-mps.md",
-      "turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8.md",
-      "optimizing-databricks-llm-pipelines-dspy.md",
-      "instructed-retriever-unlocking-system-level-reasoning-search-agents.md",
-      "building-state-art-enterprise-agents-90x-cheaper-automated-prompt-optimization.md"
-    ],
-    "router_v2": "llm-routing-v2-expansion (2026-09-14)：扩容 10 篇由该路由打标；v1 条目未动"
+    "low_confidence": [],
+    "router_v2": "llm-routing-v2-expansion (2026-09-14)：扩容 10 篇由该路由打标；v1 条目未动",
+    "adjudicated": [
+      {
+        "slug": "memalign-building-better-llm-judges-human-feedback-scalable-memory",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "scaling-small-llms-nvidia-mps",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "optimizing-databricks-llm-pipelines-dspy",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "instructed-retriever-unlocking-system-level-reasoning-search-agents",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      },
+      {
+        "slug": "building-state-art-enterprise-agents-90x-cheaper-automated-prompt-optimization",
+        "decision": "maintain",
+        "note": "v1 裁决采纳（分类法 §五，2026-09-14）"
+      }
+    ]
   },
   "3x-faster-search-parallel-test-time-scaling-instructed-retriever-1": {
     "genre_code": "N",
@@ -46,8 +71,9 @@
   "memalign-building-better-llm-judges-human-feedback-scalable-memory": {
     "genre_code": "N",
     "genre_name": "公告类",
-    "confidence": "low",
-    "evidence": "\"introducing MemAlign\"+\"now offered in open-source MLflow...Try it out now\"，但主体为消融实验"
+    "confidence": "high",
+    "evidence": "\"introducing MemAlign\"+\"now offered in open-source MLflow...Try it out now\"，但主体为消融实验",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "memex-programmable-scratchpad-llm-agents": {
     "genre_code": "R",
@@ -70,8 +96,9 @@
   "scaling-small-llms-nvidia-mps": {
     "genre_code": "R",
     "genre_name": "研究类",
-    "confidence": "low",
-    "evidence": "\"We set out to rigorously test whether MPS delivers\"+消融归因；infra评测，E/R边界"
+    "confidence": "high",
+    "evidence": "\"We set out to rigorously test whether MPS delivers\"+消融归因；infra评测，E/R边界",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "fast-peft-serving-scale": {
     "genre_code": "E",
@@ -94,8 +121,9 @@
   "turbocharged-training-optimizing-databricks-mosaic-ai-stack-fp8": {
     "genre_code": "E",
     "genre_name": "工程类",
-    "confidence": "low",
-    "evidence": "LLM stack FP8 优化复盘+吞吐基准；E/R 边界"
+    "confidence": "high",
+    "evidence": "LLM stack FP8 优化复盘+吞吐基准；E/R 边界",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "llm-inference-performance-engineering-best-practices": {
     "genre_code": "G",
@@ -112,8 +140,9 @@
   "optimizing-databricks-llm-pipelines-dspy": {
     "genre_code": "G",
     "genre_name": "指南类",
-    "confidence": "low",
-    "evidence": "DSPy 流水线优化教学+JetBlue 案例；G/A 边界"
+    "confidence": "high",
+    "evidence": "DSPy 流水线优化教学+JetBlue 案例；G/A 边界",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "benchmarking-domain-intelligence": {
     "genre_code": "R",
@@ -124,13 +153,15 @@
   "instructed-retriever-unlocking-system-level-reasoning-search-agents": {
     "genre_code": "N",
     "genre_name": "公告类",
-    "confidence": "low",
-    "evidence": "架构+评测为主体，但有 available 声明"
+    "confidence": "high",
+    "evidence": "架构+评测为主体，但有 available 声明",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   },
   "building-state-art-enterprise-agents-90x-cheaper-automated-prompt-optimization": {
     "genre_code": "N",
     "genre_name": "公告类",
-    "confidence": "low",
-    "evidence": "GEPA 实验为主体，但有 available 声明"
+    "confidence": "high",
+    "evidence": "GEPA 实验为主体，但有 available 声明",
+    "adjudicated": "v1 裁决采纳（分类法 §五，2026-09-14）"
   }
 }
