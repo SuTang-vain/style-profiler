@@ -1,5 +1,7 @@
 # Your Style Profile Is a Genre Artifact: Seven Fingerprints, One Trap, and a Reading Discipline
 
+![A glass prism splitting light](images/cover.jpg)
+
 In early September 2026, our pipeline reported what looked like a clean result. In the openai library — this repository's plain label for its sample of OpenAI's public writing — the strongest institutional fingerprint appeared to be first-person voice. The median article carried 53 first-person markers, well above the pooled rest of the corpus, and the gap survived false-discovery correction, the standard safeguard against fluke findings when many tests run at once, with a p-value of 0.002 and a q-value of 0.003. By the standard we had set for ourselves, the signature was real.
 
 One week later, we ran the same metric over the same articles and got nothing back. The comparison unit had changed: instead of pooling every article into one library-versus-library test, we compared inside shared genre cells, engineering against engineering and research against research. Within the research cell, the openai median was 55.5 markers against a same-cell pooled median of 22.0 — a raw gap larger than the one we had pooled into significance. The test returned p of 0.347 and q of 0.687; nothing survived.
@@ -38,6 +40,8 @@ We are publishing the failure because the lesson is not ours alone: anyone who q
 
 The textbook name for the trap is Simpson's paradox: a trend visible in a pooled table can weaken, vanish, or reverse inside every subgroup. It happens whenever the groups under comparison feed those subgroups in different proportions. Two clinics can each treat their own patients better and still post the worse pooled survival rate, if the sicker patients arrive in different shares.
 
+![Simpson's paradox diagram](images/inline-1.png)
+
 The mechanism is plain aggregation: pooling weighs each stratum by group size, so groups that differ in both size and outcome will bend the pooled line. The pooled number is not lying; it is answering a different question from the one the reader asked.
 
 Style measurement has roughly the same geometry: first-person density, paragraph length, and digit density all shift with genre, an announcement does not read like an engineering postmortem, and neither reads like an essay. When one library's sample leans on research writing while another's leans on analysis, a pooled comparison seems to measure the mix alongside the institution, and no significance test on the pooled table could tell the two apart.
@@ -75,6 +79,8 @@ These two numbers, the institution value and the cell delta, are what our writin
 ## 3. The yardstick errs too: the correction's own error history
 
 Three repairs from the project's short history make a single point: the measurer needs measuring, and the first repair was the word lists. The Chinese hedge character for "about" sits inside the common word for "constraint", and substring matching had credited the kezhongke library with hedges it never wrote. After we switched single-character words to exact token matching, the hedge median fell from 4.75 to 2.69 per thousand characters, and about 43 percent of the old reading turned out to be pollution. Sentinel tests now guard the lists against any regression.
+
+![A McLeod vacuum gauge](images/inline-2.jpg)
 
 The second repair was length: full-text type-token ratio falls as an article grows, so eleuther's lexical density could look exceptional for partly mechanical reasons. The gap to the field, 0.204 in raw type-token ratio, shrank to 0.070 under equal-length windows — still present, roughly two-thirds smaller. We replaced the metric with a moving-window variant, MATTR at a window of 150 words, for every cross-library comparison.
 
@@ -147,3 +153,4 @@ This essay was drafted under the playbook it describes; if published, it will jo
 - output/_p2-revalidation.md — the blind-test chain and its residual-items ledger.
 - output/_production-eval-power/judge-fact.md — the production fact audit and its two logged corrections.
 - profiler.py, discriminate.py, aggregate_two_level.py, check_profiles.py, tests/ — the instrument and its regression floor. Repository: github.com/SuTang-vain/style-profiler.
+- Images: cover photograph by Jan Helebrant (CC0); Simpson's paradox diagram by Schutz (public domain); McLeod gauge photograph by Ytrottier and Amada44 (CC BY 2.5) — all via Wikimedia Commons.

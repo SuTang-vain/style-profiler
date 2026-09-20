@@ -3,7 +3,7 @@
  "lang": "en",
  "title": "Your Style Profile Is a Genre Artifact: Seven Fingerprints, One Trap, and a Reading Discipline",
  "cjk_chars": 0,
- "word_count": 3320,
+ "word_count": 3359,
  "reading_time_min": 11.0,
  "structure": {
   "h2_count": 11,
@@ -11,37 +11,37 @@
   "numbered_headings": 4,
   "code_blocks": 0,
   "tables": 0,
-  "images": 0,
+  "images": 3,
   "has_toc": false
  },
  "sentences": {
-  "sentence_count": 158,
-  "avg_sentence_len": 21.5,
-  "median_sentence_len": 20.0,
+  "sentence_count": 159,
+  "avg_sentence_len": 21.7,
+  "median_sentence_len": 20,
   "p90_sentence_len": 35,
   "question_sentences": 3
  },
  "paragraphs": {
-  "paragraph_count": 71,
-  "avg_paragraph_len": 47.9,
-  "median_paragraph_len": 50,
+  "paragraph_count": 74,
+  "avg_paragraph_len": 46.6,
+  "median_paragraph_len": 45.0,
   "p90_paragraph_len": 90,
   "one_line_paragraphs": 0
  },
  "evidence": {
-  "number_tokens": 62,
-  "number_per_1k": 18.67,
-  "precise_numbers": 24,
-  "precise_per_1k": 7.23,
+  "number_tokens": 65,
+  "number_per_1k": 19.35,
+  "precise_numbers": 25,
+  "precise_per_1k": 7.44,
   "year_anchors": 2,
   "year_per_1k": 0.6,
   "external_links": 0,
   "links_per_1k": 0.0,
   "citation_marks": 0,
-  "reference_entries": 9
+  "reference_entries": 10
  },
  "stance": {
-  "hedge_hits": 8.43,
+  "hedge_hits": 8.34,
   "hedge_examples": [
    {
     "term": "early",
@@ -56,7 +56,7 @@
     "excerpt": "The timing matters for reading what follows. The profiles and the first playbook"
    }
   ],
-  "absolutist_hits": 2.11,
+  "absolutist_hits": 2.08,
   "absolutist_examples": [
    {
     "term": "never",
@@ -71,7 +71,7 @@
     "excerpt": "Attribution sharpened as well, in a leave-one-out exercise that assigns each art"
    }
   ],
-  "quantifier_hits": 9.94,
+  "quantifier_hits": 10.12,
   "first_person_count": 30,
   "objective_selfref_count": 2,
   "exclamations": 0,
@@ -79,8 +79,8 @@
   "emoji": 0
  },
  "diction": {
-  "ttr": 0.289,
-  "mattr": 0.692,
+  "ttr": 0.291,
+  "mattr": 0.691,
   "top_terms": [
    "pooled×28",
    "correction×27",

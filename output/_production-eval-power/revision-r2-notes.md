@@ -26,3 +26,7 @@
 
 **注记 1（豁免）**：年份锚点 7 处、2.36/千词，超软上限（≈2/千词）。豁免理由：§5 法律时间线按评审要求绝对化，属事实密度必需；锚点集中于 §5 一节，非全文漂移。
 **注记 2（观察）**：克制比 hedge:absolutist 3.86:1，红线（<3:1）之上、典型区（4–5:1）之下。hedge 略降主因 reportedly 收束与 "many of us" 删除。不判失格，列入下轮观察。
+
+## 配图（2026-09-20）
+
+封面（安联竞技场夜景，CC BY-SA 2.5，Richard Bartz——"Arena" 双关）+ 高尔夫排行榜（CC BY 2.0，Ryan Schreiber，置 measurement layer 节）+ 正义女神天平（CC BY-SA 4.0，DP Singh Bhullar，置 §5）——全部 Wikimedia Commons，署名行入 Sources。alt 文本全部零新词型设计（the arena / a leaderboard / the state walks in）。复验：13 项带内 + MATTR raw 0.71643（容差内，较插前 0.71823 反降）；年份锚点 8 处（Sources 时间线同步句新增 1 处，并入既有豁免注记）；Sources 中 "December next year" 同步改为 2 December 2027（与正文口径一致）。

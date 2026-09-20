@@ -30,3 +30,7 @@
 ## P2 暂缓理由
 
 `clean_markdown`（profiler.py:97-127）对 markdown 表格只检测不剥离，表格行并入段落块统计——走廊冻结口径下插表会使段长/数密测量失真（与"数密计入标题"同族工具缺陷）。两稿密度最高段已用 prose 方案（拆段+白话机制句+例释）化解。表格化待工具剥离表格行后再评估。
+
+## 配图（2026-09-20）
+
+封面（玻璃棱镜分光，CC0，Jan Helebrant）+ Simpson's paradox 示意图（公共领域，Schutz，置 "A paradox in the pooling" 节）+ McLeod 真空规（CC BY 2.5，Ytrottier/Amada44，置 §3）——全部 Wikimedia Commons，署名行入 Sources。复验：14 项全带内（MATTR raw 0.69116，数密 19.35 上行因署名行版本号，带内）。

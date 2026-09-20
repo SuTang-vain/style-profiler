@@ -1,5 +1,7 @@
 # Evaluation Is Power: The Business, the Science, and the Law of Judging AI
 
+![The arena](images/cover.jpg)
+
 In April 2025, a 68-page paper landed in the AI world with an uncomfortable claim about the field's most-watched leaderboard. Thirteen researchers from Cohere Labs, AI2, Princeton, Stanford, and other institutions had analyzed roughly 2 million battles on Chatbot Arena, covering 243 models from 42 providers.
 
 Some of the largest labs, the authors argued, had been allowed to test many unreleased variants in private and to publish only the one that scored best. The leaderboard the public saw was, in part, a highlight reel.
@@ -29,6 +31,8 @@ What the measurement layer is comes first. The argument then moves through five 
 Start with what the measurement layer actually is: on one side sit static benchmarks such as MMLU-Pro, GPQA, SWE-bench, LiveCodeBench, and ARC-AGI, each claiming to capture some slice of capability. On the other side sit live leaderboards, where humans or models judge outputs and scores update continuously.
 
 Arena's text leaderboard alone has accumulated more than 7.7 million votes across 389 models, according to August statistics from opper.ai, a site that tracks the rankings industry. What began as a research project is now the industry's leaderboard of record.
+
+![A leaderboard](images/inline-1.jpg)
 
 The shift matters because of why it happened: static benchmarks saturate once they are public, because training corpora absorb them and their scores stop discriminating. Live leaderboards promised a moving target — fresh prompts, fresh voters, no fixed answer key to leak — and that promise concentrated our attention on one leaderboard. The buyer's problem is that both sides of the measurement layer now come with an interested party attached: the benchmark has its authors, and the leaderboard has its owners.
 
@@ -102,6 +106,8 @@ Into this gap — concentrated authority, aligned incentives, fragile instrument
 
 The EU AI Act is converting evaluation from a market tool into a legal duty. The regulation entered into force in August 2024, prohibited-practice rules applied from February 2025, and obligations for general-purpose models — technical documentation and evaluation disclosure — have applied since August 2025.
 
+![The state walks in](images/inline-2.jpg)
+
 August 2026 brought the Article 50 transparency obligations and new enforcement powers into force. The Digital Omnibus on AI has moved the main high-risk obligations to 2 December 2027. As of this writing, general-purpose evaluation duties are in their second year of execution, transparency duties are one month old, and the high-risk regime now has a fixed date.
 
 The significance is not bureaucratic: once evaluation is legally mandated, demand stops being optional, and the question of who performs it — under what conflicts, with what methods — becomes a question of law. Evaluative authority is on its way to becoming licensed authority.
@@ -167,4 +173,5 @@ The referee now has investors, customers, and a license, but that does not make 
 - implicator.ai, AI Top 40 methodology note (April).
 - Bean et al., survey of benchmark papers; Eriksson et al., European Commission Joint Research Centre review — both as relayed by the EvalSafetyGap review (July).
 - Kili Technology, industry review of benchmark quality (April).
-- artificialintelligenceact.eu, high-level summary of the EU AI Act (late August); CIVAC, compliance briefing (May); the Digital Omnibus on AI, which moved the main high-risk obligations to December next year.
+- artificialintelligenceact.eu, high-level summary of the EU AI Act (late August); CIVAC, compliance briefing (May); the Digital Omnibus on AI, which moved the main high-risk obligations to 2 December 2027.
+- Images: cover (Allianz Arena) by Richard Bartz (CC BY-SA 2.5); leaderboard by Ryan Schreiber (CC BY 2.0); Lady Justice by DP Singh Bhullar (CC BY-SA 4.0) — via Wikimedia Commons.
