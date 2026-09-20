@@ -30,3 +30,9 @@
 ## 配图（2026-09-20）
 
 封面（安联竞技场夜景，CC BY-SA 2.5，Richard Bartz——"Arena" 双关）+ 高尔夫排行榜（CC BY 2.0，Ryan Schreiber，置 measurement layer 节）+ 正义女神天平（CC BY-SA 4.0，DP Singh Bhullar，置 §5）——全部 Wikimedia Commons，署名行入 Sources。alt 文本全部零新词型设计（the arena / a leaderboard / the state walks in）。复验：13 项带内 + MATTR raw 0.71643（容差内，较插前 0.71823 反降）；年份锚点 8 处（Sources 时间线同步句新增 1 处，并入既有豁免注记）；Sources 中 "December next year" 同步改为 2 December 2027（与正文口径一致）。
+
+## 局限性节增补（2026-09-20，r3）
+
+触发：外部评审指出三条盲区（自建成本壁垒 / LLM-as-a-judge 缺席 / 去中心化评测），经逐条对原文取证评估（1 条部分成立、1 条成立且最硬、1 条半成立——第三条已被结尾开放问题部分预答）。处置：新增 "## What we left out" 节（field guide 后、收尾前），四条内容——信源层级自陈（trade publications/转引）、成本与"排行榜=廉价协调机制"、模型评审缺席（自偏好/长度偏差，信源包 2026-09-20 增补 Zheng et al. 2023 NeurIPS 等佐证）、社区评测未探索+邀请讨论。路线图同步补"our own omissions"。信源包同日增补留痕。
+
+约束执行：自指词表禁用词零新增（"this argument/section four" 不在 OBJ_SELFREF_EN），年份锚点零新增，设问零新增。复验：13 项带内 + MATTR raw 0.71664（容差内，仅 +0.0002）｜人称 41→52（[21,69] 带内，坦白语域合身）｜克制比 3.86 观察项维持。

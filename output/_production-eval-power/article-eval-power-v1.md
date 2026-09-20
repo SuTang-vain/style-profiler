@@ -24,7 +24,7 @@ We will answer three questions.
 
 3) What practitioners — those of us who read leaderboards, buy evaluation, or build our own — should do differently.
 
-What the measurement layer is comes first. The argument then moves through five layers: the leaderboard's corporate turn, the privileges of private testing, the evaluator's client list, the fragile science underneath, and the law now converting all of it into obligation. The optimists get their hearing before the field guide for working practitioners closes the piece.
+What the measurement layer is comes first. The argument then moves through five layers: the leaderboard's corporate turn, the privileges of private testing, the evaluator's client list, the fragile science underneath, and the law now converting all of it into obligation. The optimists get their hearing, the field guide addresses working practitioners, and our own omissions are stated before the close.
 
 ## The measurement layer
 
@@ -143,6 +143,18 @@ The practical question is what we do on Monday morning, while the structural que
 Each check stands alone, but the compound is the point: a team that discounts leaderboards, buys evaluation on adversarial terms, and trusts its own harness has quietly built its own small measurement layer. That is where evaluative authority should live for us — close to the work and far from the marketing.
 
 None of the three requires permission from the industry we have described, and that may be the most useful fact in this piece.
+
+## What we left out
+
+Before the close, we owe you the gaps. Some of our evidence comes from trade publications and relayed accounts, and three omissions beyond that are visible to us.
+
+The first is cost. Even a small internal harness means paying for annotation, samples, and statistical review, and many teams cannot. For them a leaderboard is not a truth source but a cheap way to coordinate — one shared ranking that lets buyers make the same shortlist without a meeting. That does not excuse the incentives; it explains the demand.
+
+The second is the judges we barely mentioned. The industry is moving from human voters and static benchmarks to model judges, and a model judge is our argument in its purest form: the evaluator is built by the evaluated. The researchers who popularized model judging documented its failure modes themselves — judges favor their own outputs and longer answers — and those modes belong in section four but are not there.
+
+The third is the alternative we did not explore. Community-run evaluation exists mostly as prototypes, and whether independent public infrastructure arrives before the licensed private kind is the open question we ended on; nothing we have measured settles it.
+
+If you can see a fourth gap, we would like to hear it — that is part of why we published.
 
 ## So should we stop reading leaderboards
 

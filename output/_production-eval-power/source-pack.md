@@ -46,3 +46,7 @@
 - **§1 条目 1 数字口径有误**：原记"分析约 280 万场 Arena 对战、238 个模型"。论文 v2（arXiv:2504.20879）原文口径为**约 200 万场对战、243 个模型、42 家提供商**。生产稿 article-eval-power-v1.md 已按论文原文修正（L3）。
 - **§5 条目时间线有误**：原记"2026-08 高风险系统主要义务生效"。EU AI Act 已被 **Digital Omnibus on AI** 修正：**Annex III 高风险义务 2027-12-02 起适用**；2026-08-02 实际生效的是**第 50 条透明度义务与 AI Office 执法权**。GPAI 义务（2025-08 起）在执行期，不变。生产稿 §5 第二段已按修正后时间线改写（L99 区）。
 - 留痕说明：错误口径来自本包采集时的二手综述（artificialintelligenceact.eu 2026-08-31 摘要 + CIVAC 2026-05-27 简报对 omnibus 修正的覆盖滞后）；后续成稿引用 EU AI Act 时间线时须以 Digital Omnibus on AI 修正后口径为准。
+
+## 增补（2026-09-20，局限性节写作）
+- [论文] Zheng et al., "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena"（NeurIPS 2023 Datasets & Benchmarks，arXiv:2306.05685）：LLM 评审存在 position bias、verbosity bias（偏好更长回答）、self-enhancement bias（偏好自己的输出）、推理能力受限——由推广该方法的研究者自己记录。self-enhancement 另见 Liu et al. 2023、Panickssery et al. 2024（LLM 评审能认出并偏袒自己的生成）。
+- 用途：局限性节"模型评审"段的事实底座。措辞纪律：只说"偏好自己输出/更长回答、权重闭源"，不外推具体幅度数字。
